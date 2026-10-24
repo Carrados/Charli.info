@@ -31,6 +31,8 @@ The CharliVerse is the world. Carrados and Blind Ant are practices. CharliPedia 
 
 ## Principles
 
+**Real evidence. Fictional people. Plausible consequences.** The method that runs through both practices: the correspondents on Carrados and the characters at Blind Ant (SEE SAW, Oil Rigs to Training Rigs) are invented, but every fact they rest on is real, sourced and linked, and a "Behind the fiction" or "Behind the thread" note says which is which. On Carrados the emphasis is the evidence; at Blind Ant it is the consequences.
+
 The world is not a portfolio. The practices are distinct: Carrados investigates reality; Blind Ant creates design fiction. Fiction is not deception. Real artefacts can exist within fictional contexts. The world can develop without being publicised. CharliPedia records continuity, distinguishing canon from ideas and fictional facts from real artefacts. Crossovers are opportunities, not obligations. Newsletters belong to the practices (Carrados, Blind Ant), not the world; fictional businesses may have their own as in-world artefacts. No newsletter software or dates are decided.
 
 Carrados investigates the future. Blind Ant makes the future imaginable. The CharliVerse gives that future somewhere to happen. CharliPedia remembers what happened.
