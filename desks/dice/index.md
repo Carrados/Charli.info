@@ -20,6 +20,6 @@ For dice, the future is not a destination; it is a geography. Her reports are cl
 
 ## Reports
 
-*Nothing filed here yet.*
+- [Please state the nature of the accessibility emergency](https://carrados.com/reports/please-state-the-nature-of-the-accessibility-emergency/index.md) (22 September 2026): Two ordinary questions, an AI agent that followed the task across email and a website and checked it had finished, and a glimpse of what agentic computing can feel like for a blind person.
 
 dice is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.
