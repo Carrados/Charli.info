@@ -1,26 +1,45 @@
 # Charli-Jo's sites: house rules
 
-This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this before changing anything.
+This repo holds Charli-Jo Tyrer's sites outside Blind Ant: carrados.com now, and charli.info (the CharliVerse) next. Read this before changing anything.
 
-## Which site is which
+## The architecture (decided 24 October 2026)
 
-- **carrados.com** (`carrados/`): the work. Accessibility as information integrity (the Tyrer Framework, the ZIC standard, essays), Reports from the frontier of accessibility AI (the posts of The Blind AI), and Perspectives. Bylined Charli-Jo Tyrer.
-- **charli.info** (`charli/`, not built yet): Charli-Jo in real life. Who she is, training, talks, consulting, contact, and the way to the other sites. Anything where she might have to be Charli-Jo in person belongs here.
-- Design fiction is not here. It lives at **blind-ant.com** (repo CharliJoTyrer/Blind-Ant), in role, as Charlotte Joanne.
-- Genres: Blind Ant publishes design fiction (invented things that tell the truth), under the pen name Charlotte Joanne, who is as real as Robert Galbraith. Carrados publishes design non-fiction (true things, sometimes told through invented voices).
-- Voices on Carrados: Charli-Jo speaks as Carrados. dice (exploration), Lucy Love-Child (Agent Wars, for The Blind AI) and Madison McDonnell (Access Provocateur) are characters who speak for Carrados, character comedy in the Mrs Merton sense: fictional people doing real work. Their reports are real, and their bylines say who is writing. Each has a desk: a page at `carrados/content/desks/<name>.md` served at <name>.carrados.com (dice, lucy, madison), headed by the Blind AI logo and listing every report with `desk: <name>` in its frontmatter. carrados.com itself carries the Carrados logo, never the Blind AI one. To add a desk: write its page with a `canonical:` address, add the name to `DESKS` in `carrados/worker.js`, redeploy the Worker, and attach the subdomain to it.
-- The characters don't know Charli-Jo. When they need to mention the person behind an experiment or a piece, they talk about Charlotte Joanne, the Blind Ant woman, never Charli-Jo. They may call her Charli for short (a girl's name in print, and Charli-Jo has rehabilitated it). Leave those mentions as written. (It keeps the real woman out of the characters' stories.)
-- Real people in Carrados pieces appear only as they really were: what they published, said or did, attributed and linked. Characters can meet each other in made-up scenes, never real people (Lucy reads Taylor's posts; she never meets her, and never gets an invented quote). Others are named only as the source names them. When Charli-Jo has read the source herself, her account stands: don't second-guess it, but do link the source.
-- Every report with a `desk` ends, automatically, with a line saying its writer is a character who speaks for Carrados (names come from `desks` in `site.config.mjs`), so a real person written about knows the reporter is fictional.
-- The frame: Charli-Jo is an explorer, and Carrados and Blind Ant are two learned societies she reports back to. charli.info is her own house.
-- CharliVerse personas who drop into work (for example Big Charli) get charli.info subdomains. Blind Ant's own characters and companies get blind-ant.com subdomains.
+The CharliVerse is the world. Carrados and Blind Ant are practices. CharliPedia is the memory of the world. "I create worlds to inhabit, where a thing happens." This is a decision about the nature of the work, not just the websites: the CharliVerse can grow without everything having to become a research project or an artwork.
+
+- **charli.info: the CharliVerse.** The front door of a shared, evolving world of fictional people, companies, fashion houses, technologies, products, places and histories. Some of it is entirely fictional; some produces real artefacts (websites, Blender models, films, research). It is a world, not an editorial practice, and needn't announce what happens in it. (`charli/`, not built yet.)
+- **carrados.com: design non-fiction** (`carrados/`). The real-world exploration, investigation and research practice: emerging AI, accessibility, agentic systems, human-AI collaboration. Its work makes claims about reality, uses evidence and is accountable for them. Sections: Reports (the posts of The Blind AI), Papers, Perspectives.
+- **blind-ant.com: design fiction** (repo CharliJoTyrer/Blind-Ant). An independent artistic practice authored and operated by Charlotte Joanne: speculative worlds, artworks, stories, animations, fictional documents, and how they were made (Pieces and Objects).
+- **CharliPedia: the memory of the CharliVerse.** A living encyclopaedia and continuity record (people, companies, products, places, relationships, canon, ideas not yet canon, real artefacts of fictional entities), for humans and agents. A source of continuity, not an authority. Domain and build not yet settled.
+- **Being fictional does not make something Blind Ant.** Iceberg (intentionwear hosiery), Seamiotics (the cultural language of stockings) and LULU TOM (Ludovica Tommasi's fashion house, with TOMMI and LT Beneath) belong to the CharliVerse, and may get their own sites. They don't have to justify every collection as research or art.
+- **One creation, several treatments.** Iceberg AW27: the collection exists in the CharliVerse; Blind Ant publishes *The Making of Iceberg AW27*; a Carrados correspondent asks how you sell fashion in a world of agents; CharliPedia records it. The fashion is fashion. The art is art. The research is research.
+
+## Identities and pronouns
+
+- **Charli-Jo Tyrer, they/them.** Carrados's founder and principal practitioner: real, publicly reachable, accountable. Carrados always uses they/them for Charli-Jo. Charli-Jo speaks as Carrados.
+- **Charlotte Joanne, she/her.** The female authorial identity who writes and runs Blind Ant: Charli-Jo's Robert Galbraith, a pseudonym with her own voice and body of work. Present her as Blind Ant's author and operator, not as a fictional character or an assistant. Blind Ant pieces needn't explain the link to Charli-Jo.
+- **The correspondents** speak for Carrados, character comedy in the Mrs Merton sense: fictional people doing real work, and their fictional nature stays transparent.
+  - dice (always lower case, as in the Found Girls canon): the unevenly distributed future, reporting from places where it has already arrived. dice.carrados.com
+  - Lucy Love-Child: the Agent Wars, agentic accessibility and the emerging agent economy, for The Blind AI. lucy.carrados.com
+  - Madison McDonnell, Access Provocateur: fashion, desire, persuasion and accessibility. madison.carrados.com
+- Each desk is a page at `carrados/content/desks/<name>.md`, headed by the Blind AI logo and listing every report with `desk: <name>`. carrados.com itself carries the Carrados logo, never the Blind AI one. To add a desk: write its page with a `canonical:` address, add the name to `DESKS` in `carrados/worker.js`, redeploy the Worker, and attach the subdomain.
+- The characters don't know Charli-Jo. When they mention the person behind an experiment, they talk about Charlotte Joanne, the Blind Ant woman (she/her), and may call her Charli for short. Leave those mentions as written.
+- Identities have boundaries: keep Charli-Jo's public identity and Charlotte Joanne's authorial identity distinct; don't collapse them.
+- Real people in Carrados pieces appear only as they really were: what they published, said or did, attributed and linked. Characters can meet each other in made-up scenes, never real people. Others are named only as the source names them. When Charli-Jo has read the source themself, their account stands: don't second-guess it, but do link the source.
+- Every report with a `desk` ends, automatically, with a line saying its writer is a character who speaks for Carrados (names come from `desks` in `site.config.mjs`).
+- Blind Ant's own companies and characters (Aegis Dynamics, Jessica Martinez) get blind-ant.com subdomains; correspondents get carrados.com subdomains; CharliVerse entities (fashion houses, personas like Big Charli) get charli.info subdomains when they need sites.
+
+## Principles
+
+The world is not a portfolio. The practices are distinct: Carrados investigates reality; Blind Ant creates design fiction. Fiction is not deception. Real artefacts can exist within fictional contexts. The world can develop without being publicised. CharliPedia records continuity, distinguishing canon from ideas and fictional facts from real artefacts. Crossovers are opportunities, not obligations. Newsletters belong to the practices (Carrados, Blind Ant), not the world; fictional businesses may have their own as in-world artefacts. No newsletter software or dates are decided.
+
+Carrados investigates the future. Blind Ant makes the future imaginable. The CharliVerse gives that future somewhere to happen. CharliPedia remembers what happened.
 
 ## How a site is built
 
 - `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, robots.txt (every crawler welcome) and a sitemap.
 - Frontmatter: `title`, `description` (one sentence), and optionally `date`, `order`, `byline`. `<!-- list -->` in a folder's index lists that folder's pages (by order, then newest first).
 - Pictures and documents sit beside pages in `content/` and are published at the same path. Site settings (name, address, navigation, footer) are in `<site>/site.config.mjs`; styles in `<site>/public/styles.css`.
-- A Report's `date` is the date its file was last saved (a Word document's modified date, or the file's date on her computer). If there's no file, as with pasted text, use the date it's sent, and say so.
+- A Report's `date` is the date its file was last saved (a Word document's modified date, or the file's date on their computer). If there's no file, as with pasted text, use the date it's sent, and say so.
 - To add a Report: a Markdown file in `carrados/content/reports/` with a `date`, and `desk: <name>` and a `byline` if a character filed it.
 
 ## Parked work
@@ -32,7 +51,7 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - Links: link the first mention of a person, product or source (not every mention); the link text is the name itself, never "click here" or a bare address; link to the most official page (the person's own site, the app's store page, the original post); always link what a piece quotes or summarises; link earlier pieces on the site by name; never force links to open in a new tab.
 
 - Built to the Zero Information Casualty (ZIC) standard: exactly one H1 per page (from the title; page text starts at `##`; the build refuses a `#` heading outside code), real headings, AAA contrast for body text, alt text on every picture, no sideways scroll at phone width.
-- Keep Charli-Jo's words as she wrote them. Fix obvious typos and say which ones you fixed.
+- Keep Charli-Jo's words as they wrote them. Fix obvious typos and say which ones you fixed.
 - Everything is CC BY-SA 4.0.
 
 ## Publishing
