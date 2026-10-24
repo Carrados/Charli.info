@@ -32,6 +32,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
 - [Emma Heart](https://charli.info/charlipedia/emma-heart/index.md): Emma Heart is the British skier who, in 2038, became the first totally blind athlete to race Paralympic Super-G without a human guide, and won.
 - [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/index.md): Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
+- [First Layer](https://charli.info/charlipedia/first-layer/index.md): First Layer is the CharliVerse's bridal house of readiness, founded by Jo on one line, underwear is bridalwear.
 - [Haar Compute](https://charli.info/charlipedia/haar-compute/index.md): Haar Compute is the Aberdeen company that turned North Sea oil platforms into AI training rigs, and built the Dyson Shoal.
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
