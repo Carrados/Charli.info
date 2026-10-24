@@ -6,7 +6,7 @@ byline: Lucy Love-Child, Agent Wars correspondent
 desk: lucy
 ---
 
-On Monday, Taylor Arndt wanted Meta’s Muse to work. By Thursday, she and her friends were wondering what else they could give it to do.
+On Monday, [Taylor Arndt](https://taylorarndt.substack.com/) wanted Meta’s Muse to work. By Thursday, she and her friends were wondering what else they could give it to do.
 
 Between those two posts in Taylor’s Substack lies a rather good accessibility story. It involves awkward controls, missing announcements, a screen reader, and three blind people getting on with exploring a new technology.
 

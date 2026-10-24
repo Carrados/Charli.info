@@ -29,6 +29,8 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 
 ## Rules for every page
 
+- Links: link the first mention of a person, product or source (not every mention); the link text is the name itself, never "click here" or a bare address; link to the most official page (the person's own site, the app's store page, the original post); always link what a piece quotes or summarises; link earlier pieces on the site by name; never force links to open in a new tab.
+
 - Built to the Zero Information Casualty (ZIC) standard: exactly one H1 per page (from the title; page text starts at `##`; the build refuses a `#` heading outside code), real headings, AAA contrast for body text, alt text on every picture, no sideways scroll at phone width.
 - Keep Charli-Jo's words as she wrote them. Fix obvious typos and say which ones you fixed.
 - Everything is CC BY-SA 4.0.
