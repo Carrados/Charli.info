@@ -30,6 +30,11 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - `carrados/worker.js` only needs redeploying to Cloudflare if the serving rules change.
 - Before publishing, check every page builds, has one H1, and has no sideways scroll at phone width.
 
+## Domains
+
+- carrados.com is a Cloudflare zone on Lottie's account (registered at IONOS). carrados.com and www.carrados.com are custom domains of the `carrados` Worker, which sends www to the plain address. Preview: carrados.charlijotyrer.workers.dev.
+- Its email stays with IONOS: never touch the MX, SPF, DKIM, DMARC, autodiscover or domainconnect records.
+
 ## Where the old site came from
 
 The pages were carried over from the old Astro site (GitHub org `charliverse`, repo `charli.info`, served by GitHub Pages at charli.info until the new charli.info replaces it). Paths changed: `charli.info/carrados/<paper>/` is now `carrados.com/papers/<paper>/`, and `charli.info/perspectives/<essay>/` is now `carrados.com/perspectives/<essay>/`.
