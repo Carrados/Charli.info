@@ -1,13 +1,29 @@
 # Big Charli
 
-> Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
+> Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. In 2026 she sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) brand meeting, read the first two of the marketing team's thirty-seven slides, and said:
+**Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. Her favourite answer is no.
+
+## Aegis Dynamics, 2026
+
+She sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) brand meeting, read the first two of the marketing team's thirty-seven slides for "Aegis-Vision™ Theatre Guardian", and said:
 
 > Absolutely not.
 
+"Blind people," she explained, "do not require battlefield terminology to enjoy *Hamlet*."
+
+## Sion, 2038
+
+At the 2038 Winter Paralympics she looked after [Emma Heart](https://charli.info/charlipedia/emma-heart/), with [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/), the morning after Emma won the Super-G by 5.71 seconds. Aegis, which built [the field](https://charli.info/charlipedia/the-field/) Emma raced with, wanted her at its investor event, an Emma Heart Institute for Distributed Human Potential, and a trademark on the Human Performance Proximity Index. Big Charli said no to all of it, crossed out the Aegis headline and wrote her own:
+
+> EMMA HEART WON THE SUPER-G. NOW THE SPORT MUST DECIDE WHAT SHE WON.
+
+Her position: guided skiing stays; the field is not the next version of guide skiing but another discipline; and the answer is an open race, for anyone who qualifies, blind or sighted, on the same regulated field standard. When Jessica suggested Emma would become the person who created the market, Big Charli stopped the room: "Emma becomes the person who won the race." Then: "Now we stop them turning her into an advert." And after that: "We build her someone worth racing."
+
+She also kept Emma's wife out of the story. Her wife had a life and a job; none of that belonged to the audience.
+
 ## Behind the scenes
 
-Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. Her first appearance at Blind Ant is "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) by Charlotte Joanne.
+Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.

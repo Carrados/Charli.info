@@ -135,17 +135,22 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 ### Entries
 
-- [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, then tried to sell the same machine to homes, families and funerals.
-- [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
+- [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
+- [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
+- [Emma Heart](https://charli.info/charlipedia/emma-heart/index.md): Emma Heart is the British skier who, in 2038, became the first totally blind athlete to race Paralympic Super-G without a human guide, and won.
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
-- [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez is Senior Brand Strategist at Aegis Dynamics and the voice of its Patriot-to-Patron announcements.
+- [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
+- [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement arguing that traditional accessibility preserves a sighted world and teaches blind people to work within it indirectly.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+- [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
+- [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is an international movement in blind life that defends human assistance and interdependence and is suspicious of synthetic sightedness.
 
 ---
 
@@ -153,7 +158,7 @@ Address: https://charli.info/charlipedia/aegis-dynamics/
 
 ## Aegis Dynamics
 
-> Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, then tried to sell the same machine to homes, families and funerals.
+> Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
@@ -169,9 +174,15 @@ On 12 March 2026 Aegis Dynamics announced the decommissioning of the DB2K Tactic
 
 Before the theatre launch, the marketing team presented a thirty-seven-slide brand proposal, "Aegis-Vision™ Theatre Guardian". [Big Charli](https://charli.info/charlipedia/big-charli/) read two of the slides and said no.
 
+### The field, 2038
+
+By 2038 Aegis Dynamics had built [the field](https://charli.info/charlipedia/the-field/), the drone-and-suit system with which [Emma Heart](https://charli.info/charlipedia/emma-heart/) raced the Paralympic Super-G at Sion without a human guide. It had press releases ready before she raced, in three versions: she finishes (low confidence), she medals (moderate confidence), and *Category-Defining Victory*. The one it sent at 4.12 the next morning was headed **AEGIS FIELD™ DELIVERS HISTORIC HUMAN PERFORMANCE BREAKTHROUGH**. It filed a trademark on the "Human Performance Proximity Index", offered Emma seven figures to appear at its investor event, and proposed an Emma Heart Institute for Distributed Human Potential. Emma asked whether it could be established far away from her.
+
+Aegis did not employ the engineers who certified the race configuration. It funded the institute that employed two of them.
+
 ### Behind the scenes
 
-Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional. Aegis Dynamics and Jessica Martinez are due to return in later pieces.
+Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
 
 ---
 
@@ -179,17 +190,55 @@ Address: https://charli.info/charlipedia/big-charli/
 
 ## Big Charli
 
-> Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
+> Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. In 2026 she sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) brand meeting, read the first two of the marketing team's thirty-seven slides, and said:
+**Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. Her favourite answer is no.
+
+### Aegis Dynamics, 2026
+
+She sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) brand meeting, read the first two of the marketing team's thirty-seven slides for "Aegis-Vision™ Theatre Guardian", and said:
 
 > Absolutely not.
 
+"Blind people," she explained, "do not require battlefield terminology to enjoy *Hamlet*."
+
+### Sion, 2038
+
+At the 2038 Winter Paralympics she looked after [Emma Heart](https://charli.info/charlipedia/emma-heart/), with [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/), the morning after Emma won the Super-G by 5.71 seconds. Aegis, which built [the field](https://charli.info/charlipedia/the-field/) Emma raced with, wanted her at its investor event, an Emma Heart Institute for Distributed Human Potential, and a trademark on the Human Performance Proximity Index. Big Charli said no to all of it, crossed out the Aegis headline and wrote her own:
+
+> EMMA HEART WON THE SUPER-G. NOW THE SPORT MUST DECIDE WHAT SHE WON.
+
+Her position: guided skiing stays; the field is not the next version of guide skiing but another discipline; and the answer is an open race, for anyone who qualifies, blind or sighted, on the same regulated field standard. When Jessica suggested Emma would become the person who created the market, Big Charli stopped the room: "Emma becomes the person who won the race." Then: "Now we stop them turning her into an advert." And after that: "We build her someone worth racing."
+
+She also kept Emma's wife out of the story. Her wife had a life and a job; none of that belonged to the audience.
+
 ### Behind the scenes
 
-Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. Her first appearance at Blind Ant is "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) by Charlotte Joanne.
+Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+
+---
+
+Address: https://charli.info/charlipedia/daniel-reed/
+
+## Daniel Reed
+
+> Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Daniel Reed** is a British guide skier and [Emma Heart](https://charli.info/charlipedia/emma-heart/)'s head coach. He met her through a rehabilitation programme when she was seventeen, a year after she lost her sight. Their first sessions did not go well: "She was quick enough to frighten everybody and angry enough not to care."
+
+They guided their way through junior competition onto the international circuit: a World Cup giant slalom medal in 2032, World Championship downhill bronze in 2037, and Paralympic downhill silver at Sion in 2038, 0.31 seconds off gold. He chose the wider line that may have cost them the title, because he felt a crosswind and gave them more space. "We made the decision together in the moment."
+
+For Emma's Super-G he stood at the start gate and did not ski the course. Asked whether that felt like being replaced, he said, eventually, "Yes. A bit. That isn't necessarily a reason not to do it." For years the last sound before every run had been his voice. That day he said only, "Your mountain."
+
+He rejects the idea that [the field](https://charli.info/charlipedia/the-field/) makes guides obsolete. "A guide does much more than transmit left and right. There is trust, timing, temperament." When a PostAccessibility account declared guide skiing over, he replied: "I am a person, you tedious little prick."
+
+### Behind the scenes
+
+Daniel Reed appears throughout [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
 
 ---
 
@@ -291,6 +340,49 @@ dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo 
 
 ---
 
+Address: https://charli.info/charlipedia/emma-heart/
+
+## Emma Heart
+
+> Emma Heart is the British skier who, in 2038, became the first totally blind athlete to race Paralympic Super-G without a human guide, and won.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Emma Heart** is a British alpine skier, and the first totally blind athlete to race Paralympic Super-G without a human guide. At the 2038 Winter Paralympics in Sion she won it, in a Paralympic record of 1:31.01, by 5.71 seconds.
+
+### Blind at sixteen
+
+She grew up near Aviemore and began skiing at five. By fourteen she was competing nationally, regarded as a promising technical skier rather than a likely speed specialist. At sixteen, an autoimmune inflammation damaged both optic nerves over eleven days, and she left hospital with no useful vision. For almost a year she refused to discuss skiing. Then, at seventeen, she met [Daniel Reed](https://charli.info/charlipedia/daniel-reed/), and they became one of Britain's most successful development pairs. She competes in the B1 class, for athletes with no functional vision.
+
+### Sion, 2038
+
+Emma raced twice in a week.
+
+- **Downhill:** with Daniel guiding, silver, 0.31 seconds behind Austria's Lina Weiss and Klara Moser. "We wanted gold, so there is a bit of me that is furious. But Daniel and I are Paralympic silver medallists. I can be furious tomorrow."
+- **Super-G:** with no guide ahead of her, only eight drones and [the field](https://charli.info/charlipedia/the-field/). Gold, and a run at 87.9 per cent of the average speed of the sighted Olympic champion on the equivalent course.
+
+The margin started an argument about what she had won. Emma had asked the question herself the night before anyone else did: "If I race them again, and we all know the field is faster, what exactly am I proving?"
+
+### In her own words
+
+- On the field: "It doesn't look like anything. I remember sight. This isn't sight. It is more like having skin that reaches further away."
+- On being evidence: "I am not PostAccessibility's moon landing. I am also not personally ending human connection."
+- On choice: "I don't want every blind skier to do this. I want every blind skier who can do this and wants to do it to have the choice."
+- On freedom: "I can make the wrong decision entirely by myself."
+- On Daniel being called middleware, which she has banned in her presence: "He is much too annoying."
+
+### What she wants next
+
+Not another medal. She wants the field approved for an ordinary public slope, so she can keep a promise she made before she lost her sight: to teach her wife to ski. Not to be guided by her; to teach her, and to be the experienced skier in their marriage. "Sometimes independence means being able to decide who the day belongs to."
+
+Her wife is not part of the public story. She agreed Emma could tell the world about the promise. She did not agree to become content.
+
+### Behind the scenes
+
+Emma Heart is the centre of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), a design fiction by Charlotte Joanne published at Blind Ant: a feature, a news report and two short stories set at the 2038 Winter Paralympics.
+
+---
+
 Address: https://charli.info/charlipedia/iceberg-hosiery/
 
 ## Iceberg Hosiery
@@ -311,17 +403,21 @@ Address: https://charli.info/charlipedia/jessica-martinez/
 
 ## Jessica Martinez
 
-> Jessica Martinez is Senior Brand Strategist at Aegis Dynamics and the voice of its Patriot-to-Patron announcements.
+> Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Jessica Martinez** is Senior Brand Strategist at [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/). She is quoted in each of the company's Patriot-to-Patron announcements, from the theatre launch of the [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/) to Aegis-End™:
+**Jessica Martinez** was Senior Brand Strategist at [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/), and spent years teaching the company how to describe military technology as care. She is quoted in each of its Patriot-to-Patron announcements, from the theatre launch of the [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/) to Aegis-End™:
 
 > If a DB2K unit can identify a man in a doublet from forty yards in a low-light auditorium, it can certainly identify a misplaced LEGO brick in a hallway.
 
+### With Big Charli
+
+She later left Aegis to work with [Big Charli](https://charli.info/charlipedia/big-charli/). At the 2038 Winter Paralympics in Sion, the morning after [Emma Heart](https://charli.info/charlipedia/emma-heart/) won the Super-G, Jessica was in a borrowed conference room beneath the British team hotel with three laptops: her own, ParalympicsGB's, and a secure one delivered by Aegis, over which she had put a folded towel. She had slept for perhaps ninety minutes. Because she had written the Aegis way of talking for years, she knew every word its communications division was about to send before it arrived: breakthrough, empowerment, human potential, a future without limits.
+
 ### Behind the scenes
 
-Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. She is a Blind Ant character, and is due to return in later pieces.
+Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) and returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), in "The Question", both by Charlotte Joanne at Blind Ant. She is a Blind Ant character.
 
 ---
 
@@ -536,6 +632,24 @@ Madison is a character who speaks for [Carrados](https://carrados.com/): a ficti
 
 ---
 
+Address: https://charli.info/charlipedia/postaccessibility/
+
+## PostAccessibility
+
+> PostAccessibility is a movement arguing that traditional accessibility preserves a sighted world and teaches blind people to work within it indirectly.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**PostAccessibility** is a movement whose followers argue that many traditional forms of accessibility preserve the underlying structure of a sighted world, then teach blind people to operate within it indirectly. To them the guide skier is not sacred: the guide is an interface.
+
+Dr Amara Sen, director of the European Centre for PostAccessibility Systems, called guide skiing an ingenious historical solution that "converted spatial information into shouted language". Of [Emma Heart](https://charli.info/charlipedia/emma-heart/) and [the field](https://charli.info/charlipedia/the-field/): "Emma receives the mountain." Some of its harder-line supporters call guide skiing "legacy perception middleware". Its opposite number is [Tradblind](https://charli.info/charlipedia/tradblind/).
+
+### Behind the scenes
+
+PostAccessibility appears in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
+
+---
+
 Address: https://charli.info/charlipedia/seamiotics/
 
 ## Seamiotics
@@ -549,6 +663,54 @@ Address: https://charli.info/charlipedia/seamiotics/
 ### Behind the scenes
 
 Seamiotics belongs to the CharliVerse. By house rule, its name always appears with its founding line, "every seam means something". Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/the-field/
+
+## The field
+
+> The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The field**, officially the Distributed Tactile Spatial Environment, is the system with which [Emma Heart](https://charli.info/charlipedia/emma-heart/) raced Paralympic Super-G without a human guide. It was built by [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/). Emma calls it the field; the long name is used mainly in technical documentation and by people trying to secure research funding.
+
+### How it works
+
+Eight drones fly around the skier: two ahead reading the snow, two wide on either side, one above tracking her movement, one watching wind and visibility, one holding the data link, and one in reserve. Together they build a live three-dimensional model of the mountain and send it into more than 40,000 tactile cells woven through a racing suit from neck to ankle.
+
+The field does not speak. The left boundary of the course is a faint pressure along the left flank that strengthens as it nears. A drop moves from chest to thighs; rising ground travels the other way. Gates are brief paired points of resistance. The clearest route is not marked by an arrow. It is represented by quiet.
+
+When its sensors disagree, in heavy snow, glare or wind, it grows cautious: boundaries move inward, hazards feel larger, openings narrower. It does not tell the skier it is afraid. It makes the mountain feel less permissive.
+
+### The rules
+
+Under the International Paralympic Alpine Federation's Perceptual Assistance Standard, the field may communicate boundaries, gates, gradient, obstacles, surface changes, the athlete's own movement and immediate threats. It may not calculate a racing line, compare runs, recommend speed or predict split times. It can tell the skier what is there. It cannot tell her what to do about it. In competition the software is locked and its output recorded for inspection. In 2038 it was approved for Super-G and giant slalom, not downhill.
+
+Any eligible B1 athlete could use an approved field. In 2038 only Emma had completed the four-year training needed to race Super-G with it. The system was available. Mastery was not.
+
+### Behind the scenes
+
+The field appears in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/tradblind/
+
+## Tradblind
+
+> Tradblind is an international movement in blind life that defends human assistance and interdependence and is suspicious of synthetic sightedness.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Tradblind** is an international network that grew from a loose cultural tendency into an influential voice within blind life. Its writers reject the idea that every limitation associated with blindness is an engineering defect. They defend human assistance and interdependence, and are deeply suspicious of what they call "synthetic sightedness": the expectation that blind people should experience the world through continuous machine interpretation.
+
+When [Emma Heart](https://charli.info/charlipedia/emma-heart/) raced with [the field](https://charli.info/charlipedia/the-field/) in 2038, the writer and former ski guide Martha Vale said Emma should be allowed to compete, and that the story told about her was dangerous: "The guide is not a bug." She called the field "the industrialisation of perception". Its opposite number is [PostAccessibility](https://charli.info/charlipedia/postaccessibility/).
+
+### Behind the scenes
+
+Tradblind appears in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
 
 ---
 
