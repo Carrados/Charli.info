@@ -157,10 +157,12 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
 - [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
+- [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as its expert in what women actually want.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
+- [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
 
 ---
@@ -185,6 +187,10 @@ On 12 March 2026 Aegis Dynamics announced the decommissioning of the DB2K Tactic
 
 Before the theatre launch, the marketing team presented a thirty-seven-slide brand proposal, "Aegis-Vision™ Theatre Guardian". [Big Charli](https://charli.info/charlipedia/big-charli/) read two of the slides and said no.
 
+### Tactical Foundation Garments
+
+Aegis later tried lingerie. [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/) brought its Tactical Foundation Garments division to launch, with Adaptive Load Redistribution™, Predictive Bounce Mitigation and a forty-seven-page document on Strategic Bust Readiness. [Big Charli](https://charli.info/charlipedia/big-charli/) said no four times, then sent for [Poppy](https://charli.info/charlipedia/poppy-petticoats/). "It's a bra."
+
 ### The field, 2038
 
 By 2038 Aegis Dynamics had built [the field](https://charli.info/charlipedia/the-field/), the drone-and-suit system with which [Emma Heart](https://charli.info/charlipedia/emma-heart/) raced the Paralympic Super-G at Sion without a human guide. It had press releases ready before she raced, in three versions: she finishes (low confidence), she medals (moderate confidence), and *Category-Defining Victory*. The one it sent at 4.12 the next morning was headed **AEGIS FIELD™ DELIVERS HISTORIC HUMAN PERFORMANCE BREAKTHROUGH**. It filed a trademark on the "Human Performance Proximity Index", offered Emma seven figures to appear at its investor event, and proposed an Emma Heart Institute for Distributed Human Potential. Emma asked whether it could be established far away from her.
@@ -193,7 +199,7 @@ Aegis did not employ the engineers who certified the race configuration. It fund
 
 ### Behind the scenes
 
-Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
+Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/) and [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
 
 ---
 
@@ -215,6 +221,8 @@ She sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics
 
 "Blind people," she explained, "do not require battlefield terminology to enjoy *Hamlet*."
 
+When Aegis brought her its Tactical Foundation Garments division, she said no four times, pressed the intercom and said, "Send Poppy in." [Poppy](https://charli.info/charlipedia/poppy-petticoats/) listed what women actually want. "There it is."
+
 ### Sion, 2038
 
 At the 2038 Winter Paralympics she looked after [Emma Heart](https://charli.info/charlipedia/emma-heart/), with [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/), the morning after Emma won the Super-G by 5.71 seconds. Aegis, which built [the field](https://charli.info/charlipedia/the-field/) Emma raced with, wanted her at its investor event, an Emma Heart Institute for Distributed Human Potential, and a trademark on the Human Performance Proximity Index. Big Charli said no to all of it, crossed out the Aegis headline and wrote her own:
@@ -227,7 +235,7 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 
 ### Behind the scenes
 
-Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
 
 ---
 
@@ -251,6 +259,8 @@ She is blind, and has been for forty years, as she writes in her essays. She cal
 - [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/): [Emma Heart](https://charli.info/charlipedia/emma-heart/) at the 2038 Winter Paralympics.
 - [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/): [Haar Compute](https://charli.info/charlipedia/haar-compute/) and the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/), 2031 to 2041.
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/): thought experiments run out of a knicker drawer.
+- [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/): a fable about [Poppy](https://charli.info/charlipedia/poppy-petticoats/), a blind witch, and a wand with inaccessible instructions.
+- [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/): Poppy at Aegis Dynamics.
 
 ### Street Philosophy
 
@@ -581,13 +591,15 @@ Address: https://charli.info/charlipedia/jessica-martinez/
 
 > If a DB2K unit can identify a man in a doublet from forty yards in a low-light auditorium, it can certainly identify a misplaced LEGO brick in a hallway.
 
+She also brought Aegis's Tactical Foundation Garments division to launch, benchmarked against every civilian brassiere manufacturer, before [Poppy](https://charli.info/charlipedia/poppy-petticoats/) read out what women actually want. "But... where's the military terminology?"
+
 ### With Big Charli
 
 She later left Aegis to work with [Big Charli](https://charli.info/charlipedia/big-charli/). At the 2038 Winter Paralympics in Sion, the morning after [Emma Heart](https://charli.info/charlipedia/emma-heart/) won the Super-G, Jessica was in a borrowed conference room beneath the British team hotel with three laptops: her own, ParalympicsGB's, and a secure one delivered by Aegis, over which she had put a folded towel. She had slept for perhaps ninety minutes. Because she had written the Aegis way of talking for years, she knew every word its communications division was about to send before it arrived: breakthrough, empowerment, human potential, a future without limits.
 
 ### Behind the scenes
 
-Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) and returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), in "The Question", both by Charlotte Joanne at Blind Ant. She is a Blind Ant character.
+Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and returns in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/) and [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), in "The Question", both by Charlotte Joanne at Blind Ant. She is a Blind Ant character.
 
 ---
 
@@ -862,6 +874,39 @@ The museum is described in "The Einstein of the Knicker Drawer", part of [Street
 
 ---
 
+Address: https://charli.info/charlipedia/poppy-petticoats/
+
+## Poppy Petticoats
+
+> Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as its expert in what women actually want.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Poppy**, known since her schooldays as **Poppy Petticoats**, is a blind witch with red hair. The nickname came from her years at the Academy, where her slip kept slipping and she was greeted with "Petticoat" everywhere she went. The events have been lost to history. The nickname has not. Officially, she is just Poppy.
+
+<figure class="portrait">
+  <img src="/charlipedia/poppy-petticoats-portrait.jpg" width="800" height="1200" alt="Poppy stands in the doorway of an old library, smiling, with long, curly red hair half tied up, blue eyes and freckles. She wears a dark green chunky cardigan over a cream blouse, a small pendant, a deep red floral skirt, black tights and brown shoes, with a brown leather satchel full of books on her shoulder. Behind her, bookshelves and a tall Gothic window glow in autumn light. Beside the door, among the ivy, a dark green sign reads: THE LIBRARY. All knowledge has been read. Ask wisely.">
+  <figcaption>Poppy at the door of the Library.</figcaption>
+</figure>
+
+### The magic wand
+
+Like every new witch, Poppy looked forward for years to buying her first wand. She chose it from an owl-order catalogue with honest reviews, discreet packaging and a generous returns policy, and it arrived on a Tuesday. Before first use, a wand must be bonded to its owner with a simple activation pattern and the witch's Truth Name, which every witch has and no witch ever tells another living soul: not because it is embarrassing, but because it is hers. The instructions were printed in silver ink on dark parchment.
+
+Everyone tells blind witches to "just ask another witch". Poppy saw that the workaround would turn one inaccessible sentence into an unnecessary surrender of privacy, so she asked [the Library](https://charli.info/charlipedia/the-library/) instead. Press and hold the centre rune for three seconds. The wand shimmered warmly in her hand. There had never been anything wrong with it.
+
+> "Just ask another witch" is not an accessibility strategy. Sometimes it is. Sometimes it isn't.
+
+### At Aegis Dynamics
+
+Poppy also turns up, notebook in hand, at [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/), sent for by [Big Charli](https://charli.info/charlipedia/big-charli/) when [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/) wanted to launch the Tactical Foundation Garments division. Her speciality is Pre-Gravitational Erosion: the cumulative effects of gravity on unsupported soft tissue over several decades. Mostly Tuesdays. Her recommendations: comfortable; doesn't dig in; doesn't ride up; doesn't cost the GDP of a small moon; nice colours. Asked where the military terminology was, she blinked. "It's a bra."
+
+### Behind the scenes
+
+Poppy appears in two Blind Ant Pieces by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/): [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/), a fable, and [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/). In the CharliVerse, people can be anywhere and anywhen, which is how a witch from the Academy ends up in a defence contractor's brand meeting. Her portrait is a generated image; of her look, only the red hair is canon.
+
+---
+
 Address: https://charli.info/charlipedia/postaccessibility/
 
 ## PostAccessibility
@@ -1131,6 +1176,24 @@ Any eligible B1 athlete could use an approved field. In 2038 only Emma had compl
 ### Behind the scenes
 
 The field appears in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/the-library/
+
+## The Library
+
+> The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Library** is known to every witch. It has read every spellbook ever written and remembers every wand manual. It cannot cast a single spell itself, but if you ask it a practical question, it usually knows the answer. Its sign reads: *All knowledge has been read. Ask wisely.*
+
+When [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/) could not read the silver-ink instructions for her first wand, the Library gave her the one sentence she needed, and kept a private moment private. Expert humans remain wonderfully useful for difficult magic or a dangerous fault. This was a missing instruction.
+
+### Behind the scenes
+
+The Library appears in [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/), by Charlotte Joanne at Blind Ant.
 
 ---
 
