@@ -40,7 +40,7 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - `npm install`, then `npm run publish:carrados` builds and pushes `dist/carrados/` to the `carrados-site` branch. The Cloudflare Worker `carrados` (`carrados/worker.js`) serves that branch. Commit the source to `main` too.
 - The Worker reads the branch from raw.githubusercontent.com, which only works while this repo is public.
 - `carrados/worker.js` only needs redeploying to Cloudflare if the serving rules change.
-- Before publishing, check every page builds, has one H1, and has no sideways scroll at phone width.
+- Before publishing, check every page builds, has one H1, has no sideways scroll at phone width, and keeps its layout at desktop width (the main column stays about 44rem wide, with the header rule in place). After any change to `styles.css`, look at a page, don't just measure it.
 
 ## Domains
 
