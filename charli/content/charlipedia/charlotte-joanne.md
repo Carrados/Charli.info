@@ -27,7 +27,7 @@ Her essays take the most trivial object in the house, a worn-out bra, a drawer o
 
 > Walk a mile in their knickers if you like. You will learn the size of their knickers.
 
-The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press.
+The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press. The museum's founding document calls her its Steward, who certifies the decisions of the [Museum Court](/charlipedia/the-museum-court/).
 
 ## Getting in touch
 
