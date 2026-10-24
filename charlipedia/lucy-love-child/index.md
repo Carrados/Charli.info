@@ -56,7 +56,7 @@ She has five years of visual impairment: not enough to stop her reading, writing
 
 Her book is George Eliot's *Middlemarch* ("Eliot reminds me to be interested before I become judgemental"), her film *Thelma & Louise*, and her song Nina Simone's "Feeling Good". Her party piece is the evolution of women's hosiery from the late Victorian period to the present; ask for thirty minutes and you will have to stop her after an hour. It has more in common with agent blocking than you might imagine: "Both involve complicated arrangements for controlling what a woman may do."
 
-Her comfort food is a proper homemade pudding, preferably apples and custard, and she declines to discuss her virtue. Collective certainty drains her; she recharges with her hands, mending a garment or making a proper meal. At the café of the Museum of Access and Assistive Technology, Lucy reports on the wars. [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/) can reduce her to helpless laughter, and then asks why she's blushing.
+Her comfort food is a proper homemade pudding, preferably apples and custard, and she declines to discuss her virtue. Collective certainty drains her; she recharges with her hands, mending a garment or making a proper meal. At the café of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), Lucy reports on the wars. [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/) can reduce her to helpless laughter, and then asks why she's blushing.
 
 ## Behind the scenes
 

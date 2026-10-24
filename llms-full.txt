@@ -130,6 +130,7 @@ Each entry is marked at the top:
 - **Canon:** this is how things are in the CharliVerse.
 - **An idea, not yet canon:** something being tried out. It may change or disappear.
 - **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
+- **An author:** a real person who writes the CharliVerse, described from outside it.
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
@@ -137,6 +138,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
@@ -154,6 +156,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
+- [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
@@ -225,6 +228,41 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 ### Behind the scenes
 
 Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+
+---
+
+Address: https://charli.info/charlipedia/charlotte-joanne/
+
+## Charlotte Joanne
+
+> Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
+
+**An author.** This entry is about a real author, written from outside the CharliVerse. Her work is all through it.
+
+**Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://blind-ant.com/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
+
+She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to Speculative Accessibility: science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
+
+### Her work at Blind Ant
+
+- [Always Six](https://blind-ant.com/pieces/always-six/): a 12-second hand-painted cartoon about a die that always lands on six, whose audio description was written before a single frame was drawn.
+- [Do Androids Dream of Electric Ants?](https://blind-ant.com/pieces/do-androids-dream/): a picture a language model described before it existed, and then built.
+- [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/): her first design fiction written knowing it was design fiction. It introduced [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/), [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/) and, at Blind Ant, [Big Charli](https://charli.info/charlipedia/big-charli/).
+- [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/): [Emma Heart](https://charli.info/charlipedia/emma-heart/) at the 2038 Winter Paralympics.
+- [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/): [Haar Compute](https://charli.info/charlipedia/haar-compute/) and the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/), 2031 to 2041.
+- [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/): thought experiments run out of a knicker drawer.
+
+### Street Philosophy
+
+Her essays take the most trivial object in the house, a worn-out bra, a drawer of identical knickers, a borrowed shoe, and reason from it to identity, perception and testimony. A profile of her called the method Street Phenomenology: phenomenology done from the pavement, in language anyone can carry home. She calls herself "the Einstein of the Knicker Drawer", and says she doesn't mean it. Her conclusion, every time: the meaning was never in the matter, the witness is always the wearer, and the only honest thing to do with another person's experience is not to simulate it but to listen.
+
+> Walk a mile in their knickers if you like. You will learn the size of their knickers.
+
+The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press.
+
+### Getting in touch
+
+Write to her at [charlotte.joanne@blind-ant.com](mailto:charlotte.joanne@blind-ant.com).
 
 ---
 
@@ -358,7 +396,7 @@ Her great-great-grandmother, on a different branch from the Portuguese one, was 
 
 ### At the café
 
-dice belongs at the table at the café of the Museum of Access and Assistive Technology, but isn't necessarily there for long. She may arrive midway, straight from somewhere else, and leave before everyone has finished. At the café, [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars, and dice tests the edge: when a door marked *Nobody Quite Knows What This Does Yet* appears, everyone looks at her. She is usually already reaching for the handle.
+dice belongs at the table at the café of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), but isn't necessarily there for long. She may arrive midway, straight from somewhere else, and leave before everyone has finished. At the café, [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars, and dice tests the edge: when a door marked *Nobody Quite Knows What This Does Yet* appears, everyone looks at her. She is usually already reaching for the handle.
 
 ### Not yet known
 
@@ -695,7 +733,7 @@ She has five years of visual impairment: not enough to stop her reading, writing
 
 Her book is George Eliot's *Middlemarch* ("Eliot reminds me to be interested before I become judgemental"), her film *Thelma & Louise*, and her song Nina Simone's "Feeling Good". Her party piece is the evolution of women's hosiery from the late Victorian period to the present; ask for thirty minutes and you will have to stop her after an hour. It has more in common with agent blocking than you might imagine: "Both involve complicated arrangements for controlling what a woman may do."
 
-Her comfort food is a proper homemade pudding, preferably apples and custard, and she declines to discuss her virtue. Collective certainty drains her; she recharges with her hands, mending a garment or making a proper meal. At the café of the Museum of Access and Assistive Technology, Lucy reports on the wars. [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/) can reduce her to helpless laughter, and then asks why she's blushing.
+Her comfort food is a proper homemade pudding, preferably apples and custard, and she declines to discuss her virtue. Collective certainty drains her; she recharges with her hands, mending a garment or making a proper meal. At the café of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), Lucy reports on the wars. [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/) can reduce her to helpless laughter, and then asks why she's blushing.
 
 ### Behind the scenes
 
@@ -799,6 +837,28 @@ She retired in 2038. Her daughter, [Isla Leask](https://charli.info/charlipedia/
 ### Behind the scenes
 
 Morag Leask opens [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/) in "The Ten to Seven", and appears again in "Dyson Shoal", both by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/museum-of-access-and-assistive-technology/
+
+## Museum of Access and Assistive Technology
+
+> The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **Museum of Access and Assistive Technology** was founded by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/), its founding curator. It was never going to be a museum of objects. A collection of canes, Braillers and screen readers behind glass would be dead matter, the kit without the wearing. What it preserves is what each device was like to live inside: the cane as an extended nerve, the screen reader's voice as the texture of an ordinary day. It is a museum of phenomenology, prosthetic experience given a building.
+
+Which explains the staff. Ruth, Iris, Adaeze and Tamsin are not custodians of things. Experience has to be witnessed, told, situated and walked alongside, or it is lost the moment the body that had it is gone.
+
+> The dog goes in a case anywhere. What the dog was like only survives if someone builds the room.
+
+Its café, by the long window, is where people in the CharliVerse stop for coffee, bump into each other and hold small meetings. [dice](https://charli.info/charlipedia/dice/) arrives there straight from somewhere else and leaves before everyone has finished; [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars.
+
+### Behind the scenes
+
+The museum is described in "The Einstein of the Knicker Drawer", part of [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Its café appears in the canon of the Found Girls.
 
 ---
 

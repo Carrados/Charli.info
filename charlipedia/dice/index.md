@@ -64,7 +64,7 @@ Her great-great-grandmother, on a different branch from the Portuguese one, was 
 
 ## At the café
 
-dice belongs at the table at the café of the Museum of Access and Assistive Technology, but isn't necessarily there for long. She may arrive midway, straight from somewhere else, and leave before everyone has finished. At the café, [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars, and dice tests the edge: when a door marked *Nobody Quite Knows What This Does Yet* appears, everyone looks at her. She is usually already reaching for the handle.
+dice belongs at the table at the café of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), but isn't necessarily there for long. She may arrive midway, straight from somewhere else, and leave before everyone has finished. At the café, [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars, and dice tests the edge: when a door marked *Nobody Quite Knows What This Does Yet* appears, everyone looks at her. She is usually already reaching for the handle.
 
 ## Not yet known
 

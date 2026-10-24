@@ -13,6 +13,7 @@ Each entry is marked at the top:
 - **Canon:** this is how things are in the CharliVerse.
 - **An idea, not yet canon:** something being tried out. It may change or disappear.
 - **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
+- **An author:** a real person who writes the CharliVerse, described from outside it.
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
@@ -20,6 +21,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
@@ -37,6 +39,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
+- [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
