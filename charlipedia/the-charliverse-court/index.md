@@ -10,7 +10,8 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
 - Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
-- [Big Charli](https://charli.info/charlipedia/big-charli/)
+- [Big Charli](https://charli.info/charlipedia/big-charli/), the satirist.
+- [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
 - Jo, retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
