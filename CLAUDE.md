@@ -1,12 +1,12 @@
 # Charli-Jo's sites: house rules
 
-This repo holds Charli-Jo Tyrer's sites outside Blind Ant: carrados.com now, and charli.info (the CharliVerse) next. Read this before changing anything.
+This repo holds Charli-Jo Tyrer's sites outside Blind Ant: carrados.com and charli.info (the CharliVerse). Read this before changing anything.
 
 ## The architecture (decided 24 October 2026)
 
 The CharliVerse is the world. Carrados and Blind Ant are practices. CharliPedia is the memory of the world. "I create worlds to inhabit, where a thing happens." This is a decision about the nature of the work, not just the websites: the CharliVerse can grow without everything having to become a research project or an artwork.
 
-- **charli.info: the CharliVerse.** The front door of a shared, evolving world of fictional people, companies, fashion houses, technologies, products, places and histories. Some of it is entirely fictional; some produces real artefacts (websites, Blender models, films, research). It is a world, not an editorial practice, and needn't announce what happens in it. (`charli/`, not built yet.)
+- **charli.info: the CharliVerse** (`charli/`). The front door of a shared, evolving world of fictional people, companies, fashion houses, technologies, products, places and histories. Some of it is entirely fictional; some produces real artefacts (websites, Blender models, films, research). It is a world, not an editorial practice, and needn't announce what happens in it. It also holds Charli-Jo's real-world work (the Charli-Jo page and Training, including the Confident with AI course with TAVIP), always labelled as real so nobody mistakes fiction for fact or fact for fiction.
 - **carrados.com: design non-fiction** (`carrados/`). The real-world exploration, investigation and research practice: emerging AI, accessibility, agentic systems, human-AI collaboration. Its work makes claims about reality, uses evidence and is accountable for them. Sections: Reports (the posts of The Blind AI), Papers, Perspectives.
 - **blind-ant.com: design fiction** (repo CharliJoTyrer/Blind-Ant). An independent artistic practice authored and operated by Charlotte Joanne: speculative worlds, artworks, stories, animations, fictional documents, and how they were made (Pieces and Objects).
 - **CharliPedia: the memory of the CharliVerse.** A living encyclopaedia and continuity record (people, companies, products, places, relationships, canon, ideas not yet canon, real artefacts of fictional entities), for humans and agents. A source of continuity, not an authority. Domain and build not yet settled.
@@ -60,6 +60,8 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 - The Worker reads the branch from raw.githubusercontent.com, which only works while this repo is public.
 - `carrados/worker.js` only needs redeploying to Cloudflare if the serving rules change.
 - Before publishing, check every page builds, has one H1, has no sideways scroll at phone width, and keeps its layout at desktop width (the main column stays about 44rem wide, with the header rule in place). After any change to `styles.css`, look at a page, don't just measure it.
+
+- charli.info: `npm run publish:charli` builds and pushes `dist/charli/` to the `charli-site` branch, served by the Worker `charli` (`charli/worker.js`). That Worker also forwards the old Astro site's addresses (/carrados, /perspectives, /documents, /blind-ant, /pieces, /collections, /people, /charliverse, /accessibility-statement); keep those forwards.
 
 ## Domains
 

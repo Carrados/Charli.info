@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "build:carrados": "node engine/build.mjs carrados",
-    "publish:carrados": "node engine/build.mjs carrados && node engine/publish.mjs carrados"
+    "publish:carrados": "node engine/build.mjs carrados && node engine/publish.mjs carrados",
+    "build:charli": "node engine/build.mjs charli",
+    "publish:charli": "node engine/build.mjs charli && node engine/publish.mjs charli"
   },
   "dependencies": {
     "marked": "18.1.1"
