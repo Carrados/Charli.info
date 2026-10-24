@@ -16,6 +16,8 @@ She is blind, and has been for forty years, as she writes in her essays. She cal
 - [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/): [Emma Heart](/charlipedia/emma-heart/) at the 2038 Winter Paralympics.
 - [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/): [Haar Compute](/charlipedia/haar-compute/) and the [Dyson Shoal](/charlipedia/dyson-shoal/), 2031 to 2041.
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/): thought experiments run out of a knicker drawer.
+- [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/): a fable about [Poppy](/charlipedia/poppy-petticoats/), a blind witch, and a wand with inaccessible instructions.
+- [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/): Poppy at Aegis Dynamics.
 
 ## Street Philosophy
 

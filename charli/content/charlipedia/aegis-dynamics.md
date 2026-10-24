@@ -16,6 +16,10 @@ On 12 March 2026 Aegis Dynamics announced the decommissioning of the DB2K Tactic
 
 Before the theatre launch, the marketing team presented a thirty-seven-slide brand proposal, "Aegis-Vision™ Theatre Guardian". [Big Charli](/charlipedia/big-charli/) read two of the slides and said no.
 
+## Tactical Foundation Garments
+
+Aegis later tried lingerie. [Jessica Martinez](/charlipedia/jessica-martinez/) brought its Tactical Foundation Garments division to launch, with Adaptive Load Redistribution™, Predictive Bounce Mitigation and a forty-seven-page document on Strategic Bust Readiness. [Big Charli](/charlipedia/big-charli/) said no four times, then sent for [Poppy](/charlipedia/poppy-petticoats/). "It's a bra."
+
 ## The field, 2038
 
 By 2038 Aegis Dynamics had built [the field](/charlipedia/the-field/), the drone-and-suit system with which [Emma Heart](/charlipedia/emma-heart/) raced the Paralympic Super-G at Sion without a human guide. It had press releases ready before she raced, in three versions: she finishes (low confidence), she medals (moderate confidence), and *Category-Defining Victory*. The one it sent at 4.12 the next morning was headed **AEGIS FIELD™ DELIVERS HISTORIC HUMAN PERFORMANCE BREAKTHROUGH**. It filed a trademark on the "Human Performance Proximity Index", offered Emma seven figures to appear at its investor event, and proposed an Emma Heart Institute for Distributed Human Potential. Emma asked whether it could be established far away from her.
@@ -24,4 +28,4 @@ Aegis did not employ the engineers who certified the race configuration. It fund
 
 ## Behind the scenes
 
-Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
+Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/) and [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
