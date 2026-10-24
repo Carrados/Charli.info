@@ -137,18 +137,26 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
+- [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
 - [Emma Heart](https://charli.info/charlipedia/emma-heart/index.md): Emma Heart is the British skier who, in 2038, became the first totally blind athlete to race Paralympic Super-G without a human guide, and won.
+- [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/index.md): Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
+- [Haar Compute](https://charli.info/charlipedia/haar-compute/index.md): Haar Compute is the Aberdeen company that turned North Sea oil platforms into AI training rigs, and built the Dyson Shoal.
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 - [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
+- [Kelvin](https://charli.info/charlipedia/kelvin/index.md): Kelvin is Britain's national foundation model, trained on the Dyson Shoal in 2041 and the first model with more than a quadrillion parameters.
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
+- [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement arguing that traditional accessibility preserves a sighted world and teaches blind people to work within it indirectly.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+- [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is an international movement in blind life that defends human assistance and interdependence and is suspicious of synthetic sightedness.
 
@@ -217,6 +225,28 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 ### Behind the scenes
 
 Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+
+---
+
+Address: https://charli.info/charlipedia/daniel-okafor/
+
+## Daniel Okafor
+
+> Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Daniel Okafor** was one of [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/)'s first control-room technicians, and the first blind one. Daniel has never seen anything. The monitoring software showed each pod as a coloured tile, which was entirely useless to him and, he quietly suspected, not much use to anyone else at three in the morning. So he asked a question nobody had asked: what if each pod had a note?
+
+Pitch is set by each pod's place in the ring and bent by its temperature; load sets the volume; link quality gives it a texture, clean or grainy. A healthy ring sounds like an organ holding a low chord in an empty church. "It isn't an adjustment," he says. "It's a better interface. I hear all sixty-four at once. They have to scroll." One night in the 2030s he heard pod forty-one drift a quarter-tone sharp while the graphs showed nothing; the ROV found old trawl net smothering its cooling fins. "It was out of tune."
+
+What began as his workaround became Haar's standard monitoring layer, then a discipline with the slightly grand name of **operational sonification**, used in control rooms around the world. Okafor still calls it listening. He retired from night shifts in 2038 and sits on the international standards board for non-visual interfaces, alongside [Emma Heart](https://charli.info/charlipedia/emma-heart/).
+
+> They had sixty-four things happening at once and thought the sensible solution was sixty-four little green squares. I was blind, not stupid.
+
+### Behind the scenes
+
+Daniel Okafor is at the centre of "The Chord", and appears in the operations log and both Sunday supplements of [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
 
 ---
 
@@ -340,6 +370,34 @@ dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo 
 
 ---
 
+Address: https://charli.info/charlipedia/dyson-shoal/
+
+## Dyson Shoal
+
+> The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **Dyson Shoal**, officially the Skerry Distributed Training Array, is the seabed computer that grew out of [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/)'s first ring. By 2041 it was 7,680 compute pods across some 1,800 square kilometres of the central North Sea, linked by power and fibre and served by six training rigs. Nobody calls it by its official name.
+
+The name first appeared in an engineering newsletter, after Freeman Dyson's swarm of machines around a star; the North Sea version is rather wetter and involves considerably more barnacles. [Haar Compute](https://charli.info/charlipedia/haar-compute/) disliked it for about six weeks, then somebody in marketing bought the domain.
+
+### How it is built
+
+The rigs are not the computers. They are workshops, power stations, crew hotels, helicopter terminals and ROV bases: places with cranes, where broken things come up and working things go back down. Pods are laid in shoals of sixteen; shoals form banks; banks connect to one of six service nodes. The software treats the whole thing as one machine. The hardware does not: if a pod fails, work routes round it. "We stopped trying to build a data centre," says [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/). "Data centres are buildings. This is infrastructure." The people who run it say it's a fishery.
+
+It breathes. On a windy night it is among the largest single users of electricity in Britain; when the weather changes, low-priority jobs pause, whole banks drop away and stored power carries the base load. In February 2041 it completed the main training run for [Kelvin](https://charli.info/charlipedia/kelvin/), Britain's national foundation model. It is monitored by ear, in layers from the whole array down to a single pod, by the technique [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/) invented.
+
+### The arguments
+
+The pods are colonised by mussels, anemones and soft corals within months, with cod and pollack gathering round the banks: Haar calls it an artificial reef, its critics a flattering name for an industrial estate. Its protection zones close a large stretch of sea to trawling. A fibre trunk was cut in 2039, in circumstances the Royal Navy still won't discuss, and the Shoal is now patrolled. And four-fifths of its capacity is rented, much of it to foreign labs. "We built the cathedral," one Scottish MP says, "and we're renting out the pews."
+
+### Behind the scenes
+
+The Dyson Shoal is the subject of "Dyson Shoal", the last story in [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
+
+---
+
 Address: https://charli.info/charlipedia/emma-heart/
 
 ## Emma Heart
@@ -371,6 +429,10 @@ The margin started an argument about what she had won. Emma had asked the questi
 - On freedom: "I can make the wrong decision entirely by myself."
 - On Daniel being called middleware, which she has banned in her presence: "He is much too annoying."
 
+### After Sion
+
+She sits on the international standards board for non-visual interfaces, alongside [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/), whose sonification began as a different answer to the same question as her field. "Daniel hears the sea, I feel the mountain. Neither of us is seeing anything. That was always the point." On the board's membership she is less diplomatic: "I have spent my entire career being told where to go by men called Daniel. At least this one only tells me what he can hear."
+
 ### What she wants next
 
 Not another medal. She wants the field approved for an ordinary public slope, so she can keep a promise she made before she lost her sight: to teach her wife to ski. Not to be guided by her; to teach her, and to be the experienced skier in their marriage. "Sometimes independence means being able to decide who the day belongs to."
@@ -379,7 +441,59 @@ Her wife is not part of the public story. She agreed Emma could tell the world a
 
 ### Behind the scenes
 
-Emma Heart is the centre of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), a design fiction by Charlotte Joanne published at Blind Ant: a feature, a news report and two short stories set at the 2038 Winter Paralympics.
+Emma Heart is the centre of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), a design fiction by Charlotte Joanne published at Blind Ant: a feature, a news report and two short stories set at the 2038 Winter Paralympics. She appears again in "Dyson Shoal", part of [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/).
+
+---
+
+Address: https://charli.info/charlipedia/fiona-gauld/
+
+## Fiona Gauld
+
+> Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Fiona Gauld** is the founder and chief executive of [Haar Compute](https://charli.info/charlipedia/haar-compute/). She spent her career in subsea engineering, and during the long Covid winters she read the old reports of a sealed data centre sunk off Orkney, whose servers had failed at about one eighth the rate of those on land. "Everyone looked at that experiment and saw a curiosity. I looked at it and saw a job description for Aberdeen."
+
+The idea she took to investors in 2029 had a slogan before it had a business plan: oil rigs to training rigs. The first reaction, she admits, was laughter. The second was a list of objections, most of them correct.
+
+> Everyone else is trying to put data centres in space. We looked at the North Sea and saw everything space is trying to fake. We didn't need rockets. We needed Aberdeen.
+
+She takes the arguments against the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/) seriously: "Every one of those arguments is fair. The difference is that we're having them in public, with numbers. Nobody had that argument about the oil until it was nearly gone." Asked why Haar funds safety assurance in Paralympic sport, she says only that she has "a professional interest in people who notice what everyone else misses."
+
+> For fifty years the North Sea paid for Britain. Then everyone assumed it was finished. It wasn't finished. We just needed a different reason to go to sea.
+
+### Behind the scenes
+
+Fiona Gauld appears in [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/haar-compute/
+
+## Haar Compute
+
+> Haar Compute is the Aberdeen company that turned North Sea oil platforms into AI training rigs, and built the Dyson Shoal.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Haar Compute** is an Aberdeen-based company converting North Sea oil and gas infrastructure into AI training capacity. It is named after the haar, the cold sea fog that rolls in off the North Sea. "It's what keeps us cool," says the company. Its founder and chief executive is [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/).
+
+### Oil rigs to training rigs
+
+On 14 March 2031 Haar took ownership of [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/), a production platform 140 miles east of Aberdeen that was due for decommissioning. Its idea: keep the steel, the cranes, the helideck and the accommodation; ring the seabed with sealed compute pods cooled by the sea; power them from the surrounding wind farms; store the surplus in batteries, Highland pumped hydro and hydrogen in the empty gas fields; and staff all of it with people who already knew how to work offshore. It committed to recruiting at least 80 per cent of its offshore workforce from oil and gas. Under its seabed lease, a fifth of its capacity is reserved for British research and public-interest models, and a share of revenue goes to a Scottish community wealth fund.
+
+The first ring went live in 2032. By 2041 it had grown into the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/).
+
+### We follow the wind
+
+Haar never describes itself as "100 per cent renewable". Its target is that at least 90 per cent of annual compute runs on wind or stored wind, and it publishes the number. Its rule, written into Skerry Alpha's operating procedures in the 2030s, is **we follow the wind**: training jobs are built to checkpoint, migrate, accelerate and wait. When a client asked for more load during the Long Calm of January 2034, the answer was no. Client unhappy.
+
+Its control rooms are built to be heard as well as watched, after [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/) gave every pod a sound. Haar is the founding sponsor of the international standards board for non-visual interfaces, and quietly one of the largest funders of independent safety assurance in Paralympic sport, a fact that appears nowhere in its marketing.
+
+### Behind the scenes
+
+Haar Compute comes from [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), a design fiction by Charlotte Joanne published at Blind Ant: nine Objects set between 2031 and 2041. Its press release and job advert are Objects in that Piece.
 
 ---
 
@@ -396,6 +510,24 @@ Address: https://charli.info/charlipedia/iceberg-hosiery/
 ### Behind the scenes
 
 Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/isla-leask/
+
+## Isla Leask
+
+> Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Isla Leask** is a helicopter pilot, the daughter of [Morag Leask](https://charli.info/charlipedia/morag-leask/). She spent most of the 2030s certifying drone swarms for the aviation regulator before, as she puts it, she started missing the weather. In 2041 she flies the ten to seven out of Dyce, her mother's old route, to the rigs of the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/).
+
+Asked whether she skis: "Badly. My wife's teaching me."
+
+### Behind the scenes
+
+Isla Leask appears at the end of "Dyson Shoal", the last story in [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
 
 ---
 
@@ -418,6 +550,24 @@ She later left Aegis to work with [Big Charli](https://charli.info/charlipedia/b
 ### Behind the scenes
 
 Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) and returns in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), in "The Question", both by Charlotte Joanne at Blind Ant. She is a Blind Ant character.
+
+---
+
+Address: https://charli.info/charlipedia/kelvin/
+
+## Kelvin
+
+> Kelvin is Britain's national foundation model, trained on the Dyson Shoal in 2041 and the first model with more than a quadrillion parameters.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Kelvin** is the latest generation of Britain's national foundation model. Its main training run finished on the [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/) at 02:14 on 3 February 2041, after eleven weeks in which thousands of pods joined whenever wind, scheduling and other customers allowed. By most counts it is the first model with more than a quadrillion parameters, though as a mixture of experts only a small fraction of it wakes for any question. It learned mostly from material made for it, including curricula written by other models. "We don't count parameters out here," one shift supervisor says. "We count weather."
+
+Before it came **Will**, Britain's national open-weights model, part of which was trained on the first training rigs, and **Avalon**, the video model built on Will. Its makers like to say it learned to see while sitting at the bottom of the sea.
+
+### Behind the scenes
+
+Kelvin, Will and Avalon appear in the Sunday supplements of [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
 
 ---
 
@@ -632,6 +782,26 @@ Madison is a character who speaks for [Carrados](https://carrados.com/): a ficti
 
 ---
 
+Address: https://charli.info/charlipedia/morag-leask/
+
+## Morag Leask
+
+> Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Morag Leask** is a North Sea helicopter pilot. For thirty-four years she flew the ten to seven out of Dyce: roustabouts and drillers in 2009, half as many of them after the oil price crash of 2016, decommissioning crews in 2027 sent to take apart the platforms her father had flown people to when they were new, and from the 2030s compute technicians for [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/). Two weeks on, three weeks off, ten to seven. Only the cargo changed. Nobody, she noticed, had invented a new kind of tired for data.
+
+She retired in 2038. Her daughter, [Isla Leask](https://charli.info/charlipedia/isla-leask/), flies the route now.
+
+> It was never really about oil. We thought it was, because oil was what was there. The oil ran out. Aberdeen didn't.
+
+### Behind the scenes
+
+Morag Leask opens [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/) in "The Ten to Seven", and appears again in "Dyson Shoal", both by Charlotte Joanne at Blind Ant.
+
+---
+
 Address: https://charli.info/charlipedia/postaccessibility/
 
 ## PostAccessibility
@@ -663,6 +833,30 @@ Address: https://charli.info/charlipedia/seamiotics/
 ### Behind the scenes
 
 Seamiotics belongs to the CharliVerse. By house rule, its name always appears with its founding line, "every seam means something". Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/skerry-alpha/
+
+## Skerry Alpha
+
+> Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Skerry Alpha** is a former production platform 140 miles east of Aberdeen, and the first oil platform converted into an AI training rig. [Haar Compute](https://charli.info/charlipedia/haar-compute/) took it over in 2031 instead of decommissioning it.
+
+From the air it looks almost exactly as it did when it pumped oil: the same yellow cranes, the same grey accommodation block, the same helideck with its faded H. The flare stack is gone, and where the process plant used to be there is a long low hall with no windows. Its drill floor became a switching and power distribution centre, its process deck battery storage, and its cranes deploy and recover the pods. Around it, in every direction except west, the turbines of the Skerry offshore wind farm stand in rows to the horizon. Hydrogen is stored in the depleted Skerry gas reservoir beneath it.
+
+Sixty metres below the platform, in a ring around its legs, sit the pods: sixty at first, sixty-four by the first Christmas, each a sealed, nitrogen-filled pressure vessel about the size of a shipping container. The control room is on the third level of the old accommodation block, in what used to be the radio room.
+
+### The Long Calm
+
+From 16 to 23 January 2034 a blocking high settled over the North Sea and the wind stopped. Skerry Alpha ran on batteries, then onshore pumped hydro, then hydrogen from its own reservoir, and for two hours exported power to the mainland, the first time the rig had supplied the shore since gas production ended. Seven days. Never stopped. Logged for the record. The pub quiz was won by the ROV team, who were insufferable about it.
+
+### Behind the scenes
+
+Skerry Alpha appears throughout [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant. The Long Calm is told in its operations log.
 
 ---
 
