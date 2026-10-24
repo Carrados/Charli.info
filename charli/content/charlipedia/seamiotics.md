@@ -4,7 +4,7 @@ description: Seamiotics is the stocking imprint of Iceberg Hosiery, and its name
 status: stub
 ---
 
-**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking.
+**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking. It is run by Alex, of the [CharliVerse Court](/charlipedia/the-charliverse-court/).
 
 Its Bride, white with a blue bow at each ankle, is stocked by [First Layer](/charlipedia/first-layer/), the bridal house, when a bride wants her stockings to mean something.
 
