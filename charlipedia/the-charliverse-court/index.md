@@ -27,4 +27,4 @@ The [Museum Court](https://charli.info/charlipedia/the-museum-court/), which gov
 
 ## Behind the scenes
 
-The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. This entry is a stub: it will grow as the members' entries arrive.
+The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. The nine women of the Court are being built as 3D models in Blender, so in time each will have a rendered portrait in place of the generated pictures some entries carry now. This entry is a stub: it will grow as the members' entries arrive.
