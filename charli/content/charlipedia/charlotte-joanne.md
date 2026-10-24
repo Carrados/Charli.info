@@ -6,7 +6,7 @@ status: author
 
 **Charlotte Joanne** is a writer and the author and operator of [Blind Ant](/charlipedia/blind-ant/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
 
-She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to Speculative Accessibility: science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
+She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to [Speculative Accessibility](/charlipedia/speculative-accessibility/): science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
 ## Her work at Blind Ant
 
@@ -18,6 +18,7 @@ She is blind, and has been for forty years, as she writes in her essays. She cal
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/): thought experiments run out of a knicker drawer.
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/): a fable about [Poppy](/charlipedia/poppy-petticoats/), a blind witch, and a wand with inaccessible instructions.
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/): Poppy at Aegis Dynamics.
+- [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/): a gravel car park, a friend with a guide dog, and [J2O2](/charlipedia/j2o2/), who stays in the boot.
 
 ## Street Philosophy
 
