@@ -5,6 +5,7 @@
 //   date: YYYY-MM-DD   shown under the title; lists without an order sort newest first
 //   order: 1, 2, ...   a set sequence; lists sort by order before date
 //   byline: text       shown under the title
+//   logo_heading: true the site's logo (cfg.logo) is shown as the page's H1, with the title kept for screen readers
 //   canonical: URL     the page's own address, if it isn't on the main site (a correspondent's desk)
 // In a page body, <!-- list --> becomes the list of the pages in that page's folder,
 // and <!-- desk:NAME --> the list of every page with `desk: NAME` in its frontmatter (a correspondent's reports), newest first.
@@ -78,7 +79,7 @@ function page(p, html) {
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
-  <h1>${esc(p.title)}</h1>${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}
+  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}
   <div class="prose">
 ${html}
   </div>

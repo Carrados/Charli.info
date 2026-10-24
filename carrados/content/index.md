@@ -1,5 +1,6 @@
 ---
 title: Carrados
+logo_heading: true
 description: Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer, developing systems that preserve meaning across people, interfaces and AI agents.
 ---
 
