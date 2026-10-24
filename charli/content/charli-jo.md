@@ -16,3 +16,7 @@ I use they/them.
 - [Carrados](https://carrados.com/): my design non-fiction. Accessibility as information integrity, the Zero Information Casualty standard, and reports from the frontier of accessibility AI.
 - [Blind Ant](https://blind-ant.com/): design fiction, published under the pen name Charlotte Joanne.
 - [Training](/training/): courses and masterclasses I run with organisations and communities.
+
+## Get in touch
+
+Write to me at [charli-jo@carrados.com](mailto:charli-jo@carrados.com).
