@@ -1,0 +1,22 @@
+# Carrados
+
+> Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer, developing systems that preserve meaning across people, interfaces and AI agents.
+
+Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer: the Tyrer Framework, the Zero Information Casualty (ZIC) standard, essays, and Reports on accessibility AI for blind people. Her design fiction is at https://blind-ant.com/ and her own site is https://charli.info/.
+
+All content is CC BY-SA 4.0, and every crawler is welcome, including those that train models. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.
+
+## Pages
+
+- [Carrados](https://carrados.com/index.md): Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer, developing systems that preserve meaning across people, interfaces and AI agents.
+- [About](https://carrados.com/about/index.md): About Charli-Jo Tyrer and Carrados.
+- [Papers](https://carrados.com/papers/index.md): The Tyrer Framework, the Zero Information Casualty (ZIC) design standard, and the three essays of the Carrados corpus.
+- [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](https://carrados.com/papers/classical-and-generative-accessibility/index.md): The Tyrer Framework in plain language: why accessibility erodes, the ladder from visual dominance to perceptual sovereignty, and the fork AI puts in front of us. By Charli-Jo Tyrer.
+- [The API Is the UI Now](https://carrados.com/papers/the-api-is-the-ui-now/index.md): A quiet note on a framework, an architecture Salesforce built for its own reasons, and a first-class screen reader rendering a blind Salesforce user could have now. By Charli-Jo Tyrer.
+- [The Insurance That Never Pays Out](https://carrados.com/papers/the-insurance-that-never-pays-out/index.md): The Agentic AI Foundation just published the best case for accessibility-as-architecture in years — and then prescribed keeping the exact layer its own witness says never catches up. A reply. By Charli-Jo Tyrer.
+- [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/index.md): The Tyrer Framework: accessibility as information integrity. A diagnostic law, a civilisational scale, a design doctrine, and an analysis of the structural break introduced by artificial intelligence. By Charli-Jo Tyrer.
+- [Zero Information Casualty (ZIC) v1.5](https://carrados.com/papers/zic-design-standard/index.md): The Zero Information Casualty (ZIC) design standard, version 1.5: an agent-first web specification under which no person — reading directly, using assistive technology, or acting through a sent agent — loses access to public meaning.
+- [Perspectives](https://carrados.com/perspectives/index.md): Long-form essays and propositions by Charli-Jo Tyrer about the future, meaning and responsibility.
+- [First Light](https://carrados.com/perspectives/first-light/index.md): A cosmic communique about the Fermi Paradox, responsibility and the possibility that we are early in a quiet universe.
+- [Pascal's Wager 2.0](https://carrados.com/perspectives/pascals-wager-2/index.md): A practical wager for an uncertain century: prepare for radical progress, collapse or continuity, and live well in each case.
+- [Reports](https://carrados.com/reports/index.md): Reports from the frontier of accessibility AI for blind people, tried first-hand by Charli-Jo Tyrer. The posts of The Blind AI.
