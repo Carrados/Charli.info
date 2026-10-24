@@ -142,7 +142,10 @@ for (const p of pages) {
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();
-  const html = page(p, marked.parse(fill(false)));
+  // A character's report ends by saying, on the page itself, that its writer is fictional and the work is not.
+  const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).map((d) => cfg.desks[d]).filter(Boolean) : [];
+  const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/about/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/about/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
+  const html = page(p, marked.parse(fill(false) + note));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });
