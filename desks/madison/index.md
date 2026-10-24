@@ -18,6 +18,6 @@ Her test cases are swimwear, lingerie and tights adverts. In those, the facts ar
 
 ## Reports
 
-*Nothing filed here yet.*
+- [Except Why I'd Want One](https://carrados.com/reports/except-why-id-want-one/index.md) (9 October 2026): Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader, and loses an argument about corsets.
 
 Madison is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.

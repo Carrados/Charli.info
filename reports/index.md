@@ -4,4 +4,5 @@
 
 Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
 
+- [Except Why I'd Want One](https://carrados.com/reports/except-why-id-want-one/index.md) (9 October 2026): Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader, and loses an argument about corsets.
 - [Agents Provocateurs](https://carrados.com/reports/agents-provocateurs/index.md) (2 October 2026): The Agent Wars will be fought over attention, content, friction and breakage, and every wall built to stop the agents is also built across blind people's path.
