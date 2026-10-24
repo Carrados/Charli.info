@@ -10,6 +10,9 @@ All content is CC BY-SA 4.0, and every crawler is welcome, including those that 
 
 - [Carrados](https://carrados.com/index.md): Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer, developing systems that preserve meaning across people, interfaces and AI agents.
 - [About](https://carrados.com/about/index.md): About Charli-Jo Tyrer and Carrados.
+- [Exploration](https://carrados.com/desks/dice/index.md): dice, a temporal explorer, lives in the patches of the future that have already arrived and comes back to report the weather.
+- [Agent Wars](https://carrados.com/desks/lucy/index.md): Lucy Love-Child reports on the Agent Wars for The Blind AI, following agent commerce from a blind person's point of view and asking who is really in control.
+- [Access Provocateur](https://carrados.com/desks/madison/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, starting with the lingerie, swimwear and tights adverts blind women would like to enjoy.
 - [Papers](https://carrados.com/papers/index.md): The Tyrer Framework, the Zero Information Casualty (ZIC) design standard, and the three essays of the Carrados corpus.
 - [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](https://carrados.com/papers/classical-and-generative-accessibility/index.md): The Tyrer Framework in plain language: why accessibility erodes, the ladder from visual dominance to perceptual sovereignty, and the fork AI puts in front of us. By Charli-Jo Tyrer.
 - [The API Is the UI Now](https://carrados.com/papers/the-api-is-the-ui-now/index.md): A quiet note on a framework, an architecture Salesforce built for its own reasons, and a first-class screen reader rendering a blind Salesforce user could have now. By Charli-Jo Tyrer.

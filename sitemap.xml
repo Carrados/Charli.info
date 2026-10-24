@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://carrados.com/</loc></url>
   <url><loc>https://carrados.com/about/</loc></url>
+  <url><loc>https://carrados.com/desks/dice/</loc></url>
+  <url><loc>https://carrados.com/desks/lucy/</loc></url>
+  <url><loc>https://carrados.com/desks/madison/</loc></url>
   <url><loc>https://carrados.com/papers/</loc></url>
   <url><loc>https://carrados.com/papers/classical-and-generative-accessibility/</loc></url>
   <url><loc>https://carrados.com/papers/the-api-is-the-ui-now/</loc></url>
