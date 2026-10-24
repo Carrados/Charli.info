@@ -77,7 +77,7 @@ function page(p, html) {
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
-  <a class="site-name" href="/">${cfg.mark || ''}<span class="name-block"><span class="name">${esc(cfg.name)}</span>${cfg.tagline ? `<span class="tagline">${esc(cfg.tagline)}</span>` : ''}</span></a>
+  <a class="site-name" href="/"${p.path === '/' ? ' aria-current="page"' : ''}>${cfg.mark || ''}<span class="name-block"><span class="name">${esc(cfg.name)}</span>${cfg.tagline ? `<span class="tagline">${esc(cfg.tagline)}</span>` : ''}</span></a>
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
