@@ -55,4 +55,4 @@ When she's upset, leave her alone for twenty minutes, then make her a coffee and
 
 ## Behind the scenes
 
-Madison is a character who speaks for [Carrados](https://carrados.com/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](/charlipedia/dice/) and [Lucy Love-Child](/charlipedia/lucy-love-child/). This entry is drawn from her canon, version 1.9 (13 October 2026). Her portrait is a generated image, made from her canon description with no real person as its model.
+Madison is a character who speaks for [Carrados](/charlipedia/carrados/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](/charlipedia/dice/) and [Lucy Love-Child](/charlipedia/lucy-love-child/). This entry is drawn from her canon, version 1.9 (13 October 2026). Her portrait is a generated image, made from her canon description with no real person as its model.
