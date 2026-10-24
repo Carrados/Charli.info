@@ -48,6 +48,9 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
 .mark { width: 2.9rem; height: 2.9rem; color: var(--accent); flex: none; }
 .name-block { display: flex; flex-direction: column; line-height: 1.15; }
 .tagline { font-size: 0.85rem; font-weight: 400; letter-spacing: 0.02em; color: var(--soft); font-style: italic; }
+.logo-lockup { display: block; width: min(30rem, 100%); height: auto; color: var(--ink); }
+.logo-heading { margin: 0.25rem 0 2rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .prose img.section-mark { width: 14rem; max-width: 60%; margin: 0 0 1.5rem; }
 .site-header nav ul { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; list-style: none; margin: 0; padding: 0; }
 .site-header nav a { text-decoration: none; font-size: 1rem; }

@@ -16,7 +16,9 @@ They're fictional. Their work isn't.
 
 ## The name
 
-Max Carrados is the blind detective of Ernest Bramah's stories, a man who notices what sighted people miss.
+Max Carrados is the blind detective of Ernest Bramah's stories, a man who notices what sighted people miss. Hence the motto: Insight Without Sight.
+
+The Carrados logo is a double-outlined C with an open eye inside it and five rays above, beside the words CARRADOS .COM and the motto. It is drawn in code, and you can [download it as an SVG](https://carrados.com/carrados-logo.svg).
 
 ## Elsewhere
 
