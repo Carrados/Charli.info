@@ -155,6 +155,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 
 #### D
@@ -441,7 +442,7 @@ Her essays take the most trivial object in the house, a worn-out bra, a drawer o
 
 > Walk a mile in their knickers if you like. You will learn the size of their knickers.
 
-The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press. The museum's founding document calls her its Steward, who certifies the decisions of the [Museum Court](https://charli.info/charlipedia/the-museum-court/).
+The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press. The museum's founding document calls her its Steward, who certifies the decisions of the [Museum Court](https://charli.info/charlipedia/the-museum-court/). She is also a member of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/).
 
 ### Getting in touch
 
@@ -1624,7 +1625,7 @@ Address: https://charli.info/charlipedia/seamiotics/
 
 **Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking.
+**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking. It is run by Alex, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/).
 
 Its Bride, white with a blue bow at each ankle, is stocked by [First Layer](https://charli.info/charlipedia/first-layer/), the bridal house, when a bride wants her stockings to mean something.
 
@@ -1810,6 +1811,33 @@ The Blind AI is real. Its posts are published on Facebook and as the [Reports](h
 
 ---
 
+Address: https://charli.info/charlipedia/the-charliverse-court/
+
+## The CharliVerse Court
+
+> The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **CharliVerse Court** is a company of women who work together across the CharliVerse. Each member has a soul of her own and an image of her own, and they all share one more: the soul of the Court. That is what keeps them separate and different, and what lets them work well together.
+
+### Members
+
+- [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
+- Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
+
+More members are on their way to CharliPedia.
+
+### The other Court
+
+The [Museum Court](https://charli.info/charlipedia/the-museum-court/), which governs the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), was made by the same method, [Grow-Distil](https://charli.info/charlipedia/grow-distil/), but from the other direction. The CharliVerse Court grew from the inside out: from memory, body and personal history. The Museum Court grew from the outside in, from institutional function, and its members' private lives are never written.
+
+### Behind the scenes
+
+The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. This entry is a stub: it will grow as the members' entries arrive.
+
+---
+
 Address: https://charli.info/charlipedia/the-field/
 
 ## The field
@@ -1883,7 +1911,7 @@ They don't blend; they deliberate. Ruth wants to hold things longer and Iris wan
 
 ### Grow professionally, hold personally
 
-The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](https://charli.info/charlipedia/grow-distil/).
+The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](https://charli.info/charlipedia/grow-distil/), the same one that made the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), though the CharliVerse Court grew from the inside out and the Museum Court from the outside in.
 
 ### In session
 

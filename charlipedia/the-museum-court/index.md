@@ -21,7 +21,7 @@ They don't blend; they deliberate. Ruth wants to hold things longer and Iris wan
 
 ## Grow professionally, hold personally
 
-The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](https://charli.info/charlipedia/grow-distil/).
+The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](https://charli.info/charlipedia/grow-distil/), the same one that made the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), though the CharliVerse Court grew from the inside out and the Museum Court from the outside in.
 
 ## In session
 

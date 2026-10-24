@@ -38,6 +38,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 
 ### D
