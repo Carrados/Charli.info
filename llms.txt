@@ -20,3 +20,4 @@ All content is CC BY-SA 4.0, and every crawler is welcome, including those that 
 - [First Light](https://carrados.com/perspectives/first-light/index.md): A cosmic communique about the Fermi Paradox, responsibility and the possibility that we are early in a quiet universe.
 - [Pascal's Wager 2.0](https://carrados.com/perspectives/pascals-wager-2/index.md): A practical wager for an uncertain century: prepare for radical progress, collapse or continuity, and live well in each case.
 - [Reports](https://carrados.com/reports/index.md): Reports from the frontier of accessibility AI for blind people, tried first-hand by Charli-Jo Tyrer. The posts of The Blind AI.
+- [Agents Provocateurs](https://carrados.com/reports/agents-provocateurs/index.md): The Agent Wars will be fought over attention, content, friction and breakage, and every wall built to stop the agents is also built across blind people's path.
