@@ -54,6 +54,8 @@ function page(p, html) {
     return `<li><a href="${href}"${here ? ' aria-current="page"' : ''}>${esc(label)}</a></li>`;
   }).join('');
   const meta = [p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
+  // A CharliPedia entry (status: canon | idea | stub) says, under its title, what it is and that it is written from inside the world.
+  const status = p.status && cfg.statuses?.[p.status] ? `\n  <p class="entry-status"><strong>${esc(cfg.statuses[p.status])}.</strong> ${cfg.statusNote}</p>` : '';
   return `<!doctype html>
 <html lang="en-GB">
 <head>
@@ -79,7 +81,7 @@ function page(p, html) {
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
-  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}
+  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}${status}
   <div class="prose">
 ${html}
   </div>
@@ -96,6 +98,7 @@ ${html}
 function markdownMirror(p, body) {
   let out = `# ${p.title}\n\n> ${p.description}\n\n`;
   if (p.byline || p.date) out += [p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
+  if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${cfg.statusNote.replace(/<[^>]+>/g, '')}\n\n`;
   body = body.replace(/<!--[\s\S]*?-->\n?/g, '').replace(/\]\(\//g, `](${SITE}/`);
   return out + body.trim() + '\n';
 }

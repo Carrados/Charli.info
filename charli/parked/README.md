@@ -1,0 +1,6 @@
+# Parked
+
+Work waiting for Charli-Jo's decision before it goes online. Nothing here is built or published.
+Each item says what it is waiting for.
+
+- **charli.io, a chat desk that answers from the CharliVerse.** Parked 24 October 2026. Charli-Jo's personal email runs on charli.io, and nothing may risk it. When it comes back: answer only from CharliPedia, cite the entries used, say "CharliPedia doesn't say" rather than invent canon, work as a plain no-JavaScript form, and possibly offer an MCP server for agents. Built on Cloudflare (Vectorize, Workers AI, D1). Decide first: a neutral librarian voice or an in-world one. Moving charli.io's DNS to Cloudflare means copying every email record exactly, checked before and after.
