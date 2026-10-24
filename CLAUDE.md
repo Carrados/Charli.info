@@ -26,6 +26,7 @@ The CharliVerse is the world. Carrados and Blind Ant are practices. CharliPedia 
 - Identities have boundaries: keep Charli-Jo's public identity and Charlotte Joanne's authorial identity distinct; don't collapse them.
 - Real people in Carrados pieces appear only as they really were: what they published, said or did, attributed and linked. Characters can meet each other in made-up scenes, never real people. Others are named only as the source names them. When Charli-Jo has read the source themself, their account stands: don't second-guess it, but do link the source.
 - Every report with a `desk` ends, automatically, with a line saying its writer is a character who speaks for Carrados (names come from `desks` in `site.config.mjs`).
+- Big Charli is she/her. Never "it" or "its", even in passing, as in "Poppy, her expert".
 - Blind Ant's own companies and characters (Aegis Dynamics, Jessica Martinez) get blind-ant.com subdomains; correspondents get carrados.com subdomains; CharliVerse entities (fashion houses, personas like Big Charli) get charli.info subdomains when they need sites.
 
 ## Principles
