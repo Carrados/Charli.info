@@ -1,0 +1,12 @@
+{
+  "name": "charli-jo-sites",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:carrados": "node engine/build.mjs carrados",
+    "publish:carrados": "node engine/build.mjs carrados && node engine/publish.mjs carrados"
+  },
+  "dependencies": {
+    "marked": "18.1.1"
+  }
+}
