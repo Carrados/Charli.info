@@ -26,6 +26,8 @@ The three declarations are independent; permission for one purpose is never infe
 
 **Contrast.** Body text meets WCAG AAA contrast in both light and dark modes.
 
+**Delivery, from outside (24 October 2026).** Following ZIC §4.7, the live site was fetched from outside the build as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte. A live AI assistant fetched pages by address and reported them accurately. Cloudflare's AI-crawler blocking and its managed robots.txt are both switched off for this domain, so the published robots.txt is the only declaration.
+
 ## Not yet checked
 
 An end-to-end screen reader pass with NVDA, JAWS or VoiceOver on this build. Automated tools (WAVE, axe, Lighthouse) and the W3C validator against the live site. 200% text scaling.
