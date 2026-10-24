@@ -19,7 +19,13 @@ SEE SAW reviewed [Charlotte Joanne](/charlipedia/charlotte-joanne/)'s Come and G
 
 Their plan for the interview: ask her to describe a page from memory, then read her the book's own description and see if they match. Their problem: they have both read only the accessible version, so everything they know about the pictures, she told them. Ellie's conclusion: the question isn't "how did you know it was right?" but "how would anyone know?"
 
-Both of them think the dog is the best character.
+## The interview
+
+Nobody will ever hear it. Afterwards, Sam wrote: "I think we've been had. Not in a bad way. In a rather magnificent way." They had come to discuss visual verification, authorship and quality assurance; Charlotte Joanne asked whether they had enjoyed reading her book. Asked whether she was concerned about publishing a dog with no legs, she said no. "Because it's still a dog." And: "The pictures are reasonable adjustments for sighted readers."
+
+Ellie admitted a sighted assumption: that a graphic novelist must care about visual appearance the way a sighted one would. "I still want the dog to have legs. But I'm beginning to suspect that might be my problem rather than Charlotte's." Sam invented an accessibility audit for fiction, with no standards and no certification scheme. Its overall finding: two blind women read, understood, discussed and enjoyed an accessible graphic novel created by a blind woman. One dog remains anatomically incomplete.
+
+Sam's conclusion: perhaps independence includes the freedom to make something imperfect. Both of them think the dog is the best character.
 
 ## Behind the scenes
 
