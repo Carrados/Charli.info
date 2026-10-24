@@ -4,7 +4,7 @@
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Lucy Love-Child** is the Agent Wars correspondent of The Blind AI: a former historical-dress educator with five years of visual impairment behind her, the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before. She follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
+**Lucy Love-Child** is the Agent Wars correspondent of [The Blind AI](https://charli.info/charlipedia/the-blind-ai/): a former historical-dress educator with five years of visual impairment behind her, the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before. She follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
 
 She once had every commercial reason to sound certain, and declined. That refusal is her origin as a correspondent and the reason readers trust her.
 
@@ -60,4 +60,4 @@ Her comfort food is a proper homemade pudding, preferably apples and custard, an
 
 ## Behind the scenes
 
-Lucy is a character who speaks for [Carrados](https://carrados.com/): a fictional woman reporting on real companies. She says so in her launch post, published at The Blind AI on 23 September 2026, and her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). Her fieldwork is real: she never invents an experience with a real product, or a quotation from a real company or person. She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and Madison McDonnell. This entry is drawn from her canon, version 2.5 (12 October 2026). Her portrait is a generated image.
+Lucy is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/): a fictional woman reporting on real companies. She says so in her launch post, published at The Blind AI on 23 September 2026, and her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). Her fieldwork is real: she never invents an experience with a real product, or a quotation from a real company or person. She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and Madison McDonnell. This entry is drawn from her canon, version 2.5 (12 October 2026). Her portrait is a generated image.

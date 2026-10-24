@@ -4,7 +4,7 @@
 
 **An author.** This entry is about a real author, written from outside the CharliVerse. Her work is all through it.
 
-**Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://blind-ant.com/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
+**Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://charli.info/charlipedia/blind-ant/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
 
 She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to Speculative Accessibility: science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
 

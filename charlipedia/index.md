@@ -14,6 +14,7 @@ Each entry is marked at the top:
 - **An idea, not yet canon:** something being tried out. It may change or disappear.
 - **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
 - **An author:** a real person who writes the CharliVerse, described from outside it.
+- **Real:** something real, such as a practice or a publication, described from outside the CharliVerse.
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
@@ -21,6 +22,8 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+- [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
@@ -44,6 +47,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
+- [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.

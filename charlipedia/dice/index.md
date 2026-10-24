@@ -72,4 +72,4 @@ Her place of birth, her family beyond her great-grandmother and great-great-gran
 
 ## Behind the scenes
 
-dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.
+dice is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.

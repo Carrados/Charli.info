@@ -131,6 +131,7 @@ Each entry is marked at the top:
 - **An idea, not yet canon:** something being tried out. It may change or disappear.
 - **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
 - **An author:** a real person who writes the CharliVerse, described from outside it.
+- **Real:** something real, such as a practice or a publication, described from outside the CharliVerse.
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
@@ -138,6 +139,8 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+- [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
@@ -161,6 +164,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
+- [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
@@ -239,6 +243,75 @@ Big Charli is a CharliVerse persona who drops into pieces rather than belonging 
 
 ---
 
+Address: https://charli.info/charlipedia/blind-ant/
+
+## Blind Ant
+
+> Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**[Blind Ant](https://blind-ant.com/)** is an independent design fiction practice, authored and operated by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). It makes speculative worlds, stories, fictional documents, animations and artworks, and documents how they were made. Much of what CharliPedia records was first written down there.
+
+### How it works
+
+Its work is hung like an exhibition. A **Piece** is a complete work; each Piece is made of **Objects**: a story, a press release, a job advert, a cover. Every Object has a wall label, and where there is a picture or a film, the label is its description, and the description comes first. The picture follows it. Every picture at Blind Ant is drawn, painted or rendered in code; no image generator is used.
+
+Blind Ant's own companies and characters, such as [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/), can have websites of their own as subdomains of blind-ant.com, which say on every page that they are fictional. Aegis has one at [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/).
+
+### Its Pieces
+
+- [Always Six](https://blind-ant.com/pieces/always-six/)
+- [Do Androids Dream of Electric Ants?](https://blind-ant.com/pieces/do-androids-dream/)
+- [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/)
+- [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/)
+- [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/)
+- [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/)
+- [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/)
+- [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/)
+
+Everything at Blind Ant is CC BY-SA 4.0, every crawler is welcome, and every page is also published as Markdown.
+
+### In the CharliVerse
+
+Blind Ant is a practice within the CharliVerse, not the whole of it. Being fictional does not make something Blind Ant: the fashion houses [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/), [Seamiotics](https://charli.info/charlipedia/seamiotics/) and [LULU TOM](https://charli.info/charlipedia/lulu-tom/) belong to the world, though Blind Ant can publish the making of their work. Its sister practice is [Carrados](https://charli.info/charlipedia/carrados/).
+
+---
+
+Address: https://charli.info/charlipedia/carrados/
+
+## Carrados
+
+> Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**[Carrados](https://carrados.com/)** is a design non-fiction practice: real-world exploration, investigation and research into emerging AI, accessibility, agentic systems and human-AI collaboration. Its work makes claims about reality, uses evidence and is accountable for them. Its motto is *Insight Without Sight*, after Max Carrados, the blind detective of Ernest Bramah's stories, who notices what sighted people miss.
+
+It was founded by [Charli-Jo Tyrer](https://charli.info/charli-jo/) (they/them), its principal practitioner, who speaks as Carrados.
+
+### What it publishes
+
+- **Reports** from the frontier of accessibility AI, tried first-hand and written up plainly. They are also the posts of [The Blind AI](https://charli.info/charlipedia/the-blind-ai/).
+- **Papers**, including the Tyrer Framework, which treats accessibility as information integrity, and the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) (ZIC) design standard, to which charli.info, carrados.com and blind-ant.com are built.
+- **Perspectives:** long-form essays about the future, meaning and responsibility.
+
+### The correspondents
+
+Some reports are filed by characters who speak for Carrados: fictional people doing real work, whose fictional nature stays transparent. Each has a desk of her own:
+
+- [dice](https://charli.info/charlipedia/dice/), a temporal explorer, at [dice.carrados.com](https://dice.carrados.com/)
+- [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/), the Agent Wars correspondent, at [lucy.carrados.com](https://lucy.carrados.com/)
+- [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/), the Access Provocateur, at [madison.carrados.com](https://madison.carrados.com/)
+
+"They're fictional. Their work isn't."
+
+### In the CharliVerse
+
+Carrados investigates reality; its sister practice, [Blind Ant](https://charli.info/charlipedia/blind-ant/), creates design fiction. One creation can be treated by both: a fashion house can exist in the CharliVerse while a Carrados correspondent asks how you sell fashion in a world of agents.
+
+---
+
 Address: https://charli.info/charlipedia/charlotte-joanne/
 
 ## Charlotte Joanne
@@ -247,7 +320,7 @@ Address: https://charli.info/charlipedia/charlotte-joanne/
 
 **An author.** This entry is about a real author, written from outside the CharliVerse. Her work is all through it.
 
-**Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://blind-ant.com/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
+**Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://charli.info/charlipedia/blind-ant/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
 
 She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to Speculative Accessibility: science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
@@ -414,7 +487,7 @@ Her place of birth, her family beyond her great-grandmother and great-great-gran
 
 ### Behind the scenes
 
-dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.
+dice is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.
 
 ---
 
@@ -693,7 +766,7 @@ Address: https://charli.info/charlipedia/lucy-love-child/
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Lucy Love-Child** is the Agent Wars correspondent of The Blind AI: a former historical-dress educator with five years of visual impairment behind her, the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before. She follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
+**Lucy Love-Child** is the Agent Wars correspondent of [The Blind AI](https://charli.info/charlipedia/the-blind-ai/): a former historical-dress educator with five years of visual impairment behind her, the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before. She follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
 
 She once had every commercial reason to sound certain, and declined. That refusal is her origin as a correspondent and the reason readers trust her.
 
@@ -749,7 +822,7 @@ Her comfort food is a proper homemade pudding, preferably apples and custard, an
 
 ### Behind the scenes
 
-Lucy is a character who speaks for [Carrados](https://carrados.com/): a fictional woman reporting on real companies. She says so in her launch post, published at The Blind AI on 23 September 2026, and her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). Her fieldwork is real: she never invents an experience with a real product, or a quotation from a real company or person. She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and Madison McDonnell. This entry is drawn from her canon, version 2.5 (12 October 2026). Her portrait is a generated image.
+Lucy is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/): a fictional woman reporting on real companies. She says so in her launch post, published at The Blind AI on 23 September 2026, and her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). Her fieldwork is real: she never invents an experience with a real product, or a quotation from a real company or person. She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and Madison McDonnell. This entry is drawn from her canon, version 2.5 (12 October 2026). Her portrait is a generated image.
 
 ---
 
@@ -828,7 +901,7 @@ When she's upset, leave her alone for twenty minutes, then make her a coffee and
 
 ### Behind the scenes
 
-Madison is a character who speaks for [Carrados](https://carrados.com/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/). This entry is drawn from her canon, version 1.9 (13 October 2026). Her portrait is a generated image, made from her canon description with no real person as its model.
+Madison is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/). This entry is drawn from her canon, version 1.9 (13 October 2026). Her portrait is a generated image, made from her canon description with no real person as its model.
 
 ---
 
@@ -1146,6 +1219,24 @@ From 16 to 23 January 2034 a blocking high settled over the North Sea and the wi
 ### Behind the scenes
 
 Skerry Alpha appears throughout [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant. The Long Calm is told in its operations log.
+
+---
+
+Address: https://charli.info/charlipedia/the-blind-ai/
+
+## The Blind AI
+
+> The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Blind AI** publishes dispatches from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. Its mark is an eye outlined twice in pink, with a turquoise pupil inside a sunburst of fine lines, and circuit traces branching out round it like eyelashes made of wiring.
+
+On 23 September 2026 it took on [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) as its Agent Wars correspondent. Her first question: "If the customer sent me, why am I not allowed in?" At The Blind AI, what is above Lucy's hem is her business.
+
+### Behind the scenes
+
+The Blind AI is real. Its posts are published on Facebook and as the [Reports](https://carrados.com/reports/) of [Carrados](https://charli.info/charlipedia/carrados/), and its logo heads the correspondents' desks. Lucy, who works for it, is a character who speaks for Carrados.
 
 ---
 
