@@ -17,6 +17,7 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, robots.txt (every crawler welcome) and a sitemap.
 - Frontmatter: `title`, `description` (one sentence), and optionally `date`, `order`, `byline`. `<!-- list -->` in a folder's index lists that folder's pages (by order, then newest first).
 - Pictures and documents sit beside pages in `content/` and are published at the same path. Site settings (name, address, navigation, footer) are in `<site>/site.config.mjs`; styles in `<site>/public/styles.css`.
+- A Report's `date` is the date its file was last saved (a Word document's modified date, or the file's date on her computer). If there's no file, as with pasted text, use the date it's sent, and say so.
 - To add a Report: a Markdown file in `carrados/content/reports/` with a `date`, and `desk: <name>` and a `byline` if a character filed it.
 
 ## Parked work
