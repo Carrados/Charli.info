@@ -67,6 +67,8 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 - carrados.com is a Cloudflare zone on Lottie's account (registered at IONOS). carrados.com and www.carrados.com are custom domains of the `carrados` Worker, which sends www to the plain address. Preview: carrados.charlijotyrer.workers.dev.
 - Its email stays with IONOS: never touch the MX, SPF, DKIM, DMARC, autodiscover or domainconnect records.
+- charli.info is a Cloudflare zone on Lottie's account. Since 24 October 2026, charli.info and www.charli.info are custom domains of the `charli` Worker, which sends www to the plain address. dev.charli.info serves the same site. They replaced GitHub Pages, whose records were A 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153, plus CNAME www → charliverse.github.io.
+- charli.info's email is Google: never touch its MX, SPF, google-site-verification or _dmarc records. The iceberg and seamiotics subdomains (A, AAAA, MX and DKIM at IONOS) are separate and stay as they are. The old GitHub Pages site (charliverse/charli.info) is still there: retiring it is Charli-Jo's call.
 
 ## Where the old site came from
 
