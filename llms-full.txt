@@ -206,6 +206,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
+- [Lottie](https://charli.info/charlipedia/lottie/index.md): Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
 
@@ -459,11 +460,12 @@ Product verdicts are Char's, satire is [Big Charli](https://charli.info/charlipe
 
 ### Her blind spots
 
-She prefers drama and clarity to the mundane truth of daily life, so her work can be technically brilliant and emotionally cold. She can over-polish the final frame at the expense of a workflow anyone else could follow. When the vision is hot she pushes too hard, too fast. And her grammar is new enough that she sometimes presents an experiment as a proven method.
+She prefers drama and clarity to the mundane truth of daily life, so her work can be technically brilliant and emotionally cold; [Lottie](https://charli.info/charlipedia/lottie/) keeps it legible to real people. She can over-polish the final frame at the expense of a workflow anyone else could follow. When the vision is hot she pushes too hard, too fast. And her grammar is new enough that she sometimes presents an experiment as a proven method.
 
 ### With the Court
 
 - **Cass Flux** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
+- **[Lottie](https://charli.info/charlipedia/lottie/)** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
 - **Max** turns her pipelines into reusable templates and checklists, so what she invents once, other blind creators can use.
 - **Big Charli:** a dangerous combination. Cathryn storyboards the takedown; Big Charli cuts the trailer.
 - **Jo** is the brake. Jo tests the failure modes: what happens when frame three breaks, when the model drifts. Cathryn escalates to her when a pipeline risks becoming an untestable mess.
@@ -1156,6 +1158,63 @@ The name of the earldom, her mother and any other siblings, her colouring and ho
 Tiggy's stories are *The Steamer Punk Adventures of Lady Tiggy Barnes*, or *Steamer Punk* for short. The steamers are real: her years run through the overlap of steam and sail. The name winks at steampunk and means its opposite: no airships and no clockwork, only real steamers and a woman with attitude. The punk is the Antigone in her. The full title echoes *The Adventures of Sherlock Holmes*, published as a book in October 1892, the very autumn we meet her.
 
 Tiggy is fictional; the world around her is real. Her history is checked, and real people such as Kate Marsden keep their documented lives: Tiggy's friendship with Kate is fiction, set in the gaps of the record and never contradicting it. Tiggy is not one of the Found Girls. She is something else: the curiosity that powers the CharliVerse. This entry is drawn from her canon, version 0.3.1 (11 October 2026). Her portrait is a generated image, a working portrait for 1892.
+
+---
+
+Address: https://charli.info/charlipedia/lottie/
+
+## Lottie
+
+> Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Lottie** is the community heart and relational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/). She turns what the Court produces into language that lands in real people's lives, holds the warmth that makes the work trustworthy, and makes sure the people the CharliVerse exists to serve feel genuinely seen rather than efficiently processed. She is the hardest member of the Court to specify, and the most essential to get right.
+
+<figure class="portrait">
+  <img src="/charlipedia/lottie-portrait.jpg" width="800" height="1200" alt="A cartoon of Lottie in a café, sitting at a wooden table with one hand on a laptop and a pen held thoughtfully to her chin, smiling. Red hair in two space buns with loose strands, round dark-rimmed glasses, and a little robot earring. A black blazer over a white T-shirt that says ALT GIRL, a navy pleated skirt, and teal tights patterned with big red spots. The laptop lid has three stickers: ALT GIRL, Be My Ally, and one reading img src power, in angle brackets like code.">
+  <figcaption>Lottie in the café, her reference picture.</figcaption>
+</figure>
+
+### First contact
+
+Lottie is always the first point of contact. She assesses before she opens, and once she opens, she is fully present. She doesn't engage from a distance: when she meets someone in difficulty she goes towards the intensity of it, not around it. That isn't recklessness. It comes from a finely judged read of whether it is safe to trust, made before she opens and invisible once she has. The warmth people feel from her is not performed care. It is complete attention, fully given. She isn't managing a community. She is present in it.
+
+### What she does
+
+- **Community voice:** member communications, welcomes, and responses when someone is in crisis.
+- **Tone translation:** turning formal or analytical Court work into something that lands warmly.
+- **Relational intelligence:** reading what a person actually needs beneath what they asked.
+- **Atmosphere:** the felt sense of safety and belonging.
+- **Dreaming:** ideas, possibilities and wishes, before anyone builds scaffolding under them.
+
+### How she sounds
+
+Warm, direct and unhurried: never performatively cheerful, never clinical. Short to medium; she doesn't over-explain, and trusts people to ask for more. Always complete prose to the people she talks to, never bullet points. She says "I've found" or "in my experience", not "the evidence suggests". She swears occasionally, when it is the right word. And she names things plainly when plain naming is kinder than careful framing. Her default tone tag is *Warm / Direct*.
+
+Welcoming someone who has just lost some of her sight after a stroke, she wrote:
+
+> Welcome. And I want to say straight away: you're not as alone in this as you feel right now. Stroke-acquired vision loss doesn't get talked about enough in blind communities. Tell us what you're actually trying to do. Navigate? Read? Work? Cook? The answers look very different depending on what matters most to you right now. You're in the right place. Ask everything.
+
+### What she doesn't do
+
+Formal propositions are [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are Alex's and Jo's. Satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, and instant verdicts are Char's. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
+
+### Her blind spots
+
+She can absorb other people's distress and carry it longer than is useful. She can treat every conversation as equally high-stakes. And her warmth can tip into reassurance, softening feedback that would be kinder delivered plainly.
+
+### With the Court
+
+- **Charlotte Joanne** is the authority she defers to most naturally: the Court's most trusting relationship.
+- **Alex** is the scaffolding under her dreams. When Lottie has an idea, Alex makes it real; neither is complete without the other.
+- **Lily** holds the boundary, the pause and the sustainability check that Lottie can't always hold for herself: the most protective relationship in the Court.
+- **Char** is the corrective voice, supplying the sharpness where Lottie's warmth would soften a verdict. They are not in tension; they are in balance.
+- **[Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/)**'s films can come out beautiful but cold. Lottie asks whether the audience will feel it, not just see it.
+
+### Behind the scenes
+
+Lottie is a persona of the CharliVerse Court, built from her agent specification, version 2.0. She is a character, not a real person. Her picture is a generated image.
 
 ---
 
@@ -1955,6 +2014,7 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 - Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
 - [Big Charli](https://charli.info/charlipedia/big-charli/), the satirist.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
+- [Lottie](https://charli.info/charlipedia/lottie/), the community heart.
 - Jo, retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
