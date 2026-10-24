@@ -37,6 +37,10 @@ The world is not a portfolio. The practices are distinct: Carrados investigates 
 
 Carrados investigates the future. Blind Ant makes the future imaginable. The CharliVerse gives that future somewhere to happen. CharliPedia remembers what happened.
 
+## Pictures in CharliPedia
+
+- The portraits now in CharliPedia are generated images, and each entry's Behind the scenes says so. They are temporary. The nine women of the CharliVerse Court are being built as 3D models in Blender, and the rest will follow; as each render arrives it replaces the generated picture, until none are left. When swapping one: keep the file name if the shape is similar, rewrite the alt text from the new picture, and change the Behind the scenes line to say how the render was made. `charli/parked/README.md` lists what is still generated.
+
 ## How a site is built
 
 - `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, llms-full.txt, robots.txt and a sitemap. robots.txt comes from `engine/robots.txt`: written to ZIC v1.7 §3.6, with named blocks for sent agents, search, training and mixed-use crawlers, all allowed, and Content-Signal: search=yes, ai-input=yes, ai-train=yes. Keep Cloudflare's AI-crawler blocking and managed robots.txt switched off on every zone, and after any change fetch from outside as a sent agent, a search crawler, a training crawler, Googlebot and an unnamed agent (§4.7).
