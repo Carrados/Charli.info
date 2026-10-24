@@ -164,6 +164,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+- [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
@@ -272,6 +273,7 @@ Blind Ant's own companies and characters, such as [Aegis Dynamics](https://charl
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/)
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/)
 - [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/)
+- [SEE SAW](https://blind-ant.com/pieces/see-saw/)
 
 Everything at Blind Ant is CC BY-SA 4.0, every crawler is welcome, and every page is also published as Markdown.
 
@@ -338,6 +340,7 @@ She is blind, and has been for forty years, as she writes in her essays. She cal
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/): a fable about [Poppy](https://charli.info/charlipedia/poppy-petticoats/), a blind witch, and a wand with inaccessible instructions.
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/): Poppy at Aegis Dynamics.
 - [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/): a gravel car park, a friend with a guide dog, and [J2O2](https://charli.info/charlipedia/j2o2/), who stays in the boot.
+- [SEE SAW](https://blind-ant.com/pieces/see-saw/): a podcast you will never hear, whose presenters want to know how she made her graphic novel. See [SEE SAW](https://charli.info/charlipedia/see-saw/).
 
 ### Street Philosophy
 
@@ -1223,6 +1226,37 @@ Address: https://charli.info/charlipedia/seamiotics/
 ### Behind the scenes
 
 Seamiotics belongs to the CharliVerse. By house rule, its name always appears with its founding line, "every seam means something". Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/see-saw/
+
+## SEE SAW
+
+> SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**SEE SAW: Independence in the Balance** is a podcast presented by two blind women. It sounds like a slightly old-fashioned television review programme, but its subject is one of the most important questions of the coming decades: when technology can do almost anything for us, what does independence actually mean?
+
+### The presenters
+
+- **Eleanor "Ellie" Seeley**, 54. Blind since childhood. Traditional accessibility, dry humour, fiercely practical.
+- **Samantha "Sam" Sawyer**, 46. Lost her sight in her thirties. A [PostAccessibility](https://charli.info/charlipedia/postaccessibility/) enthusiast, playful provocateur and incurable explorer.
+
+Twelve years of friendship. Two different philosophies. A shared intolerance of accessibility bullshit. The deliciously cheesy coincidence of their surnames is never, ever explained.
+
+### Charlotte Joanne
+
+SEE SAW reviewed [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s Come and Get Me stories as an example of [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/), and spent most of the episode arguing about whether independence means doing things yourself or deciding when you'd rather not. When she turned the stories into a graphic novel, they invited her on. She said yes, and answered six questions without telling them anything.
+
+Their plan for the interview: ask her to describe a page from memory, then read her the book's own description and see if they match. Their problem: they have both read only the accessible version, so everything they know about the pictures, she told them. Ellie's conclusion: the question isn't "how did you know it was right?" but "how would anyone know?"
+
+Both of them think the dog is the best character.
+
+### Behind the scenes
+
+SEE SAW is never heard. It is always off screen: a reverse podcast, a making-of told entirely through what happens around the show. It appears in [SEE SAW](https://blind-ant.com/pieces/see-saw/), a Piece by Charlotte Joanne at Blind Ant, as a listing and a thread of shared notes. Its home, if it ever needs one, is seesaw.charli.info.
 
 ---
 

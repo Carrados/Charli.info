@@ -1,0 +1,26 @@
+# SEE SAW
+
+> SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**SEE SAW: Independence in the Balance** is a podcast presented by two blind women. It sounds like a slightly old-fashioned television review programme, but its subject is one of the most important questions of the coming decades: when technology can do almost anything for us, what does independence actually mean?
+
+## The presenters
+
+- **Eleanor "Ellie" Seeley**, 54. Blind since childhood. Traditional accessibility, dry humour, fiercely practical.
+- **Samantha "Sam" Sawyer**, 46. Lost her sight in her thirties. A [PostAccessibility](https://charli.info/charlipedia/postaccessibility/) enthusiast, playful provocateur and incurable explorer.
+
+Twelve years of friendship. Two different philosophies. A shared intolerance of accessibility bullshit. The deliciously cheesy coincidence of their surnames is never, ever explained.
+
+## Charlotte Joanne
+
+SEE SAW reviewed [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s Come and Get Me stories as an example of [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/), and spent most of the episode arguing about whether independence means doing things yourself or deciding when you'd rather not. When she turned the stories into a graphic novel, they invited her on. She said yes, and answered six questions without telling them anything.
+
+Their plan for the interview: ask her to describe a page from memory, then read her the book's own description and see if they match. Their problem: they have both read only the accessible version, so everything they know about the pictures, she told them. Ellie's conclusion: the question isn't "how did you know it was right?" but "how would anyone know?"
+
+Both of them think the dog is the best character.
+
+## Behind the scenes
+
+SEE SAW is never heard. It is always off screen: a reverse podcast, a making-of told entirely through what happens around the show. It appears in [SEE SAW](https://blind-ant.com/pieces/see-saw/), a Piece by Charlotte Joanne at Blind Ant, as a listing and a thread of shared notes. Its home, if it ever needs one, is seesaw.charli.info.
