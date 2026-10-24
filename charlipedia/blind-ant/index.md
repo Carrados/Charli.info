@@ -22,6 +22,7 @@ Blind Ant's own companies and characters, such as [Aegis Dynamics](https://charl
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/)
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/)
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/)
+- [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/)
 
 Everything at Blind Ant is CC BY-SA 4.0, every crawler is welcome, and every page is also published as Markdown.
 

@@ -152,6 +152,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [Haar Compute](https://charli.info/charlipedia/haar-compute/index.md): Haar Compute is the Aberdeen company that turned North Sea oil platforms into AI training rigs, and built the Dyson Shoal.
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
+- [J2O2](https://charli.info/charlipedia/j2o2/index.md): J2O2 is a Glide, a two-wheeled guiding robot, orange and white and full of bubbles, who is excellent at high streets and spends one afternoon in a car boot.
 - [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
 - [Kelvin](https://charli.info/charlipedia/kelvin/index.md): Kelvin is Britain's national foundation model, trained on the Dyson Shoal in 2041 and the first model with more than a quadrillion parameters.
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
@@ -164,6 +165,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
+- [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
@@ -269,6 +271,7 @@ Blind Ant's own companies and characters, such as [Aegis Dynamics](https://charl
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/)
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/)
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/)
+- [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/)
 
 Everything at Blind Ant is CC BY-SA 4.0, every crawler is welcome, and every page is also published as Markdown.
 
@@ -322,7 +325,7 @@ Address: https://charli.info/charlipedia/charlotte-joanne/
 
 **Charlotte Joanne** is a writer and the author and operator of [Blind Ant](https://charli.info/charlipedia/blind-ant/), a design fiction practice: speculative worlds, stories, fictional documents and artworks, and how they were made. Much of what CharliPedia records was first written down by her.
 
-She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to Speculative Accessibility: science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
+She is blind, and has been for forty years, as she writes in her essays. She calls the genre her stories belong to [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/): science fiction that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
 ### Her work at Blind Ant
 
@@ -334,6 +337,7 @@ She is blind, and has been for forty years, as she writes in her essays. She cal
 - [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/): thought experiments run out of a knicker drawer.
 - [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/): a fable about [Poppy](https://charli.info/charlipedia/poppy-petticoats/), a blind witch, and a wand with inaccessible instructions.
 - [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/): Poppy at Aegis Dynamics.
+- [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/): a gravel car park, a friend with a guide dog, and [J2O2](https://charli.info/charlipedia/j2o2/), who stays in the boot.
 
 ### Street Philosophy
 
@@ -653,6 +657,26 @@ Asked whether she skis: "Badly. My wife's teaching me."
 ### Behind the scenes
 
 Isla Leask appears at the end of "Dyson Shoal", the last story in [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/j2o2/
+
+## J2O2
+
+> J2O2 is a Glide, a two-wheeled guiding robot, orange and white and full of bubbles, who is excellent at high streets and spends one afternoon in a car boot.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**J2O2** is a Glide: two wheels, a telescoping handle, and a manner best described as keen. Nudge it forward and it simply goes, steering round the world's clutter as though clutter were a personal affront. It brakes for kerbs, hums at waypoints, and waits at the foot of stairs to be carried, like a small dignitary. Its owner named it J2O2 because it is orange and white and full of bubbles, and because R2D2 was taken.
+
+It arrived on a Tuesday. On its first Saturday it made the high street an itinerary: past the untagged A-boards, straight to the greengrocer's door, and two inches short of a pushchair whose owner apologised to the robot.
+
+At the café car park, with eighty-nine per cent charge and a firmware update it was excited about, it stayed in the boot while its owner phoned her friend to come and get her. She told him it had run out of battery. It was the eleventh of June; she blamed the cold. J2O2 was magnanimous about it.
+
+### Behind the scenes
+
+J2O2 appears in "Come and Get Me, Part Two", part of [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. The Glide is a real device, made by [Glidance](https://glidance.io/).
 
 ---
 
@@ -1223,6 +1247,22 @@ From 16 to 23 January 2034 a blocking high settled over the North Sea and the wi
 ### Behind the scenes
 
 Skerry Alpha appears throughout [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), by Charlotte Joanne at Blind Ant. The Long Calm is told in its operations log.
+
+---
+
+Address: https://charli.info/charlipedia/speculative-accessibility/
+
+## Speculative Accessibility
+
+> Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Speculative Accessibility** is the name [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) uses for the genre her stories belong to: science fiction that looks at how technology built for the margins ends up redesigning the world for everyone. Accessibility technologies have a habit of escaping their intended use; Speculative Accessibility follows them out.
+
+It runs from satire to comfort. In [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), what starts as a weapon becomes a witness. In [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/), a blind woman with a robot that could cross the gravel leaves it in the boot and phones her friend instead, because independence includes choosing when to use the machine. In [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/) and [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), [the field](https://charli.info/charlipedia/the-field/) and [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/)'s sonification begin as accommodations and end up as the way everyone works.
+
+In the CharliVerse, critics have noticed. The Sunday supplement "When the Weapon Becomes the Witness" named the genre in DeathBot 2000, and a five-star review, "From Battlefield to Biscuits", called Come and Get Me its quiet revolution: "If this is the future of Speculative Accessibility, please give us the full series."
 
 ---
 
