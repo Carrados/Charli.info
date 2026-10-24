@@ -1,0 +1,53 @@
+# General AI Assistants
+
+> Conversation, explanation, writing, research and general assistance.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Conversation, explanation, writing, research and general assistance.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+## What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+## The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+## Starting door for Module 1
+
+[Open chat.com](https://chat.com/). This short address currently redirects to ChatGPT.
+
+ChatGPT is named here as a low-friction starting door, not as a recommendation over other assistants. The durable course lessons do not depend on it.
+
+OpenAI currently says people in the UK can try ChatGPT without creating an account. Without an account, only one conversation is available at a time and it is not saved. Creating or signing into an account may take additional time and may involve an email code or another verification step. OpenAI says phone verification is no longer required for ordinary ChatGPT account creation.
+
+**Link and account information verified:** 5 August 2026.
+
+## Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+## Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+## About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility and conformance statement — The CharliVerse</title>
+<meta name="description" content="The ZIC conformance statement for charli.info: what is claimed, what was checked, what was not, and any known defects, stated honestly.">
+<meta name="color-scheme" content="light dark">
+<meta name="dcterms.license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="canonical" href="https://charli.info/accessibility/">
+<link rel="alternate" type="text/markdown" href="/accessibility/index.md" title="This page as Markdown">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="Accessibility and conformance statement">
+<meta property="og:description" content="The ZIC conformance statement for charli.info: what is claimed, what was checked, what was not, and any known defects, stated honestly.">
+<meta property="og:url" content="https://charli.info/accessibility/">
+<meta property="og:site_name" content="The CharliVerse">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <a class="site-name" href="/"><span class="name-block"><span class="name">The CharliVerse</span></span></a>
+  <nav aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/charli-jo/">Charli-Jo</a></li><li><a href="/training/">Training</a></li><li><a href="/accessibility/" aria-current="page">Accessibility</a></li></ul></nav>
+</header>
+<main id="main">
+  <h1>Accessibility and conformance statement</h1>
+  <div class="prose">
+<p><strong>Site:</strong> charli.info</p>
+<p><strong>Publisher:</strong> Charli-Jo Tyrer</p>
+<p><strong>Statement date:</strong> 24 October 2026</p>
+<p>A conformance claim is a statement made to a reader who cannot see inside the build, and its only value is that the reader can check it. Everything below is checkable, and the section on what was not checked is as much a part of the claim as the sections on what was.</p>
+<h2 id="the-claim">The claim</h2>
+<p>This site is built to the <a href="https://carrados.com/papers/zic-design-standard/">Zero Information Casualty</a> standard, version 1.5.</p>
+<p>Sent agents: served. Search indexing: permitted. Model training: permitted.</p>
+<p>The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in <a href="/robots.txt">/robots.txt</a> and <a href="/llms.txt">/llms.txt</a>. Every page is also published as Markdown, at its address plus index.md.</p>
+<h2 id="what-was-checked">What was checked</h2>
+<p><strong>Every page, at every build.</strong> Exactly one h1, declared document language, a skip link as the first focusable element, alt text on every image, a unique title and description, a canonical address, and inclusion in the sitemap. The build refuses a page with a stray top-level heading.</p>
+<p><strong>Layout.</strong> Every page was rendered at phone width (375 pixels) with no sideways scrolling, and at desktop width.</p>
+<p><strong>Contrast.</strong> Body text meets WCAG AAA contrast in both light and dark modes.</p>
+<h2 id="not-yet-checked">Not yet checked</h2>
+<p>An end-to-end screen reader pass with NVDA, JAWS or VoiceOver on this build. Automated tools (WAVE, axe, Lighthouse) and the W3C validator against the live site. 200% text scaling.</p>
+<p>Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.</p>
+<h2 id="known-defects">Known defects</h2>
+<p>None known. When one is found, it is listed here until it is fixed.</p>
+<h2 id="beyond-the-claim">Beyond the claim</h2>
+<p>ZIC secures the meaning of the page and its delivery. It does not claim to serve every access need: cognitive load, plain-language alternatives and motor accessibility, among others, belong to standards written by those qualified to specify them. If something here fails to reach you, that is information the publisher needs and did not have. The site&#39;s source is public at <a href="https://github.com/CharliJoTyrer/Charli.info">github.com/CharliJoTyrer/Charli.info</a>, where you can raise an issue.</p>
+
+  </div>
+</main>
+<footer class="site-footer">
+  <p>The CharliVerse is the world. <a href="https://carrados.com/">Carrados</a> and <a href="https://blind-ant.com/">Blind Ant</a> are practices within it. Made by Charli-Jo Tyrer.</p>
+  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="/accessibility/index.md">this page as Markdown</a>.</p>
+</footer>
+</body>
+</html>
