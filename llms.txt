@@ -2,7 +2,7 @@
 
 > Carrados is the accessibility and agent-first design work of Charli-Jo Tyrer, developing systems that preserve meaning across people, interfaces and AI agents.
 
-Carrados publishes the design non-fiction of Charli-Jo Tyrer: true things, sometimes told through invented voices. Charli-Jo speaks as Carrados; some reports are filed by characters who speak for it (dice, Lucy Love-Child, Madison McDonnell). They are fictional; their work is not. It is her accessibility and agent-first design work: the Tyrer Framework, the Zero Information Casualty (ZIC) standard, essays, and Reports on accessibility AI for blind people. Her design fiction is at https://blind-ant.com/ and her own site is https://charli.info/.
+Carrados publishes the design non-fiction of Charli-Jo Tyrer: true things, sometimes told through invented voices. Charli-Jo speaks as Carrados; some reports are filed by characters who speak for it (dice, Lucy Love-Child, Madison McDonnell). They are fictional; their work is not. Charli-Jo Tyrer uses they/them. It is their accessibility and agent-first design work: the Tyrer Framework, the Zero Information Casualty (ZIC) standard, essays, and Reports on accessibility AI for blind people. Their design fiction is at https://blind-ant.com/ (under the pen name Charlotte Joanne), and the CharliVerse, the world it all belongs to, is at https://charli.info/.
 
 All content is CC BY-SA 4.0, and every crawler is welcome, including those that train models. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.
 
