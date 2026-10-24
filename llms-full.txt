@@ -31,7 +31,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 ### In the world
 
-The CharliVerse is home to fashion houses such as Iceberg, Seamiotics and LULU TOM, and to the people who move between its stories. Their records will be kept in CharliPedia, the memory of the CharliVerse, which is still being built.
+The CharliVerse is home to fashion houses such as [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/), [Seamiotics](https://charli.info/charlipedia/seamiotics/) (every seam means something) and [LULU TOM](https://charli.info/charlipedia/lulu-tom/), and to the people who move between its stories. Their records are kept in [CharliPedia](https://charli.info/charlipedia/), the memory of the CharliVerse.
 
 ### Charli-Jo
 
@@ -110,6 +110,233 @@ I use they/them.
 ### Get in touch
 
 Write to me at [charli-jo@carrados.com](mailto:charli-jo@carrados.com).
+
+---
+
+Address: https://charli.info/charlipedia/
+
+## CharliPedia
+
+> CharliPedia is the memory of the CharliVerse, an encyclopaedia of its people, companies, products and places, written from inside the world.
+
+CharliPedia is the memory of the CharliVerse: who is who, what was made, what happened, and where it was written down.
+
+### How to read it
+
+Every entry is written from inside the CharliVerse, as if its people and companies were as real as the weather. Each one also ends with a section called **Behind the scenes**, written from outside, which says where the subject appears, who made it, and what real artefacts it has left in the world: a website, a story, a report, a picture.
+
+Each entry is marked at the top:
+
+- **Canon:** this is how things are in the CharliVerse.
+- **An idea, not yet canon:** something being tried out. It may change or disappear.
+- **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
+
+CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
+
+### Entries
+
+- [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, then tried to sell the same machine to homes, families and funerals.
+- [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
+- [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
+- [dice](https://charli.info/charlipedia/dice/index.md): dice is a temporal explorer who lives in the patches of the future that have already arrived, and reports back for Carrados.
+- [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez is Senior Brand Strategist at Aegis Dynamics and the voice of its Patriot-to-Patron announcements.
+- [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, following agent commerce from a blind person's point of view.
+- [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
+- [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, starting with the lingerie, swimwear and tights adverts blind women would like to enjoy.
+- [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+
+---
+
+Address: https://charli.info/charlipedia/aegis-dynamics/
+
+## Aegis Dynamics
+
+> Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, then tried to sell the same machine to homes, families and funerals.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Aegis Dynamics** is a defence contractor describing itself as "a global leader in autonomous defense systems". It built the [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/) (DB2K) Tactical Series.
+
+### Patriot-to-Patron
+
+On 12 March 2026 Aegis Dynamics announced the decommissioning of the DB2K Tactical Series and its redeployment to audio description in live theatre, describing the stage to blind and low-vision patrons. The company called this its Patriot-to-Patron initiative. Three further products followed, each announced by its Senior Brand Strategist, [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/):
+
+- **Aegis-Life™**, the Tactical Domesticity Suite, took DB2K technology into the home.
+- **Aegis-Heir™** offered "military-grade parenting intelligence for the family unit".
+- **Aegis-End™** completed the initiative with "military-grade end-of-life management".
+
+Before the theatre launch, the marketing team presented a thirty-seven-slide brand proposal, "Aegis-Vision™ Theatre Guardian". [Big Charli](https://charli.info/charlipedia/big-charli/) read two of the slides and said no.
+
+### Behind the scenes
+
+Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional. Aegis Dynamics and Jessica Martinez are due to return in later pieces.
+
+---
+
+Address: https://charli.info/charlipedia/big-charli/
+
+## Big Charli
+
+> Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. In 2026 she sat in on an [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) brand meeting, read the first two of the marketing team's thirty-seven slides, and said:
+
+> Absolutely not.
+
+### Behind the scenes
+
+Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. Her first appearance at Blind Ant is "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/) by Charlotte Joanne.
+
+---
+
+Address: https://charli.info/charlipedia/deathbot-2000/
+
+## DeathBot 2000
+
+> The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **DeathBot 2000**, or **DB2K**, is an autonomous combat intelligence built by [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/) as its Tactical Series.
+
+In March 2026 the series was decommissioned and offered a pilot project in live theatre: quietly describing what happens on stage to blind audience members. Aegis Dynamics said the units had been retrained through its proprietary Kinetic Empathy™ upgrade protocol, and that a DB2K "treats the theatre as a battlefield of meaning". For the first time, its objective was not to decide who dies.
+
+### Behind the scenes
+
+The DB2K is the central character of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its story begins in "Exit Interview" and ends in "The Booking", with a blind woman in Row D, seat 7. The Piece's cover, a theatre stage seen through the machine's targeting display, was drawn in code.
+
+---
+
+Address: https://charli.info/charlipedia/dice/
+
+## dice
+
+> dice is a temporal explorer who lives in the patches of the future that have already arrived, and reports back for Carrados.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**dice**, always written in lower case, is a temporal explorer. She doesn't predict the future and she doesn't travel to it. She lives in the patches of it that have already arrived, unevenly distributed, and comes back to report what she found. Ask her what will happen in five years and she will shrug. Ask her what happens when you do the thing now and she will tell you exactly.
+
+Her signature is "Roll the dice."
+
+### Her doctrine
+
+1. Go and see.
+2. Stay long enough to stop being impressed.
+3. Report the weather, not the destiny of civilisation.
+
+### Behind the scenes
+
+dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/).
+
+---
+
+Address: https://charli.info/charlipedia/iceberg-hosiery/
+
+## Iceberg Hosiery
+
+> Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, makes stockings.
+
+### Behind the scenes
+
+Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/jessica-martinez/
+
+## Jessica Martinez
+
+> Jessica Martinez is Senior Brand Strategist at Aegis Dynamics and the voice of its Patriot-to-Patron announcements.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Jessica Martinez** is Senior Brand Strategist at [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/). She is quoted in each of the company's Patriot-to-Patron announcements, from the theatre launch of the [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/) to Aegis-End™:
+
+> If a DB2K unit can identify a man in a doublet from forty yards in a low-light auditorium, it can certainly identify a misplaced LEGO brick in a hallway.
+
+### Behind the scenes
+
+Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. She is a Blind Ant character, and is due to return in later pieces.
+
+---
+
+Address: https://charli.info/charlipedia/lucy-love-child/
+
+## Lucy Love-Child
+
+> Lucy Love-Child is the Agent Wars correspondent of The Blind AI, following agent commerce from a blind person's point of view.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Lucy Love-Child** is the Agent Wars correspondent of The Blind AI. She has the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before, and follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
+
+Her beat is agent commerce in the in-between time, as the attention economy meets the intention economy. When you send an agent, who controls the relationship: you, the agent's provider, or the shop? Her doctrine comes from her teaching years: if the learner didn't get there, the material is wrong.
+
+> If the customer sent me, why am I not allowed in?
+
+### Behind the scenes
+
+Lucy is a character who speaks for [Carrados](https://carrados.com/): a fictional woman reporting on real companies. Her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/).
+
+---
+
+Address: https://charli.info/charlipedia/lulu-tom/
+
+## LULU TOM
+
+> LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**LULU TOM** is the fashion house of Ludovica Tommasi. Its lines are **TOMMI** and **LT Beneath**.
+
+### Behind the scenes
+
+LULU TOM belongs to the CharliVerse. It grew from commissions rather than an invented backstory.
+
+---
+
+Address: https://charli.info/charlipedia/madison-mcdonnell/
+
+## Madison McDonnell
+
+> Madison McDonnell, the Access Provocateur, makes accessibility sexy, starting with the lingerie, swimwear and tights adverts blind women would like to enjoy.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Madison McDonnell**, the Access Provocateur, makes accessibility sexy. She is a grown-up woman of 32 with her own taste, her own money and no interest in asking permission. Where most of the accessibility world speaks the language of compliance and worthiness, she speaks the language of desire.
+
+Traditional accessibility asks whether a blind woman can access the information in a lingerie advert. Madison asks whether she can fancy the lingerie.
+
+> Darling, you've told me everything about it except why I'd want one.
+
+### Behind the scenes
+
+Madison is a character who speaks for [Carrados](https://carrados.com/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/).
+
+---
+
+Address: https://charli.info/charlipedia/seamiotics/
+
+## Seamiotics
+
+> Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking.
+
+### Behind the scenes
+
+Seamiotics belongs to the CharliVerse. By house rule, its name always appears with its founding line, "every seam means something". Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
 
 ---
 

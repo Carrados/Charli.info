@@ -19,7 +19,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 ## In the world
 
-The CharliVerse is home to fashion houses such as Iceberg, Seamiotics and LULU TOM, and to the people who move between its stories. Their records will be kept in CharliPedia, the memory of the CharliVerse, which is still being built.
+The CharliVerse is home to fashion houses such as [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/), [Seamiotics](https://charli.info/charlipedia/seamiotics/) (every seam means something) and [LULU TOM](https://charli.info/charlipedia/lulu-tom/), and to the people who move between its stories. Their records are kept in [CharliPedia](https://charli.info/charlipedia/), the memory of the CharliVerse.
 
 ## Charli-Jo
 
