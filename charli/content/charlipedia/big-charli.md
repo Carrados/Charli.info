@@ -28,4 +28,4 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 
 ## Behind the scenes
 
-Big Charli is a CharliVerse persona who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+Big Charli is a CharliVerse persona and a member of the [CharliVerse Court](/charlipedia/the-charliverse-court/), the satirist, who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
