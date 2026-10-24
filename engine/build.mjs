@@ -139,6 +139,18 @@ const item = (q, md) => {
 for (const p of pages) {
   const children = p.isIndex ? pages.filter((q) => !q.isIndex && q.folder === p.path && q.rel !== '404').sort(sorter) : [];
   const fill = (md) => p.body
+    .replace('<!-- a-z -->', () => {
+      // An A to Z: the folder's pages in alphabetical order (ignoring a leading "The"), under a heading per letter.
+      const key = (q) => q.title.replace(/^the\s+/i, '').toLowerCase();
+      const groups = new Map();
+      for (const q of [...children].sort((a, b) => key(a).localeCompare(key(b)))) {
+        const L = /[a-z]/.test(key(q)[0]) ? key(q)[0].toUpperCase() : '#';
+        if (!groups.has(L)) groups.set(L, []);
+        groups.get(L).push(q);
+      }
+      const jump = [...groups.keys()].map((L) => `[${L}](#${L === '#' ? 'numbers' : L.toLowerCase()})`).join(' · ');
+      return `Jump to a letter: ${jump}\n\n` + [...groups].map(([L, qs]) => `### ${L === '#' ? 'Numbers' : L}\n\n${qs.map((q) => item(q, md)).join('\n')}`).join('\n\n');
+    })
     .replace('<!-- list -->', children.length ? children.map((q) => item(q, md)).join('\n') : (cfg.emptyList || ''))
     .replace(/<!-- desk:([\w-]+) -->/g, (_, desk) => {
       const filed = pages.filter((q) => (q.desk || '').split(/[\s,]+/).includes(desk)).sort((a, b) => (b.date || '').localeCompare(a.date || ''));

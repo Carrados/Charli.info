@@ -19,6 +19,8 @@ Each entry is marked at the top:
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
-## Entries
+## Entries, A to Z
 
-<!-- list -->
+Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
+
+<!-- a-z -->
