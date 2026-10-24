@@ -8,7 +8,7 @@
 //   logo_heading: true the site's logo (cfg.logo) is shown as the page's H1, with the title kept for screen readers
 //   canonical: URL     the page's own address, if it isn't on the main site (a correspondent's desk)
 // In a page body, <!-- list --> becomes the list of the pages in that page's folder,
-// and <!-- desk:NAME --> the list of every page with `desk: NAME` in its frontmatter (a correspondent's reports), newest first.
+// and <!-- desk:NAME --> the list of every page whose `desk:` names NAME (a correspondent's reports; `desk: lucy, madison` puts a report on both desks), newest first.
 // Exactly one H1 per page: it comes from the title. Headings in page text start at ##; the build refuses a page with its own # heading.
 
 import { readFile, writeFile, mkdir, readdir, copyFile, rm } from 'node:fs/promises';
@@ -138,7 +138,7 @@ for (const p of pages) {
   const fill = (md) => p.body
     .replace('<!-- list -->', children.length ? children.map((q) => item(q, md)).join('\n') : (cfg.emptyList || ''))
     .replace(/<!-- desk:([\w-]+) -->/g, (_, desk) => {
-      const filed = pages.filter((q) => q.desk === desk).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      const filed = pages.filter((q) => (q.desk || '').split(/[\s,]+/).includes(desk)).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();

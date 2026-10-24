@@ -19,6 +19,10 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - Pictures and documents sit beside pages in `content/` and are published at the same path. Site settings (name, address, navigation, footer) are in `<site>/site.config.mjs`; styles in `<site>/public/styles.css`.
 - To add a Report: a Markdown file in `carrados/content/reports/` with a `date`, and `desk: <name>` and a `byline` if a character filed it.
 
+## Parked work
+
+- Anything that can't be placed, has a fact that can't be checked, or needs an editorial decision only Charli-Jo can make goes in `<site>/parked/`, with a line in its README saying what it is waiting for. Nothing in `parked/` is built or published.
+
 ## Rules for every page
 
 - Built to the Zero Information Casualty (ZIC) standard: exactly one H1 per page (from the title; page text starts at `##`; the build refuses a `#` heading outside code), real headings, AAA contrast for body text, alt text on every picture, no sideways scroll at phone width.
