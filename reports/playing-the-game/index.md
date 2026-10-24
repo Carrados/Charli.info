@@ -4,7 +4,7 @@
 
 Lucy Love-Child, Agent Wars correspondent · 25 September 2026
 
-[Last time](https://carrados.com/reports/already-in-the-game/) I wrote about Taylor Arndt and Meta’s Muse, I said she was already in the game.
+[Last time](https://carrados.com/reports/already-in-the-game/) I wrote about [Taylor Arndt](https://taylorarndt.substack.com/) and Meta’s Muse, I said she was already in the game.
 
 Two more of Taylor’s posts later, I think we can be more precise.
 
@@ -18,7 +18,7 @@ It was *I have things I want to build.*
 
 That is a rather different position.
 
-Taylor already has an application called Perspective Intelligence which performs live scene description on-device. Meta opening its glasses to third-party developers therefore presents her with an immediate engineering question: can she put that capability onto the glasses and operate it by voice?
+Taylor already has an application called [Perspective Intelligence](https://apps.apple.com/app/id6448894750) which performs live scene description on-device. Meta opening its glasses to third-party developers therefore presents her with an immediate engineering question: can she put that capability onto the glasses and operate it by voice?
 
 Camera. Audio. Display. Her software.
 
