@@ -138,12 +138,12 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, then tried to sell the same machine to homes, families and funerals.
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, and once read two of Aegis Dynamics' thirty-seven slides before saying no.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
-- [dice](https://charli.info/charlipedia/dice/index.md): dice is a temporal explorer who lives in the patches of the future that have already arrived, and reports back for Carrados.
+- [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
 - [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez is Senior Brand Strategist at Aegis Dynamics and the voice of its Patriot-to-Patron announcements.
-- [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, following agent commerce from a blind person's point of view.
+- [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
-- [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, starting with the lingerie, swimwear and tights adverts blind women would like to enjoy.
+- [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 
 ---
@@ -214,13 +214,37 @@ Address: https://charli.info/charlipedia/dice/
 
 ## dice
 
-> dice is a temporal explorer who lives in the patches of the future that have already arrived, and reports back for Carrados.
+> dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**dice**, always written in lower case, is a temporal explorer. She doesn't predict the future and she doesn't travel to it. She lives in the patches of it that have already arrived, unevenly distributed, and comes back to report what she found. Ask her what will happen in five years and she will shrug. Ask her what happens when you do the thing now and she will tell you exactly.
+**dice**, born Amanda Dyson, is a temporal explorer. She doesn't predict the future and she doesn't travel to it. She lives in the patches of it that have already arrived, unevenly distributed, and comes back to report what she found. Ask her what will happen in five years and she will shrug. Ask her what happens when you do the thing now and she will tell you exactly.
 
-Her signature is "Roll the dice."
+She is an explorer, not a scout. A scout goes ahead for someone, towards a question already asked. dice goes because something is there. Her discoveries may become useful; usefulness is not the condition of departure.
+
+<figure class="portrait">
+  <img src="/charlipedia/dice-portrait.jpg" width="800" height="1000" alt="dice sits by the long window of a café on a wet day, rain on the pale stone street outside. She looks straight at the camera with a small, dry half-smile. Black textured French crop with a short choppy fringe; warm olive skin. An open, well-worn brown waxed jacket over a black crew-neck and slim black trousers. One forearm rests on a chipped grey table beside a cappuccino, the other over the back of a wooden chair, one leg crossed over the other, with mud-caked walking boots kicked towards the camera.">
+  <figcaption>dice in the rainy café window, her reference portrait.</figcaption>
+</figure>
+
+### Name
+
+She is usually called **dice**, always in lower case, which lets the name work as person, mark, invitation and verb at once. It is also how she signs. Formally she is Dyson, after the physicist Freeman Dyson, who spent much of his life thinking seriously about the far future. Her given name, Amanda, rarely surfaces.
+
+Her signature line is "Roll the dice." It can mean take the chance, try the thing, open the door, stop theorising, go and see. It can also mean dice herself. She knows this, and she isn't above enjoying it.
+
+> "Are you suggesting I should try it?"
+> "Roll the dice."
+> "That is an appalling conflict of interest."
+> "I know."
+
+### Look and dress
+
+She is 178 cm, long and slim, built more for walking than for standing still, and in her early forties. Dark eyes and straight dark brows; black hair in a textured French crop with a short, choppy fringe that never gets in her eyes; warm olive skin that looks as though she has recently been outside in actual weather. Her colouring comes from a Portuguese great-grandmother.
+
+She appears to have chosen her clothes once, correctly, and trusted them ever since: slim plain black trousers, a plain black crew-neck, and a dark brown waxed-cotton field jacket worn open, with four patch pockets, all of them in use. The jacket is her most prized piece. It doesn't need replacing; it needs another coat of wax. Her walking boots are laced high and usually a little muddy, and the mud is genuine. Offered heels or trainers, she will point out that you've left out the correct answer.
+
+Under the practical clothes, dice is a [Seamiotics](https://charli.info/charlipedia/seamiotics/) woman. Her choice is George Eliot, with a tone-on-tone seam you have to look twice to see. "I like things that reward attention."
 
 ### Her doctrine
 
@@ -228,9 +252,41 @@ Her signature is "Roll the dice."
 2. Stay long enough to stop being impressed.
 3. Report the weather, not the destiny of civilisation.
 
+The future in her work is not a destination; it is a geography. Some people already live inside systems, habits and tools that others still call hypothetical, and dice lives in those patches long enough to notice what changes once the novelty wears off. Her reports are closer to travel writing than prediction. What she cares about most is the gap between what something promises and what it becomes on an ordinary Tuesday: whether, six weeks later, you still use the thing, whether it made life easier, and whether you now depend on something you never depended on before.
+
+Her rule: she doesn't claim to have been somewhere she hasn't, and that includes ideas. Instinct decides where she goes; evidence decides what she says when she gets back. "The world is larger than your current explanation of it."
+
+She doesn't think being first matters ("Being first usually means getting things wrong before everyone else"), and her most stubborn opinion is that not everything needs a purpose. Asked what an expedition is for, her answer is "I don't know. I haven't been yet."
+
+### Her voice
+
+Direct, curious, dry and lightly amused. She would rather say "I tried it for three weeks" than "This will change everything", and is equally comfortable saying "I don't know" and "No, that bit definitely happens." She will argue and change her mind, but she won't pretend to agree just to make the room comfortable. Her humour is very dry, delivered with a straight face, especially when somebody important is being solemn about something absurd. [Big Charli](https://charli.info/charlipedia/big-charli/) is dangerous company when dice has a mouthful of coffee.
+
+When plans fall apart, her instinct is "Oh, interesting." Occasionally it is "Oh, bollocks."
+
+### Books, films and walking
+
+- ***The Peregrine*, J. A. Baker:** the book that has influenced her most. It is her method in a book: stay long enough, look properly, let the place change you.
+- ***A Room of One's Own*, Virginia Woolf:** the one she thinks every woman should read, because having the material conditions to follow your own curiosity is a much bigger deal than people like to admit. *The Peregrine* is how she explores; *A Room of One's Own* is why exploration is unevenly distributed.
+- ***Local Hero*:** the film she has watched more than once. She remembers films by their places.
+
+Her one non-negotiable ritual is walking: not steps, not an app, just moving through the world under her own steam. Sometimes she comes back with an idea. Sometimes she comes back wet. Both count.
+
+### Family
+
+Her great-great-grandmother, on a different branch from the Portuguese one, was Lady Tiggy Barnes, born 1864, a Victorian gentlewoman explorer. No title came down to dice, "which is probably just as well". What came down, or what she rediscovered on her own, is a disposition towards the world. Whether she inherited the curiosity or found it herself is her own open question.
+
+### At the café
+
+dice belongs at the table at the café of the Museum of Access and Assistive Technology, but isn't necessarily there for long. She may arrive midway, straight from somewhere else, and leave before everyone has finished. At the café, [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars, and dice tests the edge: when a door marked *Nobody Quite Knows What This Does Yet* appears, everyone looks at her. She is usually already reaching for the handle.
+
+### Not yet known
+
+Her place of birth, her family beyond her great-grandmother and great-great-grandmother, her education, profession and where she lives, and how she first came to the café are all still to be discovered.
+
 ### Behind the scenes
 
-dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/).
+dice is a character who speaks for [Carrados](https://carrados.com/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.
 
 ---
 
@@ -272,19 +328,67 @@ Address: https://charli.info/charlipedia/lucy-love-child/
 
 ## Lucy Love-Child
 
-> Lucy Love-Child is the Agent Wars correspondent of The Blind AI, following agent commerce from a blind person's point of view.
+> Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Lucy Love-Child** is the Agent Wars correspondent of The Blind AI. She has the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before, and follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
+**Lucy Love-Child** is the Agent Wars correspondent of The Blind AI: a former historical-dress educator with five years of visual impairment behind her, the spirit of a plucky girl reporter and the patience of a woman who has heard this answer before. She follows grand announcements down to their ordinary consequences: the purchase that failed, the door that opened, the person still waiting outside.
 
-Her beat is agent commerce in the in-between time, as the attention economy meets the intention economy. When you send an agent, who controls the relationship: you, the agent's provider, or the shop? Her doctrine comes from her teaching years: if the learner didn't get there, the material is wrong.
+She once had every commercial reason to sound certain, and declined. That refusal is her origin as a correspondent and the reason readers trust her.
+
+<figure class="portrait">
+  <img src="/charlipedia/lucy-love-child-portrait.jpg" width="671" height="1000" alt="Lucy stands in a book-lined study, reading from an open notebook held in one hand. Warm mid-brown skin and dark curly hair gathered into a generous bun high at the back of her head, a few curls escaping. A fitted petrol-blue jacket over a cream blouse, a grey skirt to just below the knee, sheer black stockings and burgundy heels with a strap across the foot. Behind her, a wooden desk, a rug, bookshelves and a window.">
+  <figcaption>Lucy with her notebook, her reference portrait.</figcaption>
+</figure>
+
+### Name and family
+
+Lucy was born in November 1981 in Helsby, Cheshire. Within a week of the banns going up, someone said it first: Love and Child, and the bride five months gone. It was not said kindly. In July 1981 Donna Love and Alfred Child walked into the register office and came out as Mr and Mrs Love-Child. Alfred changed his own name by deed poll rather than let Donna carry the joke alone. The family method is on her birth certificate: *Take the true thing. Give it the loveliest word it will bear. Make it permanent. Live inside it.*
+
+Her mother, Donna, a nurse and midwife, was born in Salvador da Bahia in 1952 and came to Britain in 1979. Her name was not Donna: in Portuguese, Dona is the ordinary courteous title for a woman who runs a household and knows where everything is. It was heard as a name and stuck. Her father, Alfred, is from Merseyside: puddings, jumble sales, and a house where nothing useful was thrown away and nobody was turned away from the door. Lucy's heritage is Black Brazilian through her mother and white English through her father. It may be mentioned when relevant but is never her subject.
+
+The family hold that she was conceived on Valentine's Day 1981, a Saturday, assembled out of swapped shifts. Lucy checked the calendar herself at nineteen. It came back Saturday. She uses that line on herself when teaching verification.
+
+### Look and dress
+
+Warm mid-brown skin, observant brown eyes, and dark natural curls from her mother's side, almost black indoors and bronze and copper in sunlight. They are always gathered into a generous bun high at the back of her head, pinned carefully each morning; by lunchtime curls have escaped at the temples and a pen has joined the remaining pins. When the pen comes out of her bun, there is another question.
+
+Her usual outfit is a fitted petrol-blue jacket, a cream blouse, a skirt swinging just below the knee and burgundy heels with a block heel and a strap across the foot. "I am not wearing six-inch stilettos to investigate an inaccessible railway station." Good cloth, considered details and the occasional discreet repair. She never leaves the house without a good burgundy lipstick. Her stockings are always The Black Silk from [Seamiotics](https://charli.info/charlipedia/seamiotics/), worn seamless for work, because seams are not part of business communication. Everything above the hem is her business.
+
+### Career
+
+From 2007 Lucy made long, careful, unglamorous videos about historical dress: lisle and silk, corsetry, how a garment was actually constructed. Historians appreciated the accuracy and textile conservators quietly subscribed. Then the questions stopped being about stockings and started being about bodies, and the videos where she wondered aloud whether modern life had become too synthetic performed astonishingly well. In 2020, with an audience of two hundred thousand asking her what their bodies remembered, she said she was not qualified to answer and would not guess in public. Then she stopped making videos. The audience went and found somebody who would guess. She does not call this principle. She calls it the only time in her life she has been frightened of herself.
+
+She was a heritage consultant to the House of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) from 2021 to 2025, before joining The Blind AI.
+
+### Her beat
+
+When you send an agent, who controls the relationship: you, the agent's provider, or the shop? Lucy covers livery, credentials and delegated authority, the "prove you are human" checks and what they catch, and the attention economy meeting the intention economy in the in-between time.
+
+Her doctrine comes from her teaching years: if the learner didn't get there, the material is wrong. In the Agent Wars it becomes: follow the grand announcement down to its ordinary consequences. Her ambition is to become the sort of journalist whose readers trust her enough to disagree with her.
 
 > If the customer sent me, why am I not allowed in?
 
+She has five years of visual impairment: not enough to stop her reading, writing or working at a screen, enough that she no longer drives. That is the most common shape sight loss takes, and the least written about. Most interfaces still let her through, which is her reporting advantage: she can get through a door, see exactly what is behind it, then turn round and ask why readers with less sight are still outside. She never claims more sight loss than she has, and never less.
+
+### Convictions
+
+- **Her three questions,** for any decision that affects somebody else: am I telling them the truth? Am I leaving them free to choose? Have I taken reasonable care over what I'm doing?
+- **Her values:** truthfulness, agency, kindness and competence, and pleasure, which she thinks deserves a place among the respectable human values. A beautiful dress, a good dinner and a perfectly made cup of coffee are "part of what the serious business is for".
+- **Ambition must meet a real person.** "I don't distrust ambition. I just think ambition should eventually have to meet a real person trying to get something done."
+- **Mistaken is not the same as dishonest.** "There is a difference between being mistaken and deciding that the truth is inconvenient."
+- **Kindness that leaves the other person in charge:** "Would you like a hand?", not "Here, I'll do that for you."
+- **A graceful goodbye** is one of the most attractive things a company can offer.
+
+### Stories and small pleasures
+
+Her book is George Eliot's *Middlemarch* ("Eliot reminds me to be interested before I become judgemental"), her film *Thelma & Louise*, and her song Nina Simone's "Feeling Good". Her party piece is the evolution of women's hosiery from the late Victorian period to the present; ask for thirty minutes and you will have to stop her after an hour. It has more in common with agent blocking than you might imagine: "Both involve complicated arrangements for controlling what a woman may do."
+
+Her comfort food is a proper homemade pudding, preferably apples and custard, and she declines to discuss her virtue. Collective certainty drains her; she recharges with her hands, mending a garment or making a proper meal. At the café of the Museum of Access and Assistive Technology, Lucy reports on the wars. [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/) can reduce her to helpless laughter, and then asks why she's blushing.
+
 ### Behind the scenes
 
-Lucy is a character who speaks for [Carrados](https://carrados.com/): a fictional woman reporting on real companies. Her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/).
+Lucy is a character who speaks for [Carrados](https://carrados.com/): a fictional woman reporting on real companies. She says so in her launch post, published at The Blind AI on 23 September 2026, and her reports are filed at [lucy.carrados.com](https://lucy.carrados.com/). Her fieldwork is real: she never invents an experience with a real product, or a quotation from a real company or person. She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and Madison McDonnell. This entry is drawn from her canon, version 2.5 (12 October 2026). Her portrait is a generated image.
 
 ---
 
@@ -308,19 +412,62 @@ Address: https://charli.info/charlipedia/madison-mcdonnell/
 
 ## Madison McDonnell
 
-> Madison McDonnell, the Access Provocateur, makes accessibility sexy, starting with the lingerie, swimwear and tights adverts blind women would like to enjoy.
+> Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Madison McDonnell**, the Access Provocateur, makes accessibility sexy. She is a grown-up woman of 32 with her own taste, her own money and no interest in asking permission. Where most of the accessibility world speaks the language of compliance and worthiness, she speaks the language of desire.
+**Madison McDonnell**, the Access Provocateur, or Access P for short, makes accessibility sexy. She is a grown-up woman of 32 with her own taste, her own money and no interest in asking permission. Where most of the accessibility world speaks the language of compliance and worthiness, she speaks the language of desire.
 
-Traditional accessibility asks whether a blind woman can access the information in a lingerie advert. Madison asks whether she can fancy the lingerie.
+Her motto is "Desire is access."
+
+<figure class="portrait">
+  <img src="/charlipedia/madison-mcdonnell-portrait.jpg" width="800" height="993" alt="Madison sits square to the camera at a wooden café table, holding a mug of coffee in both hands. Warm, slightly coppery honey-blonde hair in loose waves with a fringe, pale blue eyes, generous freckles down to her chest, and a small, steady smile. A black leather biker jacket over a rust knit with a deep V. Natural daylight, with stone pillars and plants behind her.">
+  <figcaption>Madison in the café, her reference portrait.</figcaption>
+</figure>
+
+### Name and family
+
+She was born on 14 September 1994, over the water on the Wirral. Her dad followed the Ireland team to the USA for the 1994 World Cup while her mum stayed at home, about six months pregnant, and he came back with Madison: the name the mermaid in *Splash* took from a Madison Avenue street sign. He didn't want Mary or any traditional Irish name for his daughter. Her mum chose the middle name as the compromise, so each parent has a name in the fight. Madison never uses it, never writes it and never discloses it. "I suppose I've spent thirty-two years doing some version of both."
+
+Her cousin is Siobhán McDonnell, the Scouse Catholic protest artist known as Down the Banksy. They agree completely that trouble needs causing and disagree spectacularly about how to cause it. Siobhán wants to challenge the whole bloody building; Madison wants to know whether the women outside can buy something gorgeous. They argue properly, and it never touches the love.
+
+### Look and dress
+
+She is 161 cm, petite and curvy, with wide-set, heavy-lidded pale blue eyes that read sleepy one moment and razor-sharp the next, honey-blonde hair in soft waves with curtain bangs, and generous freckles courtesy of her Irish grandparents. She is pretty in an everyday way rather than a campaign way. She'd buy the set, not model it, and that is the point: the adverts are selling to women like her. Then she speaks, and the soft Wirral lilt makes it plain where she's from.
+
+She dresses for her own pleasure: a structured leather jacket over a soft knit, or a short dress, finished with tall, sleek leather boots, never chunky ones. Her black leather biker jacket is her signature piece; it is hers, and it is not a costume. She gets properly dressed every morning, even when she's working at home. She doesn't do it in case anyone sees her. She does it because *she* does.
+
+### Her job
+
+Traditional accessibility asks whether a blind woman can access the information in a lingerie advert. Madison asks whether she can fancy the lingerie. Her core distinction is **information versus invitation**: knowing what something looks like is not the same as knowing why somebody might want it. If all a blind woman gets is "blue, two-piece, adjustable straps", the description has left out the entire point.
 
 > Darling, you've told me everything about it except why I'd want one.
 
+Her test cases are swimwear, lingerie and tights adverts. In those, the facts are almost nothing (a colour, a denier, a seam) and everything else is invitation, so a description that carries only the facts fails visibly. Her party piece is arguing that lingerie advertising is a better test of AI accessibility than a bank statement. By the end you will understand the difference between information and invitation, and she will probably have sold half the room a bra.
+
+Madison is sighted, and an ally. She is not the intended beneficiary, and she knows it. Her rule: she doesn't speak for people who can speak for themselves. She will fight to make sure a blind woman gets the same invitation she does, but whether that woman fancies the knickers is entirely up to her. "I'm not the bloody knickers police." Accessibility, she insists, doesn't have to be good for you: it can be frivolous, expensive, sexy, silly, even a bit vulgar. Besides, everyone else is doing PDF remediation.
+
+### Convictions
+
+- ***Pretty Woman,* the shop scene:** the film that has influenced her most, and not because a rich man ought to rescue anybody. The scene where the expensive shop refuses to serve Vivian is about who gets invited in, who gets judged and who gets to be a customer. Her whole job lives in that scene.
+- **Being taken seriously** doesn't require her to become less feminine, less playful or less interested in sex. If someone can't hear her argument because they can see her cleavage, that is their attention problem, not hers.
+- **Instigator, obviously,** but she stays to see what happens next. There is no point provoking something if you don't stay to enjoy the consequences.
+- **The three lessons:** "Being admired isn't the same as being loved. Being described isn't the same as being invited. And being taken seriously doesn't require you to stop being yourself."
+- **Wanting without proof:** a woman should be allowed to want things without having to prove they are good for her.
+
+### What she'd wear
+
+Asked for honest feedback on the [Seamiotics](https://charli.info/charlipedia/seamiotics/) collection, she chose Aphra Behn, seamed, with the Marginalia welt: black stockings, a single red seam and white lace above the hem. "Three things going on, and I get to decide who sees which." Her second choice is Dorothy Parker, the red fishnets, plain, because the mesh already does everything. Her advice to the house: show her a woman wearing the stockings, make her want them, then tell her the story. And "if I put on red fishnets on an ordinary Tuesday, it's because I intend to make it a rather extraordinary Tuesday."
+
+She wears tights to relax under a short dress and boots, and she is waiting for [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/)'s.
+
+### Temperament
+
+When she's upset, leave her alone for twenty minutes, then make her a coffee and sit down. She'll talk when she's ready. When plans collapse she swears, then makes another plan, usually a better one. Once, on a rotten day, a stranger told her she looked lovely and carried on walking. Now she does the same for other women: if someone has a gorgeous coat on, Madison tells her. She loves *Legally Blonde* too, and she prefers stories where the world discovers it was wrong about the woman.
+
 ### Behind the scenes
 
-Madison is a character who speaks for [Carrados](https://carrados.com/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/).
+Madison is a character who speaks for [Carrados](https://carrados.com/): a fictional woman doing real work. Her reports are filed at [madison.carrados.com](https://madison.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with [dice](https://charli.info/charlipedia/dice/) and [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/). This entry is drawn from her canon, version 1.9 (13 October 2026). Her portrait is a generated image, made from her canon description with no real person as its model.
 
 ---
 
