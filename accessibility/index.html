@@ -30,9 +30,9 @@
 <p><strong>Statement date:</strong> 24 October 2026</p>
 <p>A conformance claim is a statement made to a reader who cannot see inside the build, and its only value is that the reader can check it. Everything below is checkable, and the section on what was not checked is as much a part of the claim as the sections on what was.</p>
 <h2 id="the-claim">The claim</h2>
-<p>This site is built to the <a href="https://carrados.com/papers/zic-design-standard/">Zero Information Casualty</a> standard, version 1.5.</p>
+<p>This site is built to the <a href="https://carrados.com/papers/zic-design-standard/">Zero Information Casualty</a> standard, version 1.7.</p>
 <p>Sent agents: served. Search indexing: permitted. Model training: permitted.</p>
-<p>The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in <a href="/robots.txt">/robots.txt</a> and <a href="/llms.txt">/llms.txt</a>. Every page is also published as Markdown, at its address plus index.md.</p>
+<p>The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in <a href="/robots.txt">/robots.txt</a>, with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and in <a href="/llms.txt">/llms.txt</a>, which links every page and its Markdown copy. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at <a href="/llms-full.txt">/llms-full.txt</a>.</p>
 <h2 id="what-was-checked">What was checked</h2>
 <p><strong>Every page, at every build.</strong> Exactly one h1, declared document language, a skip link as the first focusable element, alt text on every image, a unique title and description, a canonical address, and inclusion in the sitemap. The build refuses a page with a stray top-level heading.</p>
 <p><strong>Layout.</strong> Every page was rendered at phone width (375 pixels) with no sideways scrolling, and at desktop width.</p>

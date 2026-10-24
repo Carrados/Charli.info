@@ -1,0 +1,3483 @@
+# The CharliVerse: the full text
+
+> The CharliVerse is a shared, evolving world of people, companies, fashion houses, technologies and stories, and the home of two practices, Carrados and Blind Ant.
+
+Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/
+
+All content is CC BY-SA 4.0.
+
+---
+
+Address: https://charli.info/
+
+## The CharliVerse
+
+> The CharliVerse is a shared, evolving world of people, companies, fashion houses, technologies and stories, and the home of two practices, Carrados and Blind Ant.
+
+**I create worlds to inhabit, where a thing happens.**
+
+The CharliVerse is a shared, evolving world. It holds people, companies, fashion houses, technologies, products, places and histories. Some of it is entirely fictional. Some of it becomes real: websites, Blender models, films, research and publications.
+
+It is a world, not a portfolio. Things happen here whether or not anyone announces them.
+
+### Two practices
+
+Two practices work inside the CharliVerse.
+
+- [Carrados](https://carrados.com/) investigates. It publishes design non-fiction: real-world exploration of AI, accessibility and agentic systems, including reports from its correspondents dice, Lucy Love-Child and Madison McDonnell. It makes claims about reality, and it is accountable for them.
+- [Blind Ant](https://blind-ant.com/) imagines. It publishes design fiction: speculative worlds, artworks, stories and fictional documents by Charlotte Joanne, and the story of how each one was made.
+
+Carrados investigates the future. Blind Ant makes the future imaginable. The CharliVerse gives that future somewhere to happen.
+
+### In the world
+
+The CharliVerse is home to fashion houses such as Iceberg, Seamiotics and LULU TOM, and to the people who move between its stories. Their records will be kept in CharliPedia, the memory of the CharliVerse, which is still being built.
+
+### Charli-Jo
+
+[Charli-Jo Tyrer](https://charli.info/charli-jo/) makes the CharliVerse. Their real-world work, including [training](https://charli.info/training/), lives here too, and is labelled as real.
+
+---
+
+Address: https://charli.info/accessibility/
+
+## Accessibility and conformance statement
+
+> The ZIC conformance statement for charli.info: what is claimed, what was checked, what was not, and any known defects, stated honestly.
+
+**Site:** charli.info
+
+**Publisher:** Charli-Jo Tyrer
+
+**Statement date:** 24 October 2026
+
+A conformance claim is a statement made to a reader who cannot see inside the build, and its only value is that the reader can check it. Everything below is checkable, and the section on what was not checked is as much a part of the claim as the sections on what was.
+
+### The claim
+
+This site is built to the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) standard, version 1.7.
+
+Sent agents: served. Search indexing: permitted. Model training: permitted.
+
+The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in [/robots.txt](https://charli.info/robots.txt), with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and in [/llms.txt](https://charli.info/llms.txt), which links every page and its Markdown copy. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at [/llms-full.txt](https://charli.info/llms-full.txt).
+
+### What was checked
+
+**Every page, at every build.** Exactly one h1, declared document language, a skip link as the first focusable element, alt text on every image, a unique title and description, a canonical address, and inclusion in the sitemap. The build refuses a page with a stray top-level heading.
+
+**Layout.** Every page was rendered at phone width (375 pixels) with no sideways scrolling, and at desktop width.
+
+**Contrast.** Body text meets WCAG AAA contrast in both light and dark modes.
+
+### Not yet checked
+
+An end-to-end screen reader pass with NVDA, JAWS or VoiceOver on this build. Automated tools (WAVE, axe, Lighthouse) and the W3C validator against the live site. 200% text scaling.
+
+Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
+
+### Known defects
+
+None known. When one is found, it is listed here until it is fixed.
+
+### Beyond the claim
+
+ZIC secures the meaning of the page and its delivery. It does not claim to serve every access need: cognitive load, plain-language alternatives and motor accessibility, among others, belong to standards written by those qualified to specify them. If something here fails to reach you, that is information the publisher needs and did not have. The site's source is public at [github.com/CharliJoTyrer/Charli.info](https://github.com/CharliJoTyrer/Charli.info), where you can raise an issue.
+
+---
+
+Address: https://charli.info/charli-jo/
+
+## Charli-Jo Tyrer
+
+> Charli-Jo Tyrer (they/them), the writer, conceptual artist and accessibility thinker who makes the CharliVerse. This page is real.
+
+*This part of the CharliVerse is real.*
+
+I am a writer, conceptual artist and accessibility thinker working with generative AI, design fiction and agent-first digital systems.
+
+My work explores what happens when accessibility, AI and design fiction begin shaping the same future.
+
+I use they/them.
+
+### Where my work lives
+
+- [Carrados](https://carrados.com/): my design non-fiction. Accessibility as information integrity, the Zero Information Casualty standard, and reports from the frontier of accessibility AI.
+- [Blind Ant](https://blind-ant.com/): design fiction, published under the pen name Charlotte Joanne.
+- [Training](https://charli.info/training/): courses and masterclasses I run with organisations and communities.
+
+---
+
+Address: https://charli.info/training/
+
+## Training
+
+> Accessible courses and learning resources created by Charli-Jo Tyrer with organisations and communities.
+
+Accessible courses and learning resources created with organisations and communities.
+
+### [Confident with AI — with TAVIP](https://charli.info/training/confident-with-ai/)
+
+A self-study course for blind and partially sighted people, created in association with TAVIP.
+
+### [TAVIP Masterclass: Agentic Accessibility](https://charli.info/training/agentic-accessibility-masterclass/)
+
+Wednesday 25 November 2026. What happens when AI starts using technology for us? An expedition into using AI agents to access information, navigate websites, work with documents and carry out everyday tasks.
+
+---
+
+Address: https://charli.info/training/agentic-accessibility-masterclass/
+
+## TAVIP Masterclass: Agentic Accessibility
+
+> A masterclass for TAVIP on Wednesday 25 November 2026, exploring what happens when AI agents start using technology for blind and partially sighted people.
+
+[Training](https://charli.info/training/)
+
+*This part of the CharliVerse is real.*
+
+**Wednesday 25 November 2026**, for the [Technology Association of Visually Impaired People (TAVIP)](https://www.tavip.org.uk/).
+
+### What happens when AI starts using technology for us?
+
+For decades, accessibility has largely meant making technology easier for blind and partially sighted people to operate. But what happens when we can simply tell an AI agent what we want to achieve and let it do the work?
+
+In this masterclass, Charli-Jo Tyrer invites us on an expedition into the emerging world of Agentic Accessibility: using AI agents to access information, navigate websites, work with documents and carry out everyday tasks.
+
+Think of this as a report to the Royal Geographical Society from an explorer returning from unfamiliar territory. Some of what the explorer has found is already working. Some is frustratingly unreliable. And some suggests that our relationship with technology may be about to change fundamentally.
+
+Drawing on months of hands-on experiments with today's AI agents, Charli-Jo will demonstrate what these agents can actually accomplish, where they struggle, and what their development might mean for the independence of blind and partially sighted people.
+
+This isn't a training session for a particular product, nor a prediction of an inevitable future. It's an invitation to explore what is becoming possible, examine the evidence, ask questions and consider what comes next.
+
+### About the presenter
+
+Charli-Jo Tyrer has been blind for 40 years and has worked with assistive technology since the days of DOS and early screen readers. Their career includes 15 years as a professional assistive technology trainer.
+
+Charli-Jo describes themselves as an explorer rather than a trainer. They spend their time experimenting with emerging AI systems, discovering what works, what doesn't, and what might become possible next.
+
+Their guiding principle is simple:
+
+> "I don't care if the technology is accessible. I care whether I can access the information, actions and experiences I want."
+
+The course that came before this masterclass is [Confident with AI](https://charli.info/training/confident-with-ai/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/
+
+## Confident with AI
+
+> A self-study course for blind and partially sighted people using generative AI confidently, critically and safely.
+
+[Training](https://charli.info/training/)
+
+A self-study course for blind and partially sighted people, created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+This practical guide is about using generative AI confidently, critically and safely. No previous knowledge is required, and free tools are sufficient.
+
+**Last reviewed:** 11 August 2026.
+
+### How to use this course
+
+- **New to AI?** Begin with [Start Here: Your First Five Minutes with AI](https://charli.info/training/confident-with-ai/modules/01-start-here/), then follow the modules in order.
+- **Looking for a particular task?** Use the [I want to…](#i-want-to) menu.
+
+Every module is a self-contained page with a learning outcome, activity and checkpoint. Each ends with previous, contents and next links.
+
+#### What the course assumes
+
+You need an internet connection and access to a general AI assistant for the practical activities. The course is device-neutral: it does not assume Windows, macOS, iOS, Android, JAWS, NVDA or VoiceOver. It describes goals and interactions rather than platform-specific keystrokes.
+
+If a service does not work with your device or access method, choose another service. The durable lessons do not depend on one product.
+
+### Start here
+
+#### [1. Start Here: Your First Five Minutes with AI](https://charli.info/training/confident-with-ai/modules/01-start-here/)
+
+Open an AI assistant and get your first useful result.
+
+Estimated time: 5 minutes.
+
+### Part One: Begin Using AI
+
+#### [2. Choose an AI Assistant](https://charli.info/training/confident-with-ai/modules/02-choose-an-ai-assistant/)
+
+Choose an accessible, affordable place to begin.
+
+Estimated time: 10 minutes.
+
+#### [3. Have Your First Useful Conversation](https://charli.info/training/confident-with-ai/modules/03-first-useful-conversation/)
+
+Improve an answer by adding purpose, context and the form you need.
+
+Estimated time: 10 minutes.
+
+#### [4. Everyday Things AI Can Help You Do](https://charli.info/training/confident-with-ai/modules/04-everyday-things-ai-can-do/)
+
+Use AI to explain, summarise, draft, compare, plan and brainstorm.
+
+Estimated time: 10 minutes.
+
+### Part Two: Judge What AI Gives You
+
+#### [5. Know What You Are Holding](https://charli.info/training/confident-with-ai/modules/05-know-what-you-are-holding/)
+
+Recognise a useful AI response without mistaking polish or confidence for proof.
+
+Estimated time: 10 minutes.
+
+#### [6. What Happens If It Is Wrong?](https://charli.info/training/confident-with-ai/modules/06-what-happens-if-it-is-wrong/)
+
+Use green, amber and red risk bands to decide how much checking is proportionate.
+
+Estimated time: 10 minutes.
+
+#### [7. Check an Answer Without Becoming an Expert](https://charli.info/training/confident-with-ai/modules/07-check-an-answer/)
+
+Check the source, date, exact wording, numbers and claim that carry the most weight.
+
+Estimated time: 10 minutes.
+
+### Part Three: Understand Images and Visual Information
+
+#### [8. Choose the Right Kind of Image Tool](https://charli.info/training/confident-with-ai/modules/08-choose-an-image-tool/)
+
+Match description, recognition, comparison, private processing or human help to the job.
+
+Estimated time: 10 minutes.
+
+#### [9. Ask for the Description You Need](https://charli.info/training/confident-with-ai/modules/09-ask-for-an-image-description/)
+
+Request an overview, literal facts, text, layout, uncertainty or atmosphere according to purpose.
+
+Estimated time: 10 minutes.
+
+#### [10. Judge and Verify an Image Description](https://charli.info/training/confident-with-ai/modules/10-check-an-image-description/)
+
+Classify claims as visible, contextual, inferred or unsupported, then verify important details proportionately.
+
+Estimated time: 15 minutes.
+
+#### [11. Read Documents, Forms and Screenshots](https://charli.info/training/confident-with-ai/modules/11-read-documents-forms-and-screenshots/)
+
+Recover exact text, reading order and structure without hiding uncertainty.
+
+Estimated time: 10 minutes.
+
+#### [12. Understand Tables, Charts and Slides](https://charli.info/training/confident-with-ai/modules/12-understand-tables-charts-and-slides/)
+
+Recover structure, labels, order and values before asking for interpretation.
+
+Estimated time: 10 minutes.
+
+### Part Four: Create Visual Media
+
+#### [13. Create Your First Image](https://charli.info/training/confident-with-ai/modules/13-create-your-first-image/)
+
+Write a brief, generate an image, describe it back and make one deliberate revision.
+
+Estimated time: 10 minutes.
+
+#### [14. Keep Creative Control Without Sight](https://charli.info/training/confident-with-ai/modules/14-creative-control-without-sight/)
+
+Use intention, hierarchy and proportionate review to remain the author.
+
+Estimated time: 10 minutes.
+
+#### [15. Create a Comic or Visual Story](https://charli.info/training/confident-with-ai/modules/15-create-a-comic/)
+
+Plan story beats, panels, dialogue and continuity, then check reading order.
+
+Estimated time: 10 minutes.
+
+#### [16. Create Animation and Video](https://charli.info/training/confident-with-ai/modules/16-create-animation-and-video/)
+
+Plan movement, dialogue, music and sound as one accessible time-based sequence.
+
+Estimated time: 10 minutes.
+
+#### [17. Check and Publish Visual Work Accessibly](https://charli.info/training/confident-with-ai/modules/17-publish-visual-work-accessibly/)
+
+Define finished, check proportionately and publish an equivalent accessible experience.
+
+Estimated time: 10 minutes.
+
+### Optional Further Study
+
+#### [Models, Open Weights and the Changing Frontier](https://charli.info/training/confident-with-ai/further-study/models-and-open-weights/)
+
+Optional reading that distinguishes assistants from models and explores closed, open-weight and specialist systems.
+
+Estimated time: 15 minutes.
+
+#### [Philosophy: Knowledge, Testimony and Answer-Shaped Objects](https://charli.info/training/confident-with-ai/further-study/philosophy-of-answer-shaped-objects/)
+
+Optional reading about uncertainty, epistemic opacity and warranted reliance.
+
+Estimated time: 15 minutes.
+
+### I want to…
+
+- [Choose an AI assistant](https://charli.info/training/confident-with-ai/modules/02-choose-an-ai-assistant/)
+- [Get a better answer](https://charli.info/training/confident-with-ai/modules/03-first-useful-conversation/)
+- [Find something useful AI can do](https://charli.info/training/confident-with-ai/modules/04-everyday-things-ai-can-do/)
+- [Understand what kind of answer AI gives me](https://charli.info/training/confident-with-ai/modules/05-know-what-you-are-holding/)
+- [Decide whether an answer is safe to use](https://charli.info/training/confident-with-ai/modules/06-what-happens-if-it-is-wrong/)
+- [Check a factual answer](https://charli.info/training/confident-with-ai/modules/07-check-an-answer/)
+- [Choose the right kind of image tool](https://charli.info/training/confident-with-ai/modules/08-choose-an-image-tool/)
+- [Describe a photograph](https://charli.info/training/confident-with-ai/modules/09-ask-for-an-image-description/)
+- [Judge and verify an image description](https://charli.info/training/confident-with-ai/modules/10-check-an-image-description/)
+- [Read text in an image](https://charli.info/training/confident-with-ai/modules/11-read-documents-forms-and-screenshots/)
+- [Understand a table, chart or presentation](https://charli.info/training/confident-with-ai/modules/12-understand-tables-charts-and-slides/)
+- [Create an image](https://charli.info/training/confident-with-ai/modules/13-create-your-first-image/)
+- [Check visual work without sight](https://charli.info/training/confident-with-ai/modules/14-creative-control-without-sight/)
+- [Create a comic](https://charli.info/training/confident-with-ai/modules/15-create-a-comic/)
+- [Make a video](https://charli.info/training/confident-with-ai/modules/16-create-animation-and-video/)
+- [Publish visual work accessibly](https://charli.info/training/confident-with-ai/modules/17-publish-visual-work-accessibly/)
+- [Understand AI models](https://charli.info/training/confident-with-ai/further-study/models-and-open-weights/)
+- [Explore the philosophy of AI answers](https://charli.info/training/confident-with-ai/further-study/philosophy-of-answer-shaped-objects/)
+
+### Tool Cards
+
+Tool Cards contain dated product information. They can be updated or retired without rewriting the durable lessons.
+
+#### [General AI Assistants](https://charli.info/training/confident-with-ai/tool-cards/ai-assistants/)
+
+Conversation, explanation, writing, research and general assistance.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Conversational Image Describers](https://charli.info/training/confident-with-ai/tool-cards/conversational-image-description/)
+
+Quick, natural descriptions of photographs, objects and scenes.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Text and Document Recognition](https://charli.info/training/confident-with-ai/tool-cards/text-and-document-recognition/)
+
+Reading text, forms, documents, tables and structured information.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Multiple-Model Comparison](https://charli.info/training/confident-with-ai/tool-cards/multiple-model-comparison/)
+
+Methods for comparing independent descriptions or answers.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Private and On-Device Tools](https://charli.info/training/confident-with-ai/tool-cards/private-and-on-device-tools/)
+
+Local processing, offline access and greater control over information.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Human Visual-Assistance Services](https://charli.info/training/confident-with-ai/tool-cards/human-visual-assistance/)
+
+Human verification when accuracy or judgement matters.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Image Generators](https://charli.info/training/confident-with-ai/tool-cards/image-generators/)
+
+Creating and revising still images.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+#### [Video and Animation Generators](https://charli.info/training/confident-with-ai/tool-cards/video-and-animation-generators/)
+
+Creating movement, animation, dialogue, music and video.
+
+Estimated time: 10 minutes. Last reviewed: 5 August 2026.
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with TAVIP. It responds to questions and priorities identified through TAVIP’s 2026 Technology Survey.
+
+The course is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/further-study/models-and-open-weights/
+
+## Models, Open Weights and the Changing Frontier
+
+> Optional reading that distinguishes assistants from models and explores closed, open-weight and specialist systems.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Optional Further Study
+
+Optional reading that distinguishes assistants from models and explores closed, open-weight and specialist systems.
+
+**Estimated time:** 15 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will be able to distinguish a product interface from the model or models behind it.
+
+### The lesson
+
+An assistant is a service; a model is an engine it may use.
+
+Open-weight models permit broader inspection or local use, but “open” has several meanings.
+
+This field changes quickly, so product examples must be dated.
+
+### Try it
+
+Choose one assistant and find out which model it says it is using. Record the date and source of that information.
+
+### Checkpoint
+
+You can explain why the assistant name and model name are not interchangeable.
+
+- Previous: [17. Check and Publish Visual Work Accessibly](https://charli.info/training/confident-with-ai/modules/17-publish-visual-work-accessibly/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [Philosophy: Knowledge, Testimony and Answer-Shaped Objects](https://charli.info/training/confident-with-ai/further-study/philosophy-of-answer-shaped-objects/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/further-study/philosophy-of-answer-shaped-objects/
+
+## Philosophy: Knowledge, Testimony and Answer-Shaped Objects
+
+> Optional reading about uncertainty, epistemic opacity and warranted reliance.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Optional Further Study
+
+Optional reading about uncertainty, epistemic opacity and warranted reliance.
+
+**Estimated time:** 15 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will be able to discuss what would justify relying on an AI answer.
+
+### The lesson
+
+Fluency can resemble testimony without the ordinary human relation to knowledge.
+
+Access to an answer is not the same as access to the means of evaluating it.
+
+Reliance depends on evidence, stakes, alternatives and the recipient’s ability to check.
+
+### Try it
+
+Choose an AI answer you used. Write what justified relying on it, what remained opaque and what would have changed your decision.
+
+### Checkpoint
+
+Your account distinguishes usefulness, truth and justified reliance.
+
+- Previous: [Models, Open Weights and the Changing Frontier](https://charli.info/training/confident-with-ai/further-study/models-and-open-weights/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/01-start-here/
+
+## 1. Start Here: Your First Five Minutes with AI
+
+> Open an AI assistant and get your first useful result.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Start here
+
+Open an AI assistant and get your first useful result.
+
+**Estimated time:** 5 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+Go to [www.chat.com](https://www.chat.com/) and ask your first question.
+
+We use ChatGPT for this first exercise because it provides a simple starting point. In the next module, you can choose a different assistant.
+
+**Learning outcome:** By the end, you will have asked an assistant for something useful and improved its first answer.
+
+**Before you begin:** Do not enter private, confidential or identifying information during this exercise.
+
+### The lesson
+
+An AI assistant is a service you can talk to by typing or speaking. It generates a response based on your request.
+
+Treat its answer as a draft or estimate, not proof.
+
+You can ask follow-up questions: the conversation is part of the tool.
+
+Notice that you do not need to start again. Your second instruction changes the answer within the same conversation.
+
+### Try it
+
+Open [www.chat.com](https://www.chat.com/). Find the message box and ask the assistant to explain something you already understand.
+
+If you cannot think of a subject, ask: “Explain why we have seasons.”
+
+When it replies, say:
+
+> Make that shorter and give me one example.
+
+### If you get stuck
+
+You may be asked to sign in or create an account, and the service may work differently in different places. If you cannot reach the message box, use the [General AI Assistants Tool Card](https://charli.info/training/confident-with-ai/tool-cards/ai-assistants/) to find another way to continue.
+
+### Checkpoint
+
+You received an answer, asked for one change and can explain how the second response was more useful.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [2. Choose an AI Assistant](https://charli.info/training/confident-with-ai/modules/02-choose-an-ai-assistant/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/02-choose-an-ai-assistant/
+
+## 2. Choose an AI Assistant
+
+> Choose an accessible, affordable place to begin.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part One: Begin Using AI
+
+Choose an accessible, affordable place to begin.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will have chosen one assistant to try without treating the choice as permanent.
+
+**Before you begin:** Do not paste private, confidential or identifying information while testing. Do not pay for a subscription merely to complete this course.
+
+### The lesson
+
+Begin with the service that is easiest to access on your device.
+
+Free access is enough for this course. Do not subscribe merely to complete it.
+
+Assistant names, prices and features change, so current product comparisons belong in Tool Cards.
+
+See the [General AI Assistants Tool Card](https://charli.info/training/confident-with-ai/tool-cards/ai-assistants/) for services you can try.
+
+#### What to check
+
+- Can you create an account and sign in?
+- Can you find the message box and send a message?
+- Can you read and navigate the response comfortably?
+- Are the features you need available without payment?
+
+### Worked example
+
+Priya tries two assistants. Both let her send messages, but one presents long answers more cleanly with her screen reader.
+
+She chooses that assistant for now. She has not decided it is the best assistant—only that it is the easiest place to begin.
+
+### Try it
+
+Use the General AI Assistants Tool Card to choose one or two services to try. Check that you can sign in if necessary, find the message box, send a message and read the response with your preferred access method. Check that the features you need are available without payment.
+
+### Checkpoint
+
+You can name the assistant you will use for now, confirm that basic conversation is accessible and explain why you can change later.
+
+- Previous: [1. Start Here: Your First Five Minutes with AI](https://charli.info/training/confident-with-ai/modules/01-start-here/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [3. Have Your First Useful Conversation](https://charli.info/training/confident-with-ai/modules/03-first-useful-conversation/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/03-first-useful-conversation/
+
+## 3. Have Your First Useful Conversation
+
+> Improve an answer by adding purpose, context and the form you need.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part One: Begin Using AI
+
+Improve an answer by adding purpose, context and the form you need.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will be able to improve an answer through follow-up rather than starting again.
+
+**Before you begin:** Do not enter private, confidential or identifying information. Keep this first task low-risk.
+
+### The lesson
+
+Purpose means what you are trying to accomplish.
+
+Context is information that materially changes the answer.
+
+Form means how you want the answer presented, such as steps, a short explanation, a comparison or a draft.
+
+Correct the assistant and continue the same conversation.
+
+### Worked example
+
+Weak request: “Write an email.”
+
+Better request: “Write a friendly, concise email declining an invitation because I already have plans. Keep it warm and leave open the possibility of meeting another time.”
+
+Follow-up: “Make it less formal and remove the apology.”
+
+### Try it
+
+Ask for help with a real low-stakes task. Add your purpose, one relevant detail and the form you want. Then request one revision.
+
+If you need a task, send these messages one at a time in the same conversation:
+
+1.  “Help me plan three simple evening meals.”
+2.  “They need to be vegetarian.”
+3.  “Give me the result as a shopping list followed by three short recipes.”
+4.  “Make the recipes suitable for one person.”
+
+### Checkpoint
+
+The revised response is more useful to you, and you can identify which extra instruction improved it.
+
+- Previous: [2. Choose an AI Assistant](https://charli.info/training/confident-with-ai/modules/02-choose-an-ai-assistant/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [4. Everyday Things AI Can Help You Do](https://charli.info/training/confident-with-ai/modules/04-everyday-things-ai-can-do/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/04-everyday-things-ai-can-do/
+
+## 4. Everyday Things AI Can Help You Do
+
+> Use AI to explain, summarise, draft, compare, plan and brainstorm.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part One: Begin Using AI
+
+Use AI to explain, summarise, draft, compare, plan and brainstorm.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will have matched a real task to an appropriate kind of AI help.
+
+**Before you begin:** Do not enter private, confidential or identifying information. Keep your first task low-risk.
+
+### The lesson
+
+AI can help you begin, organise or understand a task while you retain responsibility for checking and deciding.
+
+A useful answer should reduce work or open access, not create more checking than it saves.
+
+#### Match the task to the kind of help
+
+| If you need to…        | Ask AI to…                                        |
+|------------------------|---------------------------------------------------|
+| Understand something   | Explain it in simpler language or with an example |
+| Reduce a long text     | Summarise its main points                         |
+| Begin writing          | Produce a first draft                             |
+| Consider alternatives  | Compare them using stated criteria                |
+| Organise a task        | Suggest a plan or checklist                       |
+| Generate possibilities | Brainstorm several ideas                          |
+
+### Worked example
+
+A learner asks AI to draft questions for a broadband provider. AI helps organise the questions, but the learner checks the prices and decides which provider to use.
+
+The assistant helped prepare for the decision; it did not make the decision.
+
+### Try it
+
+Choose one row from the table and use it for a small, low-risk task you might otherwise postpone. Ask for a useful result, then check or edit it yourself.
+
+Fallback prompt:
+
+1.  “Give me a five-step plan for clearing and organising one kitchen cupboard.”
+
+### Checkpoint
+
+You matched one task to an appropriate kind of AI help, produced something usable and can say what checking or decision remained yours.
+
+- Previous: [3. Have Your First Useful Conversation](https://charli.info/training/confident-with-ai/modules/03-first-useful-conversation/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [5. Know What You Are Holding](https://charli.info/training/confident-with-ai/modules/05-know-what-you-are-holding/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/05-know-what-you-are-holding/
+
+## 5. Know What You Are Holding
+
+> Recognise a useful AI response without mistaking polish or confidence for proof.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Two: Judge What AI Gives You
+
+Recognise a useful AI response without mistaking polish or confidence for proof.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will separate observations, interpretations, estimates and unsupported claims.
+
+### The lesson
+
+AI produces language with the shape of an answer. Clear, fluent wording does not prove that the claim is true.
+
+An estimate can still provide valuable access to a subject.
+
+Your purpose, context and judgement remain essential.
+
+#### Listen to the kind of claim
+
+A description may mix literal details with interpretation. “A red cover with white lettering” is presented as observation. “A luxurious and romantic design” is judgement. Both may be useful, but they are not the same evidence.
+
+- Visible: the image itself may establish it.
+- Contextual: it comes from a caption, filename or surrounding page.
+- Inferred: it is an interpretation, not directly visible.
+- Uncertain: the system cannot establish it confidently.
+
+#### Confidence belongs to the wording
+
+A calm, definite sentence can still be wrong. Treat confidence as a feature of the answer’s style, not proof of its evidence.
+
+### Try it
+
+Choose one confident AI answer, preferably an image description. Label its important statements as visible, contextual, inferred or uncertain.
+
+### Checkpoint
+
+You can explain why the answer is useful while identifying which statements are not established facts.
+
+- Previous: [4. Everyday Things AI Can Help You Do](https://charli.info/training/confident-with-ai/modules/04-everyday-things-ai-can-do/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [6. What Happens If It Is Wrong?](https://charli.info/training/confident-with-ai/modules/06-what-happens-if-it-is-wrong/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/06-what-happens-if-it-is-wrong/
+
+## 6. What Happens If It Is Wrong?
+
+> Use green, amber and red risk bands to decide how much checking is proportionate.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Two: Judge What AI Gives You
+
+Use green, amber and red risk bands to decide how much checking is proportionate.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will match the consequences of a mistake to an appropriate checking level.
+
+**Before you begin:** For red tasks, use an authoritative source or appropriately qualified human. A person who can see information is not automatically qualified to interpret it.
+
+### The lesson
+
+Do not ask whether AI is trustworthy in general. Ask how much trust this answer needs for this purpose, now.
+
+Most everyday uses are low stakes. The skill is noticing the smaller number where an error matters.
+
+Checking should rise with both the chance of error and the harm it could cause.
+
+#### Green: good enough
+
+Use one everyday AI answer when a mistake would cost little or nothing, such as understanding a social photograph, meme or book-cover mood.
+
+#### Amber: want it right
+
+Use an independent source or second model when you are learning, may repeat the information or would be embarrassed by an avoidable error.
+
+#### Red: need it right
+
+Use a qualified person, authoritative source or human visual-assistance service when an error could affect health, medication, food safety, money, safety, identity, an official decision or professional reputation.
+
+### Try it
+
+Classify three tasks as green, amber or red. State what could happen if each answer were wrong and what checking is proportionate.
+
+### Checkpoint
+
+Your checking effort increases with the consequences, and you can explain why.
+
+- Previous: [5. Know What You Are Holding](https://charli.info/training/confident-with-ai/modules/05-know-what-you-are-holding/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [7. Check an Answer Without Becoming an Expert](https://charli.info/training/confident-with-ai/modules/07-check-an-answer/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/07-check-an-answer/
+
+## 7. Check an Answer Without Becoming an Expert
+
+> Check the source, date, exact wording, numbers and claim that carry the most weight.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Two: Judge What AI Gives You
+
+Check the source, date, exact wording, numbers and claim that carry the most weight.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will verify the most consequential part of an answer without checking every sentence.
+
+### The lesson
+
+Ask for sources, then open them: a citation is a lead, not verification.
+
+Check that the source supports the exact claim and is current enough.
+
+Use independent sources or qualified help when the stakes demand it.
+
+#### Concentrate on fragile details
+
+- Names and identities.
+- Prices, dates, doses, telephone numbers and serial codes.
+- Counts, positions, chart values, axes and units.
+- Claims carrying your name or professional reputation.
+
+#### Use accessible context
+
+Cross-check the filename, existing alt text, caption, page title, nearby text and link destination. Ask whether a claim came from that context or from the item itself.
+
+### Try it
+
+Choose one factual claim. Find the original or authoritative source, check its date and write one sentence explaining exactly what it supports.
+
+### Checkpoint
+
+You can show what the source confirms and distinguish it from what remains uncertain.
+
+- Previous: [6. What Happens If It Is Wrong?](https://charli.info/training/confident-with-ai/modules/06-what-happens-if-it-is-wrong/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [8. Choose the Right Kind of Image Tool](https://charli.info/training/confident-with-ai/modules/08-choose-an-image-tool/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/08-choose-an-image-tool/
+
+## 8. Choose the Right Kind of Image Tool
+
+> Match description, recognition, comparison, private processing or human help to the job.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Three: Understand Images and Visual Information
+
+Match description, recognition, comparison, private processing or human help to the job.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will choose a tool category from the information, privacy and certainty involved.
+
+**Before you begin:** Do not upload sensitive material merely to test a service. Check its current privacy terms first.
+
+### The lesson
+
+There is no single best visual AI service. Build a small toolkit rather than an allegiance.
+
+Product names and features change. Choosing the right category is the durable skill.
+
+Cloud services may offer stronger models; on-device services may offer greater privacy, offline use or control.
+
+#### Five useful categories
+
+- Conversational image describers for photographs, objects and scenes.
+- Text and document recognition for exact wording, forms and structure.
+- Multiple-model comparison for stronger evidence than one description.
+- Private or on-device processing for sensitive material or offline access.
+- Human visual assistance when accuracy, judgement or consequences require it.
+
+#### Choose according to the job
+
+- Do you need an overview, exact text, structure or judgement?
+- How sensitive is the image?
+- What would happen if the answer were wrong?
+- Can you operate the service comfortably with your access method?
+
+### Try it
+
+For a social photograph, bank letter and medicine label, choose a tool category and explain why. Then use the Tool Cards to compare current services.
+
+### Checkpoint
+
+Your choice changes when exact text, privacy, accessibility or consequences change.
+
+- Previous: [7. Check an Answer Without Becoming an Expert](https://charli.info/training/confident-with-ai/modules/07-check-an-answer/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [9. Ask for the Description You Need](https://charli.info/training/confident-with-ai/modules/09-ask-for-an-image-description/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/09-ask-for-an-image-description/
+
+## 9. Ask for the Description You Need
+
+> Request an overview, literal facts, text, layout, uncertainty or atmosphere according to purpose.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Three: Understand Images and Visual Information
+
+Request an overview, literal facts, text, layout, uncertainty or atmosphere according to purpose.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will request two meaningfully different descriptions of the same image.
+
+### The lesson
+
+Begin with purpose: identification, navigation, appreciation, publication or checking.
+
+Narrow questions direct attention to the information you need.
+
+Request literal facts before mood or interpretation when accuracy matters.
+
+#### Useful requests
+
+- Give me a brief overview of the whole image.
+- Describe only what is literally visible; do not infer identities or intentions.
+- Read every visible word exactly as it appears.
+- Describe the layout and positions of the main elements.
+- What is unclear, small, obscured or uncertain?
+- Describe the atmosphere and identify the details that create that impression.
+
+#### Separate different jobs
+
+An overview, transcription, layout description and interpretation answer different questions. Asking separately makes omissions and guesses easier to notice.
+
+### Worked example
+
+For a book cover, request the background, illustration, title, author and layout. Ask separately for all text verbatim. Then ask what mood the design suggests, treating that answer as interpretation.
+
+### Try it
+
+Use one non-sensitive image. Request a brief overview, then a detailed literal account including layout, all visible text and uncertainty.
+
+### Checkpoint
+
+The descriptions differ in useful ways because each request states a distinct purpose.
+
+- Previous: [8. Choose the Right Kind of Image Tool](https://charli.info/training/confident-with-ai/modules/08-choose-an-image-tool/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [10. Judge and Verify an Image Description](https://charli.info/training/confident-with-ai/modules/10-check-an-image-description/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/10-check-an-image-description/
+
+## 10. Judge and Verify an Image Description
+
+> Classify claims as visible, contextual, inferred or unsupported, then verify important details proportionately.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Three: Understand Images and Visual Information
+
+Classify claims as visible, contextual, inferred or unsupported, then verify important details proportionately.
+
+**Estimated time:** 15 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will classify one important claim, judge whether it needs checking and choose a proportionate response.
+
+### The lesson
+
+Verification without sight means using narrower questions, independent evidence and human help where needed.
+
+Use four categories consistently: visible, contextual, inferred and unsupported. Uncertainty is a property a claim can acknowledge, not a separate evidence category.
+
+A model may present an inference or unsupported guess with the texture of visible fact.
+
+#### Classify the claim before relying on it
+
+- Visible: the image itself supplies the evidence, such as printed words, colours or objects.
+- Contextual: the evidence comes from a caption, filename, surrounding page or other source rather than the image alone.
+- Inferred: the claim interprets visible evidence, such as mood, genre, relationship or intention.
+- Unsupported: the available image and context do not justify the claim, even if it is stated confidently.
+
+#### Ask how likely the detail is to be wrong
+
+- Could the image establish the claimed name, relationship or location?
+- Is exact text small, stylised, curved or obscured?
+- Does the answer depend on counting or left and right?
+- Is an inference being presented as visible fact?
+- Does the wording acknowledge appropriate uncertainty?
+
+#### Decide what is proportionate
+
+Check a claim when being wrong could cost money, affect safety, require an apology or cause a public correction. A decorative detail with no effect on meaning may not need checking. Use the green, amber and red risk bands from Module 6 when the decision is unclear.
+
+#### Ways to verify without sight
+
+- Ask a narrower question about the disputed detail.
+- Ask whether the evidence came from the image, context or inference.
+- Request an independent description.
+- For exact text, compare the answer with optical character recognition, or OCR.
+- Check captions, filenames and surrounding content.
+- Use human assistance or an authoritative source when the consequences justify it.
+
+#### Agreement, disagreement and no verdict
+
+Agreement increases confidence but does not prove correctness. If two descriptions disagree, a third independent reading may help, but it does not automatically settle a consequential dispute. Escalate important unresolved details to an authoritative source or person.
+
+If verification is not possible, either omit the claim or carry it forward with its provenance and uncertainty attached. For example: “One image-description model reported a red logo, but I could not verify that detail independently.” Do not repeat it as established fact.
+
+### Worked example
+
+Return to the book cover from Module 9. “The title reads The Stranger Times” is a visible-text claim, but stylised lettering makes the transcription fragile. “C. K. McDonnell” is visible printed text; confirming that it names the correct author and edition requires contextual or authoritative evidence. “The cover suggests comic fantasy” is inferred. A confidently reported quotation that cannot be read in the image or supported by context is unsupported.
+
+Whether to verify each claim depends on purpose. A casual impression of the cover may need no further check. Reproducing the title, author or quotation in published work does.
+
+### Try it
+
+Take the description you produced in Module 9, or another non-sensitive description. Label its important claims as visible, contextual, inferred or unsupported. Choose one claim, explain what would happen if it were wrong and decide whether to accept it, verify it or carry it forward with an explicit qualification.
+
+### Checkpoint
+
+You can name the claim and category, explain its fragility and consequences, and justify the proportionate response you chose.
+
+- Previous: [9. Ask for the Description You Need](https://charli.info/training/confident-with-ai/modules/09-ask-for-an-image-description/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [11. Read Documents, Forms and Screenshots](https://charli.info/training/confident-with-ai/modules/11-read-documents-forms-and-screenshots/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/11-read-documents-forms-and-screenshots/
+
+## 11. Read Documents, Forms and Screenshots
+
+> Recover exact text, reading order and structure without hiding uncertainty.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Three: Understand Images and Visual Information
+
+Recover exact text, reading order and structure without hiding uncertainty.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will request transcription, structure and uncertainty as separate outputs.
+
+**Before you begin:** Use an authoritative source or human verification for consequential figures and official documents.
+
+### The lesson
+
+Ask for verbatim text before a summary.
+
+Request headings, labels, fields, checked states and reading order.
+
+Exact characters matter: prices, dates, doses, reference numbers and telephone numbers deserve special checking.
+
+#### Use three passes
+
+- Transcription: read every visible character exactly as it appears.
+- Structure: identify headings, sections, columns, fields, selected states and reading order.
+- Uncertainty: list every character, word or field that is unclear, cropped, handwritten or partly obscured.
+
+#### Do not silently repair the document
+
+A plausible correction can conceal an error. Ask the system to mark uncertainty explicitly rather than guessing. Compare conversational output with a dedicated recognition mode when exact text matters.
+
+### Try it
+
+Use a non-sensitive document image. Ask for exact text, then a structural outline, then a list of uncertain characters or fields.
+
+### Checkpoint
+
+You can reconstruct the document without silently treating uncertain text as exact.
+
+- Previous: [10. Judge and Verify an Image Description](https://charli.info/training/confident-with-ai/modules/10-check-an-image-description/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [12. Understand Tables, Charts and Slides](https://charli.info/training/confident-with-ai/modules/12-understand-tables-charts-and-slides/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/12-understand-tables-charts-and-slides/
+
+## 12. Understand Tables, Charts and Slides
+
+> Recover structure, labels, order and values before asking for interpretation.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Three: Understand Images and Visual Information
+
+Recover structure, labels, order and values before asking for interpretation.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will request a structured representation and trace conclusions back to its values.
+
+### The lesson
+
+A fluent summary may capture a chart’s general shape while getting the underlying data wrong.
+
+For tables, request column headings and each row in a consistent order.
+
+For slides, preserve slide order, headings, body text and the distinction between printed content and interpretation.
+
+#### For charts
+
+- Title and chart type.
+- Horizontal and vertical axes.
+- Units, scale and range.
+- Legend categories and colours or patterns.
+- Exact labelled values or clearly marked estimates.
+- Trend or conclusion only after the data account.
+
+#### Prefer the source data
+
+When values matter, obtain the accessible source table or data file if one exists. Treat an image-based reconstruction as an intermediate access route, not automatically as the authoritative dataset.
+
+### Try it
+
+Take one non-sensitive table, chart or slide. Ask first for structure and values, then for a short interpretation that identifies uncertainty.
+
+### Checkpoint
+
+You can trace every important conclusion back to a label or value in the structured account.
+
+- Previous: [11. Read Documents, Forms and Screenshots](https://charli.info/training/confident-with-ai/modules/11-read-documents-forms-and-screenshots/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [13. Create Your First Image](https://charli.info/training/confident-with-ai/modules/13-create-your-first-image/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/13-create-your-first-image/
+
+## 13. Create Your First Image
+
+> Write a brief, generate an image, describe it back and make one deliberate revision.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Four: Create Visual Media
+
+Write a brief, generate an image, describe it back and make one deliberate revision.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will complete a create, describe, compare and revise cycle.
+
+### The lesson
+
+Begin with what the visual must do, not only how it should look.
+
+Keep the original brief: it records your intention and becomes the standard for review.
+
+Generate alternatives when useful, then have a describing model examine the selected result.
+
+#### Write the brief
+
+- Purpose and intended audience.
+- Where the image will appear.
+- Subject, setting and action.
+- Composition and visual hierarchy.
+- Mood, style and colour preferences.
+- Required wording and elements that must not appear.
+- What would count as failure.
+
+#### Describe the result back
+
+- Describe the complete image literally.
+- Read every word exactly.
+- List anything malformed, duplicated or inconsistent.
+- Compare the image with every requirement in the brief.
+- Explain what a sighted viewer might misunderstand.
+
+#### Revise deliberately
+
+Do not request “better”. Name the change: remove an object, correct wording, simplify the background, emphasise the subject, preserve a logo or change the emotional tone.
+
+### Try it
+
+Create a low-stakes image from a plain-language brief. Obtain a fresh description, compare it with the brief and make one specific revision.
+
+### Checkpoint
+
+You can name the mismatch and explain how the revision addressed it.
+
+- Previous: [12. Understand Tables, Charts and Slides](https://charli.info/training/confident-with-ai/modules/12-understand-tables-charts-and-slides/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [14. Keep Creative Control Without Sight](https://charli.info/training/confident-with-ai/modules/14-creative-control-without-sight/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/14-creative-control-without-sight/
+
+## 14. Keep Creative Control Without Sight
+
+> Use intention, hierarchy and proportionate review to remain the author.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Four: Create Visual Media
+
+Use intention, hierarchy and proportionate review to remain the author.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will separate authorship from pixel-by-pixel inspection and define your review standard.
+
+### The lesson
+
+A blind creator can control the concept, constraints, revisions, sound and publication choices without certifying every pixel.
+
+Descriptions, comparison and selective human review are instruments; they do not become the author.
+
+Spend verification on details carrying meaning, harm or reputational risk.
+
+#### Control the process
+
+- Develop the idea in words.
+- Define essential and forbidden elements.
+- Generate and request a literal description.
+- Compare the account with the brief.
+- Make named revisions rather than vague improvements.
+- Escalate checking as audience, stakes and permanence increase.
+
+#### Choose a finish line
+
+A personal experiment may be finished when it delights you. Public work carrying your name may need an independent second review. Commercial, sensitive or safety-related work may require a designer, intended audience member or qualified human reviewer.
+
+### Try it
+
+Write a five-line visual brief stating purpose, audience, essential elements, forbidden elements and the test for success. Add whether the work is green, amber or red and what that means for review.
+
+### Checkpoint
+
+Another person or tool could review the result against your criteria without guessing your intention.
+
+- Previous: [13. Create Your First Image](https://charli.info/training/confident-with-ai/modules/13-create-your-first-image/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [15. Create a Comic or Visual Story](https://charli.info/training/confident-with-ai/modules/15-create-a-comic/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/15-create-a-comic/
+
+## 15. Create a Comic or Visual Story
+
+> Plan story beats, panels, dialogue and continuity, then check reading order.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Four: Create Visual Media
+
+Plan story beats, panels, dialogue and continuity, then check reading order.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will create a panel plan that can be checked independently of finished artwork.
+
+### The lesson
+
+Write the purpose and action of every panel before generating artwork.
+
+Use a stable character description and repeated visual anchors.
+
+Request a panel-by-panel account rather than one general summary.
+
+#### Check the finished comic
+
+- Are panels presented in the intended reading order?
+- Are characters consistent across panels and pages?
+- Does each panel show its intended story beat?
+- Are speech bubbles attributed to the correct speaker?
+- Is every word spelled correctly?
+- Do props, positions or actions contradict the script?
+
+### Worked example
+
+A six-page comic about theatrical crime-fighting cats was generated from a written story and visual prompt. One model described each page; a second checked spelling and continuity and found two spelling errors. The second review turned “Does it look all right?” into specific, actionable information.
+
+### Try it
+
+Draft a three-panel story as numbered beats. Generate it, then request a panel-by-panel description with every piece of text transcribed. Use a second check for spelling and continuity.
+
+### Checkpoint
+
+The described sequence tells the intended story in the intended order, and you have recorded any uncertainty.
+
+- Previous: [14. Keep Creative Control Without Sight](https://charli.info/training/confident-with-ai/modules/14-creative-control-without-sight/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [16. Create Animation and Video](https://charli.info/training/confident-with-ai/modules/16-create-animation-and-video/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/16-create-animation-and-video/
+
+## 16. Create Animation and Video
+
+> Plan movement, dialogue, music and sound as one accessible time-based sequence.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Four: Create Visual Media
+
+Plan movement, dialogue, music and sound as one accessible time-based sequence.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will specify and check a short sequence using both visual description and audio evidence.
+
+### The lesson
+
+Describe what changes over time, not only the starting frame.
+
+Sound is both creative material and directly accessible evidence about speech, mood and timing.
+
+Request a shot-by-shot or time-coded account to catch unexpected changes.
+
+#### Plan the whole sequence
+
+- Starting frame and intended movement.
+- Character or object continuity.
+- Spoken words and who says them.
+- Music, sound effects and silence.
+- Timing of each action and transition.
+- The final frame or end state.
+
+#### Check the result
+
+- Does movement follow naturally from the starting image?
+- Do characters or objects change unexpectedly?
+- Is every spoken word correct?
+- Do voice, music and effects match the intended tone?
+- Is important visual information unavailable through sound?
+- Are captions, a transcript or audio description required?
+
+#### Examples of the pipeline
+
+A comic scene can become an animated curtain call with dialogue and music. A branded still image can become a promotional race video. A static cover can become a short title ident combining motion, a spoken name and sound. Each begins with intention and ends with proportionate review.
+
+### Try it
+
+Write a ten-second sequence with timestamps for action, speech, music and sound effects. Ask for a time-coded account of the generated result.
+
+### Checkpoint
+
+The timing and story can be understood from the combined visual description and audio plan.
+
+- Previous: [15. Create a Comic or Visual Story](https://charli.info/training/confident-with-ai/modules/15-create-a-comic/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [17. Check and Publish Visual Work Accessibly](https://charli.info/training/confident-with-ai/modules/17-publish-visual-work-accessibly/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/modules/17-publish-visual-work-accessibly/
+
+## 17. Check and Publish Visual Work Accessibly
+
+> Define finished, check proportionately and publish an equivalent accessible experience.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Part Four: Create Visual Media
+
+Define finished, check proportionately and publish an equivalent accessible experience.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 11 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** By the end, you will choose and write the accessible alternative appropriate to one visual work.
+
+### The lesson
+
+Accessibility is part of the work, not an apology added after it.
+
+Check spelling, identity, continuity, composition and essential meaning before publication.
+
+Choose alt text, an extended description, captions, a transcript or audio description according to purpose.
+
+#### Quality checks by medium
+
+- Still image: subject, prominence, embedded text, anatomy, mood and unwanted symbolism.
+- Comic: reading order, character continuity, dialogue ownership, spelling and contradictions.
+- Video: movement, continuity, spoken wording, audio, captions and visually essential information.
+- Branding: name, logo, colours, symbols, unintended associations and audience expectations.
+
+#### Write for the work’s purpose
+
+Concise alt text should communicate the image’s purpose and essential information without repeating nearby text. Use an extended description when detail, relationships or a visual story cannot fit concisely. Time-based work may need captions, a transcript and audio description because these serve different access needs.
+
+#### Do not overclaim checking
+
+Record which checks were actually performed. A model description is evidence, not a visual guarantee. If no screen-reader, intended-audience or professional design review took place, do not imply that it did.
+
+### Try it
+
+Write alt text for one finished image. If concise text cannot carry its purpose and essential detail, add an extended description. For a video, also identify whether captions, transcript or audio description are needed.
+
+### Checkpoint
+
+A person who cannot see the work receives its purpose and essential information without redundant filler.
+
+- Previous: [16. Create Animation and Video](https://charli.info/training/confident-with-ai/modules/16-create-animation-and-video/)
+- [Course contents](https://charli.info/training/confident-with-ai/)
+- Next: [Models, Open Weights and the Changing Frontier](https://charli.info/training/confident-with-ai/further-study/models-and-open-weights/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/session-1/
+
+## Session 1: Getting Useful Answers from AI
+
+> Session 1 of Confident with AI, a three-part course with TAVIP.
+
+[Confident with AI](https://charli.info/training/confident-with-ai/)
+
+The first session in the three-part Confident with AI course with TAVIP.
+
+This session introduces practical ways to ask generative AI for useful answers.
+
+### Sections
+
+1.  ### [AI Assistants](https://charli.info/training/confident-with-ai/session-1/ai-assistants/)
+
+    Meet ChatGPT, Claude, Copilot, Gemini and Grok, understand what they can do, and choose somewhere to begin.
+
+2.  ### [Know What You Are Holding](https://charli.info/training/confident-with-ai/session-1/know-what-you-are-holding/)
+
+    Answer-shaped objects and the human judgement that makes them useful.
+
+---
+
+Address: https://charli.info/training/confident-with-ai/session-1/ai-assistants/
+
+## AI Assistants
+
+> A TAVIP handbook introducing ChatGPT, Claude, Copilot, Gemini and Grok, written by Charli-Jo Tyrer.
+
+[Session 1: Getting Useful Answers from AI](https://charli.info/training/confident-with-ai/session-1/)
+
+*Written by Charli-Jo Tyrer for TAVIP, July 2026*
+
+This handbook is licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/). You may copy, share, adapt and use it for any purpose, including commercially, provided that you credit the author.
+
+Suggested attribution: **AI Assistants, written by Charli-Jo Tyrer for TAVIP, July 2026. Licensed under CC BY 4.0.**
+
+### Introduction
+
+#### Welcome
+
+This handbook accompanies the **Confident with AI** course.
+
+#### What is an AI assistant?
+
+For this course, when we say **AI**, we mean **AI assistants**: computer programs you can have a conversation with using ordinary language.
+
+The five assistants covered are:
+
+- [ChatGPT](#chatgpt)
+- [Claude](#claude)
+- [Copilot](#copilot)
+- [Gemini](#gemini)
+- [Grok](#grok)
+
+#### How do I choose one?
+
+There is no single best assistant. Choose the one that feels easiest for you to use. The skills in this course transfer between all five.
+
+#### Things all AI assistants can do
+
+- Answer questions
+- Explain
+- Summarise
+- Write
+- Brainstorm
+- Describe images
+- Help plan
+
+#### Things all AI assistants get wrong
+
+Every AI assistant can:
+
+- misunderstand you
+- invent facts
+- be out of date
+- sound confident while being wrong
+
+Always use your own judgement and check important information.
+
+### ChatGPT
+
+#### What is it?
+
+ChatGPT is an AI assistant. You can ask it questions, have conversations, and ask it to write, explain, summarise, plan, translate or help solve problems.
+
+Think of it as someone you can ask for a first draft, an explanation or another way of thinking about a problem.
+
+ChatGPT uses artificial intelligence to generate its responses. Like all AI assistants, it can be extremely useful, but you should still use your own judgement and check important information.
+
+#### Who makes it?
+
+ChatGPT is made by OpenAI, an AI company.
+
+#### What does ChatGPT mean?
+
+The name has two parts.
+
+Chat refers to the way you can have a conversation with it.
+
+GPT stands for Generative Pre-trained Transformer.
+
+You do not need to understand what a Transformer is to use ChatGPT. It is simply the name of the type of AI model that powers the assistant.
+
+#### Where do I use it?
+
+You can use ChatGPT:
+
+- on the web at [chatgpt.com](https://chatgpt.com)
+- on an iPhone or iPad using the ChatGPT app
+- on Android using the ChatGPT app
+- on Windows or Mac using the desktop app or a web browser
+
+You can create a free OpenAI account. ChatGPT also allows limited use without signing in.
+
+#### Does it cost anything?
+
+There is a free version, which is suitable for most people getting started.
+
+Paid subscriptions are also available. These provide higher usage limits and additional features.
+
+For this course, the free version is perfectly adequate.
+
+#### What is ChatGPT good at?
+
+Many people use ChatGPT to:
+
+- write emails and letters
+- explain difficult topics
+- summarise long documents
+- brainstorm ideas
+- improve writing
+- help with planning
+- describe and create images
+- answer questions
+- compare options
+- support everyday decision-making
+
+ChatGPT is widely used and offers a broad range of features. Because so many people use it, there are also plenty of guides, examples and sources of help available.
+
+#### What should I be careful about?
+
+Do not assume ChatGPT is always right.
+
+It can misunderstand your question, invent facts, provide incomplete or out-of-date information, and sound confident while being wrong.
+
+Always check important information, particularly when making medical, legal or financial decisions.
+
+#### Should I choose ChatGPT?
+
+ChatGPT is an excellent place to start if you have never used an AI assistant before. It is widely available, relatively easy to begin using, and has become the assistant many people first think of when they hear the term AI.
+
+You do not need to choose the perfect AI assistant. The best place to start is often whichever one feels easiest for you to use.
+
+#### Remember
+
+ChatGPT is one AI assistant. The others discussed during this course are Claude, Copilot, Gemini and Grok.
+
+**The skills you learn in this course transfer between all of them.**
+
+### Claude
+
+#### What is it?
+
+Claude is an AI assistant. You can ask it questions, have conversations, and ask it to write, explain, summarise, plan, translate or help solve problems.
+
+Think of it as someone you can ask for a first draft, an explanation or another way of thinking about a problem.
+
+Claude uses artificial intelligence to generate its responses. Like all AI assistants, it can be extremely useful, but you should still use your own judgement and check important information.
+
+#### Who makes it?
+
+Claude is made by Anthropic, an AI company that places particular emphasis on making its systems helpful, honest and safe.
+
+#### What does Claude mean?
+
+Claude is not an acronym and does not stand for anything technical.
+
+The name is widely understood as a reference to Claude Shannon, one of the founders of modern information theory. You do not need to know anything about him to use Claude.
+
+#### Where do I use it?
+
+You can use Claude:
+
+- on the web at [claude.ai](https://claude.ai)
+- on an iPhone or iPad using the Claude app
+- on Android using the Claude app
+- on Windows or Mac using the desktop app or a web browser
+
+You sign in using a free Anthropic account.
+
+#### Does it cost anything?
+
+There is a free version, which is suitable for most people getting started. Paid subscriptions are also available. These provide higher usage limits and additional features.
+
+For this course, the free version is perfectly adequate.
+
+#### What is Claude good at?
+
+Many people use Claude to write emails and letters, explain difficult topics, summarise long documents, brainstorm ideas, improve writing, help with planning, describe and create images, answer questions, compare options and support everyday decision-making.
+
+Claude is often praised for careful, natural writing and for working steadily with long or complicated documents.
+
+#### What should I be careful about?
+
+Do not assume Claude is always right. It can misunderstand your question, invent facts, provide incomplete or out-of-date information, and sound confident while being wrong.
+
+Always check important information, particularly when making medical, legal or financial decisions.
+
+#### Should I choose Claude?
+
+Claude is an excellent choice if you value thoughtful, natural writing or regularly work with longer documents. Many people find its tone calm, clear and easy to work with.
+
+You do not need to choose the perfect AI assistant. The best place to start is often whichever one feels easiest for you to use.
+
+#### Remember
+
+Claude is one AI assistant. The others discussed during this course are ChatGPT, Copilot, Gemini and Grok.
+
+**The skills you learn in this course transfer between all of them.**
+
+### Copilot
+
+#### What is it?
+
+Copilot is an AI assistant. You can ask it questions, have conversations, and ask it to write, explain, summarise, plan, translate or help solve problems.
+
+Think of it as someone you can ask for a first draft, an explanation or another way of thinking about a problem.
+
+Copilot uses artificial intelligence to generate its responses. Like all AI assistants, it can be extremely useful, but you should still use your own judgement and check important information.
+
+#### Who makes it?
+
+Copilot is made by Microsoft.
+
+Microsoft uses the Copilot name for several AI products. This course is discussing the general Microsoft Copilot assistant, rather than GitHub Copilot for computer programmers or Microsoft 365 Copilot for workplaces.
+
+#### What does Copilot mean?
+
+A co-pilot is the second pilot in an aircraft, who works alongside the person in command.
+
+Microsoft chose the name to suggest an assistant that works alongside you. You remain in control and responsible for checking the result.
+
+#### Where do I use it?
+
+You can use Copilot:
+
+- on the web at [copilot.com](https://copilot.com)
+- on an iPhone or iPad using the Microsoft Copilot app
+- on Android using the Microsoft Copilot app
+- on Windows or Mac using the Copilot app or a web browser
+
+You can sign in using a free Microsoft account.
+
+#### Does it cost anything?
+
+There is a free version, which is suitable for most people getting started. Paid Microsoft subscriptions are also available. These can provide higher usage limits, additional features or Copilot inside Microsoft 365 apps such as Word, Excel, PowerPoint and Outlook.
+
+For this course, the free version is perfectly adequate.
+
+#### What is Copilot good at?
+
+Many people use Copilot to write emails and letters, explain difficult topics, summarise information, brainstorm ideas, improve writing, help with planning, describe and create images, answer questions using current information from the web, compare options and support everyday decision-making.
+
+Copilot may be particularly useful if you already use Windows, Microsoft Edge or Microsoft 365.
+
+#### What should I be careful about?
+
+Do not assume Copilot is always right. It can misunderstand your question, invent facts, provide incomplete or out-of-date information, and sound confident while being wrong.
+
+Always check important information, particularly when making medical, legal or financial decisions.
+
+Microsoft has several products with Copilot in their names. Check which Copilot you are using and whether it can access information from your personal, work or school account.
+
+#### Should I choose Copilot?
+
+Copilot is an excellent choice if you already use Microsoft products such as Windows, Edge, Word, Outlook or Microsoft 365. Its web search can also make it useful when you want help finding and understanding current information.
+
+You do not need to choose the perfect AI assistant. The best place to start is often whichever one feels easiest for you to use.
+
+#### Remember
+
+Copilot is one AI assistant. The others discussed during this course are ChatGPT, Claude, Gemini and Grok.
+
+**The skills you learn in this course transfer between all of them.**
+
+### Gemini
+
+#### What is it?
+
+Gemini is an AI assistant. You can ask it questions, have conversations, and ask it to write, explain, summarise, plan, translate or help solve problems.
+
+Think of it as someone you can ask for a first draft, an explanation or another way of thinking about a problem.
+
+Gemini uses artificial intelligence to generate its responses. Like all AI assistants, it can be extremely useful, but you should still use your own judgement and check important information.
+
+#### Who makes it?
+
+Gemini is made by Google.
+
+It can work with some Google services, including Gmail, Drive, Maps and other Google apps, when those connections are available and you choose to enable them.
+
+#### What does Gemini mean?
+
+Gemini is the Latin word for twins and is also the name of a constellation.
+
+Google chose Gemini as the name for its family of AI models and its AI assistant. You do not need to know anything technical about the name to use it.
+
+#### Where do I use it?
+
+You can use Gemini:
+
+- on the web at [gemini.google.com](https://gemini.google.com)
+- on an iPhone or iPad using the Gemini app
+- on Android using the Gemini app
+- on Windows or Mac using a web browser
+
+You sign in using a free Google Account.
+
+#### Does it cost anything?
+
+There is a free version, which is suitable for most people getting started. Paid Google AI plans are also available. These provide higher usage limits and additional features.
+
+For this course, the free version is perfectly adequate.
+
+#### What is Gemini good at?
+
+Many people use Gemini to write emails and letters, explain difficult topics, summarise long documents, brainstorm ideas, improve writing, help with planning, describe and create images, answer questions, compare options and support everyday decision-making.
+
+Gemini may be particularly useful if you already use Google services. It can use current information from the web for some questions and may be able to work with information from your Google apps when you choose to enable those connections.
+
+#### What should I be careful about?
+
+Do not assume Gemini is always right. It can misunderstand your question, invent facts, provide incomplete or out-of-date information, and sound confident while being wrong.
+
+Always check important information, particularly when making medical, legal or financial decisions.
+
+Be especially careful before allowing any AI assistant to access personal information stored in your email, documents or other accounts.
+
+#### Should I choose Gemini?
+
+Gemini is an excellent choice if you already use Google services such as Gmail, Google Drive, Google Maps or Android.
+
+You do not need to choose the perfect AI assistant. The best place to start is often whichever one feels easiest for you to use.
+
+#### Remember
+
+Gemini is one AI assistant. The others discussed during this course are ChatGPT, Claude, Copilot and Grok.
+
+**The skills you learn in this course transfer between all of them.**
+
+### Grok
+
+#### What is it?
+
+Grok is an AI assistant. You can ask it questions, have conversations, and ask it to write, explain, summarise, plan, translate or help solve problems.
+
+Think of it as someone you can ask for a first draft, an explanation or another way of thinking about a problem.
+
+Grok uses artificial intelligence to generate its responses. Like all AI assistants, it can be extremely useful, but you should still use your own judgement and check important information.
+
+#### Who makes it?
+
+Grok is made by xAI, the artificial intelligence company founded by Elon Musk. The company now describes itself as SpaceXAI.
+
+Grok is closely connected with X, formerly called Twitter, but you do not have to use it inside X.
+
+#### What does Grok mean?
+
+The word grok comes from Robert A. Heinlein’s science-fiction novel *Stranger in a Strange Land*.
+
+It means to understand something deeply and intuitively, rather than merely knowing facts about it.
+
+#### Where do I use it?
+
+You can use Grok:
+
+- on the web at [grok.com](https://grok.com)
+- on an iPhone or iPad using the Grok app, or inside the X app
+- on Android using the Grok app, or inside the X app
+- on Windows or Mac using a web browser
+
+You can sign in using an X account or an email address.
+
+#### Does it cost anything?
+
+There is a free version, which is suitable for most people getting started. Paid subscriptions are also available. These provide higher usage limits and additional features.
+
+For this course, the free version is perfectly adequate.
+
+#### What is Grok good at?
+
+Many people use Grok to write emails and letters, explain difficult topics, summarise long documents, brainstorm ideas, improve writing, help with planning, describe and create images, answer questions, compare options and support everyday decision-making.
+
+Grok can search the web and public posts on X. This may make it particularly useful for recent news, live events and current discussions.
+
+It is designed to have a more humorous, playful and sometimes rebellious personality than many other AI assistants.
+
+#### What should I be careful about?
+
+Do not assume Grok is always right. It can misunderstand your question, invent facts, provide incomplete or out-of-date information, sound confident while being wrong, and treat rumours or unreliable posts on X as useful evidence.
+
+Always check important information, particularly when making medical, legal or financial decisions.
+
+If you use Grok through X, check the data-sharing and personalisation settings. X says your public data and your interactions with Grok may be used to train and improve its AI unless you opt out.
+
+#### Should I choose Grok?
+
+Grok is an excellent choice if you already use X, want help exploring current discussions, or enjoy a more playful and irreverent style.
+
+It may be less suitable if you dislike X, prefer a more restrained tone, or do not want to spend time checking information drawn from social media.
+
+You do not need to choose the perfect AI assistant. The best place to start is often whichever one feels easiest for you to use.
+
+#### Remember
+
+Grok is one AI assistant. The others discussed during this course are ChatGPT, Claude, Copilot and Gemini.
+
+**The skills you learn in this course transfer between all of them.**
+
+### AI assistants, models and the wild frontier
+
+So far, this handbook has treated ChatGPT, Claude, Copilot, Gemini and Grok as five AI assistants. That is the most useful way to begin. Underneath each assistant, however, is one or more AI models: the systems that generate the answers.
+
+An assistant is the service you use. A model is the engine inside it. The same assistant may use a fast model for an everyday question, a reasoning model for a difficult problem and a specialist model for voice or images. The provider may choose automatically, or may let you choose. This is why an assistant can change noticeably even though its name and app remain the same.
+
+The following is a snapshot from 21 July 2026. Model names and availability change extremely quickly.
+
+#### The model families behind the five assistants
+
+##### ChatGPT: the GPT family
+
+ChatGPT is powered by OpenAI’s GPT models. The current frontier generation is GPT-5.6, with Sol, Terra and Luna variants offering different balances of capability, speed and cost. ChatGPT can route a request to an appropriate model, while some paid plans and specialist OpenAI products provide more choice. OpenAI also develops models for coding, voice, images and other particular forms of work.
+
+##### Claude: the Claude family
+
+Claude is powered by Anthropic’s Claude models. Sonnet 5 is the everyday default for many users and is designed for writing, coding, tool use and multi-step work. Opus 4.8 remains a more powerful option for demanding work. Fable 5 is Anthropic’s most capable generally available model, while the closely related Mythos 5 has restricted access because of its advanced cybersecurity capabilities. The older Haiku, Sonnet and Opus names originally formed a simple fast-to-powerful ladder; the newer family is less tidy, which is itself a sign of how quickly the frontier is moving.
+
+##### Copilot: a multi-model assistant
+
+Copilot is different because Microsoft does not present it as the product of one permanent model family. Microsoft’s consumer and workplace assistants have traditionally relied heavily on OpenAI models, and GPT-5.6 is the preferred model in Microsoft 365 Copilot as of July 2026. Microsoft now describes Copilot as model-diverse, with OpenAI, Anthropic, Microsoft and open models available in different products and settings. The name Copilot therefore tells you more about the Microsoft service around the model than about the particular model answering.
+
+##### Gemini: the Gemini family
+
+Gemini is both the name of Google’s assistant and its main model family. The current range includes Gemini 3.1 Pro for complex work, Gemini 3.1 Deep Think for difficult scientific and reasoning problems, Gemini 3.5 Flash for fast multimodal and agentic work, and Flash-Lite for efficient high-volume use. Gemini models are designed to work across text, images, audio and video rather than treating those as entirely separate worlds. Google also has specialist families for images, video, music and robotics.
+
+##### Grok: the Grok family
+
+Grok is powered by models developed by SpaceXAI, formerly xAI. Grok 4.5 is the current leading general model, with particular emphasis on coding, tool use and work carried out by AI agents. The wider family includes faster coding models and separate Grok Imagine models for images and video. Grok’s close connection with X and real-time search remains part of the assistant’s identity, but the models can also be used through Grok’s own apps and by developers.
+
+#### Beyond the five
+
+The five assistants are prominent consumer services, not the whole AI world. Developers, companies and technically confident individuals can choose from hundreds of other models. Some are available through their maker’s website or an independent assistant. Others can be downloaded and run on a company’s own servers or, when small enough, on a personal computer.
+
+##### Open-weight models
+
+A closed model is normally used through its maker’s app or online service; its internal parameters are not released. With an open-weight model, the trained numerical weights can be downloaded, adapted and run elsewhere. This can offer more privacy, control and independence, but it requires hardware and technical knowledge. Open-weight does not always mean completely open source: the training data, full development process or licence may still impose limits.
+
+##### Chinese model families
+
+China is now one of the two main centres of frontier model development. DeepSeek’s V4 family combines long context, reasoning and agentic work at comparatively low cost. Alibaba’s Qwen family includes both very large services and smaller downloadable multimodal models. Z.ai’s GLM-5 family concentrates on coding and long-running agent tasks. Moonshot AI’s Kimi K3, released in July 2026, is a very large open-weight multimodal model aimed at long-context coding and agentic work. These families are not curiosities at the edge of the market: they compete with leading American models and are especially influential in the open-weight world. Users should still consider where their information is processed, the provider’s privacy terms and any restrictions that apply in their country or workplace.
+
+##### American open-weight models
+
+The United States also has an important open-weight ecosystem. Meta’s Llama family helped popularise downloadable general-purpose models. OpenAI’s gpt-oss models provide open-weight reasoning and tool use in sizes intended for servers and powerful personal hardware. Google’s Gemma models offer smaller open models related to its Gemini research, while NVIDIA’s Nemotron family is designed particularly for efficient, long-running AI agents. Many smaller assistants and business systems are built from these families rather than from the closed models their users may recognise.
+
+##### Mistral and the European alternative
+
+Mistral AI is very much still going. The French company offers the Le Chat assistant, commercial services and a continuing range of open-weight models. Mistral 3 includes Large 3, a powerful mixture-of-experts model, alongside smaller models that are easier to deploy locally. Mistral also develops specialist families for reasoning, coding, documents, audio and speech. Its importance is not only technical: it provides a significant European alternative to an AI landscape dominated by American and Chinese companies.
+
+#### What should an ordinary user do with this?
+
+Probably nothing—unless you are curious. You do not need to follow model rankings or understand parameter counts to use an AI assistant well. Choose an assistant that is accessible, affordable and useful to you. The deeper lesson is simply that the name on the app is not the whole system. Models will be replaced, combined and specialised, while the skills you are learning—asking clearly, providing context, checking important answers and using your own judgement—will travel with you across all of them.
+
+### About this handbook
+
+#### Author and organisation
+
+This handbook was written by Charli-Jo Tyrer for TAVIP in July 2026 to accompany the **Confident with AI** course.
+
+#### Licence
+
+This handbook is licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/), usually shortened to **CC BY 4.0**.
+
+You are free to copy and share it; adapt, translate or build upon it; and use it for educational, personal or commercial purposes.
+
+You must give appropriate credit to Charli-Jo Tyrer, provide a link to the licence, and say if you made changes. You may do this in any reasonable way, but not in a way that suggests the author or TAVIP endorses you or your use.
+
+Suggested attribution:
+
+> *AI Assistants*, written by Charli-Jo Tyrer for TAVIP, July 2026. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes were made, if applicable.
+
+#### Independence and trademarks
+
+This is an independent educational resource. It is not produced, sponsored or endorsed by OpenAI, Anthropic, Microsoft, Google, xAI or any of their associated companies.
+
+ChatGPT, Claude, Copilot, Gemini, Grok and the names of their respective companies and products may be trademarks of their owners. They are used here only to identify the services being discussed.
+
+#### Information changes
+
+AI assistants change quickly. Features, prices, account requirements, availability, company names and data practices may have changed since this handbook was written in July 2026. Check the provider’s current website and terms before making an important decision.
+
+------------------------------------------------------------------------
+
+### Glossary
+
+| Term           | Definition                                                                                                                                                                   |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AI assistant   | A computer program that you can have a conversation with using ordinary language.                                                                                            |
+| Anthropic      | The AI company that developed Claude, known for emphasising helpful, honest and safe systems.                                                                                |
+| CC BY 4.0      | The Creative Commons Attribution 4.0 International licence, which allows copying, sharing, adapting and commercial use of a work as long as the creator is credited.         |
+| ChatGPT        | An AI assistant developed by OpenAI that is widely used for drafting text, brainstorming and solving everyday problems.                                                      |
+| Claude         | An AI assistant developed by Anthropic. Its name is widely understood as a reference to Claude Shannon. It is often praised for natural writing and handling long documents. |
+| Copilot        | Microsoft's AI assistant, named after an aircraft's second pilot to suggest that it works alongside you while you remain in control.                                         |
+| Gemini         | An AI assistant developed by Google, named after the Latin word for “twins” and the constellation, which can work with other Google services.                                |
+| Google         | The technology company that makes the Gemini AI assistant.                                                                                                                   |
+| GPT            | An acronym standing for **Generative Pre-trained Transformer**, the type of AI model that powers ChatGPT.                                                                    |
+| Grok           | An AI assistant created by xAI that has a playful, rebellious personality and can search the web and posts on X.                                                             |
+| Microsoft      | The technology company behind the Copilot AI assistant and associated products.                                                                                              |
+| OpenAI         | The artificial intelligence company that created ChatGPT.                                                                                                                    |
+| TAVIP          | The Technology Association of Visually Impaired People, for which this handbook and the *Confident with AI* course were created.                                             |
+| xAI (SpaceXAI) | The artificial intelligence company founded by Elon Musk that developed the Grok AI assistant.                                                                               |
+
+---
+
+Address: https://charli.info/training/confident-with-ai/session-1/know-what-you-are-holding/
+
+## Know What You Are Holding
+
+> Answer-shaped objects and the human judgement that makes them useful, by Charli-Jo Tyrer for TAVIP.
+
+[Session 1: Getting Useful Answers from AI](https://charli.info/training/confident-with-ai/session-1/)
+
+*Answer-shaped objects and the human judgement that makes them useful*
+
+*Written by Charli-Jo Tyrer for TAVIP, July 2026*
+
+An AI assistant gives you something that looks and behaves like an answer. Your job is to decide what kind of answer it is—and what weight it can safely bear.
+
+### Introduction
+
+#### From choosing an assistant to understanding its answers
+
+*AI Assistants* introduced ChatGPT, Claude, Copilot, Gemini and Grok: what they are, where to find them and how to choose somewhere to begin. This follow-up asks the question that matters once an assistant has replied: what, exactly, are you holding?
+
+An AI response has the familiar shape of an answer. It can be clear, confident, detailed and useful. But its fluency is not evidence that it knows, remembers or understands in the way a person does. It is an answer-shaped object: a newly generated estimate built from patterns in human expression.
+
+That does not make the object worthless. It changes the judgement required of the person receiving it. A rough description may open a door that was previously closed; the same degree of uncertainty may be unacceptable when health, money, law or safety is at stake. The useful question is not simply whether AI can be wrong. It is what happens if this answer is wrong, what alternatives are available and whether you can check it.
+
+#### What this session is for
+
+By the end of this session, you should be able to:
+
+- explain the phrase answer-shaped object in ordinary language;
+- separate the confidence and polish of an answer from its reliability;
+- judge an AI response in relation to the task, the stakes and the available alternatives;
+- recognise when an answer is useful as a starting point and when it needs independent checking or professional expertise; and
+- keep human judgement as the load-bearing part of the process.
+
+#### The route through the session
+
+The main text began life as a sequence of postcards: short sections that each turn the same object in the hand. Together they move from how the object is made to how we decide what it is worth.
+
+- **The shape of the thing:** Why a fluent response resembles knowledge without guaranteeing it.
+- **The Eiffel Tower test:** How an AI can construct a useful description without seeing or remembering.
+- **Useful compared with what?:** Why the real alternative may be no description, no explanation or no accessible route into the subject.
+- **The hard cases:** Why plausibility becomes dangerous when the recipient lacks the knowledge needed to test it.
+- **Dead reckoning:** A practical way to think about estimates, drift and different kinds of water.
+- **The human layer:** Why experience, context and judgement remain load-bearing.
+- **Dismissal-shaped objects:** Why blanket rejection can avoid the same careful evaluation that blind acceptance avoids.
+- **What we actually get:** A position between treating AI as truth and treating it as worthless noise.
+
+#### One idea, three versions
+
+The session text is followed by two complete alternative versions of the same argument. The basic version is written as a continuous article for general readers. The philosophy version develops the epistemic questions in greater depth. They are not three different claims. They are three routes into the same claim, written for different readers and purposes.
+
+### The postcard sequence
+
+Read these sections in order, or pause after each one for discussion. The repeated question is simple: what can this object reasonably help me do?
+
+Every discussion about AI seems to circle the same argument. Is it correct? Is it hallucinating? Does it actually understand what it is saying? Those are interesting questions. They are also slightly beside the point.
+
+Because when you interact with a large language model, what you actually receive is something simpler and stranger: an answer-shaped object.
+
+#### The Shape of the Thing
+
+A large language model takes a sequence of tokens—words or fragments of words—and predicts the most statistically likely next token based on patterns learned from enormous amounts of human writing. Then it repeats that process again and again.
+
+From the outside, this produces something familiar: you type a question and something that looks like an answer appears. But what the system actually produced is not knowledge in the human sense. It is a probabilistic artefact shaped by the patterns of human expression.
+
+It has the structure of an answer. It behaves like an answer. Sometimes it is a very good answer. But mechanically speaking, it is something else: a statistical estimate formed from the accumulated ways humans have talked about similar things before.
+
+#### The Eiffel Tower Test
+
+Imagine asking a model: “What does it look like from the top of the Eiffel Tower?” The response will probably be vivid. It may describe the Seine winding through the city, the pale rooftops of Paris and the way Montmartre rises in the distance.
+
+The model has never been there. But thousands of people have. They wrote travel blogs, novels, photo captions and diary entries. The model’s training data contains those descriptions. When you ask the question, it navigates that landscape of human testimony and constructs a likely description.
+
+What comes back is not direct experience. It is an average of human description: an answer-shaped object built from the statistical distribution of how people talk about that view.
+
+#### Useful Compared to What?
+
+Most of the AI debate asks, “Is the answer true?” But another question matters just as much: “Is it useful?”
+
+Consider a blind person asking that Eiffel Tower question. They are not comparing the model’s answer to the real view. They cannot see the view. The comparison is between the answer and nothing at all.
+
+Measured against nothing, the value of that answer-shaped object changes dramatically. It becomes a navigational estimate: a way to participate in a conversation about something that would otherwise be inaccessible. It is not sight. But it is not nothing.
+
+I am blind. I have spent four decades working in access and assistive technology. When I ask a model what the view looks like from the Eiffel Tower, I have absolute domain expertise on what that answer is worth to me. I know what I am holding, its limits and how to use it.
+
+#### But What About the Hard Cases?
+
+Now change the question: “My husband seems depressed. How can I help?” The model will produce an answer-shaped object. It will probably be structured, compassionate and plausible. It may suggest listening without judgement, encouraging professional help and being patient. It will sound like good advice.
+
+But the success function here is vastly more complex than the Eiffel Tower. I may not have the expertise to detect an answer that is subtly wrong precisely because it sounds so plausible. The convincingness of the shape scales independently of the accuracy of the content. The answer sounds most authoritative exactly where you are least equipped to judge it.
+
+#### Dead Reckoning
+
+In navigation, dead reckoning estimates your position using your previous position, direction, speed and elapsed time. The estimate drifts over time. It is not ground truth, but it is still incredibly useful when the alternative is having no idea where you are.
+
+Large language models work in a similar way. They provide dead-reckoning knowledge: estimates derived from accumulated patterns of human expression. Their usefulness depends on the waters you are in. In open ocean with nothing else to steer by, a rough position estimate is invaluable. In a narrow harbour with rocks, the same margin of error kills you.
+
+The question is not merely “Is this better than nothing?” It is whether the person receiving it knows what kind of water they are in.
+
+#### The Human Layer
+
+The answer-shaped object is not the end of the process. It is the beginning. A human being—with experience, context and judgement—decides whether that object is useful.
+
+The model produces the estimate. Your wetware evaluates it. The model does not know. The model does not understand. The model generates answer-shaped objects. The human decides what they are worth.
+
+The people for whom the answer-shaped object fills the biggest gap may also be least equipped to judge when the estimate is drifting. The human layer is not optional. It is load-bearing.
+
+#### Dismissal-Shaped Objects
+
+The loudest voices in the AI debate sometimes reduce their position to one gesture: “It is all slop. Confabulation. AI bollocks.” That refuses to think about baselines.
+
+When someone dismisses all model output as worthless, they compare it to an idealised standard—expert knowledge, direct experience or verified truth—that many people asking the question never had access to in the first place. They can produce dismissal-shaped objects: responses that have the form of a considered position without the substance of one.
+
+If you want to argue that large language models are dangerous, argue it properly. Show where the estimate drifts, who gets hurt when the shape deceives, and where the rocks are in the harbour.
+
+#### What We Actually Get
+
+Large language models do not give us truth. They give us answer-shaped objects: navigational estimates drawn from the vast archive of human expression.
+
+Sometimes those estimates are exactly what you need. Sometimes they are dangerous. The difference depends on context, stakes, what you know and what you do not. What we do with them is still, unmistakably, a human job.
+
+That job starts with being honest about what we are holding: not knowledge, not slop, but something in between—an answer-shaped object.
+
+### Further reading
+
+The two readings below restate the postcard sequence without changing its central idea. Choose the version that matches the depth and style you want—or read both and notice what changes when the audience changes.
+
+#### Basic reading: An Answer-Shaped Object
+
+*A continuous version for general readers, using ordinary language and practical examples.*
+
+##### How the shape is made
+
+AI assistants have learned patterns from enormous amounts of human writing. When you type a question, they use those patterns to generate a likely response, one small piece at a time. We are used to reading confidence as a sign of knowledge, but an AI can produce confidence, detail and tidy bullet points without possessing the knowledge behind them.
+
+That does not make everything it says wrong. It can produce excellent answers. It means the polish of the answer is not proof that its contents are true.
+
+##### The Eiffel Tower test
+
+An AI has never stood on the Eiffel Tower. Yet it can construct a fresh description from travel guides, captions, stories and other accounts. What comes back is not a memory and not sight. It is an estimate made from ways human beings have described that view.
+
+For a blind person, the practical choice may be between a reasonable description and no description at all. Against nothing, an answer-shaped object can be enormously valuable. It gives a mental picture and lets someone join the conversation. It is not sight, but it is not nothing.
+
+##### Open sea or rocky harbour?
+
+Sailors used dead reckoning to estimate position from direction, speed and travel time. The estimate could drift, but it was better than no idea where you were.
+
+If you ask for ideas for a birthday card, a slightly wonky answer will do no harm. That is open sea. If you ask whether a strange pain means you can safely wait until Monday, the same margin of error could be dangerous. That is a rocky harbour.
+
+The important question is not merely whether AI can get things wrong. It can. Ask: what happens if this particular answer is wrong?
+
+##### When the answer sounds better than it is
+
+For low-stakes tasks, try it, edit it and move on. For important factual claims, ask for sources and check them. For medical, legal, financial or safety decisions, use AI to help you understand the issue or prepare questions—not as the final authority.
+
+Your judgement is not an optional extra. The AI creates the answer-shaped object. You decide what weight it can bear.
+
+##### The other lazy answer
+
+“It is all slop. AI makes things up. Never trust any of it” is equally unhelpful. Human beings also misremember, misunderstand and repeat rumours. We do not therefore decide all human conversation is worthless.
+
+Serious criticism asks where an answer might drift, who could be hurt and what happens when someone mistakes the map for the territory.
+
+##### Know what you are holding
+
+AI assistants do not hand us truth. They give us answer-shaped objects built from patterns in the vast archive of things human beings have written. Sometimes that object is a starting point, a translation into plainer language, a description, a draft or a way into a subject that previously felt closed.
+
+Sometimes it is confidently wrong. The useful position lies between worship and dismissal. Know what you are holding, know what kind of waters you are in, then decide what to do with it.
+
+Charli-Jo Tyrer is a writer, conceptual artist and accessibility thinker. She has been blind for forty years and has worked in access and assistive technology for most of her adult life.
+
+#### Philosophy reading: An Answer-Shaped Object
+
+*A deeper version for readers interested in knowledge, testimony, uncertainty and warranted reliance.*
+
+Discussions of generative AI repeatedly return to whether an answer is correct, whether it is hallucinating and whether the system understands. These questions can obscure a prior one: what kind of thing does a large language model give us when it responds?
+
+It gives us an answer-shaped object. The phrase marks a difference between an utterance with the recognisable form of an answer and something that qualifies as knowledge. An answer-shaped object may be accurate, illuminating and useful; it may also be subtly or spectacularly false. Its linguistic confidence does not tell us which.
+
+Large language models produce probabilistic artefacts assembled from patterns in human expression. Their outputs can have epistemic value without becoming knowledge, just as a map, estimate or piece of testimony can help us navigate without guaranteeing truth.
+
+##### The shape of an answer
+
+A fluent answer is not the report of a mind consulting beliefs or remembering an experience. It is generated from learned statistical relationships within vast quantities of human-produced material. The familiar surface encourages us to import assumptions from human conversation: that confidence reflects certainty, explanation reflects understanding and detailed recollection belongs to somebody who remembers. None of those inferences is secure.
+
+The answer-shaped object inherits forms through which people express knowledge without inheriting the ordinary human relationship to that knowledge. Its plausibility and truth can vary independently. This is both its usefulness and danger.
+
+##### Value under non-ideal conditions
+
+For a blind person seeking a visual description, a migrant trying to understand an official letter or somebody meeting specialist language for the first time, the operative alternative may genuinely be nothing. A model-generated description may enable participation; it does not remove the obligation to make original information accessible or provide human expertise where the stakes require it.
+
+The baseline must illuminate the value of access without becoming a ceiling on what people are entitled to receive.
+
+##### When plausibility outruns warrant
+
+The user can receive a polished conclusion without being able to inspect how it was produced or which sources support it. This is epistemic opacity and a problem of unequal evaluative resources. The human layer is load-bearing, but the responsibility is not evenly distributed.
+
+Accessibility can increase epistemic agency, but access to an answer is not the same as access to the means of evaluating it.
+
+##### Dismissal-shaped objects
+
+To say that a model can fabricate does not establish that every output is worthless, any more than the fallibility of testimony establishes that nobody can tell us anything. A blanket dismissal can have the rhetorical appearance of a considered position while giving little account of context, alternatives or consequences.
+
+The useful questions are: where does the estimate drift, who is likely to rely on it, what other source was realistically available, what happens if it is wrong, and where are the rocks in the harbour?
+
+##### What we are holding
+
+Large language models generate answer-shaped objects: linguistic artefacts that may transmit, recombine or distort elements of the human archive from which their patterns were learned. Sometimes such an object is exactly what a person needs. Sometimes its fluency disguises an unacceptable risk.
+
+The difference depends on the question, stakes, available alternatives and the recipient’s capacity to evaluate the result. Between knowledge and worthless noise lies a large, familiar territory: estimates, maps, testimony, hypotheses, heuristics and provisional representations. Generative AI creates a new and unusually persuasive member of that category.
+
+The interesting question is whether we understand what we are holding, what it permits us reasonably to believe and what we should do next.
+
+Charli-Jo Tyrer is a writer, conceptual artist and accessibility thinker. Her work examines accessibility, artificial intelligence and the integrity of information systems.
+
+### About this handbook
+
+#### Author and organisation
+
+This handbook was written by Charli-Jo Tyrer for TAVIP in July 2026 as a follow-up to *AI Assistants* in the *Confident with AI* course.
+
+#### Licence
+
+This handbook is licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You may copy, share, adapt and use it for any purpose, including commercially, provided that you credit the author.
+
+Suggested attribution: **Know What You Are Holding, written by Charli-Jo Tyrer for TAVIP, July 2026. Licensed under CC BY 4.0.**
+
+---
+
+Address: https://charli.info/training/confident-with-ai/session-2/
+
+## Session 2: Understanding and Creating Visual Media When You Are Blind
+
+> Session 2 of Confident with AI: a practical manual for blind people using AI to understand, verify and create visual media.
+
+[Confident with AI](https://charli.info/training/confident-with-ai/)
+
+Session 2 of the three-part Confident with AI course with TAVIP
+
+AI has changed what blindness means in relation to images.
+
+For years, the usual question was: **How can a blind person gain access to visual information created by somebody else?** That question still matters, but it is no longer the whole story. We can now ask a second question: **What can a blind person create for other people to see?**
+
+This manual addresses both.
+
+- **Section One: Understanding Visual Media** is about using AI to describe images, choosing the right tool, judging how much confidence to place in an answer, and checking important details without sight.
+- **Section Two: Creating Visual Media** is about generating comics, animations, promotional videos and branded title sequences—and about retaining creative control even when you cannot independently inspect every pixel.
+
+This is not a list of whichever apps happen to be fashionable this month. Apps and models will change. The more durable skill is learning to match the tool and the level of checking to what you are trying to do.
+
+The central principle is simple:
+
+> Do not ask whether AI image descriptions are trustworthy in general. Ask how much trust you need to place in this particular description, right now.
+
+The same principle applies to creating images. You do not need perfect visual certainty before you can experiment, make something, improve it and share it. You need a workflow appropriate to the consequences of getting it wrong.
+
+------------------------------------------------------------------------
+
+### Section One: Understanding Visual Media
+
+### 1. Build a Toolkit, Not an Allegiance
+
+There is no single best visual AI app for every situation. Different tools make different trade-offs between speed, detail, privacy, model quality, accessibility and access to human verification.
+
+Five useful kinds of tool currently belong in a blind or low-vision AI toolkit.
+
+#### Be My AI
+
+Be My AI, inside the Be My Eyes app, is particularly good at quick, conversational scene descriptions. It is useful when you want a natural account of an ordinary photograph, object or room and the cost of a small mistake is low.
+
+#### Seeing AI
+
+Seeing AI remains a practical Swiss Army knife. Its different modes can help with text, documents, products, people and general scenes. It is especially useful when you want a familiar accessibility tool rather than a general chatbot that happens to accept images.
+
+#### Access AI
+
+Access AI combines general AI assistance with the possibility of human verification. That makes it useful when a task begins as an ordinary AI query but turns out to need greater certainty.
+
+#### PiccyBot
+
+PiccyBot can use a mixture of models. Rather than placing all your confidence in one answer, you can ask several models and concentrate on the details on which they agree. This is valuable when you want stronger evidence than a single description can provide but the situation does not yet require a human.
+
+#### Perspective Intelligence
+
+Perspective Intelligence offers a Seeing-AI-style experience with an emphasis on privacy and on-device processing. This can be attractive when you want information to remain on your phone, need some features to work offline, or prefer not to send every image to a cloud service.
+
+The important distinction is not “cloud bad, phone good.” It is a set of practical trade-offs.
+
+- Cloud services may offer the strongest models, the richest answers and the fastest improvements.
+- On-device services may offer greater privacy, offline access and more control over where your data goes.
+- Mixtures of models may give you greater confidence through agreement.
+- Human services remain essential where a plausible mistake could cause real harm.
+
+Different tools suit different jobs. The real victory is having a small toolkit you can reach for without having to reconsider the entire AI industry every time you encounter an image.
+
+> **A note about change:** Product names, prices and features will date quickly. Treat the examples in this manual as categories as well as recommendations. What matters is knowing when you need an everyday describer, a second model, on-device privacy or a human verifier.
+
+------------------------------------------------------------------------
+
+### 2. How Much Should I Trust This Description?
+
+There is no correct level of trust for all AI-generated image descriptions. A description that is perfectly adequate for a joke on Facebook may be dangerously inadequate for a medication label.
+
+Use a three-layer system:
+
+1.  **Green: good enough**
+2.  **Amber: want it right**
+3.  **Red: need it right**
+
+You do not climb through all three layers for every image. Most ordinary life belongs in green. The skill is recognising the handful of moments that do not.
+
+#### Green: Good Enough
+
+Use an everyday AI tool when a mistake would cost you little or nothing.
+
+Examples include:
+
+- understanding a photograph posted by a friend;
+- getting the joke in a meme;
+- browsing clothing, interiors or social-media images;
+- gaining a quick impression of an unfamiliar object;
+- exploring an image for interest or pleasure;
+- getting the general mood of a book cover.
+
+Be My AI, Seeing AI, Access AI, PiccyBot and Perspective Intelligence may all be suitable, depending on your needs and preferences.
+
+The answer does not need to be perfect. If one detail is wrong, nothing important follows from it. Good enough really is good enough.
+
+#### Amber: Want It Right
+
+Use more than one model when you are learning, forming an impression or preparing to repeat information, but no serious decision depends on it yet.
+
+A mixture-of-models approach asks several systems to examine the same image independently. Details reported by only one model should be treated cautiously. Details on which several models agree are more likely to be reliable.
+
+Think of it as asking three people what they saw and writing down the common elements. Agreement does not prove that they are correct—models can share weaknesses—but it removes many solitary guesses and hallucinations.
+
+Amber is appropriate when:
+
+- you want more certainty than one model can provide;
+- you are researching an image;
+- you may mention the description to somebody else;
+- a mistake would cause confusion or mild embarrassment;
+- you want factual restraint rather than an imaginative account.
+
+PiccyBot’s mixture option is one way to do this. You can also submit the same image to two independent tools and compare their answers yourself.
+
+#### Red: Need It Right
+
+Put a human in the loop when an error could affect:
+
+- health;
+- medication;
+- food safety;
+- money;
+- personal safety;
+- a legal or official decision;
+- somebody’s identity;
+- an important document;
+- a factual claim carrying your name or professional reputation.
+
+No current AI system can guarantee that it is correct. Strong models can be wrong in calm, fluent and highly convincing language. That confidence is precisely what makes an unnoticed error dangerous.
+
+In a red situation, use Be My Eyes, Aira or a trusted person. If the question concerns specialist information, use a person qualified to assess it. A sighted stranger who can read a label is not automatically qualified to interpret medical, legal or financial evidence.
+
+The rule is deliberately blunt:
+
+> If, before AI, you would unquestionably have asked another person because the consequences mattered, keep a person in the loop.
+
+------------------------------------------------------------------------
+
+### 3. Read the Moment
+
+A blind person cannot visually compare a description with the original image. Verification therefore cannot mean “look at it and confirm that the AI is correct.”
+
+Instead, ask two questions.
+
+#### Question One: How Likely Is This to Be Wrong?
+
+Listen for places where the model may be reaching beyond what the image can establish.
+
+##### Names versus kinds
+
+“A dog” may be visible. “A golden retriever called Max” is not established by pixels alone. An image does not contain the dog’s name.
+
+The same applies to statements such as:
+
+- “These are brides.”
+- “This is the company director.”
+- “The photograph shows Manchester.”
+- “She is a nurse.”
+
+The claim may be correct because the model has been given surrounding text or metadata. It may also be an inference or invention. Ask where the information came from.
+
+##### Text and numbers
+
+Prices, dates, doses, platform numbers, serial codes and telephone numbers deserve special caution. Models often misread text inside images, especially when it is small, stylised, curved, partly obscured or low contrast.
+
+Do not rely on a paraphrase when the exact characters matter. Ask the system to read the text verbatim, and verify consequential numbers through another method.
+
+##### Counting and position
+
+Models may miscount repeated objects or confuse left and right. Treat statements such as “three tablets,” “the second door on the left” and “four people are standing behind her” gently unless checked.
+
+##### Charts, maps and forms
+
+An AI may describe the subject and overall shape of a chart while getting the underlying values wrong. This is particularly risky because the data—not the atmosphere—is the purpose of the image.
+
+Ask for exact labels, axes and values. For important data, obtain the source table or an accessible version of the document.
+
+##### Feelings and judgements
+
+Words such as “romantic,” “professional,” “ominous,” “luxurious” and “tender” describe an interpretation. They may be useful, but they are not objective facts.
+
+Treat them as flavour rather than evidence.
+
+##### The texture of confidence
+
+“Appears to be” can be a sign of appropriate uncertainty. Flat certainty about something the system could only be guessing is more dangerous.
+
+Fluent prose is not proof. Confidence belongs to the style of the answer, not necessarily to the quality of the evidence.
+
+#### Question Two: How Much Would It Matter If It Were Wrong?
+
+Use a simple stakes ladder:
+
+- **Low stakes:** A mistake costs nothing. Accept the answer and move on.
+- **Medium stakes:** You are learning, forming an impression or might repeat the information casually. Cross-check doubtful details.
+- **High stakes:** The answer affects health, safety, money, identity, an official decision or a claim you intend to publish. Verify it properly.
+
+Put the two questions together.
+
+- **Low probability of error + low stakes:** Use green and continue.
+- **Uncertain answer + medium stakes:** Move to amber and compare models.
+- **High probability of error + high stakes:** Stop and use red-level human verification.
+
+Almost everything is low stakes. The competency lies in noticing what is not—and in refusing to treat every meme as though it were a medication label.
+
+------------------------------------------------------------------------
+
+### 4. Ways to Double-Check Without Sight
+
+“Verify” should describe actions you can actually take.
+
+#### Ask a narrower question
+
+Open-ended descriptions tend to wander. Pointed questions restrict the task.
+
+Try:
+
+- “Read every piece of visible text exactly as it appears.”
+- “How many people are present? Count them carefully.”
+- “Describe only what is literally visible. Do not infer who the people are or why they are there.”
+- “Is there a price? Read the exact price and currency.”
+- “What details are unclear or partly obscured?”
+
+#### Ask where the information came from
+
+Use:
+
+- “Are you getting that from the image itself or from text around the image?”
+- “Which claims are observations and which are interpretations?”
+- “Would you be able to know that without the caption?”
+
+This is especially useful when an answer contains names, relationships, locations or intentions.
+
+#### Ask another model
+
+Give the image to an independent service. Agreement increases confidence; disagreement is itself valuable information. It tells you that at least one answer is unreliable and that the disputed detail deserves checking.
+
+#### Request exact text
+
+For any label or number, ask for transcription rather than summary. If the service has a dedicated document or OCR mode, compare its output with the conversational description.
+
+#### Cross-check the surrounding context
+
+Use evidence you can access:
+
+- the filename;
+- existing alt text;
+- the caption;
+- the text before and after the image;
+- the page title;
+- the destination of a link;
+- your knowledge of the source.
+
+Context is not cheating. Sighted people also use captions, layout, prior knowledge and the surrounding page to interpret what they see.
+
+#### Spend human help where it matters
+
+Be My Eyes, Aira, friends and colleagues are valuable resources. A risk-based approach means you do not have to ask a person about every unimportant image—and you do not hesitate when a human judgement is genuinely warranted.
+
+------------------------------------------------------------------------
+
+### 5. Worked Example: Judging a Book by Its Cover
+
+The cover of *The Stranger Times* by C. K. McDonnell is an excellent example because it contains factual elements, stylised text, promotional quotations and an overall mood.
+
+#### A literal description
+
+The cover has a red background patterned with small black dots. In the centre is a large black-and-white illustration of an old-fashioned clear glass milk bottle. Inside the lower part of the bottle is a small sailing ship on dark, curling waves. Near the top of the bottle, a ribbon-like strip curls around the neck.
+
+The title, **THE STRANGER TIMES**, dominates the centre of the design in large, distressed white capital letters with heavy black outlines. The title overlaps the bottle and extends beyond its sides. The author’s name, **C. K. McDONNELL**, appears in white capitals along the bottom.
+
+At the top is the line:
+
+> “What if the weird news is the real news?”
+
+Four short review quotations surround the upper part of the bottle:
+
+- “EXTREMELY FUNNY” — *Daily Mail*
+- “RIPPING ENTERTAINMENT” — *The Times*
+- “A PRATCHETTESQUE ROMP” — *Guardian*
+- “GENUINELY FUNNY” — *SFX*
+
+A small white oval emblem containing a black penguin appears near the upper-right corner.
+
+#### What can we reasonably infer?
+
+The distressed lettering, bottle, ship, red-and-black palette and exaggerated review quotations suggest comic fantasy, strangeness and perhaps supernatural or tabloid-style adventure. The cover feels energetic, eccentric and knowingly old-fashioned.
+
+Those are interpretations, not literal facts. A different reader might call the same design chaotic, gothic, playful or retro.
+
+#### What can the cover establish?
+
+With reasonable checking, the cover can establish:
+
+- the title;
+- the author;
+- the publisher’s emblem;
+- the visible illustration;
+- the printed review quotations;
+- the broad visual style.
+
+It cannot establish:
+
+- whether the novel is good;
+- whether you personally will find it funny;
+- whether the reviewers’ comparisons are fair;
+- the precise plot;
+- whether the book is accessible in your preferred format.
+
+#### Choosing the trust layer
+
+If you are browsing for pleasure and want to know what atmosphere the publisher is selling, this is green. Enjoy the description and continue.
+
+If you are writing a review and want to discuss the cover accurately, use amber. Ask another model to transcribe the text and independently describe the central illustration.
+
+If you are reproducing a quotation in published work, checking the ISBN or making a commercial decision based on the edition, move to red for the relevant details. Verify them against an authoritative textual source or ask a person to confirm the exact cover.
+
+#### Questions worth asking
+
+- “Read all the text on the cover verbatim.”
+- “Separate the title, author, tagline and review quotations.”
+- “Describe the central illustration without interpreting what it means.”
+- “Which parts of your answer describe visible facts, and which describe the mood?”
+- “Is any text too small or unclear to read confidently?”
+
+The point is not to defeat the cover like an examination question. It is to get the kind of information you need for the decision you are actually making.
+
+------------------------------------------------------------------------
+
+### Section One: Quick Reference
+
+| If a mistake would…                                                                  | Layer                     | What to use                              |
+|--------------------------------------------------------------------------------------|---------------------------|------------------------------------------|
+| Cost nothing: a meme, social photograph, mood or general impression                  | **Green — good enough**   | One everyday AI description tool         |
+| Mislead you while learning or exploring, but cause no serious harm                   | **Amber — want it right** | A second model or mixture of models      |
+| Affect money, health, safety, identity, an official decision or your name on a claim | **Red — need it right**   | A human verifier or authoritative source |
+
+Before relying on a description, ask:
+
+1.  How likely is this detail to be wrong?
+2.  What would happen if it were wrong?
+3.  Is the AI reporting the image, using surrounding context or making an inference?
+4.  Do I need the general meaning or an exact fact?
+5.  Would another model or a human be proportionate here?
+
+------------------------------------------------------------------------
+
+### Section Two: Creating Visual Media
+
+### 6. From Accessing Images to Making Them
+
+Blind people have traditionally been positioned at the end of the visual-media pipeline. Somebody else designs the cover, draws the comic, shoots the video or creates the animation. Accessibility is then added so that we can receive some account of what was made.
+
+Generative AI changes our position in that pipeline.
+
+A blind creator can now:
+
+1.  develop an idea in words;
+2.  turn that idea into a detailed prompt;
+3.  generate a still image;
+4.  ask an AI to describe the result;
+5.  identify obvious errors through targeted questions;
+6.  revise the prompt and generate another version;
+7.  turn a still image into animation or video;
+8.  add dialogue, music and sound effects;
+9.  create promotional and branded material;
+10. use human review where the stakes justify it.
+
+This does not give a blind creator perfect knowledge of the visual result. It gives her something historically scarce: **control of the process**.
+
+Visual judgement is no longer always a prerequisite for participation. It can become an optional layer of refinement.
+
+------------------------------------------------------------------------
+
+### 7. A Practical Creation Workflow
+
+#### Step 1: Decide what the visual must do
+
+Begin with purpose, not appearance.
+
+Ask:
+
+- Who is it for?
+- Where will it appear?
+- What must the audience understand?
+- What mood should it create?
+- Is any wording, logo or factual detail essential?
+- What would count as failure?
+
+A social experiment, a personal comic and a paid advertisement require different standards of checking.
+
+#### Step 2: Describe the concept
+
+Write a plain-language brief containing:
+
+- subject;
+- setting;
+- action;
+- composition;
+- mood;
+- visual style;
+- colour preferences;
+- required text;
+- details that must not appear.
+
+You can ask a language model to turn this brief into a generation prompt, but retain the original brief. It is your statement of intention and the standard against which later descriptions can be compared.
+
+#### Step 3: Generate the first version
+
+Use an image-generation model to create one or more candidates. At this stage, variety is often more valuable than polishing a single attempt.
+
+#### Step 4: Return the result to a describing model
+
+Do not ask only, “Is this good?”
+
+Ask:
+
+- “Describe the complete image literally.”
+- “Read every word exactly.”
+- “List anything that appears malformed, duplicated or inconsistent.”
+- “Does the image contain all the elements in my brief?”
+- “What might a sighted viewer misunderstand?”
+- “Describe the composition and visual hierarchy.”
+
+The model’s answer is evidence, not a guarantee.
+
+#### Step 5: Compare intention with output
+
+Check the description against your brief.
+
+- Are all required elements present?
+- Has the system introduced an unwanted character, object or implication?
+- Is the wording correct?
+- Does the reported mood match the intention?
+- Are important objects prominent or buried?
+
+#### Step 6: Revise deliberately
+
+Do not merely ask for “better.” Identify the change:
+
+- remove an object;
+- correct wording;
+- simplify the background;
+- make the main character more prominent;
+- preserve a logo;
+- change the emotional tone;
+- improve continuity between panels;
+- reduce visual clutter.
+
+#### Step 7: Choose the right verification layer
+
+Use the same green, amber and red system as you would for descriptions.
+
+- **Green:** personal experiments, playful images and disposable social posts.
+- **Amber:** public creative work carrying your name, where errors would be embarrassing or undermine the work.
+- **Red:** commercial campaigns, sensitive representations, safety information, client work or anything where a visual mistake could cause material harm.
+
+#### Step 8: Publish accessibly
+
+Creating visual media does not end with sighted viewers.
+
+Where possible, provide:
+
+- concise alt text;
+- a fuller description for complex images;
+- captions or transcripts for video;
+- accurate dialogue and sound information;
+- accessible versions of any text embedded in the visual.
+
+A blind creator is particularly well placed to understand that access should be part of the work rather than an apology added afterwards.
+
+------------------------------------------------------------------------
+
+### 8. Creating a Comic When You Are Blind
+
+My third AI-generated comic concerned two theatrical, crime-fighting cats: Mr Monsieur and Mademoiselle Miss.
+
+The workflow was straightforward:
+
+1.  I developed the story and generated the visual prompt with ChatGPT.
+2.  I gave the prompt to Google’s Nano Banana Pro to generate the comic.
+3.  I returned the resulting image to ChatGPT for a complete description.
+4.  I used Gemini Pro as an additional quality check.
+
+The finished comic ran for six pages.
+
+#### The story as described back to me
+
+On page one, Mr Monsieur makes a grand entrance across a living-room “stage,” tail high and chest forward. A close-up presents his gloriously unimpressed face. Mademoiselle Miss stretches across an armchair like a dancer preparing for curtain-up. Ordinary domestic life is being interpreted through the cats’ theatrical imagination.
+
+On page two, a household lamp becomes a spotlight. It glows, dims and dies. Mr Monsieur reacts with shocked indignation while Mademoiselle Miss appears pleased with herself.
+
+On page three, he investigates with enormous importance: checking the curtain, patrolling the furniture and interrogating a dust bunny as though it might confess. Miss half helps and half teases.
+
+Page four provides a red herring. A laser dot appears on the carpet, prompting a heroic but misplaced pounce.
+
+On page five, Mademoiselle Miss discovers the cable. She taps and fiddles with it until the lamp returns to life. She gives Mr Monsieur an affectionate nudge while he attempts to preserve his dignity.
+
+Page six is the curtain call: warm golden light, the lamp restored, Mr Monsieur posing like a triumphant leading man and Mademoiselle Miss reclining beside him with complete confidence.
+
+#### What the checking found
+
+Gemini’s quality check identified two spelling mistakes across six pages. That does not prove everything else was correct, but it turned a vague question—“Does this look all right?”—into specific, actionable information.
+
+For a playful personal comic, this is an amber workflow:
+
+- generate;
+- obtain a structured description;
+- compare it with the script;
+- ask a second model to look for continuity, spelling and obvious defects;
+- decide whether any remaining uncertainty matters.
+
+The significance is larger than one cat story. Blind people can increasingly read descriptions of graphic novels, but we can also create visual stories and share them with sighted friends.
+
+------------------------------------------------------------------------
+
+### 9. Turning the Comic into an Animation
+
+The next step was to give the final scene of the six-page comic to Google’s Veo 3.1 model.
+
+The instruction was to:
+
+- animate the scene;
+- add sound effects where necessary;
+- add music;
+- give the cats voices matching the look and feel of the comic.
+
+#### The resulting sequence
+
+According to the generated description, the animation became a theatrical curtain call on a wooden stage framed by heavy red velvet curtains. A floor lamp stood in the background while a bright spotlight illuminated the centre.
+
+The large, fluffy black cat stood on his hind legs wearing a grey Elizabethan-style ruff. The smaller black-and-white tuxedo cat began lying down and then sat up to join him.
+
+The larger cat waved a paw authoritatively. As the music swelled, he raised it in a dramatic farewell. The smaller cat copied the gesture.
+
+The sequence opened with applause. A deep theatrical voice announced:
+
+> “The case is closed, ladies and gentlemen.”
+
+He then called:
+
+> “Goodnight!”
+
+An upbeat orchestral finale ended with a brass crescendo.
+
+#### Why sound changes the workflow
+
+An animated visual is not necessarily wholly inaccessible to its blind creator. Dialogue, music, timing and sound effects provide information that can be experienced directly.
+
+This creates a hybrid form of control:
+
+- the visual model generates the motion;
+- another model describes the visual result;
+- the creator directly hears the voices, music and sound design;
+- the creator revises the piece through language.
+
+I cannot personally certify every visual detail of the animation. For this experiment, that does not matter. The purpose is not to make a safety-critical film or a client advertisement. It is to create, learn and discover what has become possible.
+
+The work may not be perfect yet. It is already possible—and now it is a matter of the tools becoming better enough.
+
+------------------------------------------------------------------------
+
+### 10. Creating a Promotional Video
+
+The promotional-video project began with a logo for *The Blind AI* blog.
+
+Later, I used a newer model to generate a synthetic photo-shoot image: a male cyclist competing in a road race while wearing *The Blind AI* branded clothing.
+
+About a year after that, I gave the same still image to a video-generation model and asked it to turn the photograph into a short clip from the race.
+
+#### The video as described
+
+The cyclist rides uphill on a paved road during an outdoor event in a mountainous landscape. He is viewed from behind wearing a yellow helmet and a navy-blue jersey.
+
+The back of the jersey carries a large, stylised eye graphic. Beneath it, **THE BLIND AI BLOG** appears in bold white capitals. The rider also wears dark cycling shorts and white socks.
+
+Steep rocky peaks rise in the background. Spectators line the road, cheering and waving signs. Other cyclists are visible farther ahead. Bright sunlight produces sharp shadows while the camera follows steadily behind the rider, capturing both the effort of the climb and the energy of the crowd.
+
+#### The point is the pipeline
+
+I cannot independently decide whether the colours “pop,” whether the camera movement feels cinematic or whether a marketing professional would alter the framing.
+
+Those judgements once determined whether I could participate at all. Now they are possible refinements to a process I can initiate and control.
+
+For the first time, a blind person can create an entire visual promotional pipeline:
+
+- branding;
+- a synthetic photo shoot;
+- branded clothing within the image;
+- motion generated from the still;
+- a description of the finished clip;
+- revisions expressed in language.
+
+No camera, production team or sighted intermediary is required to make the first complete version.
+
+This is not AI “doing creativity for us.” It is the quiet collapse of an old asymmetry. Visual media—once scarce, expensive and exclusionary—is becoming cheap, fast and endlessly revisable.
+
+When that happens, access stops being only about perfect output. It becomes about control.
+
+------------------------------------------------------------------------
+
+### 11. Creating a Title Ident
+
+A title ident is a short piece of animation and sound that gives a programme, channel or project a recognisable identity.
+
+For *AI with the Blind*, I turned a static cover image into an eight-second animated sequence.
+
+The ident contained:
+
+- a golden wireframe sphere rotating in a starfield;
+- a flare of light;
+- a clean voice saying, “AI… with the blind.”
+
+The animation itself was small. What it represented was much larger.
+
+Blindness has often been presented through soft charity colours, apologetic language and gentle accessibility icons—visual choices designed to make disability appear harmless and easy to ignore.
+
+I wanted the opposite:
+
+- the visual and sonic language of modern technology;
+- sophistication rather than apology;
+- a broadcast identity rather than a service notice;
+- a signal that blind people are participants in the future of AI.
+
+The describing AI read the sequence as inspirational, sophisticated and technological—almost like the opening of a science-fiction programme about new forms of intelligence. That was the intended effect.
+
+A title ident turns a collection of posts into something resembling a channel: a place with its own voice, mood and expectations. It gives the project a pulse.
+
+The ident therefore closes the creative progression in this manual:
+
+1.  generate a still image;
+2.  tell a multi-page visual story;
+3.  animate a scene;
+4.  create promotional motion;
+5.  establish a complete visual and sonic identity.
+
+We are not merely asking to be included in somebody else’s visual world. We can increasingly build the thing ourselves.
+
+------------------------------------------------------------------------
+
+### 12. Creative Quality Checks
+
+Before publishing AI-generated visual work, ask questions appropriate to the medium.
+
+#### Still images and covers
+
+- Is the main subject present and prominent?
+- Is all embedded text correct?
+- Are hands, faces, limbs and repeated objects plausible?
+- Does the described mood match the brief?
+- Has the system introduced stereotypes or unwanted symbolism?
+
+#### Comics
+
+- Are characters consistent across panels and pages?
+- Is the reading order clear?
+- Does each panel represent the intended action?
+- Are speech bubbles attributed correctly?
+- Is spelling accurate?
+- Do visual details contradict the script?
+
+#### Animation and video
+
+- Does movement follow naturally from the starting image?
+- Do objects or characters change unexpectedly?
+- Is the spoken wording correct?
+- Do the voice, music and sound effects match the intended tone?
+- Does the clip contain important visual information that needs audio description?
+- Are captions or a transcript required?
+
+#### Branding and promotional work
+
+- Is the name or logo reproduced correctly?
+- Are colours and symbols consistent with the brand?
+- Could the imagery create an unintended association?
+- Is the work polished enough for its audience and purpose?
+- Does it need review by a designer or intended audience member before publication?
+
+#### Decide what “finished” means
+
+Perfection is not the only legitimate standard.
+
+A personal experiment may be finished when it delights you. A public artwork may be finished after two models agree that its key features are intact. A commercial campaign may require a professional human review.
+
+The creator should decide the standard deliberately rather than inheriting the most cautious possible rule for every situation.
+
+------------------------------------------------------------------------
+
+### Conclusion: Independence with Judgement
+
+In roughly a decade, blind people have moved from scraps of machine-generated recognition to conversational descriptions, mixtures of frontier models, human verification on demand and tools that generate complete visual scenes and videos from language.
+
+That change is astonishing.
+
+The danger is not simply that AI can be wrong. The deeper danger is being told that there is only one responsible way to use it: one approved app, one universal standard of certainty, or an all-or-nothing choice between blind trust and total refusal.
+
+Different moments require different levels of confidence.
+
+- Use fast, independent AI for the ordinary images that make up everyday life.
+- Compare models when you want greater confidence.
+- Use people and authoritative sources when consequences are serious.
+- Create freely when experimentation is the point.
+- Add stronger quality control as the audience, stakes and permanence increase.
+
+Blind people should not have to choose between independence and judgement. A layered approach gives us both.
+
+We can understand more of the visual world without pretending that AI is infallible. We can create visual work without pretending that we know every pixel. We can ask for help where it genuinely matters without making dependence the price of participation.
+
+The visual layer is no longer an absolute gatekeeper.
+
+That does not mean the work is finished. It means the work has finally begun.
+
+---
+
+Address: https://charli.info/training/confident-with-ai/session-3/
+
+## Session 3: Using AI Safely
+
+> Session 3 of Confident with AI, a three-part course with TAVIP.
+
+[Confident with AI](https://charli.info/training/confident-with-ai/)
+
+The third session in the three-part Confident with AI course with TAVIP.
+
+This session considers how to use generative AI safely, critically and with confidence.
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/ai-assistants/
+
+## General AI Assistants
+
+> Conversation, explanation, writing, research and general assistance.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Conversation, explanation, writing, research and general assistance.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Starting door for Module 1
+
+[Open chat.com](https://chat.com/). This short address currently redirects to ChatGPT.
+
+ChatGPT is named here as a low-friction starting door, not as a recommendation over other assistants. The durable course lessons do not depend on it.
+
+OpenAI currently says people in the UK can try ChatGPT without creating an account. Without an account, only one conversation is available at a time and it is not saved. Creating or signing into an account may take additional time and may involve an email code or another verification step. OpenAI says phone verification is no longer required for ordinary ChatGPT account creation.
+
+**Link and account information verified:** 5 August 2026.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/conversational-image-description/
+
+## Conversational Image Describers
+
+> Quick, natural descriptions of photographs, objects and scenes.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Quick, natural descriptions of photographs, objects and scenes.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/human-visual-assistance/
+
+## Human Visual-Assistance Services
+
+> Human verification when accuracy or judgement matters.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Human verification when accuracy or judgement matters.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/image-generators/
+
+## Image Generators
+
+> Creating and revising still images.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Creating and revising still images.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/multiple-model-comparison/
+
+## Multiple-Model Comparison
+
+> Methods for comparing independent descriptions or answers.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Methods for comparing independent descriptions or answers.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/private-and-on-device-tools/
+
+## Private and On-Device Tools
+
+> Local processing, offline access and greater control over information.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Local processing, offline access and greater control over information.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/text-and-document-recognition/
+
+## Text and Document Recognition
+
+> Reading text, forms, documents, tables and structured information.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Reading text, forms, documents, tables and structured information.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+---
+
+Address: https://charli.info/training/confident-with-ai/tool-cards/video-and-animation-generators/
+
+## Video and Animation Generators
+
+> Creating movement, animation, dialogue, music and video.
+
+[Confident with AI course contents](https://charli.info/training/confident-with-ai/)
+
+Dated Tool Card
+
+Creating movement, animation, dialogue, music and video.
+
+**Estimated time:** 10 minutes. **Last reviewed:** 5 August 2026.
+
+### What you need to know
+
+This page stands alone. No previous AI knowledge is required. You need access to an AI assistant only for the activity.
+
+**Learning outcome:** Use this card to choose what to compare before checking current product information.
+
+**Before you begin:** Product availability and features change.
+
+### The lesson
+
+This is a dated category guide, not a permanent endorsement of one product.
+
+Check accessibility with your own device and access method.
+
+Confirm privacy, price and feature claims at the provider before relying on them.
+
+### Try it
+
+Compare two current options using access, cost, privacy and the job you need done.
+
+### Checkpoint
+
+You can explain why your preferred option fits this task and what current claim still needs confirmation.
+
+- [Course contents](https://charli.info/training/confident-with-ai/)
+
+### About this course
+
+*Confident with AI* was created by Charli-Jo Tyrer in association with the Technology Association of Visually Impaired People (TAVIP).
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
