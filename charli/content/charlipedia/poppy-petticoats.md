@@ -1,6 +1,6 @@
 ---
 title: Poppy Petticoats
-description: Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as its expert in what women actually want.
+description: Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
 status: canon
 ---
 
