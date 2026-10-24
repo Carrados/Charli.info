@@ -60,7 +60,7 @@ Her one non-negotiable ritual is walking: not steps, not an app, just moving thr
 
 ## Family
 
-Her great-great-grandmother, on a different branch from the Portuguese one, was Lady Tiggy Barnes, born 1864, a Victorian gentlewoman explorer. No title came down to dice, "which is probably just as well". What came down, or what she rediscovered on her own, is a disposition towards the world. Whether she inherited the curiosity or found it herself is her own open question.
+Her great-great-grandmother, on a different branch from the Portuguese one, was [Lady Tiggy Barnes](/charlipedia/lady-tiggy-barnes/), born 1864, a Victorian gentlewoman explorer. No title came down to dice, "which is probably just as well". What came down, or what she rediscovered on her own, is a disposition towards the world. Whether she inherited the curiosity or found it herself is her own open question.
 
 ## At the café
 
