@@ -55,7 +55,7 @@ function page(p, html) {
   }).join('');
   const meta = [p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
   // A CharliPedia entry (status: canon | idea | stub) says, under its title, what it is and that it is written from inside the world.
-  const status = p.status && cfg.statuses?.[p.status] ? `\n  <p class="entry-status"><strong>${esc(cfg.statuses[p.status])}.</strong> ${cfg.statusNote}</p>` : '';
+  const status = p.status && cfg.statuses?.[p.status] ? `\n  <p class="entry-status"><strong>${esc(cfg.statuses[p.status])}.</strong> ${cfg.statusNotes?.[p.status] ?? cfg.statusNote}</p>` : '';
   return `<!doctype html>
 <html lang="en-GB">
 <head>
@@ -98,7 +98,7 @@ ${html}
 function markdownMirror(p, body) {
   let out = `# ${p.title}\n\n> ${p.description}\n\n`;
   if (p.byline || p.date) out += [p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
-  if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${cfg.statusNote.replace(/<[^>]+>/g, '')}\n\n`;
+  if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${(cfg.statusNotes?.[p.status] ?? cfg.statusNote).replace(/<[^>]+>/g, '')}\n\n`;
   body = body.replace(/<!--[\s\S]*?-->\n?/g, '').replace(/\]\(\//g, `](${SITE}/`);
   return out + body.trim() + '\n';
 }

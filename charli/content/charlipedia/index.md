@@ -14,6 +14,7 @@ Each entry is marked at the top:
 - **Canon:** this is how things are in the CharliVerse.
 - **An idea, not yet canon:** something being tried out. It may change or disappear.
 - **Canon, and a stub:** true, but short. CharliPedia knows more than it has written down so far.
+- **An author:** a real person who writes the CharliVerse, described from outside it.
 
 CharliPedia is a source of continuity, not an authority. The CharliVerse is allowed to be inconsistent: its people can be anywhere and anywhen, and when a new story disagrees with an old entry, the entry is the one that changes.
 
