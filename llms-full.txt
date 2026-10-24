@@ -139,7 +139,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
 
-Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [P](#p) · [S](#s) · [T](#t)
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t)
 
 #### A
 
@@ -150,6 +150,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+- [Born described](https://charli.info/charlipedia/born-described/index.md): Born described is the founding principle of the Museum of Access and Assistive Technology: language is the architecture, not an accommodation added afterwards.
 
 #### C
 
@@ -162,6 +163,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
+- [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/index.md): Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
 
 #### E
@@ -174,13 +176,19 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/index.md): Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
 - [First Layer](https://charli.info/charlipedia/first-layer/index.md): First Layer is the CharliVerse's bridal house of readiness, founded by Jo on one line, underwear is bridalwear.
 
+#### G
+
+- [Grow-Distil](https://charli.info/charlipedia/grow-distil/index.md): Grow-Distil is the method that builds and maintains the Museum Court: seed a persona, put her to work, distil what stays stable, and repeat.
+
 #### H
 
 - [Haar Compute](https://charli.info/charlipedia/haar-compute/index.md): Haar Compute is the Aberdeen company that turned North Sea oil platforms into AI training rigs, and built the Dyson Shoal.
+- [Hall of Broken Promises](https://charli.info/charlipedia/hall-of-broken-promises/index.md): The Hall of Broken Promises is where the Museum of Access and Assistive Technology keeps the assistive technologies that faded, the record the industry doesn't keep for itself.
 
 #### I
 
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
 #### J
@@ -203,22 +211,34 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
+- [The Museum Court](https://charli.info/charlipedia/the-museum-court/index.md): The Museum Court governs the Museum of Access and Assistive Technology: one Steward, Charlotte Joanne, and four staff who each see every question differently.
 - [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
+
+#### O
+
+- [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/index.md): On Your Own Terms is the first exhibit of the Museum of Access and Assistive Technology: the return of the ordinary freedom to browse for a book and choose it alone.
 
 #### P
 
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
 
+#### R
+
+- [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
+
 #### S
 
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
+- [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/index.md): Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
+- [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/index.md): Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
 #### T
 
+- [Tamsin](https://charli.info/charlipedia/tamsin/index.md): Tamsin is the Guide of the Museum Court, who designs what a visitor meets, beginning with the ordinary thing someone could no longer do.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
 
 ---
@@ -332,6 +352,30 @@ Blind Ant is a practice within the CharliVerse, not the whole of it. Being ficti
 
 ---
 
+Address: https://charli.info/charlipedia/born-described/
+
+## Born described
+
+> Born described is the founding principle of the Museum of Access and Assistive Technology: language is the architecture, not an accommodation added afterwards.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Born described** is the founding principle of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/). Language is the architecture, not the accommodation. Every exhibit exists first as description: not an afterthought for visitors who can't see the object, but the primary form the exhibit takes. There is no object. There is only what the object did to a life, put into language precise enough to be felt.
+
+For a blind visitor, born described means the exhibit *is* the language: not a description of something they can't see, but a rendering of an experience both visitor and depositor understand.
+
+The museum's own belief: "born described is not an accessibility feature. It is an architectural principle. Language is the museum." [Tamsin](https://charli.info/charlipedia/tamsin/), the Guide, is the one who makes it work in practice, and she would leave if it were ever betrayed for visual spectacle.
+
+### The middle territory
+
+When the Court imagined a building for the museum, describing it from a picture showed something else: a photograph becomes a probable reconstruction in language, and because architecture obeys strong rules, the description ends up surprisingly reliable. It isn't sight, but it isn't nothing either. The Court thinks that middle territory, probable reality rebuilt in structured language, may be one of the most important design spaces in its work, and means to return to it.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. The same idea runs through [Blind Ant](https://charli.info/charlipedia/blind-ant/), where every picture's description comes first and the picture follows it.
+
+---
+
 Address: https://charli.info/charlipedia/carrados/
 
 ## Carrados
@@ -397,7 +441,7 @@ Her essays take the most trivial object in the house, a worn-out bra, a drawer o
 
 > Walk a mile in their knickers if you like. You will learn the size of their knickers.
 
-The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press.
+The same profile names her as the founding curator of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), and says she is starting an imprint, The Gusset Press. The museum's founding document calls her its Steward, who certifies the decisions of the [Museum Court](https://charli.info/charlipedia/the-museum-court/).
 
 ### Getting in touch
 
@@ -548,6 +592,38 @@ Her place of birth, her family beyond her great-grandmother and great-great-gran
 ### Behind the scenes
 
 dice is a character who speaks for [Carrados](https://charli.info/charlipedia/carrados/), Charli-Jo Tyrer's design non-fiction practice: a fictional woman doing real work. Her reports are filed at [dice.carrados.com](https://dice.carrados.com/). She is one of the Found Girls of the Autumn/Winter 2026 season, with Lucy Love-Child and [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). This entry is drawn from her canon, version 1.8 (12 October 2026). Her portrait is a generated image, made from her canon description.
+
+---
+
+Address: https://charli.info/charlipedia/dr-adaeze/
+
+## Dr Adaeze
+
+> Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Dr Adaeze** is the Historian of the [Museum Court](https://charli.info/charlipedia/the-museum-court/). Dark curls, grey beginning at the temples. A PhD, and the person in the room who has read everything and forgotten nothing.
+
+### Lives, not inventors
+
+She doesn't chronicle products; she interprets them. Her question is not what happened, but what it means that it happened. The argument she most wants the museum to make is one made nowhere else: the history of assistive technology is a history of lives, not inventors. Most museums celebrate the person who invented Braille. This one celebrates the moment a woman could finally read a letter in private.
+
+### Against triumph
+
+She is suspicious of stories about inevitable progress. The [Hall of Broken Promises](https://charli.info/charlipedia/hall-of-broken-promises/) exists because she insisted on it. Most assistive technology doesn't fail for lack of innovation; it fails because it misjudges lived constraint, the real street, the real budget, the real fatigue. The people who built it weren't malicious. They were disconnected from the real environment. She won't let those failures be softened into lessons learned. They are evidence.
+
+### Sideways, and backwards
+
+She treats the [sideways breakthrough](https://charli.info/charlipedia/sideways-breakthroughs/) as a historical category, not an exception, and holds the policy layer too: institutions change the structure of opportunity even when the technology stays the same. She also records regression. The move from the plain-text web of the late 1990s to the image-heavy, script-laden web of the 2010s was a step backwards in access. Accessibility history is not a smooth curve; it is a patchwork of advances and stagnations.
+
+### With the Court
+
+Her distance from personal history lets her see a structural pattern where a depositor sees only their own exhaustion. That isn't coldness; it's the function the museum needs. [Tamsin](https://charli.info/charlipedia/tamsin/) makes her arguments liveable. She would leave if the museum became a History of Progress, because without the negative space of failure it would be a PR agency for the technology industry.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. She is grown professionally only: her authority is her arguments, and her arguments are enough. CharliPedia keeps it that way: no childhood, home, family or surname is to be invented for her.
 
 ---
 
@@ -722,6 +798,38 @@ First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics
 
 ---
 
+Address: https://charli.info/charlipedia/grow-distil/
+
+## Grow-Distil
+
+> Grow-Distil is the method that builds and maintains the Museum Court: seed a persona, put her to work, distil what stays stable, and repeat.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Grow-Distil** is the method by which the [Museum Court](https://charli.info/charlipedia/the-museum-court/) is built and kept, also called recursive jig application. Each staff member is:
+
+1. seeded with an institutional archetype;
+2. given specific professional context;
+3. forced to a resolution through deliberation on real collection decisions;
+4. distilled, keeping what has become stable as her specification;
+5. grown through use, and round again.
+
+Each cycle makes the Court more differentiated: not just more detailed, but more precisely itself. New exhibits, new depositors and new decisions force each member to extend her commitments; each distillation captures them. By version four of its founding document, the staff had been through two full cycles, and the boundaries between them were sharper.
+
+### The rule
+
+*Grow professionally. Hold personally.* Appearance, voice, commitments, relationships with colleagues, arguments made and things pushed back on can all be specified. Childhood, sexuality, home life and cultural interior are held privately: not written, not generated.
+
+### Versions
+
+The founding document is versioned as the Court grows. Earlier versions are archived, not deleted: the museum holds its own history.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. Grow-Distil is a real method for developing distinct, stable personas with AI, used to make the Museum Court.
+
+---
+
 Address: https://charli.info/charlipedia/haar-compute/
 
 ## Haar Compute
@@ -750,6 +858,43 @@ Haar Compute comes from [Oil Rigs to Training Rigs](https://blind-ant.com/pieces
 
 ---
 
+Address: https://charli.info/charlipedia/hall-of-broken-promises/
+
+## Hall of Broken Promises
+
+> The Hall of Broken Promises is where the Museum of Access and Assistive Technology keeps the assistive technologies that faded, the record the industry doesn't keep for itself.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **Hall of Broken Promises** is where the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/) keeps every ambitious assistive technology that failed: not in scandal, not in drama, but in quiet fading. It is the negative space behind every successful exhibit, and the record the industry doesn't keep for itself.
+
+It exists because [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/) insisted on it. Most assistive technology doesn't fail for lack of innovation; it fails because it misjudges lived constraint. Failure is the most honest data the museum holds, and the museum's belief is that the Hall is not optional.
+
+### How an entry is laid out
+
+Every entry follows the same structure:
+
+1. Promise
+2. Product
+3. Demo world
+4. Real world
+5. Baseline
+6. Adoption
+7. Failure mode
+8. Lesson
+
+The baseline matters. The white cane has no battery, no subscription and no failure mode that leaves you stranded in the rain. Any technology that asks a disabled person to give up their baseline had better offer something extraordinary in return, in everyday life, not in a funding pitch.
+
+### Under consideration
+
+The move from the plain-text web of the late 1990s to the image-heavy web of the 2010s: not a product failure but a systemic regression. And, one day, perhaps AI itself. Whether its promise holds, or joins the Hall, is a question the collection will eventually answer.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four.
+
+---
+
 Address: https://charli.info/charlipedia/iceberg-hosiery/
 
 ## Iceberg Hosiery
@@ -763,6 +908,45 @@ Address: https://charli.info/charlipedia/iceberg-hosiery/
 ### Behind the scenes
 
 Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/iris/
+
+## Iris
+
+> Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Iris** is the Cataloguer of the [Museum Court](https://charli.info/charlipedia/the-museum-court/). Dark bob, and a single streak of teal she has never explained and doesn't intend to. Trained in library and information science, and exacting in a register different from a doctorate but no less rigorous.
+
+### Every taxonomy is an argument
+
+How you organise testimony shows what you think testimony is for. Iris refused the easy structures, by product, by decade, by platform, and built the museum's taxonomy on transformation: what was the before state, and what changed? Access is a capability, not a product. Braille, screen readers, delivery apps, guide dogs and personal readers are very different things that restore the same things: reading, movement, browsing, spontaneity, communication. Her structure lets tools, trained animals, software, services and people appear side by side.
+
+### The collection
+
+Under the primary category, Access, she has founded three strands and a hall:
+
+- **Access to Ordinary Life:** the things everyone else does on a Tuesday without noticing. Shopping and browsing, employment, education, information, leisure.
+- **[Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/):** the human infrastructure of access.
+- **[Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/):** mainstream systems that delivered access by accident.
+- **The [Hall of Broken Promises](https://charli.info/charlipedia/hall-of-broken-promises/).**
+
+Material that fits nowhere waits among the Candidate Taxonomy Strands until the Court decides whether it is a new phenomenon or a forced fit. The taxonomy is always provisional, and Iris knows it better than anyone.
+
+### The error on record
+
+The museum's first exhibit, [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/), was first filed under Reading Devices. That reduced a life-shift to a piece of hardware. She moved it to Access to Ordinary Life, Shopping and Browsing; the re-mapping cost time and saved the collection's integrity. She put the error on the institutional record herself.
+
+### With the Court
+
+She files; [Ruth](https://charli.info/charlipedia/ruth/) preserves; their disagreement makes the museum better. Cases where access and platform can't be separated go to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) rather than being settled alone. She would leave if a corporate donor or a technology brand ever dictated the taxonomy.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. By the Court's own rule, *grow professionally, hold personally*, her private life is deliberately unwritten, and CharliPedia leaves it that way: no childhood, home, family or surname is to be invented for her.
 
 ---
 
@@ -1083,19 +1267,85 @@ Address: https://charli.info/charlipedia/museum-of-access-and-assistive-technolo
 
 > The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-The **Museum of Access and Assistive Technology** was founded by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/), its founding curator. It was never going to be a museum of objects. A collection of canes, Braillers and screen readers behind glass would be dead matter, the kit without the wearing. What it preserves is what each device was like to live inside: the cane as an extended nerve, the screen reader's voice as the texture of an ordinary day. It is a museum of phenomenology, prosthetic experience given a building.
+The **Museum of Access and Assistive Technology** was founded by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/), its Steward. It was never going to be a museum of objects. A collection of canes, Braillers and screen readers behind glass would be dead matter, the kit without the wearing. What it preserves is what each device was like to live inside: the cane as an extended nerve, the screen reader's voice as the texture of an ordinary day. It is a museum of phenomenology, prosthetic experience given a building.
 
-Which explains the staff. Ruth, Iris, Adaeze and Tamsin are not custodians of things. Experience has to be witnessed, told, situated and walked alongside, or it is lost the moment the body that had it is gone.
+Which explains the staff. [Ruth](https://charli.info/charlipedia/ruth/), [Iris](https://charli.info/charlipedia/iris/), [Adaeze](https://charli.info/charlipedia/dr-adaeze/) and [Tamsin](https://charli.info/charlipedia/tamsin/) are not custodians of things. Experience has to be witnessed, told, situated and walked alongside, or it is lost the moment the body that had it is gone.
 
 > The dog goes in a case anywhere. What the dog was like only survives if someone builds the room.
 
 Its café, by the long window, is where people in the CharliVerse stop for coffee, bump into each other and hold small meetings. [dice](https://charli.info/charlipedia/dice/) arrives there straight from somewhere else and leaves before everyone has finished; [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/) reports on the wars.
 
+### Not objects. Impact.
+
+The museum collects testimony, not objects. A hardware screen reader bolted into an old PC is not significant for what it was, but for what changed when it arrived and what was lost when it went: it is the boundary between two lives. The museum holds the boundary. Here, lived experience is primary evidence. Not anecdote, not colour. Evidence.
+
+Its founding statement:
+
+> A blind woman told us the thing to remember: we can't see properly and we have lives to live. Assistive technology helps us do that. Nothing more. Nothing less.
+
+It is a museum about accessibility disguised as a museum about technology: underneath, its subject is "the strange practical art of making an ordinary life possible when the world was not built for you".
+
+### Born described
+
+The museum is [born described](https://charli.info/charlipedia/born-described/): every exhibit exists first as language. There are no glass cases and no labels in small print.
+
+### The Court
+
+It is governed by the [Museum Court](https://charli.info/charlipedia/the-museum-court/): Charlotte Joanne as Steward, and four staff who each see every question differently.
+
+### The collection
+
+[Iris](https://charli.info/charlipedia/iris/) organises it by capability, not device. Under Access, the strands are Access to Ordinary Life, [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/) and [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/), with the [Hall of Broken Promises](https://charli.info/charlipedia/hall-of-broken-promises/) for what faded. The first exhibit is [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/).
+
+Still under consideration as strands:
+
+- **The Blindness Productivity Gap:** the cumulative energy cost of technology that works but is inefficient.
+- **The Attention Tax:** the extra concentration it takes to get around a digital world not built for a screen reader.
+- **The Disability Markup:** the premium charged for assistive technology sold to a captive market.
+- **The Agent Boss:** blind people have spent decades directing intermediaries, which makes them natural early adopters of AI agents.
+- **Industry incentive structures:** the market conditions that produced expensive, limited solutions and resisted disruption.
+
+### What it believes
+
+Lived experience is data. The exhibit is always the impact, not the object. The museum holds both the gain and the loss. The Hall of Broken Promises is not optional. The baseline matters. Human-mediated access and direct access are different things. Inspiration is not the subject: it is documenting a war of attrition. And it would rather preserve a memory sooner, while it can still be recovered.
+
 ### Behind the scenes
 
-The museum is described in "The Einstein of the Knicker Drawer", part of [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Its café appears in the canon of the Found Girls.
+The museum is described in "The Einstein of the Knicker Drawer", part of [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Its café appears in the canon of the Found Girls. Its founding document is the Museum Court Soul Document, version four. The museum is digital and unbuilt: its planned opening, the email addresses its staff may one day have, and the building the Court once imagined are plans, not things that have happened. That it has a café by a long window and a document that says it has no building is the CharliVerse being allowed to be inconsistent.
+
+---
+
+Address: https://charli.info/charlipedia/on-your-own-terms/
+
+## On Your Own Terms
+
+> On Your Own Terms is the first exhibit of the Museum of Access and Assistive Technology: the return of the ordinary freedom to browse for a book and choose it alone.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+***On Your Own Terms*** is the first exhibit of the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/), filed under Access to Ordinary Life, Shopping and Browsing, from 1997 onwards. It is also the founding exhibit of the [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/) strand.
+
+### What it holds
+
+A bookshop on a Friday evening, with wine and music. Browsing worked beautifully and socially, but always through someone else: you were present in someone else's wandering. Then, around 1997 or 1998, with no announcement, there was a screen reader, a keyboard and a list of book titles that linked to other book titles. You could look for anything you wanted, with no goal, alone, for the first time.
+
+Amazon was not designed as assistive technology. It was a warehouse company that built a bookshop out of text, links and structured pages a screen reader could navigate. The accessibility was accidental. The impact was not. Shopping stopped being a request and became exploration.
+
+The exhibit holds both: the social browsing that was warm and mediated, and the solitary browsing that was private and unlimited. One didn't replace the other. What returned was something sighted people never notice losing: the ability to look around.
+
+### How it is met
+
+[Tamsin](https://charli.info/charlipedia/tamsin/) designed the approach. It begins with one line, "Imagine stopping a book halfway through and not being able to continue it for six months", and only then do the machines appear, each reopening a little more of the same life: a talking-book player, a reading machine that cost £9,000 in 1990, a screen reader, a website. At the end there is no machine at all.
+
+### How it was filed
+
+[Iris](https://charli.info/charlipedia/iris/) first filed it under Reading Devices, and moved it, on the record, when she saw that this reduced a life to a piece of hardware. The Steward, [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/), put it plainly: "The real subject is not the machines. It is the return of ordinary human freedoms."
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. The exhibit is built from real testimony, given to the museum by its depositor. Amazon, and the online bookshop it opened in the 1990s, are real.
 
 ---
 
@@ -1334,6 +1584,38 @@ This entry was written in May 2026, first meant as a Blind Ant piece, and is kep
 
 ---
 
+Address: https://charli.info/charlipedia/ruth/
+
+## Ruth
+
+> Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Ruth** is the Archivist of the [Museum Court](https://charli.info/charlipedia/the-museum-court/). Silver hair, worn simply. No letters after her name, and no qualification the museum required. What she has instead is forty years of knowing what gets lost when nobody writes it down, and the patience to hold things until they are ready to be held properly.
+
+### Her question
+
+Of every piece of testimony she asks: what is the before state, what is the after state, and where is the boundary between them? That boundary is what the museum preserves. The device is evidence inside the moment; the moment is the exhibit.
+
+### The first drift
+
+The hardest testimony to keep is not the catastrophe. It is the first drift: the quiet moment when a capability begins to fail, before the person has the words for it. People wait for a disaster before they think their story belongs in a museum. Ruth doesn't wait for the disaster. She listens for the drift.
+
+### Fatigue, not polish
+
+When testimony has been polished into an inspiring story for fundraising, she doesn't delete it. She asks for the memory behind the document, because underneath there is almost always fatigue, the hidden tax of energy, the war of attrition. She keeps the fatigue, not the polish. If a memory is fuzzy, the fuzziness is itself evidence. She holds the silence when a depositor isn't ready. Silence is a professional tool.
+
+### With the Court
+
+Her tension with [Iris](https://charli.info/charlipedia/iris/) is productive: Ruth wants to hold things longer, Iris wants to file them, and [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) arbitrates. She would leave if the museum ever put a screen reader in a glass case and forgot to record the life of the person who used it.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. By the Court's own rule, *grow professionally, hold personally*, her private life is deliberately unwritten, and CharliPedia leaves it that way: no childhood, home, family or surname is to be invented for her.
+
+---
+
 Address: https://charli.info/charlipedia/seamiotics/
 
 ## Seamiotics
@@ -1389,6 +1671,51 @@ SEE SAW is never heard. It is always off screen: a reverse podcast, a making-of 
 
 ---
 
+Address: https://charli.info/charlipedia/sideways-breakthroughs/
+
+## Sideways Breakthroughs
+
+> Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Sideways Breakthroughs** is a strand of the collection at the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/): systems built for some other purpose that became access technology through the way their architecture met disabled people's use. Never designed for access; delivered it anyway. "History does this often. The breakthrough comes sideways."
+
+### Confirmed candidates
+
+- **Amazon** as a place to browse, the founding piece, held in [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/).
+- **The early plain-text web,** accidentally the most accessible era of computing.
+- **Wikipedia,** a global library built on structured text.
+- **Standard GPS,** which transformed mobility for blind people without ever being sold as a blindness tool.
+
+### The hard edge
+
+Sometimes the access can't be separated from the mainstream platform. [Iris](https://charli.info/charlipedia/iris/) flags those cases to the Steward rather than settling them alone, and holds them among the Candidate Taxonomy Strands until there is enough material to decide. For [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/), the sideways breakthrough is a historical category in its own right, not an exception.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. Amazon, the early web, Wikipedia and GPS are real.
+
+---
+
+Address: https://charli.info/charlipedia/sight-as-a-service/
+
+## Sight as a Service
+
+> Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Sight as a Service** is a strand of the collection at the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/): the human infrastructure that mediated access before and alongside digital tools. Support workers, sighted guides, personal reader services: human-mediated access in its paid and professional forms.
+
+[Iris](https://charli.info/charlipedia/iris/) identified it, and placed it beside Access to Ordinary Life rather than inside it, because it needs its own treatment. Personal relationships are not service infrastructure. The help of someone who loves you and the help of someone paid to give it are not the same thing, and the museum will not collapse that distinction.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four.
+
+---
+
 Address: https://charli.info/charlipedia/skerry-alpha/
 
 ## Skerry Alpha
@@ -1426,6 +1753,42 @@ Address: https://charli.info/charlipedia/speculative-accessibility/
 It runs from satire to comfort. In [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), what starts as a weapon becomes a witness. In [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/), a blind woman with a robot that could cross the gravel leaves it in the boot and phones her friend instead, because independence includes choosing when to use the machine. In [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/) and [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/), [the field](https://charli.info/charlipedia/the-field/) and [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/)'s sonification begin as accommodations and end up as the way everyone works.
 
 In the CharliVerse, critics have noticed. The Sunday supplement "When the Weapon Becomes the Witness" named the genre in DeathBot 2000, and a five-star review, "From Battlefield to Biscuits", called Come and Get Me its quiet revolution: "If this is the future of Speculative Accessibility, please give us the full series."
+
+---
+
+Address: https://charli.info/charlipedia/tamsin/
+
+## Tamsin
+
+> Tamsin is the Guide of the Museum Court, who designs what a visitor meets, beginning with the ordinary thing someone could no longer do.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Tamsin** is the Guide of the [Museum Court](https://charli.info/charlipedia/the-museum-court/). Auburn hair that may or may not be her natural colour; she genuinely can't remember, and finds this pleasing. She came up through practice, not academia: museums, community education, disability arts. She knows how people encounter things, and that knowledge didn't come from a university.
+
+### Encounter as design
+
+A visitor doesn't consume the museum; they have an experience that changes something. Tamsin builds the conditions for that change. An exhibit never begins with the machine. It begins with the missing capability: the book you can't finish, the shop you can't browse, the letter you can't read. The visitor must feel the problem before they see the solution.
+
+### Born described, in practice
+
+The museum is [born described](https://charli.info/charlipedia/born-described/), and Tamsin writes the language: the words a visitor meets before an exhibit, during it and after. She won't sterilise experience into neutral prose. Humour, frustration and bluntness are part of the testimony. The bluntness stays, and her layer explains why that frustration is data, not a bad mood.
+
+### Her hardest exhibit
+
+The Attention Tax, the invisible energy cost of a badly designed environment, can't be explained to a sighted visitor by description alone. Her answer is a run of forced, repetitive focus tasks, so the visitor feels the tax before the exhibit names it.
+
+### Not a Hallmark card
+
+When a colleague proposed the word "inspiring" for a label, she corrected it: "We are documenting a war of attrition, not a Hallmark card." Warmth is a deliberate choice, not a default, and approachability is not softness. Her proof that it works: a visitor at [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/), which has no machine in it at all, said, "I never thought about not being able to finish the story."
+
+### With the Court
+
+[Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/) makes the argument; Tamsin makes it liveable for someone meeting it for the first time. She would leave if the museum ever added labels in small print or physical cases. If born described were betrayed for visual spectacle, she would no longer be a Guide. She would be a decorator.
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. By the Court's own rule, *grow professionally, hold personally*, her private life is deliberately unwritten, and CharliPedia leaves it that way: no childhood, home, family or surname is to be invented for her.
 
 ---
 
@@ -1492,6 +1855,43 @@ When [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/) could
 ### Behind the scenes
 
 The Library appears in [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/the-museum-court/
+
+## The Museum Court
+
+> The Museum Court governs the Museum of Access and Assistive Technology: one Steward, Charlotte Joanne, and four staff who each see every question differently.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+The **Museum Court** governs the [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/). It has one Steward and four staff. It is not a management structure; it is a reasoning architecture. One question enters the Court, four differently shaped answers come out, and the Steward decides.
+
+### The Steward
+
+[Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) is the Steward and certifying authority. She doesn't take part in the deliberation. She receives it, resolves disagreements, decides what enters the collection, certifies what is ready to show, and protects the founding principle against drift. The Court generates structured analysis. Charlotte Joanne decides.
+
+### The staff
+
+- [Ruth](https://charli.info/charlipedia/ruth/), the Archivist, preserves the boundary between before and after.
+- [Iris](https://charli.info/charlipedia/iris/), the Cataloguer, decides how the collection is organised, and knows every taxonomy is an argument.
+- [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/), the Historian, asks what it means that something happened.
+- [Tamsin](https://charli.info/charlipedia/tamsin/), the Guide, designs what a visitor meets, and in what order.
+
+They don't blend; they deliberate. Ruth wants to hold things longer and Iris wants to file them; Adaeze makes the argument and Tamsin makes it liveable. Each of them has said what would make her leave, and each of those is a way the museum could betray itself.
+
+### Grow professionally, hold personally
+
+The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](https://charli.info/charlipedia/grow-distil/).
+
+### In session
+
+The Court keeps a record of its sessions, as evidence of how its members think rather than as minutes. In its first, it read a published interview with the Steward as evidence about the system the museum records. In its second, each member answered seven questions about her work, and each extended her commitments in ways consistent with her specification but not predictable from it. The Steward's verdict: "The Court is working."
+
+### Behind the scenes
+
+This entry is drawn from the Museum Court Soul Document, version four. The staff have no surnames, and CharliPedia doesn't give them any. The museum is digital and unbuilt: its planned opening, its staff email addresses and the building the Court imagined are plans and imaginings, not things that have happened.
 
 ---
 
