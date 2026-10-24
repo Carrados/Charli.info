@@ -161,9 +161,14 @@ for (const f of extras) {
   await copyFile(f, to);
 }
 const home = pages.find((p) => p.path === '/');
-let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\nAll content is CC BY-SA 4.0, and every crawler is welcome, including those that train models. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.\n\n## Pages\n\n`;
-for (const p of listed) llms += `- [${p.title}](${SITE}${p.mdPath}): ${p.description}\n`;
+// The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
+const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/';
+let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
+for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);
-await writeFile(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+let full = `# ${cfg.name}: the full text\n\n> ${home.description}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0.\n`;
+for (const p of listed) full += `\n---\n\nAddress: ${SITE}${p.path}\n\n${(await readFile(join(dist, p.mdPath), 'utf8')).replace(/^# /, '## ').replace(/\n(#{1,5}) /g, '\n#$1 ')}`;
+await writeFile(join(dist, 'llms-full.txt'), full);
+await writeFile(join(dist, 'robots.txt'), (await readFile(join(root, 'engine', 'robots.txt'), 'utf8')) + `Sitemap: ${SITE}/sitemap.xml\n`);
 await writeFile(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${listed.map((p) => `  <url><loc>${SITE}${p.path}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`Built ${listed.length} page(s) into dist/${name}/`);

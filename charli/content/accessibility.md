@@ -13,11 +13,11 @@ A conformance claim is a statement made to a reader who cannot see inside the bu
 
 ## The claim
 
-This site is built to the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) standard, version 1.5.
+This site is built to the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) standard, version 1.7.
 
 Sent agents: served. Search indexing: permitted. Model training: permitted.
 
-The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in [/robots.txt](/robots.txt) and [/llms.txt](/llms.txt). Every page is also published as Markdown, at its address plus index.md.
+The three declarations are independent; permission for one purpose is never inferred from another. They appear machine-readably in [/robots.txt](/robots.txt), with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and in [/llms.txt](/llms.txt), which links every page and its Markdown copy. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at [/llms-full.txt](/llms-full.txt).
 
 ## What was checked
 

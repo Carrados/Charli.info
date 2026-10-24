@@ -9,4 +9,4 @@ Three essays complete the Carrados corpus of theory. They are a sequence.
 
 <!-- list -->
 
-The Framework and the standard are also available as Word documents: [The Tyrer Framework](/documents/The_Tyrer_Framework.docx) and [Zero Information Casualty v1.5](/documents/Zero_Information_Casualty_v1_5.docx).
+The Framework and the standard are also available as Word documents: [The Tyrer Framework](/documents/The_Tyrer_Framework.docx) and [Zero Information Casualty v1.7](/documents/Zero_Information_Casualty_v1_7.docx).

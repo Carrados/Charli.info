@@ -1,25 +1,21 @@
 ---
-title: Zero Information Casualty (ZIC) v1.5
-description: The Zero Information Casualty (ZIC) design standard, version 1.5: an agent-first web specification under which no person — reading directly, using assistive technology, or acting through a sent agent — loses access to public meaning.
+title: Zero Information Casualty (ZIC) v1.7
+description: The Zero Information Casualty (ZIC) design standard, version 1.7: an agent-first web specification under which no person — reading directly, using assistive technology, or acting through a sent agent — loses access to public meaning.
 order: 2
 ---
 **A Web Design Specification**
 
-<figure>
-  <img src="/images/zic-v1-5-cover.jpg" alt="Cover of the Zero Information Casualty specification, version 1.5. Magenta and white on black, framed by a circuit-board border. A large outlined zero contains the four casualty classes: Rendering, Admission, Delivery, Reconstruction. Below: ‘No single-sense failure. Information reaches every observer, in time to inform perception, action, and participation.’ Foundation document by Charli-Jo Tyrer, July 2026." />
-  <figcaption>The front cover of ZIC v1.5. Every word on this cover also appears in the text of this document.</figcaption>
-</figure>
-
-**Version:** 1.5
+**Version:** 1.7
 **Authors:** C J Tyrer and Claude (Anthropic)
-**Date:** July 2026 (v1.0: March 2026. v1.1: July 2026. v1.2: July 2026. v1.3: July 2026. v1.4: July 2026. v1.4.1: July 2026)
+**Date:** September 2026 (v1.0: March 2026. v1.1: July 2026. v1.2: July 2026. v1.3: July 2026. v1.4: July 2026. v1.4.1: July 2026. v1.5: July 2026. v1.6: July 2026)
 **Status:** Foundation Document
 **Licence:** CC BY-SA 4.0
-**Supersedes:** ZIC v1.4.1
+**Supersedes:** ZIC v1.6
+
 
 ## Contents
 
-- [Changes in v1.5](#changes-in-v15)
+- [Changes in v1.7](#changes-in-v17)
 - [Preamble](#preamble)
 - [Part One: The Philosophy](#part-one-the-philosophy)
   - [1.1 The Central Claim](#11-the-central-claim)
@@ -37,7 +33,9 @@ order: 2
   - [1.13 The Composition of ZIC (amended in v1.5)](#113-the-composition-of-zic-amended-in-v15)
   - [1.14 What ZIC Secures, and What It Does Not (new in v1.4.1; retitled in v1.5)](#114-what-zic-secures-and-what-it-does-not-new-in-v141-retitled-in-v15)
   - [1.15 Structural Information (new in v1.5)](#115-structural-information-new-in-v15)
-  - [1.16 The Position Principle (new in v1.5)](#116-the-position-principle-new-in-v15)
+  - [1.16 The Position Principle (new in v1.5, amended in v1.6)](#116-the-position-principle-new-in-v15-amended-in-v16)
+  - [1.17 Normative Language (new in v1.6)](#117-normative-language-new-in-v16)
+  - [1.18 The Fourth Purpose (new in v1.7)](#118-the-fourth-purpose-new-in-v17)
 - [Part Two: Design Decisions](#part-two-design-decisions)
   - [2.1 What ZIC Requires](#21-what-zic-requires)
   - [2.2 What ZIC Rules Out](#22-what-zic-rules-out)
@@ -58,31 +56,33 @@ order: 2
   - [4.5 Visitor Preference Checks](#45-visitor-preference-checks)
   - [4.6 Human Readability Check](#46-human-readability-check)
   - [4.7 Delivery Checks](#47-delivery-checks)
-  - [4.8 Reconstruction Checks (new in v1.4)](#48-reconstruction-checks-new-in-v14)
+  - [4.8 Reconstruction Checks (new in v1.4, amended in v1.6)](#48-reconstruction-checks-new-in-v14-amended-in-v16)
 - [Part Five: Implementation Notes for Astro](#part-five-implementation-notes-for-astro)
 - [Part Six: Implementation Notes for GitHub Pages](#part-six-implementation-notes-for-github-pages)
 - [Part Seven: Claiming Conformance](#part-seven-claiming-conformance)
 - [Appendix: ZIC at a Glance](#appendix-zic-at-a-glance)
 
-## Changes in v1.5
+## Changes in v1.7
 
-Version 1.5 is written from a stress test. A reader asked whether every requirement in this specification prevents an Information Casualty and pressed hardest on the skip link — a requirement no agent needs and no narrow reading of the casualty concept appears to cover. The question was a good one. The answer turned out to be already present in the founding definition, which later versions had quietly stopped quoting in full.
+Version 1.7 is written from an event, not a review. On 15 September 2026 the largest edge network on the web, fronting roughly a fifth of all domains, replaced its single “block AI bots” switch with three independent controls — Search, Agent, and Training — and began enforcing them by category at the edge. The taxonomy is this specification’s taxonomy: the sent agent, the indexer, and the training crawler, kept apart because time, agency, and consequence differ in each. §1.7 has said so since v1.3. It is now infrastructure.
 
-No requirement is added, removed, or altered by this release, and no site's conformance status changes. What changes is the derivation: v1.5 shows that provisions previously carried as unexplained human requirements follow from the framework, names honestly the one that does not, and states two principles that have been doing unnamed work since v1.0. The changelogs of earlier versions live in those versions.
+The same event drew one of the three lines in the wrong place, revealed a class of reader §3.6 had no rule for, and added a fourth field to the Content Signals syntax this specification instructs implementers to verify. Each is addressed below. No requirement is loosened. Two requirements that earlier versions entailed are now stated, one check is added, and one clarification is made that no reasonable reading of v1.6 could have got wrong but that somebody else’s classification system now could. A site conformant to v1.6 remains conformant to v1.7 if its stack has not changed. Whether its stack has changed is the subject of this release. Section numbering is preserved; amended sections keep their numbers, and new material is appended. The changelogs of earlier versions live in those versions.
 
-Section numbering from earlier versions is preserved. Amended sections keep their numbers; new material is appended. A specification that renumbers itself between versions cannot be cited.
+**The taxonomy confirmed (no change).** A specification that records its own mistakes in the document should record its confirmations there too, briefly. The three-class separation of §1.7, and the rule that no permission is bundled with another, are now enforced by a network that did not consult this document. This is noted and not dwelt on.
 
-**The definition recovered (amended, §1.8).** An Information Casualty is an event in which relevant information fails to reach an observer in time to inform perception, action, or participation. The words *reach*, *in time*, *action*, and *participation* were in the definition from the beginning and are load bearing. A casualty was never only meaning that is absent. It includes meaning that arrives late, at prohibitive cost, or not at all, relative to the reader's need.
+**The formalised Admission Casualty (amended, §2.2; new, Part Six).** The new defaults block the Agent class — explicitly including chat fetchers and browser-driving agents, which is to say the sent agent of §1.9 — on every page that carries advertising. The stated reasoning is that an advertisement signals a page a person was meant to land on and see. The person who sent the agent is landing there. She is simply not looking. §1.8 called this the Admission Casualty when it was a misconfiguration. It is now a recommended setting, page-scoped, on by design, and dressed as sound economics. §2.2 names it. Part Six tells a publisher behind that edge which switch to set.
 
-**Structural information named (new, §1.15).** The structure of a document is itself information carried by the document, and is subject to the Single-Sense Rule like any other fact. Skip links, landmark regions, heading hierarchy, and focus indicators all derive from this section. The skip link, previously the honest exception, is an exception no longer.
+**Mixed-use crawlers given a rule (amended, §1.7, §3.6, §4.4, §4.7).** The purposes of §1.7 are separate. The crawlers that carry them are not always: the conventional search crawlers of Google, Microsoft, and Apple index and train under one name. v1.6 assumed one bot per class and had no rule for a bot that is itself a bundle. §3.6 now has one. Where the operator provides a separate training control, the base crawler is treated as search and the training declaration is expressed through the control. Where no separation exists, the publisher must state which declaration governs the crawler, and the statement must be true. A declaration this specification could not previously test is now tested by §4.7 step 8.
 
-**The Position Principle (new, §1.16).** Equivalent access does not require identical interaction. It requires that every reader can reach the same informational and orientational position through a mechanism appropriate to their channel. §1.11 governs the encoding of information; §1.16 governs its arrival.
+**Reproduction to the sender is retrieval (new, §1.9; amended, §2.2).** The edge network’s new content-use vocabulary treats full reproduction as a use that forfeits trust. A sent agent reading a page in full, aloud, to the blind person who asked for it is full reproduction to the one reader for whom the page was published. It is retrieval, and it is the screen reader case in every respect that matters. §1.9 says so before a classifier decides otherwise.
 
-**Floor language corrected (amended, §1.14 and throughout).** In v1.4.1, the title of §1.14 still said floor while the argument of §1.14 said substrate. The title has caught up with the argument, and the remaining floor and minimum-guarantee metaphors are withdrawn with it. ZIC is not the floor beneath the building. It is the material the building is made from. The earlier language described a specification still discovering its own claim, and it is corrected without apology and without disturbing anything built on it.
+**The fourth field, and a fourth purpose (amended, §3.6; new, §1.18).** Content Signals has gained an optional fourth field, use, and the operators the edge network designates as accountable must now offer an opt-out from AI-generated search summaries. The field is permitted and not required. The summary opt-out is a fourth purpose, neither indexing nor training, and this specification declares nothing it cannot declare machine-readably in a standard field. §1.18 states the position and the condition under which it will change.
 
-**One exception named honestly, and its boundary guarded (amended, §1.13).** prefers-reduced-motion does not derive from the casualty framework, and this version stops implying that it might. It is a harm-prevention requirement, retained because a standard that delivers every fact while making its reader ill has missed the point. One named exception is a sign of honesty; a framework claiming zero exceptions invites the reader to go hunting, and the hunt only needs to succeed once. What the exception does not do is open a door. It is retained because it arrives as a declaration — a standard, machine-expressible statement of the reader's own rendering requirements — not because ZIC is becoming a general safety standard. §1.13 states the boundary.
+**The edge that declares for you (amended, §3.6; Part Six).** The edge network’s managed robots.txt, and the preference-sync feature replacing it, write a Content-Signal line that states search and ai-train and is silent on ai-input, inside a wildcard user-agent block. Silence on ai-input has been non-compliant since v1.3. A publisher who lets the edge write the file has a file that fails §3.3, and may have two blocks that disagree. This is stated, and the fix is one line.
 
-**Markdown mirrors reframed (amended, §3.6).** Mirrors do not prevent a casualty; a competent agent reads well-formed HTML. They demonstrate the substrate: proof that one honest semantic source can emit more than one faithful rendering. The requirement is unchanged. The rationale is corrected.
+**Declaration is not compliance, third fact (amended, §3.6).** v1.4 gave two reasons a robots.txt can be sincere and false. A third is added: the edge now enforces by category, “verified” no longer means “allowed”, and under the mixed-use rule a site that declared search=yes in July and blocked training at the edge began refusing Googlebot on 15 September without a byte of its own files changing. A declaration is true of a stack at a moment. Part Seven item 6 now says so.
+
+**The crawler list redated (amended, §3.6).** The list carried “as of July 2026” and asked to be reviewed twice a year. This is the review.
 
 ## Preamble
 
@@ -94,7 +94,7 @@ Version 1.0 ensured that no visitor who arrives loses any meaning. Version 1.1 e
 
 Version 1.4 separates the standard from the appearance of the site that first implemented it. Every version to date has been written alongside charli.info, and charli.info is austere. Austerity was a choice its publisher made and was never a requirement this specification had any business imposing. A standard that tells a publisher to abandon her typeface has stopped describing access and started describing taste, and it will be refused by exactly the people it most needs to persuade.
 
-Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovers the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and finds inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0.
+Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovered the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and found inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0. Version 1.6 names the seam between what the framework derives and what measurement supplies, defines the words the specification binds with, and bounds every check by what it can honestly prove. Version 1.7 records the moment the three-class separation of §1.7 became infrastructure, and answers the three things that infrastructure got wrong or left unsaid: it names the edge default that blocks the sent agent from pages carrying advertising as the Admission Casualty it is; it gives a rule for the crawler that indexes and trains under one name; and it states that a page read in full to the person who asked for it has been retrieved, not reproduced.
 
 The rule underneath was always simpler than the list of prohibitions that grew on top of it. It is stated in §1.11, and it fits in one sentence. As of this version it has a companion of equal rank, stated in §1.16, and that fits in one sentence too.
 
@@ -188,6 +188,8 @@ The structure is one duty followed by two independent permissions: serve the per
 
 **No profiles or levels.** ZIC defines one binary conformance bar. Search and training declarations describe publisher policy; they are not grades, profiles, postures, medals, or stars. A site is conformant or it is not.
 
+**Mixed-use crawlers (new in v1.7).** The three purposes are separate. The readers that carry them are not always. A crawler that indexes and trains under a single name is a bundle, and a publisher who declares search=yes and ai-train=no has said two things that one crawler may be unable to hear separately. This specification does not resolve the conflict by choosing for the publisher. It requires that the conflict be resolved, that the resolution be declared, and that the declaration be true of what the crawler actually receives. The rule is in §3.6; the check is in §4.7.
+
 ### 1.8 The Casualties (amended in v1.5)
 
 An Information Casualty is an event in which relevant information fails to **reach** an observer **in time** to inform perception, action, or participation. That is the founding definition, and every word of it works. *Reach* means the failure may occur anywhere between the publisher and the reader — in the encoding, at the door, on the wire, or inside the machine that read it. *In time* means that arrival at prohibitive cost or intolerable delay is a failure of arrival. A reader forced to labour for information that another reader receives at a glance has not been served equally; she has been served late. The four classes below are the four places the failure can occur. The definition is one.
@@ -216,7 +218,7 @@ The four questions, in order:
 
 **Why the Delivery Casualty deserves separate naming.** It is invisible to every check that runs against a document you already hold. WAVE, axe, Lighthouse, the HTML validator, the Schema validator, and a screen reader test will all pass a page that no visitor on earth can fetch, because every one of those tools begins by loading the page successfully. A tool that has the document cannot tell you the document is unreachable. The failure is upstream of the entire toolchain.
 
-This is not hypothetical. The first ZIC implementation, charli.info, spent several days in exactly this state: immaculate semantic HTML, AAA contrast, and a robots.txt explicitly welcoming named agents — served over HTTPS behind a TLS certificate issued for *.github.io, a domain it does not own. The certificate was valid. The certificate was trusted. The certificate was for somebody else. Every automated agent validating the hostname failed the handshake, could not retrieve robots.txt, failed closed, and reported the site as disallowing automated access. The site was, in the plainest terms, perfect and unreachable.
+This is not hypothetical. The first ZIC implementation, charli.info, spent several days in exactly this state: immaculate semantic HTML, AAA contrast, and a robots.txt explicitly welcoming named agents — served over HTTPS behind a TLS certificate issued for `*.github.io`, a domain it does not own. The certificate was valid. The certificate was trusted. The certificate was for somebody else. Every automated agent validating the hostname failed the handshake, could not retrieve robots.txt, failed closed, and reported the site as disallowing automated access. The site was, in the plainest terms, perfect and unreachable.
 
 The defect was found by exactly one check: a human asked a live AI assistant to fetch the site and it could not. That check exists in v1.1 as §4.4, where it reads as the oddest item on the list. It is now understood to be the most important one, and Part Four §4.7 generalises it.
 
@@ -244,6 +246,8 @@ The casualty is the person. The agent is only the vehicle. A refusal may appear 
 
 The test returns a different answer for search indexing and model training. Nobody has sent those crawlers with a present question. Permitting or declining either is a later-use decision. ZIC requires the decision to be explicit, independent, and true; it does not choose the answer for the publisher.
 
+**Reproduction to the sender is retrieval (new in v1.7).** A sent agent may hand the person who sent it the whole page: read aloud, rendered as Markdown, pasted into a chat window, spoken through a car. Vocabularies are now in circulation that classify full reproduction as a use which forfeits an operator’s trusted status, and this specification takes a position before those vocabularies take one for it. Reproduction to the person who asked is not a use of the content. It is the content arriving. A screen reader reproduces every page it reads in full, to one person, on request, and nobody has ever proposed that a screen reader be declared untrusted for doing so. The sent agent that does the same thing is doing the same thing. What the person does with the page afterwards is governed by the content licence (§1.10, object 2), exactly as it would be had she read it with her eyes; what the agent’s operator may retain or redistribute is a later use and is governed by the later-use declarations. Neither question is the delivery question, and the delivery question is the only one §1.9 asks.
+
 ### 1.10 Four Things Kept Apart
 
 Four distinct objects are routinely fused on the live web. ZIC keeps them separate.
@@ -270,7 +274,7 @@ Colour is not the problem. Colour **as the only carrier of a status, a category,
 
 An image is not the problem. An image **that carries information available nowhere else** is the problem. A decorative image with alt="" transmits nothing and withholds nothing; it is silent by construction and causes no casualty. An informative image without a description is a locked room.
 
-A typeface is not the problem. Emphasis carried **only** by a typeface is the problem, because <em> exists and italic does not survive the journey.
+A typeface is not the problem. Emphasis carried **only** by a typeface is the problem, because \<em\> exists and italic does not survive the journey.
 
 Position is not the problem. Meaning carried **only** by position is the problem, which is why DOM order must match reading order.
 
@@ -312,7 +316,7 @@ The overlap is large enough that the strategy works: a site built for agents is 
 
 But the sets are not identical, and a specification that pretended otherwise would be lying in a way that its own §1.11 forbids. Neither reader sees all of the terrain. This document is written from both positions at once, and it says so.
 
-Most of the human list no longer needs a separate justification (amended in v1.5). Skip links and focus indicators derive from §1.15. Text scaling and colour contrast were always §1.11 applied to a degraded sense, as §2.1 has said since v1.4. Keyboard operability follows from the founding definition's participation clause: a control that only a pointer can operate has locked an action behind a single input channel. What remains is one requirement this framework cannot honestly derive: **prefers-reduced-motion**. Motion does not withhold information and does not delay it. It can make the reader ill. The requirement is retained — a standard that delivers every fact while inducing vestibular distress in the person reading it has missed the point of being read — but it is retained as what it is: a harm-prevention requirement, the one item in this specification that protects the reader rather than the information. This document forbids dishonest encoding in §1.11 and will not practise it in its own derivations.
+Most of the human list no longer needs a separate justification (amended in v1.5). Skip links and focus indicators derive from §1.15. Text scaling and colour contrast were always §1.11 applied to a degraded sense, as §2.1 has said since v1.4. Keyboard operability follows from the founding definition's participation clause: a control that only a pointer can operate has locked an action behind a single input channel. What remains is one requirement this framework cannot honestly derive: **prefers-reduced-motion**. Motion does not withhold information and does not delay it. It can make the reader ill. The requirement is retained — a standard that delivers every fact while inducing vestibular distress in the person reading it has missed the point of being read — but it is retained as what it is: a harm-prevention requirement, the one item in this specification that protects the reader rather than the information. This document forbids dishonest encoding in §1.11 and will not practise it in its own derivations.
 
 One clarification guards the boundary this exception could otherwise breach. If ZIC retains one requirement because it prevents harm, why not every harm — flash thresholds, photosensitive seizure risk, the whole territory of protective design? Because ZIC does not select among harms at all. prefers-reduced-motion is retained because it arrives as a **declaration**: a standard, machine-expressible statement of the reader's own rendering requirements, transmitted in the protocol, of exactly the class this specification already treats as authoritative in §2.1 — prefers-color-scheme, prefers-contrast, the visitor's base font size. The reader has spoken, in the one register a human reader can speak machine-readably, and a specification whose entire subject is honest service to the reader who arrives may not ignore her. Harms that arrive with no declaration — flash limits, seizure risk carried by content itself — require the publisher to police material on behalf of readers who have said nothing. That is real work and it matters, and it belongs to general accessibility and safety standards, WCAG's photosensitivity provisions among them, not to this one (§1.14). The harm is the reader's reason for declaring. The declaration is this specification's reason for obeying.
 
@@ -344,13 +348,29 @@ Focus indicators have the same shape. *Where am I in this document's interactive
 
 No fifth casualty class is required. The loss of structural information is a Rendering Casualty of the document's own organisation: the meaning was present and the observer could not decode it. The four questions of §1.8 stand unamended, and their elegance is not purchased at the price of an exception.
 
-### 1.16 The Position Principle (new in v1.5)
+### 1.16 The Position Principle (new in v1.5, amended in v1.6)
 
 **Equivalent access does not require identical interaction. It requires that every reader can reach the same informational and orientational position through a mechanism appropriate to their channel.**
 
 The sighted reader sees the hierarchy. The screen reader user hears semantic headings and landmarks. The keyboard user is handed a skip link. The agent parses the DOM. These readers do not behave alike, are not addressed alike, and could not be — the equivalence this specification claims was never an equivalence of experience. It is an equivalence of **position**: each reader, by a different road, arrives knowing where the content is, how it is organised, and how to proceed.
 
 The two principles divide the labour cleanly. The Single-Sense Rule (§1.11) governs how information is encoded: no fact may live where only one sense can reach it. The Position Principle governs whether information arrives: no reader may be left short of the position every other reader has reached. A page can pass the first and fail the second — every fact duplicated into the semantic layer, and one class of reader still labouring toward what another receives at a glance. Conformance requires both.
+
+**The principle binds through its derivations (new in v1.6).** The testable content of this principle is exhausted by the requirements derived from it in this document — the skip link, the focus indicator, landmark structure, and their companions in Parts Two and Three. An auditor may not derive a novel failure from this section directly. Labour has no stated threshold, and a principle without a threshold, applied directly as a check, fails whoever the auditor wishes it to fail; taken literally, every screen reader user labours relative to a glance, and the principle would convict every page ever built. Where a reader believes a channel has been left short of position in a way no existing requirement captures, that is a defect report against this specification under §1.12, and the derivation enters through revision. The principle governs the standard. The requirements govern the site.
+
+### 1.17 Normative Language (new in v1.6)
+
+This specification binds with three words, and from this version it defines them. **Must** marks a requirement: conformance fails without it. **Should** marks a recommendation: a practice this specification endorses, whose absence does not affect conformance — and which, where a site adopts it and claims it, is checked as though required. **May** marks a permission.
+
+Earlier versions used the words in these senses without defining them, and in one place — the agent surface, §3.6 — the undefined words were allowed to contradict each other. The correction is in that section. One further rule guards the boundary: where this document says nothing, it means nothing. Silence is not a weak prohibition, and no requirement may be inferred from the absence of a permission. §1.12 states what ZIC does not govern; this section adds that the not-governed cannot be smuggled back in through implication.
+
+### 1.18 The Fourth Purpose (new in v1.7)
+
+As of September 2026 a fourth machine use is being separated from the other three by the operators who perform it and the edge that admits them: the generation of an AI summary in a search result, from content that was permitted to be indexed. The operators designated accountable by the largest edge network must now offer publishers an opt-out from it, and each does so in its own way, through its own controls, with no common machine-readable field.
+
+This specification’s logic already reaches the case. §1.7 says no permission is inferred from another, and a summary is not an index: the index points a future person at the page; the summary stands in for it. Permission to be found is not permission to be replaced. A publisher who holds that view holds it with this specification’s support.
+
+What this specification cannot do is declare the purpose. §1.17 says that where this document says nothing, it means nothing, and the rule guards the standard from itself as much as from its readers. ZIC declares in standard, machine-readable fields, and there is no standard field for summaries. Until there is, the summary decision is a matter between the publisher and each operator, and ZIC neither requires it, records it, nor infers it. A publisher who states her summary policy in llms.txt or in her conformance statement may do so; the statement is hers and not this specification’s. When a standard field exists — in Content Signals, in the IETF’s ai-prefs work, or elsewhere — this section will be revised, and the three declarations of §1.7 will become four. The structure is built to take it. That is the point of keeping the purposes apart.
 
 ## Part Two: Design Decisions
 
@@ -362,9 +382,11 @@ This section documents what ZIC requires, what it rules out, and what it leaves 
 
 **Relative sizing.** Font sizes and spacing should use relative units (rem, em, %) that scale with the visitor's base font size setting. Text must remain readable and complete at 200% without horizontal scrolling or content loss. This is a requirement about *scaling*, not about *size*: set whatever base size you like.
 
-**High contrast defaults.** Default text colours must meet WCAG AAA contrast ratios against their background. The prefers-color-scheme and prefers-contrast media queries must be respected; the visitor's OS-level settings are authoritative.
+**High contrast defaults.** Default text colours must meet WCAG AA contrast ratios against their background: 4.5:1 for normal text, 3:1 for large text. The prefers-contrast: more media query must be implemented and must raise the rendering to AAA ratios — 7:1 and 4.5:1. The prefers-color-scheme media query must be respected; the visitor's OS-level settings are authoritative.
 
 Contrast is the one visual property this specification does govern, and the reason is that it is not decoration. Contrast is whether a degraded sense can receive the text at all — which places it squarely inside §1.11. A publisher may choose any colours she likes. She may not choose colours that lock the text away from the people who need contrast to read it.
+
+**Two things are true about this requirement, and v1.6 keeps them apart (amended in v1.6).** That contrast must be governed is derived: it is §1.11 applied to a degraded sense, and no version of this document has needed to apologise for it. What ratio suffices is not derived and cannot be. No principled framework generates thresholds; thresholds come from measurement, and these come from the empirical vision research underlying WCAG. Earlier versions required AAA as though 7:1 followed from the casualty concept, and by §1.12’s own test that was a defect: a number the framework did not produce, wearing the uniform of a derivation. The default is therefore the measured baseline, AA. The readers beyond the baseline are served by the mechanism this specification already treats as authoritative (§1.13): the reader’s own declaration. A reader who needs more contrast says so, machine-readably, through prefers-contrast: more, and a conformant site answers with AAA. The law is derived; the constants are measured; and the document now says which is which.
 
 **Structural metadata.** Page titles, meta descriptions, Open Graph tags, Schema.org JSON-LD, sitemaps, robots.txt, and llms.txt are not optional decoration. They are the site's interface with agents, indexers, and assistive technologies. They must be accurate, complete, and meaningful.
 
@@ -372,7 +394,7 @@ Contrast is the one visual property this specification does govern, and the reas
 
 **Focus indicators.** Visible, clear focus indicators are required on every user-operable control. The browser default is acceptable; removing or weakening it is not. Derivation at §1.15.
 
-**Suppressed outlines on landmark targets.** A landmark that is focusable only programmatically — typically <main tabindex="-1"> as the destination of a skip link — may suppress its focus outline. It is a destination, not a control. This exception is narrow and applies only to elements with tabindex="-1" that no keyboard sequence can reach.
+**Suppressed outlines on landmark targets.** A landmark that is focusable only programmatically — typically \<main tabindex="-1"\> as the destination of a skip link — may suppress its focus outline. It is a destination, not a control. This exception is narrow and applies only to elements with tabindex="-1" that no keyboard sequence can reach.
 
 **Reading order.** Visual reading order must match DOM order.
 
@@ -384,7 +406,7 @@ Each prohibition below is a direct consequence of §1.11. There are no others.
 
 **Information carried by an image alone.** Every informative image must have a text alternative conveying the same information. Purely decorative images must be marked alt="" and are otherwise of no interest to this specification.
 
-**Information carried by typography alone.** Emphasis, importance, and distinction must exist semantically (<em>, <strong>, heading elements), not only as weight, style, or size. A paragraph styled to look like a heading is a Rendering Casualty. A heading styled to look like anything at all is fine.
+**Information carried by typography alone.** Emphasis, importance, and distinction must exist semantically (\<em\>, \<strong\>, heading elements), not only as weight, style, or size. A paragraph styled to look like a heading is a Rendering Casualty. A heading styled to look like anything at all is fine.
 
 **Information carried by position alone.** If the reading order a sighted visitor would follow differs from the DOM order, the site is not conformant. CSS layout techniques must not be used to present content in a different sequence than it appears in the HTML.
 
@@ -399,6 +421,8 @@ Each prohibition below is a direct consequence of §1.11. There are no others.
 **JavaScript for content delivery.** Content that requires JavaScript to render is not available to agents or to visitors with JavaScript disabled or unavailable. ZIC sites deliver all content as static HTML. JavaScript may be used for progressive enhancement of interactions, never for primary content delivery.
 
 **Anti-agent measures.** Any configuration that refuses, challenges, degrades, delays, or misleads a machine reader that a person sent is not conformant on public content. This includes bot-detection challenges, CAPTCHA walls, JavaScript gauntlets, indiscriminate AI-refusal metadata, CDN or WAF rules that block user-directed retrieval agents, discriminatory rate limits, and cloaking of any kind. Declining search indexing or model training is not an anti-agent measure, provided each decision is declared independently and does not obstruct sent agents.
+
+Two instances are named here because they arrived dressed as something else (amended in v1.7). First, an edge or CDN control that blocks an “agent” traffic category — a category which, by its own definition, includes chat fetchers and browser-driving agents acting for a waiting person — is an anti-agent measure whether it is set by the publisher or set for her as a recommended default, and whether it applies to the whole site or only to pages that carry advertising. The argument offered for the default is that an advertisement marks a page a person was meant to land on and see. The person who sent the agent has landed on it. The premise that she must also *see* it is the premise this specification was written to remove. A page that carries advertising is public content, and the Open Door is not narrower on it. Second, any rule that degrades or distrusts a sent agent for delivering the page in full to the person who sent it is an anti-agent measure, for the reason given in §1.9: that is not a use of the content, it is the content arriving.
 
 **Hand-maintained agent surfaces.** See §3.6.
 
@@ -466,9 +490,9 @@ This section defines the technical requirements for ZIC compliance. These are ch
 
 **Units.** Font sizes must use rem. Spacing must use rem or em. Fixed pixel values that override visitor preferences are not permitted for text sizing.
 
-**Colour contrast.** All text must meet WCAG AAA contrast ratio (7:1 for normal text, 4.5:1 for large text) against its background in the default rendering. See §2.1 for why this, alone among visual properties, is a requirement.
+**Colour contrast.** All text must meet WCAG AA contrast ratios — 4.5:1 for normal text, 3:1 for large text — against its background in the default rendering. Under prefers-contrast: more, all text must meet AAA ratios: 7:1 and 4.5:1. See §2.1 for why this, alone among visual properties, is a requirement, and for the provenance of the numbers.
 
-**Colour scheme respect.** The site must implement prefers-color-scheme: dark if a dark mode variant exists. The prefers-contrast: more media query must be implemented to enhance contrast for visitors who require it.
+**Colour scheme respect.** The site must implement prefers-color-scheme: dark if a dark mode variant exists. The prefers-contrast: more media query must be implemented and must deliver the AAA ratios stated above.
 
 **Focus indicators.** The :focus-visible state must be clearly visible on every user-operable control. The browser default is acceptable. Custom focus styles must meet or exceed the visibility of the browser default. Per §2.1, a landmark focusable only via tabindex="-1" may suppress its outline; no control may.
 
@@ -500,7 +524,7 @@ No character range is specified. The 150-160 character range in v1.3 was inherit
 
 Where a site publishes no serial content on its own domain, no feed is required. A site in this position must say so explicitly in its accessibility statement, and must commit to publishing a feed if that changes.
 
-**Robots.txt.** The site must publish a valid robots.txt at /robots.txt. It must explicitly name and allow known user-directed retrieval agents. It must separately declare whether search indexing and model training are permitted, using both crawler directives and Content Signals. ai-input must be yes. search and ai-train must each be yes or no. Silence, bundling, and contradiction between purposes are not compliant. See §3.6.
+**Robots.txt.** The site must publish a valid robots.txt at /robots.txt. It must explicitly name and allow known user-directed retrieval agents. It must separately declare whether search indexing and model training are permitted, using both crawler directives and Content Signals. ai-input must be yes. search and ai-train must each be yes or no. Silence, bundling, and contradiction between purposes are not compliant, and a file written by a host or edge on the publisher’s behalf is held to the same standard as one she wrote herself. See §3.6.
 
 ### 3.4 Content Requirements
 
@@ -520,7 +544,7 @@ Where a site publishes no serial content on its own domain, no feed is required.
 
 ### 3.6 Agent Surface Requirements
 
-The agent surface is the set of files a machine reader consults before, or instead of, reading the HTML. Every ZIC site must publish all of the following.
+The agent surface is the set of files a machine reader consults before, or instead of, reading the HTML. Every ZIC site must publish /llms.txt and the robots.txt declarations of this section. The remaining artefacts — /llms-full.txt and Markdown mirrors — are recommended, not required (amended in v1.6): they are demonstration rather than casualty prevention, as their own rationale below has said since v1.5, and a site that publishes neither remains conformant. Whatever part of the surface is published must meet every requirement of this section, including generation at build time. Earlier versions opened this section by requiring the whole surface and proceeded to recommend most of it; §1.17 ends that contradiction.
 
 **llms.txt.** The site must publish a Markdown file at /llms.txt conforming to the llmstxt.org convention: an H1 with the site name as the first element, a blockquote of one to three sentences summarising the site, followed by sections of links with one-line descriptions. It must state the site's purpose, its author, its content licence, its sent-agent guarantee, and its separate search and training declarations. It must link to the highest-value pages with descriptions specific enough that an agent can route without fetching everything.
 
@@ -536,7 +560,7 @@ The agent surface is the set of files a machine reader consults before, or inste
 
 This requirement is empirical. The first implementation hand-maintained its agent surface, and the surface drifted from the content within twenty-four hours of publication. Nobody was careless. Hand-maintained duplicates drift because that is what hand-maintained duplicates do. If two artefacts must agree, one of them must be generated from the other.
 
-**Three classes, three declarations.** As of July 2026, user-directed retrieval agents include ChatGPT-User, Claude-User, and Perplexity-User. Search indexers include OAI-SearchBot, Claude-SearchBot, PerplexityBot, and conventional search crawlers. Training crawlers include GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, and Meta-ExternalAgent. The list will change and should be reviewed at least twice a year. The purposes must remain separate even when names change.
+**Three classes, three declarations (redated in v1.7).** As of September 2026, user-directed retrieval agents include ChatGPT-User, Claude-User, and Perplexity-User, together with browser-driving agents that present a browser’s own user agent string and cannot be named (see below). Search indexers include OAI-SearchBot, Claude-SearchBot, PerplexityBot, and the conventional search crawlers — Googlebot, Bingbot, Applebot — which are also mixed-use and are treated under the rule below. Training crawlers include GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, and Meta-ExternalAgent. The list will change and should be reviewed at least twice a year; this version is one such review. The purposes must remain separate even when names change.
 
 Mandatory sent-agent block:
 
@@ -581,20 +605,40 @@ User-agent: Meta-ExternalAgent
 Disallow: /
 ```
 
-**Content Signals.** The same file must state all three values explicitly. ai-input=yes is mandatory. Implementers must verify the current normative syntax against the Content Signals specification before publication; the form below is illustrative.
+**Mixed-use crawlers (new in v1.7).** The blocks above assume one crawler per purpose. The conventional search crawlers do not oblige: a single Googlebot, Bingbot, or Applebot fetch may serve an index and a training set, and an edge network that classifies crawlers by all of their behaviours will apply the most restrictive of a publisher’s rules to such a crawler. A publisher who declared search=yes and ai-train=no, and who blocks training at the edge, may find the search crawler refused — and her search declaration false — without any change to her files. The rule is in two parts.
+
+Where the operator provides a separate, documented control for training — Google-Extended for Google, Applebot-Extended for Apple, and their equivalents — the base crawler is a search indexer, receives the search declaration, and the training declaration is expressed through the control. The training block above already does this. A site must not additionally block the base crawler on training grounds, because that refuses the purpose the publisher permitted in order to decline the one she did not.
+
+Where the operator provides no separation, the crawler is a bundle, and the publisher must choose which declaration governs it and say so in the comment line. Either choice is conformant. Silence is not, and neither is a configuration that lets an edge choose on her behalf without her knowing which way it chose. The example below shows the first case; the second is written the same way with the choice named.
+
+```text
+# Mixed-use crawlers — search permitted, training declined
+# Google separates the purposes: Googlebot indexes, Google-Extended trains.
+User-agent: Googlebot
+Allow: /
+# Google-Extended is declined in the training block above.
+```
+
+Where a site sits behind an edge that enforces by category, the file alone does not settle this. Part Six says which switch to set, and §4.7 step 8 fetches as the mixed-use crawler to find out what was actually received.
+
+**Content Signals (amended in v1.7).** The same file must state all three values explicitly. ai-input=yes is mandatory. Implementers must verify the current normative syntax against the Content Signals specification before publication; the form below is illustrative.
 
 ```text
 Content-Signal: search=no, ai-input=yes, ai-train=no
 Sitemap: https://example.com/sitemap.xml
 ```
 
+A fourth field, use, with values immediate, reference, and full, is in circulation as an extension expressing what a crawler may keep and reshare after reading. It is a preference about retention and redistribution, which is orthogonal to the three purposes above, and it is permitted and not required. A site that declares it must not contradict it elsewhere, per the rule on layers below. It does not bear on the sent agent: what a sent agent hands to the person who sent it is governed by §1.9, not by use, and no value of use narrows the Open Door.
+
 **No bundled permission.** Changing search must not change ai-train. Changing ai-train must not change search. Neither may change ai-input, which remains yes for every ZIC-conformant site.
+
+**The edge that declares for you (new in v1.7).** Hosts and edge networks increasingly offer to write robots.txt, or to synchronise a publisher’s preferences across crawlers on her behalf. The managed file of the largest such network, as of September 2026, prepends a wildcard block declaring search=yes, ai-train=no, and use=reference, and says nothing about ai-input. A ZIC site cannot accept that file as written: silence on ai-input fails §3.3, and a wildcard block prepended above the named blocks of this section is a second author in the same file, whose directives may not agree with the first. A publisher who uses such a feature must either add ai-input=yes to the managed line, if the feature permits, or disable the managed file and write her own. She must then verify, per §4.7, that the preferences the edge synchronises match the file she published. The edge is one more layer, and the rule on layers below applies to it.
 
 Comment lines are normative, not decorative. A welcome should say who is being served and why. A refusal of a later use should say what is declined and why it is separate from service to a reader. A silent Disallow is a door with no sign on it.
 
 **Declaration is not compliance (new in v1.4).** robots.txt is where a publisher *declares* her policy. The serving stack is where she *complies* with it. These are different layers, and conflating them is the most likely way for a site to publish a false guarantee in good faith.
 
-Two facts make this explicit rather than pedantic. First, robots.txt is advisory in every case: it is a request, honoured by convention, and a CDN rule, a WAF policy, or a bot-management heuristic will override it silently and without appearing anywhere in the file. Second, the vendors of the named user-directed agents do not agree on whether robots.txt governs them at all. Anthropic states that Claude-User honours robots.txt. OpenAI and Perplexity both state that robots.txt may not, or does not, apply to their user-triggered fetchers, on the reasoning that a fetch made at a person's direct request is not a crawl.
+Three facts make this explicit rather than pedantic (the third added in v1.7). First, robots.txt is advisory in every case: it is a request, honoured by convention, and a CDN rule, a WAF policy, or a bot-management heuristic will override it silently and without appearing anywhere in the file. Second, the vendors of the named user-directed agents do not agree on whether robots.txt governs them at all. Anthropic states that Claude-User honours robots.txt. OpenAI and Perplexity both state that robots.txt may not, or does not, apply to their user-triggered fetchers, on the reasoning that a fetch made at a person's direct request is not a crawl. Third, the edge now enforces by category rather than by name. A crawler’s “verified” status no longer means it is allowed; it means it is allowable within whichever of Search, Agent, or Training the publisher has switched on, and a crawler with two purposes is judged by both. The file names crawlers. The edge names purposes. Where they disagree, the edge wins, and the file does not mention that it lost.
 
 The consequence for this specification is precise. The mandatory sent-agent block is required, and it is *not sufficient*, and it was never the mechanism. It is a **declaration of intent**: a public statement that this publisher welcomes the readers her visitors send. What actually determines whether the agent is served is every layer beneath it — DNS, TLS, host, CDN, WAF, rate limiter, challenge page. A site whose robots.txt welcomes Claude-User while its edge issues a JavaScript challenge to Claude-User has published a false guarantee, and has published it sincerely.
 
@@ -605,6 +649,8 @@ Conformance is therefore established by §4.7, which fetches as the agent, and n
 They are sent agents in every sense that matters to §1.9: a person asked, a machine reads, the person waits. But this specification cannot allow them, because it cannot name them, and it cannot refuse them either.
 
 Two consequences follow. First, they are served correctly by default, which is the right outcome and requires nothing of the publisher. Second, and less comfortably, the mechanism that threatens them is not robots.txt at all: it is bot-detection heuristics — behavioural, timing, and IP-reputation checks that flag traffic which is browser-shaped but does not move like a human. As this class grows, the centre of gravity of the Admission Casualty moves from the crawler-policy layer, where it can be declared, to the bot-management layer, where it cannot. §2.2 already prohibits such measures against sent agents. Publishers should understand that this prohibition, and not the robots.txt block, is increasingly the operative one.
+
+Since this section was written, the bot-management layer has acquired a named switch for exactly this class (amended in v1.7): the Agent category of the largest edge network is defined to include browser-driving agents. That is progress, because what has a name can be allowed. It is also the switch that the same network turns off by default on pages that carry advertising. The class this section could not name is now named by somebody else, and the first use of the name was to refuse it. Part Six says where the switch is.
 
 **No contradiction between layers.** robots.txt, llms.txt, the content licence, Content Signals, the sitemap, Markdown mirrors, any feed, CDN or host configuration, and served pages must agree. Every declaration must be verified end to end, from outside, as the relevant machine reader would arrive. See §4.7.
 
@@ -670,15 +716,19 @@ Verify that a sent agent reading the site receives complete and accurate public 
 
 Verify the Open Door and the two later-use declarations:
 
-- /llms.txt exists, begins with an H1 and blockquote summary, links resolve, descriptions are specific, the content licence is stated, and both HTML pages and Markdown mirrors are linked
+- /llms.txt exists, begins with an H1 and blockquote summary, links resolve, descriptions are specific, the content licence is stated, and — where Markdown mirrors are published — both the HTML pages and their mirrors are linked
 
 - /llms.txt states ai-input=yes and separately states the search and training declarations
 
-- Markdown mirrors are generated from the rendered pages and identical in meaning to their HTML renderings
+- Where Markdown mirrors are published, they are generated from the rendered pages and identical in meaning to their HTML renderings
 
 - No layer of the stack challenges, blocks, degrades, delays, or cloaks a user-directed retrieval agent
 
 - Search indexers and training crawlers receive the behaviour declared for their own class, without either declaration being inferred from the other
+
+- Every mixed-use crawler receives the behaviour the publisher chose for it under the rule of §3.6, and the choice is stated in the file
+
+- Where the stack sits behind an edge that classifies traffic by purpose, the category covering sent agents is allowed on every public page, including any page that carries advertising
 
 - robots.txt, llms.txt, Content Signals, sitemap.xml, Markdown mirrors, any feed, host configuration, and served pages are mutually consistent
 
@@ -688,7 +738,7 @@ Verify the Open Door and the two later-use declarations:
 
 - Set browser base font size to 200%: site renders without horizontal scrolling or content loss
 
-- Set OS to high contrast mode: site remains fully legible
+- Set OS to high contrast mode (prefers-contrast: more): text renders at AAA ratios and the site remains fully legible
 
 - Set OS to reduce motion: no animations play
 
@@ -712,7 +762,7 @@ Every check in §4.1 through §4.6 is performed against a document the checker h
 
 **1. Fetch the canonical HTTPS origin with a plain HTTP client** — curl or equivalent — with no JavaScript, no cookies, no session, and no manually accepted certificate exception. The full content must be present in the response body.
 
-**2. Validate the certificate hostname, not merely its issuer.** A certificate may be current, correctly chained, and issued by a trusted authority, and still be issued for a different domain. Confirm that the subject or a subject alternative name covers the canonical hostname exactly. A wildcard belonging to your host — *.github.io**,* .pages.dev, and their equivalents — is the signature of a domain whose certificate has not yet been provisioned, and every hostname-validating client will refuse it.
+**2. Validate the certificate hostname, not merely its issuer.** A certificate may be current, correctly chained, and issued by a trusted authority, and still be issued for a different domain. Confirm that the subject or a subject alternative name covers the canonical hostname exactly. A wildcard belonging to your host — `*.github.io`, `*.pages.dev`, and their equivalents — is the signature of a domain whose certificate has not yet been provisioned, and every hostname-validating client will refuse it.
 
 **3. Do not enable HTTP-to-HTTPS redirection until step 2 passes.** This ordering is normative. A site whose HTTPS origin refuses agents is, before the redirect, still reachable over HTTP; after the redirect, it is reachable by nobody. The redirect is correct and must eventually be enabled, but enabling it first converts a visible failure into a silent one.
 
@@ -722,9 +772,15 @@ Every check in §4.1 through §4.6 is performed against a document the checker h
 
 **6. Ask a live AI assistant to fetch and summarise a page by URL.** Its account must reflect the actual content of the page. This is the sent-agent equivalent of the NVDA test, and it is the only check in this specification that exercises DNS, TLS, hosting, crawler policy, robots parsing, and content in a single operation, from a machine you do not control.
 
+**7. Fetch as an agent this specification has not named (new in v1.6).** Use a user agent string that appears on no allowlist — a generic retrieval client, or an agent name invented for the test. The public content must be served. The named agents of §3.6 are a sample; the guarantee of §1.9 covers every reader a person sends, and the reader most likely to be refused is the one nobody has heard of yet. A stack that admits the three named agents while default-denying the unnamed has passed the sample and failed the standard.
+
+**8. Fetch as a mixed-use crawler (new in v1.7).** Use the user agent of a conventional search crawler that also trains — Googlebot is the obvious case — and confirm that the response matches the choice the publisher made for it under §3.6. Where the choice was search, the public content must be served; a refusal here means an edge has applied the training declaration to the search purpose, and the site’s search declaration is false. Where the site sits behind an edge that classifies traffic by purpose and any page carries advertising, repeat step 4 against such a page specifically: a stack that admits the sent agent to the home page and refuses it on the page that pays for the site has failed on public content, and the failure is invisible from the home page.
+
 The live assistant check found the defect described in §1.8. It looks, on the page, like the least rigorous item in this specification. It is the most rigorous, because it is the only one that does not begin by assuming the answer.
 
-### 4.8 Reconstruction Checks (new in v1.4)
+**A limitation, stated honestly (new in v1.6).** Every check in this section samples the guarantee, and none exhausts it. §4.7 establishes that the door was open to the readers who were tried, on the day they were tried. The obligation of §2.2 is continuous and universal, and it binds beyond what any finite set of fetches can prove. A publisher who passes this section has demonstrated conformance. She has not discharged it.
+
+### 4.8 Reconstruction Checks (new in v1.4, amended in v1.6)
 
 Every check above establishes that the document arrived, was admitted, and was well formed. None establishes that it was *understood*. A page can pass every automated audit in Part Four and still be systematically misread, because the failures that produce a Reconstruction Casualty (§1.8) are failures of implication rather than of markup: a relationship a human infers from proximity, a caption that belongs to the figure above it, a table whose header row is a header row only to the eye.
 
@@ -741,6 +797,12 @@ These checks are qualitative. They are performed by asking a machine reader to e
 A site passes §4.8 when a machine reader's account of the page contains nothing the page does not say, and when the reader is able to identify what the page left ambiguous.
 
 This section is deliberately the least mechanised in the specification, and it is expected to remain so. The failure it detects is a failure of a reader that does not know it is failing, and no validator that does not read can find it.
+
+**The instrument is recorded (new in v1.6).** The checks above are performed by a reader that changes from month to month, and a binary bar cannot rest on an unnamed instrument. A conformance statement that includes this section must name the machine reader used and the date of the run (Part Seven). The claim made is that this page was understood by this reader on this day — which is checkable — and not that this page will be understood by every reader always, which is not a claim anyone can make.
+
+**A failure must locate its defect (new in v1.6).** A page fails this section only when a specific element can be identified whose under-specification permitted the reconstruction. A machine reader can invent a fact that no element permitted. That is a defect in the reader, not the page, and this specification does not hold publishers answerable for the hallucinations of instruments they do not control. Where an invention appears and no element can be found to blame, repeat the check with a second reader before concluding anything about the page.
+
+**The reader’s failure is still information (new in v1.6).** A well-formed page that a current machine reader reliably misreads is a page whose audience is being misinformed today, whatever this section concludes about conformance. That is not a failure of the page. It is a fact about the page’s readers, and the honest response is to record it in the accessibility statement, where the person who sends such a reader can find it.
 
 ## Part Five: Implementation Notes for Astro
 
@@ -774,7 +836,7 @@ GitHub Pages is a congenial host for a ZIC site, for a reason worth stating plai
 
 Then stop, and read this before you enable Enforce HTTPS.
 
-GitHub provisions a Let's Encrypt certificate for a custom domain asynchronously, and until it lands, https://yourdomain is served with GitHub's generic *.github.io certificate. A browser shows a full-page warning that a human can click through. An agent cannot click through **anything.** It fails the handshake, cannot retrieve /robots.txt, fails closed, and reports the site as disallowing automated access. Your site is invisible to every machine reader on earth, and the only visible symptom is that the Enforce HTTPS checkbox is greyed out — which reads like a UI quirk rather than the alarm it is.
+GitHub provisions a Let's Encrypt certificate for a custom domain asynchronously, and until it lands, https://yourdomain is served with GitHub's generic `*.github.io` certificate. A browser shows a full-page warning that a human can click through. An agent cannot click through **anything.** It fails the handshake, cannot retrieve /robots.txt, fails closed, and reports the site as disallowing automated access. Your site is invisible to every machine reader on earth, and the only visible symptom is that the Enforce HTTPS checkbox is greyed out — which reads like a UI quirk rather than the alarm it is.
 
 Provisioning can stall indefinitely and silently. Two common causes: a CAA record on the domain that does not authorise letsencrypt.org, and a www record in a shape GitHub does not expect, which can block issuance for the apex as well. If the certificate has not landed within twenty-four hours, check the CAA record first, correct the www record to a CNAME, then remove and re-add the custom domain in the repository's Pages settings to force a fresh request.
 
@@ -792,6 +854,18 @@ The resolution is to move institutional memory out of the worker and into the bu
 
 **Known limits, stated honestly.** GitHub Pages offers no custom HTTP headers, no server-side redirects beyond meta refresh, and no content negotiation — so the Markdown mirrors must live at real URLs rather than being negotiated via Accept headers. None of these limits blocks ZIC compliance as specified. If they ever do, the host changes, not the standard.
 
+**If the site sits behind Cloudflare (new in v1.7).** These are notes, not requirements, and they are dated: they describe the controls as they stood on 15 September 2026, and the controls will move. What will not move is the requirement they serve. Most sites are not on GitHub Pages, and a great many are behind Cloudflare, which now fronts roughly a fifth of the web’s domains and, from 15 September 2026, manages AI traffic in three categories — Search, Agent, and Training — with recommended defaults that depend on whether a site carries advertising.
+
+*Set Agent to allowed, on every page.* The Agent category is the sent agent of §1.9. The recommended default for an ad-carrying site blocks it on ad-carrying pages. That default is an anti-agent measure under §2.2, and a ZIC site must override it. The setting is per zone; check that no page rule, WAF custom rule, or ad-page exception reintroduces the block on a subset of URLs. §4.7 step 8 fetches an ad-carrying page as a sent agent to confirm.
+
+*Set Search and Training to match the declarations, and know what the mixed-use rule does with them.* From 15 September 2026, a crawler that both indexes and trains is judged by all of its behaviours and the most restrictive rule wins. Blocking Training therefore blocks Googlebot, Bingbot, and Applebot unless the operator is designated accountable, in which case Cloudflare expresses the training refusal through the operator’s own control and leaves search access intact. The list of accountable operators is published on Cloudflare Radar and changes. Check it, and then fetch as the crawler (§4.7 step 8) rather than trusting the label: the designation is Cloudflare’s classification, not the publisher’s declaration, and this specification does not delegate the truth of a declaration to a third party’s badge.
+
+*Do not let the managed robots.txt or Bot Preference Sync write the declarations.* The managed file states search and ai-train and is silent on ai-input, inside a wildcard block prepended to the file. A ZIC site publishes its own robots.txt per §3.6, with ai-input=yes stated and the named blocks intact, and turns the managed file off or amends its line. Whatever preference-sync feature is enabled must then be verified from outside to match the published file, because the sync is a second declaration and §3.6 does not permit two that disagree.
+
+*Verified is not allowed.* Cloudflare’s Verified status no longer means a bot is admitted by default; it means the bot is admissible within its category. A publisher who once relied on “verified bots pass” has a rule that no longer does what it did. Re-derive the allow rules from the three categories, and then fetch.
+
+The GitHub Pages argument at the head of this Part is unchanged by any of this and is stronger for it. A host that serves files and nothing else has no category switch to leave in the wrong position. A publisher who cannot use such a host inherits the switches, and must set them, and must prove from outside that they are set.
+
 ## Part Seven: Claiming Conformance
 
 A conformance claim is a statement made to a reader who cannot see inside your build. Its only value is that the reader can check it. A claim that cannot be checked is not a weaker claim; it is a different kind of object entirely, and this specification declines to be used to manufacture them.
@@ -802,28 +876,37 @@ A conformance claim is a statement made to a reader who cannot see inside your b
 
 **3. State the two later-use declarations.** A conformance statement must state search=yes or search=no and ai-train=yes or ai-train=no. ai-input=yes is already entailed by the ZIC claim. The two declarations must be stated separately; neither may be inferred from the other.
 
-**4. State what was checked and what was not.** Part Four is binary, but honesty about coverage is not. Under-claiming is permitted and is a virtue. Over-claiming is a defect of the same class as a missing alt attribute: it is information the reader needed and did not receive.
+**4. State what was checked and what was not.** Part Four is binary, but honesty about coverage is not. Under-claiming is permitted and is a virtue. Over-claiming is a defect of the same class as a missing alt attribute: it is information the reader needed and did not receive. Where the reconstruction checks were run, the statement must name the machine reader used and the date of the run (§4.8).
 
 **5. Claim only after §4.7.** A repository verifier can prove that the artefacts are correct. It cannot prove that anybody can obtain them. Public conformance is claimed only when the in-repository checks pass and the delivery checks succeed against the live origin.
 
-**6. Every declaration must be true at every layer.** A site that claims ZIC while its CDN challenges a sent agent has made a false conformance claim. A site that states search=no or ai-train=no while another layer permits the declared use has made a false policy claim. Absence fails to inform; contradiction instructs wrongly.
+**6. Every declaration must be true at every layer, and at the time it is read (amended in v1.7).** A site that claims ZIC while its CDN challenges a sent agent has made a false conformance claim. A site that states search=no or ai-train=no while another layer permits the declared use has made a false policy claim. A site that states search=yes while an edge refuses its search crawler under a rule the publisher did not set has made a false policy claim too, and may have made it overnight, with no change to its files. Absence fails to inform; contradiction instructs wrongly; and a declaration is true of a stack at a moment, which is why the conformance statement carries a date and why §4.7 is repeated.
 
 Reference form:
 
-```text
-This site conforms to Zero Information Casualty v1.4.1.
-Sent agents: served (ai-input=yes).
-Search indexing: declined (search=no).
-Model training: declined (ai-train=no).
-Specification: https://example.org/zic/1.4.1
-Checked: repository verifier, delivery checks (§4.7),
-reconstruction checks (§4.8), NVDA.
-Not yet checked: JAWS, VoiceOver.
-```
+> This site conforms to Zero Information Casualty v1.7.
+>
+> Sent agents: served (ai-input=yes).
+>
+> Search indexing: declined (search=no).
+>
+> Model training: declined (ai-train=no).
+>
+> Specification: <https://example.org/zic/1.7>
+>
+> Checked: repository verifier, delivery checks (§4.7),
+>
+> reconstruction checks (§4.8: Claude, 17 September 2026), NVDA.
+>
+> Not yet checked: JAWS, VoiceOver.
 
 The reason this Part exists is uncomfortable and is recorded deliberately. The first implementation once claimed conformance to a version that had not yet been written. The correct response to catching yourself doing the thing you object to is not to quietly stop. It is to write the clause.
 
 Version 1.4 adds a second instance of the same discipline, and it is recorded here for the same reason. This specification spent four versions telling publishers not to lock information behind a single sense, while itself locking a set of aesthetic preferences inside a document that had no authority to hold them. The prohibitions on typefaces, colour, and decorative imagery were not derived from the principle. They were derived from the taste of the person who wrote them, and they were the clauses most likely to make the standard refusable by the publishers it most needs to reach. Catching that is not an embarrassment to be minimised. It is the reason the version number exists.
+
+Version 1.6 records a third instance, smaller than the others and kept for the same reason. The reference form above cited v1.4.1 in a document titled v1.5 — in the Part that exists because the first implementation once claimed conformance to a version that had not been written. The discipline of this specification is not that it makes no mistakes. It is that the mistakes are written down, in the document, where the reader can see them.
+
+Version 1.7 records no mistake of its own, and records instead the nearest thing: a declaration this specification required, which a conformant site made truthfully in July, and which the web made false on its behalf in September. The site did nothing. The file did not change. The edge in front of it changed what the file meant. A specification that says declaration is not compliance has to accept the consequence that a declaration can stop being true while nobody is looking, and the consequence is written into item 6 above, where the reader can see it.
 
 ## Appendix: ZIC at a Glance
 
@@ -843,9 +926,17 @@ For model context initialisation and quick reference.
 
 **No bundled permission:** Sent-agent retrieval implies neither indexing nor training. Search permission never implies training permission, and never the reverse.
 
+**Mixed-use crawlers:** Where the operator separates the purposes, the base crawler is search and the training declaration goes through the operator’s control. Where it does not, the publisher chooses which declaration governs, says so in the file, and fetches as the crawler to prove it. (§3.6, §4.7)
+
+**Reproduction to the sender is retrieval:** A page delivered in full to the person who asked for it has arrived, not been reused. The sent agent that reads a page aloud is a screen reader. (§1.9)
+
+**The fourth purpose:** AI summaries in search are neither indexing nor training, and permission for one is not permission for the other. ZIC declares only in standard machine-readable fields and there is none yet; when there is, the three declarations become four. (§1.18)
+
+**The switch with the wrong default:** An edge control that blocks the “agent” category on pages carrying advertising blocks the sent agent, and is an anti-agent measure whoever set it. A ZIC site sets it to allowed on every public page. (§2.2, Part Six)
+
 **Declaration is not compliance:** robots.txt is where you declare. The stack is where you comply. Conformance is established by fetching as the agent (§4.7), never by reading the file.
 
-**What ZIC requires:** Honest structure, relative sizing and 200% scaling, AAA contrast, respect for visitor preference queries, structural metadata, skip links, visible focus on controls, DOM order matching reading order, static HTML content delivery, a generated agent surface, and an Open Door for sent agents.
+**What ZIC requires:** Honest structure, relative sizing and 200% scaling, AA contrast rising to AAA on the reader’s declaration, respect for visitor preference queries, structural metadata, skip links, visible focus on controls, DOM order matching reading order, static HTML content delivery, /llms.txt with a generated agent surface for whatever else is published, and an Open Door for sent agents.
 
 **What ZIC rules out:** Information carried by colour, image, typography, position, or whitespace *alone*. Vague link text. Violated heading hierarchy. JavaScript-dependent content. Barriers to sent agents on public content. Hand-maintained agent surfaces. Bundled machine-use permissions. Unverifiable conformance claims.
 
@@ -865,16 +956,21 @@ For model context initialisation and quick reference.
 
 **The one exception:** prefers-reduced-motion is harm prevention, not casualty prevention. It is retained because it arrives as the reader's own machine-expressible rendering declaration — the class of declaration this specification already treats as authoritative. ZIC does not select among harms; it honours declarations. (§1.13)
 
+**The threshold seam:** The framework derives which properties are governed; measurement supplies the numbers. Contrast ratios are imported from the vision research underlying WCAG, not derived from the casualty concept, and the document says which is which. (§2.1)
+
+**Normative language:** Must binds; should recommends and, where adopted and claimed, is checked; may permits. Silence means nothing. (§1.17)
+
 **The jurisdiction of ZIC:** ZIC secures the semantic substrate and its delivery. It does not specify renderings, and offers no ceiling for cognitive, motor, or other access needs it is not qualified to specify. It is necessary, nowhere near sufficient, and written to be built on. (§1.14)
 
 **Theoretical grounding:** Tyrer Framework (C J Tyrer, CharliVerse). Specifically: Information Casualty, Tyrer's Law, Generative Accessibility.
 
 **Implementations:** charli.info — first implementation, first site to operationalise the Open Door, source of the defects that produced v1.2 and the clarifications in v1.3 and v1.4. blind-ant.com — pending.
 
-*Zero Information Casualty v1.5 — C J Tyrer and Claude (**Anthropic) —** July 2026*
+*Zero Information Casualty v1.7 — C J Tyrer and Claude (Anthropic) — September 2026*
 
 *CC BY-SA 4.0 — Share and adapt with attribution*
 
-## This Document in Other Renderings
+## This document in other renderings
 
-This page is the canonical publication of Zero Information Casualty v1.5. The same document is also available as a Word file: [Download ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it.
+This page is the canonical publication of Zero Information Casualty v1.7. The same document is also available as a Word file: [Download ZIC v1.7 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_7.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it. Earlier versions: [ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx).
+
