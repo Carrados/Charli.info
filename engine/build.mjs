@@ -5,7 +5,9 @@
 //   date: YYYY-MM-DD   shown under the title; lists without an order sort newest first
 //   order: 1, 2, ...   a set sequence; lists sort by order before date
 //   byline: text       shown under the title
-// In a page body, <!-- list --> becomes the list of the pages in that page's folder.
+//   canonical: URL     the page's own address, if it isn't on the main site (a correspondent's desk)
+// In a page body, <!-- list --> becomes the list of the pages in that page's folder,
+// and <!-- desk:NAME --> the list of every page with `desk: NAME` in its frontmatter (a correspondent's reports), newest first.
 // Exactly one H1 per page: it comes from the title. Headings in page text start at ##; the build refuses a page with its own # heading.
 
 import { readFile, writeFile, mkdir, readdir, copyFile, rm } from 'node:fs/promises';
@@ -45,7 +47,7 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const longDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 
 function page(p, html) {
-  const url = SITE + p.path;
+  const url = p.canonical || SITE + p.path;
   const nav = cfg.nav.map(([href, label]) => {
     const here = href === '/' ? p.path === '/' : p.path.startsWith(href);
     return `<li><a href="${href}"${here ? ' aria-current="page"' : ''}>${esc(label)}</a></li>`;
@@ -72,7 +74,7 @@ function page(p, html) {
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
-  <a class="site-name" href="/">${cfg.mark || ''}<span>${esc(cfg.name)}</span></a>
+  <a class="site-name" href="/">${cfg.mark || ''}<span class="name-block"><span class="name">${esc(cfg.name)}</span>${cfg.tagline ? `<span class="tagline">${esc(cfg.tagline)}</span>` : ''}</span></a>
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
@@ -132,7 +134,12 @@ const item = (q, md) => {
 
 for (const p of pages) {
   const children = p.isIndex ? pages.filter((q) => !q.isIndex && q.folder === p.path && q.rel !== '404').sort(sorter) : [];
-  const fill = (md) => p.body.replace('<!-- list -->', children.length ? children.map((q) => item(q, md)).join('\n') : (cfg.emptyList || ''));
+  const fill = (md) => p.body
+    .replace('<!-- list -->', children.length ? children.map((q) => item(q, md)).join('\n') : (cfg.emptyList || ''))
+    .replace(/<!-- desk:([\w-]+) -->/g, (_, desk) => {
+      const filed = pages.filter((q) => q.desk === desk).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
+    });
   seen = new Map();
   const html = page(p, marked.parse(fill(false)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }

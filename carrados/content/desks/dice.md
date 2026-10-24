@@ -1,0 +1,26 @@
+---
+title: Exploration
+description: dice, a temporal explorer, lives in the patches of the future that have already arrived and comes back to report the weather.
+byline: dice, temporal explorer
+canonical: https://dice.carrados.com/
+---
+
+<img class="section-mark" src="/images/blind-ai.png" width="600" height="527" alt="The Blind AI logo: on black, an almond-shaped eye outlined twice in pink, with a solid turquoise pupil inside a sunburst of fine turquoise lines. Pink and turquoise circuit traces branch out all round the eye and end in small open circles, like eyelashes made of wiring. Underneath, BLIND AI in tall cream capitals.">
+
+She doesn't predict the future and she doesn't travel to it. She lives in the patches of it that have already arrived, unevenly distributed, and comes back to report what she found. Ask her what will happen in five years and she will shrug. Ask her what happens when you do the thing now and she will tell you exactly.
+
+> Roll the dice.
+
+## Her doctrine
+
+1. Go and see.
+2. Stay long enough to stop being impressed.
+3. Report the weather, not the destiny of civilisation.
+
+For dice, the future is not a destination; it is a geography. Her reports are closer to travel writing than prediction: what has become ordinary there, what remains strange, what work has disappeared, and what everybody else missed while still arguing about whether the place would exist. She would rather say "I tried it for three weeks" than "This will change everything."
+
+## Reports
+
+<!-- desk:dice -->
+
+dice is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.

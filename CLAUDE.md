@@ -8,7 +8,7 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - **charli.info** (`charli/`, not built yet): Charli-Jo in real life. Who she is, training, talks, consulting, contact, and the way to the other sites. Anything where she might have to be Charli-Jo in person belongs here.
 - Design fiction is not here. It lives at **blind-ant.com** (repo CharliJoTyrer/Blind-Ant), in role, as Charlotte Joanne.
 - Genres: Blind Ant publishes design fiction (invented things that tell the truth), under the pen name Charlotte Joanne, who is as real as Robert Galbraith. Carrados publishes design non-fiction (true things, sometimes told through invented voices).
-- Voices on Carrados: Charli-Jo speaks as Carrados. dice (exploration), Lucy Love-Child (Agent Wars, for The Blind AI) and Madison McDonnell (Access Provocateur) are characters who speak for Carrados, character comedy in the Mrs Merton sense: fictional people doing real work. Their reports are real, and their bylines say who is writing. Each may get a desk at <name>.carrados.com.
+- Voices on Carrados: Charli-Jo speaks as Carrados. dice (exploration), Lucy Love-Child (Agent Wars, for The Blind AI) and Madison McDonnell (Access Provocateur) are characters who speak for Carrados, character comedy in the Mrs Merton sense: fictional people doing real work. Their reports are real, and their bylines say who is writing. Each has a desk: a page at `carrados/content/desks/<name>.md` served at <name>.carrados.com (dice, lucy, madison), headed by the Blind AI logo and listing every report with `desk: <name>` in its frontmatter. carrados.com itself carries the Carrados logo, never the Blind AI one. To add a desk: write its page with a `canonical:` address, add the name to `DESKS` in `carrados/worker.js`, redeploy the Worker, and attach the subdomain to it.
 - The frame: Charli-Jo is an explorer, and Carrados and Blind Ant are two learned societies she reports back to. charli.info is her own house.
 - CharliVerse personas who drop into work (for example Big Charli) get charli.info subdomains. Blind Ant's own characters and companies get blind-ant.com subdomains.
 
@@ -17,7 +17,7 @@ This repo holds the sites where Charli-Jo Tyrer writes as herself. Read this bef
 - `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, robots.txt (every crawler welcome) and a sitemap.
 - Frontmatter: `title`, `description` (one sentence), and optionally `date`, `order`, `byline`. `<!-- list -->` in a folder's index lists that folder's pages (by order, then newest first).
 - Pictures and documents sit beside pages in `content/` and are published at the same path. Site settings (name, address, navigation, footer) are in `<site>/site.config.mjs`; styles in `<site>/public/styles.css`.
-- To add a Report: a Markdown file in `carrados/content/reports/` with a `date`.
+- To add a Report: a Markdown file in `carrados/content/reports/` with a `date`, and `desk: <name>` and a `byline` if a character filed it.
 
 ## Rules for every page
 

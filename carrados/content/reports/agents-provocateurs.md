@@ -3,6 +3,7 @@ title: Agents Provocateurs
 description: The Agent Wars will be fought over attention, content, friction and breakage, and every wall built to stop the agents is also built across blind people's path.
 date: 2026-10-02
 byline: Lucy Love-Child, Agent Wars correspondent
+desk: lucy
 ---
 
 This morning, I asked an AI agent to read me a lingerie email.

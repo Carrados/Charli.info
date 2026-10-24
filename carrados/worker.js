@@ -7,6 +7,7 @@ const TYPES = {
   jpg: 'image/jpeg', png: 'image/png', webp: 'image/webp',
   docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', pdf: 'application/pdf',
 };
+const DESKS = ['lucy', 'madison', 'dice'];
 const pull = (path) => fetch(SOURCE + path, { cf: { cacheEverything: true, cacheTtl: 60 } });
 function respond(r, path, status) {
   const ext = path.split('.').pop();
@@ -24,6 +25,16 @@ export default {
     const url = new URL(request.url);
     if (url.hostname.startsWith('www.')) return Response.redirect(`https://${url.hostname.slice(4)}${url.pathname}${url.search}`, 301);
     let path = decodeURIComponent(url.pathname);
+    // Correspondents' desks: lucy.carrados.com opens /desks/lucy/. Pictures and styles are served as usual;
+    // any other page link goes to the main site. On the main site, /desks/<name>/ moves to the desk's own address.
+    const desk = DESKS.includes(url.hostname.split('.')[0]) ? url.hostname.split('.')[0] : null;
+    if (desk) {
+      if (path === '/' || path === '/index.md') path = `/desks/${desk}/` + (path === '/index.md' ? 'index.md' : '');
+      else if (!/\.\w+$/.test(path)) return Response.redirect(`https://carrados.com${path}${url.search}`, 301);
+    } else {
+      const m = path.match(/^\/desks\/([\w-]+)\/?$/);
+      if (m && DESKS.includes(m[1])) return Response.redirect(`https://${m[1]}.carrados.com/`, 301);
+    }
     if (path.includes('..')) return new Response('Not found', { status: 404 });
     if (!/\.\w+$/.test(path)) {
       if (!path.endsWith('/')) {
