@@ -10,8 +10,14 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
 - Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
+- [Big Charli](https://charli.info/charlipedia/big-charli/)
+- Jo, retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
+
+## The workshop
+
+The Court thinks; [Sheridan](https://charli.info/charlipedia/sheridan/), the Head of Blind Ant Studios, builds. Each member of the Court helped cast her before she arrived.
 
 ## The other Court
 
