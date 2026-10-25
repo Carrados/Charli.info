@@ -20,7 +20,7 @@ const TOOLS = [
   { name: 'search', title: 'Search CharliPedia', description: 'Search CharliPedia entries by words in their title, description or text. Returns the best matches with a short snippet and URL.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'Words to search for' }, limit: { type: 'integer', minimum: 1, maximum: 25, description: 'Most results to return (default 8)' } }, required: ['query'] }, annotations: RO },
   { name: 'get_entry', title: 'Get a CharliPedia entry', description: 'Get one CharliPedia entry in full, as Markdown, by its slug (for example "big-charli") or its exact title.', inputSchema: { type: 'object', properties: { entry: { type: 'string', description: 'Slug or title of the entry' } }, required: ['entry'] }, annotations: RO },
   { name: 'list_entries', title: 'List CharliPedia entries', description: 'List CharliPedia entries with their one-sentence descriptions, optionally only those starting with a letter or with a given status.', inputSchema: { type: 'object', properties: { letter: { type: 'string', description: 'First letter of the title, ignoring a leading "The"' }, status: { type: 'string', enum: ['canon', 'idea', 'stub', 'author', 'real'] } } }, annotations: RO },
-  { name: 'semantic_search', title: 'Search the CharliVerse by meaning', description: 'Search by meaning, not just matching words, across CharliPedia, Blind Ant, Carrados and charli.info. Each result says which site it comes from and what kind of writing that is. Use this for themes, ideas and questions ("who has been let down by a beautiful interface?"); use search for names.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'A question, theme or idea, in plain words' }, site: { type: 'string', enum: ['charlipedia', 'blind-ant', 'carrados', 'charli.info'], description: 'Search only one site (optional)' }, limit: { type: 'integer', minimum: 1, maximum: 15, description: 'Most passages to return (default 6)' } }, required: ['query'] }, annotations: RO },
+  { name: 'semantic_search', title: 'Search the CharliVerse by meaning', description: 'Search by meaning, not just matching words, across CharliPedia, Blind Ant, Carrados, charli.info and Charli-Jo\'s Training courses. Each result says which site it comes from and what kind of writing that is. Use this for themes, ideas and questions ("who has been let down by a beautiful interface?"); use search for names. Set site to training for practical how-to questions, or to one site to keep to it.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'A question, theme or idea, in plain words' }, site: { type: 'string', enum: ['charlipedia', 'blind-ant', 'carrados', 'charli.info', 'training'], description: 'Search only one site (optional)' }, limit: { type: 'integer', minimum: 1, maximum: 15, description: 'Most passages to return (default 6)' } }, required: ['query'] }, annotations: RO },
   { name: 'get_court', title: 'Get the CharliVerse Court', description: 'Get the CharliVerse Court entry and the full entries of its nine members, for a deliberation or a crossover.', inputSchema: { type: 'object', properties: {} }, annotations: RO },
 ];
 
@@ -28,7 +28,8 @@ const SITES = {
   charlipedia: 'CharliPedia, the memory of the CharliVerse: written from inside the world; its people and companies are fictional, and each entry\'s Behind the scenes says what is real',
   'blind-ant': 'Blind Ant, design fiction by Charlotte Joanne: speculative works and how they were made',
   carrados: 'Carrados, design non-fiction: real-world research and reports that make sourced claims about reality (its correspondents are characters)',
-  'charli.info': 'charli.info, the front door of the CharliVerse and Charli-Jo Tyrer\'s real-world work, such as training, always labelled as real',
+  'charli.info': 'charli.info, the front door of the CharliVerse and Charli-Jo Tyrer\'s real-world work, always labelled as real',
+  training: 'Training, Charli-Jo Tyrer\'s real-world courses on AI for blind and partially sighted people, including Confident with AI with TAVIP: practical how-to material',
 };
 async function meaning(env, args) {
   if (!env || !env.AI || !env.VEC) throw new Error('Search by meaning is not available right now; use search instead.');
@@ -110,7 +111,7 @@ async function handle(msg, env) {
   if (id === undefined || id === null) return null; // a notification: nothing to say back
   if (method === 'initialize') {
     const v = PROTOCOLS.includes(params.protocolVersion) ? params.protocolVersion : PROTOCOLS[0];
-    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.1.0' }, instructions: INSTRUCTIONS });
+    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.2.0' }, instructions: INSTRUCTIONS });
   }
   if (method === 'ping') return ok({});
   if (method === 'tools/list') return ok({ tools: TOOLS });

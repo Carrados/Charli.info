@@ -5,7 +5,7 @@
   "scripts": {
     "build:carrados": "node engine/build.mjs carrados && node engine/chunks.mjs dist/carrados https://carrados.com carrados",
     "publish:carrados": "npm run build:carrados && node engine/publish.mjs carrados",
-    "build:charli": "node engine/build.mjs charli && node engine/chunks.mjs dist/charli https://charli.info charli.info /charlipedia/=charlipedia",
+    "build:charli": "node engine/build.mjs charli && node engine/chunks.mjs dist/charli https://charli.info charli.info /charlipedia/=charlipedia /training/=training",
     "publish:charli": "npm run build:charli && node engine/publish.mjs charli"
   },
   "dependencies": {
