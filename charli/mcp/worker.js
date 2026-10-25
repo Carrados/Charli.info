@@ -103,10 +103,12 @@ const json = (body, status = 200) => new Response(JSON.stringify(body), { status
 export default {
   async fetch(request) {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
+    const url = new URL(request.url);
+    // Clients such as ChatGPT look for sign-in details first. There is no sign-in: say so plainly with a 404.
+    if (url.pathname.startsWith('/.well-known/')) return json({ error: 'not_found', message: 'No sign-in: this server is open and read-only.' }, 404);
     if (request.method === 'GET') {
-      const url = new URL(request.url);
-      if (url.pathname === '/' && !(request.headers.get('accept') || '').includes('text/event-stream')) {
-        return new Response(`CharliPedia MCP server (read-only).\n\nAdd https://mcp.charli.info/ to your agent as a remote MCP server (Streamable HTTP, no sign-in).\nTools: search, get_entry, list_entries, get_court.\nCharliPedia itself: https://charli.info/charlipedia/\n`, { headers: { 'content-type': 'text/plain; charset=utf-8', ...CORS } });
+      if (['/', '/mcp', '/mcp/'].includes(url.pathname) && !(request.headers.get('accept') || '').includes('text/event-stream')) {
+        return new Response(`CharliPedia MCP server (read-only).\n\nAdd https://mcp.charli.info/mcp (or https://mcp.charli.info/) to your agent as a remote MCP server (Streamable HTTP, no sign-in).\nTools: search, get_entry, list_entries, get_court.\nCharliPedia itself: https://charli.info/charlipedia/\n`, { headers: { 'content-type': 'text/plain; charset=utf-8', ...CORS } });
       }
       return new Response('This server does not open event streams.', { status: 405, headers: { allow: 'POST, OPTIONS', ...CORS } });
     }
