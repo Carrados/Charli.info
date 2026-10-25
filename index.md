@@ -12,6 +12,16 @@ The work begins from a simple observation. Digital systems naturally drift towar
 
 Carrados approaches accessibility as an engineering discipline rather than a compliance exercise. It asks how information can survive changes of interface, modality and technology without losing meaning, whether it is being read by a sighted person, a blind screen reader user, a voice interface or an AI agent.
 
+## Start here
+
+New to Carrados? Three ways in, from lightest to deepest:
+
+1. **A report:** [Except Why I’d Want One](https://carrados.com/reports/except-why-id-want-one/). Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader.
+2. **The idea in plain language:** [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](https://carrados.com/papers/classical-and-generative-accessibility/). Why accessibility erodes, and the fork AI puts in front of us.
+3. **The full theory and the standard:** [the Tyrer Framework](https://carrados.com/papers/tyrer-framework/), then [the ZIC design standard](https://carrados.com/papers/zic-design-standard/) built from it.
+
+The reports are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](https://carrados.com/about/) explains how that works.
+
 ## Reports
 
 Dispatches from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand. These are the posts of [The Blind AI](https://carrados.com/reports/).

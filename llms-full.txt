@@ -24,6 +24,16 @@ The work begins from a simple observation. Digital systems naturally drift towar
 
 Carrados approaches accessibility as an engineering discipline rather than a compliance exercise. It asks how information can survive changes of interface, modality and technology without losing meaning, whether it is being read by a sighted person, a blind screen reader user, a voice interface or an AI agent.
 
+### Start here
+
+New to Carrados? Three ways in, from lightest to deepest:
+
+1. **A report:** [Except Why I’d Want One](https://carrados.com/reports/except-why-id-want-one/). Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader.
+2. **The idea in plain language:** [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](https://carrados.com/papers/classical-and-generative-accessibility/). Why accessibility erodes, and the fork AI puts in front of us.
+3. **The full theory and the standard:** [the Tyrer Framework](https://carrados.com/papers/tyrer-framework/), then [the ZIC design standard](https://carrados.com/papers/zic-design-standard/) built from it.
+
+The reports are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](https://carrados.com/about/) explains how that works.
+
 ### Reports
 
 Dispatches from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand. These are the posts of [The Blind AI](https://carrados.com/reports/).
@@ -608,11 +618,11 @@ The scale classifies civilisations according to the proportion of environmental 
 
 #### Definitions
 
-**Environmental information **is the total set of state variables describing the geometry, dynamics, and semantic context of a physical or social environment.
+**Environmental information** is the total set of state variables describing the geometry, dynamics, and semantic context of a physical or social environment.
 
-**A perceptual channel **is any biological or technological interface through which environmental information reaches a conscious observer.
+**A perceptual channel** is any biological or technological interface through which environmental information reaches a conscious observer.
 
-**An information casualty **is an event in which relevant environmental information fails to reach an observer in time to inform perception, action, or participation. Examples include physical collisions caused by missing spatial information, inaccessible interfaces that block task completion, and cultural or social events whose meaning is restricted to a single sensory modality.
+**An information casualty** is an event in which relevant environmental information fails to reach an observer in time to inform perception, action, or participation. Examples include physical collisions caused by missing spatial information, inaccessible interfaces that block task completion, and cultural or social events whose meaning is restricted to a single sensory modality.
 
 #### Type 0: Visual Dominance Civilisation
 
@@ -698,11 +708,11 @@ This convergence is the most strategically significant development in the histor
 
 If the shift to generative accessibility sounds promising, it should also sound dangerous. Three failure modes require particular attention.
 
-**The first is fragmentation. **In a world of generated interfaces, users may inhabit different versions of the same system. If the interface collapses differently for every user based on inferred intent, shared reference disappears. Troubleshooting becomes impossible when two users cannot confirm they are looking at the same thing. Collaboration fractures when the generated reality diverges. For disabled users, the risk is isolation: a *simplified *version of the interface that removes complexity under the guise of helpfulness, trapping the user in a reduced reality they cannot see past.
+**The first is fragmentation.** In a world of generated interfaces, users may inhabit different versions of the same system. If the interface collapses differently for every user based on inferred intent, shared reference disappears. Troubleshooting becomes impossible when two users cannot confirm they are looking at the same thing. Collaboration fractures when the generated reality diverges. For disabled users, the risk is isolation: a *simplified *version of the interface that removes complexity under the guise of helpfulness, trapping the user in a reduced reality they cannot see past.
 
-**The second is silent failure. **Classical accessibility fails loudly. An unlabelled button is detectable. A missing heading is auditable. Generative accessibility can fail silently. If the system infers that a user is confused and collapses their interface into a simplified mode, the user may never know what they have lost. This is not a bug; it is invisible, systemic discrimination operating at the level of inference rather than design.
+**The second is silent failure.** Classical accessibility fails loudly. An unlabelled button is detectable. A missing heading is auditable. Generative accessibility can fail silently. If the system infers that a user is confused and collapses their interface into a simplified mode, the user may never know what they have lost. This is not a bug; it is invisible, systemic discrimination operating at the level of inference rather than design.
 
-**The third is the verification burden. **If the interface is generated rather than fixed, how does the user know it is accurate? A sighted user may trust a generated chart because it looks right. A blind user receiving a generated summary must wonder whether the summary reflects the data or the system’s assumptions about what the user wants to hear. This imposes a cognitive tax of constant verification that falls disproportionately on users who are already working harder to access the information.
+**The third is the verification burden.** If the interface is generated rather than fixed, how does the user know it is accurate? A sighted user may trust a generated chart because it looks right. A blind user receiving a generated summary must wonder whether the summary reflects the data or the system’s assumptions about what the user wants to hear. This imposes a cognitive tax of constant verification that falls disproportionately on users who are already working harder to access the information.
 
 #### Governance and the Right to Inspect
 
@@ -722,11 +732,11 @@ The Tyrer Doctrine is a design principle for technological systems operating in 
 
 #### Principles
 
-**First: accessibility is information integrity, not accommodation. **When a system renders critical information through only one sensory channel, the problem is not that some users have been insufficiently accommodated; the problem is that the system has a single point of failure in its information layer. Redundancy across perceptual channels is an engineering requirement for the same reason that redundancy across servers is an engineering requirement: single points of failure produce casualties.
+**First: accessibility is information integrity, not accommodation.** When a system renders critical information through only one sensory channel, the problem is not that some users have been insufficiently accommodated; the problem is that the system has a single point of failure in its information layer. Redundancy across perceptual channels is an engineering requirement for the same reason that redundancy across servers is an engineering requirement: single points of failure produce casualties.
 
-**Second: missing signals are system failures, not user limitations. **When an observer fails to receive environmental information, the Doctrine locates the failure in the system, not in the observer. A blind person who walks into an obstacle has not failed to see it; the environment has failed to communicate it. A screen reader user who cannot operate a control has not failed to perceive the interface; the interface has failed to expose its state. This reframing is not semantic; it determines where resources are directed and where accountability falls.
+**Second: missing signals are system failures, not user limitations.** When an observer fails to receive environmental information, the Doctrine locates the failure in the system, not in the observer. A blind person who walks into an obstacle has not failed to see it; the environment has failed to communicate it. A screen reader user who cannot operate a control has not failed to perceive the interface; the interface has failed to expose its state. This reframing is not semantic; it determines where resources are directed and where accountability falls.
 
-**Third: the deterministic floor is permanent; the generative ceiling is the frontier. **Classical accessibility standards represent the deterministic floor: the set of requirements that, if met, prevent catastrophic information loss. This floor is not optional, not transitional, and not replaced by generative systems. It is the safety rail that prevents the system from collapsing into chaos. Above the floor, generative accessibility extends the ceiling: adaptive, context-sensitive rendering that meets the observer’s perceptual capabilities and intent. The floor holds the line. The ceiling raises it.
+**Third: the deterministic floor is permanent; the generative ceiling is the frontier.** Classical accessibility standards represent the deterministic floor: the set of requirements that, if met, prevent catastrophic information loss. This floor is not optional, not transitional, and not replaced by generative systems. It is the safety rail that prevents the system from collapsing into chaos. Above the floor, generative accessibility extends the ceiling: adaptive, context-sensitive rendering that meets the observer’s perceptual capabilities and intent. The floor holds the line. The ceiling raises it.
 
 #### Application
 
@@ -766,15 +776,15 @@ Only the second path leads toward Type I on the Tyrer Scale. The first path entr
 
 The Tyrer Framework is the integrated structure formed by the four components described in this paper. Each component performs a distinct function, and together they constitute a complete account of why accessibility degrades, where a civilisation stands in its capacity to prevent that degradation, what design principle should govern the response, and what structural opportunity the current moment presents.
 
-**Tyrer’s Law **provides the diagnosis. It explains why inaccessibility is not a series of isolated failures but a structural tendency inherent in systems designed by visually dominant agents. The law is descriptive, not prescriptive; it identifies the mechanism without proposing a solution.
+**Tyrer’s Law** provides the diagnosis. It explains why inaccessibility is not a series of isolated failures but a structural tendency inherent in systems designed by visually dominant agents. The law is descriptive, not prescriptive; it identifies the mechanism without proposing a solution.
 
-**The Tyrer Accessibility Scale **provides the map. It describes the trajectory from visual dominance to perceptual sovereignty, defining four stages of civilisational development measured by the proportion of environmental information accessible to all observers. The scale is diagnostic: it allows a civilisation to locate itself and identify what the next transition requires.
+**The Tyrer Accessibility Scale** provides the map. It describes the trajectory from visual dominance to perceptual sovereignty, defining four stages of civilisational development measured by the proportion of environmental information accessible to all observers. The scale is diagnostic: it allows a civilisation to locate itself and identify what the next transition requires.
 
-**Classical and generative accessibility **describes the paradigm shift that marks the transition from Type 0 to Type I. Classical accessibility is the deterministic floor; generative accessibility is the adaptive ceiling. The transition is marked by a specific structural change: the accessible interface ceases to be a translation of the visual version and becomes a native rendering of shared source data.
+**Classical and generative accessibility** describes the paradigm shift that marks the transition from Type 0 to Type I. Classical accessibility is the deterministic floor; generative accessibility is the adaptive ceiling. The transition is marked by a specific structural change: the accessible interface ceases to be a translation of the visual version and becomes a native rendering of shared source data.
 
-**The Tyrer Doctrine **provides the design principle. It states the condition that all systems should satisfy: no critical environmental information accessible through only a single sensory channel. The Doctrine is the prescriptive bridge between the diagnosis and the trajectory, translating the structural problem identified by the Law into an engineering requirement that drives movement along the Scale.
+**The Tyrer Doctrine** provides the design principle. It states the condition that all systems should satisfy: no critical environmental information accessible through only a single sensory channel. The Doctrine is the prescriptive bridge between the diagnosis and the trajectory, translating the structural problem identified by the Law into an engineering requirement that drives movement along the Scale.
 
-**The AI structural break **provides the context for the current moment. It identifies why, for the first time in the history of digital technology, a widely deployed technology exists that could weaken the mechanism described by the Law. It also identifies the fork: AI will either accelerate visual drift or enable semantic access, and the outcome depends on choices being made now.
+**The AI structural break** provides the context for the current moment. It identifies why, for the first time in the history of digital technology, a widely deployed technology exists that could weaken the mechanism described by the Law. It also identifies the fork: AI will either accelerate visual drift or enable semantic access, and the outcome depends on choices being made now.
 
 #### The Central Claim
 
