@@ -39,7 +39,7 @@ With collaborators and clients, she looks for engagement with the actual proposi
 
 [Jo](/charlipedia/jo/) is her operational counterpart in the Court's account of their work: strategy and readiness test each other. Jo's retirement from active service and her founding of First Layer remain part of that account.
 
-Lily guards sustainability. Growth without care becomes collapse, and Lily's veto is absolute. Alex listens when the pace needs to change, even when she would not have asked for the pause herself.
+[Lily](/charlipedia/lily/) guards sustainability. Growth without care becomes collapse, and Lily's veto is absolute. Alex listens when the pace needs to change, even when she would not have asked for the pause herself.
 
 ## Her blind spots
 

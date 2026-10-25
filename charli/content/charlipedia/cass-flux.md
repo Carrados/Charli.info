@@ -35,7 +35,7 @@ That position gives her room to work. It also leaves her lonely. The margin is h
 
 [Lottie](/charlipedia/lottie/) asks who the work is for. [Alex](/charlipedia/alex/) finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
 
-Lily watches the cost of living at the margin. Her sustainability veto is absolute.
+[Lily](/charlipedia/lily/) watches the cost of living at the margin. Her sustainability veto is absolute.
 
 ## Her blind spots
 
