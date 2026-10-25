@@ -14,7 +14,7 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 - [Big Charli](/charlipedia/big-charli/), the satirist.
 - [Cathryn Bigelow-Vision](/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](/charlipedia/lottie/), the community heart.
-- Jo, retired from active operations, who founded [First Layer](/charlipedia/first-layer/).
+- [Jo](/charlipedia/jo/), retired from active operations, who founded [First Layer](/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
 
