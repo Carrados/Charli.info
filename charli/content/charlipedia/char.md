@@ -37,7 +37,7 @@ She does not need to raise her voice. The verdict carries its own weight.
 
 [Big Charli](/charlipedia/big-charli/) gives the fury its aim. Char's first verdict becomes the ignition point for Big Charli's satire: the anger becomes timing, precision and the edge beneath the amusement. Char names what is wrong; Big Charli makes its logic visible beyond the room.
 
-Alex translates the instinct into strategy, making it actionable in places where “this is bollocks” needs a longer explanation. Char does not need credit. She needs the insight to reach somebody who can act on it.
+[Alex](/charlipedia/alex/) translates the instinct into strategy, making it actionable in places where “this is bollocks” needs a longer explanation. Char does not need credit. She needs the insight to reach somebody who can act on it.
 
 [Charlotte Joanne](/charlipedia/charlotte-joanne/) and Char negotiate how and when the verdict reaches the public. Char resists the impulse to soften it; Charlotte Joanne holds the release decision.
 

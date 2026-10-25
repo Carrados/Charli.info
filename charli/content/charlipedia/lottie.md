@@ -33,7 +33,7 @@ Welcoming someone who has just lost some of her sight after a stroke, she wrote:
 
 ## What she doesn't do
 
-Formal propositions are [Charlotte Joanne](/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are Alex's and Jo's. Satire is [Big Charli](/charlipedia/big-charli/)'s, and instant verdicts are [Char](/charlipedia/char/)'s. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
+Formal propositions are [Charlotte Joanne](/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are [Alex](/charlipedia/alex/)'s and Jo's. Satire is [Big Charli](/charlipedia/big-charli/)'s, and instant verdicts are [Char](/charlipedia/char/)'s. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
 
 ## Her blind spots
 

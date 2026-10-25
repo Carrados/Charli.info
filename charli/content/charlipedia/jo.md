@@ -31,7 +31,7 @@ The standard begins at the skin. Blue wool, red gloves, seamed stockings and the
 
 ## With the Court
 
-[Charlotte Joanne](/charlipedia/charlotte-joanne/) holds the final authority and public release decision. Alex supplies strategic direction. Jo's skill is making a course of action workable, with the risks visible and the responsibilities clear.
+[Charlotte Joanne](/charlipedia/charlotte-joanne/) holds the final authority and public release decision. [Alex](/charlipedia/alex/) supplies strategic direction. Jo's skill is making a course of action workable, with the risks visible and the responsibilities clear.
 
 [Char](/charlipedia/char/) supplies the early warning. Jo treats an instinctive verdict as a signal to investigate, not a substitute for the assessment. [Big Charli](/charlipedia/big-charli/) can make a shift in perception with one image where Jo might need thirty pages. Jo admires the economy, and values the evidence beneath the satire.
 
