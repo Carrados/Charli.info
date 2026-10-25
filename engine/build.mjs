@@ -14,7 +14,7 @@
 
 import { readFile, writeFile, mkdir, readdir, copyFile, rm } from 'node:fs/promises';
 import { join, dirname, relative } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { marked } from 'marked';
 
 // A list item that is a single paragraph is written without the <p>, so screen readers don't announce its marker twice.
@@ -25,13 +25,14 @@ const name = process.argv[2];
 if (!name) throw new Error('Usage: node engine/build.mjs <site>');
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const siteDir = join(root, name);
-const cfg = (await import(join(siteDir, 'site.config.mjs'))).default;
+const cfg = (await import(pathToFileURL(join(siteDir, 'site.config.mjs')).href)).default;
 const contentDir = join(siteDir, 'content');
 const publicDir = join(siteDir, 'public');
 const dist = join(root, 'dist', name);
 const SITE = cfg.url;
 
 function parse(src) {
+  src = src.replace(/\r\n?/g, '\n'); // files saved on Windows have CRLF line endings
   const m = src.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   if (!m) return { data: {}, body: src };
   const data = {};

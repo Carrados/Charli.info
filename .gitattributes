@@ -1,0 +1,9 @@
+# Keep line endings as LF on every machine, including Windows, so the builders read files the same way everywhere.
+* text=auto eol=lf
+*.docx binary
+*.pdf binary
+*.jpg binary
+*.png binary
+*.webp binary
+*.mp4 binary
+*.woff2 binary

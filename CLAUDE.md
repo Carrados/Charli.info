@@ -80,3 +80,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 ## Where the old site came from
 
 The pages were carried over from the old Astro site (GitHub org `charliverse`, repo `charli.info`, served by GitHub Pages at charli.info until the new charli.info replaces it). Paths changed: `charli.info/carrados/<paper>/` is now `carrados.com/papers/<paper>/`, and `charli.info/perspectives/<essay>/` is now `carrados.com/perspectives/<essay>/`.
+
+## Working with Codex
+
+- Codex prepares batches as pull requests from `codex/<topic>` branches (its rules are in `AGENTS.md`). Claude reviews each against these house rules, fixes what needs fixing on the branch, builds and checks everything, merges (with the GitHub REST API: `gh api -X PUT repos/<owner>/<repo>/pulls/<n>/merge`), publishes, and tells Charli-Jo what changed. The builders handle Windows paths and CRLF line endings, and `.gitattributes` keeps files LF.
