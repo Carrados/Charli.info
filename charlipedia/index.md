@@ -26,6 +26,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 ### A
 
+- [Accessibility International](https://charli.info/charlipedia/accessibility-international/index.md): Accessibility International is the agency that treats every information casualty like a plane crash, founded by a 2069 unit stranded in 2026.
 - [Admission Casualty](https://charli.info/charlipedia/admission-casualty/index.md): An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
@@ -42,6 +43,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [Case ID 2026-LPL-088](https://charli.info/charlipedia/case-2026-lpl-088/index.md): Case ID 2026-LPL-088 is the locked ticket gantry in Liverpool that a blind woman walked into, and the incident that made the argument real enough to work.
 - [Cass Flux](https://charli.info/charlipedia/cass-flux/index.md): Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
 - [Char](https://charli.info/charlipedia/char/index.md): Char is the instant bullshit detector of the CharliVerse Court, a Birkenhead punk whose verdict arrives before the analysis.
@@ -135,6 +137,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
 - [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
 - [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
+- [Rungwell](https://charli.info/charlipedia/rungwell/index.md): Rungwell is the accessibility charity and consultancy whose maturity model is the best a Type 0 civilisation can do, and which Accessibility International succeeds.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 ### S

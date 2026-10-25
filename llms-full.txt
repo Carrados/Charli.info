@@ -143,6 +143,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 #### A
 
+- [Accessibility International](https://charli.info/charlipedia/accessibility-international/index.md): Accessibility International is the agency that treats every information casualty like a plane crash, founded by a 2069 unit stranded in 2026.
 - [Admission Casualty](https://charli.info/charlipedia/admission-casualty/index.md): An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
@@ -159,6 +160,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [Case ID 2026-LPL-088](https://charli.info/charlipedia/case-2026-lpl-088/index.md): Case ID 2026-LPL-088 is the locked ticket gantry in Liverpool that a blind woman walked into, and the incident that made the argument real enough to work.
 - [Cass Flux](https://charli.info/charlipedia/cass-flux/index.md): Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
 - [Char](https://charli.info/charlipedia/char/index.md): Char is the instant bullshit detector of the CharliVerse Court, a Birkenhead punk whose verdict arrives before the analysis.
@@ -252,6 +254,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
 - [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
 - [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
+- [Rungwell](https://charli.info/charlipedia/rungwell/index.md): Rungwell is the accessibility charity and consultancy whose maturity model is the best a Type 0 civilisation can do, and which Accessibility International succeeds.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 #### S
@@ -278,6 +281,49 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### Z
 
 - [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/index.md): Zero Information Casualty is both the endpoint of the Tyrer Accessibility Scale and the agent-first web standard, ZIC, built to reach it.
+
+---
+
+Address: https://charli.info/charlipedia/accessibility-international/
+
+## Accessibility International
+
+> Accessibility International is the agency that treats every information casualty like a plane crash, founded by a 2069 unit stranded in 2026.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Accessibility International** (AcsInt, or simply A.I.) is the institution that succeeds [Rungwell](https://charli.info/charlipedia/rungwell/) when the paradigm shifts. Its axiom: information locked behind a single sense is a system fault. Not a gap in empathy, not a failure of maturity, but a fault, in the same category as a safety violation or a structural failure.
+
+<figure>
+  <img src="/charlipedia/accessibility-international-logo.jpg" width="1200" height="651" alt="The Accessibility International logo: a black ink circle painted in two brushstrokes, open in two places, with a hand-brushed A on the left and a serif I on the right, beside the words Accessibility International in a classic serif, on warm off-white paper.">
+  <figcaption>The Accessibility International logo.</figcaption>
+</figure>
+
+### Operatives
+
+A.I. operatives don't carry clipboards. They carry the power to shut down infrastructure that produces [information casualties](https://charli.info/charlipedia/information-casualty/), and they work in three modes, one for each level of the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/):
+
+- **Type I:** the Black Box interface, an AI system that outputs only visual dashboards. The team enforces the [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/): expose the source data, prove a native non-visual sibling exists. "Visual drift detected. Deploying semantic bridge."
+- **Type II:** the mute object, the silent construction zone or unmarked hazard. Units deploy environmental metadata nodes so the built world broadcasts its own geometry.
+- **ZIC level:** forensics. Every casualty is investigated with the seriousness of a plane crash, because the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) condition is a guarantee, and any breach is evidence of a single point of failure.
+
+They don't speak of inclusion or reasonable adjustment. They speak of perceptual sovereignty, information integrity, casualty forensics. "Activating the Right to Inspect. Collapse the interface to structured data."
+
+Its best-known case is [Case ID 2026-LPL-088](https://charli.info/charlipedia/case-2026-lpl-088/), closed by Unit 712.
+
+### The 2069 unit
+
+Accessibility International's Special Ops mission in 2026 is not native to its era. It comes from 2069, when fusion provides the baseload, orbital elevators run, and the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/) is standard operating procedure for the solar system's information layer. A team stranded in 2026 works under the **Temporal Non-Contamination Protocol**: the new physics and the embryonic ASIs stay where they are, and the only tool it may deploy is information integrity.
+
+So it hides. It translates 2069 into 2026: a single sensory channel becomes a single point of failure; accessibility becomes AI readiness, because agents and blind users need the same structure. It co-opts Rungwell rather than opposing it, placing classical accessibility as the deterministic floor and the generative ceiling above it. Its first translation, a web standard called Zero Information Casualty, is published in plain sight.
+
+> We are the engineers of a future you haven't built yet. We do not seek compliance; we seek the elimination of the fault.
+>
+> — Recovered Log, Accessibility International (2069 Unit)
+
+### Behind the scenes
+
+Accessibility International appears in [From Retrofit to Sovereignty](https://blind-ant.com/pieces/from-retrofit-to-sovereignty/), five recovered fragments of [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. The name came to her as an image while falling asleep, a circle with an A and an I; she registered AccessibilityInternational.com that night. The logo was drawn in code by Claude from her brief. The Tyrer Framework and the Zero Information Casualty standard are real.
 
 ---
 
@@ -624,6 +670,33 @@ Some reports are filed by characters who speak for Carrados: fictional people do
 ### In the CharliVerse
 
 Carrados investigates reality; its sister practice, [Blind Ant](https://charli.info/charlipedia/blind-ant/), creates design fiction. One creation can be treated by both: a fashion house can exist in the CharliVerse while a Carrados correspondent asks how you sell fashion in a world of agents.
+
+---
+
+Address: https://charli.info/charlipedia/case-2026-lpl-088/
+
+## Case ID 2026-LPL-088
+
+> Case ID 2026-LPL-088 is the locked ticket gantry in Liverpool that a blind woman walked into, and the incident that made the argument real enough to work.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Case ID 2026-LPL-088** is the best-known case of [Accessibility International](https://charli.info/charlipedia/accessibility-international/).
+
+- **Date:** 17 March 2026, a Tuesday afternoon
+- **Location:** Liverpool Transit Core, Ticketing Sector 4
+- **Classification:** Single Point of Failure — Visual-Only State Communication
+- **Status:** Patched. Permanent monitor placed.
+
+A ticketing gantry was in maintenance mode and locked. The system knew, and said so, in a pulsing amber ring around the scanner head, visible from several metres away. A blind woman received none of it. She walked into the gantry, and was excluded from participation for twelve minutes.
+
+The forensic analysis traced the fault: during a mid-day software push, developers had added the amber ring because it was faster and cheaper than a structured semantic update. [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/) operating exactly as predicted. Unit 712 activated the [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/), decommissioned the visual-only pulse, made the gantry broadcast its status as an environmental metadata packet, and hard-coded a rule into the transit core that any future state change must be rendered across at least two independent channels. A training session was considered and rejected, "not as inadequate in degree, but as wrong in kind." The sector is now rated Type I, early phase.
+
+To the 2069 unit, the woman at the gantry was the incident that made the argument real enough to work.
+
+### Behind the scenes
+
+The case appears in parts 4 and 5 of [From Retrofit to Sovereignty](https://blind-ant.com/pieces/from-retrofit-to-sovereignty/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. It is fictional; the place, the people and the unit are invented.
 
 ---
 
@@ -2465,6 +2538,26 @@ The principle isn't only for disabled people. In an AI-mediated world, the tools
 ### Behind the scenes
 
 A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Three. This entry summarises it; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/rungwell/
+
+## Rungwell
+
+> Rungwell is the accessibility charity and consultancy whose maturity model is the best a Type 0 civilisation can do, and which Accessibility International succeeds.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Rungwell** is an accessibility charity and consultancy, and the high-water mark of what a Type 0 civilisation can achieve within its own logic. Its diagnosis is organisational: companies fail at accessibility not through malice but through incomplete maturity, without the right strategy, training or leadership. Its remedy is a roadmap, the **Rungwell Maturity Model**, which moves an organisation from reactive to leading, measured by customer satisfaction and legal compliance and anchored to WCAG.
+
+Its founding pitch, that inclusive design is better for business, is admirable on its own terms, and in the terms of the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/) a symptom of the civilisation it works in: the accessible version is always downstream of the visual original. "One offers the ladder. The other names the ceiling."
+
+Viewed from 2069, Rungwell is a Type 0 civilisation doing its sincere best. The 2069 unit of [Accessibility International](https://charli.info/charlipedia/accessibility-international/) does not condemn it; it co-opts it, keeping the maturity model as the deterministic floor and introducing the generative ceiling as "what comes after Level 5".
+
+### Behind the scenes
+
+Rungwell appears in [From Retrofit to Sovereignty](https://blind-ant.com/pieces/from-retrofit-to-sovereignty/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. It stands in for today's charity-and-consultancy model of accessibility in general, not for any real organisation.
 
 ---
 

@@ -1,0 +1,22 @@
+# Case ID 2026-LPL-088
+
+> Case ID 2026-LPL-088 is the locked ticket gantry in Liverpool that a blind woman walked into, and the incident that made the argument real enough to work.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Case ID 2026-LPL-088** is the best-known case of [Accessibility International](https://charli.info/charlipedia/accessibility-international/).
+
+- **Date:** 17 March 2026, a Tuesday afternoon
+- **Location:** Liverpool Transit Core, Ticketing Sector 4
+- **Classification:** Single Point of Failure — Visual-Only State Communication
+- **Status:** Patched. Permanent monitor placed.
+
+A ticketing gantry was in maintenance mode and locked. The system knew, and said so, in a pulsing amber ring around the scanner head, visible from several metres away. A blind woman received none of it. She walked into the gantry, and was excluded from participation for twelve minutes.
+
+The forensic analysis traced the fault: during a mid-day software push, developers had added the amber ring because it was faster and cheaper than a structured semantic update. [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/) operating exactly as predicted. Unit 712 activated the [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/), decommissioned the visual-only pulse, made the gantry broadcast its status as an environmental metadata packet, and hard-coded a rule into the transit core that any future state change must be rendered across at least two independent channels. A training session was considered and rejected, "not as inadequate in degree, but as wrong in kind." The sector is now rated Type I, early phase.
+
+To the 2069 unit, the woman at the gantry was the incident that made the argument real enough to work.
+
+## Behind the scenes
+
+The case appears in parts 4 and 5 of [From Retrofit to Sovereignty](https://blind-ant.com/pieces/from-retrofit-to-sovereignty/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. It is fictional; the place, the people and the unit are invented.
