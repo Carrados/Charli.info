@@ -35,7 +35,7 @@ The standard begins at the skin. Blue wool, red gloves, seamed stockings and the
 
 [Char](/charlipedia/char/) supplies the early warning. Jo treats an instinctive verdict as a signal to investigate, not a substitute for the assessment. [Big Charli](/charlipedia/big-charli/) can make a shift in perception with one image where Jo might need thirty pages. Jo admires the economy, and values the evidence beneath the satire.
 
-[Lottie](/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. Lily watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
+[Lottie](/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. [Lily](/charlipedia/lily/) watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
 
 ## Her blind spots
 
