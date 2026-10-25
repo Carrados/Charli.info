@@ -13,7 +13,7 @@
 // Exactly one H1 per page: it comes from the title. Headings in page text start at ##; the build refuses a page with its own # heading.
 
 import { readFile, writeFile, mkdir, readdir, copyFile, rm } from 'node:fs/promises';
-import { join, dirname, relative } from 'node:path';
+import { join, dirname, relative, sep } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { marked } from 'marked';
 
@@ -126,7 +126,7 @@ await mkdir(dist, { recursive: true });
 
 const pages = [];
 for (const file of await walk(contentDir)) {
-  const rel = relative(contentDir, file).replace(/\.md$/, '');
+  const rel = relative(contentDir, file).split(sep).join('/').replace(/\.md$/, ''); // forward slashes on Windows too
   const { data, body } = parse(await readFile(file, 'utf8'));
   if (/^# /m.test(body.replace(/^```[\s\S]*?^```/gm, ''))) throw new Error(`${name}/${rel}.md: start headings at ## — the page's H1 comes from its title`);
   if (!data.title || !data.description) throw new Error(`${name}/${rel}.md: needs a title and a description`);
