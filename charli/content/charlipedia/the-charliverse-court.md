@@ -10,6 +10,7 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 
 - [Charlotte Joanne](/charlipedia/charlotte-joanne/)
 - Alex, who runs [Seamiotics](/charlipedia/seamiotics/), every seam means something.
+- [Char](/charlipedia/char/), the instant bullshit detector.
 - [Big Charli](/charlipedia/big-charli/), the satirist.
 - [Cathryn Bigelow-Vision](/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](/charlipedia/lottie/), the community heart.
