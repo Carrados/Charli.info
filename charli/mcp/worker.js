@@ -13,14 +13,14 @@ Entries are written from inside the world; each ends with "Behind the scenes", w
 Each entry has a status: canon (how things are), idea (not yet canon), stub (true but short), author (a real author described from outside) or real (something real).
 This server is read-only. It is a source of continuity, not an authority: anything you invent is an idea, not canon, until Charli-Jo publishes it.
 Respect the boundaries the entries record: for example, Big Charli is she/her; the Museum Court's private lives are never written; Charli-Jo Tyrer (they/them) and Charlotte Joanne (she/her) are distinct identities.
-semantic_search also reaches Blind Ant (design fiction), Carrados (real-world research) and charli.info, and every passage says which site it comes from: keep fiction and fact apart.\nCite entries by their URL. Everything is CC BY-SA 4.0.`;
+semantic_search also reaches Blind Ant (design fiction), Carrados (real-world research) and charli.info, and every passage says which site it comes from: keep fiction and fact apart.\nSearch results are a sample, not the whole record: before saying something is not recorded, try other phrasings, search for the people involved and read their full entries. Many connections in the CharliVerse are implied across stories rather than stated; when you join them, say that you are inferring.\nCite entries by their URL. Everything is CC BY-SA 4.0.`;
 
 const RO = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 const TOOLS = [
   { name: 'search', title: 'Search CharliPedia', description: 'Search CharliPedia entries by words in their title, description or text. Returns the best matches with a short snippet and URL.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'Words to search for' }, limit: { type: 'integer', minimum: 1, maximum: 25, description: 'Most results to return (default 8)' } }, required: ['query'] }, annotations: RO },
   { name: 'get_entry', title: 'Get a CharliPedia entry', description: 'Get one CharliPedia entry in full, as Markdown, by its slug (for example "big-charli") or its exact title.', inputSchema: { type: 'object', properties: { entry: { type: 'string', description: 'Slug or title of the entry' } }, required: ['entry'] }, annotations: RO },
   { name: 'list_entries', title: 'List CharliPedia entries', description: 'List CharliPedia entries with their one-sentence descriptions, optionally only those starting with a letter or with a given status.', inputSchema: { type: 'object', properties: { letter: { type: 'string', description: 'First letter of the title, ignoring a leading "The"' }, status: { type: 'string', enum: ['canon', 'idea', 'stub', 'author', 'real'] } } }, annotations: RO },
-  { name: 'semantic_search', title: 'Search the CharliVerse by meaning', description: 'Search by meaning, not just matching words, across CharliPedia, Blind Ant, Carrados, charli.info and Charli-Jo\'s Training courses. Each result says which site it comes from and what kind of writing that is. Use this for themes, ideas and questions ("who has been let down by a beautiful interface?"); use search for names. Set site to training for practical how-to questions, or to one site to keep to it.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'A question, theme or idea, in plain words' }, site: { type: 'string', enum: ['charlipedia', 'blind-ant', 'carrados', 'charli.info', 'training'], description: 'Search only one site (optional)' }, limit: { type: 'integer', minimum: 1, maximum: 15, description: 'Most passages to return (default 6)' } }, required: ['query'] }, annotations: RO },
+  { name: 'semantic_search', title: 'Search the CharliVerse by meaning', description: 'Search by meaning and by words together, across CharliPedia, Blind Ant, Carrados, charli.info and Charli-Jo\'s Training courses. Each result says which site it comes from and what kind of writing that is. Use this for themes, ideas and questions ("who has been let down by a beautiful interface?"); use search for names. Set site to training for practical how-to questions, or to one site to keep to it.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'A question, theme or idea, in plain words' }, site: { type: 'string', enum: ['charlipedia', 'blind-ant', 'carrados', 'charli.info', 'training'], description: 'Search only one site (optional)' }, limit: { type: 'integer', minimum: 1, maximum: 15, description: 'Most passages to return (default 6)' } }, required: ['query'] }, annotations: RO },
   { name: 'get_court', title: 'Get the CharliVerse Court', description: 'Get the CharliVerse Court entry and the full entries of its nine members, for a deliberation or a crossover.', inputSchema: { type: 'object', properties: {} }, annotations: RO },
 ];
 
@@ -31,21 +31,90 @@ const SITES = {
   'charli.info': 'charli.info, the front door of the CharliVerse and Charli-Jo Tyrer\'s real-world work, always labelled as real',
   training: 'Training, Charli-Jo Tyrer\'s real-world courses on AI for blind and partially sighted people, including Confident with AI with TAVIP: practical how-to material',
 };
+// Hybrid search: meaning (Vectorize) blended with words (BM25 over the same passages and lines), by reciprocal
+// rank fusion. The passages and lines come from each site's published chunks.json, cached for five minutes.
+const CHUNKS = [
+  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/charli-site/chunks.json',
+  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/carrados-site/chunks.json',
+  'https://raw.githubusercontent.com/CharliJoTyrer/Blind-Ant/site/chunks.json',
+];
+const STOP = new Set('a an and are as at be been being but by can could did do does doing for from had has have he her hers him his how i if in into is it its me my no not of on or our she so some someone anyone than that the their them then there these they this those to was we were what when where which who whom whose why will with would you your say says said tell told about any'.split(' '));
+const stem = (w) => {
+  if (w.length > 5 && w.endsWith('ing')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ed')) w = w.slice(0, -2);
+  if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss')) w = w.slice(0, -1);
+  return w;
+};
+const tokens = (t) => (String(t).toLowerCase().replace(/[\u2019']/g, "'").replace(/'s\b/g, '').match(/[a-z0-9]+/g) || []).filter((w) => !STOP.has(w)).map(stem);
+let units = { at: 0, data: null };
+async function loadUnits() {
+  if (units.data && Date.now() - units.at < 300000) return units.data;
+  const all = [];
+  for (const u of CHUNKS) {
+    const r = await fetch(u, { cf: { cacheEverything: true, cacheTtl: 300 } });
+    if (r.ok) all.push(...(await r.json()).chunks);
+  }
+  const byId = new Map(all.map((c) => [c.id, c]));
+  const df = new Map(); let total = 0;
+  const tf = all.map((c) => {
+    const m = new Map();
+    for (const w of tokens(`${c.title} ${c.heading || ''} ${c.text}`)) { m.set(w, (m.get(w) || 0) + 1); total++; }
+    for (const w of m.keys()) df.set(w, (df.get(w) || 0) + 1);
+    let len = 0; for (const v of m.values()) len += v;
+    return { m, len };
+  });
+  units = { at: Date.now(), data: { all, byId, df, tf, avg: total / Math.max(all.length, 1) } };
+  return units.data;
+}
+function keyword(u, q, site, k) {
+  const terms = [...new Set(tokens(q))].filter((w) => u.df.has(w));
+  if (!terms.length) return [];
+  const N = u.all.length, out = [];
+  u.all.forEach((c, i) => {
+    if (site && c.site !== site) return;
+    const { m, len } = u.tf[i];
+    let s = 0;
+    for (const w of terms) {
+      const f = m.get(w); if (!f) continue;
+      const idf = Math.log(1 + (N - u.df.get(w) + 0.5) / (u.df.get(w) + 0.5));
+      s += idf * (f * 2.2) / (f + 1.2 * (0.25 + 0.75 * len / u.avg));
+    }
+    if (s > 0) out.push([c.id, s]);
+  });
+  return out.sort((a, b) => b[1] - a[1]).slice(0, k).map((x) => x[0]);
+}
 async function meaning(env, args) {
   if (!env || !env.AI || !env.VEC) throw new Error('Search by meaning is not available right now; use search instead.');
   const q = String(args.query || '').trim();
   if (!q) throw new Error('Give a question or theme to search for.');
-  const emb = await env.AI.run('@cf/baai/bge-base-en-v1.5', { text: [q] });
   const limit = Math.min(Number(args.limit) || 6, 15);
-  const opts = { topK: 20, returnMetadata: 'all' };
-  if (args.site && SITES[args.site]) opts.filter = { site: args.site };
-  const raw = await env.VEC.query(emb.data[0], opts);
-  const seen = new Set(); // keep the best passage from each page
-  const res = { matches: (raw.matches || []).filter((m) => m.metadata && !seen.has(m.metadata.url) && seen.add(m.metadata.url)).slice(0, limit) };
-  const hits = res.matches.map((m) => m.metadata && `- ${m.metadata.title}${m.metadata.heading ? ' (' + m.metadata.heading + ')' : ''}, from ${m.metadata.site}: ${m.metadata.url}\n  ${m.metadata.text}`).filter(Boolean);
-  if (!hits.length) return `Nothing found for "${q}".`;
-  const used = [...new Set(res.matches.map((m) => m.metadata && m.metadata.site).filter(Boolean))];
-  return `${hits.length} passage(s) for "${q}", closest first.\n\nWhere they come from:\n${used.map((u) => '- ' + u + ': ' + SITES[u]).join('\n')}\n\n${hits.join('\n\n')}`;
+  const site = args.site && SITES[args.site] ? args.site : null;
+  const [emb, u] = await Promise.all([env.AI.run('@cf/baai/bge-base-en-v1.5', { text: [q] }), loadUnits()]);
+  const opts = { topK: 50, returnMetadata: 'none' };
+  if (site) opts.filter = { site };
+  const vec = ((await env.VEC.query(emb.data[0], opts)).matches || []).map((m) => m.id);
+  const words = keyword(u, q, site, 50);
+  const score = new Map();
+  vec.forEach((id, r) => score.set(id, (score.get(id) || 0) + 1 / (60 + r)));
+  words.forEach((id, r) => score.set(id, (score.get(id) || 0) + 1 / (60 + r)));
+  const seen = new Set(), hits = [];
+  for (const [id] of [...score].sort((a, b) => b[1] - a[1])) {
+    const c = u.byId.get(id);
+    if (!c || seen.has(c.url)) continue; // the best match from each page
+    seen.add(c.url); hits.push(c);
+    if (hits.length >= limit) break;
+  }
+  if (!hits.length) return `Nothing found for "${q}". Try other words, or the names of people or places involved.`;
+  const used = [...new Set(hits.map((c) => c.site))];
+  const show = (c) => {
+    const head = `- ${c.title}${c.heading ? ' (' + c.heading + ')' : ''}, from ${c.site}: ${c.url}`;
+    if (c.kind === 'line') {
+      const p = u.byId.get(c.passage);
+      return `${head}\n  Matched: "${c.text}"${p ? `\n  In context: ${p.text}` : ''}`;
+    }
+    return `${head}\n  ${c.text}`;
+  };
+  return `${hits.length} result(s) for "${q}", best first, one per page.\n\nThese are the closest matches, not everything. If something seems missing, search again in other words or by the names involved, and read whole entries with get_entry, before concluding it is not recorded.\n\nWhere they come from:\n${used.map((x) => '- ' + x + ': ' + SITES[x]).join('\n')}\n\n${hits.map(show).join('\n\n')}`;
 }
 
 let cache = { at: 0, data: null };
@@ -111,7 +180,7 @@ async function handle(msg, env) {
   if (id === undefined || id === null) return null; // a notification: nothing to say back
   if (method === 'initialize') {
     const v = PROTOCOLS.includes(params.protocolVersion) ? params.protocolVersion : PROTOCOLS[0];
-    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.2.0' }, instructions: INSTRUCTIONS });
+    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.3.0' }, instructions: INSTRUCTIONS });
   }
   if (method === 'ping') return ok({});
   if (method === 'tools/list') return ok({ tools: TOOLS });

@@ -8,7 +8,7 @@ import { createHash } from 'node:crypto';
 const [dist, base, label, ...rules] = process.argv.slice(2);
 const prefixes = rules.map((r) => r.split('='));
 const sha = (s) => createHash('sha1').update(s).digest('hex');
-const WORDS = 250;
+const WORDS = 250, LINE_MIN = 15, LINE_MAX = 70;
 
 async function walk(dir) {
   const out = [];
@@ -49,8 +49,27 @@ for (const file of await walk(dist)) {
     const flush = () => {
       const text = buf.join('\n\n').trim();
       if (text.split(' ').length >= 8) {
-        const id = sha(`${site}${path}#${n++}`);
-        chunks.push({ id, hash: sha(title + heading + text), site, title, url: base + path, heading, text });
+        const k = n++;
+        const id = sha(`${site}${path}#${k}`);
+        chunks.push({ id, kind: 'passage', hash: sha(title + heading + text), site, title, url: base + path, heading, text });
+        // Lines: the same text in short pieces (about 15 to 70 words), so a single line of dialogue or a
+        // passing detail can be found on its own instead of being drowned by the rest of its passage.
+        if (text.split(' ').length > LINE_MAX) {
+          let line = [], j = 0;
+          const push = () => {
+            const t = line.join(' ').trim();
+            if (t.split(' ').length >= 6) chunks.push({ id: sha(`${site}${path}#${k}L${j++}`), kind: 'line', passage: id, hash: sha(title + heading + t), site, title, url: base + path, heading, text: t });
+            line = [];
+          };
+          for (const para of buf) {
+            const w = para.split(' ');
+            if (w.length > LINE_MAX) { push(); for (let i = 0; i < w.length; i += LINE_MAX - 20) { line = [w.slice(i, i + LINE_MAX).join(' ')]; push(); } continue; }
+            if (line.join(' ').split(' ').length + w.length > LINE_MAX) push();
+            line.push(para);
+            if (line.join(' ').split(' ').length >= LINE_MIN) push();
+          }
+          push();
+        }
       }
       buf = [];
     };
