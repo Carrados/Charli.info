@@ -1,11 +1,55 @@
 ---
 title: Iceberg Hosiery
-description: Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
-status: stub
+description: Iceberg Hosiery is the CharliVerse's house of tights, founded on one line, comfort is not being overheard, and the parent house of Seamiotics.
+status: canon
 ---
 
-**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](/charlipedia/first-layer/), the bridal house founded by [Jo](/charlipedia/jo/), who is retired from active service, stocks Iceberg when a bride wants silence under the dress.
+**Iceberg Hosiery** is a house of tights, and the parent house of [Seamiotics](/charlipedia/seamiotics/), every seam means something, its stocking imprint. Its founding line is *comfort is not being overheard*.
+
+> The finest tights are the ones you stop thinking about.
+
+## The one idea
+
+The house begins with a question: why wear fashion tights at all? The first answer is comfort. The real answer arrived with a jumper dress. Under that dress a bare leg is a sentence, and a stockinged leg is a louder one. Tights mute the channel. The leg says nothing, and the dress gets to be the whole conversation.
+
+Comfort is not softness. It is the freedom from wondering what your legs might be saying: "Comfort is the absence of unnecessary vigilance."
+
+The founding anecdote is about a short dress, and that is not incidental. Iceberg tights are what a woman reaches for when she has chosen a short skirt or dress, including a very short one. Choose your dress, as short as you like, put on Iceberg, and relax. The house never says this in its advertising. It is the part of the iceberg below the waterline: known to the house, carried by its name and pages, never narrated on the surface.
+
+## Tights are outerwear
+
+Tights are always outerwear: not semi-underwear, not lingerie shelved beside the knickers, but outerwear at every point on the garment and at every hour of the day. A stocking is outerwear with an underwear component, the welt, attached at the top. "A tight has one honest surface. A stocking has two, and a border between them."
+
+So a tight cannot say anything by accident, at any hem length. That is what Iceberg sells: not a safer answer to [the attention tax](/charlipedia/the-attention-tax/), but the removal of the question.
+
+## The range
+
+- **[Polar](/charlipedia/polar/)**, the canonical Iceberg tight, pure white and explicitly not bridal, and **Polar in black**, never "Polar Black".
+- **[invisible](/charlipedia/invisible/)**, the honest skin range, planned for a later launch.
+- **[Runs](/charlipedia/runs/)**, limited prints on Polar white, beginning with [Polar Solstice](/charlipedia/polar-solstice/).
+
+There are two weights: 40 denier for spring and summer, 60 denier for autumn and winter. The seasons change the weight, not the colours. The parent carries no named women; they all belong to the imprint.
+
+### Why there is no sheer tight
+
+40 denier is a floor, not a compromise. Under a very short dress a tight is on view for longer and from more angles, and below 40 denier it stops muting the leg. And white, the house's signature, goes translucent and grey below about 30 denier, reading as an accident rather than a choice. The honest cost is warmth: 40 denier in June is a real garment on a real leg. The alternative to a heavier tight is not a lighter one; it is a stocking, and the tax that comes with it.
+
+## What Iceberg does not make
+
+No bridal tights, seamed tights, mock stocking tops, trompe-l'œil suspenders, fishnets, or anything that imitates a stocking. "If a seam is the point, wear stockings." A painted welt on a tight would manufacture, for decoration, the exact accident the house exists to remove.
+
+## Price
+
+Forty pounds a pair for every permanent piece, across both houses; sixty-five for a Run. The premium runs vertically, between permanent and limited, never between the houses: pricing stockings above tights would say silence is the cheaper proposition. The parent's healthy margin carries the imprint's thin one, the way publishing has always worked: "the trade list pays for the poetry."
+
+## The look
+
+A white field, which is Polar made into a publishing surface. The masthead is centred at the head in the house blue-green, a deep petrol teal, cold seawater rather than tropical turquoise: glacial ice is blue because water takes the red light in and never gives it back. The house mark sits at the foot, to the right: a single black shape, a low asymmetric peak on a flat base, the tip that shows. It is built as a font and typed as a lower-case i, set at the same size as the name.
+
+## Still open
+
+The exact teal, the body typeface, the photographic brief, a holiday Run on Polar white (a tree, reindeer or presents are all possible), what to do about laddering at forty pounds a pair, and where a bride in a very short dress who wants silence should go. [First Layer](/charlipedia/first-layer/), which stocks both houses, is the likely answer.
 
 ## Behind the scenes
 
-Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. This entry follows the House of Iceberg Bible, version 7, which covers the parent house alone. "Intentionwear" was proposed as a category word and left out by the Bible; the house only uses real words doing second jobs. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
