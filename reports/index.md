@@ -4,6 +4,7 @@
 
 Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Price both columns: Peak Cluster, Wirral, and the invoice nobody wants to read](https://carrados.com/reports/price-both-columns-peak-cluster/index.md) (25 October 2026): Down the Banksy asks what Peak Cluster would cost, what refusal would cost, and who carries each bill.
 - [Sloppy thinking](https://carrados.com/reports/sloppy-thinking/index.md) (25 October 2026): A definition for the reflex that dismisses AI-assisted work out of hand, and a badge to download, print and cut out for labelling it.
 - [Human in the loop? Human with the final word.](https://carrados.com/reports/human-in-the-loop-human-with-the-final-word/index.md) (25 October 2026): The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.

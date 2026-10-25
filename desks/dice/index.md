@@ -20,6 +20,7 @@ For dice, the future is not a destination; it is a geography. Her reports are cl
 
 ## Reports
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Human in the loop? Human with the final word.](https://carrados.com/reports/human-in-the-loop-human-with-the-final-word/index.md) (25 October 2026): The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.
 - [Human in the loop? Human at the laptop…](https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/index.md) (25 October 2026): After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 - [Human in the loop? Human in bed.](https://carrados.com/reports/human-in-the-loop-human-in-bed/index.md) (25 October 2026): A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.

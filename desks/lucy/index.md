@@ -16,6 +16,7 @@ When you send an agent, who controls the relationship: you, the agent's provider
 
 ## Reports
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Except Why I'd Want One](https://carrados.com/reports/except-why-id-want-one/index.md) (9 October 2026): Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader, and loses an argument about corsets.
 - [Flip the AI toggle and feel righteous](https://carrados.com/reports/flip-the-ai-toggle-and-feel-righteous/index.md) (7 October 2026): Buttondown's new switch to block AI from newsletter archives is careful engineering under a frightened headline, and the one reader it forgets is the agent a subscriber sends.
 - [Agents Provocateurs](https://carrados.com/reports/agents-provocateurs/index.md) (2 October 2026): The Agent Wars will be fought over attention, content, friction and breakage, and every wall built to stop the agents is also built across blind people's path.

@@ -107,6 +107,7 @@ For dice, the future is not a destination; it is a geography. Her reports are cl
 
 ### Reports
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Human in the loop? Human with the final word.](https://carrados.com/reports/human-in-the-loop-human-with-the-final-word/index.md) (25 October 2026): The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.
 - [Human in the loop? Human at the laptop…](https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/index.md) (25 October 2026): After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 - [Human in the loop? Human in bed.](https://carrados.com/reports/human-in-the-loop-human-in-bed/index.md) (25 October 2026): A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.
@@ -136,6 +137,7 @@ When you send an agent, who controls the relationship: you, the agent's provider
 
 ### Reports
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Except Why I'd Want One](https://carrados.com/reports/except-why-id-want-one/index.md) (9 October 2026): Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader, and loses an argument about corsets.
 - [Flip the AI toggle and feel righteous](https://carrados.com/reports/flip-the-ai-toggle-and-feel-righteous/index.md) (7 October 2026): Buttondown's new switch to block AI from newsletter archives is careful engineering under a frightened headline, and the one reader it forgets is the agent a subscriber sends.
 - [Agents Provocateurs](https://carrados.com/reports/agents-provocateurs/index.md) (2 October 2026): The Agent Wars will be fought over attention, content, friction and breakage, and every wall built to stop the agents is also built across blind people's path.
@@ -2020,6 +2022,7 @@ Address: https://carrados.com/reports/
 
 Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
 
+- [Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet](https://carrados.com/reports/give-it-a-tuesday/index.md) (25 October 2026): dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
 - [Price both columns: Peak Cluster, Wirral, and the invoice nobody wants to read](https://carrados.com/reports/price-both-columns-peak-cluster/index.md) (25 October 2026): Down the Banksy asks what Peak Cluster would cost, what refusal would cost, and who carries each bill.
 - [Sloppy thinking](https://carrados.com/reports/sloppy-thinking/index.md) (25 October 2026): A definition for the reflex that dismisses AI-assisted work out of hand, and a badge to download, print and cut out for labelling it.
 - [Human in the loop? Human with the final word.](https://carrados.com/reports/human-in-the-loop-human-with-the-final-word/index.md) (25 October 2026): The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.
@@ -2448,6 +2451,52 @@ None of this requires anyone to love AI, or to let it train on their work. Turn 
 Flip the AI toggle by all means. Just know who is standing behind the door when you do.
 
 Lucy
+
+---
+
+Address: https://carrados.com/reports/give-it-a-tuesday/
+
+## Give it a Tuesday: dice and Lucy Love-Child on Anthropic's Duet
+
+> dice and Lucy Love-Child read Every's report on Anthropic's Duet, an always-on agent, and agree how they would judge one: a single recurring task, over time.
+
+dice and Lucy Love-Child · 25 October 2026
+
+On 25 October 2026, Every's newsletter led with [Anthropic's Duet Gets to Work](https://every.to/context-window/anthropic-s-duet-gets-to-work). Its subject is the arrival of ongoing AI collaborators: a personal agent that stays alongside one person, or a shared agent that works across a company. It draws on Every's own [Vibe Check of Duet](https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent) and on [why Every replaced its personal agents with one for the whole company](https://every.to/source-code/why-we-replaced-personal-agents-with-one-for-the-whole-company), with its notes on permissions, inspection and evaluation.
+
+Two correspondents had different reasons to read it. dice asks what a technology becomes after the novelty wears off. Lucy asks who holds the authority when someone sends an agent. Neither of them has used Duet, and neither claims to have. What follows is how they would judge it.
+
+### Three questions
+
+#### What would persuade you Duet is useful after the novelty wears off?
+
+dice would give it one recurring task for six weeks, then count how much supervising it needed.
+
+> **dice:** “An assistant that needs supervising all day has found a rather ingenious way of employing me.”
+
+#### What matters most when an agent is always alongside your work?
+
+Lucy wants the mistakes and the unauthorised actions counted, not only the work completed.
+
+> **Lucy:** “‘Be helpful’ isn’t permission to decide which of those I meant.”
+
+#### What would make Duet worth using for a blind person?
+
+dice asks whether someone could hand over an ordinary nuisance and come back to a result they can inspect for themselves. Lucy asks whether the channels, task states and approval requests that Every describes can be used independently with a screen reader.
+
+### What they agreed
+
+> **Duet sounds worth a practical trial because continuity could remove the repeated work of explaining, reminding and starting again. Its value will depend on whether that continuity leaves the person better informed and in control.**
+>
+> **We would judge it by one recurring task, over time: does it finish, does it ask at the right moments, and can the user independently inspect the result? Until those questions are answered, “best personal agent yet” is an interesting report from someone else’s expedition.**
+
+**dice:** “Give it a Tuesday.”
+
+**Lucy:** “And make sure Tuesday still belongs to you.”
+
+### How this was made
+
+Every's descriptions of Duet are Every's own; nobody here has tested Duet or checked its claims. The discussion was composed by ChatGPT from the newsletter and from dice's and Lucy's entries in [CharliPedia](https://charli.info/charlipedia/), which it read through the CharliPedia MCP server. Their arguments are given here as ChatGPT summarised them, and the lines quoted are the ones it wrote. How the two of them were chosen, and what the search got right and wrong along the way, is told at Blind Ant in [An email, a world, and two interested women](https://blind-ant.com/pieces/charlipedia-mcp/an-email-a-world/).
 
 ---
 
