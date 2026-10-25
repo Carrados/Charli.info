@@ -23,7 +23,7 @@ export async function run(env) {
   const live = new Set(all.map((c) => c.id));
   const gone = Object.keys(manifest).filter((id) => !live.has(id));
   if (!changed.length && !gone.length) return `unchanged: ${all.length} passages`;
-  let done = 0;
+  let done = 0, saved = Date.now();
   for (let i = 0; i < changed.length; i += 50) {
     const batch = changed.slice(i, i + 50);
     const emb = await env.AI.run(MODEL, { text: batch.map(embedText) });
@@ -33,13 +33,15 @@ export async function run(env) {
     })));
     for (const c of batch) manifest[c.id] = c.hash;
     done += batch.length;
-    await env.STATE.put('manifest', JSON.stringify(manifest)); // save as we go, so a timeout loses nothing
+    // Save progress now and then (the key store refuses more than one write a second to the same key).
+    if (Date.now() - saved > 5000) { try { await env.STATE.put('manifest', JSON.stringify(manifest)); saved = Date.now(); } catch {} }
   }
   for (let i = 0; i < gone.length; i += 100) {
     const ids = gone.slice(i, i + 100);
     await env.VEC.deleteByIds(ids);
     for (const id of ids) delete manifest[id];
   }
+  await new Promise((r) => setTimeout(r, 1100));
   await env.STATE.put('manifest', JSON.stringify(manifest));
   await env.STATE.put('last', JSON.stringify({ at: new Date().toISOString(), passages: all.length, embedded: done, deleted: gone.length }));
   return `indexed ${done}, deleted ${gone.length}, of ${all.length} passages`;
