@@ -45,7 +45,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](/training/confident-with-ai/)
 
 ## About this course
 

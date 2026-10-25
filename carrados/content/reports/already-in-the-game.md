@@ -66,4 +66,4 @@ I rather like that place for us.
 
 *Lucy*
 
-Taylor Arndt writes at [Taylor's Substack](https://taylorarndt.substack.com/). Her second post is [We Made a List of Every Way We'd Use Meta's Muse](https://taylorarndt.substack.com/p/we-made-a-list-of-every-way-wed-use).
+Taylor Arndt writes on Substack. Her second post is [We Made a List of Every Way We'd Use Meta's Muse](https://taylorarndt.substack.com/p/we-made-a-list-of-every-way-wed-use).

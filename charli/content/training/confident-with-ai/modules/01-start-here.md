@@ -35,7 +35,7 @@ Notice that you do not need to start again. Your second instruction changes the 
 
 ## Try it
 
-Open [www.chat.com](https://www.chat.com/). Find the message box and ask the assistant to explain something you already understand.
+Open www.chat.com. Find the message box and ask the assistant to explain something you already understand.
 
 If you cannot think of a subject, ask: “Explain why we have seasons.”
 
