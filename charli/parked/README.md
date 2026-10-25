@@ -24,3 +24,5 @@ These portraits are generated images, to be swapped for Blender renders as they 
 - charlipedia/poppy-petticoats-portrait.jpg
 - charlipedia/lady-tiggy-barnes-portrait.jpg
 
+
+- charlipedia/down-the-banksy-portrait.jpg

@@ -17,7 +17,7 @@ Her motto is "Desire is access."
 
 She was born on 14 September 1994, over the water on the Wirral. Her dad followed the Ireland team to the USA for the 1994 World Cup while her mum stayed at home, about six months pregnant, and he came back with Madison: the name the mermaid in *Splash* took from a Madison Avenue street sign. He didn't want Mary or any traditional Irish name for his daughter. Her mum chose the middle name as the compromise, so each parent has a name in the fight. Madison never uses it, never writes it and never discloses it. "I suppose I've spent thirty-two years doing some version of both."
 
-Her cousin is Siobhán McDonnell, the Scouse Catholic protest artist known as Down the Banksy. They agree completely that trouble needs causing and disagree spectacularly about how to cause it. Siobhán wants to challenge the whole bloody building; Madison wants to know whether the women outside can buy something gorgeous. They argue properly, and it never touches the love.
+Her cousin is Siobhán McDonnell, the Scouse Catholic protest artist known as [Down the Banksy](/charlipedia/down-the-banksy/). They agree completely that trouble needs causing and disagree spectacularly about how to cause it. Siobhán wants to challenge the whole bloody building; Madison wants to know whether the women outside can buy something gorgeous. They argue properly, and it never touches the love.
 
 ## Look and dress
 
