@@ -32,4 +32,4 @@ Their guiding principle is simple:
 
 > "I don't care if the technology is accessible. I care whether I can access the information, actions and experiences I want."
 
-The course that came before this masterclass is [Confident with AI](/training/confident-with-ai/).
+The course that came before this masterclass, Confident with AI, is now archived. See [Training](/training/) for details of how to request a free copy.
