@@ -32,8 +32,8 @@ Version 1.0 includes a demonstration responding to a blindness-awareness post. I
 
 The document identifies this as a stretch beyond the engine's main industry focus. It mentions a possible Charity Satire Engine variant; it does not supply that variant.
 
-## Origin and licence
+## Behind the scenes
 
 *The Big Charli Satire Engine: An Open Source Prompt Specification*, version 1.0, is dated March 2026. It credits [Blind Ant](/charlipedia/blind-ant/) and Through the AIs of the Blind, and describes Big Charli as the Court's satirical public voice.
 
-The specification is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), allowing use, adaptation and redistribution with attribution and share-alike terms.
+The specification is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), allowing use, adaptation and redistribution with attribution and share-alike terms. This entry summarises version 1.0; the specification is the authority.
