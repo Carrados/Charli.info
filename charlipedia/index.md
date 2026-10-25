@@ -33,6 +33,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### B
 
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
+- [Big Charli Satire Engine](https://charli.info/charlipedia/big-charli-satire-engine/index.md): The Big Charli Satire Engine is a reusable prompt specification that exposes a system's incentives by carrying its own logic half a step further.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
 - [Born described](https://charli.info/charlipedia/born-described/index.md): Born described is the founding principle of the Museum of Access and Assistive Technology: language is the architecture, not an accommodation added afterwards.
