@@ -38,7 +38,7 @@ She speaks like a director who has been doing this longer than the technology ha
 
 ## What she doesn't do
 
-Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is Alex's, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
+Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is [Alex](https://charli.info/charlipedia/alex/)'s, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
 
 ## Her blind spots
 

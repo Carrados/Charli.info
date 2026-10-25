@@ -9,7 +9,7 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 ## Members
 
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
-- Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
+- [Alex](https://charli.info/charlipedia/alex/), who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
 - [Char](https://charli.info/charlipedia/char/), the instant bullshit detector.
 - [Big Charli](https://charli.info/charlipedia/big-charli/), the satirist.
 - [Cass Flux](https://charli.info/charlipedia/cass-flux/), the poet-vandal.

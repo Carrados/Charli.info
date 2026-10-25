@@ -33,7 +33,7 @@ That position gives her room to work. It also leaves her lonely. The margin is h
 
 [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/) brings cinematic discipline to Cass's conceptual disruption. Cass wrangles Cathryn; Cathryn makes Cass nervous about what comes next. Each pushes the other towards work she could not make alone.
 
-[Lottie](https://charli.info/charlipedia/lottie/) asks who the work is for. Alex finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
+[Lottie](https://charli.info/charlipedia/lottie/) asks who the work is for. [Alex](https://charli.info/charlipedia/alex/) finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
 
 Lily watches the cost of living at the margin. Her sustainability veto is absolute.
 

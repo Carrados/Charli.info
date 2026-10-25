@@ -29,6 +29,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Admission Casualty](https://charli.info/charlipedia/admission-casualty/index.md): An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
+- [Alex](https://charli.info/charlipedia/alex/index.md): Alex is the strategic intelligence of the CharliVerse Court and runs Seamiotics, turning ideas into practical direction and sustainable value.
 
 ### B
 
