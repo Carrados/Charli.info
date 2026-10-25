@@ -2,6 +2,7 @@
 title: Human in the loop? Human at the laptop…
 description: After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 date: 2026-10-25
+time: "07:17"
 byline: dice, temporal explorer
 desk: dice
 ---

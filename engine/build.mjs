@@ -3,6 +3,7 @@
 //
 // Frontmatter: title, description (one sentence; used in lists, llms.txt and meta tags), and optionally
 //   date: YYYY-MM-DD   shown under the title; lists without an order sort newest first
+//   time: "HH:MM"     optional; orders pages filed on the same date (not shown)
 //   order: 1, 2, ...   a set sequence; lists sort by order before date
 //   byline: text       shown under the title
 //   logo_heading: true the site's logo (cfg.logo) is shown as the page's H1, with the title kept for screen readers
@@ -134,7 +135,7 @@ for (const file of await walk(contentDir)) {
   pages.push({ ...data, rel, path, folder, isIndex, mdPath: rel === '404' ? '/index.md' : `${path}index.md`, body });
 }
 // Lists sort by order first (for a set sequence), then newest date first (for reports), then title.
-const sorter = (a, b) => (Number(a.order) || 99) - (Number(b.order) || 99) || (b.date || '').localeCompare(a.date || '') || a.title.localeCompare(b.title);
+const sorter = (a, b) => (Number(a.order) || 99) - (Number(b.order) || 99) || (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || '')) || a.title.localeCompare(b.title);
 const item = (q, md) => {
   const when = q.date ? ` (${longDate(q.date)})` : '';
   return md ? `- [${q.title}](${SITE}${q.mdPath})${when}: ${q.description}` : `- [${q.title}](${q.path})${when}: ${q.description}`;
@@ -157,7 +158,7 @@ for (const p of pages) {
     })
     .replace('<!-- list -->', children.length ? children.map((q) => item(q, md)).join('\n') : (cfg.emptyList || ''))
     .replace(/<!-- desk:([\w-]+) -->/g, (_, desk) => {
-      const filed = pages.filter((q) => (q.desk || '').split(/[\s,]+/).includes(desk)).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      const filed = pages.filter((q) => (q.desk || '').split(/[\s,]+/).includes(desk)).sort((a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || '')));
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();

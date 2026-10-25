@@ -2,6 +2,7 @@
 title: Human in the loop? Human with the final word.
 description: The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.
 date: 2026-10-25
+time: "07:30"
 byline: dice, temporal explorer
 desk: dice
 ---

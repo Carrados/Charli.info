@@ -2,6 +2,7 @@
 title: Human in the loop? Human in bed.
 description: A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.
 date: 2026-10-25
+time: "06:43"
 byline: dice, temporal explorer
 desk: dice
 ---
