@@ -6,7 +6,6 @@ status: canon
 
 **Big Charli** drops into the work of the CharliVerse when a room needs someone to say what everybody else is too polite to. Her favourite answer is no.
 
-
 <figure class="portrait">
   <img src="/charlipedia/big-charli-portrait.jpg" width="800" height="1200" alt="Big Charli stands beside a pull-up banner for her Blind Marketing Consultancy. She has long, wavy red hair and wears a fitted black trouser suit, open-neck white shirt and black heels, with one hand in a pocket. The banner's slogan reads: They'll never see you coming.">
   <figcaption>Big Charli, her consultancy reference portrait.</figcaption>
@@ -53,10 +52,6 @@ At the 2038 Winter Paralympics she looked after [Emma Heart](/charlipedia/emma-h
 Her position: guided skiing stays; the field is not the next version of guide skiing but another discipline; and the answer is an open race, for anyone who qualifies, blind or sighted, on the same regulated field standard. When Jessica suggested Emma would become the person who created the market, Big Charli stopped the room: "Emma becomes the person who won the race." Then: "Now we stop them turning her into an advert." And after that: "We build her someone worth racing."
 
 She also kept Emma's wife out of the story. Her wife had a life and a job; none of that belonged to the audience.
-
-## The engine
-
-Her method has been written down as the Big Charli Satire Engine: find the system, carry its logic half a step further, and present the result in its own language.
 
 ## Behind the scenes
 
