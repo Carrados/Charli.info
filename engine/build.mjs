@@ -16,6 +16,10 @@ import { join, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
 
+// A list item that is a single paragraph is written without the <p>, so screen readers don't announce its marker twice.
+const tight = (h) => h.replace(/<li><p>((?:(?!<\/?p[ >])[\s\S])*?)<\/p>\s*<\/li>/g, '<li>$1</li>');
+
+
 const name = process.argv[2];
 if (!name) throw new Error('Usage: node engine/build.mjs <site>');
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -160,7 +164,7 @@ for (const p of pages) {
   // A character's report ends by saying, on the page itself, that its writer is fictional and the work is not.
   const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).map((d) => cfg.desks[d]).filter(Boolean) : [];
   const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/about/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/about/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
-  const html = page(p, marked.parse(fill(false) + note));
+  const html = page(p, tight(marked.parse(fill(false) + note)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });
