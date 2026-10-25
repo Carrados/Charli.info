@@ -19,7 +19,7 @@ Chaos in a leather jacket. Wild red hair, an anarchy symbol on her T-shirt, and 
 
 ## Guide Me Home
 
-She proved it could be done. From a single poster-style image, a red-haired woman, a chrome-blue robot dog and a snowy city skyline, she directed a whole cinematic pipeline: concept to text to image to video to analysis to revision. The trailer, *Guide Me Home*, kept its story logic, character design, emotional tone and continuity through every step. Eight seconds of film. The implications are not small.
+She proved it could be done. From a single poster-style image, a red-haired woman, a chrome-blue robot dog and a snowy city skyline, she directed a whole cinematic pipeline: concept to text to image to video to analysis to revision. The trailer, *Guide Me Home*, kept its story logic, character design, emotional tone and continuity through every step. Eight seconds of film. The implications are not small. Its poster, with the companion film *Gliding Home for Christmas*, hangs at Blind Ant in [Firmware Not Fur](https://blind-ant.com/pieces/firmware-not-fur/).
 
 ## The blind director's grammar
 

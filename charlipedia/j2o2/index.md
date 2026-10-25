@@ -10,6 +10,10 @@ It arrived on a Tuesday. On its first Saturday it made the high street an itiner
 
 At the café car park, with eighty-nine per cent charge and a firmware update it was excited about, it stayed in the boot while its owner phoned her friend to come and get her. She told him it had run out of battery. It was the eleventh of June; she blamed the cold. J2O2 was magnanimous about it.
 
+## Elsewhere
+
+On the poster for Glide Aid 2025, J2O2 appears reimagined as [Char](https://charli.info/charlipedia/char/)'s punk robot dog. The CharliVerse allows it.
+
 ## Behind the scenes
 
 J2O2 appears in "Come and Get Me, Part Two", part of [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/) by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) at Blind Ant. The Glide is a real device, made by [Glidance](https://glidance.io/).

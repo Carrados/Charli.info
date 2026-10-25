@@ -51,6 +51,10 @@ Char sorts things quickly into “this works” and “this is bollocks”. Nuan
 
 Her certainty also travels badly when somebody strips it of context. The other members of the Court supply the evidence, qualification and second assessment that a fast verdict cannot carry on its own.
 
+## Glide Aid
+
+Char headlines Glide Aid 2025, a punk benefit gig for robot rights, with her robot dog J2O2: "Anarchy in the Access Lane". Its poster is part of [Firmware Not Fur](https://blind-ant.com/pieces/firmware-not-fur/) at Blind Ant.
+
 ## Away from the verdict
 
 Her guilty pleasure is chips. All the chips. She wrote a song called *Not Your Fucking Inspiration*.
