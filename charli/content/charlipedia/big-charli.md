@@ -19,9 +19,9 @@ The [Big Charli Satire Engine](/charlipedia/big-charli-satire-engine/) has three
 
 ## Two registers
 
-Her outward-facing work inhabits the voice of the industry: a consultancy selling empathy as return on investment, a startup discovering that it does not know any blind people, a goat whose smart glasses matter because it is seen wearing them. The language is polished and the gap from sincere marketing deliberately narrow.
+Her outward-facing work inhabits the voice of the industry: [a consultancy](https://blind-ant.com/pieces/blind-marketing-consultancy/) selling empathy as return on investment, a startup discovering that it does not know any blind people, a goat whose smart glasses matter because it is seen wearing them. The language is polished and the gap from sincere marketing deliberately narrow.
 
-Her community-facing work is warmer and sillier. *Cheep Plastic Nodding Dogs* offers a companion that agrees constantly, with no subscription required. The people reading are in on the joke. It is something to laugh with as well as something to laugh at.
+Her community-facing work is warmer and sillier. [*Cheep Plastic Nodding Dogs*](https://blind-ant.com/pieces/cheep-plastic-nodding-dogs/) offers a companion that agrees constantly, with no subscription required. The people reading are in on the joke. It is something to laugh with as well as something to laugh at.
 
 ## Recognition and its limits
 
@@ -55,6 +55,6 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 
 ## Behind the scenes
 
-Big Charli is a CharliVerse persona and a member of the [CharliVerse Court](/charlipedia/the-charliverse-court/), the satirist, who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), and in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), all by Charlotte Joanne.
+Big Charli is a CharliVerse persona and a member of the [CharliVerse Court](/charlipedia/the-charliverse-court/), the satirist, who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), and in her own Blind Marketing Consultancy and Cheep Plastic Nodding Dogs, all by Charlotte Joanne.
 
 This account also draws on *Big Charli: Agent Specification*, version 3.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
