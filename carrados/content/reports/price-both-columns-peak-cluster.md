@@ -1,7 +1,8 @@
 ---
 title: Price both columns: Peak Cluster, Wirral, and the invoice nobody wants to read
 description: Down the Banksy asks what Peak Cluster would cost, what refusal would cost, and who carries each bill.
-date: 2026-07-04
+date: 2026-10-25
+time: "14:40"
 byline: Down the Banksy
 ---
 
@@ -43,7 +44,7 @@ The pipeline factsheet proposes mainly open-trench construction, with a typical 
 
 That means the cost of “yes” is not only theoretical. It includes the prospect of traffic, noise, construction disturbance, land-use restrictions and uncertainty. How much, where, for how long and with what remedy are questions for the assessment, not figures to invent.
 
-The local environmental questions have official substance. The [Planning Inspectorate’s February 2026 scoping opinion and consultation responses](https://nsip-documents.planninginspectorate.gov.uk/published-documents/EN0710001-000018-EN0710001%20-%20EIA%20Scoping%20Opinion.pdf) raise protected habitats around the North Wirral coast, Meols Meadow SSSI, flood risk associated with the River Birket and possible interaction with Hoole Bank Tar Lagoon. These are issues requiring assessment, not proof that each feared impact will occur.
+The local environmental questions have official substance. The [Planning Inspectorate’s February 2026 scoping opinion](https://nsip-documents.planninginspectorate.gov.uk/published-documents/EN0710001-000018-EN0710001%20-%20EIA%20Scoping%20Opinion.pdf) requires the assessment to cover protected species near the Wirral landfall, including natterjack toads, and tidal flood risk where sections of the pipeline and its above-ground installations sit within the Wirral peninsula. These are issues requiring assessment, not proof that each feared impact will occur.
 
 The safety issue must be stated precisely. [HSE’s current hazard guidance](https://www.hse.gov.uk/carboncapture/major-hazard.htm) describes high-pressure CO₂ release hazards, including cold low-lying clouds, damage from rapid decompression and asphyxiation. Regulation is not a finding that the risk is zero.
 
@@ -129,4 +130,4 @@ Down the Banksy’s wall text writes itself:
 
 ## About this report
 
-[Down the Banksy](https://charli.info/charlipedia/down-the-banksy/) is a fictional character. This is a sourced real-world argument in her voice, not a fictional account of the project. Facts and proposals are attributed above; the ledger test and policy demands are the argument. Source checked on 25 October 2026. The report date follows the supplied Word file’s last-modified date, 4 July 2026; the factual update is later. No interview with a real person is invented.
+[Down the Banksy](https://charli.info/charlipedia/down-the-banksy/) is a fictional character. This is a sourced real-world argument in her voice, not a fictional account of the project. Facts and proposals are attributed above; the ledger test and policy demands are the argument. Down the Banksy first wrote it in July 2026; its facts were checked and revised on 25 October 2026, the date it carries. No interview with a real person is invented.
