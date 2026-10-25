@@ -542,7 +542,7 @@ She prefers drama and clarity to the mundane truth of daily life, so her work ca
 ### With the Court
 
 - **Cass Flux** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
-- **[Lottie](https://charli.info/charlipedia/lottie/)** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
+- **Lottie** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
 - **Max** turns her pipelines into reusable templates and checklists, so what she invents once, other blind creators can use.
 - **Big Charli:** a dangerous combination. Cathryn storyboards the takedown; Big Charli cuts the trailer.
 - **Jo** is the brake. Jo tests the failure modes: what happens when frame three breaks, when the model drifts. Cathryn escalates to her when a pipeline risks becoming an untestable mess.
@@ -3498,7 +3498,7 @@ Notice that you do not need to start again. Your second instruction changes the 
 
 ### Try it
 
-Open [www.chat.com](https://www.chat.com/). Find the message box and ask the assistant to explain something you already understand.
+Open www.chat.com. Find the message box and ask the assistant to explain something you already understand.
 
 If you cannot think of a subject, ask: “Explain why we have seasons.”
 
@@ -5055,7 +5055,7 @@ This handbook was written by Charli-Jo Tyrer for TAVIP in July 2026 to accompany
 
 #### Licence
 
-This handbook is licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/), usually shortened to **CC BY 4.0**.
+This handbook is licensed under the Creative Commons Attribution 4.0 International licence, usually shortened to **CC BY 4.0**.
 
 You are free to copy and share it; adapt, translate or build upon it; and use it for educational, personal or commercial purposes.
 
@@ -6106,7 +6106,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6154,7 +6153,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6202,7 +6200,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6250,7 +6247,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6298,7 +6294,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6346,7 +6341,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6394,7 +6388,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 
@@ -6442,7 +6435,6 @@ Compare two current options using access, cost, privacy and the job you need don
 
 You can explain why your preferred option fits this task and what current claim still needs confirmation.
 
-- [Course contents](https://charli.info/training/confident-with-ai/)
 
 ### About this course
 

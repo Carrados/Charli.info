@@ -455,7 +455,7 @@ This handbook was written by Charli-Jo Tyrer for TAVIP in July 2026 to accompany
 
 ### Licence
 
-This handbook is licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/), usually shortened to **CC BY 4.0**.
+This handbook is licensed under the Creative Commons Attribution 4.0 International licence, usually shortened to **CC BY 4.0**.
 
 You are free to copy and share it; adapt, translate or build upon it; and use it for educational, personal or commercial purposes.
 
