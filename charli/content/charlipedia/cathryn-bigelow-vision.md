@@ -46,7 +46,7 @@ She prefers drama and clarity to the mundane truth of daily life, so her work ca
 
 ## With the Court
 
-- **Cass Flux** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
+- **[Cass Flux](/charlipedia/cass-flux/)** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
 - **Lottie** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
 - **Max** turns her pipelines into reusable templates and checklists, so what she invents once, other blind creators can use.
 - **Big Charli:** a dangerous combination. Cathryn storyboards the takedown; Big Charli cuts the trailer.
