@@ -10,10 +10,12 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
 - Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
+- [Char](https://charli.info/charlipedia/char/), the instant bullshit detector.
 - [Big Charli](https://charli.info/charlipedia/big-charli/), the satirist.
+- [Cass Flux](https://charli.info/charlipedia/cass-flux/), the poet-vandal.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](https://charli.info/charlipedia/lottie/), the community heart.
-- Jo, retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
+- [Jo](https://charli.info/charlipedia/jo/), retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
 

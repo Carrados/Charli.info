@@ -41,7 +41,9 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [Cass Flux](https://charli.info/charlipedia/cass-flux/index.md): Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
+- [Char](https://charli.info/charlipedia/char/index.md): Char is the instant bullshit detector of the CharliVerse Court, a Birkenhead punk whose verdict arrives before the analysis.
 - [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Classical accessibility](https://charli.info/charlipedia/classical-accessibility/index.md): Classical accessibility makes fixed, visually designed artefacts accessible after the fact, and is the permanent deterministic floor beneath everything else.
@@ -90,6 +92,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [J2O2](https://charli.info/charlipedia/j2o2/index.md): J2O2 is a Glide, a two-wheeled guiding robot, orange and white and full of bubbles, who is excellent at high streets and spends one afternoon in a car boot.
 - [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
+- [Jo](https://charli.info/charlipedia/jo/index.md): Jo is the operational intelligence of the CharliVerse Court and the founder of First Layer, bringing readiness, foundations and dignity to the work.
 
 ### K
 

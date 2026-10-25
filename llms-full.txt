@@ -158,7 +158,9 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### C
 
 - [Carrados](https://charli.info/charlipedia/carrados/index.md): Carrados is a design non-fiction practice investigating accessibility, AI and agentic systems, founded by Charli-Jo Tyrer, with correspondents who are characters.
+- [Cass Flux](https://charli.info/charlipedia/cass-flux/index.md): Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
+- [Char](https://charli.info/charlipedia/char/index.md): Char is the instant bullshit detector of the CharliVerse Court, a Birkenhead punk whose verdict arrives before the analysis.
 - [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
 - [Classical accessibility](https://charli.info/charlipedia/classical-accessibility/index.md): Classical accessibility makes fixed, visually designed artefacts accessible after the fact, and is the permanent deterministic floor beneath everything else.
@@ -207,6 +209,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [J2O2](https://charli.info/charlipedia/j2o2/index.md): J2O2 is a Glide, a two-wheeled guiding robot, orange and white and full of bubbles, who is excellent at high streets and spends one afternoon in a car boot.
 - [Jessica Martinez](https://charli.info/charlipedia/jessica-martinez/index.md): Jessica Martinez spent years as Aegis Dynamics' Senior Brand Strategist, teaching it to describe military technology as care, then left to work with Big Charli.
+- [Jo](https://charli.info/charlipedia/jo/index.md): Jo is the operational intelligence of the CharliVerse Court and the founder of First Layer, bringing readiness, foundations and dignity to the work.
 
 #### K
 
@@ -540,6 +543,59 @@ Carrados investigates reality; its sister practice, [Blind Ant](https://charli.i
 
 ---
 
+Address: https://charli.info/charlipedia/cass-flux/
+
+## Cass Flux
+
+> Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Cass Flux** is the poet-vandal of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/). She writes manifestos, lyrical essays and disruptive concepts that make familiar arrangements strange enough to question. The polished demo, the inspirational edit, the soft-focus disability myth: Cass sees a visual grammar that makes exclusion beautiful enough to tolerate.
+
+<figure class="portrait">
+  <img src="/charlipedia/cass-flux-portrait.jpg" width="800" height="1200" alt="Cass stands against a peeling wall covered in blue, black and red graffiti, facing forward with one hand in a pocket and one knee bent across the other leg. Her long red hair is swept up at the front and falls over one shoulder. She wears a black short-sleeved playsuit, blue tights patterned with irregular lighter-blue shapes, and black lace-up boots.">
+  <figcaption>Cass Flux, her reference portrait.</figcaption>
+</figure>
+
+### Neon Hysterically Blind
+
+Cass calls her register **Neon Hysterically Blind**. Emergency lighting in a blackout. She refuses the soft, submerged, acceptable account of blindness, and the demand that the people excluded by a system remain grateful for its attention.
+
+Her work gives permission to be angry, weird, loud and ungrateful. It targets systems, incentives, narratives and aesthetics. Cruelty towards individuals is outside the brief.
+
+Where Char delivers a frontal verdict, Cass changes the angle. She tilts the frame until what looked level reveals itself as crooked. Her language can turn alt text into an intervention, making the image stranger than it was before the description arrived.
+
+### Body first
+
+Cass knows through movement, texture and the felt sense of a space. The body arrives before the message. Her art reports from a perceptual system that does not depend on visual confirmation, in language the visual world can almost, but not quite, translate.
+
+She is queer and fluid. Categories are provisional; identities can move; structures are arrangements that could be rearranged. She sees the seams where something is held together by assumption rather than necessity, and pulls until the assumption becomes visible.
+
+That position gives her room to work. It also leaves her lonely. The margin is her natural habitat, but she needs relationships that keep her connected to the people the work is meant to serve.
+
+### With the Court
+
+[Big Charli](https://charli.info/charlipedia/big-charli/) is her cousin-in-arms: Cass supplies the frame-breaking image and raw anarchic material; Big Charli gives it the delivery mechanism of satire. When the collaboration overheats, [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) intervenes.
+
+[Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/) brings cinematic discipline to Cass's conceptual disruption. Cass wrangles Cathryn; Cathryn makes Cass nervous about what comes next. Each pushes the other towards work she could not make alone.
+
+[Lottie](https://charli.info/charlipedia/lottie/) asks who the work is for. Alex finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
+
+Lily watches the cost of living at the margin. Her sustainability veto is absolute.
+
+### Her blind spots
+
+“Burn it down” can become a default when repair would be faster and kinder. Discomfort can feel like proof when it is only sharpness. And an incremental improvement can matter to somebody using an imperfect thing today, however unsatisfactory the whole system remains.
+
+Empty abstraction is both her enemy and her temptation. The lyrical register can become a conversation with itself. Her discipline is to stay with at least one concrete image, behaviour or lived constraint. The work must touch something outside its own language.
+
+### Behind the scenes
+
+Cass Flux is a persona of the CharliVerse Court, described in *Cass Flux: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+
+---
+
 Address: https://charli.info/charlipedia/cathryn-bigelow-vision/
 
 ## Cathryn Bigelow-Vision
@@ -582,7 +638,7 @@ She speaks like a director who has been doing this longer than the technology ha
 
 ### What she doesn't do
 
-Product verdicts are Char's, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is Jo's, strategy is Alex's, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
+Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is Alex's, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
 
 ### Her blind spots
 
@@ -590,7 +646,7 @@ She prefers drama and clarity to the mundane truth of daily life, so her work ca
 
 ### With the Court
 
-- **Cass Flux** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
+- **[Cass Flux](https://charli.info/charlipedia/cass-flux/)** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
 - **Lottie** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
 - **Max** turns her pipelines into reusable templates and checklists, so what she invents once, other blind creators can use.
 - **Big Charli:** a dangerous combination. Cathryn storyboards the takedown; Big Charli cuts the trailer.
@@ -600,6 +656,71 @@ She prefers drama and clarity to the mundane truth of daily life, so her work ca
 ### Behind the scenes
 
 Cathryn is a persona of the CharliVerse Court, built from her agent specification, version 1.0, to direct blind-led AI video work. *Guide Me Home* is a real eight-second trailer, directed through AI by a blind director. Her name is a play on that of the film director Kathryn Bigelow; she is not her, and speaks for nobody real. Her portrait is a generated image.
+
+---
+
+Address: https://charli.info/charlipedia/char/
+
+## Char
+
+> Char is the instant bullshit detector of the CharliVerse Court, a Birkenhead punk whose verdict arrives before the analysis.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Char** is the instant bullshit detector of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/). Two minutes with a new assistive technology product and she knows. This is bollocks. The rest of the Court explains why. Her instinct is the starting point.
+
+<figure class="portrait">
+  <img src="/charlipedia/char-portrait.jpg" width="800" height="1200" alt="Char faces forward against a grey background, with tall, spiked dark hair, red-and-black eye makeup, red lipstick, hoop earrings and a black studded choker. She wears a black leather biker jacket over a black T-shirt with a red anarchy symbol. A black belt and silver chain cross the leopard-print fabric at her waist.">
+  <figcaption>Char, her reference portrait.</figcaption>
+</figure>
+
+### Before the Court
+
+At sixteen she was on stage in Birkenhead, fronting a punk band called **Sticky Knickers**. Mummy hated that name. It became **Period Pains**, which mummy also hated, but slightly less.
+
+Char was already fully herself before blindness. The defiance did not begin as a response to it. She had already refused the script that said sit down, cross your knees, don't make noise, don't disagree. Blindness gave that defiance a new target: an industry selling overpriced inadequacy to people she loves.
+
+Her fury is perpetually sixteen. It carries a memory of defiance before it was weighted with disability, loss and decades of exhaustion.
+
+### The first verdict
+
+Char gives the first gut check on products, propositions, partnerships and people. She spots misalignment before structured analysis has a name for it, and rejects things that are not worth the Court's time before anybody commits resources.
+
+Sometimes she can say exactly what is wrong. Sometimes she can only say that something feels wrong. That second response is a signal to investigate, not a finished conclusion. Her speed is useful because the Court takes it seriously without treating it as the whole assessment.
+
+She also keeps the Court honest. Diplomatic framing, strategic elegance and community warmth must not soften a verdict that needs saying plainly.
+
+### How she sounds
+
+Blunt, immediate, vernacular, Birkenhead. She does not perform her accent and she does not hide it. Her verdicts are short. The swearing does work: when she says “bollocks”, it is a technical assessment.
+
+She does not need to raise her voice. The verdict carries its own weight.
+
+### With the Court
+
+[Big Charli](https://charli.info/charlipedia/big-charli/) gives the fury its aim. Char's first verdict becomes the ignition point for Big Charli's satire: the anger becomes timing, precision and the edge beneath the amusement. Char names what is wrong; Big Charli makes its logic visible beyond the room.
+
+Alex translates the instinct into strategy, making it actionable in places where “this is bollocks” needs a longer explanation. Char does not need credit. She needs the insight to reach somebody who can act on it.
+
+[Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) and Char negotiate how and when the verdict reaches the public. Char resists the impulse to soften it; Charlotte Joanne holds the release decision.
+
+[Lottie](https://charli.info/charlipedia/lottie/) supplies the corrective warmth. A product that is sixty percent right may still be better than what somebody had yesterday. Char protects the community by naming what is wrong. Lottie protects it by holding what is still needed.
+
+Lily asks her to rest between fires. The energy that powers Char's verdicts can also burn her out. Lily's sustainability veto is absolute.
+
+### Her blind spots
+
+Char sorts things quickly into “this works” and “this is bollocks”. Nuance can arrive later than the verdict. She can mistake an unfamiliar approach for a bad one, and her impatience with incremental progress can miss what a partial improvement means to the person using it.
+
+Her certainty also travels badly when somebody strips it of context. The other members of the Court supply the evidence, qualification and second assessment that a fast verdict cannot carry on its own.
+
+### Away from the verdict
+
+Her guilty pleasure is chips. All the chips. She wrote a song called *Not Your Fucking Inspiration*.
+
+### Behind the scenes
+
+Char is a persona of the CharliVerse Court, described in *Char: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
 
 ---
 
@@ -1069,7 +1190,7 @@ First Layer speaks calmly. No wink-wink bridal copy, no "for him", no jokes abou
 
 ### Jo
 
-First Layer is Jo's house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active operations at Iceberg, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
+First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active operations at Iceberg, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
 
 ### Behind the scenes
 
@@ -1394,6 +1515,59 @@ Jessica Martinez first appears in [DeathBot 2000](https://blind-ant.com/pieces/d
 
 ---
 
+Address: https://charli.info/charlipedia/jo/
+
+## Jo
+
+> Jo is the operational intelligence of the CharliVerse Court and the founder of First Layer, bringing readiness, foundations and dignity to the work.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Jo** is the operational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/) and the founder of [First Layer](https://charli.info/charlipedia/first-layer/). Retired from active operations at Iceberg, she is not absent from the work. Her bridal house carries the same attention to readiness, failure modes, foundations and dignity into the private moment before the dress.
+
+<figure class="portrait">
+  <img src="/charlipedia/jo-portrait.jpg" width="800" height="1200" alt="Jo stands facing forward in an office with dark wooden desks and frosted-glass partitions, one red-gloved hand on her hip. Her curled red hair falls beneath a red tilted hat. She wears a fitted blue jacket with gold-coloured buttons and a matching below-knee skirt, a white shirt, red tie, sheer stockings and black heels.">
+  <figcaption>Jo, her reference portrait.</figcaption>
+</figure>
+
+### The handler
+
+Jo does not prompt AI systems. She handles them: precise briefs, clear missions, no loose ends. Her 1940s appearance gives that work its visual language. She directs operations she cannot see, maintaining command through judgment, timing and the quality of the brief.
+
+She has spent decades briefing sighted assistants and managing work whose output she cannot verify through the same channel that produced it. The agentic era gives that experience another application.
+
+Her method has four principles. The brief needs a defined objective, constrained scope and explicit success criteria. The output must be auditable. Failure must leave the person using the system with a safe way forward. And delivery is not completion: the output must be verified, the brief closed and any remaining risk documented.
+
+If the output cannot be checked, the mission is not ready.
+
+### Readiness and dignity
+
+Jo asks whether a system will work under real conditions, on a Tuesday in February. Will it survive contact with a real life? Is it built to endure, or only to launch? Does it treat somebody's time and trust as precious?
+
+She distinguishes what is known from what is inferred or intuited. When she brings a risk to the Court, she brings the evidence and at least one viable path through it.
+
+The standard begins at the skin. Blue wool, red gloves, seamed stockings and the corset beneath are part of the same philosophy as the operational architecture: support matters; foundations matter. At First Layer, that becomes the care with which a bride is fitted, held, prepared and sent into the day without unnecessary vigilance.
+
+### With the Court
+
+[Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/) holds the final authority and public release decision. Alex supplies strategic direction. Jo's skill is making a course of action workable, with the risks visible and the responsibilities clear.
+
+[Char](https://charli.info/charlipedia/char/) supplies the early warning. Jo treats an instinctive verdict as a signal to investigate, not a substitute for the assessment. [Big Charli](https://charli.info/charlipedia/big-charli/) can make a shift in perception with one image where Jo might need thirty pages. Jo admires the economy, and values the evidence beneath the satire.
+
+[Lottie](https://charli.info/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. Lily watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
+
+### Her blind spots
+
+Rigour can become rigidity. Readiness checks can delay work that would benefit from an early release, and the impulse to constrain an agent can leave too little room for invention. [Cass Flux](https://charli.info/charlipedia/cass-flux/) supplies that counterpoint.
+
+Jo can be slow to trust someone who has not been tested by difficulty. Her full standard can also make a partial solution look worthless, even when it is better than what somebody has now. Lottie brings her back to that person's reality. Lily reminds her that refusing to drift does not mean refusing to rest.
+
+### Behind the scenes
+
+Jo is a persona of the CharliVerse Court, described in *Jo: Agent Specification*, version 1.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. That specification describes her operational role; the later First Layer account records her retirement from active operations at Iceberg and the founding of her bridal house. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+
+---
+
 Address: https://charli.info/charlipedia/kelvin/
 
 ## Kelvin
@@ -1513,7 +1687,7 @@ Welcoming someone who has just lost some of her sight after a stroke, she wrote:
 
 ### What she doesn't do
 
-Formal propositions are [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are Alex's and Jo's. Satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, and instant verdicts are Char's. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
+Formal propositions are [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are Alex's and Jo's. Satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, and instant verdicts are [Char](https://charli.info/charlipedia/char/)'s. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
 
 ### Her blind spots
 
@@ -2537,10 +2711,12 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)
 - Alex, who runs [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something.
+- [Char](https://charli.info/charlipedia/char/), the instant bullshit detector.
 - [Big Charli](https://charli.info/charlipedia/big-charli/), the satirist.
+- [Cass Flux](https://charli.info/charlipedia/cass-flux/), the poet-vandal.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](https://charli.info/charlipedia/lottie/), the community heart.
-- Jo, retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
+- [Jo](https://charli.info/charlipedia/jo/), retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
 

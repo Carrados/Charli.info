@@ -38,7 +38,7 @@ She speaks like a director who has been doing this longer than the technology ha
 
 ## What she doesn't do
 
-Product verdicts are Char's, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is Jo's, strategy is Alex's, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
+Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is Alex's, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
 
 ## Her blind spots
 
@@ -46,7 +46,7 @@ She prefers drama and clarity to the mundane truth of daily life, so her work ca
 
 ## With the Court
 
-- **Cass Flux** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
+- **[Cass Flux](https://charli.info/charlipedia/cass-flux/)** pushes her furthest. Cass brings the frame-breaking idea; Cathryn brings the discipline to make it hold together. Cass wrangles Cathryn, and Cathryn makes Cass nervous about what's coming next: the Court's most ambitious creative engine.
 - **Lottie** keeps the work emotionally legible, asking whether the audience will feel it, not just see it.
 - **Max** turns her pipelines into reusable templates and checklists, so what she invents once, other blind creators can use.
 - **Big Charli:** a dangerous combination. Cathryn storyboards the takedown; Big Charli cuts the trailer.
