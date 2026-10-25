@@ -213,6 +213,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
 - [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
 - [invisible](https://charli.info/charlipedia/invisible/index.md): invisible is the honest skin range shared by Iceberg Hosiery and Seamiotics, never called nude, never named, and always written with a lower-case i.
+- [The invoice and the chord](https://charli.info/charlipedia/the-invoice-and-the-chord/index.md): The invoice and the chord is an idea for a first meeting between Down the Banksy and Daniel Okafor at Skerry Alpha, where she comes to invoice the cloud and he asks her to listen first.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
@@ -3500,6 +3501,30 @@ Any eligible B1 athlete could use an approved field. In 2038 only Emma had compl
 ### Behind the scenes
 
 The field appears in [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), by Charlotte Joanne at Blind Ant.
+
+---
+
+Address: https://charli.info/charlipedia/the-invoice-and-the-chord/
+
+## The invoice and the chord
+
+> The invoice and the chord is an idea for a first meeting between Down the Banksy and Daniel Okafor at Skerry Alpha, where she comes to invoice the cloud and he asks her to listen first.
+
+**An idea, not yet canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The invoice and the chord** is a proposed first meeting between [Down the Banksy](https://charli.info/charlipedia/down-the-banksy/) and [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/). No meeting between them is recorded anywhere in the CharliVerse; this is how one might go.
+
+Siobhán comes out to [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/) intending to invoice the cloud for everything its customers never see. Before she writes the notice, Daniel asks her to listen: sixty-four compute pods held as one low chord, an organ in an empty church.
+
+She listens. Then she asks the question she always asks: whose costs does your beautiful chord leave out?
+
+### Why they belong in a room together
+
+They share a demand: make what matters perceptible. Siobhán makes institutions account for the bills they send elsewhere, and she does it through public accusation. Daniel made a control room's hidden conditions audible, and he did it through a better interface. One makes the powerful confess; the other makes the machine sing. Each has a fair question for the other.
+
+### Behind the scenes
+
+This is an idea, not canon. It was proposed on 25 October 2026 by ChatGPT, which had read both entries through the [CharliPedia MCP server](https://blind-ant.com/pieces/charlipedia-mcp/), and Charli-Jo kept it as an idea. It is the first idea in CharliPedia to come from an outside agent. It becomes canon only if a story makes it so.
 
 ---
 

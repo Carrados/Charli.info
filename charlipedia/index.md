@@ -96,6 +96,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
 - [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
 - [invisible](https://charli.info/charlipedia/invisible/index.md): invisible is the honest skin range shared by Iceberg Hosiery and Seamiotics, never called nude, never named, and always written with a lower-case i.
+- [The invoice and the chord](https://charli.info/charlipedia/the-invoice-and-the-chord/index.md): The invoice and the chord is an idea for a first meeting between Down the Banksy and Daniel Okafor at Skerry Alpha, where she comes to invoice the cloud and he asks her to listen first.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
