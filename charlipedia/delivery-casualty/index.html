@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delivery Casualty — The CharliVerse</title>
+<meta name="description" content="A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.">
+<meta name="color-scheme" content="light dark">
+<meta name="dcterms.license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="canonical" href="https://charli.info/charlipedia/delivery-casualty/">
+<link rel="alternate" type="text/markdown" href="/charlipedia/delivery-casualty/index.md" title="This page as Markdown">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="Delivery Casualty">
+<meta property="og:description" content="A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.">
+<meta property="og:url" content="https://charli.info/charlipedia/delivery-casualty/">
+<meta property="og:site_name" content="The CharliVerse">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <a class="site-name" href="/"><span class="name-block"><span class="name">The CharliVerse</span></span></a>
+  <nav aria-label="Main"><ul><li><a href="/charli-jo/">Charli-Jo</a></li><li><a href="/charlipedia/" aria-current="page">CharliPedia</a></li><li><a href="/training/">Training</a></li><li><a href="/accessibility/">Accessibility</a></li></ul></nav>
+</header>
+<main id="main">
+  <h1>Delivery Casualty</h1>
+  <p class="entry-status"><strong>Real.</strong> This entry is about something real, written from outside the CharliVerse.</p>
+  <div class="prose">
+<p>A <strong>Delivery Casualty</strong> is the third of the four classes of <a href="/charlipedia/information-casualty/">information casualty</a> in the <a href="/charlipedia/zero-information-casualty/">Zero Information Casualty</a> standard. The document existed, the observer was welcome, and it never arrived. Its question is <em>did it actually arrive?</em></p>
+<p>It deserves its own name because every usual check is blind to it. WAVE, axe, Lighthouse, the HTML validator and a screen reader test will all pass a page nobody on earth can fetch, because each begins by loading the page successfully. &quot;A tool that has the document cannot tell you the document is unreachable.&quot;</p>
+<p>It wasn&#39;t hypothetical. The first ZIC site, charli.info, spent several days with immaculate HTML, AAA contrast and a robots file welcoming named agents, served behind a security certificate for a domain it didn&#39;t own. The certificate was valid, trusted, and for somebody else. Every agent checking the hostname failed, couldn&#39;t read the robots file, and reported the site as closed. It was &quot;perfect and unreachable&quot;. It was found by one check: a person asked a live AI assistant to fetch the site, and it couldn&#39;t.</p>
+<p>The core test: &quot;does the document arrive at a plain client that does not already trust you? If you cannot answer that from outside your own machine, you do not know whether your site works.&quot; That is why <a href="/charlipedia/declaration-is-not-compliance/">declaration is not compliance</a>.</p>
+<h2 id="behind-the-scenes">Behind the scenes</h2>
+<p>A real idea, from <a href="https://carrados.com/papers/zic-design-standard/">Zero Information Casualty v1.7</a>, the design standard by Charli-Jo Tyrer and Claude, §1.8 and §4.7. This entry summarises it; the standard is the authority.</p>
+
+  </div>
+</main>
+<footer class="site-footer">
+  <p>The CharliVerse is the world. <a href="https://carrados.com/">Carrados</a> and <a href="https://blind-ant.com/">Blind Ant</a> are practices within it. Made by Charli-Jo Tyrer.</p>
+  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="/charlipedia/delivery-casualty/index.md">this page as Markdown</a>.</p>
+</footer>
+</body>
+</html>

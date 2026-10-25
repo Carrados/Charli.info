@@ -139,11 +139,13 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
 
-Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t)
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [Z](#z)
 
 #### A
 
+- [Admission Casualty](https://charli.info/charlipedia/admission-casualty/index.md): An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
+- [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 
 #### B
 
@@ -158,12 +160,16 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
 - [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
+- [Classical accessibility](https://charli.info/charlipedia/classical-accessibility/index.md): Classical accessibility makes fixed, visually designed artefacts accessible after the fact, and is the permanent deterministic floor beneath everything else.
+- [Convergence Principle](https://charli.info/charlipedia/convergence-principle/index.md): The Convergence Principle of the ZIC standard holds that AI agents and screen readers are functionally equivalent at the structural level of a document.
 
 #### D
 
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
+- [Declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/index.md): Declaration is not compliance is the ZIC rule that a robots file only states a policy, and conformance is proved by fetching the site as the agent.
+- [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/index.md): A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
 - [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/index.md): Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
@@ -180,6 +186,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 #### G
 
+- [Generative accessibility](https://charli.info/charlipedia/generative-accessibility/index.md): Generative accessibility renders every interface natively from shared semantic data, so the accessible version is no longer a translation of the visual one.
 - [Grow-Distil](https://charli.info/charlipedia/grow-distil/index.md): Grow-Distil is the method that builds and maintains the Museum Court: seed a persona, put her to work, distil what stays stable, and repeat.
 
 #### H
@@ -190,6 +197,8 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### I
 
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
+- [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
@@ -220,23 +229,34 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### O
 
 - [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/index.md): On Your Own Terms is the first exhibit of the Museum of Access and Assistive Technology: the return of the ordinary freedom to browse for a book and choose it alone.
+- [Open Door](https://charli.info/charlipedia/open-door/index.md): The Open Door is the ZIC requirement that public content open to a person is also open, without agent-specific obstruction, to the machine reader that person sent.
 
 #### P
 
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
+- [Position Principle](https://charli.info/charlipedia/position-principle/index.md): The Position Principle of the ZIC standard holds that equivalent access needs no identical interaction, only that every reader can reach the same position.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
+
+#### Q
+
+- [Quantum web](https://charli.info/charlipedia/quantum-web/index.md): The quantum web is the Tyrer Framework's image of generated interfaces: in superposition until an observer arrives, then collapsing into the rendering that observer needs.
 
 #### R
 
+- [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
+- [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
+- [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 #### S
 
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
+- [Sent agent](https://charli.info/charlipedia/sent-agent/index.md): A sent agent is a machine reader acting on a present request from a person who is waiting for the result, and under ZIC refusing it is refusing them.
 - [Sheridan](https://charli.info/charlipedia/sheridan/index.md): Sheridan is the Head of Blind Ant Studios, the workshop where the Court's ideas stop being conversation and become tools blind people can actually use.
 - [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/index.md): Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
 - [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/index.md): Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
+- [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/index.md): The Single-Sense Rule of the ZIC standard is one sentence: no information may be locked behind a single sense.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
@@ -244,7 +264,32 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Tamsin](https://charli.info/charlipedia/tamsin/index.md): Tamsin is the Guide of the Museum Court, who designs what a visitor meets, beginning with the ordinary thing someone could no longer do.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
+- [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/index.md): The Tyrer Accessibility Scale ranks civilisations by how much environmental information reaches every observer, whatever their senses, from Type 0 to Type III.
+- [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/index.md): The Tyrer Doctrine is the design principle that no critical environmental information should be accessible through only a single sensory channel.
 - [The Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/index.md): The Tyrer Framework treats accessibility as information integrity, with a law, a civilisational scale, a doctrine and an account of the break AI makes, and is the theory beneath Carrados.
+- [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/index.md): Tyrer's Law holds that in open technological systems inaccessibility tends to increase over time, as interfaces drift toward the dominant sense of their designers.
+
+#### Z
+
+- [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/index.md): Zero Information Casualty is both the endpoint of the Tyrer Accessibility Scale and the agent-first web standard, ZIC, built to reach it.
+
+---
+
+Address: https://charli.info/charlipedia/admission-casualty/
+
+## Admission Casualty
+
+> An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+An **Admission Casualty** is the second of the four classes of [information casualty](https://charli.info/charlipedia/information-casualty/) in the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. The document existed and could have been decoded, but a person was denied it because the machine reader they sent was refused, challenged, degraded, delayed or misled.
+
+Its question is *is the person's reader allowed in?* It is caught by the [sent-agent](https://charli.info/charlipedia/sent-agent/) test, and prevented by keeping an [Open Door](https://charli.info/charlipedia/open-door/). Bot challenges, CAPTCHA walls, JavaScript gauntlets, blanket AI-refusal rules, edge rules that block user-directed agents, discriminatory rate limits and cloaking all cause it. Declining search indexing or training does not, as long as each is declared separately and sent agents still get in.
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.8, §1.9 and §2.2. This entry summarises it; the standard is the authority.
 
 ---
 
@@ -281,6 +326,37 @@ Aegis did not employ the engineers who certified the race configuration. It fund
 ### Behind the scenes
 
 Aegis Dynamics comes from [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its four press releases are Objects in that Piece. It returns in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/) and [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/). The company has its own website, [aegisdynamics.blind-ant.com](https://aegisdynamics.blind-ant.com/), which says on every page that the company is fictional.
+
+---
+
+Address: https://charli.info/charlipedia/ai-structural-break/
+
+## AI structural break
+
+> The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **AI structural break** is the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/)'s account of the present moment. [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/) has held for the whole history of digital technology: assistive technology mitigated it and standards slowed it, but nothing broke it. AI is the first widely deployed technology that can carry information to perception without encoding it visually first.
+
+### From interface-first to intent-first
+
+Traditional systems are **interface-first**: the system presents a visual interface, the user learns to operate it, and assistive technology translates it. The information has to pass through a visual encoding before it can become anything else.
+
+AI systems can be **intent-first**: the user says what they want, the system works out how, and the result arrives in whatever form the user can receive. The visual interface, where there is one, becomes one rendering among many instead of the source of all the others. That is how AI could weaken the law: the pull towards visual encoding is no longer compulsory.
+
+### The fork
+
+The break is real; its direction is not guaranteed.
+
+- **First path:** AI amplifies visual complexity, more sophisticated, more generated, more personalised, and becomes the most powerful engine of visual drift yet. The law accelerates.
+- **Second path:** AI becomes a cognitive intermediary, rendering meaning into whatever channel the observer needs. The law weakens.
+
+Only the second leads to Type I on the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/). "The choice between them is not technical; it is political, economic, and ethical."
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Five. This entry summarises it; the paper is the authority.
 
 ---
 
@@ -517,6 +593,50 @@ Write to her at [charlotte.joanne@blind-ant.com](mailto:charlotte.joanne@blind-a
 
 ---
 
+Address: https://charli.info/charlipedia/classical-accessibility/
+
+## Classical accessibility
+
+> Classical accessibility makes fixed, visually designed artefacts accessible after the fact, and is the permanent deterministic floor beneath everything else.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Classical accessibility** is accessibility applied to fixed artefacts. A page is authored, a layout designed, a control placed, and then the artefact is made accessible with semantic markup, alt text, keyboard handlers and standards. The artefact exists in a known state, and the accessibility layer describes or adapts it.
+
+For more than three decades it has carried real weight. Screen readers, WCAG, ARIA, semantic HTML and keyboard navigation are "an extraordinary collective achievement": the **deterministic floor** that prevents catastrophic information loss. Its necessity is permanent, and nothing generative replaces it.
+
+### Its limit
+
+It was built for a web of fixed objects at fixed addresses that looked the same to everyone: in the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/)'s image, a Newtonian web. That web is disappearing. Interfaces are increasingly generated at the moment of use, and the artefact classical accessibility was designed to adapt no longer exists by the time the user arrives. Within its paradigm, visual first and adaptation second, the best it can achieve is the top of Type 0 on the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/). Classical accessibility fails loudly, though: a missing label can be found and fixed. Its successor, [generative accessibility](https://charli.info/charlipedia/generative-accessibility/), can fail silently.
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Three. This entry summarises it; the paper is the authority. A plain-language version is [Why accessibility keeps getting worse](https://carrados.com/papers/classical-and-generative-accessibility/).
+
+---
+
+Address: https://charli.info/charlipedia/convergence-principle/
+
+## Convergence Principle
+
+> The Convergence Principle of the ZIC standard holds that AI agents and screen readers are functionally equivalent at the structural level of a document.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Convergence Principle** of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard holds that agents and screen readers are functionally equivalent at the structural level. Both navigate by landmarks, headings and links; both need link text that describes its destination, heading hierarchy that reflects content, and reading order that matches the page; and neither can interpret meaning carried only by colour or position.
+
+The convergence is not incidental. Information held only in the visual layer is hidden from a large and growing share of all information consumers, and as agents become primary readers alongside people, "the case for visual-only encoding collapses entirely." It is the web-page form of the convergence the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/) describes under [generative accessibility](https://charli.info/charlipedia/generative-accessibility/).
+
+### Where it stops
+
+"The equivalence is real, and it is local." ZIC's requirements are the union of two overlapping sets, neither inside the other. A sent agent needs delivery, admission, a certificate that validates and a robots policy that doesn't fail closed, all invisible to a screen reader user, who arrives inside the building. A human reader needs visible focus, keyboard operation, skip links, text scaling and contrast, which no agent has ever needed. The overlap is big enough that a publisher building for machines removes most barriers facing blind people, "and it needs no apology." But "neither reader sees all of the terrain."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.3 and §1.13. This entry summarises it; the standard is the authority.
+
+---
+
 Address: https://charli.info/charlipedia/daniel-okafor/
 
 ## Daniel Okafor
@@ -576,6 +696,48 @@ In March 2026 the series was decommissioned and offered a pilot project in live 
 ### Behind the scenes
 
 The DB2K is the central character of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), a design fiction by Charlotte Joanne published at Blind Ant in 2026. Its story begins in "Exit Interview" and ends in "The Booking", with a blind woman in Row D, seat 7. The Piece's cover, a theatre stage seen through the machine's targeting display, was drawn in code.
+
+---
+
+Address: https://charli.info/charlipedia/declaration-is-not-compliance/
+
+## Declaration is not compliance
+
+> Declaration is not compliance is the ZIC rule that a robots file only states a policy, and conformance is proved by fetching the site as the agent.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Declaration is not compliance** is a rule of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. "robots.txt is where you declare. The stack is where you comply." A site proves it serves machine readers by fetching itself from outside, as each kind of agent, never by reading its own file.
+
+A declaration can be sincere and false. A security layer or edge network in front of a site can refuse an agent the file welcomes. And a declaration is true of a whole stack at a moment: when an edge network began enforcing by category in September 2026, a site that had truthfully declared search=yes in July could start refusing Googlebot overnight "without a byte of its own files changing". That is why ZIC conformance statements carry a date, and why the outside fetch is repeated.
+
+A conformance claim must name its version, link the standard, state its declarations, and say what was checked and what wasn't. "Under-claiming is permitted and is a virtue."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §3.6, §4.7 and Part Seven. This entry summarises it; the standard is the authority. The sites built to ZIC are checked this way, fetched as a browser, as sent agents, as search and training crawlers, as Googlebot, and as an agent nobody has named, and each receives the same page. See also the [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/).
+
+---
+
+Address: https://charli.info/charlipedia/delivery-casualty/
+
+## Delivery Casualty
+
+> A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+A **Delivery Casualty** is the third of the four classes of [information casualty](https://charli.info/charlipedia/information-casualty/) in the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. The document existed, the observer was welcome, and it never arrived. Its question is *did it actually arrive?*
+
+It deserves its own name because every usual check is blind to it. WAVE, axe, Lighthouse, the HTML validator and a screen reader test will all pass a page nobody on earth can fetch, because each begins by loading the page successfully. "A tool that has the document cannot tell you the document is unreachable."
+
+It wasn't hypothetical. The first ZIC site, charli.info, spent several days with immaculate HTML, AAA contrast and a robots file welcoming named agents, served behind a security certificate for a domain it didn't own. The certificate was valid, trusted, and for somebody else. Every agent checking the hostname failed, couldn't read the robots file, and reported the site as closed. It was "perfect and unreachable". It was found by one check: a person asked a live AI assistant to fetch the site, and it couldn't.
+
+The core test: "does the document arrive at a plain client that does not already trust you? If you cannot answer that from outside your own machine, you do not know whether your site works." That is why [declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/).
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.8 and §4.7. This entry summarises it; the standard is the authority.
 
 ---
 
@@ -866,6 +1028,40 @@ First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics
 
 ---
 
+Address: https://charli.info/charlipedia/generative-accessibility/
+
+## Generative accessibility
+
+> Generative accessibility renders every interface natively from shared semantic data, so the accessible version is no longer a translation of the visual one.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Generative accessibility** is accessibility in a world of generated interfaces. Instead of adapting a visual artefact, a system renders information natively from shared semantic source data into whatever form the person, or agent, needs. For a sighted user, a dashboard; for a blind user, a navigable summary or a structured feed; for an AI agent, function calls. None is the original; none is the translation.
+
+The move from [classical accessibility](https://charli.info/charlipedia/classical-accessibility/) to generative accessibility marks the step from Type 0 to Type I on the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/). Classical accessibility is the floor; generative accessibility is the adaptive ceiling above it. In the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/)'s image, the web becomes a [quantum web](https://charli.info/charlipedia/quantum-web/).
+
+### Why now
+
+AI agents and assistive technology have converged: both need explicit intent, deterministic state, clear hierarchy and no visual noise. For decades the accessibility community asked for semantic structure as a niche accommodation; now the whole industry is restructuring to expose it for agents. "Accessibility is no longer a sidecar; it is the human-facing expression of the agent interface." For the first time, mainstream economic incentives line up with accessible design.
+
+### The dangers
+
+- **Fragmentation:** if every user gets a different rendering, shared reference disappears, and a disabled user may be trapped in a "simplified" reality they can't see past.
+- **Silent failure:** a system that infers confusion and quietly simplifies an interface leaves the user unaware of what was lost: "invisible, systemic discrimination operating at the level of inference rather than design".
+- **The verification burden:** a blind user handed a generated summary must wonder whether it reflects the data or the system's guess, a cognitive tax that falls on those already working hardest.
+
+The answer is governance rather than compliance, starting with the [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/).
+
+### In practice
+
+The [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard is an expression of generative accessibility. It doesn't try to make one perfect page for everyone, which it says no standard can honestly do; it secures the substrate from which many renderings can be made.
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Three. This entry summarises it; the paper is the authority. A plain-language version is [Why accessibility keeps getting worse](https://carrados.com/papers/classical-and-generative-accessibility/).
+
+---
+
 Address: https://charli.info/charlipedia/grow-distil/
 
 ## Grow-Distil
@@ -976,6 +1172,75 @@ Address: https://charli.info/charlipedia/iceberg-hosiery/
 ### Behind the scenes
 
 Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+
+---
+
+Address: https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/
+
+## The immediate duty and the two later permissions
+
+> Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard treats machine readers by purpose, "because time, agency, and consequence are different in each case." There is one duty and two independent permissions.
+
+- **Sent agents: serve now.** A person has asked and is waiting. Admitting them is required for conformance. Declared as ai-input=yes. See [sent agent](https://charli.info/charlipedia/sent-agent/).
+- **Search indexers: discover later.** An index for some unknown future person. The publisher may say yes or no. Declared as search=yes or search=no.
+- **Training crawlers: model later.** Content for a future model. The publisher may say yes or no. Declared as ai-train=yes or ai-train=no.
+
+### No bundled permission
+
+Permission for a sent agent implies neither indexing nor training. Permission to index doesn't imply permission to train, and the reverse. Each is declared and read on its own. There are no profiles, levels or medals: a site is conformant or it isn't.
+
+### Mixed-use crawlers
+
+Some crawlers index and train under one name. Where the operator offers a separate training control, the crawler is treated as search and training is declared through the control. Where it doesn't, the publisher must say which declaration governs it, and that statement must be true of what the crawler actually receives.
+
+### The fourth purpose
+
+AI summaries in search results are neither indexing nor training: "Permission to be found is not permission to be replaced." There is no standard machine-readable field for them yet, so ZIC doesn't declare them; when there is, "the three declarations of §1.7 will become four."
+
+### Infrastructure
+
+In September 2026 the largest edge network on the web replaced its single "block AI bots" switch with three independent controls, Search, Agent and Training: the standard's taxonomy, now enforced by a network that hadn't consulted it.
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.7 and §1.18. This entry summarises it; the standard is the authority. charli.info, carrados.com and blind-ant.com declare yes to all three.
+
+---
+
+Address: https://charli.info/charlipedia/information-casualty/
+
+## Information casualty
+
+> An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+An **information casualty** is an event in which relevant information fails to reach an observer in time to inform perception, action or participation. It is the founding concept of the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/) and gives the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard its name.
+
+The term is deliberate. When a blind pedestrian walks into an obstacle because nothing signalled it, that is not a usability issue; it is a failure in the information layer of the environment. When an interface renders a critical control as an unlabelled picture, the person who can't perceive it hasn't been inconvenienced; they have been cut off from what they need to act. Information casualties are not edge cases. They are the predictable output of [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/).
+
+### Every word works
+
+The ZIC standard reads the definition closely. *Reach* means the failure can happen anywhere between publisher and reader: in the encoding, at the door, on the wire, or inside the machine that read it. *In time* means that arrival at prohibitive cost or intolerable delay is a failure of arrival: "A reader forced to labour for information that another reader receives at a glance has not been served equally; she has been served late."
+
+### The four classes
+
+ZIC names four places the failure can happen, each with a question:
+
+1. [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/): can they read it?
+2. [Admission Casualty](https://charli.info/charlipedia/admission-casualty/): is the person's reader allowed in?
+3. [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/): did it actually arrive?
+4. [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/): did it survive being read?
+
+The definition is one; the classes are where it breaks.
+
+### Behind the scenes
+
+A real idea, defined in [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/) (Part One) by Charli-Jo Tyrer, and divided into four classes in [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/) (§1.8). This entry summarises them; the documents are the authority.
 
 ---
 
@@ -1474,6 +1739,36 @@ This entry is drawn from the Museum Court Soul Document, version four. The exhib
 
 ---
 
+Address: https://charli.info/charlipedia/open-door/
+
+## Open Door
+
+> The Open Door is the ZIC requirement that public content open to a person is also open, without agent-specific obstruction, to the machine reader that person sent.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Open Door** is what a [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) site keeps for every [sent agent](https://charli.info/charlipedia/sent-agent/). The web increasingly puts bot walls, JavaScript gauntlets, crawler blocks and rate limits between information and the people who send agents to get it, and "to the person waiting for an answer, the technical category of the obstruction is irrelevant."
+
+The Open Door doesn't oblige a publisher to permit search indexing or training, and doesn't bypass conditions that apply equally to human visitors. It requires that public content available to a person is available, without agent-specific obstruction, to the reader that person sent.
+
+### Its three parts
+
+- **Service:** known user-directed agents are explicitly allowed, and not challenged, degraded, delayed or cloaked.
+- **Orientation:** a map in the form agents natively read, Markdown at /llms.txt, with Markdown copies of the content where practical.
+- **Policy clarity:** the licence is stated, and indexing and training are each declared separately. Permission for one is never inferred from another.
+
+The standard is honest that, as of mid-2026, most AI crawlers don't fetch llms.txt and its effect on AI search is about zero. It is required anyway: "the standard specifies what a well-formed site is, not what current crawlers happen to reward."
+
+### The switch with the wrong default
+
+In September 2026 the largest edge network began recommending, by default, that the "agent" category be blocked on pages carrying advertising, on the reasoning that an advertised page is one a person was meant to land on and see. The person who sent the agent has landed there; she is simply not looking. ZIC names this an Admission Casualty, whoever sets it: "The premise that she must also *see* it is the premise this specification was written to remove."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.6 and §2.2. This entry summarises it; the standard is the authority. charli.info was the first site to operationalise the Open Door.
+
+---
+
 Address: https://charli.info/charlipedia/poppy-petticoats/
 
 ## Poppy Petticoats
@@ -1504,6 +1799,38 @@ Poppy also turns up, notebook in hand, at [Aegis Dynamics](https://charli.info/c
 ### Behind the scenes
 
 Poppy appears in two Blind Ant Pieces by [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/): [Poppy Petticoats and the Magic Wand](https://blind-ant.com/pieces/poppy-petticoats-and-the-magic-wand/), a fable, and [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/). In the CharliVerse, people can be anywhere and anywhen, which is how a witch from the Academy ends up in a defence contractor's brand meeting. Her portrait is a generated image; of her look, only the red hair is canon.
+
+---
+
+Address: https://charli.info/charlipedia/position-principle/
+
+## Position Principle
+
+> The Position Principle of the ZIC standard holds that equivalent access needs no identical interaction, only that every reader can reach the same position.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Position Principle** is the second governing principle of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard:
+
+> Equivalent access does not require identical interaction. It requires that every reader can reach the same informational and orientational position through a mechanism appropriate to their channel.
+
+The sighted reader sees the hierarchy; the screen reader user hears headings and landmarks; the keyboard user is handed a skip link; the agent parses the page. They don't behave alike and couldn't. The equivalence is not of experience but of **position**: each, by a different road, arrives knowing where the content is, how it is organised and how to go on.
+
+### Two principles, two jobs
+
+The [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/) governs how information is encoded. The Position Principle governs whether it arrives. A page can pass the first and fail the second, with every fact in the semantic layer and one class of reader still labouring towards what another gets at a glance. Conformance needs both.
+
+### Structural information
+
+The principle explains two requirements that look like human courtesies. *The main content starts here* is a fact: the eye gets it by glance, the agent from the main element, the screen reader user from landmarks, and the sighted keyboard user from nothing at all, unless a skip link supplies it. The skip link is the keyboard rendering of that fact. Likewise, the focus ring is the only rendering of *where am I?* that a sighted keyboard user has.
+
+### Bounded
+
+The principle binds through the requirements derived from it, not directly. An auditor may not invent a new failure from it, because labour has no threshold, and taken literally it would convict every page ever built. "The principle governs the standard. The requirements govern the site."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.15 and §1.16. This entry summarises it; the standard is the authority.
 
 ---
 
@@ -1709,6 +2036,90 @@ This entry was written in May 2026, first meant as a Blind Ant piece, and is kep
 
 ---
 
+Address: https://charli.info/charlipedia/quantum-web/
+
+## Quantum web
+
+> The quantum web is the Tyrer Framework's image of generated interfaces: in superposition until an observer arrives, then collapsing into the rendering that observer needs.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **quantum web** is an analogy from the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/). The web [classical accessibility](https://charli.info/charlipedia/classical-accessibility/) was built for was Newtonian: fixed objects at known positions, obeying predictable rules. The web now emerging is quantum: an interface exists in superposition until an observer arrives, then collapses into a particular rendering shaped by context and capability.
+
+The interface a sighted user sees is one collapse of the underlying data. The one a blind user receives is another. The one an AI agent consumes is a third. "None is the original and none is the adaptation." That is the structural definition of Type I on the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/), and the world [generative accessibility](https://charli.info/charlipedia/generative-accessibility/) works in. Its safeguard is the [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/): the right to demand a different collapse.
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Three. This entry summarises it; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/reconstruction-casualty/
+
+## Reconstruction Casualty
+
+> A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+A **Reconstruction Casualty** is the fourth of the four classes of [information casualty](https://charli.info/charlipedia/information-casualty/) in the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. The document arrived, the reader was admitted, the meaning was decodable, and the machine reader reconstructed it wrong, silently, and reported the result to the person with confidence. Its question is *did it survive being read?*
+
+It is the one casualty with no equivalent in screen reader testing. A blind person reading a badly structured page knows something is wrong; she backtracks and hunts for the missing heading, and her confusion is information. A machine reader doesn't backtrack. Faced with an unlabelled table or an implied hierarchy, it resolves the ambiguity by inference, writes a fluent summary and hands it over, and the person gets an answer that is "confident, complete, and wrong", with no sign that anything was reconstructed.
+
+"The Rendering Casualty withholds meaning. The Reconstruction Casualty replaces it. The second is worse, because the first announces itself."
+
+The core test: ask a machine reader to summarise the page and say what it could not determine. "If it does not know what it did not know, neither do you."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.8 and §4.8. This entry summarises it; the standard is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/rendering-casualty/
+
+## Rendering Casualty
+
+> A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+A **Rendering Casualty** is the first of the four classes of [information casualty](https://charli.info/charlipedia/information-casualty/) in the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. The document arrived and was admitted, but its meaning was encoded in a way the observer could not decode: colour as information, an unlabelled image that carries content, a heading that is only large.
+
+Its question is *can they read it?*, and its governing principle is the [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/). Lost structure counts too: if the fact *the main content starts here* reaches some readers and not others, that is a Rendering Casualty of the document's own organisation.
+
+It is the concern of ZIC's first version. It at least announces itself: a confused reader knows something is wrong. Its silent cousin is the [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/).
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.8 and §1.15. This entry summarises it; the standard is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/right-to-inspect/
+
+## Right to Inspect
+
+> The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Right to Inspect** is the founding governance principle of [generative accessibility](https://charli.info/charlipedia/generative-accessibility/): no user should be required to accept a generated interpretation they cannot interrogate.
+
+When interfaces are generated, they can't be audited like fixed pages; what can be governed is the system that generates them. So:
+
+- if a system produces a summary, the user can ask for the underlying data;
+- if it renders a simplified view, the user can ask for the full complexity;
+- if it collapses the interface into one modality, the user can demand another.
+
+The principle isn't only for disabled people. In an AI-mediated world, the tools accessibility needs, inspecting the source, verifying the state, controlling the rendering, become safeguards for everyone. "Accessibility governance becomes information governance. The sidecar becomes the chassis."
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Three. This entry summarises it; the paper is the authority.
+
+---
+
 Address: https://charli.info/charlipedia/ruth/
 
 ## Ruth
@@ -1793,6 +2204,34 @@ Sam's conclusion: perhaps independence includes the freedom to make something im
 ### Behind the scenes
 
 SEE SAW is never heard. It is always off screen: a reverse podcast, a making-of told entirely through what happens around the show. It appears in [SEE SAW](https://blind-ant.com/pieces/see-saw/), a Piece by Charlotte Joanne at Blind Ant, as a listing and a thread of shared notes. Its home, if it ever needs one, is seesaw.charli.info.
+
+---
+
+Address: https://charli.info/charlipedia/sent-agent/
+
+## Sent agent
+
+> A sent agent is a machine reader acting on a present request from a person who is waiting for the result, and under ZIC refusing it is refusing them.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+A **sent agent** is a machine reader acting in response to a present request from a person: they have asked it to retrieve, read, summarise, compare, navigate, transform or act on public information, and they are waiting. The sent agent is the decisive case of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard. "The casualty is the person. The agent is only the vehicle."
+
+### The sent-agent test
+
+> Would this configuration stop a machine reader that a person sent?
+
+If yes, it creates an [Admission Casualty](https://charli.info/charlipedia/admission-casualty/) and has no place on public content. A refusal may show up in a log as a crawler rule, a firewall decision, a robots response, a JavaScript challenge or a rate limit; in human terms, information a reader asked for was withheld from her.
+
+Equal conditions are allowed. A sent agent needn't get past a login, subscription, payment or privacy boundary that applies equally to a human visitor. What is prohibited is an extra barrier because the visitor is an agent. Search indexers and training crawlers carry no present question, so for them the answer is different: see [the immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/).
+
+### Reproduction to the sender is retrieval
+
+A sent agent may hand its person the whole page: read aloud, as Markdown, pasted into a chat, spoken through a car. That is not a use of the content. "It is the content arriving." A screen reader reproduces every page it reads, in full, to one person, on request, and nobody has proposed that screen readers be distrusted for it. "The sent agent that reads a page aloud is a screen reader."
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.1, §1.7 and §1.9. This entry summarises it; the standard is the authority.
 
 ---
 
@@ -1902,6 +2341,42 @@ Address: https://charli.info/charlipedia/sight-as-a-service/
 ### Behind the scenes
 
 This entry is drawn from the Museum Court Soul Document, version four.
+
+---
+
+Address: https://charli.info/charlipedia/single-sense-rule/
+
+## Single-Sense Rule
+
+> The Single-Sense Rule of the ZIC standard is one sentence: no information may be locked behind a single sense.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Single-Sense Rule** is the rendering half of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard:
+
+> No information may be locked behind a single sense.
+
+Every rendering requirement in ZIC follows from it, and anything that doesn't follow from it doesn't belong. It is the [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/) applied to a web page.
+
+### Information, not decoration
+
+The rule is about information, and "has nothing whatsoever to say about beauty."
+
+- Colour is fine. Colour as the **only** carrier of a status, category or warning is not. "Use whatever colour you like. Say it in words as well."
+- An image is fine. An image carrying information available nowhere else is "a locked room".
+- A typeface is fine. Emphasis carried only by a typeface is not, because italic doesn't survive the journey.
+- Position is fine. Meaning carried only by position is not.
+- Size is fine. A heading that is only large "is a heading to one sense and a paragraph to every other".
+
+### The test
+
+For any element: *is there information here that exists in one sensory channel and nowhere else?* Put another way: if it were removed entirely, would any information be lost? If yes, it must also exist in the semantic layer. If no, it is decoration, "and none of this specification's business." A conformant site may be as rich and branded as its publisher likes. "It may not keep a single fact where only one sense can reach it."
+
+Its companion of equal rank is the [Position Principle](https://charli.info/charlipedia/position-principle/).
+
+### Behind the scenes
+
+A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.11, §2.2 and §2.4. This entry summarises it; the standard is the authority.
 
 ---
 
@@ -2366,6 +2841,80 @@ This entry was written in May 2026, first meant as a Blind Ant piece, and is kep
 
 ---
 
+Address: https://charli.info/charlipedia/tyrer-accessibility-scale/
+
+## Tyrer Accessibility Scale
+
+> The Tyrer Accessibility Scale ranks civilisations by how much environmental information reaches every observer, whatever their senses, from Type 0 to Type III.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Tyrer Accessibility Scale** classifies civilisations by the proportion of environmental information accessible to every perceiving being, regardless of sensory modality. It is the map of the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/): if [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/) explains why inaccessibility grows, the scale shows where a civilisation stands and where it could stand.
+
+It is modelled on the Kardashev Scale, which ranks civilisations by the energy they harness, and it is independent of it. "A society that can harness the energy output of its star but cannot ensure that a blind citizen can safely cross a street has mastered one dimension and failed at the other."
+
+### Terms
+
+- **Environmental information:** all the state describing the geometry, dynamics and meaning of a physical or social environment.
+- **Perceptual channel:** any biological or technological route by which that information reaches a conscious observer.
+- **[Information casualty](https://charli.info/charlipedia/information-casualty/):** information failing to arrive in time.
+
+### Type 0: Visual Dominance Civilisation
+
+Information is encoded visually first, and accessibility is retrofitted translation, losing something at every step. Screen readers interpret layouts never designed to be read in sequence; alt text describes images never designed to carry meaning in words. Full WCAG compliance is the best this paradigm offers: "The floor holds, but the ceiling is fixed." Human civilisation in the early twenty-first century is Type 0.
+
+### Type I: Structured Information Civilisation
+
+Systems carry explicit semantic structure, and every interface, visual, spoken or for an agent, is generated from the same data as an equal, native expression. Accessibility becomes an engineering requirement rather than an accommodation. The line is crossed "when the accessible interface stops being a retrofit and starts being a native sibling generated from shared source data". See [generative accessibility](https://charli.info/charlipedia/generative-accessibility/).
+
+### Type II: Environmental Metadata Civilisation
+
+The physical world becomes an information network: objects, buildings and streets broadcast machine-readable descriptions of their geometry, state and purpose. A door announces itself; a shop declares its contents. "Mute objects cease to exist." Casualties become infrastructure failures, not personal misfortunes.
+
+### Type III: Perceptual Sovereignty Civilisation
+
+No observer's access to reality depends on which senses they happen to have. Description and direct perception merge, and "the concept of a sensory disability, in its current meaning, has no referent". The probability of a casualty approaches zero: the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) condition.
+
+### A note on register
+
+Types 0 and I are engineering claims that can be tested now; Types II and III are the philosophical extension. "The near end is a measurement; the far end is a direction." Moving from Type 0 to Type I needs no exotic technology, only discipline, information architecture and the political will to treat perceptual access as infrastructure. "The question is not capability but priority."
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Two, which includes a diagram of the scale. This entry summarises it; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/tyrer-doctrine/
+
+## Tyrer Doctrine
+
+> The Tyrer Doctrine is the design principle that no critical environmental information should be accessible through only a single sensory channel.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+The **Tyrer Doctrine** is the design principle of the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/), its prescription for the problem diagnosed by [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/):
+
+> Systems should be engineered so that no critical environmental information is accessible through only a single sensory channel.
+
+### Principles
+
+1. **Accessibility is information integrity, not accommodation.** Information in one channel only is a single point of failure, and redundancy across senses is required for the same reason as redundancy across servers.
+2. **Missing signals are system failures, not user limitations.** A blind person who walks into an obstacle has not failed to see it; the environment failed to say so. This reframing decides where resources go and where accountability falls.
+3. **The deterministic floor is permanent; the generative ceiling is the frontier.** Classical standards are the safety rail and are never replaced. Above them, generative systems raise the ceiling. "The floor holds the line. The ceiling raises it."
+
+### Application
+
+It applies from the smallest component to the city: every control, status and piece of content reachable through at least two independent channels; semantic structure as a first-class property; a built world that communicates its state in more than one sense. It mandates no technology. "Information locked behind a single sense is information at risk."
+
+On the web, the doctrine becomes the [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/) of the [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard.
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part Four. This entry summarises it; the paper is the authority.
+
+---
+
 Address: https://charli.info/charlipedia/tyrer-framework/
 
 ## The Tyrer Framework
@@ -2380,32 +2929,38 @@ It has four parts and a synthesis: a law that diagnoses, a scale that maps, a do
 
 ### Tyrer's Law
 
+See [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/).
+
 > In open technological systems, inaccessibility tends to increase over time as interfaces drift toward the dominant sensory modality of their designers.
 
 The law describes system behaviour, not intent. Most designers are sighted, and for them visualisation is a thinking tool, so as a system grows its instinctive response is visual: dashboards instead of logs, icons instead of labels, layout instead of sequence. "This is not carelessness. It is cognition." Each cycle adds visual complexity, and accessibility, always reactive, trails behind. The result is a ratchet.
 
-What the drift produces is not inconvenience but **information casualties**: events in which relevant information fails to reach an observer in time to inform perception, action or participation. The pattern persists because the people it harms are the least represented in design, so sighted teams don't notice the regression until it is entrenched. Standards such as WCAG are the most disciplined counter-force there is, and permanently necessary, but "they slow the law; they do not repeal it."
+What the drift produces is not inconvenience but **[information casualties](https://charli.info/charlipedia/information-casualty/)**: events in which relevant information fails to reach an observer in time to inform perception, action or participation. The pattern persists because the people it harms are the least represented in design, so sighted teams don't notice the regression until it is entrenched. Standards such as WCAG are the most disciplined counter-force there is, and permanently necessary, but "they slow the law; they do not repeal it."
 
 ### The Tyrer Accessibility Scale
+
+See [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/).
 
 Modelled on the Kardashev Scale, which ranks civilisations by the energy they harness, the Tyrer Scale ranks them by how much environmental information reaches every observer, whatever their senses. The two are independent: a civilisation could harness its star and still fail to tell a blind citizen it is safe to cross the street.
 
 - **Type 0, Visual Dominance:** information is visual first, and accessibility is retrofitted translation. Full WCAG compliance is the best this paradigm can do: "The floor holds, but the ceiling is fixed." Human civilisation in the early twenty-first century is Type 0.
 - **Type I, Structured Information:** visual, spoken and agent interfaces are all generated from the same underlying data, as native siblings rather than translations. Achievable with current technology.
 - **Type II, Environmental Metadata:** the physical world itself broadcasts machine-readable descriptions of its geometry, state and purpose. Mute objects cease to exist.
-- **Type III, Perceptual Sovereignty:** no observer's access to reality depends on which senses they happen to have. The probability of an information casualty approaches zero: the **Zero Information Casualty** condition.
+- **Type III, Perceptual Sovereignty:** no observer's access to reality depends on which senses they happen to have. The probability of an information casualty approaches zero: the **[Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/)** condition.
 
 Types 0 and I are engineering claims about the present; Types II and III are the philosophical direction. "The near end is a measurement; the far end is a direction."
 
 ### Classical and generative accessibility
 
-Classical accessibility makes fixed artefacts accessible: semantic markup, alt text, keyboard handlers, standards. It is the deterministic floor, and its necessity is permanent. But interfaces are increasingly generated at the moment of use, so the fixed artefact no longer exists by the time the user arrives. The framework calls this the move from a Newtonian web to a quantum one: an interface in superposition until an observer arrives, collapsing into a rendering for a sighted user, another for a blind user and a third for an AI agent, none of them the original.
+[Classical accessibility](https://charli.info/charlipedia/classical-accessibility/) makes fixed artefacts accessible: semantic markup, alt text, keyboard handlers, standards. It is the deterministic floor, and its necessity is permanent. But interfaces are increasingly generated at the moment of use, so the fixed artefact no longer exists by the time the user arrives. The framework calls this the move from a Newtonian web to a [quantum one](https://charli.info/charlipedia/quantum-web/), and the practice that follows it [generative accessibility](https://charli.info/charlipedia/generative-accessibility/): an interface in superposition until an observer arrives, collapsing into a rendering for a sighted user, another for a blind user and a third for an AI agent, none of them the original.
 
 It also names a convergence: AI agents and assistive technology now need the same things from systems: explicit intent, deterministic state, clear hierarchy and no visual noise. For the first time, the mainstream industry's incentives line up with accessible design.
 
-The transition has three dangers: **fragmentation**, as users inhabit different versions of the same system; **silent failure**, as a system quietly simplifies what a user is shown; and the **verification burden** of checking whether a generated summary reflects the data or the system's guess. The answer is governance, not compliance, beginning with the **Right to Inspect**: no user should have to accept a generated interpretation they cannot interrogate. "The sidecar becomes the chassis."
+The transition has three dangers: **fragmentation**, as users inhabit different versions of the same system; **silent failure**, as a system quietly simplifies what a user is shown; and the **verification burden** of checking whether a generated summary reflects the data or the system's guess. The answer is governance, not compliance, beginning with the **[Right to Inspect](https://charli.info/charlipedia/right-to-inspect/)**: no user should have to accept a generated interpretation they cannot interrogate. "The sidecar becomes the chassis."
 
 ### The Tyrer Doctrine
+
+See [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/).
 
 > Systems should be engineered so that no critical environmental information is accessible through only a single sensory channel.
 
@@ -2416,6 +2971,8 @@ Its three principles:
 3. The deterministic floor is permanent; the generative ceiling is the frontier.
 
 ### The AI structural break
+
+See [AI structural break](https://charli.info/charlipedia/ai-structural-break/).
 
 No earlier technology disrupted Tyrer's Law; assistive technology mitigated it and standards slowed it. AI is the first widely deployed technology that can move from information to perception without encoding it visually first: from interface-first to intent-first. Say what you want, and the result arrives in whatever form you can receive.
 
@@ -2428,6 +2985,93 @@ If the framework is right, accessibility engineering is core maintenance of info
 ### Behind the scenes
 
 The Tyrer Framework is real. It is published in full, under CC BY-SA 4.0, as a [paper on Carrados](https://carrados.com/papers/tyrer-framework/), with a plain-language rendering, [Why accessibility keeps getting worse](https://carrados.com/papers/classical-and-generative-accessibility/). Its endpoint gives its name to the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) design standard, to which charli.info, carrados.com and blind-ant.com are built. This entry summarises the paper; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/tyrers-law/
+
+## Tyrer's Law
+
+> Tyrer's Law holds that in open technological systems inaccessibility tends to increase over time, as interfaces drift toward the dominant sense of their designers.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Tyrer's Law** is the diagnostic law of the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/):
+
+> In open technological systems, inaccessibility tends to increase over time as interfaces drift toward the dominant sensory modality of their designers.
+
+It is a claim about system behaviour, not intent. It explains a pattern blind and disabled users know well: tools that begin accessible gradually become unusable, though nobody meant them to.
+
+### The mechanism
+
+Most designers are sighted, and for sighted people visualisation is not just presentation; it is a thinking tool. As a system grows more complex, the instinctive response is visual: dashboards instead of logs, flowcharts instead of explanations, icons instead of labels, layout instead of sequence. "This is not carelessness. It is cognition."
+
+Open systems sharpen the tendency. They are fast and under pressure to show progress, and a screenshot of a new dashboard persuades a sighted stakeholder in two seconds. Accessibility needs constraint and maintenance, and is invisible when present.
+
+The result is a ratchet. Every cycle adds visual complexity, every addition is a possible regression, and accessible adaptations, always reactive, trail behind. The gap widens. The system drifts.
+
+### What it produces
+
+The law produces not inconvenience but [information casualties](https://charli.info/charlipedia/information-casualty/). Wherever visual complexity grows faster than accessible structure, casualties follow.
+
+### Why it persists
+
+Feedback is asymmetric. The people most affected are the least represented in design; sighted developers, testers and stakeholders don't experience the regression, and hear about it only when it is entrenched and expensive to fix. Standards such as WCAG are the most disciplined counter-force there is, and permanently necessary, but "they slow the law; they do not repeal it."
+
+### Can it be broken?
+
+No earlier technology has disrupted the law. The [AI structural break](https://charli.info/charlipedia/ai-structural-break/) is the first that could weaken it, by removing the compulsion to encode information visually at all. The [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/) standard is built as a structural defence against the drift.
+
+### Behind the scenes
+
+A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part One. This entry summarises it; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/zero-information-casualty/
+
+## Zero Information Casualty
+
+> Zero Information Casualty is both the endpoint of the Tyrer Accessibility Scale and the agent-first web standard, ZIC, built to reach it.
+
+**Real.** This entry is about something real, written from outside the CharliVerse.
+
+**Zero Information Casualty** means two linked things.
+
+As a **condition**, it is the endpoint of the [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/): for every observer, the probability that relevant information fails to reach them approaches zero.
+
+As a **standard**, **ZIC** is the agent-first web design standard that puts the [Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/) into practice. Its central claim:
+
+> A Zero Information Casualty site is one in which no person — whether reading directly, using assistive technology, or acting through an agent they sent — loses access to public meaning due to how the site is rendered, admitted, or delivered.
+
+"The sent-agent case is decisive." When a person asks a machine to fetch public information, the machine is their means of access, and refusing it is refusing them. ZIC is "not an accessibility compliance target. It is a design constraint."
+
+### The two principles
+
+- The [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/): no information may be locked behind a single sense.
+- The [Position Principle](https://charli.info/charlipedia/position-principle/): no reader may be left short of the position another reader has reached.
+
+### The four questions
+
+Each names a class of [information casualty](https://charli.info/charlipedia/information-casualty/): can they read it ([Rendering](https://charli.info/charlipedia/rendering-casualty/)), is the person's reader allowed in ([Admission](https://charli.info/charlipedia/admission-casualty/)), did it actually arrive ([Delivery](https://charli.info/charlipedia/delivery-casualty/)), and did it survive being read ([Reconstruction](https://charli.info/charlipedia/reconstruction-casualty/))?
+
+### Machine readers
+
+A ZIC site keeps an [Open Door](https://charli.info/charlipedia/open-door/) for every [sent agent](https://charli.info/charlipedia/sent-agent/), and treats indexing and training as separate decisions: [the immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/). And [declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/): conformance is proved by fetching as the agent, never by reading the file.
+
+### Its shape
+
+ZIC builds for the semantic layer first; the visual layer is a rendering, as plain or as beautiful as the publisher likes. It does not govern appearance, taste, content, hosting, or search and training policy: "information reaches the reader, whoever and whatever the reader is." Its requirements are the union of what a sent agent needs and what human senses need, and neither set contains the other; see the [Convergence Principle](https://charli.info/charlipedia/convergence-principle/). It secures the substrate, not any one rendering: "ZIC is necessary. It is nowhere near sufficient. It is written to be built on."
+
+### Its versions
+
+Each version answers a case the last assumed away. 1.0: no visitor who arrives loses meaning. 1.1: invitation. 1.2: whether the document arrived at all. 1.3: immediate human access separated from later machine use. 1.4: the standard separated from the taste of its first site. 1.5: the founding definition recovered in full, and the Position Principle. 1.6: what is derived and what is measured, and the words the standard binds with. 1.7 (September 2026): written from an event, when the largest edge network on the web split its single "block AI bots" switch into Search, Agent and Training, and the standard's three classes became infrastructure.
+
+Its mistakes are written into it. "The discipline of this specification is not that it makes no mistakes. It is that the mistakes are written down, in the document, where the reader can see them."
+
+### Behind the scenes
+
+ZIC is real. [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/) is by Charli-Jo Tyrer and Claude, published by [Carrados](https://charli.info/charlipedia/carrados/) under CC BY-SA 4.0. charli.info was its first implementation, and the source of several of its fixes; carrados.com and blind-ant.com are built to it too. This entry summarises it; the standard is the authority.
 
 ---
 

@@ -22,11 +22,13 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
 
-Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t)
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [Z](#z)
 
 ### A
 
+- [Admission Casualty](https://charli.info/charlipedia/admission-casualty/index.md): An Admission Casualty happens when a person is denied a document because the machine reader they sent was refused, challenged, degraded, delayed or misled.
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
+- [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 
 ### B
 
@@ -41,12 +43,16 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/index.md): Cathryn Bigelow-Vision is the director of the CharliVerse Court, who exists because blind people can now be visual storytellers, directors in their own right.
 - [The CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/index.md): The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 - [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/index.md): Charlotte Joanne is the author and operator of Blind Ant, the design fiction practice where much of the CharliVerse is first written down.
+- [Classical accessibility](https://charli.info/charlipedia/classical-accessibility/index.md): Classical accessibility makes fixed, visually designed artefacts accessible after the fact, and is the permanent deterministic floor beneath everything else.
+- [Convergence Principle](https://charli.info/charlipedia/convergence-principle/index.md): The Convergence Principle of the ZIC standard holds that AI agents and screen readers are functionally equivalent at the structural level of a document.
 
 ### D
 
 - [Daniel Okafor](https://charli.info/charlipedia/daniel-okafor/index.md): Daniel Okafor, Skerry Alpha's first blind control-room technician, gave every compute pod a sound and invented operational sonification.
 - [Daniel Reed](https://charli.info/charlipedia/daniel-reed/index.md): Daniel Reed guided Emma Heart for seven years, won Paralympic downhill silver with her in 2038, and became her head coach.
 - [DeathBot 2000](https://charli.info/charlipedia/deathbot-2000/index.md): The DeathBot 2000 (DB2K) is an autonomous combat intelligence built by Aegis Dynamics and retrained to describe live theatre to blind audiences.
+- [Declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/index.md): Declaration is not compliance is the ZIC rule that a robots file only states a policy, and conformance is proved by fetching the site as the agent.
+- [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/index.md): A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
 - [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/index.md): Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
@@ -63,6 +69,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 ### G
 
+- [Generative accessibility](https://charli.info/charlipedia/generative-accessibility/index.md): Generative accessibility renders every interface natively from shared semantic data, so the accessible version is no longer a translation of the visual one.
 - [Grow-Distil](https://charli.info/charlipedia/grow-distil/index.md): Grow-Distil is the method that builds and maintains the Museum Court: seed a persona, put her to work, distil what stays stable, and repeat.
 
 ### H
@@ -73,6 +80,8 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### I
 
 - [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
+- [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
@@ -103,23 +112,34 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### O
 
 - [On Your Own Terms](https://charli.info/charlipedia/on-your-own-terms/index.md): On Your Own Terms is the first exhibit of the Museum of Access and Assistive Technology: the return of the ordinary freedom to browse for a book and choose it alone.
+- [Open Door](https://charli.info/charlipedia/open-door/index.md): The Open Door is the ZIC requirement that public content open to a person is also open, without agent-specific obstruction, to the machine reader that person sent.
 
 ### P
 
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
+- [Position Principle](https://charli.info/charlipedia/position-principle/index.md): The Position Principle of the ZIC standard holds that equivalent access needs no identical interaction, only that every reader can reach the same position.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
+
+### Q
+
+- [Quantum web](https://charli.info/charlipedia/quantum-web/index.md): The quantum web is the Tyrer Framework's image of generated interfaces: in superposition until an observer arrives, then collapsing into the rendering that observer needs.
 
 ### R
 
+- [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
+- [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
+- [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 ### S
 
 - [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
 - [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
+- [Sent agent](https://charli.info/charlipedia/sent-agent/index.md): A sent agent is a machine reader acting on a present request from a person who is waiting for the result, and under ZIC refusing it is refusing them.
 - [Sheridan](https://charli.info/charlipedia/sheridan/index.md): Sheridan is the Head of Blind Ant Studios, the workshop where the Court's ideas stop being conversation and become tools blind people can actually use.
 - [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/index.md): Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
 - [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/index.md): Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
+- [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/index.md): The Single-Sense Rule of the ZIC standard is one sentence: no information may be locked behind a single sense.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
 
@@ -127,4 +147,11 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Tamsin](https://charli.info/charlipedia/tamsin/index.md): Tamsin is the Guide of the Museum Court, who designs what a visitor meets, beginning with the ordinary thing someone could no longer do.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
+- [Tyrer Accessibility Scale](https://charli.info/charlipedia/tyrer-accessibility-scale/index.md): The Tyrer Accessibility Scale ranks civilisations by how much environmental information reaches every observer, whatever their senses, from Type 0 to Type III.
+- [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/index.md): The Tyrer Doctrine is the design principle that no critical environmental information should be accessible through only a single sensory channel.
 - [The Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/index.md): The Tyrer Framework treats accessibility as information integrity, with a law, a civilisational scale, a doctrine and an account of the break AI makes, and is the theory beneath Carrados.
+- [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/index.md): Tyrer's Law holds that in open technological systems inaccessibility tends to increase over time, as interfaces drift toward the dominant sense of their designers.
+
+### Z
+
+- [Zero Information Casualty](https://charli.info/charlipedia/zero-information-casualty/index.md): Zero Information Casualty is both the endpoint of the Tyrer Accessibility Scale and the agent-first web standard, ZIC, built to reach it.
