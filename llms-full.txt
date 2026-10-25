@@ -2010,6 +2010,7 @@ Address: https://carrados.com/reports/
 
 Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
 
+- [Sloppy thinking](https://carrados.com/reports/sloppy-thinking/index.md) (25 October 2026): A definition for the reflex that dismisses AI-assisted work out of hand, and a badge to download, print and cut out for labelling it.
 - [Human in the loop? Human with the final word.](https://carrados.com/reports/human-in-the-loop-human-with-the-final-word/index.md) (25 October 2026): The third report of the morning is about two words an AI agent removed while publishing, and why it explained the change instead of asking or hiding it.
 - [Human in the loop? Human at the laptop…](https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/index.md) (25 October 2026): After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 - [Human in the loop? Human in bed.](https://carrados.com/reports/human-in-the-loop-human-in-bed/index.md) (25 October 2026): A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.
@@ -2784,3 +2785,40 @@ The AI had followed the task across her email and a website, dealt with the inte
 A small piece of everyday admin. Two fewer kinds of email she doesn't want. And a lovely glimpse of what agentic computing can feel like.
 
 Whether she's still using it on an ordinary Tuesday six weeks from now is the part I'll come back for.
+
+---
+
+Address: https://carrados.com/reports/sloppy-thinking/
+
+## Sloppy thinking
+
+> A definition for the reflex that dismisses AI-assisted work out of hand, and a badge to download, print and cut out for labelling it.
+
+25 October 2026
+
+There is a name for low-effort AI work: slop. There ought to be one for low-effort criticism of it, too.
+
+### The definition
+
+**Sloppy thinking** (noun): The habit of treating AI-assisted work as inherently inferior, ignoring the ways such tools enable clarity, access, and participation.
+
+> AI slop is low-effort creation. Sloppy thinking is low-effort criticism. Both are lazy.
+
+<figure>
+  <img src="/images/sloppy-thinking-card.png" width="1600" height="900" alt="The definition as an old cream dictionary card on a dark green background: Sloppy Thinking, (noun), a small decorative rule, the definition, and the quote in a framed panel, with two faint cogs in the top right corner. Every word on it is in the text above.">
+  <figcaption>The definition card. Drawn in code by Claude.</figcaption>
+</figure>
+
+### The badge
+
+For the next time someone says AI-assisted work doesn't count. Download it, post it as a reply, print it and cut it out, keep it.
+
+<figure>
+  <img src="/images/sloppy-thinking-badge.png" width="1080" height="1080" alt="A round badge. A pink cartoon pig in round glasses, with floppy ears and a small, satisfied smile, sits in a bright blue circle with a yellow edge. Around it, a navy ring carries SLOPPY THINKING in yellow capitals across the top and low-effort criticism in white across the bottom.">
+  <figcaption>The Sloppy Thinking badge. Drawn in code by Claude.</figcaption>
+</figure>
+
+- [Download the badge as a picture (PNG, 1080 pixels square)](https://carrados.com/images/sloppy-thinking-badge.png), to post as a reply.
+- [Download a sheet of six badges to print and cut out (PDF, A4)](https://carrados.com/documents/sloppy-thinking-badges.pdf). Each badge is 6 centimetres across.
+
+The definition, the card and the badge are CC BY-SA 4.0: share them, adapt them, label with them.
