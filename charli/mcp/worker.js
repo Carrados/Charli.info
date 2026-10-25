@@ -35,12 +35,15 @@ async function meaning(env, args) {
   const q = String(args.query || '').trim();
   if (!q) throw new Error('Give a question or theme to search for.');
   const emb = await env.AI.run('@cf/baai/bge-base-en-v1.5', { text: [q] });
-  const opts = { topK: Math.min(Number(args.limit) || 6, 15), returnMetadata: 'all' };
+  const limit = Math.min(Number(args.limit) || 6, 15);
+  const opts = { topK: 20, returnMetadata: 'all' };
   if (args.site && SITES[args.site]) opts.filter = { site: args.site };
-  const res = await env.VEC.query(emb.data[0], opts);
-  const hits = (res.matches || []).map((m) => m.metadata && `- ${m.metadata.title}${m.metadata.heading ? ' (' + m.metadata.heading + ')' : ''}, from ${m.metadata.site}: ${m.metadata.url}\n  ${m.metadata.text}`).filter(Boolean);
+  const raw = await env.VEC.query(emb.data[0], opts);
+  const seen = new Set(); // keep the best passage from each page
+  const res = { matches: (raw.matches || []).filter((m) => m.metadata && !seen.has(m.metadata.url) && seen.add(m.metadata.url)).slice(0, limit) };
+  const hits = res.matches.map((m) => m.metadata && `- ${m.metadata.title}${m.metadata.heading ? ' (' + m.metadata.heading + ')' : ''}, from ${m.metadata.site}: ${m.metadata.url}\n  ${m.metadata.text}`).filter(Boolean);
   if (!hits.length) return `Nothing found for "${q}".`;
-  const used = [...new Set((res.matches || []).map((m) => m.metadata && m.metadata.site).filter(Boolean))];
+  const used = [...new Set(res.matches.map((m) => m.metadata && m.metadata.site).filter(Boolean))];
   return `${hits.length} passage(s) for "${q}", closest first.\n\nWhere they come from:\n${used.map((u) => '- ' + u + ': ' + SITES[u]).join('\n')}\n\n${hits.join('\n\n')}`;
 }
 
