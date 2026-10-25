@@ -120,16 +120,11 @@
 <h3 id="13-the-convergence-principle">1.3 The Convergence Principle</h3>
 <p>Agents and screen readers are functionally equivalent at the structural level. Both:</p>
 <ul>
-<li><p>Navigate by semantic landmarks, headings, and links</p>
-</li>
-<li><p>Require that link text describes its destination</p>
-</li>
-<li><p>Require that heading hierarchy reflects content hierarchy</p>
-</li>
-<li><p>Require that reading order in the DOM matches intended reading order</p>
-</li>
-<li><p>Cannot interpret meaning carried only by visual properties such as colour or position</p>
-</li>
+<li>Navigate by semantic landmarks, headings, and links</li>
+<li>Require that link text describes its destination</li>
+<li>Require that heading hierarchy reflects content hierarchy</li>
+<li>Require that reading order in the DOM matches intended reading order</li>
+<li>Cannot interpret meaning carried only by visual properties such as colour or position</li>
 </ul>
 <p>This convergence is not incidental. Information encoded in the visual layer alone is information that has been made inaccessible to a significant and growing portion of all information consumers. As AI agents become primary information consumers alongside humans, the case for visual-only encoding collapses entirely.</p>
 <p>The equivalence is real, and it is local. It holds inside the document. It does not hold outside it, and §1.13 states where it stops.</p>
@@ -170,14 +165,10 @@
 <p><strong>The Reconstruction Casualty (new in v1.4).</strong> The document arrived, the reader was admitted, the meaning was decodable — and the machine reader reconstructed it wrong, silently, and reported the result to the person with confidence.</p>
 <p>The four questions, in order:</p>
 <ul>
-<li><p>Can they read it? (v1.0)</p>
-</li>
-<li><p>Is the person&#39;s reader allowed in? (v1.1, clarified in v1.3)</p>
-</li>
-<li><p>Did it actually arrive? (v1.2)</p>
-</li>
-<li><p>Did it survive being read? (v1.4)</p>
-</li>
+<li>Can they read it? (v1.0)</li>
+<li>Is the person&#39;s reader allowed in? (v1.1, clarified in v1.3)</li>
+<li>Did it actually arrive? (v1.2)</li>
+<li>Did it survive being read? (v1.4)</li>
 </ul>
 <p><strong>Why the Delivery Casualty deserves separate naming.</strong> It is invisible to every check that runs against a document you already hold. WAVE, axe, Lighthouse, the HTML validator, the Schema validator, and a screen reader test will all pass a page that no visitor on earth can fetch, because every one of those tools begins by loading the page successfully. A tool that has the document cannot tell you the document is unreachable. The failure is upstream of the entire toolchain.</p>
 <p>This is not hypothetical. The first ZIC implementation, charli.info, spent several days in exactly this state: immaculate semantic HTML, AAA contrast, and a robots.txt explicitly welcoming named agents — served over HTTPS behind a TLS certificate issued for <code>*.github.io</code>, a domain it does not own. The certificate was valid. The certificate was trusted. The certificate was for somebody else. Every automated agent validating the hostname failed the handshake, could not retrieve robots.txt, failed closed, and reported the site as disallowing automated access. The site was, in the plainest terms, perfect and unreachable.</p>
@@ -417,103 +408,64 @@ Sitemap: https://example.com/sitemap.xml
 <p>A ZIC site is compliant when it passes all of the following checks. These are binary: pass or fail. There is no partial compliance.</p>
 <h3 id="41-automated-checks">4.1 Automated Checks</h3>
 <ul>
-<li><p>WAVE Web Accessibility Evaluation Tool — zero errors</p>
-</li>
-<li><p>axe DevTools — zero violations</p>
-</li>
-<li><p>Lighthouse Accessibility audit — score of 100</p>
-</li>
-<li><p>Lighthouse Agentic Browsing audit — passes, including the llms.txt presence check</p>
-</li>
-<li><p>HTML validator (validator.w3.org) — zero errors</p>
-</li>
-<li><p>Schema.org validator — valid structured data on every page</p>
-</li>
-<li><p>Sitemap validator — valid sitemap with all pages listed</p>
-</li>
+<li>WAVE Web Accessibility Evaluation Tool — zero errors</li>
+<li>axe DevTools — zero violations</li>
+<li>Lighthouse Accessibility audit — score of 100</li>
+<li>Lighthouse Agentic Browsing audit — passes, including the llms.txt presence check</li>
+<li>HTML validator (validator.w3.org) — zero errors</li>
+<li>Schema.org validator — valid structured data on every page</li>
+<li>Sitemap validator — valid sitemap with all pages listed</li>
 </ul>
 <h3 id="42-screen-reader-checks">4.2 Screen Reader Checks</h3>
 <p>Test with at least one screen reader (NVDA on Windows is the reference implementation for ZIC). Verify:</p>
 <ul>
-<li><p>Skip link is the first element reached and functions correctly</p>
-</li>
-<li><p>All landmark regions are present and correctly labelled</p>
-</li>
-<li><p>Heading hierarchy is logical and complete</p>
-</li>
-<li><p>All links make sense when read out of context</p>
-</li>
-<li><p>All images are either meaningfully described or correctly marked as decorative</p>
-</li>
-<li><p>All form inputs are correctly labelled</p>
-</li>
-<li><p>Navigation is fully operable without a mouse</p>
-</li>
+<li>Skip link is the first element reached and functions correctly</li>
+<li>All landmark regions are present and correctly labelled</li>
+<li>Heading hierarchy is logical and complete</li>
+<li>All links make sense when read out of context</li>
+<li>All images are either meaningfully described or correctly marked as decorative</li>
+<li>All form inputs are correctly labelled</li>
+<li>Navigation is fully operable without a mouse</li>
 </ul>
 <h3 id="43-agent-readability-checks">4.3 Agent Readability Checks</h3>
 <p>Verify that a sent agent reading the site receives complete and accurate public information:</p>
 <ul>
-<li><p>Page title and meta description accurately represent page content</p>
-</li>
-<li><p>Schema.org structured data correctly describes the page, its author, and its licence</p>
-</li>
-<li><p>All navigation links have descriptive text</p>
-</li>
-<li><p>Content hierarchy is recoverable from heading structure alone</p>
-</li>
-<li><p>Sitemap is accessible and complete</p>
-</li>
-<li><p>robots.txt explicitly allows known user-directed retrieval agents</p>
-</li>
-<li><p>search and ai-train are each explicitly declared yes or no, independently</p>
-</li>
-<li><p>Where a feed is required under §3.3, it validates and contains the most recent content</p>
-</li>
+<li>Page title and meta description accurately represent page content</li>
+<li>Schema.org structured data correctly describes the page, its author, and its licence</li>
+<li>All navigation links have descriptive text</li>
+<li>Content hierarchy is recoverable from heading structure alone</li>
+<li>Sitemap is accessible and complete</li>
+<li>robots.txt explicitly allows known user-directed retrieval agents</li>
+<li>search and ai-train are each explicitly declared yes or no, independently</li>
+<li>Where a feed is required under §3.3, it validates and contains the most recent content</li>
 </ul>
 <h3 id="44-agent-surface-and-policy-checks">4.4 Agent Surface and Policy Checks</h3>
 <p>Verify the Open Door and the two later-use declarations:</p>
 <ul>
-<li><p>/llms.txt exists, begins with an H1 and blockquote summary, links resolve, descriptions are specific, the content licence is stated, and — where Markdown mirrors are published — both the HTML pages and their mirrors are linked</p>
-</li>
-<li><p>/llms.txt states ai-input=yes and separately states the search and training declarations</p>
-</li>
-<li><p>Where Markdown mirrors are published, they are generated from the rendered pages and identical in meaning to their HTML renderings</p>
-</li>
-<li><p>No layer of the stack challenges, blocks, degrades, delays, or cloaks a user-directed retrieval agent</p>
-</li>
-<li><p>Search indexers and training crawlers receive the behaviour declared for their own class, without either declaration being inferred from the other</p>
-</li>
-<li><p>Every mixed-use crawler receives the behaviour the publisher chose for it under the rule of §3.6, and the choice is stated in the file</p>
-</li>
-<li><p>Where the stack sits behind an edge that classifies traffic by purpose, the category covering sent agents is allowed on every public page, including any page that carries advertising</p>
-</li>
-<li><p>robots.txt, llms.txt, Content Signals, sitemap.xml, Markdown mirrors, any feed, host configuration, and served pages are mutually consistent</p>
-</li>
+<li>/llms.txt exists, begins with an H1 and blockquote summary, links resolve, descriptions are specific, the content licence is stated, and — where Markdown mirrors are published — both the HTML pages and their mirrors are linked</li>
+<li>/llms.txt states ai-input=yes and separately states the search and training declarations</li>
+<li>Where Markdown mirrors are published, they are generated from the rendered pages and identical in meaning to their HTML renderings</li>
+<li>No layer of the stack challenges, blocks, degrades, delays, or cloaks a user-directed retrieval agent</li>
+<li>Search indexers and training crawlers receive the behaviour declared for their own class, without either declaration being inferred from the other</li>
+<li>Every mixed-use crawler receives the behaviour the publisher chose for it under the rule of §3.6, and the choice is stated in the file</li>
+<li>Where the stack sits behind an edge that classifies traffic by purpose, the category covering sent agents is allowed on every public page, including any page that carries advertising</li>
+<li>robots.txt, llms.txt, Content Signals, sitemap.xml, Markdown mirrors, any feed, host configuration, and served pages are mutually consistent</li>
 </ul>
 <h3 id="45-visitor-preference-checks">4.5 Visitor Preference Checks</h3>
 <ul>
-<li><p>Set OS to dark mode: site renders appropriately</p>
-</li>
-<li><p>Set browser base font size to 200%: site renders without horizontal scrolling or content loss</p>
-</li>
-<li><p>Set OS to high contrast mode (prefers-contrast: more): text renders at AAA ratios and the site remains fully legible</p>
-</li>
-<li><p>Set OS to reduce motion: no animations play</p>
-</li>
-<li><p>Disable JavaScript: all content remains accessible</p>
-</li>
+<li>Set OS to dark mode: site renders appropriately</li>
+<li>Set browser base font size to 200%: site renders without horizontal scrolling or content loss</li>
+<li>Set OS to high contrast mode (prefers-contrast: more): text renders at AAA ratios and the site remains fully legible</li>
+<li>Set OS to reduce motion: no animations play</li>
+<li>Disable JavaScript: all content remains accessible</li>
 </ul>
 <h3 id="46-human-readability-check">4.6 Human Readability Check</h3>
 <p>A sighted human visitor navigating the site with no prior knowledge must be able to:</p>
 <ul>
-<li><p>Understand what the site is and who it belongs to within the first screen</p>
-</li>
-<li><p>Navigate to any major section without using search</p>
-</li>
-<li><p>Understand the purpose of every link before clicking it</p>
-</li>
-<li><p>Read all content without encountering visual treatment that obscures the meaning of the text</p>
-</li>
+<li>Understand what the site is and who it belongs to within the first screen</li>
+<li>Navigate to any major section without using search</li>
+<li>Understand the purpose of every link before clicking it</li>
+<li>Read all content without encountering visual treatment that obscures the meaning of the text</li>
 </ul>
 <h3 id="47-delivery-checks">4.7 Delivery Checks</h3>
 <p>Every check in §4.1 through §4.6 is performed against a document the checker has already successfully obtained. None can detect a Delivery Casualty (§1.8). This section can. It is performed from outside the repository, outside the build, and outside a browser you have already taught to trust you.</p>
