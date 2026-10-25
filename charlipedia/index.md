@@ -127,3 +127,4 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Tamsin](https://charli.info/charlipedia/tamsin/index.md): Tamsin is the Guide of the Museum Court, who designs what a visitor meets, beginning with the ordinary thing someone could no longer do.
 - [Tradblind](https://charli.info/charlipedia/tradblind/index.md): Tradblind is a movement in blind life that resists the industrialisation of blindness, and asks what if blindness was allowed to feel human again.
+- [The Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/index.md): The Tyrer Framework treats accessibility as information integrity, with a law, a civilisational scale, a doctrine and an account of the break AI makes, and is the theory beneath Carrados.
