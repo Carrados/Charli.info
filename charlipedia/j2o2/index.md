@@ -12,7 +12,7 @@ At the café car park, with eighty-nine per cent charge and a firmware update it
 
 ## Elsewhere
 
-On the poster for Glide Aid 2025, J2O2 appears reimagined as [Char](https://charli.info/charlipedia/char/)'s punk robot dog. The CharliVerse allows it.
+In [Firmware Not Fur](https://blind-ant.com/pieces/firmware-not-fur/) at Blind Ant, J2O2 is reimagined as a robot dog. In *Gliding Home for Christmas* he loses his signal in a blizzard, and his owner is found by the Golden Retriever Boyfriend she named in the margins of her school notebooks. On the poster for Glide Aid 2025 he is [Char](https://charli.info/charlipedia/char/)'s punk robot dog. The CharliVerse allows it.
 
 ## Behind the scenes
 
