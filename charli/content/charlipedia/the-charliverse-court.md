@@ -15,7 +15,7 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 - [Cass Flux](/charlipedia/cass-flux/), the poet-vandal.
 - [Cathryn Bigelow-Vision](/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](/charlipedia/lottie/), the community heart.
-- [Jo](/charlipedia/jo/), retired from active operations, who founded [First Layer](/charlipedia/first-layer/).
+- [Jo](/charlipedia/jo/), retired from active service, who founded [First Layer](/charlipedia/first-layer/).
 
 More members are on their way to CharliPedia.
 

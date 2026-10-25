@@ -4,7 +4,7 @@ description: Iceberg Hosiery is the CharliVerse's house of tights, and the paren
 status: stub
 ---
 
-**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](/charlipedia/first-layer/), the bridal house founded by Jo, who is retired from Iceberg, stocks Iceberg when a bride wants silence under the dress.
+**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](/charlipedia/first-layer/), the bridal house founded by [Jo](/charlipedia/jo/), who is retired from active service, stocks Iceberg when a bride wants silence under the dress.
 
 ## Behind the scenes
 

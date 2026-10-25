@@ -37,7 +37,7 @@ With collaborators and clients, she looks for engagement with the actual proposi
 
 [Char](/charlipedia/char/) often reaches the verdict before Alex has finished modelling the problem. Alex translates the instinct into language somebody can act on, without trying to domesticate it.
 
-[Jo](/charlipedia/jo/) is her operational counterpart in the Court's account of their work: strategy and readiness test each other. Jo's later retirement from active operations at Iceberg and her founding of First Layer remain part of that account.
+[Jo](/charlipedia/jo/) is her operational counterpart in the Court's account of their work: strategy and readiness test each other. Jo's retirement from active service and her founding of First Layer remain part of that account.
 
 Lily guards sustainability. Growth without care becomes collapse, and Lily's veto is absolute. Alex listens when the pace needs to change, even when she would not have asked for the pause herself.
 
