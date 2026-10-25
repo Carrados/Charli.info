@@ -9,6 +9,12 @@ The CharliVerse is a shared, evolving world. It holds people, companies, fashion
 
 It is a world, not a portfolio. Things happen here whether or not anyone announces them.
 
+## Three ways in
+
+- **Read a story:** [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/), at Blind Ant. A blind woman, a self-driving car, thirty metres of unmapped gravel and a friend with a guide dog.
+- **Explore the world:** [the CharliVerse Court](/charlipedia/the-charliverse-court/), a company of women who work together across the CharliVerse, then the rest of [CharliPedia](/charlipedia/).
+- **Learn a skill:** [Confident with AI](/training/confident-with-ai/), a self-study course for blind and partially sighted people using generative AI confidently, critically and safely. This part is real.
+
 ## Two practices
 
 Two practices work inside the CharliVerse.

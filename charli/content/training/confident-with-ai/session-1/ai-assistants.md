@@ -1,6 +1,7 @@
 ---
 title: AI Assistants
 description: A TAVIP handbook introducing ChatGPT, Claude, Copilot, Gemini and Grok, written by Charli-Jo Tyrer.
+license: CC BY 4.0
 ---
 
 [Session 1: Getting Useful Answers from AI](/training/confident-with-ai/session-1/)

@@ -1,6 +1,7 @@
 ---
 title: Know What You Are Holding
 description: Answer-shaped objects and the human judgement that makes them useful, by Charli-Jo Tyrer for TAVIP.
+license: CC BY 4.0
 ---
 
 [Session 1: Getting Useful Answers from AI](/training/confident-with-ai/session-1/)

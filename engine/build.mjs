@@ -53,7 +53,12 @@ marked.use({ renderer: { heading({ tokens, depth, text }) {
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const longDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 
+// Everything is CC BY-SA 4.0 unless a page says otherwise with `license:` in its frontmatter
+// (the TAVIP handbooks are CC BY 4.0, as they state), so the footer and metadata match the page.
+const LICENSES = { 'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/', 'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/' };
 function page(p, html) {
+  const lic = LICENSES[p.license] ? p.license : 'CC BY-SA 4.0';
+  const licUrl = LICENSES[lic];
   const url = p.canonical || SITE + p.path;
   const nav = cfg.nav.map(([href, label]) => {
     const here = href === '/' ? p.path === '/' : p.path.startsWith(href);
@@ -70,10 +75,10 @@ function page(p, html) {
 <title>${esc(p.title)}${p.path === '/' ? '' : ' — ' + esc(cfg.name)}</title>
 <meta name="description" content="${esc(p.description)}">
 <meta name="color-scheme" content="light dark">
-<meta name="dcterms.license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+<meta name="dcterms.license" content="${licUrl}">
 <link rel="canonical" href="${url}">
 <link rel="alternate" type="text/markdown" href="${p.mdPath}" title="This page as Markdown">
-<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="license" href="${licUrl}">
 <link rel="stylesheet" href="/styles.css">
 <meta property="og:title" content="${esc(p.title)}">
 <meta property="og:description" content="${esc(p.description)}">
@@ -94,7 +99,7 @@ ${html}
 </main>
 <footer class="site-footer">
   ${cfg.footer}
-  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
+  <p>${lic === 'CC BY-SA 4.0' ? 'Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.' : `This page is licensed <a href="${licUrl}">${lic}</a>, as it says above; everything else here is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`} People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
 </footer>
 </body>
 </html>
@@ -184,7 +189,7 @@ for (const f of extras) {
 const home = pages.find((p) => p.path === '/');
 // The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
 const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/';
-let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
+let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0 unless a page states otherwise (the TAVIP handbooks are CC BY 4.0). Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);
 let full = `# ${cfg.name}: the full text\n\n> ${home.description}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0.\n`;

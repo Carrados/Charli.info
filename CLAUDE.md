@@ -61,7 +61,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 - Built to the Zero Information Casualty (ZIC) standard: exactly one H1 per page (from the title; page text starts at `##`; the build refuses a `#` heading outside code), real headings, AAA contrast for body text, alt text on every picture, no sideways scroll at phone width.
 - Keep Charli-Jo's words as they wrote them. Fix obvious typos and say which ones you fixed.
-- Everything is CC BY-SA 4.0.
+- Everything is CC BY-SA 4.0, except where a page says otherwise with `license:` in its frontmatter (the two TAVIP handbooks, AI Assistants and Know What You Are Holding, are CC BY 4.0, as they state); the footer and metadata follow it.
 
 ## Publishing
 
