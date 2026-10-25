@@ -32,14 +32,18 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 - [Alex](https://charli.info/charlipedia/alex/index.md): Alex is the strategic intelligence of the CharliVerse Court and runs Seamiotics, turning ideas into practical direction and sustainable value.
 - [Arden](https://charli.info/charlipedia/arden/index.md): Arden holds the Office of Relation in VQ4, conducting the seams between fact, interpretation and embodied experience.
+- [The attention tax](https://charli.info/charlipedia/the-attention-tax/index.md): The attention tax is the small, continuous cost of wearing stockings under a short hem, and the idea that divides Iceberg Hosiery from Seamiotics.
 
 ### B
 
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
 - [Big Charli Satire Engine](https://charli.info/charlipedia/big-charli-satire-engine/index.md): The Big Charli Satire Engine is a reusable prompt specification that exposes a system's incentives by carrying its own logic half a step further.
+- [The Black Silk](https://charli.info/charlipedia/the-black-silk/index.md): The Black Silk is the black stocking of Seamiotics, the proper, expected garment the Bluestocking was defined against.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+- [The Bluestocking](https://charli.info/charlipedia/the-bluestocking/index.md): The Bluestocking is the signature stocking of Seamiotics, a sheer fountain-pen blue that evokes writing without ever depicting it.
 - [Born described](https://charli.info/charlipedia/born-described/index.md): Born described is the founding principle of the Museum of Access and Assistive Technology: language is the architecture, not an accommodation added afterwards.
+- [The Bride](https://charli.info/charlipedia/the-bride/index.md): The Bride is the occasion stocking of Seamiotics, a refined soft ivory offered Plain only, because a seam that has to survive a dress should be chosen with the dress in the room.
 
 ### C
 
@@ -88,9 +92,10 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 ### I
 
-- [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, founded on one line, comfort is not being overheard, and the parent house of Seamiotics.
 - [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
 - [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
+- [invisible](https://charli.info/charlipedia/invisible/index.md): invisible is the honest skin range shared by Iceberg Hosiery and Seamiotics, never called nude, never named, and always written with a lower-case i.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
@@ -117,6 +122,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### M
 
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
+- [Marginalia and Library](https://charli.info/charlipedia/marginalia-and-library/index.md): Marginalia and Library are the two welts every Seamiotics stocking comes in, priced the same, because the hidden detail is part of the garment.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
 - [The Museum Court](https://charli.info/charlipedia/the-museum-court/index.md): The Museum Court governs the Museum of Access and Assistive Technology: one Steward, Charlotte Joanne, and four staff who each see every question differently.
 - [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
@@ -128,6 +134,8 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 ### P
 
+- [Polar](https://charli.info/charlipedia/polar/index.md): Polar is the canonical Iceberg tight, pure white and explicitly not bridal, with Polar in black as its only variant.
+- [Polar Solstice](https://charli.info/charlipedia/polar-solstice/index.md): Polar Solstice is Iceberg Hosiery's first Run, a single sunrise travelling up one leg of a white tight.
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
 - [Position Principle](https://charli.info/charlipedia/position-principle/index.md): The Position Principle of the ZIC standard holds that equivalent access needs no identical interaction, only that every reader can reach the same position.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
@@ -139,19 +147,22 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 ### R
 
 - [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
+- [Red Pen](https://charli.info/charlipedia/red-pen/index.md): Red Pen is the Runs of Seamiotics, red seams and red fishnets below the hem, beginning with Aphra Behn and Dorothy Parker.
 - [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
 - [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
 - [Rungwell](https://charli.info/charlipedia/rungwell/index.md): Rungwell is the accessibility charity and consultancy whose maturity model is the best a Type 0 civilisation can do, and which Accessibility International succeeds.
+- [Runs](https://charli.info/charlipedia/runs/index.md): Runs are the limited editions of the House of Iceberg, named after the one word a hosiery house is supposed to fear.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 ### S
 
-- [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+- [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics, every seam means something, is Alex's stocking imprint within the House of Iceberg, built on the idea that what a woman says with her clothes, and to whom, is hers to decide.
 - [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
 - [Sent agent](https://charli.info/charlipedia/sent-agent/index.md): A sent agent is a machine reader acting on a present request from a person who is waiting for the result, and under ZIC refusing it is refusing them.
 - [Sheridan](https://charli.info/charlipedia/sheridan/index.md): Sheridan is the Head of Blind Ant Studios, the workshop where the Court's ideas stop being conversation and become tools blind people can actually use.
 - [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/index.md): Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
 - [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/index.md): Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
+- [The Signatures](https://charli.info/charlipedia/the-signatures/index.md): The Signatures are three Seamiotics stockings named in full for Ada Lovelace, George Eliot and Mary Wollstonecraft, each an answer to the word bluestocking.
 - [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/index.md): The Single-Sense Rule of the ZIC standard is one sentence: no information may be locked behind a single sense.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.

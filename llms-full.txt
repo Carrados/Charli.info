@@ -149,14 +149,18 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 - [Alex](https://charli.info/charlipedia/alex/index.md): Alex is the strategic intelligence of the CharliVerse Court and runs Seamiotics, turning ideas into practical direction and sustainable value.
 - [Arden](https://charli.info/charlipedia/arden/index.md): Arden holds the Office of Relation in VQ4, conducting the seams between fact, interpretation and embodied experience.
+- [The attention tax](https://charli.info/charlipedia/the-attention-tax/index.md): The attention tax is the small, continuous cost of wearing stockings under a short hem, and the idea that divides Iceberg Hosiery from Seamiotics.
 
 #### B
 
 - [Big Charli](https://charli.info/charlipedia/big-charli/index.md): Big Charli drops into the work of the CharliVerse when somebody needs telling, from Aegis Dynamics' brand meetings to the morning after Emma Heart's Paralympic gold.
 - [Big Charli Satire Engine](https://charli.info/charlipedia/big-charli-satire-engine/index.md): The Big Charli Satire Engine is a reusable prompt specification that exposes a system's incentives by carrying its own logic half a step further.
+- [The Black Silk](https://charli.info/charlipedia/the-black-silk/index.md): The Black Silk is the black stocking of Seamiotics, the proper, expected garment the Bluestocking was defined against.
 - [The Blind AI](https://charli.info/charlipedia/the-blind-ai/index.md): The Blind AI publishes reports on what AI can actually do for blind people right now, and employs Lucy Love-Child as its Agent Wars correspondent.
 - [Blind Ant](https://charli.info/charlipedia/blind-ant/index.md): Blind Ant is Charlotte Joanne's design fiction practice, where much of the CharliVerse is first written down, and where every picture's description comes first.
+- [The Bluestocking](https://charli.info/charlipedia/the-bluestocking/index.md): The Bluestocking is the signature stocking of Seamiotics, a sheer fountain-pen blue that evokes writing without ever depicting it.
 - [Born described](https://charli.info/charlipedia/born-described/index.md): Born described is the founding principle of the Museum of Access and Assistive Technology: language is the architecture, not an accommodation added afterwards.
+- [The Bride](https://charli.info/charlipedia/the-bride/index.md): The Bride is the occasion stocking of Seamiotics, a refined soft ivory offered Plain only, because a seam that has to survive a dress should be chosen with the dress in the room.
 
 #### C
 
@@ -205,9 +209,10 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 #### I
 
-- [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+- [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/index.md): Iceberg Hosiery is the CharliVerse's house of tights, founded on one line, comfort is not being overheard, and the parent house of Seamiotics.
 - [The immediate duty and the two later permissions](https://charli.info/charlipedia/immediate-duty-and-two-later-permissions/index.md): Under the ZIC standard, sent agents must be served now, while search indexing and model training are two separate later decisions for the publisher.
 - [Information casualty](https://charli.info/charlipedia/information-casualty/index.md): An information casualty is an event in which relevant information fails to reach an observer in time to inform perception, action or participation.
+- [invisible](https://charli.info/charlipedia/invisible/index.md): invisible is the honest skin range shared by Iceberg Hosiery and Seamiotics, never called nude, never named, and always written with a lower-case i.
 - [Iris](https://charli.info/charlipedia/iris/index.md): Iris is the Cataloguer of the Museum Court, who organises the collection by the capabilities people regained or were denied, not by device.
 - [Isla Leask](https://charli.info/charlipedia/isla-leask/index.md): Isla Leask certified drone swarms for the aviation regulator through most of the 2030s, then went back to flying the ten to seven out of Dyce, like her mother.
 
@@ -234,6 +239,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### M
 
 - [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/index.md): Madison McDonnell, the Access Provocateur, makes accessibility sexy, insisting that blind women are entitled to temptation, pleasure and style.
+- [Marginalia and Library](https://charli.info/charlipedia/marginalia-and-library/index.md): Marginalia and Library are the two welts every Seamiotics stocking comes in, priced the same, because the hidden detail is part of the garment.
 - [Morag Leask](https://charli.info/charlipedia/morag-leask/index.md): Morag Leask flew the ten to seven helicopter out of Dyce for thirty-four years, carrying drillers, then decommissioning crews, then compute technicians.
 - [The Museum Court](https://charli.info/charlipedia/the-museum-court/index.md): The Museum Court governs the Museum of Access and Assistive Technology: one Steward, Charlotte Joanne, and four staff who each see every question differently.
 - [Museum of Access and Assistive Technology](https://charli.info/charlipedia/museum-of-access-and-assistive-technology/index.md): The Museum of Access and Assistive Technology preserves what assistive devices were like to live with, not just the devices; its café is where the CharliVerse meets.
@@ -245,6 +251,8 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 #### P
 
+- [Polar](https://charli.info/charlipedia/polar/index.md): Polar is the canonical Iceberg tight, pure white and explicitly not bridal, with Polar in black as its only variant.
+- [Polar Solstice](https://charli.info/charlipedia/polar-solstice/index.md): Polar Solstice is Iceberg Hosiery's first Run, a single sunrise travelling up one leg of a white tight.
 - [Poppy Petticoats](https://charli.info/charlipedia/poppy-petticoats/index.md): Poppy is a blind witch, nicknamed Poppy Petticoats at the Academy, who also turns up at Aegis Dynamics as Big Charli’s expert in what women actually want.
 - [Position Principle](https://charli.info/charlipedia/position-principle/index.md): The Position Principle of the ZIC standard holds that equivalent access needs no identical interaction, only that every reader can reach the same position.
 - [PostAccessibility](https://charli.info/charlipedia/postaccessibility/index.md): PostAccessibility is a movement asking what if the interface itself was the accessibility problem, and answering that the API is the UI.
@@ -256,19 +264,22 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 #### R
 
 - [Reconstruction Casualty](https://charli.info/charlipedia/reconstruction-casualty/index.md): A Reconstruction Casualty happens when a machine reader reads a document, silently reconstructs its meaning wrong, and reports the result with confidence.
+- [Red Pen](https://charli.info/charlipedia/red-pen/index.md): Red Pen is the Runs of Seamiotics, red seams and red fishnets below the hem, beginning with Aphra Behn and Dorothy Parker.
 - [Rendering Casualty](https://charli.info/charlipedia/rendering-casualty/index.md): A Rendering Casualty happens when a document arrives and is admitted, but its meaning is encoded in a way the observer cannot decode.
 - [Right to Inspect](https://charli.info/charlipedia/right-to-inspect/index.md): The Right to Inspect holds that no user should have to accept a generated interpretation they cannot interrogate.
 - [Rungwell](https://charli.info/charlipedia/rungwell/index.md): Rungwell is the accessibility charity and consultancy whose maturity model is the best a Type 0 civilisation can do, and which Accessibility International succeeds.
+- [Runs](https://charli.info/charlipedia/runs/index.md): Runs are the limited editions of the House of Iceberg, named after the one word a hosiery house is supposed to fear.
 - [Ruth](https://charli.info/charlipedia/ruth/index.md): Ruth is the Archivist of the Museum Court, who preserves the boundary between what life was like before a technology arrived and after it.
 
 #### S
 
-- [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+- [Seamiotics](https://charli.info/charlipedia/seamiotics/index.md): Seamiotics, every seam means something, is Alex's stocking imprint within the House of Iceberg, built on the idea that what a woman says with her clothes, and to whom, is hers to decide.
 - [SEE SAW](https://charli.info/charlipedia/see-saw/index.md): SEE SAW is a podcast about what independence means when technology can do almost anything for us, presented by Ellie Seeley and Sam Sawyer, who agree on rather less than you might expect.
 - [Sent agent](https://charli.info/charlipedia/sent-agent/index.md): A sent agent is a machine reader acting on a present request from a person who is waiting for the result, and under ZIC refusing it is refusing them.
 - [Sheridan](https://charli.info/charlipedia/sheridan/index.md): Sheridan is the Head of Blind Ant Studios, the workshop where the Court's ideas stop being conversation and become tools blind people can actually use.
 - [Sideways Breakthroughs](https://charli.info/charlipedia/sideways-breakthroughs/index.md): Sideways Breakthroughs is the strand of the Museum of Access and Assistive Technology for mainstream systems that were never built for access and delivered it anyway.
 - [Sight as a Service](https://charli.info/charlipedia/sight-as-a-service/index.md): Sight as a Service is the strand of the Museum of Access and Assistive Technology for the human infrastructure of access: readers, guides and support workers.
+- [The Signatures](https://charli.info/charlipedia/the-signatures/index.md): The Signatures are three Seamiotics stockings named in full for Ada Lovelace, George Eliot and Mary Wollstonecraft, each an answer to the word bluestocking.
 - [Single-Sense Rule](https://charli.info/charlipedia/single-sense-rule/index.md): The Single-Sense Rule of the ZIC standard is one sentence: no information may be locked behind a single sense.
 - [Skerry Alpha](https://charli.info/charlipedia/skerry-alpha/index.md): Skerry Alpha is the North Sea oil platform that became the first training rig, ringed by compute pods sixty metres down.
 - [Speculative Accessibility](https://charli.info/charlipedia/speculative-accessibility/index.md): Speculative Accessibility is the genre that asks what happens when the tools built for the margins become the infrastructure for everyone.
@@ -1617,15 +1628,59 @@ Address: https://charli.info/charlipedia/iceberg-hosiery/
 
 ## Iceberg Hosiery
 
-> Iceberg Hosiery is the CharliVerse's house of tights, and the parent house of Seamiotics, the stocking imprint whose every seam means something.
+> Iceberg Hosiery is the CharliVerse's house of tights, founded on one line, comfort is not being overheard, and the parent house of Seamiotics.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](https://charli.info/charlipedia/first-layer/), the bridal house founded by [Jo](https://charli.info/charlipedia/jo/), who is retired from active service, stocks Iceberg when a bride wants silence under the dress.
+**Iceberg Hosiery** is a house of tights, and the parent house of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, its stocking imprint. Its founding line is *comfort is not being overheard*.
+
+> The finest tights are the ones you stop thinking about.
+
+### The one idea
+
+The house begins with a question: why wear fashion tights at all? The first answer is comfort. The real answer arrived with a jumper dress. Under that dress a bare leg is a sentence, and a stockinged leg is a louder one. Tights mute the channel. The leg says nothing, and the dress gets to be the whole conversation.
+
+Comfort is not softness. It is the freedom from wondering what your legs might be saying: "Comfort is the absence of unnecessary vigilance."
+
+The founding anecdote is about a short dress, and that is not incidental. Iceberg tights are what a woman reaches for when she has chosen a short skirt or dress, including a very short one. Choose your dress, as short as you like, put on Iceberg, and relax. The house never says this in its advertising. It is the part of the iceberg below the waterline: known to the house, carried by its name and pages, never narrated on the surface.
+
+### Tights are outerwear
+
+Tights are always outerwear: not semi-underwear, not lingerie shelved beside the knickers, but outerwear at every point on the garment and at every hour of the day. A stocking is outerwear with an underwear component, the welt, attached at the top. "A tight has one honest surface. A stocking has two, and a border between them."
+
+So a tight cannot say anything by accident, at any hem length. That is what Iceberg sells: not a safer answer to [the attention tax](https://charli.info/charlipedia/the-attention-tax/), but the removal of the question.
+
+### The range
+
+- **[Polar](https://charli.info/charlipedia/polar/)**, the canonical Iceberg tight, pure white and explicitly not bridal, and **Polar in black**, never "Polar Black".
+- **[invisible](https://charli.info/charlipedia/invisible/)**, the honest skin range, planned for a later launch.
+- **[Runs](https://charli.info/charlipedia/runs/)**, limited prints on Polar white, beginning with [Polar Solstice](https://charli.info/charlipedia/polar-solstice/).
+
+There are two weights: 40 denier for spring and summer, 60 denier for autumn and winter. The seasons change the weight, not the colours. The parent carries no named women; they all belong to the imprint.
+
+#### Why there is no sheer tight
+
+40 denier is a floor, not a compromise. Under a very short dress a tight is on view for longer and from more angles, and below 40 denier it stops muting the leg. And white, the house's signature, goes translucent and grey below about 30 denier, reading as an accident rather than a choice. The honest cost is warmth: 40 denier in June is a real garment on a real leg. The alternative to a heavier tight is not a lighter one; it is a stocking, and the tax that comes with it.
+
+### What Iceberg does not make
+
+No bridal tights, seamed tights, mock stocking tops, trompe-l'œil suspenders, fishnets, or anything that imitates a stocking. "If a seam is the point, wear stockings." A painted welt on a tight would manufacture, for decoration, the exact accident the house exists to remove.
+
+### Price
+
+Forty pounds a pair for every permanent piece, across both houses; sixty-five for a Run. The premium runs vertically, between permanent and limited, never between the houses: pricing stockings above tights would say silence is the cheaper proposition. The parent's healthy margin carries the imprint's thin one, the way publishing has always worked: "the trade list pays for the poetry."
+
+### The look
+
+A white field, which is Polar made into a publishing surface. The masthead is centred at the head in the house blue-green, a deep petrol teal, cold seawater rather than tropical turquoise: glacial ice is blue because water takes the red light in and never gives it back. The house mark sits at the foot, to the right: a single black shape, a low asymmetric peak on a flat base, the tip that shows. It is built as a font and typed as a lower-case i, set at the same size as the name.
+
+### Still open
+
+The exact teal, the body typeface, the photographic brief, a holiday Run on Polar white (a tree, reindeer or presents are all possible), what to do about laddering at forty pounds a pair, and where a bride in a very short dress who wants silence should go. [First Layer](https://charli.info/charlipedia/first-layer/), which stocks both houses, is the likely answer.
 
 ### Behind the scenes
 
-Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. This entry follows the House of Iceberg Bible, version 7, which covers the parent house alone. "Intentionwear" was proposed as a category word and left out by the Bible; the house only uses real words doing second jobs. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
 
 ---
 
@@ -1695,6 +1750,31 @@ The definition is one; the classes are where it breaks.
 ### Behind the scenes
 
 A real idea, defined in [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/) (Part One) by Charli-Jo Tyrer, and divided into four classes in [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/) (§1.8). This entry summarises them; the documents are the authority.
+
+---
+
+Address: https://charli.info/charlipedia/invisible/
+
+## invisible
+
+> invisible is the honest skin range shared by Iceberg Hosiery and Seamiotics, never called nude, never named, and always written with a lower-case i.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**invisible** is the honest skin range of the House of Iceberg, and the one product line [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) and [Seamiotics](https://charli.info/charlipedia/seamiotics/) hold identically. It is a house value, not a brand gimmick.
+
+- **Never "nude".** Its purpose is not to imitate one skin tone but to disappear gracefully against the wearer's own.
+- **A true range,** across many complexions, rather than a single pale beige pretending to be universal.
+- **Never named.** Its shades are never given women's names. Attaching a historical woman to a particular complexion would ask which skin gets to be the clever one, which is indefensible. The named women describe colours that are no one's skin.
+- **Always lower-case,** in every typographic treatment, and never seasonal. It is a range rather than a piece.
+
+At Seamiotics, the seam on an invisible stocking is matched to the leg, or there is no seam at all.
+
+At Iceberg, invisible is part of the permanent range but its launch is deliberately held back until it can offer a credible range across complexions. "The house would rather ship it late than ship it dishonestly."
+
+### Behind the scenes
+
+invisible is set out in the House of Iceberg Bible, version 7, and the Seamiotics Bible, version 1.4.
 
 ---
 
@@ -2199,6 +2279,31 @@ Madison is a character who speaks for [Carrados](https://charli.info/charlipedia
 
 ---
 
+Address: https://charli.info/charlipedia/marginalia-and-library/
+
+## Marginalia and Library
+
+> Marginalia and Library are the two welts every Seamiotics stocking comes in, priced the same, because the hidden detail is part of the garment.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Marginalia** and **Library** are the two welts of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something. Every design comes in one or the other, and neither is standard.
+
+- **Marginalia:** fine white lace with white embroidered detailing, inspired by the margins of beautifully printed books: not literal writing, but the texture of notes and illumination.
+- **Library:** a perfectly tailored plain welt, minimal, architectural and beautifully finished.
+
+The welt sets how much there is to read. She decides whether it is read. Marginalia says more than Library when it is read, but that is a fact about the welt, not a forecast about the woman. A richly detailed welt can stay her own knowledge all day; a plain one can be shown on purpose. "Library is not a promise of discretion." A woman who wants to be read without being decorated has chosen well.
+
+Both welts cost the same. A house that charged extra for Marginalia would have made the welts hierarchical at the till, whatever its prose said, "and is selling a woman her own secret."
+
+Both are built to take a suspender clip without laddering, at a point she can find by touch, and Marginalia's lace is never where the clip bites.
+
+### Behind the scenes
+
+The welts are described in the Seamiotics Bible, version 1.4.
+
+---
+
 Address: https://charli.info/charlipedia/morag-leask/
 
 ## Morag Leask
@@ -2334,6 +2439,48 @@ In September 2026 the largest edge network began recommending, by default, that 
 ### Behind the scenes
 
 A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.6 and §2.2. This entry summarises it; the standard is the authority. charli.info was the first site to operationalise the Open Door.
+
+---
+
+Address: https://charli.info/charlipedia/polar-solstice/
+
+## Polar Solstice
+
+> Polar Solstice is Iceberg Hosiery's first Run, a single sunrise travelling up one leg of a white tight.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Polar Solstice** is the inaugural [Run](https://charli.info/charlipedia/runs/) of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/), released at the summer solstice in 40 denier.
+
+A moment of light on an endless white field: a low sun and its reflection travelling up one leg in pale gold, apricot and diluted rose. The rays and ripples deliberately rhyme with a run climbing the leg, so the wearer's dreaded flaw becomes the arrival of light. It is recognisable as light before it is understood as a clever idea.
+
+> One leg. One sunrise. One limited run.
+
+Its name follows the family pattern: [Polar](https://charli.info/charlipedia/polar/), then the name of the Run. Light is the idea of this edition, not a rule for every edition after it.
+
+### Behind the scenes
+
+Polar Solstice is described in the House of Iceberg Bible, version 7. It was first called Polar Sunrise; that name is retired.
+
+---
+
+Address: https://charli.info/charlipedia/polar/
+
+## Polar
+
+> Polar is the canonical Iceberg tight, pure white and explicitly not bridal, with Polar in black as its only variant.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Polar** is the canonical [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) tight: pure white, and explicitly not bridal. Its one variant is black, and it is always called **Polar in black**, never Polar Black. White is the founding surface; black is the same proposition in another colour.
+
+White is the difficult colour. Below about 30 denier a white tight goes translucent and greys against the skin, so making white the signature set the construction for everything else: Polar is 40 denier in spring and summer and 60 in autumn and winter, and never sheerer.
+
+Polar white is also where Iceberg prints its [Runs](https://charli.info/charlipedia/runs/), beginning with [Polar Solstice](https://charli.info/charlipedia/polar-solstice/). Polar in black has no Runs: variants do not get editions. And the house's own pages are Polar too: a white field with a black mark at the foot, Polar in black at the foot of Polar white.
+
+### Behind the scenes
+
+Polar is described in the House of Iceberg Bible, version 7. Polar Sunrise was an earlier name for the first Run and is retired.
 
 ---
 
@@ -2644,6 +2791,34 @@ A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/z
 
 ---
 
+Address: https://charli.info/charlipedia/red-pen/
+
+## Red Pen
+
+> Red Pen is the Runs of Seamiotics, red seams and red fishnets below the hem, beginning with Aphra Behn and Dorothy Parker.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Red Pen** is the name for the [Runs](https://charli.info/charlipedia/runs/) of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something: the red ink, the correction, the marginal NB, the line drawn precisely so the eye goes there. Red Pen pieces live below the hem, in the public conversation, addressed to the room. A Red Pen piece earns a woman's name the way a Signature does: "formidable first, unmissable second, never the other way round."
+
+### Aphra Behn
+
+The inaugural Run. [The Black Silk](https://charli.info/charlipedia/the-black-silk/) leg with a red seam, drawn precisely so the eye goes there. Seamed only: without the seam, she is The Black Silk. Both welts. Named for the first Englishwoman to make a living by her pen, and a working spy under the codename Astrea: "formidable long before she is anything else."
+
+### Dorothy Parker
+
+The winter Run: a red fishnet, for the party season, gone in January. Standard, with a red seam, or Plain; never a black seam on a red fishnet. Both welts. The mesh is the edition: the red made total, the exact negative of [invisible](https://charli.info/charlipedia/invisible/), and the inversion of George Eliot. "Eliot kept a name that declined to explain her; Parker explained herself continuously, at volume, and was no more accessible for it. Two opposite techniques, one outcome: nobody gets in." The house makes no black fishnet.
+
+### Release
+
+Behn and Parker open the Runs together, mid-season in autumn and winter 2027. Parker goes in January; Behn stays. Issued in one drop they explain each other: Behn is one red line, and Parker is the red taken to its limit for one season and then withdrawn.
+
+### Behind the scenes
+
+Red Pen is described in the Seamiotics Bible, version 1.4. Aphra Behn and Dorothy Parker are real historical women; the stockings are fictional, and the women are given no words. Parker's mesh, yarn and heel are still to be specified, and Run pricing is held at sixty-five pounds until the house confirms it.
+
+---
+
 Address: https://charli.info/charlipedia/rendering-casualty/
 
 ## Rendering Casualty
@@ -2708,6 +2883,36 @@ Rungwell appears in [From Retrofit to Sovereignty](https://blind-ant.com/pieces/
 
 ---
 
+Address: https://charli.info/charlipedia/runs/
+
+## Runs
+
+> Runs are the limited editions of the House of Iceberg, named after the one word a hosiery house is supposed to fear.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Runs** are the limited editions of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) and [Seamiotics](https://charli.info/charlipedia/seamiotics/). They are named, on purpose, after the one word a hosiery house is supposed to fear. A run is the ladder you dread; a run is the batch you queue for. The house reclaims its worst word as its rarest: the defect becomes the edition.
+
+> A run breaks one law, in one direction, for one reader.
+
+The law counts directions, not properties. A Run may change several things at once, provided they all say the same thing louder. If it breaks in every direction, it is not a run; it is a fault.
+
+Runs happen when there is a piece worth making. There is no quota, no monthly novelty and no seasonal slot to fill. A Run costs sixty-five pounds, because an edition is a different kind of purchase, not a dearer version of the same one.
+
+### Iceberg's Runs
+
+Prints on [Polar](https://charli.info/charlipedia/polar/) white, in the season's weight and never lighter, so the image holds under stretch. They are public: the parent has no private register. The first is [Polar Solstice](https://charli.info/charlipedia/polar-solstice/); a holiday print is being explored.
+
+### Seamiotics' Runs
+
+Red seams and red fishnets, below the hem, addressed to the room: the [Red Pen](https://charli.info/charlipedia/red-pen/). Every Run is offered in both welts, because the welt belongs to the wearer, not to the edition.
+
+### Behind the scenes
+
+Runs are set out in the House of Iceberg Bible, version 7, and the Seamiotics Bible, version 1.4. Laddering itself, the real thing, is still an open commercial question for both houses.
+
+---
+
 Address: https://charli.info/charlipedia/ruth/
 
 ## Ruth
@@ -2744,17 +2949,65 @@ Address: https://charli.info/charlipedia/seamiotics/
 
 ## Seamiotics
 
-> Seamiotics is the stocking imprint of Iceberg Hosiery, and its name never travels without its founding line, every seam means something.
+> Seamiotics, every seam means something, is Alex's stocking imprint within the House of Iceberg, built on the idea that what a woman says with her clothes, and to whom, is hers to decide.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/). Its name is a play on semiotics, the study of signs, and the back seam of a traditional stocking. It is run by [Alex](https://charli.info/charlipedia/alex/), of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/).
+**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/), run by [Alex](https://charli.info/charlipedia/alex/) of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/).
 
-Its Bride, white with a blue bow at each ankle, is stocked by [First Layer](https://charli.info/charlipedia/first-layer/), the bridal house, when a bride wants her stockings to mean something.
+> It is madness to say that a woman's choice of what to wear says nothing.
+
+Clothes communicate, sometimes deliberately, sometimes despite us. A woman cannot settle every interpretation of her appearance, but she can know her own intention: the line, the colour, the detail and the audience she has in mind. The work of Seamiotics is precise communication, and the precision is the house's to supply, not a standard she has to meet. She may put on a pair because she likes them and never give a reason to anyone, herself included. "The house does the thinking; the woman gets to wear the clothes."
+
+### An imprint
+
+The name is seam and semiotics, the study of signs, applied to a line drawn down the back of a leg. It never appears without its founding line, because the wordplay can't be relied on in speech, in search or in a screen reader: the line carries the meaning instead.
+
+"Imprint" is the exact word. The house is built from the language of books (the Bluestocking, the Signatures, Marginalia, Library, Runs, the colophon), so it doesn't resemble a publishing imprint; it is one, a named list beneath a parent house. The quiet house contains the house that speaks. Iceberg removes one channel by default; Seamiotics opens it by choice: "Mute by default; speak by edition."
+
+### The hemline
+
+The hemline separates two conversations. Below it is the public sentence: colour, seam, the relationship with the skirt and shoes, which any room may read. Above it, the welt holds a detail she may keep entirely to herself. "Private pleasure needs no second reader to justify it." The hem is hers to set, and the imprint assumes no length. Its honest account of what that costs is [the attention tax](https://charli.info/charlipedia/the-attention-tax/).
+
+Being read by the room is only part of it. A woman who cannot see her seam still knows where it runs: she placed it there, and she can find it with a fingertip. The house writes for that knowledge first and for the room second.
+
+### The garment
+
+The signature construction is a 20-denier sheer, made in Italy under private label to the imprint's own design, colour, seam logic and finish. Every permanent piece comes in **Standard**, with a back seam, or **Plain**, with none, and in either of two welts, [Marginalia or Library](https://charli.info/charlipedia/marginalia-and-library/). Neither choice is the lesser one, and they cost the same.
+
+### The collection
+
+- **[The Bluestocking](https://charli.info/charlipedia/the-bluestocking/)**, the signature, where the colour is the concept.
+- **[The Signatures](https://charli.info/charlipedia/the-signatures/)**: Ada Lovelace, George Eliot and Mary Wollstonecraft.
+- **[The Black Silk](https://charli.info/charlipedia/the-black-silk/)**, the imprint's black.
+- **[The Bride](https://charli.info/charlipedia/the-bride/)**, an occasion stocking.
+- **[invisible](https://charli.info/charlipedia/invisible/)**, the honest skin range, shared with Iceberg.
+- **[Red Pen](https://charli.info/charlipedia/red-pen/)**, the [Runs](https://charli.info/charlipedia/runs/): Aphra Behn and Dorothy Parker.
+
+Every name belongs to one of three registers. **Women**, always by full name: "A colour called Mary is a nice name; a colour called Mary Wollstonecraft is an argument." **Objects and occasions**: The Bluestocking, The Black Silk, The Bride. **The ethic**: invisible, never named. The names are an open door, not a reading list. A woman who knows nothing about Ada Lovelace has bought exactly the same stocking as one who has read the Notes.
+
+Forty pounds a pair for every permanent piece, the same as Iceberg; sixty-five for a Run.
+
+### In the drawer
+
+A stocking is chosen once and worn many times, mostly after the packet has gone. Every pair should be chosen, identified, put on and cared for independently, whether or not she can see it.
+
+- Every piece is described in words as fully as a photograph would show it.
+- The colophon card in the packet gives piece, construction, welt, size, denier, fibre, mill, colour and care, in large print, in braille and in a form a phone can read aloud.
+- Each pair carries its identity on the garment, readable by touch, so Ada Lovelace can be told from Mary Wollstonecraft in the dark. A phone-readable label may be added; it can never replace the tactile mark.
+- Both welts take a suspender clip without laddering, at a place findable by touch, and care instructions are written out in words as well as symbols.
+
+### For agents
+
+Seamiotics publishes itself to be read by agents as well as people, and one rule governs every recommendation: **her priorities govern the recommendation**. If she asks for stockings, she is shown stockings; an agent does not quietly substitute Iceberg tights because it has decided less vigilance would be better for her. An agent may mention that the other house exists. It may not use that to correct her.
+
+### Still open
+
+The imprint's visual identity, Run pricing, whether the accounts really let the parent carry the imprint, Dorothy Parker's mesh and yarn, whether the stockings are fully fashioned, whether The Bride belongs here or at [First Layer](https://charli.info/charlipedia/first-layer/), first-edition language, laddering, and how the tactile mark is made.
 
 ### Behind the scenes
 
-Seamiotics belongs to the CharliVerse. By house rule, its name always appears with its founding line, "every seam means something". Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
+Seamiotics belongs to the CharliVerse. This entry follows the Seamiotics Bible, version 1.4, of 23 September 2026, which supersedes its founding material. An earlier conceal register, Endpapers, is not part of the current Bible. By house rule, the name always appears with its founding line. Its web home is [seamiotics.charli.info](https://seamiotics.charli.info/).
 
 ---
 
@@ -3044,6 +3297,67 @@ This entry is drawn from the Museum Court Soul Document, version four. By the Co
 
 ---
 
+Address: https://charli.info/charlipedia/the-attention-tax/
+
+## The attention tax
+
+> The attention tax is the small, continuous cost of wearing stockings under a short hem, and the idea that divides Iceberg Hosiery from Seamiotics.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The attention tax** is what stockings cost under a short hem: getting out of a car, sitting on a low sofa, reaching for something high, crossing and uncrossing. "Not a hazard, not a mistake: a tax, payable in small amounts all day, whether or not it is ever collected." It is the idea on which the House of Iceberg divides into two houses.
+
+### Two surfaces and a border
+
+Tights are outerwear, entirely. A stocking is outerwear with an underwear component attached at the top: the welt. A tight has one surface; a stocking has two, and a border between them. That border is the source of the stocking's second conversation, and of its price.
+
+### Two terms
+
+The tax has two terms, and only one belongs to the house.
+
+1. **How likely the welt is to be seen.** That is set by the garment and the hem. It is the house's business, and it will be described plainly.
+2. **What being seen means to her, in that room, on that day.** That is set by the wearer, and it is not the house's business at all.
+
+The second term changes from woman to woman, and for the same woman across one week. At work it may be near the top of what she would rather not broadcast. At her own wedding, among people who know exactly what she is wearing, it may be close to nothing. On an evening planned for one person, it may be the point. A woman who wears a very short dress over stockings has done her own arithmetic, and she is right, because it is her bill.
+
+### Overheard, or delivered
+
+[Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) calls the unintended glimpse *being overheard*: a welt is an utterance with an intended reader, and when a short hem shows it to people it wasn't meant for, a sentence has reached an audience she did not choose. "She sat down. The sentence carried." [Seamiotics](https://charli.info/charlipedia/seamiotics/) accepts that and adds the other half: a sentence that reaches the audience she did choose has not been overheard. It has been delivered.
+
+### The two controls
+
+Seamiotics gives the wearer two controls and a cost. Hem length sets how likely she is to be read; the welt sets how much there is to read when she is. Neither sets whether she wants to be read. Only she does that.
+
+Iceberg gives her no controls and no cost. The channel is muted at any hem length. It doesn't offer a safer answer to the question; it removes the question. Seamiotics is for the days she wants the question back.
+
+### Behind the scenes
+
+The attention tax is set out in the House of Iceberg Bible, version 7, and the Seamiotics Bible, version 1.4, each from its own side.
+
+---
+
+Address: https://charli.info/charlipedia/the-black-silk/
+
+## The Black Silk
+
+> The Black Silk is the black stocking of Seamiotics, the proper, expected garment the Bluestocking was defined against.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Black Silk** is the black of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, and the other half of its founding story. The black silk is the garment the blue was defined against: the proper thing, the expected thing, already in the room before the rebellion walked in.
+
+A black leg with a black seam, or Plain: black, unseamed, nothing to explain. Both welts. It is not a filler colour and it does not belong to a woman. It belongs to the story that gave the imprint its name, which is why it sits with [The Bluestocking](https://charli.info/charlipedia/the-bluestocking/) and [The Bride](https://charli.info/charlipedia/the-bride/) rather than with [the Signatures](https://charli.info/charlipedia/the-signatures/).
+
+That is also why Mary Wollstonecraft is not the black. "She is black that has been thought about. The Black Silk is black that has not needed to be."
+
+The Black Silk leg is the ground of the first [Red Pen](https://charli.info/charlipedia/red-pen/) Run, Aphra Behn.
+
+### Behind the scenes
+
+The Black Silk is described in the Seamiotics Bible, version 1.4.
+
+---
+
 Address: https://charli.info/charlipedia/the-blind-ai/
 
 ## The Blind AI
@@ -3059,6 +3373,58 @@ On 23 September 2026 it took on [Lucy Love-Child](https://charli.info/charlipedi
 ### Behind the scenes
 
 The Blind AI is real. Its posts are published on Facebook and as the [Reports](https://carrados.com/reports/) of [Carrados](https://charli.info/charlipedia/carrados/), and its logo heads the correspondents' desks. Lucy, who works for it, is a character who speaks for Carrados.
+
+---
+
+Address: https://charli.info/charlipedia/the-bluestocking/
+
+## The Bluestocking
+
+> The Bluestocking is the signature stocking of Seamiotics, a sheer fountain-pen blue that evokes writing without ever depicting it.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Bluestocking** is the signature of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, and the proof of its method: here the colour is the concept.
+
+A sheer fountain-pen blue, with the back seam, heel and reinforced toe in a richer ink blue, the colour ink becomes where it pools and dries. A stocking that evokes writing without ever depicting it: literate, composed, unmistakable to those who notice the ink. In Plain, the fountain-pen blue leg keeps its ink-blue heel and toe, and loses only the seam.
+
+### Where the word came from
+
+The Blue Stockings Society met in London from the 1750s, around Elizabeth Montagu and Elizabeth Vesey, and took its name from a garment. Benjamin Stillingfleet came in everyday blue worsted rather than formal black silk, and the informality became the badge. The word that would later mean an unfeminine woman began as a man's cheap wool stocking.
+
+Within a century it had curdled. A bluestocking was no longer good company but a woman whose cleverness had cost her something. The house returns the word to the object.
+
+The Bluestocking is the seed the rest of the imprint grew from. [The Signatures](https://charli.info/charlipedia/the-signatures/) are its descendants, and [The Black Silk](https://charli.info/charlipedia/the-black-silk/) is the garment it was defined against.
+
+### Behind the scenes
+
+The Bluestocking is described in the Seamiotics Bible, version 1.4. The Blue Stockings Society, Montagu, Vesey and Stillingfleet are real history.
+
+---
+
+Address: https://charli.info/charlipedia/the-bride/
+
+## The Bride
+
+> The Bride is the occasion stocking of Seamiotics, a refined soft ivory offered Plain only, because a seam that has to survive a dress should be chosen with the dress in the room.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Bride** is always simply The Bride: the occasion stocking of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something. A refined soft ivory, an occasion stocking rather than a novelty, elegant enough to become part of the memory of the day. Both welts; Plain only.
+
+### Why Plain
+
+Every seam Seamiotics makes argues on its own account and asks nothing of the garment above it. A bridal seam cannot. It enters the one field the dress has already claimed, the back, where a wedding dress puts its most expensive work, and the imprint has never seen the dress. "A seam that has to survive a dress should be chosen with the dress in the room." [First Layer](https://charli.info/charlipedia/first-layer/) has the dress; Seamiotics does not.
+
+### Why ivory
+
+[Polar](https://charli.info/charlipedia/polar/) white already belongs to Iceberg, and is explicitly not bridal. White is also the harder colour in a 20-denier sheer, greying against the skin and photographing badly on the one day that matters most.
+
+A wedding is a long day of sitting, cars, low chairs and photographers below eye level. Some brides will want the welt kept to themselves, and some will want it seen by one person at the end of the day. The house takes no view on either.
+
+### Behind the scenes
+
+The Bride is described in the Seamiotics Bible, version 1.4, which leaves open whether The Bride belongs in Seamiotics at all, or whether the imprint should supply First Layer and let the occasion be composed there.
 
 ---
 
@@ -3182,6 +3548,30 @@ The Court keeps a record of its sessions, as evidence of how its members think r
 ### Behind the scenes
 
 This entry is drawn from the Museum Court Soul Document, version four. The staff have no surnames, and CharliPedia doesn't give them any. The museum is digital and unbuilt: its planned opening, its staff email addresses and the building the Court imagined are plans and imaginings, not things that have happened.
+
+---
+
+Address: https://charli.info/charlipedia/the-signatures/
+
+## The Signatures
+
+> The Signatures are three Seamiotics stockings named in full for Ada Lovelace, George Eliot and Mary Wollstonecraft, each an answer to the word bluestocking.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**The Signatures** are three permanent stockings of [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, descended from [The Bluestocking](https://charli.info/charlipedia/the-bluestocking/). The women they are named for are three separate answers to the charge the word bluestocking came to carry: work in collaboration, decline to explain, argue for better conditions.
+
+The house states who they were once, and never explains again: Ada Lovelace, 1815 to 1852, mathematician, who wrote the first algorithm intended for a machine; George Eliot, 1819 to 1880, born Mary Ann Evans, novelist; Mary Wollstonecraft, 1759 to 1797, author of *A Vindication of the Rights of Woman*.
+
+- **Ada Lovelace:** a cool precision grey, the back seam drawn a shade darker and exact, a ruled line like an axis on a diagram. Plain: the grey leg with the darker heel and toe.
+- **George Eliot:** a warm vanishing greige, the seam tone-on-tone, refusing to announce itself. Named for the woman who kept the name after everyone knew whose it was: by then the name wasn't hiding her, it was setting her terms. "The George Eliot seam fools nobody and is not an absent seam. It is a seam that declines to explain itself." Plain: greige, tone-on-tone heel and toe.
+- **Mary Wollstonecraft:** a serious barely-black, "black that has been thought about", with the deepest seam of the three, the authority line. Plain: the barely-black leg with the deepest heel and toe.
+
+In Plain, colour, heel and toe carry each Signature's identity; in Standard, the seam adds its particular expression. Neither is the lesser version. The names are always given in full: full names make each piece an argument, and a distinct entity a machine can reason about.
+
+### Behind the scenes
+
+The Signatures are described in the Seamiotics Bible, version 1.4. Lovelace, Eliot and Wollstonecraft are real historical women; the stockings are fictional, and the women are given no words.
 
 ---
 
