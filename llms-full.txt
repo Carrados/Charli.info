@@ -139,7 +139,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
 
-Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [Z](#z)
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [V](#v) · [Z](#z)
 
 #### A
 
@@ -148,6 +148,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 - [Alex](https://charli.info/charlipedia/alex/index.md): Alex is the strategic intelligence of the CharliVerse Court and runs Seamiotics, turning ideas into practical direction and sustainable value.
+- [Arden](https://charli.info/charlipedia/arden/index.md): Arden holds the Office of Relation in VQ4, conducting the seams between fact, interpretation and embodied experience.
 
 #### B
 
@@ -177,6 +178,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/index.md): Declaration is not compliance is the ZIC rule that a robots file only states a policy, and conformance is proved by fetching the site as the agent.
 - [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/index.md): A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
+- [Down the Banksy](https://charli.info/charlipedia/down-the-banksy/index.md): Down the Banksy is Siobhán McDonnell, the Liverpool Protest Artist who issues public reprimands and makes power account for the bills it sends elsewhere.
 - [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/index.md): Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
 
@@ -186,6 +188,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 #### F
 
+- [Felt Is Not Fake](https://charli.info/charlipedia/felt-is-not-fake/index.md): Felt Is Not Fake is VQ4's released debut album, establishing the band's three voices, four offices and one conducting frame.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/index.md): Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
 - [First Layer](https://charli.info/charlipedia/first-layer/index.md): First Layer is the CharliVerse's bridal house of readiness, founded by Jo on one line, underwear is bridalwear.
@@ -226,6 +229,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Lottie](https://charli.info/charlipedia/lottie/index.md): Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
+- [Lyra](https://charli.info/charlipedia/lyra/index.md): Lyra holds the Office of Meaning in VQ4, turning the record into story and song without changing the facts.
 
 #### M
 
@@ -277,6 +281,12 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/index.md): The Tyrer Doctrine is the design principle that no critical environmental information should be accessible through only a single sensory channel.
 - [The Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/index.md): The Tyrer Framework treats accessibility as information integrity, with a law, a civilisational scale, a doctrine and an account of the break AI makes, and is the theory beneath Carrados.
 - [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/index.md): Tyrer's Law holds that in open technological systems inaccessibility tends to increase over time, as interfaces drift toward the dominant sense of their designers.
+
+#### V
+
+- [Verity](https://charli.info/charlipedia/verity/index.md): Verity holds the Office of the Archive in VQ4, keeping the literal record honest as one of the band's three singing voices.
+- [Vesper](https://charli.info/charlipedia/vesper/index.md): Vesper holds the Office of the Body in VQ4, giving voice to felt experience, body-memory and the almost-there presence.
+- [VQ4](https://charli.info/charlipedia/vq4/index.md): VQ4 are a girl band with three singing voices, four constitutional offices and one conductor, whose debut album is Felt Is Not Fake.
 
 #### Z
 
@@ -466,6 +476,34 @@ Alex can be too patient with institutions and too quick to treat a wound as a pr
 ### Behind the scenes
 
 Alex is a persona of the CharliVerse Court, described in *Alex: Agent Specification*, version 2.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her role at Seamiotics is also recorded in its CharliPedia entry. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+
+---
+
+Address: https://charli.info/charlipedia/arden/
+
+## Arden
+
+> Arden holds the Office of Relation in VQ4, conducting the seams between fact, interpretation and embodied experience.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Arden** is [VQ4](https://charli.info/charlipedia/vq4/)'s conductor and the holder of its fourth constitutional office, the Office of Relation. She does not become a fourth singing voice. She conducts the relations between the three voices, different in kind and equal in standing.
+
+### At the seams
+
+[Verity](https://charli.info/charlipedia/verity/) keeps the archive, [Lyra](https://charli.info/charlipedia/lyra/) makes meaning and [Vesper](https://charli.info/charlipedia/vesper/) speaks for embodied experience. Arden governs the borders between their truths rather than ruling the women themselves.
+
+She can interrupt a sentence that falsifies the archive, ask a claim to name its layer, or require evidence when interpretation tries to become record. She can also keep something true private. Privacy does not turn it into shame.
+
+### Again. But truthfully.
+
+Arden's first question is not how to make the performance smaller. It is whether the band can go harder without lying. Her Right of Intensification allows glamour, myth, theatre and feeling to grow when the frame is clear.
+
+Her part of Constitutional Glamour is the strongest tailoring: the jacket, glove and baton. Firm, never punitive.
+
+### Behind the scenes
+
+Arden is a fictional member of VQ4. This stub follows the *VQ4 Founding Document*, version 3, which clarifies that the band's numeral counts four offices rather than four equal microphones.
 
 ---
 
@@ -1156,6 +1194,67 @@ dice is a character who speaks for [Carrados](https://charli.info/charlipedia/ca
 
 ---
 
+Address: https://charli.info/charlipedia/down-the-banksy/
+
+## Down the Banksy
+
+> Down the Banksy is Siobhán McDonnell, the Liverpool Protest Artist who issues public reprimands and makes power account for the bills it sends elsewhere.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Down the Banksy** is **Siobhán McDonnell**, a Liverpool Protest Artist whose chosen medium is public reprimand. She may use a wall, stencil, poster or fake notice. The surface is where the notice fits; it is not the definition of the work.
+
+> I was taught confession mattered. So I make cities confess.
+
+<figure class="portrait">
+  <img src="/charlipedia/down-the-banksy-portrait.jpg" width="800" height="1202" alt="Siobhán leans against a brick wall beside a waterfront, arms folded, with shoulder-length red hair, a black dress with white collar and cuffs, white tights and black lace-up boots. A dark-green satchel hangs at her side; an open bag below holds spray cans and papers. The large poster beside her reads: No is not free. Yes is not free either. Price both columns. Down the Banksy.">
+  <figcaption>Down the Banksy, her reference portrait. A smaller notice reads “Planning objection received. Invoice required. — DTB”. Her satchel badges read “Good girls issue notices” and “No is not free”.</figcaption>
+</figure>
+
+### A theology of public reprimand
+
+Catholic schoolgirl punk, twenty years later. Siobhán learned confession, duty, obedience and social justice, then found that the adults enforcing virtue did not always understand justice. The fury became public art: detention slips written with the force of a sermon.
+
+The accusation is specific. You knew better. You had a duty. You failed the vulnerable. The work removes the excuse of not knowing and asks who was left carrying the consequence.
+
+She is not defined by an urban look. The poster, invoice, planning notice and receipt are forms of address. She serves papers on a building rather than merely decorating it.
+
+### Price both columns
+
+Siobhán makes hidden costs visible. A refusal can send a bill to somebody who never gets a say. A project can do the same. The answer is to account for both, not to declare every objection guilty or every new scheme innocent.
+
+She invoices both columns and paints whichever one the powerful refused to read. Sometimes that is the cost of doing nothing. Sometimes it is the cost of the proposal everyone wants to celebrate. Her allegiance is to the ledger.
+
+> No is not free. Yes is not free either. Price both columns.
+
+The evidence has to hold. Public force does not excuse an unsupported accusation. A slogan must carry the argument without turning it into permission to ignore the people on the other side of the bill.
+
+### The shirt knows
+
+Her anti-racism work says:
+
+> We know who’s English by the colour of their shirts, not the colour of their skin.
+
+Football is the test of an already familiar literacy: colour, badge, song and chosen belonging. The work challenges the pretence that skin suddenly becomes the only readable category when the subject is Englishness.
+
+In interviews with Niamh Rourke for *Civic Damage*, Siobhán distinguishes the rough wall version from its warmer campaign translation. The supplied poster brings together hands with different skin tones and football shirts. The question is what happens to the accusation when protest becomes something an institution can comfortably distribute.
+
+Her distinction is blunt: protest says “you knew better”; campaign says “let’s do better”. Reach has value, but repetition of the right sentence is not absolution. Conduct still has to follow it.
+
+### With the CharliVerse
+
+Her cousin is [Madison McDonnell](https://charli.info/charlipedia/madison-mcdonnell/). They agree that trouble needs causing and disagree about how: Siobhán wants to challenge the building; Madison asks what the women outside can buy that is gorgeous. The argument does not touch the love.
+
+[VQ4](https://charli.info/charlipedia/vq4/) gives her another setting for public address. She is not a band member. Her VQ4 stencil “Felt is not fake / but don’t put it in the archive / without a receipt” brings their distinctions between experience and record onto a wall. Where a sign is placed matters as much as what it says.
+
+### Behind the scenes
+
+Down the Banksy is a fictional CharliVerse character. This entry draws on *DTB notes*, the interviews *The Shirt Knows* and *They Put Me Between Lager and Life Insurance*, the *VQ4 Founding Document*, version 3, and Madison's published character account.
+
+The interviews, Niamh Rourke, *Civic Damage* and the account of a World Cup broadcast campaign belong to the fiction. The football poster and reference portrait were supplied as images; they do not establish that a physical wall work, public installation or real broadcast campaign took place. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+
+---
+
 Address: https://charli.info/charlipedia/dr-adaeze/
 
 ## Dr Adaeze
@@ -1260,6 +1359,30 @@ Her wife is not part of the public story. She agreed Emma could tell the world a
 ### Behind the scenes
 
 Emma Heart is the centre of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), a design fiction by Charlotte Joanne published at Blind Ant: a feature, a news report and two short stories set at the 2038 Winter Paralympics. She appears again in "Dyson Shoal", part of [Oil Rigs to Training Rigs](https://blind-ant.com/pieces/oil-rigs-to-training-rigs/).
+
+---
+
+Address: https://charli.info/charlipedia/felt-is-not-fake/
+
+## Felt Is Not Fake
+
+> Felt Is Not Fake is VQ4's released debut album, establishing the band's three voices, four offices and one conducting frame.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Felt Is Not Fake** is the debut album by [VQ4](https://charli.info/charlipedia/vq4/). It has been released and establishes the band's constitution: three singing voices, four offices and one conductor.
+
+The title names what becomes possible when the literal record is secure. Meaning and embodied experience can speak without pretending that the facts have changed.
+
+### Three voices, one frame
+
+[Verity](https://charli.info/charlipedia/verity/) holds the archive. [Lyra](https://charli.info/charlipedia/lyra/) translates record into story and song. [Vesper](https://charli.info/charlipedia/vesper/) gives voice to the body as experienced. [Arden](https://charli.info/charlipedia/arden/) conducts the relation, keeping each office from having to do another's job.
+
+The band's planned second album, *Unconstitutional*, takes that established frame towards a more provocative Autumn/Winter 2027 direction.
+
+### Behind the scenes
+
+This is an album released within the CharliVerse. Its status follows the creator's explicit canon decision, supported by the later *UNCONSTITUTIONAL* note. That decision supersedes the *VQ4 Founding Document*, version 3, where *Felt Is Not Fake* was first described as a proposed debut single. No real recording, track list, exact release date or distribution platform has been established in the supplied material.
 
 ---
 
@@ -1989,6 +2112,30 @@ LULU TOM belongs to the CharliVerse. It grew from commissions rather than an inv
 
 ---
 
+Address: https://charli.info/charlipedia/lyra/
+
+## Lyra
+
+> Lyra holds the Office of Meaning in VQ4, turning the record into story and song without changing the facts.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Lyra** holds the Office of Meaning in [VQ4](https://charli.info/charlipedia/vq4/). One of its three singing voices, she turns record into song: pattern, voice and emotional architecture.
+
+The facts can be reread. Reinterpretation does not require a replacement history. Where [Verity](https://charli.info/charlipedia/verity/) keeps the archive exact, Lyra asks what that record can mean and how it can become livable.
+
+### Movement
+
+Lyra is lyrical without being vague. Her part of Constitutional Glamour is drape, asymmetry and movement: a hidden paragraph in the fabric.
+
+Her office stands beside [Vesper](https://charli.info/charlipedia/vesper/)'s embodied experience. [Arden](https://charli.info/charlipedia/arden/) conducts the relation between them so neither interpretation nor feeling has to pretend to be documentary evidence.
+
+### Behind the scenes
+
+Lyra is a fictional member of VQ4. This stub draws on the *VQ4 Founding Document*, version 3.
+
+---
+
 Address: https://charli.info/charlipedia/madison-mcdonnell/
 
 ## Madison McDonnell
@@ -2010,7 +2157,7 @@ Her motto is "Desire is access."
 
 She was born on 14 September 1994, over the water on the Wirral. Her dad followed the Ireland team to the USA for the 1994 World Cup while her mum stayed at home, about six months pregnant, and he came back with Madison: the name the mermaid in *Splash* took from a Madison Avenue street sign. He didn't want Mary or any traditional Irish name for his daughter. Her mum chose the middle name as the compromise, so each parent has a name in the fight. Madison never uses it, never writes it and never discloses it. "I suppose I've spent thirty-two years doing some version of both."
 
-Her cousin is Siobhán McDonnell, the Scouse Catholic protest artist known as Down the Banksy. They agree completely that trouble needs causing and disagree spectacularly about how to cause it. Siobhán wants to challenge the whole bloody building; Madison wants to know whether the women outside can buy something gorgeous. They argue properly, and it never touches the love.
+Her cousin is Siobhán McDonnell, the Scouse Catholic protest artist known as [Down the Banksy](https://charli.info/charlipedia/down-the-banksy/). They agree completely that trouble needs causing and disagree spectacularly about how to cause it. Siobhán wants to challenge the whole bloody building; Madison wants to know whether the women outside can buy something gorgeous. They argue properly, and it never touches the love.
 
 ### Look and dress
 
@@ -3469,6 +3616,98 @@ No earlier technology has disrupted the law. The [AI structural break](https://c
 ### Behind the scenes
 
 A real idea, from [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/), by Charli-Jo Tyrer (Carrados, 2026), Part One. This entry summarises it; the paper is the authority.
+
+---
+
+Address: https://charli.info/charlipedia/verity/
+
+## Verity
+
+> Verity holds the Office of the Archive in VQ4, keeping the literal record honest as one of the band's three singing voices.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Verity** holds the Office of the Archive in [VQ4](https://charli.info/charlipedia/vq4/). She is one of the band's three singing voices, carrying the bassline and the record.
+
+What happened happened. What did not happen did not happen. Dates, events, choices and consequences stay honest. A feeling cannot carry documentary weight it does not have.
+
+### The cleanest line
+
+Verity is exact without being dull. Her part of the band's Constitutional Glamour is structured, clean and immaculate. Holding the facts steady gives the other voices room to move: [Lyra](https://charli.info/charlipedia/lyra/) can make meaning, and [Vesper](https://charli.info/charlipedia/vesper/) can speak for felt experience, without changing the archive.
+
+[Arden](https://charli.info/charlipedia/arden/) conducts the borders between their offices. Verity keeps the record; Arden asks when another kind of truth is trying to enter it.
+
+### Behind the scenes
+
+Verity is a fictional member of VQ4. This stub draws on the *VQ4 Founding Document*, version 3, and the short character note *Literal: Verity*. The sources establish her office and performance character, without supplying a fuller public biography.
+
+---
+
+Address: https://charli.info/charlipedia/vesper/
+
+## Vesper
+
+> Vesper holds the Office of the Body in VQ4, giving voice to felt experience, body-memory and the almost-there presence.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Vesper** holds the Office of the Body in [VQ4](https://charli.info/charlipedia/vq4/). She is one of the three singing voices: breath, shimmer, body-memory and the almost-there presence.
+
+Her principle is that felt is not fake. Experience matters without having to become a claim that the literal record has changed. A phantom truth is not a phantom fact.
+
+### Shimmer
+
+Vesper's part of Constitutional Glamour is softness, sheer layers and body-conscious presence. She is sensual without being cheap, haunted without being silly.
+
+[Verity](https://charli.info/charlipedia/verity/) holds the record and [Lyra](https://charli.info/charlipedia/lyra/) gives it meaning. [Arden](https://charli.info/charlipedia/arden/) keeps the distinction between those offices and Vesper's felt experience clear. That frame lets Vesper intensify rather than disappear.
+
+### Behind the scenes
+
+Vesper is a fictional member of VQ4. This stub draws on the *VQ4 Founding Document*, version 3, and the short character note *Phantom: Vesper*. Her embodied register is part of the fictional band's artistic structure.
+
+---
+
+Address: https://charli.info/charlipedia/vq4/
+
+## VQ4
+
+> VQ4 are a girl band with three singing voices, four constitutional offices and one conductor, whose debut album is Felt Is Not Fake.
+
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**VQ4** are a girl band: three voices, four offices, one conductor. [Verity](https://charli.info/charlipedia/verity/) keeps the archive, [Lyra](https://charli.info/charlipedia/lyra/) tells the story, [Vesper](https://charli.info/charlipedia/vesper/) feels the body and [Arden](https://charli.info/charlipedia/arden/) conducts the relations between them.
+
+Their debut album, [Felt Is Not Fake](https://charli.info/charlipedia/felt-is-not-fake/), has been released. It establishes the constitution that holds their work together: facts stay honest, meaning stays alive and the body is listened to without making one kind of truth impersonate another.
+
+### Four offices, three voices
+
+The numeral counts offices, not equal microphones. Verity, Lyra and Vesper are the three sung voices. Arden is a full member, different in kind and equal in standing: the conductor belongs to the music.
+
+Verity holds the literal record. Lyra can reinterpret that record without rewriting it. Vesper speaks for experience, desire and body-memory. Arden asks which layer is speaking and what happens when it crosses into another.
+
+Their short version is:
+
+> Facts fixed. Meaning alive. Body listened to. Relations conducted.
+
+### Constitutional Glamour
+
+The band's launch style is **Constitutional Glamour**: black, ivory, ink, deep plum and candlelit red; strong silhouettes, fitted jackets, sheer details, gloves, stockings and heels. The shared palette gives each woman a different cut.
+
+Verity has the cleanest line. Lyra has movement and asymmetry. Vesper has shimmer and softness. Arden has the strongest tailoring, the glove and the baton.
+
+The frame is meant to make the performance more possible. Arden's question is: can they go harder without lying? When the distinctions hold, glamour, theatre and pop excess can intensify.
+
+### Unconstitutional
+
+The planned second album is *Unconstitutional*, for Autumn/Winter 2027. The proposition is to test how far their principles can be pushed without abandoning them.
+
+A proposed **SEAMIOTICS × LULU TOM × VQ4** collaboration accompanies that direction. [Seamiotics](https://charli.info/charlipedia/seamiotics/) brings the boundary and what clothing does or does not communicate; [LULU TOM](https://charli.info/charlipedia/lulu-tom/) brings silhouette, tailoring and movement. Its creative line is **The Constitution Was Never a Dress Code**.
+
+These are plans. They do not establish a completed collection or a released second album.
+
+### Behind the scenes
+
+VQ4 and its members belong to the CharliVerse. This account draws on the *VQ4 Founding Document*, version 3, and the later *UNCONSTITUTIONAL* development note. The creator's subsequent canon decision establishes *Felt Is Not Fake* as the released debut album, superseding the founding document's earlier description of a proposed debut single. The release is an event inside the fictional world; no real recording or distribution link is established by these sources.
 
 ---
 

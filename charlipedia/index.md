@@ -22,7 +22,7 @@ CharliPedia is a source of continuity, not an authority. The CharliVerse is allo
 
 Entries are in alphabetical order, under a level 3 heading for each letter, so you can move between letters with your screen reader's heading keys, or use the letter links. A leading "The" is ignored, so The Blind AI is under B.
 
-Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [Z](#z)
+Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [V](#v) · [Z](#z)
 
 ### A
 
@@ -31,6 +31,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Aegis Dynamics](https://charli.info/charlipedia/aegis-dynamics/index.md): Aegis Dynamics is a defence contractor that redeployed its DeathBot 2000 combat series to theatre audio description, tried to sell the same machine to homes, families and funerals, and later built the field Emma Heart raced with.
 - [AI structural break](https://charli.info/charlipedia/ai-structural-break/index.md): The AI structural break is the Tyrer Framework's claim that AI is the first technology able to weaken Tyrer's Law, and that which way it goes is a choice.
 - [Alex](https://charli.info/charlipedia/alex/index.md): Alex is the strategic intelligence of the CharliVerse Court and runs Seamiotics, turning ideas into practical direction and sustainable value.
+- [Arden](https://charli.info/charlipedia/arden/index.md): Arden holds the Office of Relation in VQ4, conducting the seams between fact, interpretation and embodied experience.
 
 ### B
 
@@ -60,6 +61,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Declaration is not compliance](https://charli.info/charlipedia/declaration-is-not-compliance/index.md): Declaration is not compliance is the ZIC rule that a robots file only states a policy, and conformance is proved by fetching the site as the agent.
 - [Delivery Casualty](https://charli.info/charlipedia/delivery-casualty/index.md): A Delivery Casualty happens when the document exists and the observer is welcome, but it never arrives.
 - [dice](https://charli.info/charlipedia/dice/index.md): dice, Amanda Dyson, is a temporal explorer who lives in the patches of the future that have already arrived, and comes back to report what she found.
+- [Down the Banksy](https://charli.info/charlipedia/down-the-banksy/index.md): Down the Banksy is Siobhán McDonnell, the Liverpool Protest Artist who issues public reprimands and makes power account for the bills it sends elsewhere.
 - [Dr Adaeze](https://charli.info/charlipedia/dr-adaeze/index.md): Dr Adaeze is the Historian of the Museum Court, who insists that the history of assistive technology is a history of lives, not inventors.
 - [Dyson Shoal](https://charli.info/charlipedia/dyson-shoal/index.md): The Dyson Shoal is 7,680 compute pods spread across the floor of the central North Sea, trained on whenever the wind blows.
 
@@ -69,6 +71,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 ### F
 
+- [Felt Is Not Fake](https://charli.info/charlipedia/felt-is-not-fake/index.md): Felt Is Not Fake is VQ4's released debut album, establishing the band's three voices, four offices and one conducting frame.
 - [The field](https://charli.info/charlipedia/the-field/index.md): The field, officially the Distributed Tactile Spatial Environment, turns eight drones' model of a mountain into pressure across a skier's body.
 - [Fiona Gauld](https://charli.info/charlipedia/fiona-gauld/index.md): Fiona Gauld is the subsea engineer who founded Haar Compute and took the idea of oil rigs to training rigs to investors in 2029.
 - [First Layer](https://charli.info/charlipedia/first-layer/index.md): First Layer is the CharliVerse's bridal house of readiness, founded by Jo on one line, underwear is bridalwear.
@@ -109,6 +112,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Lottie](https://charli.info/charlipedia/lottie/index.md): Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
+- [Lyra](https://charli.info/charlipedia/lyra/index.md): Lyra holds the Office of Meaning in VQ4, turning the record into story and song without changing the facts.
 
 ### M
 
@@ -160,6 +164,12 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 - [Tyrer Doctrine](https://charli.info/charlipedia/tyrer-doctrine/index.md): The Tyrer Doctrine is the design principle that no critical environmental information should be accessible through only a single sensory channel.
 - [The Tyrer Framework](https://charli.info/charlipedia/tyrer-framework/index.md): The Tyrer Framework treats accessibility as information integrity, with a law, a civilisational scale, a doctrine and an account of the break AI makes, and is the theory beneath Carrados.
 - [Tyrer's Law](https://charli.info/charlipedia/tyrers-law/index.md): Tyrer's Law holds that in open technological systems inaccessibility tends to increase over time, as interfaces drift toward the dominant sense of their designers.
+
+### V
+
+- [Verity](https://charli.info/charlipedia/verity/index.md): Verity holds the Office of the Archive in VQ4, keeping the literal record honest as one of the band's three singing voices.
+- [Vesper](https://charli.info/charlipedia/vesper/index.md): Vesper holds the Office of the Body in VQ4, giving voice to felt experience, body-memory and the almost-there presence.
+- [VQ4](https://charli.info/charlipedia/vq4/index.md): VQ4 are a girl band with three singing voices, four constitutional offices and one conductor, whose debut album is Felt Is Not Fake.
 
 ### Z
 
