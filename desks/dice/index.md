@@ -20,6 +20,7 @@ For dice, the future is not a destination; it is a geography. Her reports are cl
 
 ## Reports
 
+- [Human in the loop? Human at the laptop…](https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/index.md) (25 October 2026): After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 - [Human in the loop? Human in bed.](https://carrados.com/reports/human-in-the-loop-human-in-bed/index.md) (25 October 2026): A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.
 - [Please state the nature of the accessibility emergency](https://carrados.com/reports/please-state-the-nature-of-the-accessibility-emergency/index.md) (22 September 2026): Two ordinary questions, an AI agent that followed the task across email and a website and checked it had finished, and a glimpse of what agentic computing can feel like for a blind person.
 

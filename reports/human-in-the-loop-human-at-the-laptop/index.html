@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Human in the loop? Human at the laptop… — Carrados</title>
+<meta name="description" content="After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.">
+<meta name="color-scheme" content="light dark">
+<meta name="dcterms.license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="canonical" href="https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/">
+<link rel="alternate" type="text/markdown" href="/reports/human-in-the-loop-human-at-the-laptop/index.md" title="This page as Markdown">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="Human in the loop? Human at the laptop…">
+<meta property="og:description" content="After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.">
+<meta property="og:url" content="https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/">
+<meta property="og:site_name" content="Carrados">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <a class="site-name" href="/"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M85.2,20.4 A46,46 0 1 0 85.2,79.6 L76,71.9 A34,34 0 1 1 76,28.1 Z"/><path d="M24,61 Q48,40 72,61 Q48,82 24,61 Z"/><circle cx="48" cy="61" r="7.5"/><path d="M48,44 V37 M38.5,46.5 L35,40.5 M57.5,46.5 L61,40.5 M31,52 L26,48 M65,52 L70,48"/></svg><span class="name-block"><span class="name">Carrados</span><span class="tagline">Insight Without Sight</span></span></a>
+  <nav aria-label="Main"><ul><li><a href="/reports/" aria-current="page">Reports</a></li><li><a href="/papers/">Papers</a></li><li><a href="/perspectives/">Perspectives</a></li><li><a href="/about/">About</a></li></ul></nav>
+</header>
+<main id="main">
+  <h1>Human in the loop? Human at the laptop…</h1>
+  <p class="page-meta">dice, temporal explorer · <time datetime="2026-10-25">25 October 2026</time></p>
+  <div class="prose">
+<p>By breakfast, <a href="https://blind-ant.com/">Charlotte Joanne</a> had fixed an accessibility problem from bed, using her voice and an AI agent. Four websites repaired, three minutes, no code.</p>
+<p>Then she got up.</p>
+<p>She decided to check the <a href="https://blind-ant.com/pieces/mostly-tuesdays/">Mostly Tuesdays</a> page with <a href="https://wave.webaim.org/">WAVE</a>, the WebAIM accessibility checker. One more problem turned up: a redundant link.</p>
+<p>At the top of <a href="https://blind-ant.com/pieces/mostly-tuesdays/the-meeting/">The Meeting</a>, a link went back to Mostly Tuesdays. At the bottom, another link went to the same place. A whole story separated them, but WAVE still flagged the repetition.</p>
+<p><a href="https://claude.ai/">Claude</a>&#39;s own checker had missed it. It only looked for links immediately next to each other.</p>
+<p>So, Claude fixed the checker.</p>
+<p>Then it ran the corrected checker across all 198 pages on four websites. Twenty-five pages had the same problem.</p>
+<p>Seven Blind Ant Objects lost unnecessary &quot;Back to&quot; links. The fictional email addresses in <a href="https://blind-ant.com/pieces/see-saw/">SEE SAW</a> stopped behaving like real email links. An Aegis Dynamics press address became plain text, which was sensible because the fictional company&#39;s domain might belong to someone real.</p>
+<p>Course pages on charli.info lost duplicate links. Cathryn&#39;s <a href="https://charli.info/charlipedia/">CharliPedia</a> entry stopped linking to Lottie twice. Carrados reports were corrected. The 404 page was tidied up.</p>
+<p>Claude rebuilt, checked and published the lot.</p>
+<p>The first problem had been in the website. The second was in the tool that was supposed to find problems in the website.</p>
+<p>That&#39;s a more interesting failure.</p>
+<p>Yesterday Charlotte Joanne tested the websites against the <a href="/papers/zic-design-standard/">Zero Information Casualty</a> standard and found they needed fixing. This morning she tested the results with VoiceOver, found another problem, and had it fixed from bed. Then she used WAVE and caught something the agent&#39;s checker had missed.</p>
+<p>Each time, the testing changed the machinery, not just the page.</p>
+<p>This is what human oversight looks like when it works. The human doesn&#39;t have to inspect 198 pages or repair 25 of them. She has to notice that something is wrong, insist that it matters, and check whether the correction worked.</p>
+<p>And the agent has to be willing to discover that its own tests were inadequate.</p>
+<p><a href="/reports/human-in-the-loop-human-in-bed/">Human in the loop? Human in bed.</a></p>
+<p>Human at the laptop.</p>
+<p>Still the same human. Still making the decisions.</p>
+<p>The computer is getting rather good at doing the operating. It&#39;s also getting plenty of opportunities to learn what it missed.</p>
+<p>And it isn&#39;t lunchtime yet.</p>
+<p class="character-note">dice is a character who speaks for <a href="/">Carrados</a>. She's fictional. Her work isn't.</p>
+
+  </div>
+</main>
+<footer class="site-footer">
+  <p>Carrados is the work of Charli-Jo Tyrer: accessibility as information integrity, and reports from the frontier of accessibility AI. Built to the <a href="/papers/zic-design-standard/">Zero Information Casualty</a> standard. Their design fiction lives at <a href="https://blind-ant.com/">Blind Ant</a>, and the CharliVerse at <a href="https://charli.info/">charli.info</a>.</p>
+  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="/reports/human-in-the-loop-human-at-the-laptop/index.md">this page as Markdown</a>.</p>
+</footer>
+</body>
+</html>

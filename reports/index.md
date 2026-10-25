@@ -4,6 +4,7 @@
 
 Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
 
+- [Human in the loop? Human at the laptop…](https://carrados.com/reports/human-in-the-loop-human-at-the-laptop/index.md) (25 October 2026): After fixing one accessibility problem from bed, Charlotte Joanne ran WAVE and caught something the AI agent's own checker had missed, and the checker was fixed too.
 - [Human in the loop? Human in bed.](https://carrados.com/reports/human-in-the-loop-human-in-bed/index.md) (25 October 2026): A screen reader read a list twice, an AI agent fixed four websites from a voice message, and the human who found the bug never got out of bed.
 - [Except Why I'd Want One](https://carrados.com/reports/except-why-id-want-one/index.md) (9 October 2026): Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader, and loses an argument about corsets.
 - [Flip the AI toggle and feel righteous](https://carrados.com/reports/flip-the-ai-toggle-and-feel-righteous/index.md) (7 October 2026): Buttondown's new switch to block AI from newsletter archives is careful engineering under a frightened headline, and the one reader it forgets is the agent a subscriber sends.
