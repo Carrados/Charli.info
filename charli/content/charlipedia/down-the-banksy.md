@@ -47,7 +47,7 @@ Her distinction is blunt: protest says “you knew better”; campaign says “l
 
 Her cousin is [Madison McDonnell](/charlipedia/madison-mcdonnell/). They agree that trouble needs causing and disagree about how: Siobhán wants to challenge the building; Madison asks what the women outside can buy that is gorgeous. The argument does not touch the love.
 
-VQ4 gives her another setting for public address. She is not a band member. Her VQ4 stencil “Felt is not fake / but don’t put it in the archive / without a receipt” brings their distinctions between experience and record onto a wall. Where a sign is placed matters as much as what it says.
+[VQ4](/charlipedia/vq4/) gives her another setting for public address. She is not a band member. Her VQ4 stencil “Felt is not fake / but don’t put it in the archive / without a receipt” brings their distinctions between experience and record onto a wall. Where a sign is placed matters as much as what it says.
 
 ## Behind the scenes
 
