@@ -12,6 +12,7 @@ These portraits are generated images, to be swapped for Blender renders as they 
 - charlipedia/cathryn-bigelow-vision-portrait.jpg (Court)
 - charlipedia/lottie-portrait.jpg (Court)
 - charlipedia/alex-portrait.jpg (Court)
+- charlipedia/big-charli-portrait.jpg (Court)
 - charlipedia/char-portrait.jpg (Court)
 - charlipedia/jo-portrait.jpg (Court)
 - charlipedia/cass-flux-portrait.jpg (Court)
