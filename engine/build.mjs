@@ -191,5 +191,14 @@ let full = `# ${cfg.name}: the full text\n\n> ${home.description}\n\n${DECLARE}\
 for (const p of listed) full += `\n---\n\nAddress: ${SITE}${p.path}\n\n${(await readFile(join(dist, p.mdPath), 'utf8')).replace(/^# /, '## ').replace(/\n(#{1,5}) /g, '\n#$1 ')}`;
 await writeFile(join(dist, 'llms-full.txt'), full);
 await writeFile(join(dist, 'robots.txt'), (await readFile(join(root, 'engine', 'robots.txt'), 'utf8')) + `Sitemap: ${SITE}/sitemap.xml\n`);
+// CharliPedia as data, for the read-only CharliPedia MCP server (charli/mcp/): every entry with its Markdown.
+if (pages.some((p) => p.path.startsWith('/charlipedia/'))) {
+  const entries = [];
+  for (const p of listed.filter((q) => q.path.startsWith('/charlipedia/') && !q.isIndex)) {
+    entries.push({ slug: p.path.split('/')[2], title: p.title, description: p.description, status: p.status || '', url: SITE + p.path, markdown: await readFile(join(dist, p.mdPath), 'utf8') });
+  }
+  entries.sort((a, b) => a.title.localeCompare(b.title));
+  await writeFile(join(dist, 'charlipedia', 'entries.json'), JSON.stringify({ updated: new Date().toISOString(), count: entries.length, entries }));
+}
 await writeFile(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${listed.map((p) => `  <url><loc>${SITE}${p.path}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`Built ${listed.length} page(s) into dist/${name}/`);
