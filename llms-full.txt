@@ -1442,7 +1442,7 @@ First Layer is everything under the dress except shoes and headdress or veil. Th
 First Layer is a house complete in itself, standing beside [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) rather than inside it. It is not Iceberg's bridal line, and not [Seamiotics](https://charli.info/charlipedia/seamiotics/)'s either. It curates across both, and makes its own foundations.
 
 - **Iceberg** is the silence-house. If a bride wants absolute silence under the dress, First Layer offers Iceberg, and the leg recedes so the dress can be the conversation. Iceberg keeps its own law: Polar white, and Polar in black, and no ivory, seamed or stocking-imitating bridal tights.
-- **Seamiotics**, every seam means something, is the meaning-house, where the leg is allowed to signify. Its Bride, white with a blue bow at each ankle, is made Plain, because a seam drawing the gaze up towards an unseen dress says the wrong thing. First Layer may stock Seamiotics when the bride wants the stocking to carry meaning.
+- **Seamiotics**, every seam means something, is the meaning-house, where the leg is allowed to signify. Its Bride, a refined soft ivory, is made Plain, because a seam that has to survive a dress should be chosen with the dress in the room. First Layer may stock Seamiotics when the bride wants the stocking to carry meaning.
 - **First Layer's own pieces** are for when the whole under-dress system needs fitting as one intentional layer. Because the dress is in the room at First Layer, a seamed bridal stocking can belong here when it couldn't at Seamiotics.
 
 "This is governance, not pedantry." Iceberg stays pure, Seamiotics stays authored, and First Layer becomes the place where a bride is prepared.
@@ -1489,7 +1489,7 @@ First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [Ch
 
 ### Behind the scenes
 
-First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics. This entry is drawn from its Founding Overview, version 1. Where later decisions differ, the newer ones are followed here: First Layer stands beside Iceberg rather than inside an "Iceberg universe", the imprint is spelt Seamiotics, Iceberg's black is Polar in black, and the Seamiotics Bride is Plain, with blue bows. The founding visual has not been made.
+First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics. This entry is drawn from its Founding Overview, version 1. Where later decisions differ, the newer ones are followed here: First Layer stands beside Iceberg rather than inside an "Iceberg universe", the imprint is spelt Seamiotics, Iceberg's black is Polar in black, and the Seamiotics Bride is Plain and ivory, as the Seamiotics Bible has it. The founding visual has not been made.
 
 ---
 
@@ -1674,13 +1674,18 @@ Forty pounds a pair for every permanent piece, across both houses; sixty-five fo
 
 A white field, which is Polar made into a publishing surface. The masthead is centred at the head in the house blue-green, a deep petrol teal, cold seawater rather than tropical turquoise: glacial ice is blue because water takes the red light in and never gives it back. The house mark sits at the foot, to the right: a single black shape, a low asymmetric peak on a flat base, the tip that shows. It is built as a font and typed as a lower-case i, set at the same size as the name.
 
+<figure>
+  <img src="/charlipedia/iceberg-house-mark.png" width="1200" height="675" alt="The Iceberg house mark: a single solid black triangle on a white field, about three times as wide as it is tall. Its left side climbs steeply, at 45 degrees, to a peak just over a third of the way across; its right side slopes down gently to a long flat base.">
+  <figcaption>The house mark, drawn from its description.</figcaption>
+</figure>
+
 ### Still open
 
 The exact teal, the body typeface, the photographic brief, a holiday Run on Polar white (a tree, reindeer or presents are all possible), what to do about laddering at forty pounds a pair, and where a bride in a very short dress who wants silence should go. [First Layer](https://charli.info/charlipedia/first-layer/), which stocks both houses, is the likely answer.
 
 ### Behind the scenes
 
-Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. This entry follows the House of Iceberg Bible, version 7, which covers the parent house alone. "Intentionwear" was proposed as a category word and left out by the Bible; the house only uses real words doing second jobs. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
+Iceberg Hosiery belongs to the CharliVerse, not to Blind Ant or Carrados: a fashion house doesn't have to justify its collections as research or art. This entry follows the House of Iceberg Bible, version 7, which covers the parent house alone. "Intentionwear" was proposed as a category word and left out by the Bible; the house only uses real words doing second jobs. The house mark here is drawn in code by Claude from the Bible's description, not taken from the mark's own font. Its web home is [iceberg.charli.info](https://iceberg.charli.info/).
 
 ---
 

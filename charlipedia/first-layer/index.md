@@ -17,7 +17,7 @@ First Layer is everything under the dress except shoes and headdress or veil. Th
 First Layer is a house complete in itself, standing beside [Iceberg Hosiery](https://charli.info/charlipedia/iceberg-hosiery/) rather than inside it. It is not Iceberg's bridal line, and not [Seamiotics](https://charli.info/charlipedia/seamiotics/)'s either. It curates across both, and makes its own foundations.
 
 - **Iceberg** is the silence-house. If a bride wants absolute silence under the dress, First Layer offers Iceberg, and the leg recedes so the dress can be the conversation. Iceberg keeps its own law: Polar white, and Polar in black, and no ivory, seamed or stocking-imitating bridal tights.
-- **Seamiotics**, every seam means something, is the meaning-house, where the leg is allowed to signify. Its Bride, white with a blue bow at each ankle, is made Plain, because a seam drawing the gaze up towards an unseen dress says the wrong thing. First Layer may stock Seamiotics when the bride wants the stocking to carry meaning.
+- **Seamiotics**, every seam means something, is the meaning-house, where the leg is allowed to signify. Its Bride, a refined soft ivory, is made Plain, because a seam that has to survive a dress should be chosen with the dress in the room. First Layer may stock Seamiotics when the bride wants the stocking to carry meaning.
 - **First Layer's own pieces** are for when the whole under-dress system needs fitting as one intentional layer. Because the dress is in the room at First Layer, a seamed bridal stocking can belong here when it couldn't at Seamiotics.
 
 "This is governance, not pedantry." Iceberg stays pure, Seamiotics stays authored, and First Layer becomes the place where a bride is prepared.
@@ -64,4 +64,4 @@ First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [Ch
 
 ## Behind the scenes
 
-First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics. This entry is drawn from its Founding Overview, version 1. Where later decisions differ, the newer ones are followed here: First Layer stands beside Iceberg rather than inside an "Iceberg universe", the imprint is spelt Seamiotics, Iceberg's black is Polar in black, and the Seamiotics Bride is Plain, with blue bows. The founding visual has not been made.
+First Layer belongs to the CharliVerse, alongside Iceberg Hosiery and Seamiotics. This entry is drawn from its Founding Overview, version 1. Where later decisions differ, the newer ones are followed here: First Layer stands beside Iceberg rather than inside an "Iceberg universe", the imprint is spelt Seamiotics, Iceberg's black is Polar in black, and the Seamiotics Bride is Plain and ivory, as the Seamiotics Bible has it. The founding visual has not been made.
