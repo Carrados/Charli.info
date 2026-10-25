@@ -60,7 +60,7 @@ First Layer speaks calmly. No wink-wink bridal copy, no "for him", no jokes abou
 
 ## Jo
 
-First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active operations at Iceberg, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
+First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active service, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
 
 ## Behind the scenes
 

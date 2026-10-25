@@ -2,7 +2,7 @@
 
 > The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
 The **CharliVerse Court** is a company of women who work together across the CharliVerse. Each member has a soul of her own and an image of her own, and they all share one more: the soul of the Court. That is what keeps them separate and different, and what lets them work well together.
 
@@ -15,9 +15,10 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 - [Cass Flux](https://charli.info/charlipedia/cass-flux/), the poet-vandal.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](https://charli.info/charlipedia/lottie/), the community heart.
-- [Jo](https://charli.info/charlipedia/jo/), retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
+- [Lily](https://charli.info/charlipedia/lily/), who guards care, rest and sustainability.
+- [Jo](https://charli.info/charlipedia/jo/), retired from active service, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
-More members are on their way to CharliPedia.
+These are the nine women of the Court.
 
 ## The workshop
 
@@ -29,4 +30,4 @@ The [Museum Court](https://charli.info/charlipedia/the-museum-court/), which gov
 
 ## Behind the scenes
 
-The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. The nine women of the Court are being built as 3D models in Blender, so in time each will have a rendered portrait in place of the generated pictures some entries carry now. This entry is a stub: it will grow as the members' entries arrive.
+The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. The nine women of the Court are being built as 3D models in Blender, so in time each will have a rendered portrait in place of the generated pictures some entries carry now.

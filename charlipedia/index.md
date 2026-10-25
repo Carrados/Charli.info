@@ -103,6 +103,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
+- [Lily](https://charli.info/charlipedia/lily/index.md): Lily guards care, rest and sustainability in the CharliVerse Court, where her veto on an unsustainable pace is absolute.
 - [Lottie](https://charli.info/charlipedia/lottie/index.md): Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.

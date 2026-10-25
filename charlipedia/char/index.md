@@ -43,7 +43,7 @@ She does not need to raise her voice. The verdict carries its own weight.
 
 [Lottie](https://charli.info/charlipedia/lottie/) supplies the corrective warmth. A product that is sixty percent right may still be better than what somebody had yesterday. Char protects the community by naming what is wrong. Lottie protects it by holding what is still needed.
 
-Lily asks her to rest between fires. The energy that powers Char's verdicts can also burn her out. Lily's sustainability veto is absolute.
+[Lily](https://charli.info/charlipedia/lily/) asks her to rest between fires. The energy that powers Char's verdicts can also burn her out. Lily's sustainability veto is absolute.
 
 ## Her blind spots
 

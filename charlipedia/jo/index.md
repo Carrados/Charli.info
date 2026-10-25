@@ -4,7 +4,7 @@
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Jo** is the operational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/) and the founder of [First Layer](https://charli.info/charlipedia/first-layer/). Retired from active operations at Iceberg, she is not absent from the work. Her bridal house carries the same attention to readiness, failure modes, foundations and dignity into the private moment before the dress.
+**Jo** is the operational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/) and the founder of [First Layer](https://charli.info/charlipedia/first-layer/). Retired from active service, she is not absent from the work. Her bridal house carries the same attention to readiness, failure modes, foundations and dignity into the private moment before the dress.
 
 <figure class="portrait">
   <img src="/charlipedia/jo-portrait.jpg" width="800" height="1200" alt="Jo stands facing forward in an office with dark wooden desks and frosted-glass partitions, one red-gloved hand on her hip. Her curled red hair falls beneath a red tilted hat. She wears a fitted blue jacket with gold-coloured buttons and a matching below-knee skirt, a white shirt, red tie, sheer stockings and black heels.">
@@ -35,7 +35,7 @@ The standard begins at the skin. Blue wool, red gloves, seamed stockings and the
 
 [Char](https://charli.info/charlipedia/char/) supplies the early warning. Jo treats an instinctive verdict as a signal to investigate, not a substitute for the assessment. [Big Charli](https://charli.info/charlipedia/big-charli/) can make a shift in perception with one image where Jo might need thirty pages. Jo admires the economy, and values the evidence beneath the satire.
 
-[Lottie](https://charli.info/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. Lily watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
+[Lottie](https://charli.info/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. [Lily](https://charli.info/charlipedia/lily/) watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
 
 ## Her blind spots
 
@@ -45,4 +45,4 @@ Jo can be slow to trust someone who has not been tested by difficulty. Her full 
 
 ## Behind the scenes
 
-Jo is a persona of the CharliVerse Court, described in *Jo: Agent Specification*, version 1.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. That specification describes her operational role; the later First Layer account records her retirement from active operations at Iceberg and the founding of her bridal house. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+Jo is a persona of the CharliVerse Court, described in *Jo: Agent Specification*, version 1.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. That specification describes her operational role; the later First Layer account records her retirement from active service and the founding of her bridal house. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.

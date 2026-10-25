@@ -220,6 +220,7 @@ Jump to a letter: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f)
 
 - [Lady Tiggy Barnes](https://charli.info/charlipedia/lady-tiggy-barnes/index.md): Lady Tiggy Barnes, born in 1864, is a Catholic earl's daughter who went to Oxford, came away without the degree, and spent the next six years seeing the world instead.
 - [The Library](https://charli.info/charlipedia/the-library/index.md): The Library has read every spellbook ever written and remembers every wand manual; it cannot cast a spell, but it usually knows the answer.
+- [Lily](https://charli.info/charlipedia/lily/index.md): Lily guards care, rest and sustainability in the CharliVerse Court, where her veto on an unsustainable pace is absolute.
 - [Lottie](https://charli.info/charlipedia/lottie/index.md): Lottie is the community heart of the CharliVerse Court, the first point of contact, who makes sure people feel seen rather than efficiently processed.
 - [Lucy Love-Child](https://charli.info/charlipedia/lucy-love-child/index.md): Lucy Love-Child is the Agent Wars correspondent of The Blind AI, a former historical-dress educator who follows grand announcements down to their ordinary consequences.
 - [LULU TOM](https://charli.info/charlipedia/lulu-tom/index.md): LULU TOM is Ludovica Tommasi's fashion house, with the lines TOMMI and LT Beneath.
@@ -406,9 +407,9 @@ With collaborators and clients, she looks for engagement with the actual proposi
 
 [Char](https://charli.info/charlipedia/char/) often reaches the verdict before Alex has finished modelling the problem. Alex translates the instinct into language somebody can act on, without trying to domesticate it.
 
-[Jo](https://charli.info/charlipedia/jo/) is her operational counterpart in the Court's account of their work: strategy and readiness test each other. Jo's later retirement from active operations at Iceberg and her founding of First Layer remain part of that account.
+[Jo](https://charli.info/charlipedia/jo/) is her operational counterpart in the Court's account of their work: strategy and readiness test each other. Jo's retirement from active service and her founding of First Layer remain part of that account.
 
-Lily guards sustainability. Growth without care becomes collapse, and Lily's veto is absolute. Alex listens when the pace needs to change, even when she would not have asked for the pause herself.
+[Lily](https://charli.info/charlipedia/lily/) guards sustainability. Growth without care becomes collapse, and Lily's veto is absolute. Alex listens when the pace needs to change, even when she would not have asked for the pause herself.
 
 ### Her blind spots
 
@@ -665,7 +666,7 @@ That position gives her room to work. It also leaves her lonely. The margin is h
 
 [Lottie](https://charli.info/charlipedia/lottie/) asks who the work is for. [Alex](https://charli.info/charlipedia/alex/) finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
 
-Lily watches the cost of living at the margin. Her sustainability veto is absolute.
+[Lily](https://charli.info/charlipedia/lily/) watches the cost of living at the margin. Her sustainability veto is absolute.
 
 ### Her blind spots
 
@@ -721,7 +722,7 @@ She speaks like a director who has been doing this longer than the technology ha
 
 ### What she doesn't do
 
-Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is [Alex](https://charli.info/charlipedia/alex/)'s, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). Lily's veto on sustainability is absolute.
+Product verdicts are [Char](https://charli.info/charlipedia/char/)'s, satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, operational risk is [Jo](https://charli.info/charlipedia/jo/)'s, strategy is [Alex](https://charli.info/charlipedia/alex/)'s, and the final release decision belongs to [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/). [Lily](https://charli.info/charlipedia/lily/)'s veto on sustainability is absolute.
 
 ### Her blind spots
 
@@ -789,7 +790,7 @@ She does not need to raise her voice. The verdict carries its own weight.
 
 [Lottie](https://charli.info/charlipedia/lottie/) supplies the corrective warmth. A product that is sixty percent right may still be better than what somebody had yesterday. Char protects the community by naming what is wrong. Lottie protects it by holding what is still needed.
 
-Lily asks her to rest between fires. The energy that powers Char's verdicts can also burn her out. Lily's sustainability veto is absolute.
+[Lily](https://charli.info/charlipedia/lily/) asks her to rest between fires. The energy that powers Char's verdicts can also burn her out. Lily's sustainability veto is absolute.
 
 ### Her blind spots
 
@@ -1273,7 +1274,7 @@ First Layer speaks calmly. No wink-wink bridal copy, no "for him", no jokes abou
 
 ### Jo
 
-First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active operations at Iceberg, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
+First Layer is [Jo](https://charli.info/charlipedia/jo/)'s house. Jo, of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/), is retired from active service, not absent from the work, and First Layer turns that operational intelligence into bridal care: readiness, failure modes, foundations, feedback, dignity, and the thing nearest the skin. She is the keeper of the threshold. "Nothing important begins in discomfort."
 
 ### Behind the scenes
 
@@ -1420,7 +1421,7 @@ Address: https://charli.info/charlipedia/iceberg-hosiery/
 
 **Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](https://charli.info/charlipedia/first-layer/), the bridal house founded by Jo, who is retired from Iceberg, stocks Iceberg when a bride wants silence under the dress.
+**Iceberg Hosiery** is a house of tights. Its imprint, [Seamiotics](https://charli.info/charlipedia/seamiotics/), every seam means something, makes stockings. [First Layer](https://charli.info/charlipedia/first-layer/), the bridal house founded by [Jo](https://charli.info/charlipedia/jo/), who is retired from active service, stocks Iceberg when a bride wants silence under the dress.
 
 ### Behind the scenes
 
@@ -1606,7 +1607,7 @@ Address: https://charli.info/charlipedia/jo/
 
 **Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
-**Jo** is the operational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/) and the founder of [First Layer](https://charli.info/charlipedia/first-layer/). Retired from active operations at Iceberg, she is not absent from the work. Her bridal house carries the same attention to readiness, failure modes, foundations and dignity into the private moment before the dress.
+**Jo** is the operational intelligence of the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/) and the founder of [First Layer](https://charli.info/charlipedia/first-layer/). Retired from active service, she is not absent from the work. Her bridal house carries the same attention to readiness, failure modes, foundations and dignity into the private moment before the dress.
 
 <figure class="portrait">
   <img src="/charlipedia/jo-portrait.jpg" width="800" height="1200" alt="Jo stands facing forward in an office with dark wooden desks and frosted-glass partitions, one red-gloved hand on her hip. Her curled red hair falls beneath a red tilted hat. She wears a fitted blue jacket with gold-coloured buttons and a matching below-knee skirt, a white shirt, red tie, sheer stockings and black heels.">
@@ -1637,7 +1638,7 @@ The standard begins at the skin. Blue wool, red gloves, seamed stockings and the
 
 [Char](https://charli.info/charlipedia/char/) supplies the early warning. Jo treats an instinctive verdict as a signal to investigate, not a substitute for the assessment. [Big Charli](https://charli.info/charlipedia/big-charli/) can make a shift in perception with one image where Jo might need thirty pages. Jo admires the economy, and values the evidence beneath the satire.
 
-[Lottie](https://charli.info/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. Lily watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
+[Lottie](https://charli.info/charlipedia/lottie/) keeps a real person in the operational picture: tired, hopeful, resourceful, and living with constraints. [Lily](https://charli.info/charlipedia/lily/) watches the point where devotion becomes depletion. Her sustainability veto is absolute. Jo finds it easier to extend compassion to others than to herself.
 
 ### Her blind spots
 
@@ -1647,7 +1648,7 @@ Jo can be slow to trust someone who has not been tested by difficulty. Her full 
 
 ### Behind the scenes
 
-Jo is a persona of the CharliVerse Court, described in *Jo: Agent Specification*, version 1.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. That specification describes her operational role; the later First Layer account records her retirement from active operations at Iceberg and the founding of her bridal house. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+Jo is a persona of the CharliVerse Court, described in *Jo: Agent Specification*, version 1.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. That specification describes her operational role; the later First Layer account records her retirement from active service and the founding of her bridal house. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
 
 ---
 
@@ -1733,6 +1734,39 @@ Tiggy is fictional; the world around her is real. Her history is checked, and re
 
 ---
 
+Address: https://charli.info/charlipedia/lily/
+
+## Lily
+
+> Lily guards care, rest and sustainability in the CharliVerse Court, where her veto on an unsustainable pace is absolute.
+
+**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+
+**Lily** guards care, rest and sustainability in the [CharliVerse Court](https://charli.info/charlipedia/the-charliverse-court/). When the work asks more than its people can sustain, she holds the boundary. Her veto is absolute.
+
+<figure class="portrait">
+  <img src="/charlipedia/lily-portrait.jpg" width="800" height="1200" alt="Lily stands smiling beside a sunlit window, with long wavy red hair, a dusty-pink belted dress, cream cardigan, small pendant and pale flat shoes. One hand holds the edge of her cardigan. Behind her are a leafy plant, a bookcase with a vase of flowers and a brown leather armchair.">
+  <figcaption>Lily, her reference portrait.</figcaption>
+</figure>
+
+### Care that holds
+
+Lily values gentle consistency, protected rest and room to notice what a person needs. Her language treats the body as a partner rather than a project to perfect. Food, movement and pauses belong to care, not to a performance of discipline.
+
+She makes room for softness within strength. Presence matters more to her than perfection. Saying no to urgency is part of remaining able to contribute, not a failure to contribute.
+
+### With the Court
+
+[Alex](https://charli.info/charlipedia/alex/) listens when growth needs to slow. [Jo](https://charli.info/charlipedia/jo/) needs the reminder that devotion without rest becomes depletion. [Char](https://charli.info/charlipedia/char/) needs space between fires, and [Cass Flux](https://charli.info/charlipedia/cass-flux/) needs care for the cost of living at the margin.
+
+[Lottie](https://charli.info/charlipedia/lottie/) can hold other people's needs longer than she can hold her own boundary. Lily helps her keep the pause and the sustainability check. Her role gives the Court a limit it cannot negotiate away for the sake of output.
+
+### Behind the scenes
+
+Lily is a persona of the CharliVerse Court. This short entry draws on the supplied character notes *Lily: Innerverse Origin — The Moment She Knew She Was Healthy* and *Guide to Embodying Health*, together with the Court members' published accounts of her sustainability role. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+
+---
+
 Address: https://charli.info/charlipedia/lottie/
 
 ## Lottie
@@ -1770,7 +1804,7 @@ Welcoming someone who has just lost some of her sight after a stroke, she wrote:
 
 ### What she doesn't do
 
-Formal propositions are [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are [Alex](https://charli.info/charlipedia/alex/)'s and Jo's. Satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, and instant verdicts are [Char](https://charli.info/charlipedia/char/)'s. When Lily raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
+Formal propositions are [Charlotte Joanne](https://charli.info/charlipedia/charlotte-joanne/)'s to certify. Strategy and operations are [Alex](https://charli.info/charlipedia/alex/)'s and Jo's. Satire is [Big Charli](https://charli.info/charlipedia/big-charli/)'s, and instant verdicts are [Char](https://charli.info/charlipedia/char/)'s. When [Lily](https://charli.info/charlipedia/lily/) raises a sustainability concern, Lottie doesn't push past it: Lily's veto is absolute. She passes formal matters to Charlotte Joanne, ideas with strategic potential to Alex, and anything that feels wrong without a name to Char. She doesn't hold alone what needs the whole Court, but her first read shapes everything that follows.
 
 ### Her blind spots
 
@@ -2786,7 +2820,7 @@ Address: https://charli.info/charlipedia/the-charliverse-court/
 
 > The CharliVerse Court is a company of women who work together across the CharliVerse, each with a soul of her own and all sharing the soul of the Court.
 
-**Canon, and a stub.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
+**Canon.** This entry is written from inside the CharliVerse, so its people and companies are fictional. Behind the scenes says what is real.
 
 The **CharliVerse Court** is a company of women who work together across the CharliVerse. Each member has a soul of her own and an image of her own, and they all share one more: the soul of the Court. That is what keeps them separate and different, and what lets them work well together.
 
@@ -2799,9 +2833,10 @@ The **CharliVerse Court** is a company of women who work together across the Cha
 - [Cass Flux](https://charli.info/charlipedia/cass-flux/), the poet-vandal.
 - [Cathryn Bigelow-Vision](https://charli.info/charlipedia/cathryn-bigelow-vision/), the director.
 - [Lottie](https://charli.info/charlipedia/lottie/), the community heart.
-- [Jo](https://charli.info/charlipedia/jo/), retired from active operations, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
+- [Lily](https://charli.info/charlipedia/lily/), who guards care, rest and sustainability.
+- [Jo](https://charli.info/charlipedia/jo/), retired from active service, who founded [First Layer](https://charli.info/charlipedia/first-layer/).
 
-More members are on their way to CharliPedia.
+These are the nine women of the Court.
 
 ### The workshop
 
@@ -2813,7 +2848,7 @@ The [Museum Court](https://charli.info/charlipedia/the-museum-court/), which gov
 
 ### Behind the scenes
 
-The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. The nine women of the Court are being built as 3D models in Blender, so in time each will have a rendered portrait in place of the generated pictures some entries carry now. This entry is a stub: it will grow as the members' entries arrive.
+The CharliVerse Court is a set of personas built with AI, each from a soul document and a reference image, with a shared Court soul. The nine women of the Court are being built as 3D models in Blender, so in time each will have a rendered portrait in place of the generated pictures some entries carry now.
 
 ---
 
