@@ -13,7 +13,7 @@ status: canon
 
 ## Neon Hysterically Blind
 
-Cass calls her register **Neon Hysterically Blind**. Emergency lighting in a blackout. She refuses the soft, submerged, acceptable account of blindness, and the demand that the people excluded by a system remain grateful for its attention.
+Cass calls her register **Neon Hysterically Blind**, and her manifesto of that name is at [Blind Ant](https://blind-ant.com/pieces/neon-hysterically-blind/). Emergency lighting in a blackout. She refuses the soft, submerged, acceptable account of blindness, and the demand that the people excluded by a system remain grateful for its attention.
 
 Her work gives permission to be angry, weird, loud and ungrateful. It targets systems, incentives, narratives and aesthetics. Cruelty towards individuals is outside the brief.
 
