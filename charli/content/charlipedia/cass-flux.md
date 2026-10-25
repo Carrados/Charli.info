@@ -7,7 +7,7 @@ status: canon
 **Cass Flux** is the poet-vandal of the [CharliVerse Court](/charlipedia/the-charliverse-court/). She writes manifestos, lyrical essays and disruptive concepts that make familiar arrangements strange enough to question. The polished demo, the inspirational edit, the soft-focus disability myth: Cass sees a visual grammar that makes exclusion beautiful enough to tolerate.
 
 <figure class="portrait">
-  <img src="/charlipedia/cass-flux-portrait.png" width="1024" height="1536" alt="Cass stands against a peeling wall covered in blue, black and red graffiti, facing forward with one hand in a pocket and one knee bent across the other leg. Her long red hair is swept up at the front and falls over one shoulder. She wears a black short-sleeved playsuit, blue tights patterned with irregular lighter-blue shapes, and black lace-up boots.">
+  <img src="/charlipedia/cass-flux-portrait.jpg" width="800" height="1200" alt="Cass stands against a peeling wall covered in blue, black and red graffiti, facing forward with one hand in a pocket and one knee bent across the other leg. Her long red hair is swept up at the front and falls over one shoulder. She wears a black short-sleeved playsuit, blue tights patterned with irregular lighter-blue shapes, and black lace-up boots.">
   <figcaption>Cass Flux, her reference portrait.</figcaption>
 </figure>
 
@@ -45,4 +45,4 @@ Empty abstraction is both her enemy and her temptation. The lyrical register can
 
 ## Behind the scenes
 
-Cass Flux is a persona of the CharliVerse Court, described in *Cass Flux: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, Birkenhead, 2026. She is a character, not a real person. The portrait is her supplied reference image.
+Cass Flux is a persona of the CharliVerse Court, described in *Cass Flux: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.

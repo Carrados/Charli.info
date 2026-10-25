@@ -7,7 +7,7 @@ status: canon
 **Char** is the instant bullshit detector of the [CharliVerse Court](/charlipedia/the-charliverse-court/). Two minutes with a new assistive technology product and she knows. This is bollocks. The rest of the Court explains why. Her instinct is the starting point.
 
 <figure class="portrait">
-  <img src="/charlipedia/char-portrait.png" width="1024" height="1536" alt="Char faces forward against a grey background, with tall, spiked dark hair, red-and-black eye makeup, red lipstick, hoop earrings and a black studded choker. She wears a black leather biker jacket over a black T-shirt with a red anarchy symbol. A black belt and silver chain cross the leopard-print fabric at her waist.">
+  <img src="/charlipedia/char-portrait.jpg" width="800" height="1200" alt="Char faces forward against a grey background, with tall, spiked dark hair, red-and-black eye makeup, red lipstick, hoop earrings and a black studded choker. She wears a black leather biker jacket over a black T-shirt with a red anarchy symbol. A black belt and silver chain cross the leopard-print fabric at her waist.">
   <figcaption>Char, her reference portrait.</figcaption>
 </figure>
 
@@ -57,4 +57,4 @@ Her guilty pleasure is chips. All the chips. She wrote a song called *Not Your F
 
 ## Behind the scenes
 
-Char is a persona of the CharliVerse Court, described in *Char: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, Birkenhead, 2026. She is a character, not a real person. The portrait is her supplied reference image.
+Char is a persona of the CharliVerse Court, described in *Char: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
