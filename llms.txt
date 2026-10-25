@@ -6,7 +6,7 @@ Contact: charli-jo@carrados.com. Carrados publishes the design non-fiction of Ch
 
 Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/
 
-All content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at https://carrados.com/llms-full.txt.
+All content is CC BY-SA 4.0 unless a page states otherwise (the TAVIP handbooks are CC BY 4.0). Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at https://carrados.com/llms-full.txt.
 
 ## Pages
 
