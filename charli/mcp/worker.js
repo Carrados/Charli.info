@@ -1,10 +1,17 @@
 // The CharliPedia MCP server, at https://mcp.charli.info/ (and /mcp).
 // A read-only Model Context Protocol server (Streamable HTTP, stateless JSON-RPC) that lets any agent look things up
-// in CharliPedia. It can only read: it fetches the published entries (charlipedia/entries.json, written by the
-// charli.info build) and has no tool that writes, edits or deletes anything. CharliPedia changes only when
-// Charli-Jo publishes. semantic_search queries the Vectorize index `charliverse`, which charli/mcp/indexer.js keeps;
-// this Worker only ever queries it. Redeploy this Worker to Cloudflare only if this file changes.
-const DATA = 'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/charli-site/charlipedia/entries.json';
+// in CharliPedia and search the CharliVerse. It can only read: it has no tool that writes, edits or deletes anything,
+// and CharliPedia changes only when Charli-Jo publishes. It reads the published files (charlipedia/entries.json and each
+// site's chunks.json) straight from the site Workers through service bindings (CHARLI, CARRADOS, BLINDANT), never from
+// GitHub. semantic_search queries the Vectorize index `charliverse`, which charli/mcp/indexer.js keeps; this Worker only
+// ever queries it. Deploy with `npm run deploy:mcp` (wrangler.mcp.jsonc).
+const DATA = 'https://charli.info/charlipedia/entries.json';
+// Read a published file from one of the three sites through its service binding (falls back to the public address).
+function site(env, url) {
+  const host = new URL(url).hostname;
+  const b = { 'charli.info': env && env.CHARLI, 'carrados.com': env && env.CARRADOS, 'blind-ant.com': env && env.BLINDANT }[host];
+  return b ? b.fetch(new Request(url)) : fetch(url);
+}
 const PROTOCOLS = ['2025-06-18', '2025-03-26', '2024-11-05'];
 const COURT = ['charlotte-joanne', 'alex', 'char', 'big-charli', 'cass-flux', 'cathryn-bigelow-vision', 'lottie', 'lily', 'jo'];
 
@@ -33,11 +40,7 @@ const SITES = {
 };
 // Hybrid search: meaning (Vectorize) blended with words (BM25 over the same passages and lines), by reciprocal
 // rank fusion. The passages and lines come from each site's published chunks.json, cached for five minutes.
-const CHUNKS = [
-  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/charli-site/chunks.json',
-  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/carrados-site/chunks.json',
-  'https://raw.githubusercontent.com/CharliJoTyrer/Blind-Ant/site/chunks.json',
-];
+const CHUNKS = ['https://charli.info/chunks.json', 'https://carrados.com/chunks.json', 'https://blind-ant.com/chunks.json'];
 const STOP = new Set('a an and are as at be been being but by can could did do does doing for from had has have he her hers him his how i if in into is it its me my no not of on or our she so some someone anyone than that the their them then there these they this those to was we were what when where which who whom whose why will with would you your say says said tell told about any'.split(' '));
 const stem = (w) => {
   if (w.length > 5 && w.endsWith('ing')) w = w.slice(0, -3);
@@ -47,11 +50,11 @@ const stem = (w) => {
 };
 const tokens = (t) => (String(t).toLowerCase().replace(/[\u2019']/g, "'").replace(/'s\b/g, '').match(/[a-z0-9]+/g) || []).filter((w) => !STOP.has(w)).map(stem);
 let units = { at: 0, data: null };
-async function loadUnits() {
+async function loadUnits(env) {
   if (units.data && Date.now() - units.at < 300000) return units.data;
   const all = [];
   for (const u of CHUNKS) {
-    const r = await fetch(u, { cf: { cacheEverything: true, cacheTtl: 300 } });
+    const r = await site(env, u);
     if (r.ok) all.push(...(await r.json()).chunks);
   }
   const byId = new Map(all.map((c) => [c.id, c]));
@@ -89,7 +92,7 @@ async function meaning(env, args) {
   if (!q) throw new Error('Give a question or theme to search for.');
   const limit = Math.min(Number(args.limit) || 6, 15);
   const site = args.site && SITES[args.site] ? args.site : null;
-  const [emb, u] = await Promise.all([env.AI.run('@cf/baai/bge-base-en-v1.5', { text: [q] }), loadUnits()]);
+  const [emb, u] = await Promise.all([env.AI.run('@cf/baai/bge-base-en-v1.5', { text: [q] }), loadUnits(env)]);
   const opts = { topK: 50, returnMetadata: 'none' };
   if (site) opts.filter = { site };
   const vec = ((await env.VEC.query(emb.data[0], opts)).matches || []).map((m) => m.id);
@@ -118,9 +121,9 @@ async function meaning(env, args) {
 }
 
 let cache = { at: 0, data: null };
-async function load() {
+async function load(env) {
   if (cache.data && Date.now() - cache.at < 300000) return cache.data;
-  const r = await fetch(DATA, { cf: { cacheEverything: true, cacheTtl: 300 } });
+  const r = await site(env, DATA);
   if (!r.ok) throw new Error(`CharliPedia could not be loaded (${r.status})`);
   cache = { at: Date.now(), data: await r.json() };
   return cache.data;
@@ -149,7 +152,7 @@ function search(entries, query, limit = 8) {
 
 async function callTool(name, args = {}, env) {
   if (name === 'semantic_search') return meaning(env, args);
-  const { entries, updated } = await load();
+  const { entries, updated } = await load(env);
   if (name === 'search') {
     const hits = search(entries, args.query, Math.min(Number(args.limit) || 8, 25));
     return hits.length ? `${hits.length} result(s) for "${args.query}":\n\n${hits.join('\n\n')}` : `Nothing in CharliPedia matches "${args.query}".`;

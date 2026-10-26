@@ -1,0 +1,17 @@
+// Publishing settings for the charli Worker. `npm run publish:charli` builds the site, then wrangler uploads dist/charli
+// as this Worker's static assets and deploys charli/worker.js. The custom domains are attached in Cloudflare and stay as they are.
+{
+  "name": "charli",
+  "main": "charli/worker.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "25fb70ed788c5f04f8bfba0688a3e24a",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "dist/charli",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
+    "not_found_handling": "none"
+  }
+}

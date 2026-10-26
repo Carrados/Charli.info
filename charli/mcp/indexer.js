@@ -2,19 +2,16 @@
 // build publishes (chunks.json), embeds any that are new or changed with Workers AI, and keeps the Vectorize
 // index `charliverse` in step: upserting changed passages and deleting ones that have gone.
 // It has no web address of its own that changes anything: it runs only on its schedule.
-// If any source can't be read, it stops without deleting anything. Redeploy only if this file changes.
-const SOURCES = [
-  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/charli-site/chunks.json',
-  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/carrados-site/chunks.json',
-  'https://raw.githubusercontent.com/CharliJoTyrer/Blind-Ant/site/chunks.json',
-];
+// If any source can't be read, it stops without deleting anything. Deploy with `npm run deploy:indexer` (wrangler.indexer.jsonc).
+// It reads each site's published chunks.json straight from the site Workers through service bindings, never from GitHub.
+const SOURCES = [['CHARLI', 'https://charli.info/chunks.json'], ['CARRADOS', 'https://carrados.com/chunks.json'], ['BLINDANT', 'https://blind-ant.com/chunks.json']];
 const MODEL = '@cf/baai/bge-base-en-v1.5';
 export const embedText = (c) => `${c.title}${c.heading ? '. ' + c.heading : ''}. ${c.text}`;
 
 export async function run(env) {
   const all = [];
-  for (const src of SOURCES) {
-    const r = await fetch(src + '?t=' + Date.now(), { cf: { cacheTtl: 0 } });
+  for (const [binding, src] of SOURCES) {
+    const r = await env[binding].fetch(new Request(src));
     if (!r.ok) return `stopped: ${src} answered ${r.status}`;
     all.push(...(await r.json()).chunks);
   }

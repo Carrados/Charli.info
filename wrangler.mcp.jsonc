@@ -1,0 +1,17 @@
+// Settings for the charlipedia-mcp Worker (mcp.charli.info). Deploy with `npm run deploy:mcp` only if charli/mcp/worker.js changes.
+// It reads the three sites through service bindings and only ever queries the Vectorize index.
+{
+  "name": "charlipedia-mcp",
+  "main": "charli/mcp/worker.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "25fb70ed788c5f04f8bfba0688a3e24a",
+  "workers_dev": false,
+  "preview_urls": false,
+  "ai": { "binding": "AI" },
+  "vectorize": [{ "binding": "VEC", "index_name": "charliverse" }],
+  "services": [
+    { "binding": "CHARLI", "service": "charli" },
+    { "binding": "CARRADOS", "service": "carrados" },
+    { "binding": "BLINDANT", "service": "blind-ant" }
+  ]
+}

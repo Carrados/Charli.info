@@ -1,0 +1,20 @@
+// Settings for the charliverse-indexer Worker. Deploy with `npm run deploy:indexer` only if charli/mcp/indexer.js changes.
+// Every 15 minutes it reads each site's chunks.json through service bindings and keeps the Vectorize index in step.
+{
+  "name": "charliverse-indexer",
+  "main": "charli/mcp/indexer.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "25fb70ed788c5f04f8bfba0688a3e24a",
+  "workers_dev": false,
+  "preview_urls": false,
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "observability": { "enabled": true },
+  "ai": { "binding": "AI" },
+  "vectorize": [{ "binding": "VEC", "index_name": "charliverse" }],
+  "kv_namespaces": [{ "binding": "STATE", "id": "cb6144cf1a4c40a5aff9a6709b86f33c" }],
+  "services": [
+    { "binding": "CHARLI", "service": "charli" },
+    { "binding": "CARRADOS", "service": "carrados" },
+    { "binding": "BLINDANT", "service": "blind-ant" }
+  ]
+}

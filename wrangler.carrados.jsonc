@@ -1,0 +1,17 @@
+// Publishing settings for the carrados Worker. `npm run publish:carrados` builds the site, then wrangler uploads dist/carrados
+// as this Worker's static assets and deploys carrados/worker.js. The custom domains are attached in Cloudflare and stay as they are.
+{
+  "name": "carrados",
+  "main": "carrados/worker.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "25fb70ed788c5f04f8bfba0688a3e24a",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "dist/carrados",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
+    "not_found_handling": "none"
+  }
+}
