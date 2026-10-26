@@ -31,7 +31,7 @@ The first problem had been in the website. The second was in the tool that was s
 
 That's a more interesting failure.
 
-Yesterday Charlotte Joanne tested the websites against the [Zero Information Casualty](/papers/zic-design-standard/) standard and found they needed fixing. This morning she tested the results with VoiceOver, found another problem, and had it fixed from bed. Then she used WAVE and caught something the agent's checker had missed.
+Yesterday Charlotte Joanne tested the websites against the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard and found they needed fixing. This morning she tested the results with VoiceOver, found another problem, and had it fixed from bed. Then she used WAVE and caught something the agent's checker had missed.
 
 Each time, the testing changed the machinery, not just the page.
 

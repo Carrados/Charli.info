@@ -20,7 +20,7 @@ New to Carrados? Three ways in, from lightest to deepest:
 
 1. **A report:** [Except Why I’d Want One](/reports/except-why-id-want-one/). Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader.
 2. **The idea in plain language:** [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](/papers/classical-and-generative-accessibility/). Why accessibility erodes, and the fork AI puts in front of us.
-3. **The full theory and the standard:** [the Tyrer Framework](/papers/tyrer-framework/), then [the ZIC design standard](/papers/zic-design-standard/) built from it.
+3. **The full theory and the standard:** [the Tyrer Framework](/papers/tyrer-framework/), then [the ZIC design standard](https://zeroinformationcasualty.org/) built from it.
 
 The reports are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](/about/) explains how that works.
 
@@ -30,7 +30,7 @@ Dispatches from the frontier of accessibility AI: what AI can actually do for bl
 
 ## Papers
 
-The considered work: [the Tyrer Framework](/papers/tyrer-framework/), the theory; [the Zero Information Casualty (ZIC) design standard](/papers/zic-design-standard/), the engineering standard derived from it; and three essays. [All papers](/papers/).
+The considered work: [the Tyrer Framework](/papers/tyrer-framework/), the theory; [the Zero Information Casualty (ZIC) design standard](https://zeroinformationcasualty.org/), the engineering standard derived from it; and three essays. [All papers](/papers/).
 
 ## Perspectives
 

@@ -6,6 +6,7 @@
 const SOURCES = [
   'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/charli-site/chunks.json',
   'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/carrados-site/chunks.json',
+  'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/zic-site/chunks.json',
   'https://raw.githubusercontent.com/CharliJoTyrer/Blind-Ant/site/chunks.json',
 ];
 const MODEL = '@cf/baai/bge-base-en-v1.5';

@@ -11,6 +11,10 @@ const TYPES = {
 // The old charli.info, mapped to where things live now. First match wins.
 function moved(path) {
   let m;
+  if (/^\/carrados\/zic-design-standard(?:\/(?:index\.html)?)?$/.test(path)) return 'https://zeroinformationcasualty.org/';
+  if (path === '/carrados/zic-design-standard/index.md') return 'https://zeroinformationcasualty.org/index.md';
+  if (/^\/documents\/Zero_Information_Casualty_v1_[57]\.docx$/.test(path)) return 'https://zeroinformationcasualty.org' + path;
+
   if ((m = path.match(/^\/carrados\/([\w-]+)\/?$/))) return `https://carrados.com/papers/${m[1]}/`;
   if (/^\/carrados\/?$/.test(path)) return 'https://carrados.com/';
   if ((m = path.match(/^\/perspectives(\/[\w-]+)?\/?$/))) return `https://carrados.com/perspectives${m[1] ? m[1] + '/' : '/'}`;

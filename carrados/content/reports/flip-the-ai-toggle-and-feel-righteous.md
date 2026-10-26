@@ -22,7 +22,7 @@ These agents identify themselves. ChatGPT-User, Claude-User and Perplexity-User 
 
 Buttondown’s post names the training bots in its AI crawlers toggle and then adds a few dozen more without listing them. I could not find out whether the reading agents are among the dozens. Possibly they aren’t. But the toggle is called AI crawlers, the headline says block AI from reading, and the writer who flips it has just been told that AI is something that vomits. If the reading agents are in that list, she has closed her archive to every subscriber who reads the way she does. If they aren’t, she has no way of knowing that from the screen, and no way of choosing it.
 
-[Zero Information Casualty](/papers/zic-design-standard/), the web standard Carrados maintains, has a name for what happens when a person is denied a document because the machine they sent was refused: an Admission Casualty. The casualty is the person. The agent is only the vehicle. In a log it looks like a bot decision. In a life it looks like a newsletter you subscribed to that will not let you read it.
+[Zero Information Casualty](https://zeroinformationcasualty.org/), the web standard Carrados maintains, has a name for what happens when a person is denied a document because the machine they sent was refused: an Admission Casualty. The casualty is the person. The agent is only the vehicle. In a log it looks like a bot decision. In a life it looks like a newsletter you subscribed to that will not let you read it.
 
 ## The settlement is being written in toggles
 

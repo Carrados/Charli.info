@@ -25,4 +25,4 @@ The definition is one; the classes are where it breaks.
 
 ## Behind the scenes
 
-A real idea, defined in [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/) (Part One) by Charli-Jo Tyrer, and divided into four classes in [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/) (§1.8). This entry summarises them; the documents are the authority.
+A real idea, defined in [The Tyrer Framework](https://carrados.com/papers/tyrer-framework/) (Part One) by Charli-Jo Tyrer, and divided into four classes in [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/) (§1.8). This entry summarises them; the documents are the authority.

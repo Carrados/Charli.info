@@ -6,7 +6,9 @@
     "build:carrados": "node engine/build.mjs carrados && node engine/chunks.mjs dist/carrados https://carrados.com carrados",
     "publish:carrados": "npm run build:carrados && node engine/publish.mjs carrados",
     "build:charli": "node engine/build.mjs charli && node engine/chunks.mjs dist/charli https://charli.info charli.info /charlipedia/=charlipedia /training/=training",
-    "publish:charli": "npm run build:charli && node engine/publish.mjs charli"
+    "publish:charli": "npm run build:charli && node engine/publish.mjs charli",
+    "build:zic": "node engine/build.mjs zic && node engine/chunks.mjs dist/zic https://zeroinformationcasualty.org zic",
+    "publish:zic": "npm run build:zic && node engine/publish.mjs zic"
   },
   "dependencies": {
     "marked": "18.1.1"

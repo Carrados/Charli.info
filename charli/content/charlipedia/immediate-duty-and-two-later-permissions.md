@@ -28,4 +28,4 @@ In September 2026 the largest edge network on the web replaced its single "block
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.7 and §1.18. This entry summarises it; the standard is the authority. charli.info, carrados.com and blind-ant.com declare yes to all three.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.7 and §1.18. This entry summarises it; the standard is the authority. charli.info, carrados.com and blind-ant.com declare yes to all three.

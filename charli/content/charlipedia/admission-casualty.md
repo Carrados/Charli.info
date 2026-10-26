@@ -10,4 +10,4 @@ Its question is *is the person's reader allowed in?* It is caught by the [sent-a
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.8, §1.9 and §2.2. This entry summarises it; the standard is the authority.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.8, §1.9 and §2.2. This entry summarises it; the standard is the authority.

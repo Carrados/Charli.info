@@ -25,6 +25,16 @@ export default {
     const url = new URL(request.url);
     if (url.hostname.startsWith('www.')) return Response.redirect(`https://${url.hostname.slice(4)}${url.pathname}${url.search}`, 301);
     let path = decodeURIComponent(url.pathname);
+    // ZIC now has its own canonical home. Preserve old HTML, Markdown and download links.
+    const zicPage = path.match(/^\/papers\/zic-design-standard(?:\/(index\.(?:html|md))?)?$/);
+    if (zicPage) {
+      const markdown = zicPage[1] === 'index.md' || (!zicPage[1] && (request.headers.get('accept') || '').includes('text/markdown'));
+      return Response.redirect('https://zeroinformationcasualty.org/' + (markdown ? 'index.md' : '') + url.search, 301);
+    }
+    if (/^\/documents\/Zero_Information_Casualty_v1_[57]\.docx$/.test(path))
+      return Response.redirect('https://zeroinformationcasualty.org' + path + url.search, 301);
+    if (path === '/images/zic-v1-5-cover.jpg')
+      return Response.redirect('https://zeroinformationcasualty.org/documents/zic-v1-5-cover.jpg' + url.search, 301);
     // Correspondents' desks: lucy.carrados.com opens /desks/lucy/. Pictures and styles are served as usual;
     // any other page link goes to the main site. On the main site, /desks/<name>/ moves to the desk's own address.
     const desk = DESKS.includes(url.hostname.split('.')[0]) ? url.hostname.split('.')[0] : null;

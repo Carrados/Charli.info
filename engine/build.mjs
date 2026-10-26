@@ -188,7 +188,7 @@ for (const f of extras) {
 }
 const home = pages.find((p) => p.path === '/');
 // The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
-const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/';
+const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/';
 let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0 unless a page states otherwise (the TAVIP handbooks are CC BY 4.0). Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);

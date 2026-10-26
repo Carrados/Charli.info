@@ -12,4 +12,4 @@ A conformance claim must name its version, link the standard, state its declarat
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §3.6, §4.7 and Part Seven. This entry summarises it; the standard is the authority. The sites built to ZIC are checked this way, fetched as a browser, as sent agents, as search and training crawlers, as Googlebot, and as an agent nobody has named, and each receives the same page. See also the [Delivery Casualty](/charlipedia/delivery-casualty/).
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §3.6, §4.7 and Part Seven. This entry summarises it; the standard is the authority. The sites built to ZIC are checked this way, fetched as a browser, as sent agents, as search and training crawlers, as Googlebot, and as an agent nobody has named, and each receives the same page. See also the [Delivery Casualty](/charlipedia/delivery-casualty/).
