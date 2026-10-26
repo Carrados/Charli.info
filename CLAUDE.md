@@ -1,6 +1,6 @@
 # Charli-Jo's sites: house rules
 
-This repo holds Charli-Jo Tyrer's sites outside Blind Ant: carrados.com and charli.info (the CharliVerse). Read this before changing anything.
+This repo holds Charli-Jo Tyrer's sites outside Blind Ant: carrados.com, charli.info (the CharliVerse), and zeroinformationcasualty.org (ZIC). Read this before changing anything.
 
 ## The architecture (decided 24 October 2026)
 
@@ -45,7 +45,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 ## How a site is built
 
-- `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, llms-full.txt, robots.txt and a sitemap. robots.txt comes from `engine/robots.txt`: written to ZIC v1.7 §3.6, with named blocks for sent agents, search, training and mixed-use crawlers, all allowed, and Content-Signal: search=yes, ai-input=yes, ai-train=yes. Keep Cloudflare's AI-crawler blocking, managed robots.txt and Browser Integrity Check switched off on every zone (Browser Integrity Check turns non-browser agents away with Error 1010; switched off on all three zones 25 October 2026), and after any change fetch from outside as a sent agent, a search crawler, a training crawler, Googlebot and an unnamed agent (§4.7).
+- `engine/build.mjs <site>` builds `<site>/content` into `dist/<site>/`. Every Markdown file is a page plus a Markdown mirror, with llms.txt, llms-full.txt, robots.txt and a sitemap. robots.txt comes from `engine/robots.txt`: written to ZIC v1.7 Â§3.6, with named blocks for sent agents, search, training and mixed-use crawlers, all allowed, and Content-Signal: search=yes, ai-input=yes, ai-train=yes. Keep Cloudflare's AI-crawler blocking, managed robots.txt and Browser Integrity Check switched off on every zone (Browser Integrity Check turns non-browser agents away with Error 1010; switched off on all three zones 25 October 2026), and after any change fetch from outside as a sent agent, a search crawler, a training crawler, Googlebot and an unnamed agent (Â§4.7).
 - Frontmatter: `title`, `description` (one sentence), and optionally `date`, `order`, `byline`. `<!-- list -->` in a folder's index lists that folder's pages (by order, then newest first).
 - Pictures and documents sit beside pages in `content/` and are published at the same path. Site settings (name, address, navigation, footer) are in `<site>/site.config.mjs`; styles in `<site>/public/styles.css`.
 - A Report's `date` is the date its file was last saved (a Word document's modified date, or the file's date on their computer). If there's no file, as with pasted text, use the date it's sent, and say so.
@@ -75,7 +75,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 
 - carrados.com is a Cloudflare zone on Lottie's account (registered at IONOS). carrados.com and www.carrados.com are custom domains of the `carrados` Worker, which sends www to the plain address. Preview: carrados.charlijotyrer.workers.dev.
 - Its email stays with IONOS: never touch the MX, SPF, DKIM, DMARC, autodiscover or domainconnect records.
-- charli.info is a Cloudflare zone on Lottie's account. Since 24 October 2026, charli.info and www.charli.info are custom domains of the `charli` Worker, which sends www to the plain address. dev.charli.info serves the same site. They replaced GitHub Pages, whose records were A 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153, plus CNAME www → charliverse.github.io.
+- charli.info is a Cloudflare zone on Lottie's account. Since 24 October 2026, charli.info and www.charli.info are custom domains of the `charli` Worker, which sends www to the plain address. dev.charli.info serves the same site. They replaced GitHub Pages, whose records were A 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153, plus CNAME www â†’ charliverse.github.io.
 - charli.info's email is Google: never touch its MX, SPF, google-site-verification or _dmarc records. The iceberg and seamiotics subdomains (A, AAAA, MX and DKIM at IONOS) are separate and stay as they are. The old GitHub Pages site (charliverse/charli.info) is still there: retiring it is Charli-Jo's call.
 
 ## Where the old site came from
@@ -91,3 +91,11 @@ The GitHub account was suspended on 26 October 2026, without a stated reason. Th
 - Codex works in the laptop copy, on a local branch named `codex/<topic>`, and commits there. When a batch is ready, it tells Charli-Jo which files changed.
 - Claude reviews by reading those files on the laptop (through the desktop link), against these house rules, and says what to fix.
 - Once Charli-Jo approves, Codex merges into `main` locally, runs the build checks, and publishes with `npm run publish:*`. Never `git push`.
+
+## ZIC standalone site (phase one; local merge, deployment pending)
+
+- **zeroinformationcasualty.org** (`zic/`) is the planned authoritative home of ZIC. The existing v1.7 specification and v1.7/v1.5 Word renderings have moved without rewriting. The Tyrer Framework and Carrados reporting remain on Carrados.
+- `npm run build:zic` uses the shared engine. Before publishing, Claude will convert the imported `zic/worker.js` and `zic/DEPLOYMENT.md` from their old GitHub-based deployment to Cloudflare static assets, and add the ZIC Wrangler configuration. Do not use the imported GitHub publishing instructions.
+- Preserve today's Cloudflare publishing, MCP service bindings and indexer. Claude will add ZIC to those service bindings and search sources after the local merge; the active sources remain unchanged for now. The MCP includes the new ZIC site label and filter.
+- Existing Carrados and older charli.info ZIC addresses have redirect rules ready. Deploy the new ZIC site and verify HTTPS before publishing those redirects or removing the old live pages.
+- The checker is phase two. This phase has no checking endpoint, browser sessions, AI inference or attempt counter. The agreed future checker allowance is 99 attempts, persistent until owner reset; a redeploy or calendar change must not renew authority.

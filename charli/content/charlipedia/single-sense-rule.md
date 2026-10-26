@@ -28,4 +28,4 @@ Its companion of equal rank is the [Position Principle](/charlipedia/position-pr
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.11, §2.2 and §2.4. This entry summarises it; the standard is the authority.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.11, §2.2 and §2.4. This entry summarises it; the standard is the authority.

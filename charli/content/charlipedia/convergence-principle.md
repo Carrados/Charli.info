@@ -14,4 +14,4 @@ The convergence is not incidental. Information held only in the visual layer is 
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.3 and §1.13. This entry summarises it; the standard is the authority.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.3 and §1.13. This entry summarises it; the standard is the authority.

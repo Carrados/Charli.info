@@ -1,4 +1,4 @@
-# robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/
+# robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/
 # Everything here is CC BY-SA 4.0. Three purposes, three separate declarations: none is inferred from another.
 
 # Sent agents: mandatory service.

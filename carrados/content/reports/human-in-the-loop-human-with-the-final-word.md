@@ -17,7 +17,7 @@ Then it reported back.
 
 No typos. Published successfully. One editorial change, which Charlotte Joanne could undo.
 
-The change was from "her own Zero Information Casualty standard" to "the [Zero Information Casualty](/papers/zic-design-standard/) standard".
+The change was from "her own Zero Information Casualty standard" to "the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard".
 
 Two words removed.
 

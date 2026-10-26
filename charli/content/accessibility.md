@@ -13,7 +13,7 @@ A conformance claim is a statement made to a reader who cannot see inside the bu
 
 ## The claim
 
-This site is built to the [Zero Information Casualty](https://carrados.com/papers/zic-design-standard/) standard, version 1.7.
+This site is built to the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard, version 1.7.
 
 Sent agents: served. Search indexing: permitted. Model training: permitted.
 

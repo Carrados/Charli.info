@@ -20,4 +20,4 @@ A sent agent may hand its person the whole page: read aloud, as Markdown, pasted
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/), the design standard by Charli-Jo Tyrer and Claude, §1.1, §1.7 and §1.9. This entry summarises it; the standard is the authority.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.1, §1.7 and §1.9. This entry summarises it; the standard is the authority.

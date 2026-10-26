@@ -8,7 +8,9 @@
     "build:charli": "node engine/build.mjs charli && node engine/chunks.mjs dist/charli https://charli.info charli.info /charlipedia/=charlipedia /training/=training",
     "publish:charli": "npm run build:charli && node engine/publish.mjs charli",
     "deploy:mcp": "node engine/publish.mjs mcp",
-    "deploy:indexer": "node engine/publish.mjs indexer"
+    "deploy:indexer": "node engine/publish.mjs indexer",
+    "build:zic": "node engine/build.mjs zic && node engine/chunks.mjs dist/zic https://zeroinformationcasualty.org zic",
+    "publish:zic": "npm run build:zic && node engine/publish.mjs zic"
   },
   "dependencies": {
     "marked": "18.1.1"

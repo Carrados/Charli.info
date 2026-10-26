@@ -39,4 +39,4 @@ Its mistakes are written into it. "The discipline of this specification is not t
 
 ## Behind the scenes
 
-ZIC is real. [Zero Information Casualty v1.7](https://carrados.com/papers/zic-design-standard/) is by Charli-Jo Tyrer and Claude, published by [Carrados](/charlipedia/carrados/) under CC BY-SA 4.0. charli.info was its first implementation, and the source of several of its fixes; carrados.com and blind-ant.com are built to it too. This entry summarises it; the standard is the authority.
+ZIC is real. [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/) is by Charli-Jo Tyrer and Claude, published by [Carrados](/charlipedia/carrados/) under CC BY-SA 4.0. charli.info was its first implementation, and the source of several of its fixes; carrados.com and blind-ant.com are built to it too. This entry summarises it; the standard is the authority.
