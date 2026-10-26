@@ -4,7 +4,7 @@
 // It has no web address of its own that changes anything: it runs only on its schedule.
 // If any source can't be read, it stops without deleting anything. Deploy with `npm run deploy:indexer` (wrangler.indexer.jsonc).
 // It reads each site's published chunks.json straight from the site Workers through service bindings, never from GitHub.
-const SOURCES = [['CHARLI', 'https://charli.info/chunks.json'], ['CARRADOS', 'https://carrados.com/chunks.json'], ['BLINDANT', 'https://blind-ant.com/chunks.json']];
+const SOURCES = [['CHARLI', 'https://charli.info/chunks.json'], ['CARRADOS', 'https://carrados.com/chunks.json'], ['BLINDANT', 'https://blind-ant.com/chunks.json'], ['ZIC', 'https://zeroinformationcasualty.org/chunks.json']];
 const MODEL = '@cf/baai/bge-base-en-v1.5';
 export const embedText = (c) => `${c.title}${c.heading ? '. ' + c.heading : ''}. ${c.text}`;
 

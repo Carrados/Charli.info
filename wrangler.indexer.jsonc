@@ -15,6 +15,7 @@
   "services": [
     { "binding": "CHARLI", "service": "charli" },
     { "binding": "CARRADOS", "service": "carrados" },
-    { "binding": "BLINDANT", "service": "blind-ant" }
+    { "binding": "BLINDANT", "service": "blind-ant" },
+    { "binding": "ZIC", "service": "zic" }
   ]
 }

@@ -2,14 +2,14 @@
 // A read-only Model Context Protocol server (Streamable HTTP, stateless JSON-RPC) that lets any agent look things up
 // in CharliPedia and search the CharliVerse. It can only read: it has no tool that writes, edits or deletes anything,
 // and CharliPedia changes only when Charli-Jo publishes. It reads the published files (charlipedia/entries.json and each
-// site's chunks.json) straight from the site Workers through service bindings (CHARLI, CARRADOS, BLINDANT), never from
+// site's chunks.json) straight from the site Workers through service bindings (CHARLI, CARRADOS, BLINDANT, ZIC), never from
 // GitHub. semantic_search queries the Vectorize index `charliverse`, which charli/mcp/indexer.js keeps; this Worker only
 // ever queries it. Deploy with `npm run deploy:mcp` (wrangler.mcp.jsonc).
 const DATA = 'https://charli.info/charlipedia/entries.json';
-// Read a published file from one of the three sites through its service binding (falls back to the public address).
+// Read a published file from one of the four sites through its service binding (falls back to the public address).
 function site(env, url) {
   const host = new URL(url).hostname;
-  const b = { 'charli.info': env && env.CHARLI, 'carrados.com': env && env.CARRADOS, 'blind-ant.com': env && env.BLINDANT }[host];
+  const b = { 'charli.info': env && env.CHARLI, 'carrados.com': env && env.CARRADOS, 'blind-ant.com': env && env.BLINDANT, 'zeroinformationcasualty.org': env && env.ZIC }[host];
   return b ? b.fetch(new Request(url)) : fetch(url);
 }
 const PROTOCOLS = ['2025-06-18', '2025-03-26', '2024-11-05'];
@@ -41,7 +41,7 @@ const SITES = {
 };
 // Hybrid search: meaning (Vectorize) blended with words (BM25 over the same passages and lines), by reciprocal
 // rank fusion. The passages and lines come from each site's published chunks.json, cached for five minutes.
-const CHUNKS = ['https://charli.info/chunks.json', 'https://carrados.com/chunks.json', 'https://blind-ant.com/chunks.json'];
+const CHUNKS = ['https://charli.info/chunks.json', 'https://carrados.com/chunks.json', 'https://blind-ant.com/chunks.json', 'https://zeroinformationcasualty.org/chunks.json'];
 const STOP = new Set('a an and are as at be been being but by can could did do does doing for from had has have he her hers him his how i if in into is it its me my no not of on or our she so some someone anyone than that the their them then there these they this those to was we were what when where which who whom whose why will with would you your say says said tell told about any'.split(' '));
 const stem = (w) => {
   if (w.length > 5 && w.endsWith('ing')) w = w.slice(0, -3);
