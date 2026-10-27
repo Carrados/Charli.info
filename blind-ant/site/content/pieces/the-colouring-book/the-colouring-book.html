@@ -1,10 +1,40 @@
 <!doctype html>
+<!--
+  The Colouring Book, version 1.0 (October 2026)
+  Blind Drawing School, by Charlotte Joanne at Blind Ant. https://blind-ant.com
+
+  The pictures and words are licensed under Creative Commons Attribution-ShareAlike 4.0
+  (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+  You may use, change and share them, as long as you credit Charlotte Joanne / Blind Ant
+  and share anything you make from them under the same licence.
+
+  The code is licensed under the MIT Licence:
+
+  Copyright (c) 2026 Charlotte Joanne / Blind Ant
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this
+  software and associated documentation files (the "Software"), to deal in the Software
+  without restriction, including without limitation the rights to use, copy, modify, merge,
+  publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
+  to whom the Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all copies or
+  substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+  PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+  FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+  OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+  DEALINGS IN THE SOFTWARE.
+-->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>The Colouring Book</title>
-<meta name="description" content="A colouring-in page you can use without seeing it. Part of Blind Drawing School, a Blind Ant design fiction by Charlotte Joanne.">
+<title>The Colouring Book · Blind Drawing School</title>
+<meta name="version" content="1.0">
+<meta name="description" content="A colouring book you can use without seeing it. Choose a picture, hear what's on the page, pick colours from the crayon box, and colour it in. From Blind Drawing School, by Charlotte Joanne at Blind Ant.">
 <style>
 /* Layout: an exercise book — feint blue rules and a red margin down the left; the picture is the page, the controls sit beside it like a pencil case. */
 :root {
@@ -21,6 +51,7 @@
   --font-display: "Fredoka", "Atkinson Hyperlegible", system-ui, sans-serif;
   --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   --step--1: 0.9rem; --step-0: 1.05rem; --step-1: 1.3rem; --step-2: 1.75rem; --step-3: 2.6rem;
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --paper: #121722; --ink: #e8ecf4; --muted: #a2abbd; --rule: #222c3d; --margin: #e86a6a;
@@ -30,28 +61,49 @@
   --accent: #8ea8f5; --accent-ink: #0d1424; --panel: #1a2130; --line: #334055; --focus: #ffc94d; color-scheme: dark }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
 body {
+  margin: 0;
   background: var(--paper);
   background-image: repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px);
   color: var(--ink); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.55;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 0 48px;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px));
 }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
 .book { max-width: 1180px; margin: 0 auto; position: relative; }
 .book::before { content: ""; position: absolute; top: 0; bottom: -48px; left: -10px; width: 2px; background: var(--margin); opacity: .55; }
 @media (max-width: 700px) { .book::before { display: none; } }
 
 header { padding-block: 32px 8px; display: grid; gap: 4px; }
-.eyebrow { font-size: var(--step--1); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.badge { display: inline-flex; align-items: center; gap: 8px; justify-self: start; margin: 0;
+  font-size: var(--step--1); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.badge svg { width: 22px; height: 22px; flex: none; }
 h1 { font-family: var(--font-display); font-weight: 600; font-size: var(--step-3); line-height: 1.05; margin: 0; text-wrap: balance; }
 h1 .dot { color: var(--margin); }
 h2 { font-family: var(--font-display); font-weight: 600; font-size: var(--step-2); margin: 0; line-height: 1.15; }
 h3 { font-size: var(--step-1); margin: 0; }
 .lede { max-width: 62ch; margin: 6px 0 0; }
+a { color: var(--accent); }
 
-.thepage { margin-top: 20px; display: grid; gap: 6px; max-width: 70ch; }
+.backlink { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; padding: 10px 2px; min-height: 44px; }
+
+/* ---- contents page */
+.contents { margin-top: 24px; display: grid; gap: 14px; }
+.shelf { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 16px; }
+.card { display: grid; gap: 8px; height: 100%; padding: 12px; text-decoration: none; color: var(--ink);
+  background: var(--paper); border: 2px solid var(--ink); border-radius: 10px; box-shadow: 6px 6px 0 var(--line); }
+.card:hover { box-shadow: 3px 3px 0 var(--line); transform: translate(3px, 3px); }
+.card .thumb { display: block; width: 100%; aspect-ratio: 4 / 3; background: #fbf9f4; border: 1.5px solid var(--line); border-radius: 6px; }
+.card .t { font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); line-height: 1.2; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.card .d { font-size: var(--step-0); }
+.card .m { font-size: var(--step--1); color: var(--muted); }
+
+/* ---- colouring page */
+.thepage { margin-top: 12px; display: grid; gap: 6px; max-width: 70ch; }
 .thepage p { margin: 0; }
 
 .desk { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: 28px; margin-top: 26px; align-items: start; }
@@ -74,7 +126,7 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 legend { font-weight: 700; font-size: var(--step-1); padding: 0; margin-bottom: 8px; }
 
 .parts { display: grid; gap: 2px; max-height: 320px; overflow-y: auto; border: 2px solid var(--line); border-radius: 10px; padding: 6px; background: var(--paper); }
-.part { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+.part { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 6px 8px; border-radius: 6px; cursor: pointer; min-height: 44px; }
 .part:hover { background: var(--panel); }
 .part:has(input:checked) { background: var(--panel); outline: 2px solid var(--accent); }
 .part .num { font-variant-numeric: tabular-nums; color: var(--muted); }
@@ -82,7 +134,7 @@ legend { font-weight: 700; font-size: var(--step-1); padding: 0; margin-bottom: 
 .chip { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--ink); flex: none; background: transparent; }
 
 .box { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
-.crayon { display: flex; align-items: center; gap: 10px; padding: 7px 10px; border: 2px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--paper); }
+.crayon { display: flex; align-items: center; gap: 10px; padding: 7px 10px; border: 2px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--paper); min-height: 44px; }
 .crayon:has(input:checked) { border-color: var(--ink); box-shadow: 3px 3px 0 var(--line); }
 .swatch { width: 26px; height: 16px; border-radius: 3px 10px 10px 3px; border: 1.5px solid rgba(0,0,0,.45); flex: none; }
 
@@ -90,15 +142,15 @@ legend { font-weight: 700; font-size: var(--step-1); padding: 0; margin-bottom: 
 .tool { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; padding: 8px 10px; border: 2px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--paper); }
 .tool:has(input:checked) { border-color: var(--ink); box-shadow: 3px 3px 0 var(--line); }
 .tool span.feel { grid-column: 2; font-size: var(--step--1); color: var(--muted); }
-.wobbly { display: flex; gap: 10px; align-items: center; cursor: pointer; }
+.wobbly { display: flex; gap: 10px; align-items: center; cursor: pointer; min-height: 44px; }
 
 input[type=radio], input[type=checkbox] { width: 1.15rem; height: 1.15rem; accent-color: var(--accent); margin: 0; }
 
 .actions { display: flex; flex-wrap: wrap; gap: 8px; }
-button { font: inherit; font-weight: 700; padding: 10px 16px; border-radius: 8px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); cursor: pointer; }
+button { font: inherit; font-weight: 700; padding: 10px 16px; min-height: 44px; border-radius: 8px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); cursor: pointer; }
 button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 button:hover { box-shadow: 3px 3px 0 var(--line); }
-button:disabled { opacity: .55; cursor: progress; }
+body.busy button, body.busy canvas { cursor: progress; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 
 .status { min-height: 1.6em; font-weight: 700; }
@@ -107,113 +159,134 @@ button:disabled { opacity: .55; cursor: progress; }
 
 .showtell { margin-top: 32px; max-width: 900px; background: var(--panel); border: 2px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
 .showtell ul { margin: 0; padding-left: 1.2em; display: grid; gap: 2px; }
-.showtell .diff { color: var(--margin); font-weight: 700; }
+.showtell .diff { color: var(--ink); }
 .showtell textarea { width: 100%; font: inherit; padding: 10px; border-radius: 8px; border: 2px solid var(--line); background: var(--paper); color: var(--ink); resize: vertical; min-height: 6.5em; }
 .saved img { width: 100%; border: 2px solid var(--ink); border-radius: 6px; }
+#saved-link { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border: 2px solid var(--ink); border-radius: 8px; font-weight: 700; }
 
 footer { margin-top: 40px; max-width: 70ch; font-size: var(--step--1); color: var(--muted); display: grid; gap: 6px; }
 footer p { margin: 0; }
+footer .maker { color: var(--ink); font-weight: 700; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } .card:hover { transform: none; } }
 </style>
-
 </head>
 <body>
 <div class="book">
   <header>
-    <p class="eyebrow">Blind Drawing School · Colouring Corner</p>
-    <h1>The Colouring Book<span class="dot">.</span></h1>
-    <p class="lede">A colouring-in page you can use without seeing it. Hear what's on the page, choose a part, pick a colour from the box, and colour it in with crayon, felt-tip or paint. When you're done, Show and Tell says what your picture really looks like.</p>
+    <p class="badge">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 18 L15 7 L18 10 L7 21 L3 22 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M15 7 L17 5 L20 8 L18 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      Blind Drawing School
+    </p>
+    <h1 id="top-h" tabindex="-1">The Colouring Book<span class="dot">.</span></h1>
+    <p class="lede" id="lede">A colouring book you can use without seeing it. Choose a picture, hear what's on the page, choose a part, pick a colour from the box, and colour it in with crayon, felt-tip or paint. When you're done, Show and Tell says what your picture really looks like.</p>
   </header>
 
-  <section class="thepage" aria-labelledby="page-h">
-    <h2 id="page-h">The page: <span id="page-title">The Cottage and the Cat</span></h2>
-    <p id="page-desc"></p>
-    <p class="hint">Made for ages 5 to 6: big shapes, thick lines, 17 parts to colour.</p>
-  </section>
+  <!-- ============ THE CONTENTS: choose a picture ============ -->
+  <main id="contents" hidden>
+    <section class="contents" aria-labelledby="choose-h">
+      <h2 id="choose-h">Choose a picture</h2>
+      <p class="hint" id="contents-note"></p>
+      <ul class="shelf" id="shelf"></ul>
+    </section>
+  </main>
 
-  <div class="desk">
-    <div class="pencilcase">
-      <form class="say" id="say-form" autocomplete="off">
-        <label for="say">Tell me what to colour</label>
-        <div class="row">
-          <input id="say" type="text" placeholder="colour the door red with felt-tip" aria-describedby="say-hint">
-          <button type="submit" class="primary">Do it</button>
-        </div>
-        <p class="hint" id="say-hint">Try: "make the sun yellow", "cat's ears pink felt-tip, wobbly", "undo", "rub out the roof", "what's left", "what's next to the door", "show and tell", "save my picture".</p>
-      </form>
+  <!-- ============ A PAGE: colour it in ============ -->
+  <main id="colouring" hidden>
+    <a class="backlink" href="./"><span aria-hidden="true">←</span> All the pictures</a>
 
-      <p class="status" id="status" role="status" aria-live="polite"></p>
+    <section class="thepage" aria-labelledby="page-h">
+      <h2 id="page-h">The page: <span id="page-title"></span></h2>
+      <p id="page-desc"></p>
+      <p class="hint" id="page-hint"></p>
+    </section>
 
-      <fieldset>
-        <legend>1. Choose a part</legend>
-        <div class="parts" id="parts"></div>
-      </fieldset>
+    <div class="desk">
+      <div class="pencilcase">
+        <form class="say" id="say-form" autocomplete="off">
+          <label for="say">Tell me what to colour</label>
+          <div class="row">
+            <input id="say" type="text" aria-describedby="say-hint">
+            <button type="submit" class="primary">Do it</button>
+          </div>
+          <p class="hint" id="say-hint"></p>
+        </form>
 
-      <fieldset>
-        <legend>2. Choose a colour</legend>
-        <div class="box" id="box"></div>
-      </fieldset>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
 
-      <fieldset>
-        <legend>3. Choose what to colour with</legend>
-        <div class="tools" id="tools"></div>
-      </fieldset>
+        <fieldset>
+          <legend>1. Choose a part</legend>
+          <div class="parts" id="parts"></div>
+        </fieldset>
 
-      <label class="wobbly" for="wobbly"><input type="checkbox" id="wobbly"> Colour like a real five-year-old (a bit over the lines)</label>
+        <fieldset>
+          <legend>2. Choose a colour</legend>
+          <div class="box" id="box"></div>
+        </fieldset>
 
-      <div class="actions">
-        <button type="button" class="primary" id="go">Colour it in</button>
-        <button type="button" class="primary" id="save-pic">Save my picture</button>
-        <button type="button" id="undo">Undo</button>
-        <button type="button" id="rubout">Rub out this part</button>
-        <button type="button" id="restart">Start again</button>
-        <button type="button" id="example">Show me an example</button>
-      </div>
+        <fieldset>
+          <legend>3. Choose what to colour with</legend>
+          <div class="tools" id="tools"></div>
+        </fieldset>
 
-      <div>
-        <h3 id="log-h" style="font-size: var(--step-0)">What's happened so far</h3>
-        <ol class="log" id="log" aria-labelledby="log-h"></ol>
-      </div>
-    </div>
+        <label class="wobbly" for="wobbly"><input type="checkbox" id="wobbly"> Let my colouring go a little over the lines</label>
 
-    <div class="easel">
-      <div class="frame">
-        <canvas id="picture" width="1200" height="900" role="img" aria-label="Your picture"></canvas>
-      </div>
-      <p class="caption">Sighted helpers can also tap a part of the picture to choose it.</p>
-
-
-    </div>
-  </div>
-
-  <section class="showtell" aria-labelledby="st-h">
-        <h2 id="st-h">Show and Tell</h2>
-        <p style="margin:0">Looks at the finished picture and says what colour each part really came out. Colours can mix: yellow felt-tip over blue turns green.</p>
         <div class="actions">
-          <button type="button" class="primary" id="tell">What does it look like?</button>
-          <button type="button" id="save-pic-2">Save my picture</button>
+          <button type="button" class="primary" id="go">Colour it in</button>
+          <button type="button" class="primary" id="save-pic">Save my picture</button>
+          <button type="button" id="undo">Undo</button>
+          <button type="button" id="rubout">Rub out this part</button>
+          <button type="button" id="restart">Start again</button>
+          <button type="button" id="example">Show me an example</button>
         </div>
-        <div id="report" aria-live="polite"></div>
-        <div id="saved" class="saved" hidden>
-          <p class="hint">If the save button doesn't work here, right-click this picture and choose Save image, or press and hold it on a phone.</p>
-          <img id="saved-img" alt="">
+
+        <div>
+          <h3 id="log-h" style="font-size: var(--step-0)">What's happened so far</h3>
+          <ol class="log" id="log" aria-labelledby="log-h"></ol>
         </div>
-      </section>
+      </div>
+
+      <div class="easel">
+        <div class="frame">
+          <canvas id="picture" width="1200" height="900" role="img" aria-label="Your picture"></canvas>
+        </div>
+        <p class="caption">Sighted helpers can also tap a part of the picture to choose it.</p>
+      </div>
+    </div>
+
+    <section class="showtell" aria-labelledby="st-h">
+      <h2 id="st-h">Show and Tell</h2>
+      <p style="margin:0">Looks at the finished picture and says what colour each part really came out. Colours can mix: yellow felt-tip over blue turns green.</p>
+      <div class="actions">
+        <button type="button" class="primary" id="tell">What does it look like?</button>
+        <button type="button" id="save-pic-2">Save my picture</button>
+      </div>
+      <div id="report" aria-live="polite"></div>
+      <div id="saved" class="saved" hidden>
+        <p style="margin:0">If your picture didn't save, open it here and save it from there.</p>
+        <p style="margin:0"><a id="saved-link" href="#" download>Open my picture</a></p>
+        <img id="saved-img" alt="">
+      </div>
+    </section>
+
+    <p><a class="backlink" href="./"><span aria-hidden="true">←</span> Choose another picture</a></p>
+  </main>
 
   <footer>
-    <p>Free to use, share and change. The code is under the MIT licence; the words are under CC BY-SA 4.0. Credit Charlotte Joanne and Claude.</p>
-    <p>The Colouring Book is part of Blind Drawing School, a Blind Ant design-fiction project by Charlotte Joanne. It is an experiment, not a real school.</p>
-    <p>No artificial intelligence runs on this page. The picture knows its own parts, so every word it says about itself comes from the drawing, not a guess.</p>
+    <p class="maker">Made by Charlotte Joanne at Blind Ant. Free to use and share; please say where it came from.</p>
+    <p>The Colouring Book is part of Blind Drawing School, a Blind Ant design-fiction project. It is an experiment, not a real school.</p>
+    <p>No artificial intelligence runs on this page. Each picture knows its own parts, so every word it says about itself comes from the drawing, not a guess.</p>
+    <p>Version 1.0, October 2026. The pictures and words are <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> and the code is MIT licensed: you can use, change and share them, as long as you credit Charlotte Joanne / Blind Ant and share your changes the same way.</p>
   </footer>
 </div>
-<script type="image/svg+xml" id="page-svg">
+
+<script type="image/svg+xml" data-slug="cottage-and-cat">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750"
      data-title="The Cottage and the Cat" data-age="5-6" data-orientation="landscape">
   <title>The Cottage and the Cat</title>
   <desc>A little cottage sits in the middle of a grassy garden on a sunny day. It has a pointy roof with a chimney, two square windows and a round-topped front door. A path runs from the door down to the bottom of the page. A lollipop tree stands on the left, a fluffy cloud floats in the top left, the sun shines in the top right, and a cat sits on the grass to the right of the cottage with its tail curled round.</desc>
 
-  <!-- COLOURABLE PARTS. Painted in this order: later parts sit on top of earlier ones. -->
+  
   <g id="parts">
     <rect id="sky" x="0" y="0" width="1000" height="750"
       data-name="the sky" data-number="1"
@@ -301,7 +374,7 @@ footer p { margin: 0; }
       data-description="A round face with two eyes, a little nose, a smiling mouth and whiskers."/>
   </g>
 
-  <!-- LINE-ONLY DETAILS: drawn in black, not coloured in. -->
+  
   <g id="details" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round">
     <g id="sun-rays">
       <line x1="935" y1="120" x2="965" y2="120"/><line x1="785" y1="120" x2="755" y2="120"/>
@@ -324,10 +397,394 @@ footer p { margin: 0; }
   </g>
 </svg>
 </script>
+<script type="image/svg+xml" data-slug="snowman">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750"
+     data-title="The Snowman" data-age="5-6" data-orientation="landscape">
+  <title>The Snowman</title>
+  <desc>A snowman stands in the snow on a winter's night. He has a big round body, a round head, a tall top hat, a scarf round his neck with one end hanging down, a carrot nose and two stick arms. On the left is a Christmas tree with a star on top, and a present sits on the snow beside it. A little robin sits on the snow on the right. The moon shines in the top right and snowflakes are falling all round.</desc>
+
+  
+  <g id="parts">
+    <rect id="sky" x="0" y="0" width="1000" height="750"
+      data-name="the sky" data-number="1"
+      data-where="behind everything, filling the top of the page"
+      data-description="The big night sky all around the top of the picture, behind the snowman, the tree and the moon. Snowflakes are falling in it."/>
+
+    <circle id="moon" cx="860" cy="110" r="55"
+      data-name="the moon" data-number="2"
+      data-where="top right corner"
+      data-description="A big round full moon."/>
+
+    <path id="snow" d="M0,560 Q300,520 600,555 T1000,545 V750 H0 Z"
+      data-name="the snowy ground" data-number="3"
+      data-where="along the bottom of the page, from one side to the other"
+      data-description="A thick blanket of snow with a gently wavy top. The snowman, the tree, the present and the robin all stand on it."/>
+
+    <rect id="tree-trunk" x="160" y="500" width="40" height="85"
+      data-name="the tree trunk" data-number="4"
+      data-where="left side, under the Christmas tree"
+      data-description="A short, stubby trunk going down into the snow."/>
+
+    <path id="christmas-tree" d="M180,170 L270,300 L230,300 L300,410 L250,410 L330,530 L30,530 L110,410 L60,410 L130,300 L90,300 Z"
+      data-name="the Christmas tree" data-number="5"
+      data-where="left side of the page"
+      data-description="A tall pointy tree made of three layers, each one wider than the one above, like three triangles stacked up. It has four round baubles hanging on it."/>
+
+    <polygon id="star" points="180,102 192,133 226,135 200,156 208,189 180,171 152,189 160,156 134,135 168,133"
+      data-name="the star" data-number="6"
+      data-where="on the very top of the Christmas tree"
+      data-description="A five-pointed star sitting on the tip of the tree."/>
+
+    <rect id="present" x="300" y="515" width="90" height="70"
+      data-name="the present" data-number="7"
+      data-where="on the snow, just to the right of the Christmas tree"
+      data-description="A square parcel with a ribbon going across it both ways and a bow on top."/>
+
+    <circle id="snowman-body" cx="620" cy="520" r="110"
+      data-name="the snowman's body" data-number="8"
+      data-where="the middle of the page, standing on the snow"
+      data-description="A big round snowball with three buttons down the front and a stick arm poking out of each side."/>
+
+    <circle id="snowman-head" cx="620" cy="345" r="72"
+      data-name="the snowman's head" data-number="9"
+      data-where="on top of the snowman's body"
+      data-description="A smaller round snowball with two eyes and a smiley mouth made of little dots."/>
+
+    <path id="hat" d="M555,278 H685 V296 H555 Z M580,195 H660 V280 H580 Z"
+      data-name="the snowman's hat" data-number="10"
+      data-where="on top of the snowman's head"
+      data-description="A tall top hat: a flat brim with a tall, straight-sided top sticking up from it."/>
+
+    <path id="scarf" d="M552,408 Q620,430 688,408 L690,440 Q620,462 550,440 Z M640,440 L680,438 L690,520 L652,522 Z"
+      data-name="the snowman's scarf" data-number="11"
+      data-where="round the snowman's neck, with one end hanging down on the right-hand side of his body"
+      data-description="A cosy scarf wrapped round where the head meets the body, with one long end dangling down the front."/>
+
+    <path id="nose" d="M620,345 L690,362 L620,375 Z"
+      data-name="the snowman's carrot nose" data-number="12"
+      data-where="the middle of the snowman's face, pointing to the right"
+      data-description="A long pointy carrot nose, like a triangle, sticking out sideways."/>
+
+    <ellipse id="robin-body" cx="860" cy="560" rx="42" ry="32"
+      data-name="the robin's body" data-number="13"
+      data-where="right side, sitting on the snow"
+      data-description="A plump little round bird's body, with two thin legs underneath."/>
+
+    <ellipse id="robin-tummy" cx="880" cy="568" rx="24" ry="20"
+      data-name="the robin's tummy" data-number="14"
+      data-where="the front of the robin, under its head"
+      data-description="A round patch on the front of the robin's chest."/>
+
+    <circle id="robin-head" cx="892" cy="526" r="23"
+      data-name="the robin's head" data-number="15"
+      data-where="on top of the robin, at the front"
+      data-description="A small round head with one eye and a little pointy beak facing right."/>
+  </g>
+
+  
+  <g id="details" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path id="snowflakes" stroke-width="4" d="M420,79 L420,101 M430,84 L410,96 M430,96 L410,84 M520,164 L520,186 M530,170 L510,180 M530,180 L510,170 M745,59 L745,81 M755,64 L735,76 M755,76 L735,64 M330,224 L330,246 M340,230 L320,240 M340,240 L320,230 M955,289 L955,311 M965,294 L945,306 M965,306 L945,294 M80,59 L80,81 M90,64 L70,76 M90,76 L70,64 M720,224 L720,246 M730,230 L710,240 M730,240 L710,230 M430,289 L430,311 M440,294 L420,306 M440,306 L420,294 M900,409 L900,431 M910,414 L890,426 M910,426 L890,414"/>
+    <g id="baubles" stroke-width="5">
+      <circle cx="160" cy="280" r="11"/><circle cx="215" cy="380" r="11"/>
+      <circle cx="120" cy="470" r="11"/><circle cx="255" cy="485" r="11"/>
+    </g>
+    <g id="ribbon">
+      <line x1="345" y1="515" x2="345" y2="585"/><line x1="300" y1="550" x2="390" y2="550"/>
+      <path d="M345,515 C325,490 310,505 345,515 C380,505 365,490 345,515"/>
+    </g>
+    <g id="snowman-arms">
+      <path d="M512,470 L430,410 M458,430 L445,398"/>
+      <path d="M728,470 L805,415 M782,432 L800,402"/>
+    </g>
+    <g id="snowman-face" stroke="none" fill="#111">
+      <circle cx="598" cy="325" r="8"/><circle cx="642" cy="325" r="8"/>
+      <circle cx="590" cy="388" r="4.5"/><circle cx="603" cy="395" r="4.5"/>
+      <circle cx="617" cy="398" r="4.5"/><circle cx="631" cy="396" r="4.5"/><circle cx="644" cy="390" r="4.5"/>
+    </g>
+    <g id="snowman-buttons" stroke="none" fill="#111">
+      <circle cx="620" cy="475" r="10"/><circle cx="620" cy="525" r="10"/><circle cx="620" cy="575" r="10"/>
+    </g>
+    <g id="robin-bits">
+      <circle cx="898" cy="520" r="4" fill="#111" stroke="none"/>
+      <path d="M913,524 L934,530 L913,536 Z" fill="#111" stroke-width="2"/>
+      <path d="M848,590 L846,614 M870,590 L872,614" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
+</script>
+<script type="image/svg+xml" data-slug="dragon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750"
+     data-title="The Friendly Dragon" data-age="5-6" data-orientation="landscape">
+  <title>The Friendly Dragon</title>
+  <desc>A friendly dragon sits on a grassy hill on a sunny day, facing to the right. He has a big round body, a long curly tail with a pointy tip, one wing folded up on his back, and a row of spikes down the back of his neck. His round head has two little horns, a smiley snout, and a puff of smoke drifting up from his nose. The sun shines in the top left, and flowers grow on the hill.</desc>
+
+  
+  <g id="parts">
+    <rect id="sky" x="0" y="0" width="1000" height="750"
+      data-name="the sky" data-number="1"
+      data-where="behind everything, filling the top of the page"
+      data-description="The big space all around the top of the picture, behind the dragon and the sun."/>
+
+    <circle id="sun" cx="110" cy="105" r="58"
+      data-name="the sun" data-number="2"
+      data-where="top left corner"
+      data-description="A round sun with short straight rays all around it."/>
+
+    <path id="hill" d="M0,585 Q500,505 1000,585 V750 H0 Z"
+      data-name="the grassy hill" data-number="3"
+      data-where="along the bottom of the page, from one side to the other"
+      data-description="A gentle round hill, highest in the middle, with little flowers growing on it. The dragon sits on top."/>
+
+    <path id="tail-tip" d="M168,470 L95,430 L125,520 Z"
+      data-name="the tip of the tail" data-number="4"
+      data-where="left side, at the very end of the tail"
+      data-description="A pointy arrow shape on the end of the dragon's tail."/>
+
+    <path id="tail" d="M345,455 C270,455 230,500 160,465 L140,505 C230,560 280,515 350,530 Z"
+      data-name="the dragon's tail" data-number="5"
+      data-where="left side, coming out of the back of the dragon"
+      data-description="A long, thick tail that sweeps out to the left along the hill and curls up a little at the end."/>
+
+    <path id="wing" d="M430,390 L345,165 Q395,215 440,205 Q470,250 515,240 Q540,285 580,295 L570,390 Z"
+      data-name="the dragon's wing" data-number="6"
+      data-where="on the dragon's back, pointing up to the sky"
+      data-description="A big wing folded up on his back, with a sharp point at the top and a bumpy, scalloped edge, like a bat's wing. Lines on it show the wing bones."/>
+
+    <path id="spikes" d="M560,405 L523,346 L584,379 Z M590,373 L553,314 L614,347 Z M620,341 L583,282 L644,315 Z M650,309 L613,250 L674,283 Z"
+      data-name="the spikes on his back" data-number="7"
+      data-where="in a row down the back of the dragon's neck"
+      data-description="Four pointy triangle spikes in a line, like a row of teeth on a saw."/>
+
+    <ellipse id="back-leg" cx="395" cy="560" rx="68" ry="48"
+      data-name="the dragon's back leg" data-number="8"
+      data-where="at the bottom of the dragon, under his tail end"
+      data-description="A big chunky leg folded up underneath him. Only the bottom of it peeps out below his body."/>
+
+    <ellipse id="body" cx="480" cy="470" rx="170" ry="120"
+      data-name="the dragon's body" data-number="9"
+      data-where="the middle of the page, sitting on the hill"
+      data-description="A big round, roly-poly body, like an egg lying on its side."/>
+
+    <path id="neck" d="M548,400 L668,272 L735,330 L640,470 Z"
+      data-name="the dragon's neck" data-number="10"
+      data-where="going up and to the right from the body to the head"
+      data-description="A thick neck that leans forward, joining his body to his head."/>
+
+    <ellipse id="tummy" cx="580" cy="490" rx="70" ry="85"
+      data-name="the dragon's tummy" data-number="11"
+      data-where="on the front of the dragon's body"
+      data-description="A big oval patch on his chest and tummy, with curved stripes across it."/>
+
+    <ellipse id="front-leg" cx="615" cy="580" rx="50" ry="38"
+      data-name="the dragon's front leg" data-number="12"
+      data-where="at the bottom of the dragon, at the front"
+      data-description="A short, chunky front leg resting on the grass, with three claws."/>
+
+    <path id="horns" d="M672,236 L655,180 L700,226 Z M712,226 L730,170 L738,236 Z"
+      data-name="the dragon's horns" data-number="13"
+      data-where="on top of the dragon's head"
+      data-description="Two short pointy horns sticking up from the top of his head."/>
+
+    <circle id="head" cx="705" cy="290" r="65"
+      data-name="the dragon's head" data-number="14"
+      data-where="near the top of the dragon, on the right"
+      data-description="A big round head with one happy eye."/>
+
+    <ellipse id="snout" cx="780" cy="315" rx="58" ry="36"
+      data-name="the dragon's snout" data-number="15"
+      data-where="the front of the dragon's head, pointing to the right"
+      data-description="A long rounded nose and mouth, with two little nostrils at the end and a big smile."/>
+
+    <path id="smoke" d="M840,265 A22,22 0 0 1 850,225 A30,30 0 0 1 900,205 A26,26 0 0 1 945,225 A22,22 0 0 1 940,265 Z"
+      data-name="the puff of smoke" data-number="16"
+      data-where="right side, floating up from the end of the dragon's nose"
+      data-description="A little round fluffy puff of smoke, like a small cloud."/>
+  </g>
+
+  
+  <g id="details" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g id="sun-rays">
+      <line x1="110" y1="30" x2="110" y2="8"/><line x1="110" y1="180" x2="110" y2="202"/>
+      <line x1="185" y1="105" x2="207" y2="105"/><line x1="35" y1="105" x2="13" y2="105"/>
+      <line x1="163" y1="52" x2="179" y2="36"/><line x1="57" y1="52" x2="41" y2="36"/>
+      <line x1="163" y1="158" x2="179" y2="174"/><line x1="57" y1="158" x2="41" y2="174"/>
+    </g>
+    <g id="wing-bones" stroke-width="4">
+      <path d="M440,345 L440,215 M480,342 L505,250 M520,345 L565,300"/>
+    </g>
+    <g id="tummy-stripes" stroke-width="4">
+      <path d="M528,440 Q575,455 622,440 M518,480 Q575,497 632,480 M520,520 Q575,537 630,520 M532,558 Q575,572 618,558"/>
+    </g>
+    <g id="claws" stroke-width="4">
+      <path d="M660,565 L680,560 M666,580 L688,580 M660,595 L680,601"/>
+    </g>
+    <g id="face">
+      <circle cx="710" cy="272" r="9" fill="#111" stroke="none"/>
+      <circle cx="714" cy="268" r="3" fill="#fff" stroke="none"/>
+      <path d="M745,335 Q785,355 822,328" stroke-width="5"/>
+      <circle cx="822" cy="302" r="4.5" fill="#111" stroke="none"/>
+      <circle cx="808" cy="298" r="4.5" fill="#111" stroke="none"/>
+      <path d="M834,296 Q848,284 846,268" stroke-width="4"/>
+    </g>
+    <g id="flowers" stroke-width="4"><path d="M110,653 V685 M110,673 Q124,663 128,673"/><path d="M95,627 L102,639 L110,627 L118,639 L125,627 Q125,653 110,653 Q95,653 95,627 Z"/><path d="M260,688 V720 M260,708 Q274,698 278,708"/><path d="M245,662 L252,674 L260,662 L268,674 L275,662 Q275,688 260,688 Q245,688 245,662 Z"/><path d="M800,658 V690 M800,678 Q814,668 818,678"/><path d="M785,632 L792,644 L800,632 L808,644 L815,632 Q815,658 800,658 Q785,658 785,632 Z"/><path d="M910,688 V720 M910,708 Q924,698 928,708"/><path d="M895,662 L902,674 L910,662 L918,674 L925,662 Q925,688 910,688 Q895,688 895,662 Z"/></g>
+  </g>
+</svg>
+</script>
+<script type="image/svg+xml" data-slug="unicorn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750"
+     data-title="The Unicorn and the Rainbow" data-age="5-6" data-orientation="landscape">
+  <title>The Unicorn and the Rainbow</title>
+  <desc>A unicorn stands on the grass in front of a big rainbow, facing to the right. She has a long pointy horn on her forehead, a wavy mane down her neck, a long wavy tail, and four legs with a hoof on each. The rainbow is made of three wide stripes, curving right over her from one side of the page to the other, and each end of it sits in a fluffy cloud. Little stars twinkle in the sky.</desc>
+
+  
+  <g id="parts">
+    <rect id="sky" x="0" y="0" width="1000" height="750"
+      data-name="the sky" data-number="1"
+      data-where="behind everything, filling the top of the page"
+      data-description="The big space all around the top of the picture, above and inside the rainbow, with little stars in it."/>
+
+    <path id="rainbow-outer" d="M70,560 A430,430 0 0 1 930,560 L885,560 A385,385 0 0 0 115,560 Z"
+      data-name="the outside stripe of the rainbow" data-number="2"
+      data-where="the top of the rainbow, the biggest curve"
+      data-description="The widest curved stripe, on the outside of the rainbow, going from one cloud right over the top to the other. The tip of the unicorn's horn pokes up through it on the right, so it shows in two pieces, either side of the horn."/>
+
+    <path id="rainbow-middle" d="M115,560 A385,385 0 0 1 885,560 L840,560 A340,340 0 0 0 160,560 Z"
+      data-name="the middle stripe of the rainbow" data-number="3"
+      data-where="just inside the outside stripe"
+      data-description="The middle curved stripe of the rainbow, between the other two."/>
+
+    <path id="rainbow-inner" d="M160,560 A340,340 0 0 1 840,560 L795,560 A295,295 0 0 0 205,560 Z"
+      data-name="the inside stripe of the rainbow" data-number="4"
+      data-where="the smallest curve, just above the unicorn"
+      data-description="The inside curved stripe of the rainbow, the one closest to the unicorn. Her head sits in front of it on the right, so it shows in two pieces, either side of her head."/>
+
+    <path id="left-cloud" d="M40,560 A30,30 0 0 1 70,515 A45,45 0 0 1 150,495 A38,38 0 0 1 215,525 A28,28 0 0 1 225,560 Z"
+      data-name="the left cloud" data-number="5"
+      data-where="bottom left, where the rainbow starts"
+      data-description="A fluffy cloud with a bumpy top. One end of the rainbow sits in it."/>
+
+    <path id="right-cloud" d="M775,560 A28,28 0 0 1 785,525 A38,38 0 0 1 850,495 A45,45 0 0 1 930,515 A30,30 0 0 1 960,560 Z"
+      data-name="the right cloud" data-number="6"
+      data-where="bottom right, where the rainbow ends"
+      data-description="A fluffy cloud with a bumpy top. The other end of the rainbow sits in it."/>
+
+    <path id="grass" d="M0,575 Q500,545 1000,575 V750 H0 Z"
+      data-name="the grass" data-number="7"
+      data-where="along the bottom of the page, from one side to the other"
+      data-description="A strip of grass with a gently curved top and little flowers in it. The unicorn stands on it."/>
+
+    <path id="tail" d="M335,445 C280,450 255,500 280,540 C295,565 265,600 240,610 C300,625 335,580 320,545 C305,510 330,480 350,470 Z"
+      data-name="the unicorn's tail" data-number="8"
+      data-where="left of the unicorn, hanging down from the back of her body"
+      data-description="A long, flowing, wavy tail that swishes down towards the grass."/>
+
+    <path id="back-legs" d="M360,500 H392 V640 H360 Z M412,500 H444 V640 H412 Z"
+      data-name="the unicorn's back legs" data-number="9"
+      data-where="under the back of the unicorn, on the left"
+      data-description="Two straight back legs standing side by side."/>
+
+    <path id="front-legs" d="M510,500 H542 V640 H510 Z M562,500 H594 V640 H562 Z"
+      data-name="the unicorn's front legs" data-number="10"
+      data-where="under the front of the unicorn, on the right"
+      data-description="Two straight front legs standing side by side."/>
+
+    <path id="hooves" d="M356,638 H396 V665 H356 Z M408,638 H448 V665 H408 Z M506,638 H546 V665 H506 Z M558,638 H598 V665 H558 Z"
+      data-name="the hooves" data-number="11"
+      data-where="at the bottom of all four legs, on the grass"
+      data-description="Four little square hooves, one on the bottom of each leg."/>
+
+    <ellipse id="body" cx="475" cy="475" rx="150" ry="72"
+      data-name="the unicorn's body" data-number="12"
+      data-where="the middle of the page, in front of the rainbow"
+      data-description="A long, rounded body, like a big jelly bean lying on its side."/>
+
+    <path id="neck" d="M545,445 L605,300 L680,315 L620,470 Z"
+      data-name="the unicorn's neck" data-number="13"
+      data-where="going up and to the right from the front of the body"
+      data-description="A long neck that stretches up proudly from her body to her head."/>
+
+    <path id="head" d="M614.75,279.57 A72,42 25 1,0 745.25,340.43 A72,42 25 1,0 614.75,279.57 Z"
+      data-name="the unicorn's head" data-number="14"
+      data-where="near the top of the unicorn, on the right"
+      data-description="A long head that slopes down towards the nose, with one eye, a nostril, a smile and a pointy ear."/>
+
+    <path id="mane" d="M640,262 C610,250 585,265 590,290 C565,295 560,325 575,340 C550,350 548,380 565,395 C545,410 548,440 570,450 L590,440 L640,290 Z"
+      data-name="the unicorn's mane" data-number="15"
+      data-where="down the back of the unicorn's neck, from her head to her body"
+      data-description="Long wavy hair running down the back of her neck, bumpy like curls."/>
+
+    <path id="horn" d="M690,258 L740,165 L718,272 Z"
+      data-name="the unicorn's horn" data-number="16"
+      data-where="on the top of the unicorn's head, pointing up and forwards"
+      data-description="A long pointy horn with a twisty line spiralling round it."/>
+  </g>
+
+  
+  <g id="details" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g id="stars" stroke-width="4"><polygon points="90,89 94,99 105,100 97,107 99,118 90,112 81,118 83,107 75,100 86,99"/><polygon points="480,36 484,46 495,47 487,54 489,65 480,59 471,65 473,54 465,47 476,46"/><polygon points="890,69 894,79 905,80 897,87 899,98 890,92 881,98 883,87 875,80 886,79"/><polygon points="310,369 314,379 325,380 317,387 319,398 310,392 301,398 303,387 295,380 306,379"/><polygon points="420,314 424,324 435,325 427,332 429,343 420,337 411,343 413,332 405,325 416,324"/><polygon points="880,234 884,244 895,245 887,252 889,263 880,257 871,263 873,252 865,245 876,244"/><polygon points="55,314 59,324 70,325 62,332 64,343 55,337 46,343 48,332 40,325 51,324"/></g>
+    <g id="horn-spiral" stroke-width="4">
+      <path d="M700,250 L727,238 M708,228 L732,214 M716,206 L736,192"/>
+    </g>
+    <g id="ear">
+      <path d="M655,270 L640,232 L672,258" stroke-width="5"/>
+    </g>
+    <g id="unicorn-face">
+      <circle cx="680" cy="300" r="7" fill="#111" stroke="none"/>
+      <circle cx="733" cy="342" r="4" fill="#111" stroke="none"/>
+      <path d="M712,348 Q722,358 735,354" stroke-width="4"/>
+    </g>
+    <g id="mane-curls" stroke-width="4">
+      <path d="M600,285 Q615,282 618,300 M585,335 Q600,330 605,348 M582,390 Q596,386 600,402"/>
+    </g>
+    <g id="grass-flowers" stroke-width="4"><path d="M150,658 V690 M150,678 Q164,668 168,678"/><path d="M135,632 L142,644 L150,632 L158,644 L165,632 Q165,658 150,658 Q135,658 135,632 Z"/><path d="M300,693 V725 M300,713 Q314,703 318,713"/><path d="M285,667 L292,679 L300,667 L308,679 L315,667 Q315,693 300,693 Q285,693 285,667 Z"/><path d="M700,658 V690 M700,678 Q714,668 718,678"/><path d="M685,632 L692,644 L700,632 L708,644 L715,632 Q715,658 700,658 Q685,658 685,632 Z"/><path d="M860,688 V720 M860,708 Q874,698 878,708"/><path d="M845,662 L852,674 L860,662 L868,674 L875,662 Q875,688 860,688 Q845,688 845,662 Z"/></g>
+  </g>
+</svg>
+</script>
+
 <script>
 (() => {
 "use strict";
-// ---------------------------------------------------------------- data
+// ---------------------------------------------------------------- the book
+// Each page is an SVG in a <script type="image/svg+xml" data-slug="..."> above.
+// To add a page: drop its SVG in with a new slug, and add an entry here.
+const BOOK = [
+  { slug: "cottage-and-cat", summary: "A little cottage with a cat sitting outside on a sunny day.",
+    alt: "a cottage and a cat", start: "door",
+    tries: ["make the sun yellow", "cat's ears pink felt-tip, wobbly", "rub out the roof", "what's next to the door"],
+    example: [
+      { part: "sky", colour: "sky blue", tool: "crayon", wobbly: false },
+      { part: "sun", colour: "sunshine yellow", tool: "felt-tip", wobbly: false },
+      { part: "roof", colour: "pillar-box red", tool: "felt-tip", wobbly: false },
+      { part: "tree-leaves", colour: "apple green", tool: "paint", wobbly: false },
+      { part: "cat-body", colour: "tangerine orange", tool: "crayon", wobbly: true } ] },
+  { slug: "snowman", summary: "A snowman in a top hat and scarf, with a Christmas tree and a robin.",
+    alt: "a snowman in the snow on a winter's night", start: "hat",
+    tries: ["make the hat black", "scarf red felt-tip, wobbly", "rub out the moon", "what's next to the present"],
+    example: [
+      { part: "sky", colour: "royal blue", tool: "crayon", wobbly: false },
+      { part: "moon", colour: "sunshine yellow", tool: "paint", wobbly: false },
+      { part: "hat", colour: "liquorice black", tool: "felt-tip", wobbly: false },
+      { part: "scarf", colour: "pillar-box red", tool: "felt-tip", wobbly: false },
+      { part: "robin-tummy", colour: "tangerine orange", tool: "crayon", wobbly: true } ] },
+  { slug: "dragon", summary: "A friendly dragon sitting on a hill, puffing a little cloud of smoke.",
+    alt: "a friendly dragon sitting on a hill", start: "body",
+    tries: ["make the dragon's body green", "wing purple felt-tip, wobbly", "rub out the smoke", "what's next to the tummy"],
+    example: [
+      { part: "sky", colour: "sky blue", tool: "crayon", wobbly: false },
+      { part: "body", colour: "grass green", tool: "felt-tip", wobbly: false },
+      { part: "tummy", colour: "sunshine yellow", tool: "paint", wobbly: false },
+      { part: "wing", colour: "violet purple", tool: "felt-tip", wobbly: false },
+      { part: "smoke", colour: "pebble grey", tool: "crayon", wobbly: true } ] },
+  { slug: "unicorn", summary: "A unicorn standing in front of a big rainbow.",
+    alt: "a unicorn standing in front of a rainbow", start: "horn",
+    tries: ["make the horn yellow", "mane pink crayon, wobbly", "rub out the tail", "what's next to the horn"],
+    example: [
+      { part: "rainbow-outer", colour: "pillar-box red", tool: "felt-tip", wobbly: false },
+      { part: "rainbow-middle", colour: "sunshine yellow", tool: "felt-tip", wobbly: false },
+      { part: "rainbow-inner", colour: "sky blue", tool: "felt-tip", wobbly: false },
+      { part: "horn", colour: "sunshine yellow", tool: "paint", wobbly: false },
+      { part: "mane", colour: "bubblegum pink", tool: "crayon", wobbly: true } ] },
+];
 const BOX = [
   { name: "pillar-box red",   hex: "#D42A2A", aliases: ["red", "post box red", "postbox red", "pillar box red"] },
   { name: "tangerine orange", hex: "#F28A22", aliases: ["orange", "tangerine"] },
@@ -352,21 +809,76 @@ const TOOLS = {
 };
 const W = 1000, H = 750, SC = 1.2, CW = 1200, CH = 900;
 const PAPER = [251, 249, 244];
-const STORE_KEY = "colouring-book:cottage-and-cat:v2";
-const EXAMPLE = [
-  { part: "sky", colour: "sky blue", tool: "crayon", wobbly: false },
-  { part: "sun", colour: "sunshine yellow", tool: "felt-tip", wobbly: false },
-  { part: "roof", colour: "pillar-box red", tool: "felt-tip", wobbly: false },
-  { part: "tree-leaves", colour: "apple green", tool: "paint", wobbly: false },
-  { part: "cat-body", colour: "tangerine orange", tool: "crayon", wobbly: true },
-];
+const storeKey = slug => `colouring-book:${slug}:v2`;   // the cottage keeps its old key, so nobody loses a picture
+const $ = id => document.getElementById(id);
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const escapeHtml = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 
-// ---------------------------------------------------------------- page
-const svgText = document.getElementById("page-svg").textContent.trim();
-const svgDoc = new DOMParser().parseFromString(svgText, "image/svg+xml");
-const svgRoot = svgDoc.documentElement;
-const pageTitle = svgRoot.querySelector("title").textContent;
-const pageDesc = svgRoot.querySelector("desc").textContent.trim();
+function parsePage(slug) {
+  const el = document.querySelector(`script[type="image/svg+xml"][data-slug="${slug}"]`);
+  if (!el) return null;
+  const root = new DOMParser().parseFromString(el.textContent.trim(), "image/svg+xml").documentElement;
+  return { root, title: root.querySelector("title").textContent, desc: root.querySelector("desc").textContent.trim(),
+           parts: [...root.querySelector("#parts").children].filter(e => e.getAttribute("data-name")) };
+}
+// black lines on white, exactly as a child's page looks before colouring
+function outlineSvg(root, partEls, outW, outH) {
+  const ser = new XMLSerializer();
+  const lines = partEls.map((pe, i) => {
+    const e = pe.cloneNode(true);
+    [...e.attributes].forEach(a => a.name.startsWith("data-") && e.removeAttribute(a.name));
+    e.setAttribute("fill", "#fff");
+    e.setAttribute("stroke", i === 0 ? "none" : "#111");
+    e.setAttribute("stroke-width", "7"); e.setAttribute("stroke-linejoin", "round");
+    return ser.serializeToString(e);
+  }).join("");
+  const det = root.querySelector("#details") ? ser.serializeToString(root.querySelector("#details")) : "";
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${outW}" height="${outH}"><rect width="${W}" height="${H}" fill="#fff"/>${lines}${det}</svg>`;
+}
+const svgUrl = s => "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s);
+function storedSteps(slug) {
+  try { const s = JSON.parse(localStorage.getItem(storeKey(slug))); if (Array.isArray(s)) return s; } catch (e) {}
+  return [];
+}
+
+// ---------------------------------------------------------------- which page?
+const params = new URLSearchParams(location.search);
+const wanted = params.get("page");
+const ENTRY = BOOK.find(b => b.slug === wanted);
+const pageLink = slug => `?page=${encodeURIComponent(slug)}`;
+
+if (!ENTRY) { showContents(); return; }
+showColouring(ENTRY);
+
+// ================================================================ CONTENTS
+function showContents() {
+  $("contents").hidden = false;
+  document.title = "The Colouring Book · Blind Drawing School";
+  if (wanted) $("contents-note").textContent = `There's no picture called "${wanted}" in the book. Here are all the pictures.`;
+  else $("contents-note").textContent = `${BOOK.length} pictures, each made for ages 5 to 6. Choose one to start colouring.`;
+  $("shelf").innerHTML = BOOK.map(b => {
+    const pg = parsePage(b.slug); if (!pg) return "";
+    const n = pg.parts.length, done = new Set(storedSteps(b.slug).map(s => s.part)).size;
+    const progress = done ? ` You've coloured ${done} of ${n} parts so far.` : "";
+    return `<li><a class="card" href="${pageLink(b.slug)}">
+      <img class="thumb" alt="" src="${svgUrl(outlineSvg(pg.root, pg.parts, 400, 300))}">
+      <span class="t">${escapeHtml(pg.title)}</span>
+      <span class="d">${escapeHtml(b.summary)}</span>
+      <span class="m">${n} parts to colour.${progress}</span>
+    </a></li>`;
+  }).join("");
+}
+
+// ================================================================ COLOURING
+function showColouring(entry) {
+const PAGE = parsePage(entry.slug);
+const svgRoot = PAGE.root, pageTitle = PAGE.title, pageDesc = PAGE.desc;
+const STORE_KEY = storeKey(entry.slug);
+const EXAMPLE = entry.example;
+$("colouring").hidden = false;
+document.title = `${pageTitle} · The Colouring Book · Blind Drawing School`;
+$("lede").textContent = "Hear what's on the page, choose a part, pick a colour from the box, and colour it in with crayon, felt-tip or paint. When you're done, Show and Tell says what your picture really looks like.";
+
 const num = (el, a) => parseFloat(el.getAttribute(a));
 function toPathD(el) {
   const t = el.tagName;
@@ -376,16 +888,20 @@ function toPathD(el) {
     const rx = t === "circle" ? num(el,"r") : num(el,"rx"), ry = t === "circle" ? rx : num(el,"ry");
     return `M${cx-rx},${cy}a${rx},${ry} 0 1,0 ${2*rx},0a${rx},${ry} 0 1,0 ${-2*rx},0Z`;
   }
+  if (t === "polygon" || t === "polyline") {
+    const pts = el.getAttribute("points").trim().split(/[\s,]+/).map(Number), out = [];
+    for (let k = 0; k < pts.length; k += 2) out.push(`${k ? "L" : "M"}${pts[k]},${pts[k+1]}`);
+    return out.join(" ") + "Z";
+  }
   return el.getAttribute("d");
 }
-const PARTS = [...svgRoot.querySelector("#parts").children].filter(e => e.getAttribute("data-name")).map((el, i) => ({
+const PARTS = PAGE.parts.map((el, i) => ({
   i, id: el.id, el, name: el.getAttribute("data-name"), number: +el.getAttribute("data-number"),
   where: el.getAttribute("data-where"), description: el.getAttribute("data-description"),
   path: new Path2D(toPathD(el)),
 }));
 const byNumber = [...PARTS].sort((a, b) => a.number - b.number);
 const partById = Object.fromEntries(PARTS.map(p => [p.id, p]));
-const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
 
 // ---------------------------------------------------------------- label map
 const labels = new Int8Array(CW * CH).fill(-1);
@@ -416,21 +932,10 @@ for (let y = 0; y < CH - 1; y++) for (let x = 0; x < CW - 1; x++) {
 // ---------------------------------------------------------------- outline layer
 const outline = document.createElement("canvas"); outline.width = CW; outline.height = CH;
 const outlineReady = new Promise(resolve => {
-  const ser = new XMLSerializer();
-  const lines = PARTS.map(p => {
-    const e = p.el.cloneNode(true);
-    [...e.attributes].forEach(a => a.name.startsWith("data-") && e.removeAttribute(a.name));
-    e.setAttribute("fill", "#fff");
-    e.setAttribute("stroke", p.id === "sky" ? "none" : "#111");
-    e.setAttribute("stroke-width", "7"); e.setAttribute("stroke-linejoin", "round");
-    return ser.serializeToString(e);
-  }).join("");
-  const det = ser.serializeToString(svgRoot.querySelector("#details"));
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${CW}" height="${CH}"><rect width="${W}" height="${H}" fill="#fff"/>${lines}${det}</svg>`;
   const img = new Image();
   img.onload = () => { outline.getContext("2d").drawImage(img, 0, 0, CW, CH); resolve(); };
   img.onerror = () => resolve();
-  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+  img.src = svgUrl(outlineSvg(svgRoot, PAGE.parts, CW, CH));
 });
 
 // ---------------------------------------------------------------- noise
@@ -526,7 +1031,7 @@ function applyStep(step, index) {
   }
 }
 
-const canvas = document.getElementById("picture");
+const canvas = $("picture");
 const ctx = canvas.getContext("2d", { willReadFrequently: true });
 const colourLayer = document.createElement("canvas"); colourLayer.width = CW; colourLayer.height = CH;
 function present() {
@@ -536,9 +1041,17 @@ function present() {
   ctx.globalCompositeOperation = "source-over"; ctx.drawImage(colourLayer, 0, 0);
   ctx.globalCompositeOperation = "multiply"; ctx.drawImage(outline, 0, 0);
   ctx.globalCompositeOperation = "source-over";
+  prepareSave();
   canvas.setAttribute("aria-label", `Your picture of ${pageTitle}: ${colouredCount()} of ${PARTS.length} parts coloured. Use Show and Tell to hear what it looks like.`);
 }
 function redrawAll() { resetPaper(); steps.forEach(applyStep); present(); }
+// Keep a ready-made copy of the picture, so that on a phone "Save my picture" can open the share
+// sheet straight away (Safari only allows it right after the press, with no waiting first).
+let readyBlob = null, readyFor = -1, version = 0;
+function prepareSave() {
+  const v = ++version;
+  setTimeout(() => { if (v !== version) return; markedCanvas().toBlob(b => { if (v === version) { readyBlob = b; readyFor = v; } }, "image/png"); }, 150);
+}
 
 // ---------------------------------------------------------------- words for colours
 function colourWord([r, g, b]) {
@@ -569,24 +1082,23 @@ const baseHue = w => w.replace(/^(light|dark) /, "");
 
 // ---------------------------------------------------------------- state
 let steps = [];
-function load() {
-  try { const s = JSON.parse(localStorage.getItem(STORE_KEY)); if (Array.isArray(s)) return s; } catch (e) {}
-  return [];
-}
 function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(steps)); } catch (e) {} }
 const stepsFor = id => steps.filter(s => s.part === id);
 const colouredCount = () => PARTS.filter(p => stepsFor(p.id).length).length;
 const describeSteps = ss => ss.map(s => `${s.colour} ${s.tool}${s.wobbly ? ", wobbly" : ""}`).join(", then ");
 
 // ---------------------------------------------------------------- controls
-const $ = id => document.getElementById(id);
 $("page-title").textContent = pageTitle;
 $("page-desc").textContent = pageDesc;
+$("page-hint").textContent = `Made for ages 5 to 6: big shapes, thick lines, ${PARTS.length} parts to colour.`;
+const quote = s => `"${s}"`;
+$("say").placeholder = entry.tries[0];
+$("say-hint").textContent = `Try: ${[entry.tries[0], entry.tries[1], "undo", entry.tries[2], "what's left", entry.tries[3], "show and tell", "save my picture"].map(quote).join(", ")}.`;
 
 $("parts").innerHTML = byNumber.map(p => `
   <label class="part" for="part-${p.id}">
     <input type="radio" name="part" id="part-${p.id}" value="${p.id}" aria-describedby="where-${p.id}">
-    <span><span class="num">${p.number}.</span> ${cap(p.name)}<span class="sr" id="where-${p.id}">, ${p.where}. ${p.description}</span></span>
+    <span><span class="num">${p.number}.</span> ${escapeHtml(cap(p.name))}<span class="sr" id="where-${p.id}">, ${escapeHtml(p.where)}. ${escapeHtml(p.description)}</span></span>
     <span class="state" id="state-${p.id}"></span>
   </label>`).join("");
 $("box").innerHTML = BOX.map((c, i) => `
@@ -601,7 +1113,7 @@ $("tools").innerHTML = Object.entries(TOOLS).map(([k, t]) => `
     <span><b>${t.label}</b></span>
     <span class="feel" id="feel-${k}">${t.feel}</span>
   </label>`).join("");
-document.querySelector('input[name=part][value="door"]').checked = true;
+(document.querySelector(`input[name=part][value="${entry.start}"]`) || document.querySelector("input[name=part]")).checked = true;
 $("col-0").checked = true;
 $("tool-crayon").checked = true;
 
@@ -624,14 +1136,15 @@ function say(msg, you) {
   logEl.prepend(li);
   while (logEl.children.length > 8) logEl.lastChild.remove();
 }
-const escapeHtml = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 
 let busy = false;
+// While colouring, buttons are NOT disabled: disabling the button you just pressed can throw
+// keyboard and screen-reader focus to the top of the page. A press while busy is simply ignored.
 async function work(fn) {
   if (busy) return; busy = true;
-  document.querySelectorAll("button").forEach(b => b.disabled = true);
+  $("colouring").setAttribute("aria-busy", "true"); document.body.classList.add("busy");
   await new Promise(r => setTimeout(r, 20));
-  try { await fn(); } finally { busy = false; document.querySelectorAll("button").forEach(b => b.disabled = false); }
+  try { await fn(); } finally { busy = false; $("colouring").removeAttribute("aria-busy"); document.body.classList.remove("busy"); }
 }
 
 function colourIn(partId, colour, tool, wobbly, you) {
@@ -694,38 +1207,64 @@ function showAndTell(you) {
       for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const k = y*w+x; if (inside[k] && d[k] > minD) {
         const o = ((y+y0)*CW + x + x0) * 4; sm[0] += img[o]; sm[1] += img[o+1]; sm[2] += img[o+2]; sm[3]++; } }
     }
-    const looks = {}; PARTS.forEach(p => { const s = sums[p.i]; looks[p.id] = colourWord([s[0]/s[3], s[1]/s[3], s[2]/s[3]]); });
+    const looks = {}; PARTS.forEach(p => { const s = sums[p.i]; looks[p.id] = s[3] ? colourWord([s[0]/s[3], s[1]/s[3], s[2]/s[3]]) : "white"; });
     const lines = byNumber.map(p => {
       const ss = stepsFor(p.id), lk = looks[p.id];
-      if (!ss.length) return `<li>${cap(p.name)}: still white paper.</li>`;
+      if (!ss.length) return `<li>${escapeHtml(cap(p.name))}: still white paper.</li>`;
       const last = ss[ss.length - 1], intended = baseHue(colourWord(hexRgb(BOX.find(c => c.name === last.colour).hex)));
-      const differs = baseHue(lk) !== intended;
-      return `<li>${cap(p.name)}: you used ${describeSteps(ss)}. It looks ${lk}.${differs ? ` <span class="diff">That's different from the ${last.colour} you chose, because the colours have mixed.</span>` : ""}</li>`;
+      // black crayon with paper specks showing through reads as dark grey: that's the same colour, not a mix
+      const sameFamily = baseHue(lk) === intended || (intended === "black" && /grey/.test(lk)) || (intended === "grey" && lk === "black");
+      let note = "";
+      if (!sameFamily) {
+        // only call it mixing if something really was underneath; otherwise say why it looks different
+        const mixedWith = ss.length > 1 ? ss[ss.length - 2].colour : null;
+        note = mixedWith
+          ? `That's different from the ${last.colour} you chose, because it has mixed with the ${mixedWith} underneath.`
+          : `That's a bit different from the ${last.colour} in the box, because of how the ${last.tool} goes onto the paper.`;
+      }
+      return `<li>${escapeHtml(cap(p.name))}: you used ${describeSteps(ss)}. It looks ${lk}.${note ? ` <span class="diff">${note}</span>` : ""}</li>`;
     }).join("");
     const done = colouredCount();
-    const alt = `A coloured-in picture of a cottage and a cat. ` + byNumber.filter(p => stepsFor(p.id).length)
-      .map(p => `${cap(p.name)} ${p.name.endsWith("s") && !p.name.endsWith("grass") ? "are" : "is"} ${looks[p.id]}`).join(". ") + "."
+    const plural = n => /s$/.test(n) && !/(grass|glass|dress)$/.test(n);
+    const alt = `A coloured-in picture of ${entry.alt}. ` + byNumber.filter(p => stepsFor(p.id).length)
+      .map(p => `${cap(p.name)} ${plural(p.name) ? "are" : "is"} ${looks[p.id]}`).join(". ") + "."
       + (done < PARTS.length ? ` The rest is left white.` : "");
     $("report").innerHTML = `
-      <h3>${pageTitle}: ${done} of ${PARTS.length} parts coloured</h3>
+      <h3>${escapeHtml(pageTitle)}: ${done} of ${PARTS.length} parts coloured</h3>
       <ul>${lines}</ul>
       <label for="alt" style="font-weight:700;display:block;margin-top:10px">A description to post with your picture</label>
       <textarea id="alt" readonly>${escapeHtml(alt)}</textarea>
       <div class="actions"><button type="button" id="copy-alt">Copy description</button></div>`;
     $("copy-alt").onclick = () => {
       const ta = $("alt");
-      navigator.clipboard.writeText(ta.value).then(() => say("Copied the description."), () => { ta.focus(); ta.select(); say("Description selected. Press Control C or Command C to copy it."); });
+      const fallback = () => { ta.focus(); ta.select(); say("Description selected. Press Control C or Command C to copy it."); };
+      if (navigator.clipboard) navigator.clipboard.writeText(ta.value).then(() => say("Copied the description."), fallback); else fallback();
     };
     say(`Show and Tell is ready, further down the page. ${done} of ${PARTS.length} parts coloured.`, you);
     $("st-h").scrollIntoView({ block: "start", behavior: "smooth" });
   });
+}
+
+// ---------------------------------------------------------------- saving
+// The saved picture carries a small Blind Drawing School mark, so it keeps its name wherever it goes.
+function markedCanvas() {
+  const c = document.createElement("canvas"); c.width = CW; c.height = CH;
+  const x = c.getContext("2d"); x.drawImage(canvas, 0, 0);
+  const text = "Blind Drawing School · blind-ant.com";
+  x.font = "600 20px system-ui, -apple-system, 'Segoe UI', sans-serif";
+  const tw = x.measureText(text).width, pad = 10, bw = tw + pad * 2, bh = 34, bx = CW - bw - 14, by = CH - bh - 14;
+  x.fillStyle = "rgba(255,255,255,0.85)"; x.strokeStyle = "rgba(17,17,17,0.55)"; x.lineWidth = 1.5;
+  x.beginPath(); if (x.roundRect) x.roundRect(bx, by, bw, bh, 8); else x.rect(bx, by, bw, bh); x.fill(); x.stroke();
+  x.fillStyle = "#1b2233"; x.textBaseline = "middle"; x.fillText(text, bx + pad, by + bh / 2 + 1);
+  return c;
 }
 let downloadsP = null;
 function getDownloads() {
   if (!downloadsP) downloadsP = (window.claude && window.claude.use) ? window.claude.use("downloads").catch(() => null) : Promise.resolve(null);
   return downloadsP;
 }
-function showFallback(dataUrl) {
+function showFallback(dataUrl, name) {
+  $("saved-link").href = dataUrl; $("saved-link").setAttribute("download", name);
   $("saved-img").src = dataUrl;
   $("saved-img").alt = `Your coloured-in picture of ${pageTitle}`;
   $("saved").hidden = false;
@@ -740,7 +1279,22 @@ async function savePicture(you) {
   try {
     if (!colouredCount()) say("Your page is still all white, but here it is anyway.", you);
     const name = filename();
-    const blob = await new Promise(r => canvas.toBlob(r, "image/png"));
+    // Phones and tablets: the share sheet, which screen readers read properly and which has Save Image on it
+    const onArtifactHost = !!(window.claude && window.claude.use);
+    if (!onArtifactHost && navigator.maxTouchPoints > 0 && navigator.canShare && readyBlob && readyFor === version) {
+      const file = new File([readyBlob], name, { type: "image/png" });
+      if (navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: pageTitle });
+          say("Your picture is ready. If you chose Save Image, it's in your Photos.", you);
+          return;
+        } catch (e) {
+          if (e && e.name === "AbortError") { say("Not saved. Press Save my picture whenever you're ready.", you); return; }
+        }
+      }
+    }
+    const out = markedCanvas();
+    const blob = await new Promise(r => out.toBlob(r, "image/png"));
     const downloads = await getDownloads();
     if (downloads && blob) {
       say("Saving your picture. Say yes when you're asked.", you);
@@ -753,11 +1307,11 @@ async function savePicture(you) {
         if (e && e.code === "rate_limited") { say("A save is already waiting for your answer."); return; }
       }
     }
-    // Fallback: an ordinary browser download, plus the picture shown so it can be saved by hand
-    const url = canvas.toDataURL("image/png");
+    // An ordinary browser download, plus the picture shown so it can be saved by hand (press and hold on a phone)
+    const url = out.toDataURL("image/png");
     try { const a = document.createElement("a"); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove(); } catch (e) {}
-    showFallback(url);
-    say(`Saving ${name}. If nothing arrives in your Downloads, your picture is also at the end of Show and Tell, where you can save it by hand.`, downloads ? undefined : you);
+    showFallback(url, name);
+    say(`Saving ${name}. If nothing arrives in your Downloads, there's an "open my picture" link at the end of Show and Tell.`, downloads ? undefined : you);
   } finally { saving = false; }
 }
 
@@ -792,6 +1346,7 @@ function interpret(raw) {
   if (/\b(start again|start over|new page|clear (it|everything|the page))\b/.test(t)) return restart(text);
   if (/\b(show and tell|what does it look like|describe (it|my picture)|how does it look)\b/.test(t)) return showAndTell(text);
   if (/\b(save|download|keep)\b.*\b(picture|it|drawing|page|image)\b|^(save|download)$/.test(t)) return savePicture(text);
+  if (/\b(other pictures|another picture|different picture|choose a picture|all the pictures|go back|back to the book)\b/.test(t)) { say("Going back to all the pictures.", text); location.href = "./"; return; }
   if (/\b(what'?s left|what is left|still white|what haven'?t i)\b/.test(t)) return whatsLeft(text);
   if (/\b(describe the page|what'?s on the page|read the page)\b/.test(t)) return say(pageDesc, text);
   if (/\b(what colours|crayon box|the box)\b/.test(t)) return say(`In the box: ${BOX.map(c => c.name).join(", ")}. You can colour with crayon, felt-tip or paint.`, text);
@@ -814,7 +1369,7 @@ function interpret(raw) {
   for (const [value, ph] of colours) { const pp = matchPart(strip(rest, ph)); if (pp) { colour = value; part = pp; break; } }
   if (!colour && colours.length) { colour = colours[0][0]; part = matchPart(strip(rest, colours[0][1])); }
   if (!part) part = matchPart(rest);
-  if (!colour && !part) return say(`I didn't understand that. Try "colour the door red with felt-tip", "what's left" or "show and tell".`, text);
+  if (!colour && !part) return say(`I didn't understand that. Try ${quote(entry.tries[0])}, "what's left" or "show and tell".`, text);
   if (!colour) { choose("part", part.id); return say(`Chose ${part.name}. What colour shall it be?`, text); }
   if (!part) part = partById[chosen("part")];
   choose("part", part.id); choose("colour", colour); choose("tool", tool); $("wobbly").checked = wobbly;
@@ -841,14 +1396,15 @@ canvas.addEventListener("click", e => {
   if (l >= 0) { choose("part", PARTS[l].id); say(`Chose ${PARTS[l].name}.`); }
 });
 
-steps = load();
+steps = storedSteps(entry.slug);
 outlineReady.then(() => {
   redrawAll(); refreshStates();
   statusEl.textContent = steps.length
-    ? `${colouredCount()} of ${PARTS.length} parts already coloured${steps === EXAMPLE || JSON.stringify(steps) === JSON.stringify(EXAMPLE) ? " as an example. Start again for a clean page" : ""}.`
+    ? `${colouredCount()} of ${PARTS.length} parts already coloured${JSON.stringify(steps) === JSON.stringify(EXAMPLE) ? " as an example. Start again for a clean page" : ""}.`
     : "A fresh page, all white.";
 });
+}
 })();
 </script>
-
-</body></html>
+</body>
+</html>
