@@ -1,0 +1,50 @@
+[
+  {
+    "id": "A",
+    "start": 0.3,
+    "slot": 2.3,
+    "speech": 1.83,
+    "fits": true,
+    "text": "Clawd dozes beside a big red die."
+  },
+  {
+    "id": "B",
+    "start": 2.7,
+    "slot": 1.7,
+    "speech": 1.5,
+    "fits": true,
+    "text": "Clawd wakes. An idea!"
+  },
+  {
+    "id": "C",
+    "start": 4.45,
+    "slot": 1.55,
+    "speech": 1.07,
+    "fits": true,
+    "text": "Clawd hurls it high."
+  },
+  {
+    "id": "D",
+    "start": 6.1,
+    "slot": 1.9,
+    "speech": 1.22,
+    "fits": true,
+    "text": "It lands. Six!"
+  },
+  {
+    "id": "E",
+    "start": 8.1,
+    "slot": 1.8,
+    "speech": 1.12,
+    "fits": true,
+    "text": "Clawd leaps for joy."
+  },
+  {
+    "id": "F",
+    "start": 10,
+    "slot": 1.9,
+    "speech": 1.63,
+    "fits": true,
+    "text": "Always six. It's code."
+  }
+]

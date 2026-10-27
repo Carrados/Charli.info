@@ -10,7 +10,9 @@
     "deploy:mcp": "node engine/publish.mjs mcp",
     "deploy:indexer": "node engine/publish.mjs indexer",
     "build:zic": "node engine/build.mjs zic && node engine/chunks.mjs dist/zic https://zeroinformationcasualty.org zic",
-    "publish:zic": "npm run build:zic && node engine/publish.mjs zic"
+    "publish:zic": "npm run build:zic && node engine/publish.mjs zic",
+    "build:blind-ant": "node blind-ant/site/build.mjs dist/blind-ant && node blind-ant/site/chunks.mjs dist/blind-ant https://blind-ant.com blind-ant && node engine/copy-blind-ant-media.mjs",
+    "build:aegis": "node blind-ant/subdomains/aegisdynamics/build.mjs dist/aegis"
   },
   "dependencies": {
     "marked": "18.1.1"
