@@ -51,29 +51,26 @@ test('legacy charli.info ZIC addresses go straight to ZIC', async () => {
   }
 });
 
-test('new Worker serves the published branch, Markdown, Word files and proper 404s', async () => {
-  const saved = globalThis.fetch;
-  globalThis.fetch = async (url) => {
-    const source = 'https://raw.githubusercontent.com/Carrados/charli.info/zic-site';
-    assert.ok(url.startsWith(source));
-    try { return new Response(await readFile('dist/zic' + url.slice(source.length))); }
+test('new Worker serves its own static assets, Markdown, Word files and proper 404s', async () => {
+  const env = { ASSETS: { async fetch(request) {
+    try { return new Response(await readFile('dist/zic' + decodeURIComponent(new URL(request.url).pathname))); }
     catch { return new Response('missing', { status: 404 }); }
-  };
-  try {
-    const html = await zic.fetch(new Request(base + '/'));
+  } } };
+  {
+    const html = await zic.fetch(new Request(base + '/'), env);
     assert.equal(html.status, 200);
     assert.match(await html.text(), /rel="canonical" href="https:\/\/zeroinformationcasualty.org\/"/);
-    const md = await zic.fetch(new Request(base + '/', { headers: { accept: 'text/markdown' } }));
+    const md = await zic.fetch(new Request(base + '/', { headers: { accept: 'text/markdown' } }), env);
     assert.match(md.headers.get('content-type'), /text\/markdown/);
     assert.match(await md.text(), /^# Zero Information Casualty/);
-    const doc = await zic.fetch(new Request(base + '/documents/Zero_Information_Casualty_v1_7.docx'));
+    const doc = await zic.fetch(new Request(base + '/documents/Zero_Information_Casualty_v1_7.docx'), env);
     assert.equal(doc.status, 200);
     assert.match(doc.headers.get('content-type'), /wordprocessingml/);
-    assert.equal((await zic.fetch(new Request(base + '/missing/'))).status, 404);
-    assert.equal((await zic.fetch(new Request(base + '/', { method: 'POST' }))).status, 405);
-    const www = await zic.fetch(new Request('https://www.zeroinformationcasualty.org/?from=www'));
+    assert.equal((await zic.fetch(new Request(base + '/missing/'), env)).status, 404);
+    assert.equal((await zic.fetch(new Request(base + '/', { method: 'POST' }), env)).status, 405);
+    const www = await zic.fetch(new Request('https://www.zeroinformationcasualty.org/?from=www'), env);
     assert.equal(www.headers.get('location'), base + '/?from=www');
-  } finally { globalThis.fetch = saved; }
+  }
 });
 
 test('generated surfaces identify the new home; Carrados no longer republishes the standard', async () => {
