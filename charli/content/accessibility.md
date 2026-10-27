@@ -41,4 +41,4 @@ None known. When one is found, it is listed here until it is fixed.
 
 ## Beyond the claim
 
-ZIC secures the meaning of the page and its delivery. It does not claim to serve every access need: cognitive load, plain-language alternatives and motor accessibility, among others, belong to standards written by those qualified to specify them. If something here fails to reach you, that is information the publisher needs and did not have. The site's source is public at [github.com/CharliJoTyrer/Charli.info](https://github.com/CharliJoTyrer/Charli.info), where you can raise an issue.
+ZIC secures the meaning of the page and its delivery. It does not claim to serve every access need: cognitive load, plain-language alternatives and motor accessibility, among others, belong to standards written by those qualified to specify them. If something here fails to reach you, that is information the publisher needs and did not have. The site's source is public at [github.com/Carrados/charli.info](https://github.com/Carrados/charli.info), where you can raise an issue.

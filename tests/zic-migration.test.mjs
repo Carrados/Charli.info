@@ -54,7 +54,7 @@ test('legacy charli.info ZIC addresses go straight to ZIC', async () => {
 test('new Worker serves the published branch, Markdown, Word files and proper 404s', async () => {
   const saved = globalThis.fetch;
   globalThis.fetch = async (url) => {
-    const source = 'https://raw.githubusercontent.com/CharliJoTyrer/Charli.info/zic-site';
+    const source = 'https://raw.githubusercontent.com/Carrados/charli.info/zic-site';
     assert.ok(url.startsWith(source));
     try { return new Response(await readFile('dist/zic' + url.slice(source.length))); }
     catch { return new Response('missing', { status: 404 }); }
