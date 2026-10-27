@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  The Colouring Book, version 1.0 (October 2026)
+  The Colouring Book, version 1.0.1 (October 2026)
   Blind Drawing School, by Charlotte Joanne at Blind Ant. https://blind-ant.com
 
   The pictures and words are licensed under Creative Commons Attribution-ShareAlike 4.0
@@ -33,7 +33,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>The Colouring Book · Blind Drawing School</title>
-<meta name="version" content="1.0">
+<meta name="version" content="1.0.1">
 <meta name="description" content="A colouring book you can use without seeing it. Choose a picture, hear what's on the page, pick colours from the crayon box, and colour it in. From Blind Drawing School, by Charlotte Joanne at Blind Ant.">
 <style>
 /* Layout: an exercise book — feint blue rules and a red margin down the left; the picture is the page, the controls sit beside it like a pencil case. */
@@ -94,11 +94,18 @@ a { color: var(--accent); }
 /* ---- contents page */
 .contents { margin-top: 24px; display: grid; gap: 14px; }
 .shelf { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 16px; }
-.card { display: grid; gap: 8px; height: 100%; padding: 12px; text-decoration: none; color: var(--ink);
+/* Only the picture's name is a link, so VoiceOver's links rotor finds exactly one link per picture.
+   The link's ::after stretches over the whole card, so tapping anywhere on it still opens the picture. */
+.card { position: relative; display: grid; gap: 6px; align-content: start; height: 100%; padding: 12px; color: var(--ink);
   background: var(--paper); border: 2px solid var(--ink); border-radius: 10px; box-shadow: 6px 6px 0 var(--line); }
 .card:hover { box-shadow: 3px 3px 0 var(--line); transform: translate(3px, 3px); }
+.card:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
 .card .thumb { display: block; width: 100%; aspect-ratio: 4 / 3; background: #fbf9f4; border: 1.5px solid var(--line); border-radius: 6px; }
-.card .t { font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); line-height: 1.2; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.card h3 { font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); line-height: 1.2; margin: 0; }
+.card h3 a { display: block; padding-block: 10px; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.card h3 a::after { content: ""; position: absolute; inset: 0; border-radius: 10px; }
+.card h3 a:focus-visible { outline: none; }
+.card p { margin: 0; }
 .card .d { font-size: var(--step-0); }
 .card .m { font-size: var(--step--1); color: var(--muted); }
 
@@ -276,7 +283,7 @@ footer .maker { color: var(--ink); font-weight: 700; }
     <p class="maker">Made by Charlotte Joanne at Blind Ant. Free to use and share; please say where it came from.</p>
     <p>The Colouring Book is part of Blind Drawing School, a Blind Ant design-fiction project. It is an experiment, not a real school.</p>
     <p>No artificial intelligence runs on this page. Each picture knows its own parts, so every word it says about itself comes from the drawing, not a guess.</p>
-    <p>Version 1.0, October 2026. The pictures and words are <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> and the code is MIT licensed: you can use, change and share them, as long as you credit Charlotte Joanne / Blind Ant and share your changes the same way.</p>
+    <p>Version 1.0.1, October 2026. The pictures and words are <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> and the code is MIT licensed: you can use, change and share them, as long as you credit Charlotte Joanne / Blind Ant and share your changes the same way.</p>
   </footer>
 </div>
 
@@ -860,12 +867,12 @@ function showContents() {
     const pg = parsePage(b.slug); if (!pg) return "";
     const n = pg.parts.length, done = new Set(storedSteps(b.slug).map(s => s.part)).size;
     const progress = done ? ` You've coloured ${done} of ${n} parts so far.` : "";
-    return `<li><a class="card" href="${pageLink(b.slug)}">
+    return `<li class="card">
+      <h3><a href="${pageLink(b.slug)}">${escapeHtml(pg.title)}</a></h3>
       <img class="thumb" alt="" src="${svgUrl(outlineSvg(pg.root, pg.parts, 400, 300))}">
-      <span class="t">${escapeHtml(pg.title)}</span>
-      <span class="d">${escapeHtml(b.summary)}</span>
-      <span class="m">${n} parts to colour.${progress}</span>
-    </a></li>`;
+      <p class="d">${escapeHtml(b.summary)}</p>
+      <p class="m">${n} parts to colour.${progress}</p>
+    </li>`;
   }).join("");
 }
 
