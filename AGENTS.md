@@ -4,15 +4,14 @@ Read `CLAUDE.md` first. Its house rules apply to every agent, not only Claude: i
 
 ## How work arrives
 
-There is no GitHub any more (the account was suspended on 26 October 2026). This folder on Charli-Jo's laptop is the source of truth. So:
+GitHub is the source of truth: the repository is `Carrados/Charli.info`, on the account Carrados only. Never use or mention CharliJoTyrer, CharliVerse or Blind-Ant GitHub accounts.
 
-- Work on a local branch named `codex/<topic>` and commit there. Never `git push`, and never add a remote.
-- When a batch is ready, tell Charli-Jo which files changed and why. Claude reviews them here against `CLAUDE.md`.
-- Once Charli-Jo approves, merge into `main` locally, build, check, and publish with `npm run publish:charli` or `npm run publish:carrados`. Publishing uses wrangler's Cloudflare login on the laptop (`npx wrangler login`, once); if a token file `.cloudflare-token` is ever used instead, never commit, print or paste it.
-- Run the build before saying a batch is ready. It works on Windows. If it fails, say so rather than changing the build to make it pass.
+- Work on a branch named `codex/<topic>`, commit there, push the branch and open a pull request to `main`. Never push to `main`, never merge, and never publish or deploy: `main` is built and deployed by Cloudflare Workers Builds when Claude merges.
+- In the pull request, list which files changed and why, which source each page came from, anything you left out on purpose, and anything only Charli-Jo can decide. Claude reviews it against `CLAUDE.md`.
+- Run the relevant build before opening the pull request (`npm ci`, then `npm run build:charli`, `build:carrados`, `build:zic`, `build:blind-ant` or `build:aegis`). It works on Windows. If it fails, say so rather than changing the build to make it pass.
 - Content changes only, unless asked. If the build, a Worker or a `wrangler.*.jsonc` needs changing, describe it instead.
-- Never commit private documents or anything not meant for publication. Say which source each page came from.
-- List anything you left out on purpose and anything only Charli-Jo can decide.
+- Never commit private documents, tokens, `.env` files or anything not meant for publication. Never run `npm run publish:*` or `deploy:*`.
+- The laptop copy is a backup. If it differs from GitHub, say so before changing anything.
 
 ## Lessons from the first batches
 
