@@ -1,0 +1,37 @@
+[data-kindness-player] [hidden] { display: none; }
+[data-kindness-player] audio { width: 100%; }
+[data-kindness-player] [data-current-caption] {
+  border: 2px solid currentColor;
+  padding: 1rem;
+  min-height: 5rem;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+[data-kindness-player] button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 2px solid currentColor;
+  padding: .7rem;
+  cursor: pointer;
+  max-width: 100%;
+}
+[data-kindness-player] button:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+[data-kindness-player] [data-timed-lyrics] {
+  list-style: none;
+  padding: 0;
+}
+[data-kindness-player] [data-timed-lyrics] li { margin: .6rem 0; }
+[data-kindness-player] [data-timed-lyrics] button {
+  width: 100%;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+[data-kindness-player] [aria-current="true"] {
+  border-width: 4px;
+  font-weight: bold;
+}
+[data-kindness-player] [aria-pressed="true"] { font-weight: bold; }

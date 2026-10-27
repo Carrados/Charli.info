@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Colouring Book</title>
+<meta name="description" content="A colouring-in page you can use without seeing it. Part of Blind Drawing School, a Blind Ant design fiction by Charlotte Joanne.">
+<style>
+/* Layout: an exercise book — feint blue rules and a red margin down the left; the picture is the page, the controls sit beside it like a pencil case. */
+:root {
+  --paper: #fbfcfd;
+  --ink: #1b2233;
+  --muted: #586174;
+  --rule: #d3e0ee;
+  --margin: #d33b3b;
+  --accent: #2b4fb3;
+  --accent-ink: #ffffff;
+  --panel: #f0f4f9;
+  --line: #c4cfdd;
+  --focus: #f2a900;
+  --font-display: "Fredoka", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --step--1: 0.9rem; --step-0: 1.05rem; --step-1: 1.3rem; --step-2: 1.75rem; --step-3: 2.6rem;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #121722; --ink: #e8ecf4; --muted: #a2abbd; --rule: #222c3d; --margin: #e86a6a;
+  --accent: #8ea8f5; --accent-ink: #0d1424; --panel: #1a2130; --line: #334055; --focus: #ffc94d; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #121722; --ink: #e8ecf4; --muted: #a2abbd; --rule: #222c3d; --margin: #e86a6a;
+  --accent: #8ea8f5; --accent-ink: #0d1424; --panel: #1a2130; --line: #334055; --focus: #ffc94d; color-scheme: dark }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--paper);
+  background-image: repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px);
+  color: var(--ink); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+.book { max-width: 1180px; margin: 0 auto; position: relative; }
+.book::before { content: ""; position: absolute; top: 0; bottom: -48px; left: -10px; width: 2px; background: var(--margin); opacity: .55; }
+@media (max-width: 700px) { .book::before { display: none; } }
+
+header { padding-block: 32px 8px; display: grid; gap: 4px; }
+.eyebrow { font-size: var(--step--1); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: var(--step-3); line-height: 1.05; margin: 0; text-wrap: balance; }
+h1 .dot { color: var(--margin); }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: var(--step-2); margin: 0; line-height: 1.15; }
+h3 { font-size: var(--step-1); margin: 0; }
+.lede { max-width: 62ch; margin: 6px 0 0; }
+
+.thepage { margin-top: 20px; display: grid; gap: 6px; max-width: 70ch; }
+.thepage p { margin: 0; }
+
+.desk { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: 28px; margin-top: 26px; align-items: start; }
+@media (max-width: 900px) { .desk { grid-template-columns: minmax(0, 1fr); } }
+
+.easel { display: grid; gap: 14px; min-width: 0; }
+@media (min-width: 901px) { .easel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); } }
+.frame { background: #fbf9f4; border: 2px solid var(--ink); border-radius: 6px; box-shadow: 6px 6px 0 var(--line); overflow: hidden; line-height: 0; }
+canvas#picture { width: 100%; height: auto; aspect-ratio: 4 / 3; display: block; cursor: pointer; max-width: 100%; }
+.caption { font-size: var(--step--1); color: var(--muted); margin: 0; }
+
+.pencilcase { display: grid; gap: 18px; min-width: 0; }
+.say { display: grid; gap: 8px; background: var(--panel); border: 2px solid var(--line); border-radius: 10px; padding: 14px; }
+.say label { font-weight: 700; }
+.say .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.say input { flex: 1 1 220px; min-width: 0; font: inherit; padding: 10px 12px; border: 2px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); }
+.hint { font-size: var(--step--1); color: var(--muted); margin: 0; }
+
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { font-weight: 700; font-size: var(--step-1); padding: 0; margin-bottom: 8px; }
+
+.parts { display: grid; gap: 2px; max-height: 320px; overflow-y: auto; border: 2px solid var(--line); border-radius: 10px; padding: 6px; background: var(--paper); }
+.part { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+.part:hover { background: var(--panel); }
+.part:has(input:checked) { background: var(--panel); outline: 2px solid var(--accent); }
+.part .num { font-variant-numeric: tabular-nums; color: var(--muted); }
+.part .state { font-size: var(--step--1); color: var(--muted); display: flex; align-items: center; gap: 6px; text-align: right; }
+.chip { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--ink); flex: none; background: transparent; }
+
+.box { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
+.crayon { display: flex; align-items: center; gap: 10px; padding: 7px 10px; border: 2px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--paper); }
+.crayon:has(input:checked) { border-color: var(--ink); box-shadow: 3px 3px 0 var(--line); }
+.swatch { width: 26px; height: 16px; border-radius: 3px 10px 10px 3px; border: 1.5px solid rgba(0,0,0,.45); flex: none; }
+
+.tools { display: grid; gap: 6px; }
+.tool { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; padding: 8px 10px; border: 2px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--paper); }
+.tool:has(input:checked) { border-color: var(--ink); box-shadow: 3px 3px 0 var(--line); }
+.tool span.feel { grid-column: 2; font-size: var(--step--1); color: var(--muted); }
+.wobbly { display: flex; gap: 10px; align-items: center; cursor: pointer; }
+
+input[type=radio], input[type=checkbox] { width: 1.15rem; height: 1.15rem; accent-color: var(--accent); margin: 0; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+button { font: inherit; font-weight: 700; padding: 10px 16px; border-radius: 8px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); cursor: pointer; }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button:hover { box-shadow: 3px 3px 0 var(--line); }
+button:disabled { opacity: .55; cursor: progress; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.status { min-height: 1.6em; font-weight: 700; }
+.log { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: var(--step--1); color: var(--muted); }
+.log b { color: var(--ink); }
+
+.showtell { margin-top: 32px; max-width: 900px; background: var(--panel); border: 2px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+.showtell ul { margin: 0; padding-left: 1.2em; display: grid; gap: 2px; }
+.showtell .diff { color: var(--margin); font-weight: 700; }
+.showtell textarea { width: 100%; font: inherit; padding: 10px; border-radius: 8px; border: 2px solid var(--line); background: var(--paper); color: var(--ink); resize: vertical; min-height: 6.5em; }
+.saved img { width: 100%; border: 2px solid var(--ink); border-radius: 6px; }
+
+footer { margin-top: 40px; max-width: 70ch; font-size: var(--step--1); color: var(--muted); display: grid; gap: 6px; }
+footer p { margin: 0; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+</style>
+
+</head>
+<body>
+<div class="book">
+  <header>
+    <p class="eyebrow">Blind Drawing School · Colouring Corner</p>
+    <h1>The Colouring Book<span class="dot">.</span></h1>
+    <p class="lede">A colouring-in page you can use without seeing it. Hear what's on the page, choose a part, pick a colour from the box, and colour it in with crayon, felt-tip or paint. When you're done, Show and Tell says what your picture really looks like.</p>
+  </header>
+
+  <section class="thepage" aria-labelledby="page-h">
+    <h2 id="page-h">The page: <span id="page-title">The Cottage and the Cat</span></h2>
+    <p id="page-desc"></p>
+    <p class="hint">Made for ages 5 to 6: big shapes, thick lines, 17 parts to colour.</p>
+  </section>
+
+  <div class="desk">
+    <div class="pencilcase">
+      <form class="say" id="say-form" autocomplete="off">
+        <label for="say">Tell me what to colour</label>
+        <div class="row">
+          <input id="say" type="text" placeholder="colour the door red with felt-tip" aria-describedby="say-hint">
+          <button type="submit" class="primary">Do it</button>
+        </div>
+        <p class="hint" id="say-hint">Try: "make the sun yellow", "cat's ears pink felt-tip, wobbly", "undo", "rub out the roof", "what's left", "what's next to the door", "show and tell", "save my picture".</p>
+      </form>
+
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+
+      <fieldset>
+        <legend>1. Choose a part</legend>
+        <div class="parts" id="parts"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Choose a colour</legend>
+        <div class="box" id="box"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Choose what to colour with</legend>
+        <div class="tools" id="tools"></div>
+      </fieldset>
+
+      <label class="wobbly" for="wobbly"><input type="checkbox" id="wobbly"> Colour like a real five-year-old (a bit over the lines)</label>
+
+      <div class="actions">
+        <button type="button" class="primary" id="go">Colour it in</button>
+        <button type="button" class="primary" id="save-pic">Save my picture</button>
+        <button type="button" id="undo">Undo</button>
+        <button type="button" id="rubout">Rub out this part</button>
+        <button type="button" id="restart">Start again</button>
+        <button type="button" id="example">Show me an example</button>
+      </div>
+
+      <div>
+        <h3 id="log-h" style="font-size: var(--step-0)">What's happened so far</h3>
+        <ol class="log" id="log" aria-labelledby="log-h"></ol>
+      </div>
+    </div>
+
+    <div class="easel">
+      <div class="frame">
+        <canvas id="picture" width="1200" height="900" role="img" aria-label="Your picture"></canvas>
+      </div>
+      <p class="caption">Sighted helpers can also tap a part of the picture to choose it.</p>
+
+
+    </div>
+  </div>
+
+  <section class="showtell" aria-labelledby="st-h">
+        <h2 id="st-h">Show and Tell</h2>
+        <p style="margin:0">Looks at the finished picture and says what colour each part really came out. Colours can mix: yellow felt-tip over blue turns green.</p>
+        <div class="actions">
+          <button type="button" class="primary" id="tell">What does it look like?</button>
+          <button type="button" id="save-pic-2">Save my picture</button>
+        </div>
+        <div id="report" aria-live="polite"></div>
+        <div id="saved" class="saved" hidden>
+          <p class="hint">If the save button doesn't work here, right-click this picture and choose Save image, or press and hold it on a phone.</p>
+          <img id="saved-img" alt="">
+        </div>
+      </section>
+
+  <footer>
+    <p>Free to use, share and change. The code is under the MIT licence; the words are under CC BY-SA 4.0. Credit Charlotte Joanne and Claude.</p>
+    <p>The Colouring Book is part of Blind Drawing School, a Blind Ant design-fiction project by Charlotte Joanne. It is an experiment, not a real school.</p>
+    <p>No artificial intelligence runs on this page. The picture knows its own parts, so every word it says about itself comes from the drawing, not a guess.</p>
+  </footer>
+</div>
+<script type="image/svg+xml" id="page-svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750"
+     data-title="The Cottage and the Cat" data-age="5-6" data-orientation="landscape">
+  <title>The Cottage and the Cat</title>
+  <desc>A little cottage sits in the middle of a grassy garden on a sunny day. It has a pointy roof with a chimney, two square windows and a round-topped front door. A path runs from the door down to the bottom of the page. A lollipop tree stands on the left, a fluffy cloud floats in the top left, the sun shines in the top right, and a cat sits on the grass to the right of the cottage with its tail curled round.</desc>
+
+  <!-- COLOURABLE PARTS. Painted in this order: later parts sit on top of earlier ones. -->
+  <g id="parts">
+    <rect id="sky" x="0" y="0" width="1000" height="750"
+      data-name="the sky" data-number="1"
+      data-where="behind everything, filling the top of the page"
+      data-description="The big space all around the top of the picture, behind the cottage, the tree, the cloud and the sun."/>
+
+    <circle id="sun" cx="860" cy="120" r="60"
+      data-name="the sun" data-number="2"
+      data-where="top right corner"
+      data-description="A round sun with short straight rays all around it, like spokes."/>
+
+    <path id="cloud" d="M100,170 A30,30 0 0 1 130,125 A40,40 0 0 1 205,110 A35,35 0 0 1 265,140 A30,30 0 0 1 270,170 Z"
+      data-name="the cloud" data-number="3"
+      data-where="top left, above the tree"
+      data-description="A fluffy cloud with a bumpy top and a flat bottom."/>
+
+    <path id="grass" d="M0,580 Q250,540 500,575 T1000,565 V750 H0 Z"
+      data-name="the grass" data-number="4"
+      data-where="along the bottom of the page, from one side to the other"
+      data-description="A strip of garden with a gently wavy top edge. The cottage, tree, path and cat all stand on it."/>
+
+    <path id="garden-path" d="M440,600 L500,600 L560,750 L380,750 Z"
+      data-name="the garden path" data-number="5"
+      data-where="from the front door straight down to the bottom of the page"
+      data-description="A path that starts narrow at the door and gets wider as it comes towards you."/>
+
+    <rect id="tree-trunk" x="135" y="400" width="32" height="235"
+      data-name="the tree trunk" data-number="6"
+      data-where="left side, under the round leaves"
+      data-description="A tall, straight trunk going down into the grass."/>
+
+    <circle id="tree-leaves" cx="150" cy="350" r="95"
+      data-name="the tree leaves" data-number="7"
+      data-where="left side, on top of the trunk"
+      data-description="One big round ball of leaves, like a lollipop."/>
+
+    <rect id="chimney" x="540" y="190" width="50" height="110"
+      data-name="the chimney" data-number="8"
+      data-where="poking up out of the right-hand slope of the roof"
+      data-description="A short, square chimney sticking up from the roof."/>
+
+    <path id="roof" d="M265,330 L470,165 L675,330 Z"
+      data-name="the roof" data-number="9"
+      data-where="on top of the cottage"
+      data-description="A big triangle roof with its point at the top, a little wider than the walls."/>
+
+    <rect id="walls" x="300" y="330" width="340" height="270"
+      data-name="the cottage walls" data-number="10"
+      data-where="middle of the page"
+      data-description="The front of the cottage: a wide square shape holding the door and both windows."/>
+
+    <path id="door" d="M430,600 V500 A40,40 0 0 1 510,500 V600 Z"
+      data-name="the front door" data-number="11"
+      data-where="middle of the cottage, at the bottom"
+      data-description="A tall door with a round top and a little round knob on the right."/>
+
+    <rect id="left-window" x="330" y="380" width="70" height="65"
+      data-name="the left window" data-number="12"
+      data-where="cottage wall, to the left of the door"
+      data-description="A square window split into four little panes by a cross."/>
+
+    <rect id="right-window" x="540" y="380" width="70" height="65"
+      data-name="the right window" data-number="13"
+      data-where="cottage wall, to the right of the door"
+      data-description="A square window split into four little panes by a cross."/>
+
+    <path id="cat-tail" d="M842,668 C905,680 912,600 884,578 C874,570 862,580 870,590 C888,612 884,652 838,650 Z"
+      data-name="the cat's tail" data-number="14"
+      data-where="curling up behind the cat, on its right"
+      data-description="A long tail that curls round and up, like a hook."/>
+
+    <ellipse id="cat-body" cx="800" cy="640" rx="48" ry="58"
+      data-name="the cat's body" data-number="15"
+      data-where="on the grass, right of the cottage"
+      data-description="A round, sitting-up body, like an egg standing on its end."/>
+
+    <path id="cat-ears" d="M768,540 L772,494 L798,522 Z M802,522 L828,494 L832,540 Z"
+      data-name="the cat's ears" data-number="16"
+      data-where="on top of the cat's head"
+      data-description="Two pointy triangle ears, one on each side."/>
+
+    <circle id="cat-head" cx="800" cy="560" r="40"
+      data-name="the cat's head" data-number="17"
+      data-where="on top of the cat's body"
+      data-description="A round face with two eyes, a little nose, a smiling mouth and whiskers."/>
+  </g>
+
+  <!-- LINE-ONLY DETAILS: drawn in black, not coloured in. -->
+  <g id="details" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round">
+    <g id="sun-rays">
+      <line x1="935" y1="120" x2="965" y2="120"/><line x1="785" y1="120" x2="755" y2="120"/>
+      <line x1="860" y1="45" x2="860" y2="15"/><line x1="860" y1="195" x2="860" y2="225"/>
+      <line x1="913" y1="67" x2="934" y2="46"/><line x1="807" y1="67" x2="786" y2="46"/>
+      <line x1="913" y1="173" x2="934" y2="194"/><line x1="807" y1="173" x2="786" y2="194"/>
+    </g>
+    <g id="window-crosses">
+      <line x1="365" y1="380" x2="365" y2="445"/><line x1="330" y1="412" x2="400" y2="412"/>
+      <line x1="575" y1="380" x2="575" y2="445"/><line x1="540" y1="412" x2="610" y2="412"/>
+    </g>
+    <circle id="door-knob" cx="495" cy="555" r="6" fill="#111"/>
+    <g id="cat-face">
+      <circle cx="786" cy="554" r="5" fill="#111" stroke="none"/>
+      <circle cx="814" cy="554" r="5" fill="#111" stroke="none"/>
+      <path d="M795,567 L805,567 L800,573 Z" fill="#111" stroke-width="3"/>
+      <path d="M800,573 Q794,582 787,578 M800,573 Q806,582 813,578" stroke-width="3"/>
+      <path d="M782,570 L752,564 M782,575 L752,580 M818,570 L848,564 M818,575 L848,580" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>
+</script>
+<script>
+(() => {
+"use strict";
+// ---------------------------------------------------------------- data
+const BOX = [
+  { name: "pillar-box red",   hex: "#D42A2A", aliases: ["red", "post box red", "postbox red", "pillar box red"] },
+  { name: "tangerine orange", hex: "#F28A22", aliases: ["orange", "tangerine"] },
+  { name: "sunshine yellow",  hex: "#FFD326", aliases: ["yellow", "sunshine", "lemon"] },
+  { name: "apple green",      hex: "#8CC63F", aliases: ["light green", "lime green", "lime", "apple"] },
+  { name: "grass green",      hex: "#2E9142", aliases: ["green", "dark green"] },
+  { name: "sky blue",         hex: "#5FB4EA", aliases: ["light blue", "pale blue"] },
+  { name: "royal blue",       hex: "#2B4FB3", aliases: ["blue", "dark blue", "navy"] },
+  { name: "violet purple",    hex: "#7A4DA8", aliases: ["purple", "violet", "lilac"] },
+  { name: "bubblegum pink",   hex: "#F38DB5", aliases: ["pink", "bubblegum"] },
+  { name: "conker brown",     hex: "#8A5A2E", aliases: ["brown", "conker", "chocolate"] },
+  { name: "pebble grey",      hex: "#9B9B9B", aliases: ["grey", "gray", "silver"] },
+  { name: "liquorice black",  hex: "#262626", aliases: ["black", "liquorice"] },
+];
+const TOOLS = {
+  "crayon":   { label: "Crayon",   aliases: ["wax crayon", "crayons", "crayon", "wax"],
+                feel: "Waxy, with little white specks of paper showing through. Mostly covers what's underneath." },
+  "felt-tip": { label: "Felt-tip", aliases: ["felt tips", "felt-tips", "felt tip", "felt-tip", "felt pens", "felt pen", "markers", "marker", "pens", "pen"],
+                feel: "Bright and stripy, darker where strokes overlap. See-through, so it mixes with colour underneath." },
+  "paint":    { label: "Paint",    aliases: ["watercolours", "watercolour", "watercolor", "paintbrush", "paints", "paint", "brush"],
+                feel: "Soft and watery, a bit blotchy, darker round the edges. Mixes with colour underneath." },
+};
+const W = 1000, H = 750, SC = 1.2, CW = 1200, CH = 900;
+const PAPER = [251, 249, 244];
+const STORE_KEY = "colouring-book:cottage-and-cat:v2";
+const EXAMPLE = [
+  { part: "sky", colour: "sky blue", tool: "crayon", wobbly: false },
+  { part: "sun", colour: "sunshine yellow", tool: "felt-tip", wobbly: false },
+  { part: "roof", colour: "pillar-box red", tool: "felt-tip", wobbly: false },
+  { part: "tree-leaves", colour: "apple green", tool: "paint", wobbly: false },
+  { part: "cat-body", colour: "tangerine orange", tool: "crayon", wobbly: true },
+];
+
+// ---------------------------------------------------------------- page
+const svgText = document.getElementById("page-svg").textContent.trim();
+const svgDoc = new DOMParser().parseFromString(svgText, "image/svg+xml");
+const svgRoot = svgDoc.documentElement;
+const pageTitle = svgRoot.querySelector("title").textContent;
+const pageDesc = svgRoot.querySelector("desc").textContent.trim();
+const num = (el, a) => parseFloat(el.getAttribute(a));
+function toPathD(el) {
+  const t = el.tagName;
+  if (t === "rect") { const x = num(el,"x"), y = num(el,"y"), w = num(el,"width"), h = num(el,"height"); return `M${x},${y}h${w}v${h}h${-w}Z`; }
+  if (t === "circle" || t === "ellipse") {
+    const cx = num(el,"cx"), cy = num(el,"cy");
+    const rx = t === "circle" ? num(el,"r") : num(el,"rx"), ry = t === "circle" ? rx : num(el,"ry");
+    return `M${cx-rx},${cy}a${rx},${ry} 0 1,0 ${2*rx},0a${rx},${ry} 0 1,0 ${-2*rx},0Z`;
+  }
+  return el.getAttribute("d");
+}
+const PARTS = [...svgRoot.querySelector("#parts").children].filter(e => e.getAttribute("data-name")).map((el, i) => ({
+  i, id: el.id, el, name: el.getAttribute("data-name"), number: +el.getAttribute("data-number"),
+  where: el.getAttribute("data-where"), description: el.getAttribute("data-description"),
+  path: new Path2D(toPathD(el)),
+}));
+const byNumber = [...PARTS].sort((a, b) => a.number - b.number);
+const partById = Object.fromEntries(PARTS.map(p => [p.id, p]));
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// ---------------------------------------------------------------- label map
+const labels = new Int8Array(CW * CH).fill(-1);
+const bbox = PARTS.map(() => [CW, CH, -1, -1]);
+(function buildLabels() {
+  const c = document.createElement("canvas"); c.width = CW; c.height = CH;
+  const x = c.getContext("2d", { willReadFrequently: true });
+  for (const p of PARTS) {
+    x.setTransform(1,0,0,1,0,0); x.clearRect(0, 0, CW, CH);
+    x.setTransform(SC,0,0,SC,0,0); x.fillStyle = "#000"; x.fill(p.path);
+    const a = x.getImageData(0, 0, CW, CH).data;
+    for (let k = 0; k < CW * CH; k++) if (a[k*4+3] > 127) labels[k] = p.i;
+  }
+  for (let y = 0; y < CH; y++) for (let x2 = 0; x2 < CW; x2++) {
+    const l = labels[y*CW + x2]; if (l < 0) continue; const b = bbox[l];
+    if (x2 < b[0]) b[0] = x2; if (y < b[1]) b[1] = y; if (x2 > b[2]) b[2] = x2; if (y > b[3]) b[3] = y;
+  }
+})();
+// which parts touch which (for "what's next to the door?")
+const touches = PARTS.map(() => new Map());
+for (let y = 0; y < CH - 1; y++) for (let x = 0; x < CW - 1; x++) {
+  const k = y*CW + x, a = labels[k];
+  for (const b of [labels[k+1], labels[k+CW]]) if (a >= 0 && b >= 0 && a !== b) {
+    touches[a].set(b, (touches[a].get(b) || 0) + 1); touches[b].set(a, (touches[b].get(a) || 0) + 1);
+  }
+}
+
+// ---------------------------------------------------------------- outline layer
+const outline = document.createElement("canvas"); outline.width = CW; outline.height = CH;
+const outlineReady = new Promise(resolve => {
+  const ser = new XMLSerializer();
+  const lines = PARTS.map(p => {
+    const e = p.el.cloneNode(true);
+    [...e.attributes].forEach(a => a.name.startsWith("data-") && e.removeAttribute(a.name));
+    e.setAttribute("fill", "#fff");
+    e.setAttribute("stroke", p.id === "sky" ? "none" : "#111");
+    e.setAttribute("stroke-width", "7"); e.setAttribute("stroke-linejoin", "round");
+    return ser.serializeToString(e);
+  }).join("");
+  const det = ser.serializeToString(svgRoot.querySelector("#details"));
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${CW}" height="${CH}"><rect width="${W}" height="${H}" fill="#fff"/>${lines}${det}</svg>`;
+  const img = new Image();
+  img.onload = () => { outline.getContext("2d").drawImage(img, 0, 0, CW, CH); resolve(); };
+  img.onerror = () => resolve();
+  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+});
+
+// ---------------------------------------------------------------- noise
+function hash(ix, iy, seed) {
+  let h = Math.imul(ix, 374761393) ^ Math.imul(iy, 668265263) ^ Math.imul(seed, 2246822519);
+  h = Math.imul(h ^ (h >>> 13), 1274126177); h ^= h >>> 16;
+  return (h >>> 0) / 4294967296;
+}
+function vnoise(x, y, seed) {
+  const ix = Math.floor(x), iy = Math.floor(y); let fx = x - ix, fy = y - iy;
+  fx = fx * fx * (3 - 2 * fx); fy = fy * fy * (3 - 2 * fy);
+  const a = hash(ix, iy, seed), b = hash(ix+1, iy, seed), c = hash(ix, iy+1, seed), d = hash(ix+1, iy+1, seed);
+  return (a + (b - a) * fx) + ((c + (d - c) * fx) - (a + (b - a) * fx)) * fy;
+}
+const z = n => (n - 0.5) * 6;   // roughly zero mean, unit spread
+function strHash(s) { let h = 2166136261; for (const ch of s) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return h >>> 0; }
+
+// distance (chamfer 3-4, in pixels) from each pixel inside `inside` to the nearest outside pixel, over a box
+function distanceIn(inside, x0, y0, w, h) {
+  const d = new Float32Array(w * h), INF = 1e6;
+  for (let k = 0; k < w*h; k++) d[k] = inside[k] ? INF : 0;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const k = y*w+x; if (!d[k]) continue;
+    let v = d[k];
+    if (x > 0) v = Math.min(v, d[k-1] + 3); else v = Math.min(v, 3);
+    if (y > 0) { v = Math.min(v, d[k-w] + 3); if (x > 0) v = Math.min(v, d[k-w-1] + 4); if (x < w-1) v = Math.min(v, d[k-w+1] + 4); } else v = Math.min(v, 3);
+    d[k] = v; }
+  for (let y = h-1; y >= 0; y--) for (let x = w-1; x >= 0; x--) { const k = y*w+x; if (!d[k]) continue;
+    let v = d[k];
+    if (x < w-1) v = Math.min(v, d[k+1] + 3); else v = Math.min(v, 3);
+    if (y < h-1) { v = Math.min(v, d[k+w] + 3); if (x < w-1) v = Math.min(v, d[k+w+1] + 4); if (x > 0) v = Math.min(v, d[k+w-1] + 4); } else v = Math.min(v, 3);
+    d[k] = v; }
+  for (let k = 0; k < w*h; k++) d[k] /= 3;
+  return d;
+}
+
+// ---------------------------------------------------------------- painting
+const buf = new Float32Array(CW * CH * 3);
+function resetPaper() {
+  for (let k = 0; k < CW*CH; k++) {
+    const n = (hash(k % CW, (k / CW) | 0, 99) - 0.5) * 4;
+    buf[k*3] = PAPER[0] + n; buf[k*3+1] = PAPER[1] + n; buf[k*3+2] = PAPER[2] + n;
+  }
+}
+const hexRgb = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+
+function applyStep(step, index) {
+  const p = partById[step.part]; const col = BOX.find(c => c.name === step.colour); if (!p || !col) return;
+  const seed = strHash(index + step.part + step.colour + step.tool);
+  const pad = step.wobbly ? 16 : 2;
+  const [bx0, by0, bx1, by1] = bbox[p.i];
+  const x0 = Math.max(0, bx0 - pad), y0 = Math.max(0, by0 - pad), x1 = Math.min(CW - 1, bx1 + pad), y1 = Math.min(CH - 1, by1 + pad);
+  const w = x1 - x0 + 1, h = y1 - y0 + 1;
+  const inside = new Uint8Array(w * h);
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) inside[y*w+x] = labels[(y+y0)*CW + x + x0] === p.i ? 1 : 0;
+  const dIn = distanceIn(inside, x0, y0, w, h);
+  let mask = inside;
+  if (step.wobbly) {
+    const outside = inside.map(v => 1 - v);
+    const dOut = distanceIn(outside, x0, y0, w, h);
+    mask = new Uint8Array(w * h);
+    for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+      const k = y*w+x, lf = z(vnoise((x+x0)/14, (y+y0)/14, seed + 7));
+      const grown = !inside[k] && dOut[k] <= 11 && lf > 0.4;
+      const missed = inside[k] && dIn[k] < 9 && lf < -0.9;
+      mask[k] = (inside[k] && !missed) || grown ? 1 : 0;
+    }
+  }
+  const c = hexRgb(col.hex), f = c.map(v => Math.max(0.02, v / 255));
+  const ang = (20 + hash(seed, 1, 3) * 35) * Math.PI / 180, ca = Math.cos(ang), sa = Math.sin(ang);
+  const s = 18;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    const k = y*w+x; if (!mask[k]) continue;
+    const X = x + x0, Y = y + y0, o = (Y*CW + X) * 3;
+    const u = X*ca + Y*sa, v = -X*sa + Y*ca;
+    if (step.tool === "crayon") {
+      const streak = z(vnoise(v / 1.4, u / 11, seed));
+      const grain = z(vnoise(X / 1.3, Y / 1.3, seed + 1));
+      let a = Math.min(1, Math.max(0, 0.80 + 0.10 * streak + 0.08 * grain));
+      if (grain > 1.6) a *= 0.3;
+      for (let ch = 0; ch < 3; ch++) buf[o+ch] = buf[o+ch] * (1 - a) + c[ch] * a;
+    } else {
+      let d;
+      if (step.tool === "felt-tip") {
+        const kk = Math.floor(u / s), frac = u / s - kk;
+        d = 1 + (frac < 0.2 ? 0.55 : 0) + (hash(kk, 5, seed) - 0.5) * 0.28 + z(vnoise(u / 1.2, v / 16, seed + 2)) * 0.05;
+      } else {
+        const di = inside[k] ? dIn[k] : 0;
+        d = 0.8 + 0.18 * z(vnoise(X / 38, Y / 38, seed + 3)) + 0.5 * Math.exp(-di / 4);
+      }
+      d = Math.min(2.2, Math.max(0.3, d));
+      for (let ch = 0; ch < 3; ch++) buf[o+ch] *= Math.pow(f[ch], d);
+    }
+  }
+}
+
+const canvas = document.getElementById("picture");
+const ctx = canvas.getContext("2d", { willReadFrequently: true });
+const colourLayer = document.createElement("canvas"); colourLayer.width = CW; colourLayer.height = CH;
+function present() {
+  const cx = colourLayer.getContext("2d"), img = cx.createImageData(CW, CH), d = img.data;
+  for (let k = 0; k < CW*CH; k++) { d[k*4] = buf[k*3]; d[k*4+1] = buf[k*3+1]; d[k*4+2] = buf[k*3+2]; d[k*4+3] = 255; }
+  cx.putImageData(img, 0, 0);
+  ctx.globalCompositeOperation = "source-over"; ctx.drawImage(colourLayer, 0, 0);
+  ctx.globalCompositeOperation = "multiply"; ctx.drawImage(outline, 0, 0);
+  ctx.globalCompositeOperation = "source-over";
+  canvas.setAttribute("aria-label", `Your picture of ${pageTitle}: ${colouredCount()} of ${PARTS.length} parts coloured. Use Show and Tell to hear what it looks like.`);
+}
+function redrawAll() { resetPaper(); steps.forEach(applyStep); present(); }
+
+// ---------------------------------------------------------------- words for colours
+function colourWord([r, g, b]) {
+  r /= 255; g /= 255; b /= 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b), l = (mx + mn) / 2, dlt = mx - mn;
+  const s = dlt === 0 ? 0 : dlt / (1 - Math.abs(2 * l - 1));
+  let hdeg = 0;
+  if (dlt) { if (mx === r) hdeg = 60 * (((g - b) / dlt) % 6); else if (mx === g) hdeg = 60 * ((b - r) / dlt + 2); else hdeg = 60 * ((r - g) / dlt + 4); }
+  if (hdeg < 0) hdeg += 360;
+  if ((l > 0.93 && s < 0.5) || (s < 0.12 && l > 0.85)) return l > 0.95 ? "white" : "off-white";
+  if (l < 0.18) return "black";
+  if (s < 0.15) return l > 0.35 ? "grey" : "dark grey";
+  let base;
+  if (hdeg < 15 || hdeg >= 340) base = l > 0.65 ? "pink" : "red";
+  else if (hdeg < 45) base = (l < 0.4 || (s < 0.6 && l < 0.6)) ? "brown" : "orange";
+  else if (hdeg < 65) base = l > 0.45 ? "yellow" : "olive brown";
+  else if (hdeg < 160) base = "green";
+  else if (hdeg < 200) base = "turquoise";
+  else if (hdeg < 255) base = "blue";
+  else if (hdeg < 290) base = "purple";
+  else base = l > 0.55 ? "pink" : "purple";
+  if (["pink", "brown", "olive brown"].includes(base)) return base;
+  if (l > 0.68) return "light " + base;
+  if (l < 0.33) return "dark " + base;
+  return base;
+}
+const baseHue = w => w.replace(/^(light|dark) /, "");
+
+// ---------------------------------------------------------------- state
+let steps = [];
+function load() {
+  try { const s = JSON.parse(localStorage.getItem(STORE_KEY)); if (Array.isArray(s)) return s; } catch (e) {}
+  return [];
+}
+function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(steps)); } catch (e) {} }
+const stepsFor = id => steps.filter(s => s.part === id);
+const colouredCount = () => PARTS.filter(p => stepsFor(p.id).length).length;
+const describeSteps = ss => ss.map(s => `${s.colour} ${s.tool}${s.wobbly ? ", wobbly" : ""}`).join(", then ");
+
+// ---------------------------------------------------------------- controls
+const $ = id => document.getElementById(id);
+$("page-title").textContent = pageTitle;
+$("page-desc").textContent = pageDesc;
+
+$("parts").innerHTML = byNumber.map(p => `
+  <label class="part" for="part-${p.id}">
+    <input type="radio" name="part" id="part-${p.id}" value="${p.id}" aria-describedby="where-${p.id}">
+    <span><span class="num">${p.number}.</span> ${cap(p.name)}<span class="sr" id="where-${p.id}">, ${p.where}. ${p.description}</span></span>
+    <span class="state" id="state-${p.id}"></span>
+  </label>`).join("");
+$("box").innerHTML = BOX.map((c, i) => `
+  <label class="crayon" for="col-${i}">
+    <input type="radio" name="colour" id="col-${i}" value="${c.name}">
+    <span class="swatch" style="background:${c.hex}" aria-hidden="true"></span>
+    <span>${cap(c.name)}</span>
+  </label>`).join("");
+$("tools").innerHTML = Object.entries(TOOLS).map(([k, t]) => `
+  <label class="tool" for="tool-${k}">
+    <input type="radio" name="tool" id="tool-${k}" value="${k}" aria-describedby="feel-${k}">
+    <span><b>${t.label}</b></span>
+    <span class="feel" id="feel-${k}">${t.feel}</span>
+  </label>`).join("");
+document.querySelector('input[name=part][value="door"]').checked = true;
+$("col-0").checked = true;
+$("tool-crayon").checked = true;
+
+function refreshStates() {
+  for (const p of PARTS) {
+    const ss = stepsFor(p.id), el = $("state-" + p.id);
+    if (!ss.length) { el.innerHTML = `<span class="chip" aria-hidden="true"></span>still white`; continue; }
+    const last = ss[ss.length - 1], col = BOX.find(c => c.name === last.colour);
+    el.innerHTML = `<span class="chip" style="background:${col.hex}" aria-hidden="true"></span>${describeSteps(ss)}`;
+  }
+}
+const chosen = name => document.querySelector(`input[name=${name}]:checked`)?.value;
+function choose(name, value) { const el = document.querySelector(`input[name=${name}][value="${value}"]`); if (el) el.checked = true; }
+
+const statusEl = $("status"), logEl = $("log");
+function say(msg, you) {
+  statusEl.textContent = msg;
+  const li = document.createElement("li");
+  li.innerHTML = (you ? `<b>You:</b> ${escapeHtml(you)}<br>` : "") + escapeHtml(msg);
+  logEl.prepend(li);
+  while (logEl.children.length > 8) logEl.lastChild.remove();
+}
+const escapeHtml = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+
+let busy = false;
+async function work(fn) {
+  if (busy) return; busy = true;
+  document.querySelectorAll("button").forEach(b => b.disabled = true);
+  await new Promise(r => setTimeout(r, 20));
+  try { await fn(); } finally { busy = false; document.querySelectorAll("button").forEach(b => b.disabled = false); }
+}
+
+function colourIn(partId, colour, tool, wobbly, you) {
+  return work(() => {
+    const p = partById[partId], under = stepsFor(partId);
+    const step = { part: partId, colour, tool, wobbly };
+    steps.push(step); applyStep(step, steps.length - 1); present(); save(); refreshStates();
+    let msg = `Coloured ${p.name} ${colour} with ${tool}${wobbly ? ", a bit over the lines" : ""}.`;
+    if (under.length) {
+      const prev = under[under.length - 1];
+      msg += tool === "crayon" ? ` It mostly covers the ${prev.colour} underneath.` : ` It's see-through, so it mixes with the ${prev.colour} underneath.`;
+    }
+    msg += ` ${PARTS.length - colouredCount()} parts still white.`;
+    say(msg, you);
+  });
+}
+function undo(you) {
+  if (!steps.length) return say("There's nothing to undo yet.", you);
+  return work(() => { const s = steps.pop(); redrawAll(); save(); refreshStates();
+    say(`Took back the ${s.colour} ${s.tool} on ${partById[s.part].name}.`, you); });
+}
+function rubout(partId, you) {
+  const p = partById[partId];
+  if (!stepsFor(partId).length) return say(`${cap(p.name)} is already white.`, you);
+  return work(() => { steps = steps.filter(s => s.part !== partId); redrawAll(); save(); refreshStates();
+    say(`Rubbed out ${p.name}. It's white again.`, you); });
+}
+let restartArmed = false;
+function restart(you) {
+  if (!restartArmed && !you) { restartArmed = true; $("restart").textContent = "Press again to start again"; say("Press Start again once more to clear the whole page."); setTimeout(() => { restartArmed = false; $("restart").textContent = "Start again"; }, 6000); return; }
+  restartArmed = false; $("restart").textContent = "Start again";
+  return work(() => { steps = []; redrawAll(); save(); refreshStates(); $("report").innerHTML = ""; $("saved").hidden = true;
+    say(`A fresh page: ${pageTitle}, all ${PARTS.length} parts white.`, you); });
+}
+function whatsLeft(you) {
+  const white = byNumber.filter(p => !stepsFor(p.id).length);
+  if (!white.length) return say(`Every part is coloured. Try Show and Tell.`, you);
+  say(`${colouredCount()} of ${PARTS.length} coloured. Still white: ${white.map(p => p.name).join(", ")}.`, you);
+}
+function nextTo(partId, you) {
+  const p = partById[partId];
+  const n = [...touches[p.i].entries()].filter(([, c]) => c > 25).sort((a, b) => b[1] - a[1]).map(([j]) => PARTS[j].name);
+  say(`${cap(p.name)}: ${p.where}. It touches ${listJoin(n)}.`, you);
+}
+const listJoin = a => a.length < 2 ? (a[0] || "nothing") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+
+function showAndTell(you) {
+  return work(() => {
+    const img = ctx.getImageData(0, 0, CW, CH).data;
+    const sums = PARTS.map(() => [0, 0, 0, 0]);
+    for (const p of PARTS) {
+      const [x0, y0, x1, y1] = bbox[p.i], w = x1 - x0 + 1, h = y1 - y0 + 1;
+      const inside = new Uint8Array(w * h);
+      for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) inside[y*w+x] = labels[(y+y0)*CW + x + x0] === p.i ? 1 : 0;
+      const d = distanceIn(inside, x0, y0, w, h);
+      let minD = 8; let any = false;
+      for (let k = 0; k < w*h; k++) if (d[k] > minD) { any = true; break; }
+      if (!any) minD = 0;
+      const sm = sums[p.i];
+      for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const k = y*w+x; if (inside[k] && d[k] > minD) {
+        const o = ((y+y0)*CW + x + x0) * 4; sm[0] += img[o]; sm[1] += img[o+1]; sm[2] += img[o+2]; sm[3]++; } }
+    }
+    const looks = {}; PARTS.forEach(p => { const s = sums[p.i]; looks[p.id] = colourWord([s[0]/s[3], s[1]/s[3], s[2]/s[3]]); });
+    const lines = byNumber.map(p => {
+      const ss = stepsFor(p.id), lk = looks[p.id];
+      if (!ss.length) return `<li>${cap(p.name)}: still white paper.</li>`;
+      const last = ss[ss.length - 1], intended = baseHue(colourWord(hexRgb(BOX.find(c => c.name === last.colour).hex)));
+      const differs = baseHue(lk) !== intended;
+      return `<li>${cap(p.name)}: you used ${describeSteps(ss)}. It looks ${lk}.${differs ? ` <span class="diff">That's different from the ${last.colour} you chose, because the colours have mixed.</span>` : ""}</li>`;
+    }).join("");
+    const done = colouredCount();
+    const alt = `A coloured-in picture of a cottage and a cat. ` + byNumber.filter(p => stepsFor(p.id).length)
+      .map(p => `${cap(p.name)} ${p.name.endsWith("s") && !p.name.endsWith("grass") ? "are" : "is"} ${looks[p.id]}`).join(". ") + "."
+      + (done < PARTS.length ? ` The rest is left white.` : "");
+    $("report").innerHTML = `
+      <h3>${pageTitle}: ${done} of ${PARTS.length} parts coloured</h3>
+      <ul>${lines}</ul>
+      <label for="alt" style="font-weight:700;display:block;margin-top:10px">A description to post with your picture</label>
+      <textarea id="alt" readonly>${escapeHtml(alt)}</textarea>
+      <div class="actions"><button type="button" id="copy-alt">Copy description</button></div>`;
+    $("copy-alt").onclick = () => {
+      const ta = $("alt");
+      navigator.clipboard.writeText(ta.value).then(() => say("Copied the description."), () => { ta.focus(); ta.select(); say("Description selected. Press Control C or Command C to copy it."); });
+    };
+    say(`Show and Tell is ready, further down the page. ${done} of ${PARTS.length} parts coloured.`, you);
+    $("st-h").scrollIntoView({ block: "start", behavior: "smooth" });
+  });
+}
+let downloadsP = null;
+function getDownloads() {
+  if (!downloadsP) downloadsP = (window.claude && window.claude.use) ? window.claude.use("downloads").catch(() => null) : Promise.resolve(null);
+  return downloadsP;
+}
+function showFallback(dataUrl) {
+  $("saved-img").src = dataUrl;
+  $("saved-img").alt = `Your coloured-in picture of ${pageTitle}`;
+  $("saved").hidden = false;
+}
+function filename() {
+  const d = new Date(), pad = n => String(n).padStart(2, "0");
+  return `my-${pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}.png`;
+}
+let saving = false;
+async function savePicture(you) {
+  if (saving) return; saving = true;
+  try {
+    if (!colouredCount()) say("Your page is still all white, but here it is anyway.", you);
+    const name = filename();
+    const blob = await new Promise(r => canvas.toBlob(r, "image/png"));
+    const downloads = await getDownloads();
+    if (downloads && blob) {
+      say("Saving your picture. Say yes when you're asked.", you);
+      try {
+        await downloads.save({ filename: name, data: blob });
+        say(`Saved your picture as ${name}. Look in your Downloads.`);
+        return;
+      } catch (e) {
+        if (e && e.code === "declined") { say("Not saved. Press Save my picture whenever you're ready."); return; }
+        if (e && e.code === "rate_limited") { say("A save is already waiting for your answer."); return; }
+      }
+    }
+    // Fallback: an ordinary browser download, plus the picture shown so it can be saved by hand
+    const url = canvas.toDataURL("image/png");
+    try { const a = document.createElement("a"); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove(); } catch (e) {}
+    showFallback(url);
+    say(`Saving ${name}. If nothing arrives in your Downloads, your picture is also at the end of Show and Tell, where you can save it by hand.`, downloads ? undefined : you);
+  } finally { saving = false; }
+}
+
+// ---------------------------------------------------------------- understanding typed words
+const STOP = new Set(["the","a","an","of","colour","color","in","it","make","with","and","please","paint","s","to","my","some","using","use","do","can","you","i","want","on","shade","fill"]);
+const words = s => s.toLowerCase().replace(/['’]s\b/g, "").replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
+function matchPart(text) {
+  const t = text.trim(); const n = t.match(/\b(\d{1,2})\b/);
+  if (n) { const p = byNumber.find(p => p.number === +n[1]); if (p) return p; }
+  const want = words(t).filter(w => !STOP.has(w)); if (!want.length) return null;
+  let best = null, score = 0, size = 99;
+  for (const p of PARTS) {
+    const have = new Set([...words(p.name), ...p.id.split("-")]);
+    const hits = want.filter(w => have.has(w) || have.has(w.replace(/s$/, ""))).length;
+    if (hits > score || (hits === score && hits > 0 && have.size < size)) { best = p; score = hits; size = have.size; }
+  }
+  return score ? best : null;
+}
+function findAll(text, table) {   // every [value, phrase] found, longest phrase first
+  const t = " " + words(text).join(" ") + " "; const out = [];
+  for (const [value, phrases] of table) for (const ph of phrases) if (t.includes(" " + ph + " ")) out.push([value, ph]);
+  return out.sort((a, b) => b[1].length - a[1].length);
+}
+const colourTable = BOX.map(c => [c.name, [c.name.replace(/-/g, " "), ...c.aliases]]);
+const toolTable = Object.entries(TOOLS).map(([k, t]) => [k, t.aliases.map(a => a.replace(/-/g, " "))]);
+const strip = (text, phrase) => (" " + words(text).join(" ") + " ").replace(" " + phrase + " ", " ").trim();
+
+function interpret(raw) {
+  const text = raw.trim(); if (!text) return;
+  const t = text.toLowerCase();
+  if (/^(undo|take (it|that) back|oops)\b/.test(t)) return undo(text);
+  if (/\b(start again|start over|new page|clear (it|everything|the page))\b/.test(t)) return restart(text);
+  if (/\b(show and tell|what does it look like|describe (it|my picture)|how does it look)\b/.test(t)) return showAndTell(text);
+  if (/\b(save|download|keep)\b.*\b(picture|it|drawing|page|image)\b|^(save|download)$/.test(t)) return savePicture(text);
+  if (/\b(what'?s left|what is left|still white|what haven'?t i)\b/.test(t)) return whatsLeft(text);
+  if (/\b(describe the page|what'?s on the page|read the page)\b/.test(t)) return say(pageDesc, text);
+  if (/\b(what colours|crayon box|the box)\b/.test(t)) return say(`In the box: ${BOX.map(c => c.name).join(", ")}. You can colour with crayon, felt-tip or paint.`, text);
+  if (/\b(rub out|rubout|erase|rub off)\b/.test(t)) {
+    const p = matchPart(t.replace(/rub out|rubout|erase|rub off/, "")) || partById[chosen("part")];
+    choose("part", p.id); return rubout(p.id, text);
+  }
+  if (/\b(next to|near|touch|beside|where)\b/.test(t)) {
+    const p = matchPart(t.replace(/next to|near|touches|touch|beside|where|what is|what'?s|is/g, " "));
+    if (p) { choose("part", p.id); return nextTo(p.id, text); }
+  }
+  // colouring
+  let rest = text;
+  const wobbly = /\b(wobbly|messy|over the lines|like a (real )?kid|like a (real )?child|scribbl)/.test(t);
+  rest = rest.replace(/wobbly|messy|over the lines|like a (real )?(kid|child)|scribbl\w*/gi, " ");
+  const tools = findAll(rest, toolTable); let tool = chosen("tool");
+  if (tools.length) { tool = tools[0][0]; rest = strip(rest, tools[0][1]); }
+  const colours = findAll(rest, colourTable);
+  let colour = null, part = null;
+  for (const [value, ph] of colours) { const pp = matchPart(strip(rest, ph)); if (pp) { colour = value; part = pp; break; } }
+  if (!colour && colours.length) { colour = colours[0][0]; part = matchPart(strip(rest, colours[0][1])); }
+  if (!part) part = matchPart(rest);
+  if (!colour && !part) return say(`I didn't understand that. Try "colour the door red with felt-tip", "what's left" or "show and tell".`, text);
+  if (!colour) { choose("part", part.id); return say(`Chose ${part.name}. What colour shall it be?`, text); }
+  if (!part) part = partById[chosen("part")];
+  choose("part", part.id); choose("colour", colour); choose("tool", tool); $("wobbly").checked = wobbly;
+  return colourIn(part.id, colour, tool, wobbly, text);
+}
+
+// ---------------------------------------------------------------- wiring
+$("say-form").addEventListener("submit", e => { e.preventDefault(); const v = $("say").value; $("say").value = ""; interpret(v); });
+$("go").onclick = () => colourIn(chosen("part"), chosen("colour"), chosen("tool"), $("wobbly").checked);
+$("undo").onclick = () => undo();
+$("rubout").onclick = () => rubout(chosen("part"));
+$("restart").onclick = () => restart();
+$("tell").onclick = () => showAndTell();
+$("save-pic").onclick = () => savePicture();
+$("save-pic-2").onclick = () => savePicture();
+$("example").onclick = () => work(() => {
+  steps = EXAMPLE.slice(); redrawAll(); save(); refreshStates();
+  say("Here's an example: five parts coloured to show crayon, felt-tip, paint and colouring over the lines. Press Start again for a clean page.");
+});
+canvas.addEventListener("click", e => {
+  const r = canvas.getBoundingClientRect();
+  const x = Math.floor((e.clientX - r.left) / r.width * CW), y = Math.floor((e.clientY - r.top) / r.height * CH);
+  const l = labels[y * CW + x];
+  if (l >= 0) { choose("part", PARTS[l].id); say(`Chose ${PARTS[l].name}.`); }
+});
+
+steps = load();
+outlineReady.then(() => {
+  redrawAll(); refreshStates();
+  statusEl.textContent = steps.length
+    ? `${colouredCount()} of ${PARTS.length} parts already coloured${steps === EXAMPLE || JSON.stringify(steps) === JSON.stringify(EXAMPLE) ? " as an example. Start again for a clean page" : ""}.`
+    : "A fresh page, all white.";
+});
+})();
+</script>
+
+</body></html>

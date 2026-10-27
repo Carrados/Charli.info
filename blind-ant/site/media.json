@@ -1,0 +1,32 @@
+{
+  "files": {
+    "/media/always-six/always-six-described.mp4": [
+      "studio/always-six/out/video_described.mp4",
+      "video/mp4"
+    ],
+    "/media/always-six/always-six.mp4": [
+      "studio/always-six/out/video.mp4",
+      "video/mp4"
+    ],
+    "/media/always-six/description.vtt": [
+      "studio/always-six/out/description.vtt",
+      "text/vtt; charset=utf-8"
+    ],
+    "/media/always-six/contact-sheet.jpg": [
+      "studio/always-six/out/contact_sheet.jpg",
+      "image/jpeg"
+    ],
+    "/media/come-and-get-me/come-and-get-me.pdf": [
+      "studio/come-and-get-me/comic/come-and-get-me.pdf",
+      "application/pdf"
+    ],
+    "/media/kindness-scales-too/kindness-scales-too.mp3": [
+      "studio/kindness-scales-too/kindness-scales-too.mp3",
+      "audio/mpeg"
+    ],
+    "/media/always-six/captions.vtt": [
+      "studio/always-six/out/captions.vtt",
+      "text/vtt; charset=utf-8"
+    ]
+  }
+}

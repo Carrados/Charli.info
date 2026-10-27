@@ -1,0 +1,17 @@
+// Publishing settings for the aegis-dynamics Worker (aegisdynamics.blind-ant.com). `npm run publish:aegis` builds
+// subdomains/aegisdynamics/out/site.json, then wrangler uploads it as this Worker's static assets.
+{
+  "name": "aegis-dynamics",
+  "main": "blind-ant/subdomains/aegisdynamics/worker.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "25fb70ed788c5f04f8bfba0688a3e24a",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "dist/aegis",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none",
+    "not_found_handling": "none"
+  }
+}

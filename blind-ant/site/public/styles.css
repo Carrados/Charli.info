@@ -1,0 +1,178 @@
+/* Blind Ant: a gallery wall with one label on it. */
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("https://cdn.jsdelivr.net/npm/@fontsource/atkinson-hyperlegible-next@5.3.0/files/atkinson-hyperlegible-next-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("https://cdn.jsdelivr.net/npm/@fontsource/atkinson-hyperlegible-next@5.3.0/files/atkinson-hyperlegible-next-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --wall: #e6e9e8;      /* cool gallery grey */
+  --card: #fbfbf8;      /* the wall label */
+  --ink: #16191d;
+  --ink-soft: #4a5057;
+  --glass: #0b6680;     /* the shard: link colour */
+  --rail: #c9cfcd;      /* the edge of the label */
+  --font: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --wall: #1d2124;
+    --card: #2a2f33;
+    --ink: #eef0ef;
+    --ink-soft: #b5bcc0;
+    --glass: #7fd0e6;
+    --rail: #3c4348;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--wall); }
+
+body {
+  margin: 0;
+  background: var(--wall);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+a { color: var(--glass); text-underline-offset: 0.18em; text-decoration-thickness: 0.08em; }
+a:hover { text-decoration-thickness: 0.16em; }
+:focus-visible { outline: 3px solid var(--glass); outline-offset: 3px; border-radius: 2px; }
+
+.skip {
+  position: absolute; left: 1rem; top: -4rem;
+  background: var(--card); color: var(--ink); padding: 0.6rem 1rem;
+}
+.skip:focus { top: 1rem; }
+
+.site-header, main, .site-footer {
+  width: min(100% - 2rem, 62rem);
+  margin-inline: auto;
+}
+
+.site-header { padding-block: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; align-items: baseline; justify-content: space-between; }
+.site-header nav a { color: var(--ink); }
+.jump { margin: 0.5rem 0 0; font-size: 1rem; }
+.site-name {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+/* The logo: a wall label for a work that isn't there.
+   It hangs where the eye would meet a picture, with empty wall above it. */
+.wall-label {
+  margin: clamp(4rem, 18vh, 11rem) 0 clamp(4rem, 12vh, 8rem);
+  max-width: 34rem;
+  background: var(--card);
+  padding: 1.75rem 2rem 2rem;
+  border-left: 6px solid var(--ink);
+  box-shadow: 0 1px 0 var(--rail);
+}
+.wall-label figcaption { margin-bottom: 1.25rem; }
+.label-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.label-meta {
+  margin: 0.25rem 0 0;
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+.label-body p {
+  margin: 0 0 0.9em;
+  font-size: clamp(1.3rem, 1.1rem + 0.9vw, 1.75rem);
+  line-height: 1.4;
+}
+.label-body p:last-child { margin-bottom: 0; }
+
+.prose { max-width: 38rem; }
+.prose h2 {
+  font-size: 1.375rem;
+  line-height: 1.25;
+  margin: 2.5rem 0 0.5rem;
+}
+.prose p { margin: 0 0 1em; }
+
+.site-footer {
+  margin-top: 6rem;
+  padding-block: 2rem 3rem;
+  border-top: 1px solid var(--rail);
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+.site-footer p { max-width: 40rem; margin: 0 0 0.75em; }
+
+@media (max-width: 30rem) {
+  .wall-label { padding: 1.25rem 1.25rem 1.5rem; border-left-width: 4px; }
+}
+
+/* Where you are: an Object names its Piece. */
+.trail { margin: 2rem 0 0; color: var(--ink-soft); font-size: 1rem; }
+.trail + .wall-label { margin-top: clamp(2.5rem, 10vh, 6rem); }
+
+/* Lists of Pieces and Objects */
+.prose ul { padding-left: 1.25rem; }
+.prose li { margin: 0 0 0.6em; }
+.prose li > a:first-child { font-weight: 700; }
+
+/* Films and pictures sit wider than the text column. */
+.prose figure { margin: 2rem 0; }
+.prose video, .prose img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background: var(--card);
+}
+.prose .film, .prose figure:has(img) { width: min(62rem, 100vw - 2rem); max-width: none; }
+/* Portrait pictures (book covers) stay within the text column. */
+.prose figure.portrait:has(img) { width: min(34rem, 100%); }
+.prose figcaption { margin-top: 0.6rem; color: var(--ink-soft); font-size: 1rem; }
+
+/* Tables: the description with times, the timing check. */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0 1.75rem;
+  font-size: 1rem;
+  display: block;
+  overflow-x: auto;
+}
+.prose th, .prose td {
+  text-align: left;
+  padding: 0.5rem 0.9rem 0.5rem 0;
+  border-bottom: 1px solid var(--rail);
+  vertical-align: top;
+}
+.prose th { font-weight: 700; }
+.prose td:first-child { white-space: nowrap; }
+.prose td { font-variant-numeric: tabular-nums; }
+
+/* A long description reads better a size down, on a wider label. */
+.wall-label.long { max-width: 42rem; }
+.wall-label.long .label-body p { font-size: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem); line-height: 1.5; }
+
+/* The one H1 on every page: on the wall label, or above the text. */
+h1.label-title { margin: 0; }
+.page-title {
+  margin: clamp(2.5rem, 10vh, 6rem) 0 1.5rem;
+  font-size: clamp(1.75rem, 1.4rem + 1.5vw, 2.5rem);
+  line-height: 1.15;
+}
