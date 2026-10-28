@@ -1,0 +1,799 @@
+<!doctype html>
+<!--
+  Since or Until?, version 2 (October 2026)
+  By Charlotte Joanne at Blind Ant. https://blind-ant.com
+
+  The words and design are licensed under Creative Commons Attribution-ShareAlike 4.0
+  (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+  Everything is calculated in your browser. Nothing you type is sent anywhere or saved.
+-->
+<html lang="en-GB">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Since or Until?</title>
+<meta name="description" content="Blind Ant presents Since or Until? Pick any date, past or future, and count the days. Everything is calculated in your browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700..800&display=swap">
+<style>
+/* Layout: one narrow column; the form is a tear-off calendar page, the answer is one huge number. */
+:root {
+  --paper: #eef1fa;
+  --sheet: #ffffff;
+  --ink: #15192c;
+  --ink-soft: #4a5070;
+  --rule: #c9cee4;
+  --accent: #2b3bc4;
+  --accent-ink: #ffffff;
+  --marigold: #f2b705;
+  --error: #b3261e;
+  --focus: #2b3bc4;
+  --font-display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Verdana, system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e1121; --sheet: #191d33; --ink: #eceef8; --ink-soft: #b2b7d2; --rule: #353b5c;
+    --accent: #a3adff; --accent-ink: #0e1121; --marigold: #f5c542; --error: #ffb4ab; --focus: #f5c542;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0e1121; --sheet: #191d33; --ink: #eceef8; --ink-soft: #b2b7d2; --rule: #353b5c;
+  --accent: #a3adff; --accent-ink: #0e1121; --marigold: #f5c542; --error: #ffb4ab; --focus: #f5c542;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+.wrap {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding-block: 2.5rem 4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 2rem;
+}
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.05; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+a { color: var(--accent); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+
+/* Masthead */
+header { display: grid; gap: .5rem; }
+.presents { font-size: .9rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+h1 { font-size: clamp(3rem, 13vw, 5.5rem); font-weight: 800; letter-spacing: -.03em; }
+h1 .or { color: var(--accent); }
+.tagline { font-size: 1.25rem; }
+.tagline strong { background: linear-gradient(transparent 60%, var(--marigold) 60%); color: var(--ink); padding-inline: .1em; }
+
+/* The calendar page */
+.sheet {
+  background: var(--sheet);
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.sheet-top {
+  background: var(--accent);
+  height: 2.25rem;
+  display: flex; justify-content: center; gap: 7rem; align-items: center;
+}
+.sheet-top::before, .sheet-top::after {
+  content: ""; width: .9rem; height: .9rem; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--ink);
+}
+.sheet-body { padding: 1.5rem; display: grid; gap: 1.5rem; }
+@media (max-width: 30rem) { .sheet-body { padding: 1.25rem 1rem; } }
+
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; padding: 0; margin-bottom: .25rem; }
+.hint { color: var(--ink-soft); font-size: 1rem; }
+.date-row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin-top: .75rem; }
+.field { display: grid; gap: .25rem; }
+.field label, .label { font-weight: 700; }
+input[type="text"], select {
+  font: inherit;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  padding: .45rem .6rem;
+  min-height: 2.9rem;
+  font-variant-numeric: tabular-nums;
+}
+#day { width: 4.2rem; }
+#month { width: 6.5rem; }
+#year { width: 6rem; }
+#occasion { width: 100%; }
+input[aria-invalid="true"] { border-color: var(--error); border-width: 3px; }
+.error-msg { color: var(--error); font-weight: 700; margin-top: .5rem; }
+
+button { font: inherit; cursor: pointer; }
+.btn {
+  min-height: 2.9rem;
+  padding: .45rem 1rem;
+  border-radius: 6px;
+  border: 2px solid var(--ink);
+  background: var(--sheet);
+  color: var(--ink);
+  font-weight: 700;
+  display: inline-flex; align-items: center; gap: .5rem;
+}
+.btn:hover { background: var(--paper); }
+.btn-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-size: 1.2rem; padding-inline: 1.4rem; }
+.btn-primary:hover { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+.btn svg { width: 1.2em; height: 1.2em; flex: none; }
+
+.quick { display: grid; gap: .5rem; }
+.quick ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip {
+  min-height: 2.75rem;
+  border: 2px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: .3rem .9rem;
+  font-size: 1rem;
+}
+.chip:hover { border-color: var(--ink); }
+.chip small { color: var(--ink-soft); }
+
+.error-summary {
+  border: 3px solid var(--error);
+  border-radius: 8px;
+  padding: 1rem;
+  display: grid; gap: .25rem;
+}
+.error-summary h2 { font-size: 1.3rem; }
+.error-summary a { color: var(--error); font-weight: 700; }
+
+/* The answer */
+#result { display: grid; gap: 1.25rem; }
+.result-top { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.tag {
+  font-weight: 700; font-size: .85rem; letter-spacing: .12em; text-transform: uppercase;
+  background: var(--ink); color: var(--sheet); border-radius: 4px; padding: .15rem .55rem;
+}
+.tag.example { background: transparent; color: var(--ink-soft); border: 2px dashed var(--rule); }
+#result-heading { font-size: clamp(1.5rem, 5vw, 2.1rem); font-weight: 700; }
+#result-heading:focus { outline: none; }
+#result-heading:focus-visible { outline: 3px solid var(--focus); outline-offset: 6px; }
+.big {
+  display: block;
+  font-size: clamp(4rem, 19vw, 8.5rem);
+  font-weight: 800;
+  letter-spacing: -.04em;
+  line-height: .95;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.span-line { color: var(--ink-soft); }
+.quip { font-size: 1.25rem; border-left: 6px solid var(--marigold); padding-left: 1rem; display: grid; gap: .35rem; }
+
+.ways h3 { font-size: 1.5rem; margin-bottom: .75rem; }
+.ways-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+.way {
+  border-top: 4px solid var(--ink);
+  padding-top: .75rem;
+  display: grid; gap: .5rem; align-content: start;
+  min-width: 0;
+}
+.way h4 { margin: 0; font-size: 1.1rem; }
+.way > p { color: var(--ink-soft); font-size: 1rem; }
+dl { margin: 0; display: grid; gap: .6rem; }
+dt { font-size: .95rem; color: var(--ink-soft); }
+dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.about { display: grid; gap: .75rem; font-size: 1rem; color: var(--ink-soft); border-top: 2px solid var(--rule); padding-top: 1.5rem; }
+.about h2 { font-size: 1.3rem; color: var(--ink); }
+.about ul { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; }
+
+/* Calendar dialog */
+dialog {
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  padding: 0;
+  background: var(--sheet);
+  color: var(--ink);
+  width: min(26rem, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+}
+dialog::backdrop { background: rgb(14 17 33 / .55); }
+.cal { padding: 1rem; display: grid; gap: .9rem; }
+.cal h2 { font-size: 1.4rem; }
+.cal-controls { display: grid; grid-template-columns: auto 1fr 1fr auto; gap: .5rem; align-items: end; }
+.cal-controls .field select, .cal-controls .field input { width: 100%; min-width: 0; }
+.cal-controls .field { min-width: 0; }
+.icon-btn {
+  width: 2.9rem; height: 2.9rem; border-radius: 6px; border: 2px solid var(--ink);
+  background: var(--sheet); color: var(--ink); display: grid; place-items: center; padding: 0;
+}
+.icon-btn:hover { background: var(--paper); }
+.icon-btn svg { width: 1.3rem; height: 1.3rem; }
+.cal-jumps { display: flex; flex-wrap: wrap; gap: .5rem; }
+.cal-jumps .btn { font-size: .95rem; min-height: 2.75rem; padding-inline: .7rem; }
+table.grid { border-collapse: collapse; width: 100%; table-layout: fixed; }
+table.grid caption { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; text-align: left; padding-bottom: .4rem; }
+table.grid th { font-size: .85rem; color: var(--ink-soft); padding-bottom: .25rem; }
+table.grid th abbr { text-decoration: none; }
+table.grid td { padding: 2px; text-align: center; }
+.day {
+  width: 100%; aspect-ratio: 1; max-width: 100%; min-height: 2.6rem;
+  border: 2px solid transparent; border-radius: 8px;
+  background: transparent; color: var(--ink);
+  font-variant-numeric: tabular-nums; font-size: 1rem;
+}
+.day:hover { border-color: var(--rule); }
+.day[aria-current="date"] { border-color: var(--ink); font-weight: 700; }
+.day.selected { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.day:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+.keys { font-size: .9rem; color: var(--ink-soft); }
+.cal-foot { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: space-between; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .flip { animation: flip .35s ease-out; }
+  @keyframes flip { from { transform: translateY(-.4rem); opacity: .2; } to { transform: none; opacity: 1; } }
+}
+@media (forced-colors: active) {
+  .day.selected { outline: 3px solid Highlight; }
+  .sheet-top { border-bottom: 2px solid CanvasText; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="presents"><a href="./">Blind Ant</a> presents</p>
+    <h1>Since <span class="or">or</span> Until?</h1>
+    <p class="tagline">Pick any date, past or future. <strong>Every day counts.</strong></p>
+  </header>
+
+  <main id="main" class="sheet">
+    <div class="sheet-top" aria-hidden="true"></div>
+    <div class="sheet-body">
+      <div id="error-summary" class="error-summary" tabindex="-1" hidden>
+        <h2>That date needs a quick fix</h2>
+        <p><a id="error-summary-link" href="#day"></a></p>
+      </div>
+
+      <form id="form" novalidate>
+        <div style="display:grid;gap:1.5rem">
+          <fieldset id="date-group" aria-describedby="date-hint">
+            <legend>Which date?</legend>
+            <p class="hint" id="date-hint">Type it in, for example 25 12 2026. Month can be a number or a name.</p>
+            <p class="error-msg" id="date-error" hidden></p>
+            <div class="date-row">
+              <div class="field">
+                <label for="day">Day</label>
+                <input type="text" id="day" name="day" inputmode="numeric" autocomplete="off" maxlength="2" spellcheck="false">
+              </div>
+              <div class="field">
+                <label for="month">Month</label>
+                <input type="text" id="month" name="month" autocomplete="off" maxlength="9" spellcheck="false">
+              </div>
+              <div class="field">
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year" inputmode="numeric" autocomplete="off" maxlength="4" spellcheck="false">
+              </div>
+              <button type="button" class="btn" id="open-cal" aria-haspopup="dialog">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+                Use a calendar
+              </button>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="occasion">What's the occasion? <span class="hint">(optional)</span></label>
+            <p class="hint" id="occasion-hint">Finish the sentence: “days since…” or “days until…”. For example: I was born, my first kiss, I graduate.</p>
+            <input type="text" id="occasion" name="occasion" autocomplete="off" maxlength="80" aria-describedby="occasion-hint">
+          </div>
+
+          <div><button type="submit" class="btn btn-primary">Count the days</button></div>
+        </div>
+      </form>
+
+      <div class="quick">
+        <h2 class="label" id="quick-label" style="font-family:var(--font-body);font-size:1rem">Or try one of these</h2>
+        <ul aria-labelledby="quick-label">
+          <li><button type="button" class="chip" data-quick="christmas">Christmas</button></li>
+          <li><button type="button" class="chip" data-quick="newyear">New Year's Day</button></li>
+          <li><button type="button" class="chip" data-quick="leap">The next leap day</button></li>
+          <li><button type="button" class="chip" data-quick="moon">The Moon landing <small>1969</small></button></li>
+          <li><button type="button" class="chip" data-quick="y2k">The millennium <small>2000</small></button></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <section id="result" aria-labelledby="result-heading">
+    <div class="result-top">
+      <span class="tag" id="result-tag" aria-hidden="true">Until</span>
+      <span class="tag example" id="result-example">Example</span>
+    </div>
+    <h2 id="result-heading" tabindex="-1"><span class="big" id="r-num">0</span> <span id="r-words">days</span></h2>
+    <p class="span-line" id="r-span"></p>
+    <div class="quip" id="r-quip"></div>
+
+    <div class="ways">
+      <h3>Other ways to count it</h3>
+      <div class="ways-grid">
+        <section class="way" aria-labelledby="exact-h">
+          <h4 id="exact-h">Exact counts</h4>
+          <p>A day is always a day and a week is always 7 days, so these never change meaning.</p>
+          <dl id="r-exact"></dl>
+        </section>
+        <section class="way" aria-labelledby="cal-h">
+          <h4 id="cal-h">Calendar counts</h4>
+          <p>Months run from 28 to 31 days and years from 365 to 366, so these follow the real calendar.</p>
+          <dl id="r-cal"></dl>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" aria-labelledby="about-h">
+    <h2 id="about-h">How it counts</h2>
+    <ul>
+      <li>Everything happens in your browser. Nothing you type is sent anywhere or saved.</li>
+      <li>“Today” comes from your device's clock and time zone.</li>
+      <li>Days are counted as whole calendar dates, midnight to midnight, so a daylight-saving change never adds or loses a day.</li>
+      <li>Leap years follow the Gregorian rules: every 4 years, except centuries, except every 400 years. So 2000 was a leap year and 2100 won't be.</li>
+      <li>Any year from 1000 to 9999 works.</li>
+    </ul>
+    <p>Since or Until? is by Charlotte Joanne at <a href="./">Blind Ant</a>, shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>.</p>
+  </section>
+
+  <div id="announce" class="visually-hidden" aria-live="polite"></div>
+</div>
+
+<dialog id="cal-dialog" aria-labelledby="cal-title">
+  <div class="cal">
+    <h2 id="cal-title">Choose a date</h2>
+    <div class="cal-controls">
+      <button type="button" class="icon-btn" id="prev-month" aria-label="Previous month">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div class="field">
+        <label for="cal-month">Month</label>
+        <select id="cal-month"></select>
+      </div>
+      <div class="field">
+        <label for="cal-year">Year</label>
+        <input type="text" id="cal-year" inputmode="numeric" maxlength="4" autocomplete="off" aria-describedby="cal-year-hint">
+      </div>
+      <button type="button" class="icon-btn" id="next-month" aria-label="Next month">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+    <p class="visually-hidden" id="cal-year-hint">Type a 4-digit year to jump straight to it.</p>
+    <div class="cal-jumps">
+      <button type="button" class="btn" data-jump="-10">10 years back</button>
+      <button type="button" class="btn" data-jump="10">10 years forward</button>
+      <button type="button" class="btn" id="cal-today">Today</button>
+    </div>
+    <table class="grid" role="grid" id="cal-grid" aria-labelledby="cal-caption" aria-describedby="cal-keys">
+      <caption id="cal-caption"></caption>
+      <thead>
+        <tr>
+          <th scope="col"><abbr title="Monday">Mo</abbr></th>
+          <th scope="col"><abbr title="Tuesday">Tu</abbr></th>
+          <th scope="col"><abbr title="Wednesday">We</abbr></th>
+          <th scope="col"><abbr title="Thursday">Th</abbr></th>
+          <th scope="col"><abbr title="Friday">Fr</abbr></th>
+          <th scope="col"><abbr title="Saturday">Sa</abbr></th>
+          <th scope="col"><abbr title="Sunday">Su</abbr></th>
+        </tr>
+      </thead>
+      <tbody id="cal-body"></tbody>
+    </table>
+    <p class="keys" id="cal-keys">Arrow keys move by day and week. Page Up and Page Down change the month; hold Shift to change the year. Home and End go to the start or end of the week. Enter picks the date.</p>
+    <div class="cal-foot">
+      <button type="button" class="btn" id="cal-cancel">Cancel</button>
+    </div>
+    <div id="cal-announce" class="visually-hidden" aria-live="polite"></div>
+  </div>
+</dialog>
+
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const MIN_YEAR = 1000, MAX_YEAR = 9999;
+
+  // ---- Date maths on whole calendar dates (no Date objects, so no time zones or DST) ----
+  // Day numbers count days since 1 January 1970 in the proleptic Gregorian calendar.
+  function dayNumber(y, m, d) {
+    y -= m <= 2 ? 1 : 0;
+    const era = Math.floor(y / 400);
+    const yoe = y - era * 400;
+    const mp = (m + 9) % 12;
+    const doy = Math.floor((153 * mp + 2) / 5) + d - 1;
+    const doe = yoe * 365 + Math.floor(yoe / 4) - Math.floor(yoe / 100) + doy;
+    return era * 146097 + doe - 719468;
+  }
+  function fromDayNumber(z) {
+    z += 719468;
+    const era = Math.floor(z / 146097);
+    const doe = z - era * 146097;
+    const yoe = Math.floor((doe - Math.floor(doe / 1460) + Math.floor(doe / 36524) - Math.floor(doe / 146096)) / 365);
+    const doy = doe - (365 * yoe + Math.floor(yoe / 4) - Math.floor(yoe / 100));
+    const mp = Math.floor((5 * doy + 2) / 153);
+    const d = doy - Math.floor((153 * mp + 2) / 5) + 1;
+    const m = mp < 10 ? mp + 3 : mp - 9;
+    return { y: yoe + era * 400 + (m <= 2 ? 1 : 0), m, d };
+  }
+  const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
+  const daysInMonth = (y, m) => [31, isLeap(y) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][m - 1];
+  const weekday = z => (((z % 7) + 7 + 4) % 7); // 0 = Sunday; 1 Jan 1970 was a Thursday
+  function today() {
+    const now = new Date();
+    return dayNumber(now.getFullYear(), now.getMonth() + 1, now.getDate());
+  }
+  function addMonths(date, k) {
+    const total = date.y * 12 + (date.m - 1) + k;
+    const y = Math.floor(total / 12), m = total - y * 12 + 1;
+    return { y, m, d: Math.min(date.d, daysInMonth(y, m)) };
+  }
+  // Whole months from a to b (a <= b), then the leftover days. Short months clamp, so 31 Jan + 1 month = 28 or 29 Feb.
+  function calendarDiff(lo, hi) {
+    const a = fromDayNumber(lo), b = fromDayNumber(hi);
+    let months = (b.y - a.y) * 12 + (b.m - a.m);
+    const at = k => { const r = addMonths(a, k); return dayNumber(r.y, r.m, r.d); };
+    while (months > 0 && at(months) > hi) months--;
+    while (at(months + 1) <= hi) months++;
+    return { months, days: hi - at(months) };
+  }
+  // How many of a given weekday fall in the dates after lo, up to and including hi
+  function countWeekday(lo, hi, wd) {
+    const n = hi - lo;
+    if (n <= 0) return 0;
+    return Math.floor(n / 7) + (((wd - weekday(lo + 1) + 7) % 7) < n % 7 ? 1 : 0);
+  }
+  function countLeapDays(lo, hi) {
+    const a = fromDayNumber(lo).y, b = fromDayNumber(hi).y;
+    let n = 0;
+    for (let y = a; y <= b; y++) {
+      if (!isLeap(y)) continue;
+      const z = dayNumber(y, 2, 29);
+      if (z > lo && z <= hi) n++;
+    }
+    return n;
+  }
+
+  // ---- Words ----
+  const num = n => n.toLocaleString('en-GB');
+  const plural = (n, word) => `${num(n)} ${word}${n === 1 ? '' : 's'}`;
+  function fmt(z) {
+    const { y, m, d } = fromDayNumber(z);
+    return `${WEEKDAYS[weekday(z)]} ${d} ${MONTHS[m - 1]} ${y}`;
+  }
+  function andList(parts) {
+    parts = parts.filter(Boolean);
+    if (parts.length < 2) return parts[0] || '';
+    return parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1];
+  }
+  function ymd(months, days) {
+    const y = Math.floor(months / 12), m = months % 12;
+    const parts = [y && plural(y, 'year'), m && plural(m, 'month'), days && plural(days, 'day')];
+    return andList(parts) || '0 days';
+  }
+
+  function quips(dir, n, t, z) {
+    const out = [];
+    if (dir === 'today') {
+      out.push('Since or until? Both, sort of. Make it count.');
+      return out;
+    }
+    if (n === 1) out.push(dir === 'since' ? 'Yesterday. Still warm.' : 'Tomorrow. One more sleep.');
+    else if (n < 7) out.push(dir === 'since' ? 'Less than a week ago. Not quite history yet.' : 'Less than a week to go. Start getting excited.');
+    else {
+      const lo = Math.min(t, z), hi = Math.max(t, z);
+      const tues = countWeekday(lo, hi, 2);
+      let line = tues === 1 ? 'That includes one Tuesday.' : `That includes ${num(tues)} Tuesdays.`;
+      if (n >= 3650) line += ' That’s quite a lot of Tuesdays.';
+      out.push(line);
+    }
+    if (n >= 36525) out.push('More than a century. Somebody fetch a cake.');
+    else if (n >= 10000) out.push('Five digits. That’s a proper number.');
+    if (n >= 100 && n % 1000 === 0) out.push('A perfectly round number. Enjoy it while it lasts.');
+    if (dir === 'since' && n >= 100) {
+      const step = n >= 1000 ? 1000 : 100;
+      const next = (Math.floor(n / step) + 1) * step;
+      const when = t + (next - n);
+      if (fromDayNumber(when).y <= MAX_YEAR) out.push(`The ${num(next)}-day mark arrives on ${fmt(when)}.`);
+    }
+    if (dir === 'until' && n >= 4) out.push(`You'll be halfway there on ${fmt(t + Math.floor(n / 2))}.`);
+    return out;
+  }
+
+  // ---- Form ----
+  const dayIn = $('day'), monthIn = $('month'), yearIn = $('year'), occasionIn = $('occasion');
+
+  function parseMonth(s) {
+    s = s.trim().toLowerCase().replace(/\.$/, '');
+    if (/^\d{1,2}$/.test(s)) { const m = +s; return m >= 1 && m <= 12 ? m : NaN; }
+    if (s.length < 3) return NaN;
+    const i = MONTHS.findIndex(name => name.toLowerCase().startsWith(s));
+    return i === -1 ? NaN : i + 1;
+  }
+
+  function readDate() {
+    const ds = dayIn.value.trim(), ms = monthIn.value.trim(), ys = yearIn.value.trim();
+    if (!ds && !ms && !ys) return { error: 'Enter a date, for example 25 12 2026.', fields: [dayIn] };
+    const missing = [];
+    if (!ds) missing.push(['day', dayIn]);
+    if (!ms) missing.push(['month', monthIn]);
+    if (!ys) missing.push(['year', yearIn]);
+    if (missing.length) {
+      return { error: `The date needs a ${andList(missing.map(x => x[0]))}.`, fields: missing.map(x => x[1]) };
+    }
+    if (!/^\d{1,2}$/.test(ds) || +ds < 1 || +ds > 31) return { error: 'Day must be a number from 1 to 31.', fields: [dayIn] };
+    const m = parseMonth(ms);
+    if (isNaN(m)) return { error: 'Month must be a number from 1 to 12, or a name like March or Mar.', fields: [monthIn] };
+    if (!/^\d{4}$/.test(ys)) return { error: 'Year must have 4 digits, like 1987 or 2031.', fields: [yearIn] };
+    const y = +ys, d = +ds;
+    if (y < MIN_YEAR) return { error: `Year must be ${MIN_YEAR} or later.`, fields: [yearIn] };
+    const dim = daysInMonth(y, m);
+    if (d > dim) {
+      const extra = m === 2 && d === 29 ? ` ${y} isn't a leap year.` : '';
+      return { error: `${MONTHS[m - 1]} ${y} only has ${dim} days.${extra}`, fields: [dayIn] };
+    }
+    return { z: dayNumber(y, m, d) };
+  }
+
+  function clearErrors() {
+    $('error-summary').hidden = true;
+    $('date-error').hidden = true;
+    $('date-group').setAttribute('aria-describedby', 'date-hint');
+    [dayIn, monthIn, yearIn].forEach(el => { el.removeAttribute('aria-invalid'); el.removeAttribute('aria-describedby'); });
+  }
+  function showError(res) {
+    clearErrors();
+    const msg = $('date-error');
+    msg.textContent = res.error;
+    msg.hidden = false;
+    $('date-group').setAttribute('aria-describedby', 'date-hint date-error');
+    res.fields.forEach(el => { el.setAttribute('aria-invalid', 'true'); el.setAttribute('aria-describedby', 'date-error'); });
+    const link = $('error-summary-link');
+    link.textContent = res.error;
+    link.href = '#' + res.fields[0].id;
+    link.onclick = e => { e.preventDefault(); res.fields[0].focus(); };
+    const summary = $('error-summary');
+    summary.hidden = false;
+    summary.focus();
+  }
+
+  function setFields(z) {
+    const { y, m, d } = fromDayNumber(z);
+    dayIn.value = d; monthIn.value = m; yearIn.value = y;
+  }
+
+  function cleanOccasion(s) { return s.trim().replace(/[.!?\s]+$/, ''); }
+
+  function render(z, { example = false, focus = true } = {}) {
+    const t = today();
+    const diff = z - t, n = Math.abs(diff);
+    const dir = diff > 0 ? 'until' : diff < 0 ? 'since' : 'today';
+    const label = cleanOccasion(occasionIn.value);
+
+    $('result-tag').textContent = dir === 'today' ? 'Today' : dir === 'since' ? 'Since' : 'Until';
+    $('result-example').hidden = !example;
+    $('r-num').textContent = num(n);
+    const unit = n === 1 ? 'day' : 'days';
+    if (dir === 'today') $('r-words').textContent = `${unit}. It's today${label ? ': ' + label : ''}!`;
+    else if (dir === 'since') $('r-words').textContent = `${unit} since ${label || 'that happened'}.`;
+    else $('r-words').textContent = `${unit} until ${label || 'the big day'}.`;
+
+    $('r-span').textContent = dir === 'today' ? `Today is ${fmt(t)}.`
+      : dir === 'since' ? `From ${fmt(z)} to today, ${fmt(t)}.`
+      : `From today, ${fmt(t)}, to ${fmt(z)}.`;
+
+    const quip = $('r-quip');
+    quip.replaceChildren(...quips(dir, n, t, z).map(s => { const p = document.createElement('p'); p.textContent = s; return p; }));
+
+    const lo = Math.min(t, z), hi = Math.max(t, z);
+    const weeks = Math.floor(n / 7), rem = n % 7;
+    const cd = calendarDiff(lo, hi);
+    const leap = countLeapDays(lo, hi);
+    fillList($('r-exact'), [
+      ['Days', plural(n, 'day')],
+      ['Weeks', rem ? `${plural(weeks, 'week')} and ${plural(rem, 'day')}` : plural(weeks, 'week')],
+      ['Leap days along the way', leap ? `${num(leap)} (each one counted)` : 'None'],
+    ]);
+    fillList($('r-cal'), [
+      ['Years, months and days', ymd(cd.months, cd.days)],
+      ['Months and days', andList([cd.months && plural(cd.months, 'month'), cd.days && plural(cd.days, 'day')]) || '0 days'],
+      ['As years, roughly', `About ${(n / 365.2425).toLocaleString('en-GB', { maximumFractionDigits: 1 })} years (using the average year of 365.2425 days)`],
+    ]);
+
+    const res = $('result');
+    res.classList.remove('flip'); void res.offsetWidth; res.classList.add('flip');
+    if (focus) $('result-heading').focus();
+  }
+  function fillList(dl, rows) {
+    dl.replaceChildren(...rows.flatMap(([k, v]) => {
+      const dt = document.createElement('dt'); dt.textContent = k;
+      const dd = document.createElement('dd'); dd.textContent = v;
+      return [dt, dd];
+    }));
+  }
+
+  $('form').addEventListener('submit', e => {
+    e.preventDefault();
+    const res = readDate();
+    if (res.error) { showError(res); return; }
+    clearErrors();
+    render(res.z);
+  });
+
+  // ---- Quick picks ----
+  function nextOccurrence(m, d) {
+    const t = today(), y = fromDayNumber(t).y;
+    const z = dayNumber(y, m, d);
+    return z >= t ? z : dayNumber(y + 1, m, d);
+  }
+  function nextLeapDay() {
+    const t = today();
+    for (let y = fromDayNumber(t).y; ; y++) {
+      if (isLeap(y) && dayNumber(y, 2, 29) >= t) return dayNumber(y, 2, 29);
+    }
+  }
+  const QUICK = {
+    christmas: () => [nextOccurrence(12, 25), 'Christmas'],
+    newyear: () => [nextOccurrence(1, 1), 'New Year’s Day'],
+    leap: () => [nextLeapDay(), 'the next leap day'],
+    moon: () => [dayNumber(1969, 7, 20), 'people first walked on the Moon'],
+    y2k: () => [dayNumber(2000, 1, 1), 'the millennium'],
+  };
+  document.querySelectorAll('[data-quick]').forEach(btn => btn.addEventListener('click', () => {
+    const [z, label] = QUICK[btn.dataset.quick]();
+    setFields(z);
+    occasionIn.value = label;
+    clearErrors();
+    render(z);
+  }));
+
+  // ---- Calendar dialog ----
+  const dialog = $('cal-dialog'), body = $('cal-body'), calMonth = $('cal-month'), calYear = $('cal-year');
+  let focusZ = today(), selectedZ = null;
+  MONTHS.forEach((name, i) => calMonth.add(new Option(name, i + 1)));
+
+  const clampZ = z => Math.min(dayNumber(MAX_YEAR, 12, 31), Math.max(dayNumber(MIN_YEAR, 1, 1), z));
+
+  function drawCalendar(moveFocus) {
+    const { y, m } = fromDayNumber(focusZ);
+    const t = today();
+    calMonth.value = m;
+    if (document.activeElement !== calYear) calYear.value = y;
+    $('cal-caption').textContent = `${MONTHS[m - 1]} ${y}`;
+    const first = dayNumber(y, m, 1);
+    const lead = (weekday(first) + 6) % 7; // Monday first
+    const dim = daysInMonth(y, m);
+    body.replaceChildren();
+    let row = null;
+    for (let i = 0; i < lead + dim; i++) {
+      if (i % 7 === 0) { row = document.createElement('tr'); body.append(row); }
+      const td = document.createElement('td');
+      td.setAttribute('role', 'gridcell');
+      if (i >= lead) {
+        const z = first + i - lead;
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'day';
+        b.textContent = i - lead + 1;
+        b.dataset.z = z;
+        b.tabIndex = z === focusZ ? 0 : -1;
+        let name = fmt(z);
+        if (z === selectedZ) { b.classList.add('selected'); name += ', selected'; td.setAttribute('aria-selected', 'true'); }
+        if (z === t) b.setAttribute('aria-current', 'date');
+        b.setAttribute('aria-label', name);
+        td.append(b);
+      }
+      row.append(td);
+    }
+    while (row.children.length < 7) {
+      const td = document.createElement('td');
+      td.setAttribute('role', 'gridcell');
+      row.append(td);
+    }
+    if (moveFocus) body.querySelector(`[data-z="${focusZ}"]`).focus();
+  }
+
+  function goTo(z, { moveFocus = false, announce = false } = {}) {
+    focusZ = clampZ(z);
+    drawCalendar(moveFocus);
+    if (announce) $('cal-announce').textContent = $('cal-caption').textContent;
+  }
+  function shiftMonths(k, opts) {
+    const r = addMonths(fromDayNumber(focusZ), k);
+    if (r.y < MIN_YEAR || r.y > MAX_YEAR) return;
+    goTo(dayNumber(r.y, r.m, r.d), opts);
+  }
+
+  $('open-cal').addEventListener('click', () => {
+    const res = readDate();
+    selectedZ = res.error ? null : res.z;
+    focusZ = selectedZ ?? today();
+    $('cal-announce').textContent = '';
+    drawCalendar(false);
+    dialog.showModal();
+    body.querySelector(`[data-z="${focusZ}"]`).focus();
+  });
+  dialog.addEventListener('close', () => $('open-cal').focus());
+  $('cal-cancel').addEventListener('click', () => dialog.close());
+  $('prev-month').addEventListener('click', () => shiftMonths(-1, { announce: true }));
+  $('next-month').addEventListener('click', () => shiftMonths(1, { announce: true }));
+  $('cal-today').addEventListener('click', () => goTo(today(), { moveFocus: true }));
+  document.querySelectorAll('[data-jump]').forEach(b => b.addEventListener('click', () => shiftMonths(12 * +b.dataset.jump, { announce: true })));
+  calMonth.addEventListener('change', () => {
+    const { y, d } = fromDayNumber(focusZ), m = +calMonth.value;
+    goTo(dayNumber(y, m, Math.min(d, daysInMonth(y, m))), { announce: true });
+  });
+  calYear.addEventListener('input', () => {
+    if (!/^\d{4}$/.test(calYear.value)) return;
+    const y = +calYear.value;
+    if (y < MIN_YEAR || y > MAX_YEAR) return;
+    const { m, d } = fromDayNumber(focusZ);
+    goTo(dayNumber(y, m, Math.min(d, daysInMonth(y, m))), { announce: true });
+  });
+  calYear.addEventListener('blur', () => { calYear.value = fromDayNumber(focusZ).y; });
+
+  body.addEventListener('click', e => {
+    const b = e.target.closest('.day');
+    if (!b) return;
+    const z = +b.dataset.z;
+    setFields(z);
+    clearErrors();
+    dialog.close();
+    $('announce').textContent = `Date set to ${fmt(z)}.`;
+  });
+  body.addEventListener('keydown', e => {
+    if (!e.target.closest('.day')) return;
+    const z = focusZ, wd = (weekday(z) + 6) % 7;
+    let handled = true;
+    switch (e.key) {
+      case 'ArrowLeft': goTo(z - 1, { moveFocus: true }); break;
+      case 'ArrowRight': goTo(z + 1, { moveFocus: true }); break;
+      case 'ArrowUp': goTo(z - 7, { moveFocus: true }); break;
+      case 'ArrowDown': goTo(z + 7, { moveFocus: true }); break;
+      case 'Home': goTo(z - wd, { moveFocus: true }); break;
+      case 'End': goTo(z + (6 - wd), { moveFocus: true }); break;
+      case 'PageUp': shiftMonths(e.shiftKey ? -12 : -1, { moveFocus: true }); break;
+      case 'PageDown': shiftMonths(e.shiftKey ? 12 : 1, { moveFocus: true }); break;
+      default: handled = false;
+    }
+    if (handled) e.preventDefault();
+  });
+  body.addEventListener('focusin', e => {
+    const b = e.target.closest('.day');
+    if (!b || +b.dataset.z === focusZ) return;
+    body.querySelectorAll('.day').forEach(x => x.tabIndex = -1);
+    b.tabIndex = 0;
+    focusZ = +b.dataset.z;
+  });
+
+  // Open with a worked example so the page shows what it does
+  const xmas = nextOccurrence(12, 25);
+  setFields(xmas);
+  occasionIn.value = 'Christmas';
+  render(xmas, { example: true, focus: false });
+
+  window.__sinceOrUntil = { dayNumber, fromDayNumber, calendarDiff, countWeekday, countLeapDays, weekday, parseMonth };
+})();
+</script>
