@@ -19,7 +19,7 @@ How many days since I got married? How many days until Christmas? How long since
 
 The application gives you the answer, along with a few things you might not have thought to ask.
 
-For example, I entered 20 October 2000, the day I got married.
+For example, I entered the date I got married.
 
 It told me that 9,504 days had passed, including 1,358 Tuesdays.
 
@@ -63,7 +63,7 @@ Looking inside the code, I can see that Claude has built a proper modal dialog. 
 
 Each date has an accessible name, not merely a number.
 
-Instead of hearing "20", a screen-reader user can encounter "Friday 20 October 2000".
+Instead of hearing "25", a screen-reader user can encounter "Friday 25 December 2026".
 
 Arrow keys move between dates. Page Up and Page Down change months. Hold Shift and those keys change years.
 
