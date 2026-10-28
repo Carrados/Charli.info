@@ -79,13 +79,13 @@ None of this is especially glamorous. But it is the difference between a calenda
 
 The first version had an issue.
 
-I had entered a date and obtained a perfectly sensible result, but the interface was still showing an error message: "That date needs a quick fix."
+I had entered a date and obtained a perfectly sensible result, but the interface was still showing an error message: "That date needs a quick fix." Under it was a link with no words, only an address.
 
-It was a state-management problem, not a problem with counting days.
+It was a display problem, not a problem with counting days.
 
-The application needed to ensure that an old validation error disappeared when a valid date was selected.
+The error box was meant to stay hidden until something actually went wrong. Opened on its own from my Downloads folder, the file was missing the rule that hid it, so the box was there from the start. The page also didn't say what language it was in.
 
-That issue prompted a correction, and this is version 1.1.
+That issue prompted a correction, and this is version 2.
 
 The underlying design includes a rather thoughtful error-handling system.
 
@@ -133,7 +133,7 @@ And can they do so without unnecessary effort?
 
 Those are the questions that matter.
 
-Looking inside version 1.1, I can see deliberate support for keyboard navigation, focus management, semantic controls, error recovery and screen-reader announcements.
+Looking inside version 2, I can see deliberate support for keyboard navigation, focus management, semantic controls, error recovery and screen-reader announcements.
 
 That is a strong starting point. It is not a substitute for testing with actual assistive technology and actual users.
 
@@ -217,4 +217,4 @@ Tomorrow? Well, that's rather the point of Since or Until?.
 
 Every day counts.
 
-*Charli-Jo Tyrer (Charli) works on AI, accessibility and human–AI collaboration through Carrados. Since or Until? is a Blind Ant experiment, created with Claude Code. Version 1.1, October 2026. [Blind Ant](https://blind-ant.com/).*
+*Charli-Jo Tyrer (Charli) works on AI, accessibility and human–AI collaboration through Carrados. Since or Until? is a Blind Ant experiment, created with Claude Code. Version 2, October 2026. [Blind Ant](https://blind-ant.com/).*
