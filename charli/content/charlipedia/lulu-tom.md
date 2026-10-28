@@ -47,9 +47,7 @@ The identity combines the architectural character of the monogram with the restr
 
 ## Connections within the CharliVerse
 
-LULU TOM supplies clothing to figures across the CharliVerse, including original designs associated with [Alex](/charlipedia/alex/).
-
-The house also has a connection to Piper Smith and Leah Jones. Piper's time in Italy provides the explanation for her acquaintance with Ludovica Tommasi, while Leah wore an original LULU TOM wedding gown at their wedding.
+LULU TOM supplies clothing to figures across the CharliVerse, including original designs associated with [Charlotte Joanne](/charlipedia/charlotte-joanne/) and [Alex](/charlipedia/alex/).
 
 ## Behind the scenes
 
@@ -57,7 +55,7 @@ LULU TOM is a fictional Italian fashion house within the CharliVerse. It belongs
 
 Its principal designer, Ludovica Tommasi, was established as part of the development of [Iceberg Hosiery](/charlipedia/iceberg-hosiery/) and its associated fashion world.
 
-The house's LT monogram was designed by [Charlotte Joanne](/charlipedia/charlotte-joanne/) in October 2026. She has been totally blind since December 1985. She specified the precise geometric relationship between the letters L and T, including the position of the T within the L and the gap separating their horizontal and vertical elements. Original designs by the house are also associated with her.
+The house's LT monogram was designed by [Charlotte Joanne](/charlipedia/charlotte-joanne/) in October 2026. She has been totally blind since 1985. She specified the precise geometric relationship between the letters L and T, including the position of the T within the L and the gap separating their horizontal and vertical elements.
 
 AI was used to translate the design into SVG vector code and to advise on the selection of an Italian-inspired blue. The picture on this page is that SVG, unaltered.
 
