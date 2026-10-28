@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655 837" width="655" height="837" role="img" aria-labelledby="lt-title lt-desc">
+  <title id="lt-title">LULU TOM</title>
+  <desc id="lt-desc">The LULU TOM monogram: a bold geometric L whose foot runs the full width, with a T sitting inside it, in midnight blue on cream, above the wordmark LULU TOM in spaced capitals.</desc>
+  <rect width="655" height="837" rx="8" fill="#F6F1E3"/>
+  <g fill="#16203B">
+    <rect x="164" y="195" width="47" height="328"/>
+    <rect x="164" y="475" width="328" height="48"/>
+    <rect x="252" y="195" width="240" height="47"/>
+    <rect x="348" y="195" width="47" height="240"/>
+  </g>
+  <g fill="none" stroke="#16203B" stroke-width="3.6" stroke-linejoin="miter">
+    <path d="M210 608 V629.2 H222"/>
+    <path d="M239 608 V624 a5 5 0 0 0 10 0 V608"/>
+    <path d="M273 608 V629.2 H284"/>
+    <path d="M301 608 V624 a5 5 0 0 0 10 0 V608"/>
+    <path d="M355 609.8 H372 M363.5 609.8 V631"/>
+    <circle cx="396.5" cy="619.5" r="9.7"/>
+    <path d="M426 631 V610 L437 627 L448 610 V631"/>
+  </g>
+</svg>
