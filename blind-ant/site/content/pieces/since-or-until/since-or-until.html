@@ -126,6 +126,7 @@ h1 .or { color: var(--accent); }
 fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 legend { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; padding: 0; margin-bottom: .25rem; }
 .hint { color: var(--ink-soft); font-size: 1rem; }
+.legend-hint { display: block; font-family: var(--font-body); font-weight: 400; margin-top: .25rem; }
 .date-row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin-top: .75rem; }
 .field { display: grid; gap: .25rem; }
 .field label, .label { font-weight: 700; }
@@ -297,8 +298,7 @@ table.grid td { padding: 2px; text-align: center; }
       <form id="form" novalidate>
         <div style="display:grid;gap:1.5rem">
           <fieldset id="date-group">
-            <legend>Which date?<span class="visually-hidden"> Type it in, for example 25 12 2026. Month can be a number or a name.</span></legend>
-            <p class="hint" id="date-hint" aria-hidden="true">Type it in, for example 25 12 2026. Month can be a number or a name.</p>
+            <legend>Which date? <span class="hint legend-hint" id="date-hint">Type it in, for example 25 12 2026. Month can be a number or a name.</span></legend>
             <p class="error-msg" id="date-error" hidden></p>
             <div class="date-row">
               <div class="field">
