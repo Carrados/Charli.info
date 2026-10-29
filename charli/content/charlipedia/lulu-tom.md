@@ -59,6 +59,6 @@ The house's LT monogram was designed by [Charlotte Joanne](/charlipedia/charlott
 
 AI was used to translate the design into SVG vector code and to advise on the selection of an Italian-inspired blue. The picture on this page is that SVG, unaltered.
 
-The design became the subject of [The Persistence of Vision](https://carrados.com/reports/the-persistence-of-vision/), a reflection on visual imagination, authorship and the distinction between making visual decisions and physically seeing an image.
+The design became the subject of [The Persistence of Vision](https://carrados.com/blind-ai/the-persistence-of-vision/), a reflection on visual imagination, authorship and the distinction between making visual decisions and physically seeing an image.
 
 The monogram is an example of the approach explored through [Blind Drawing School](/charlipedia/blind-drawing-school/): visual design undertaken through geometry, code, description and feedback, without requiring the designer to see the finished work.

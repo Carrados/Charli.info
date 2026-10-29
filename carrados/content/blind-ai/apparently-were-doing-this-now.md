@@ -1,6 +1,7 @@
 ---
 title: "A totally blind artist made their song accessible to deaf people. Apparently, we’re doing this now."
 description: A totally blind artist adds readable lyrics and a timed-caption player to their song, with AI agents handling the implementation and caption timing still to be checked.
+desk: charli
 date: 2026-10-26
 time: "14:22"
 byline: Charli-Jo Tyrer

@@ -68,7 +68,7 @@ dice belongs at the table at the café of the [Museum of Access and Assistive Te
 
 ## Reports
 
-Her first report, filed on 22 September 2026, was "[Please state the nature of the accessibility emergency](https://carrados.com/reports/please-state-the-nature-of-the-accessibility-emergency/)". She was round at [Charlotte Joanne](/charlipedia/charlotte-joanne/)'s, where people drop in when the Blind Ant woman is trying something new, and watched an AI agent unsubscribe her from Instagram's emails across two ordinary questions, then check it had finished. Whether it lasts until an ordinary Tuesday six weeks later is the part she'll come back for.
+Her first report, filed on 22 September 2026, was "[Please state the nature of the accessibility emergency](https://carrados.com/blind-ai/please-state-the-nature-of-the-accessibility-emergency/)". She was round at [Charlotte Joanne](/charlipedia/charlotte-joanne/)'s, where people drop in when the Blind Ant woman is trying something new, and watched an AI agent unsubscribe her from Instagram's emails across two ordinary questions, then check it had finished. Whether it lasts until an ordinary Tuesday six weeks later is the part she'll come back for.
 
 ## Not yet known
 

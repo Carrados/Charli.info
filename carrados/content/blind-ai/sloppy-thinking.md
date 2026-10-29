@@ -1,6 +1,8 @@
 ---
 title: Sloppy thinking
 description: A definition for the reflex that dismisses AI-assisted work out of hand, and a badge to download, print and cut out for labelling it.
+desk: charli
+byline: Charli-Jo Tyrer
 date: 2026-10-25
 time: "11:40"
 ---

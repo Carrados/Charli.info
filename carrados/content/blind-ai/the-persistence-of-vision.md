@@ -1,6 +1,8 @@
 ---
 title: The Persistence of Vision
 description: A blind designer explains how they made a monogram for a fictional Italian fashion house, by designing it in geometry and code and checking the result through descriptions.
+desk: charli
+byline: Charli-Jo Tyrer
 date: 2026-10-28
 ---
 

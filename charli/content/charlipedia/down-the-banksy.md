@@ -31,7 +31,7 @@ She invoices both columns and paints whichever one the powerful refused to read.
 
 The evidence has to hold. Public force does not excuse an unsupported accusation. A slogan must carry the argument without turning it into permission to ignore the people on the other side of the bill.
 
-She put the method to work on the Peak Cluster carbon capture pipeline, whose coastal plant would land on the Wirral, in [Price both columns: Peak Cluster, Wirral, and the invoice nobody wants to read](https://carrados.com/reports/price-both-columns-peak-cluster/), for Carrados.
+She put the method to work on the Peak Cluster carbon capture pipeline, whose coastal plant would land on the Wirral, in [Price both columns: Peak Cluster, Wirral, and the invoice nobody wants to read](https://carrados.com/blind-ai/price-both-columns-peak-cluster/), for Carrados.
 
 ## The shirt knows
 

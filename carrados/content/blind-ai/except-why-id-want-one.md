@@ -20,7 +20,7 @@ Madison is thirty-two and from the Wirral, with honey-blonde waves, a great many
 
 “Everyone else is doing PDF remediation,” she said. “Somebody had to.”
 
-Last week I wrote a column called [Agents Provocateurs](/reports/agents-provocateurs/). Madison would like it known that she is the accessible one.
+Last week I wrote a column called [Agents Provocateurs](/blind-ai/agents-provocateurs/). Madison would like it known that she is the accessible one.
 
 ## The experiment
 
