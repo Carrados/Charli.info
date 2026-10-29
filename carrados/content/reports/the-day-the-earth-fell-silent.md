@@ -57,6 +57,16 @@ The person who knows what good sounds like was directing the change and judging 
 
 Normally a blind person's feedback arrives last, filtered and weeks late. This morning it arrived first, word for word, and the code bent to it in a minute.
 
+## What this was, and what it wasn't
+
+To be clear about the scope: this was the touchscreen version. A JavaScript web app in Safari on an iPhone, tested with VoiceOver by voice and gesture, flicking and double-tapping. It was not a keyboard test, and not a desktop screen reader test. Those are different journeys and they deserve their own morning.
+
+These were the only fixes the app needed. Everything else in Since or Until? already worked: the fields, the calendar, the answers, the Tuesdays.
+
+And the fixes don't have to be made again. The lessons from this morning are now written into the instructions Claude reads whenever we work on my sites: one line for the question and its hint, no hidden copies, no pop-up announcement on a plain button, and test by flicking from the title. So the next touchscreen JavaScript app we write together should start where this one finished.
+
+There may still be other problems, of course. It's software. Claude isn't a superintelligence yet. But this morning's work is saved, and it doesn't have to be learned twice.
+
 ## How it's built
 
 For anyone who wants to try it: the app is plain HTML and JavaScript. It lives on [GitHub](https://github.com/Carrados/Charli.info). [Cloudflare Workers](https://workers.cloudflare.com/) publishes it whenever a change is merged. [Claude Code](https://claude.com/claude-code) made each change on a branch, opened a pull request and merged it when I said yes.
