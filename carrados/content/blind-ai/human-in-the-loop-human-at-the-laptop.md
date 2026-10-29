@@ -39,7 +39,7 @@ This is what human oversight looks like when it works. The human doesn't have to
 
 And the agent has to be willing to discover that its own tests were inadequate.
 
-[Human in the loop? Human in bed.](/reports/human-in-the-loop-human-in-bed/)
+[Human in the loop? Human in bed.](/blind-ai/human-in-the-loop-human-in-bed/)
 
 Human at the laptop.
 

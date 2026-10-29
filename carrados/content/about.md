@@ -11,7 +11,7 @@ Their accessibility work draws on almost four decades of lived experience with a
 
 Charli-Jo Tyrer (they/them) founded Carrados and is its principal practitioner. Charli-Jo writes both design fiction and design non-fiction. Their design fiction is published by [Blind Ant](https://blind-ant.com/), under the pen name Charlotte Joanne: invented things that tell the truth. Carrados publishes their design non-fiction: true things, sometimes told through invented voices. Its work makes claims about reality, uses evidence, and is accountable for those claims.
 
-Charli-Jo speaks as Carrados. Some reports are filed by characters who speak for Carrados: dice, a temporal explorer who reports the weather from the parts of the future that have already arrived; Lucy Love-Child, who covers the Agent Wars, agentic accessibility and the emerging agent economy for The Blind AI; and Madison McDonnell, the Access Provocateur, who investigates fashion, desire, persuasion and accessibility.
+Charli-Jo speaks as Carrados, in two registers. [Reports](/reports/), [Papers](/papers/) and [Perspectives](/perspectives/) are the professional work, in their own name. [The Blind AI](/blind-ai/) is the informal blog: Charli-Jo's same-day dispatches at [charli.carrados.com](https://charli.carrados.com/), and the pieces of the characters who speak for Carrados: dice, a temporal explorer who reports the weather from the parts of the future that have already arrived; Lucy Love-Child, who covers the Agent Wars, agentic accessibility and the emerging agent economy for The Blind AI; and Madison McDonnell, the Access Provocateur, who investigates fashion, desire, persuasion and accessibility.
 
 They're fictional. Their work isn't.
 

@@ -8,7 +8,13 @@ const TYPES = {
   docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', pdf: 'application/pdf',
   json: 'application/json; charset=utf-8', js: 'text/javascript; charset=utf-8', vtt: 'text/vtt; charset=utf-8',
 };
-const DESKS = ['lucy', 'madison', 'dice'];
+const DESKS = ['lucy', 'madison', 'dice', 'charli'];
+// Pieces that moved from Reports to The Blind AI on 29 October 2026. Their old addresses forward.
+const MOVED_TO_BLOG = ['please-state-the-nature-of-the-accessibility-emergency', 'already-in-the-game', 'playing-the-game',
+  'a-tale-of-two-emails', 'agents-provocateurs', 'flip-the-ai-toggle-and-feel-righteous', 'except-why-id-want-one',
+  'human-in-the-loop-human-at-the-laptop', 'human-in-the-loop-human-in-bed', 'human-in-the-loop-human-with-the-final-word',
+  'give-it-a-tuesday', 'price-both-columns-peak-cluster', 'the-day-the-earth-fell-silent', 'apparently-were-doing-this-now',
+  'sloppy-thinking', 'the-persistence-of-vision'];
 // Files come from this Worker's own static assets (uploaded with each publish), not from anywhere else.
 const pull = (env, request, path) => env.ASSETS.fetch(new Request(new URL(path, request.url), { headers: request.headers }));
 function respond(r, path, status) {
@@ -37,6 +43,9 @@ export default {
       return Response.redirect('https://zeroinformationcasualty.org' + path + url.search, 301);
     if (path === '/images/zic-v1-5-cover.jpg')
       return Response.redirect('https://zeroinformationcasualty.org/documents/zic-v1-5-cover.jpg' + url.search, 301);
+    const moved = path.match(/^\/reports\/([\w-]+)(\/(?:index\.(?:html|md))?)?$/);
+    if (moved && MOVED_TO_BLOG.includes(moved[1]))
+      return Response.redirect(`https://carrados.com/blind-ai/${moved[1]}${moved[2] || '/'}${url.search}`, 301);
     // Correspondents' desks: lucy.carrados.com opens /desks/lucy/. Pictures and styles are served as usual;
     // any other page link goes to the main site. On the main site, /desks/<name>/ moves to the desk's own address.
     const desk = DESKS.includes(url.hostname.split('.')[0]) ? url.hostname.split('.')[0] : null;

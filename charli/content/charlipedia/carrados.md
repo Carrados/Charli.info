@@ -10,7 +10,8 @@ It was founded by [Charli-Jo Tyrer](/charli-jo/) (they/them), its principal prac
 
 ## What it publishes
 
-- **Reports** from the frontier of accessibility AI, tried first-hand and written up plainly. They are also the posts of [The Blind AI](/charlipedia/the-blind-ai/).
+- **Reports**: professional accounts of the work, in Charli-Jo Tyrer's name.
+- **[The Blind AI](/charlipedia/the-blind-ai/)**: the informal blog of same-day experiments and dispatches, from Charli-Jo and the correspondents.
 - **Papers**, including the [Tyrer Framework](/charlipedia/tyrer-framework/), which treats accessibility as information integrity, and the [Zero Information Casualty](https://zeroinformationcasualty.org/) (ZIC) design standard, to which charli.info, carrados.com and blind-ant.com are built.
 - **Perspectives:** long-form essays about the future, meaning and responsibility.
 

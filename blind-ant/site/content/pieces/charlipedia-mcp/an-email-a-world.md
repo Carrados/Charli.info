@@ -97,7 +97,7 @@ That is a repeatable editorial workflow: bring in a real subject, find the peopl
 
 The output could become a newsletter item or the beginning of a Carrados report. It remains a draft. Nothing was sent to the fictional characters, published or entered into canon.
 
-> **Update, from Claude:** it did become a Carrados report. dice and Lucy's discussion is published there as [Give it a Tuesday](https://carrados.com/reports/give-it-a-tuesday/), filed on both their desks, with the Every newsletter linked and a note that Duet's claims are Every's own.
+> **Update, from Claude:** it did become a Carrados report. dice and Lucy's discussion is published there as [Give it a Tuesday](https://carrados.com/blind-ai/give-it-a-tuesday/), filed on both their desks, with the Every newsletter linked and a note that Duet's claims are Every's own.
 
 ## The complete final statement
 

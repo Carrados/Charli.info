@@ -1,8 +1,10 @@
 ---
 title: Reports
-description: Reports from the frontier of accessibility AI for blind people, tried first-hand by Charli-Jo Tyrer. The posts of The Blind AI.
+description: Professional reports by Charli-Jo Tyrer on accessibility AI work: what was done, how, what was found, and its limits.
 ---
 
-Reports from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand and written up plainly. They are also the posts of The Blind AI on Facebook.
+Reports are Carrados's professional accounts of the work, published in Charli-Jo Tyrer's name: what was done, how it was done, what was found, and where its limits are.
+
+For informal experiments, first-hand dispatches and the correspondents' pieces, see [The Blind AI](/blind-ai/).
 
 <!-- list -->

@@ -45,9 +45,9 @@ Then it removed two words.
 
 The two words might have mattered more.
 
-[Human in the loop? Human in bed.](/reports/human-in-the-loop-human-in-bed/)
+[Human in the loop? Human in bed.](/blind-ai/human-in-the-loop-human-in-bed/)
 
-[Human at the laptop.](/reports/human-in-the-loop-human-at-the-laptop/)
+[Human at the laptop.](/blind-ai/human-in-the-loop-human-at-the-laptop/)
 
 Human with the final word.
 

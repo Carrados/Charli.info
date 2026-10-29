@@ -18,15 +18,19 @@ Carrados approaches accessibility as an engineering discipline rather than a com
 
 New to Carrados? Three ways in, from lightest to deepest:
 
-1. **A report:** [Except Why I’d Want One](/reports/except-why-id-want-one/). Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader.
+1. **A Blind AI post:** [Except Why I’d Want One](/blind-ai/except-why-id-want-one/). Lucy Love-Child meets Madison McDonnell over a five-week experiment that rewrites lingerie emails for a blind reader.
 2. **The idea in plain language:** [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](/papers/classical-and-generative-accessibility/). Why accessibility erodes, and the fork AI puts in front of us.
 3. **The full theory and the standard:** [the Tyrer Framework](/papers/tyrer-framework/), then [the ZIC design standard](https://zeroinformationcasualty.org/) built from it.
 
-The reports are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](/about/) explains how that works.
+Some Blind AI posts are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](/about/) explains how that works.
 
 ## Reports
 
-Dispatches from the frontier of accessibility AI: what AI can actually do for blind people right now, tried first-hand. These are the posts of [The Blind AI](/reports/).
+[Professional accounts of the work](/reports/), in Charli-Jo Tyrer's name: what was done, how, what was found, and its limits.
+
+## The Blind AI
+
+[The informal blog](/blind-ai/): same-day experiments and dispatches from the frontier of accessibility AI, from Charli-Jo and the correspondents dice, Lucy Love-Child and Madison McDonnell.
 
 ## Papers
 

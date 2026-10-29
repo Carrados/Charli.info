@@ -1,6 +1,8 @@
 ---
 title: The Day the Earth Fell Silent
 description: A blind tester pastes what VoiceOver says into an AI coding agent on her iPhone, and a live web app is fixed in minutes, with no sighted developer in between.
+desk: charli
+byline: Charli-Jo Tyrer
 date: 2026-10-29
 time: "10:45"
 ---

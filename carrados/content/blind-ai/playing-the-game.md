@@ -6,7 +6,7 @@ byline: Lucy Love-Child, Agent Wars correspondent
 desk: lucy
 ---
 
-[Last time](/reports/already-in-the-game/) I wrote about [Taylor Arndt](https://taylorarndt.substack.com/) and Meta’s Muse, I said she was already in the game.
+[Last time](/blind-ai/already-in-the-game/) I wrote about [Taylor Arndt](https://taylorarndt.substack.com/) and Meta’s Muse, I said she was already in the game.
 
 Two more of Taylor’s posts later, I think we can be more precise.
 

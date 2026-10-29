@@ -12,4 +12,4 @@ Its Chief Vibe Correspondent is [Eval Noah Curare](/charlipedia/eval-noah-curare
 
 ## Behind the scenes
 
-The Blind AI is real. Its posts are published on Facebook and as the [Reports](https://carrados.com/reports/) of [Carrados](/charlipedia/carrados/), and its logo heads the correspondents' desks. Lucy, who works for it, is a character who speaks for Carrados. Eval Noah is a fictional satirical addition, introduced in the appointment announcement supplied by Charli-Jo Tyrer on 25 October 2026; his reviews parody hype rather than document real product testing.
+The Blind AI is real. Its posts are published on Facebook and as [The Blind AI](https://carrados.com/blind-ai/), the blog of [Carrados](/charlipedia/carrados/), and its logo heads the correspondents' desks. Lucy, who works for it, is a character who speaks for Carrados. Eval Noah is a fictional satirical addition, introduced in the appointment announcement supplied by Charli-Jo Tyrer on 25 October 2026; his reviews parody hype rather than document real product testing.
