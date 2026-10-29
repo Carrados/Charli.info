@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Since or Until?, version 2 (October 2026)
+  Since or Until?, version 3 (October 2026)
   By Charlotte Joanne at Blind Ant. https://blind-ant.com
 
   Everything is calculated in your browser. Nothing you type is sent anywhere or saved.
@@ -34,6 +34,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Since or Until?</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Blind Ant presents Since or Until? Pick any date, past or future, and count the days. Everything is calculated in your browser.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -280,7 +281,7 @@ table.grid td { padding: 2px; text-align: center; }
 
 <div class="wrap">
   <header>
-    <p class="presents"><a href="./">Blind Ant</a> presents</p>
+    <p class="presents">Blind Ant presents</p>
     <h1>Since <span class="or">or</span> Until?</h1>
     <p class="tagline">Pick any date, past or future. <strong>Every day counts.</strong></p>
   </header>
@@ -301,16 +302,16 @@ table.grid td { padding: 2px; text-align: center; }
             <p class="error-msg" id="date-error" hidden></p>
             <div class="date-row">
               <div class="field">
-                <label for="day">Day</label>
-                <input type="text" id="day" name="day" inputmode="numeric" autocomplete="off" maxlength="2" spellcheck="false">
+                <label for="day" id="day-label" aria-hidden="true">Day</label>
+                <input type="text" id="day" name="day" aria-labelledby="day-label" inputmode="numeric" autocomplete="off" maxlength="2" spellcheck="false">
               </div>
               <div class="field">
-                <label for="month">Month</label>
-                <input type="text" id="month" name="month" autocomplete="off" maxlength="9" spellcheck="false">
+                <label for="month" id="month-label" aria-hidden="true">Month</label>
+                <input type="text" id="month" name="month" aria-labelledby="month-label" autocomplete="off" maxlength="9" spellcheck="false">
               </div>
               <div class="field">
-                <label for="year">Year</label>
-                <input type="text" id="year" name="year" inputmode="numeric" autocomplete="off" maxlength="4" spellcheck="false">
+                <label for="year" id="year-label" aria-hidden="true">Year</label>
+                <input type="text" id="year" name="year" aria-labelledby="year-label" inputmode="numeric" autocomplete="off" maxlength="4" spellcheck="false">
               </div>
               <button type="button" class="btn" id="open-cal" aria-haspopup="dialog">
                 <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
@@ -320,9 +321,9 @@ table.grid td { padding: 2px; text-align: center; }
           </fieldset>
 
           <div class="field">
-            <label for="occasion">What's the occasion? <span class="hint">(optional)</span></label>
-            <p class="hint" id="occasion-hint">Finish the sentence: “days since…” or “days until…”. For example: I was born, my first kiss, I graduate.</p>
-            <input type="text" id="occasion" name="occasion" autocomplete="off" maxlength="80" aria-describedby="occasion-hint">
+            <label for="occasion" id="occasion-label" aria-hidden="true">What's the occasion? <span class="hint">(optional)</span></label>
+            <p class="hint" id="occasion-hint" aria-hidden="true">Finish the sentence: “days since…” or “days until…”. For example: I was born, my first kiss, I graduate.</p>
+            <input type="text" id="occasion" name="occasion" autocomplete="off" maxlength="80" aria-labelledby="occasion-label" aria-describedby="occasion-hint">
           </div>
 
           <div><button type="submit" class="btn btn-primary">Count the days</button></div>
@@ -342,24 +343,24 @@ table.grid td { padding: 2px; text-align: center; }
     </div>
   </main>
 
-  <section id="result" aria-labelledby="result-heading">
+  <section id="result">
     <div class="result-top">
       <span class="tag" id="result-tag" aria-hidden="true">Until</span>
       <span class="tag example" id="result-example">Example</span>
     </div>
-    <h2 id="result-heading" tabindex="-1"><span class="big" id="r-num">0</span> <span id="r-words">days</span></h2>
+    <h2 id="result-heading" tabindex="-1"><span aria-hidden="true"><span class="big" id="r-num">0</span> <span id="r-words">days</span></span><span class="visually-hidden" id="r-sr"></span></h2>
     <p class="span-line" id="r-span"></p>
     <div class="quip" id="r-quip"></div>
 
     <div class="ways">
       <h3>Other ways to count it</h3>
       <div class="ways-grid">
-        <section class="way" aria-labelledby="exact-h">
+        <section class="way">
           <h4 id="exact-h">Exact counts</h4>
           <p>A day is always a day and a week is always 7 days, so these never change meaning.</p>
           <dl id="r-exact"></dl>
         </section>
-        <section class="way" aria-labelledby="cal-h">
+        <section class="way">
           <h4 id="cal-h">Calendar counts</h4>
           <p>Months run from 28 to 31 days and years from 365 to 366, so these follow the real calendar.</p>
           <dl id="r-cal"></dl>
@@ -377,7 +378,6 @@ table.grid td { padding: 2px; text-align: center; }
       <li>Leap years follow the Gregorian rules: every 4 years, except centuries, except every 400 years. So 2000 was a leap year and 2100 won't be.</li>
       <li>Any year from 1000 to 9999 works.</li>
     </ul>
-    <p>Since or Until? is by Charlotte Joanne at <a href="./">Blind Ant</a>. Version 2, October 2026. The words and design are <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> and the code is MIT licensed: you can use, change and share them, as long as you credit Charlotte Joanne / Blind Ant and share your changes the same way.</p>
   </section>
 
   <div id="announce" class="visually-hidden" aria-live="polite"></div>
@@ -623,6 +623,8 @@ table.grid td { padding: 2px; text-align: center; }
     else if (dir === 'since') $('r-words').textContent = `${unit} since ${label || 'that happened'}.`;
     else $('r-words').textContent = `${unit} until ${label || 'the big day'}.`;
 
+    $('r-sr').textContent = `${$('r-num').textContent} ${$('r-words').textContent}`;
+
     $('r-span').textContent = dir === 'today' ? `Today is ${fmt(t)}.`
       : dir === 'since' ? `From ${fmt(z)} to today, ${fmt(t)}.`
       : `From today, ${fmt(t)}, to ${fmt(z)}.`;
@@ -820,3 +822,4 @@ table.grid td { padding: 2px; text-align: center; }
   window.__sinceOrUntil = { dayNumber, fromDayNumber, calendarDiff, countWeekday, countLeapDays, weekday, parseMonth };
 })();
 </script>
+</html>
