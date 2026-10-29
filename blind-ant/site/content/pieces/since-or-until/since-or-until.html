@@ -296,9 +296,9 @@ table.grid td { padding: 2px; text-align: center; }
 
       <form id="form" novalidate>
         <div style="display:grid;gap:1.5rem">
-          <fieldset id="date-group" aria-describedby="date-hint">
-            <legend>Which date?</legend>
-            <p class="hint" id="date-hint">Type it in, for example 25 12 2026. Month can be a number or a name.</p>
+          <fieldset id="date-group">
+            <legend>Which date?<span class="visually-hidden"> Type it in, for example 25 12 2026. Month can be a number or a name.</span></legend>
+            <p class="hint" id="date-hint" aria-hidden="true">Type it in, for example 25 12 2026. Month can be a number or a name.</p>
             <p class="error-msg" id="date-error" hidden></p>
             <div class="date-row">
               <div class="field">
@@ -583,7 +583,7 @@ table.grid td { padding: 2px; text-align: center; }
   function clearErrors() {
     $('error-summary').hidden = true;
     $('date-error').hidden = true;
-    $('date-group').setAttribute('aria-describedby', 'date-hint');
+    $('date-group').removeAttribute('aria-describedby');
     [dayIn, monthIn, yearIn].forEach(el => { el.removeAttribute('aria-invalid'); el.removeAttribute('aria-describedby'); });
   }
   function showError(res) {
@@ -591,7 +591,7 @@ table.grid td { padding: 2px; text-align: center; }
     const msg = $('date-error');
     msg.textContent = res.error;
     msg.hidden = false;
-    $('date-group').setAttribute('aria-describedby', 'date-hint date-error');
+    $('date-group').setAttribute('aria-describedby', 'date-error');
     res.fields.forEach(el => { el.setAttribute('aria-invalid', 'true'); el.setAttribute('aria-describedby', 'date-error'); });
     const link = $('error-summary-link');
     link.textContent = res.error;
