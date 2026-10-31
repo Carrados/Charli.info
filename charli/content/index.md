@@ -30,4 +30,4 @@ The CharliVerse is home to fashion houses such as [Iceberg Hosiery](/charlipedia
 
 ## Charli-Jo
 
-[Charli-Jo Tyrer](/charli-jo/) makes the CharliVerse. Their real-world work, including [training](/training/), lives here too, and is labelled as real.
+[Charli-Jo Tyrer](/charli-jo/) makes the CharliVerse. Their real-world work, including [training](/training/), lives here too, and is labelled as real. If you'd like to help fund their exploration, see [Sponsor an explorer](/sponsor/).
