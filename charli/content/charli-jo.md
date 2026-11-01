@@ -17,9 +17,9 @@ I use they/them.
 - [Blind Ant](https://blind-ant.com/): design fiction, published under the pen name Charlotte Joanne.
 - [Training](/training/): courses and masterclasses I run with organisations and communities.
 
-## Support my exploration
+## Support my work
 
-If you'd like to help fund the AI subscriptions behind this work, see [Sponsor an explorer](/sponsor/).
+Everything I make is free. If you'd like to help make the next thing possible, you can support me on [Patreon](https://www.patreon.com/c/CharliJo).
 
 ## Get in touch
 

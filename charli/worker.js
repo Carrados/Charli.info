@@ -26,6 +26,8 @@ function moved(path) {
   if (/^\/charliverse\/?$/.test(path)) return '/';
   if (/^\/accessibility-statement\/?$/.test(path)) return '/accessibility/';
   if (path === '/rss.xml') return '/';
+  // Sponsor an explorer (31 Oct 2026) was replaced by Patreon on 1 Nov 2026.
+  if (/^\/sponsor(\/|\/index\.(html|md))?$/.test(path) || path === '/sponsor.md') return 'https://www.patreon.com/c/CharliJo';
   return null;
 }
 // Files come from this Worker's own static assets (uploaded with each publish), not from anywhere else.
