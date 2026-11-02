@@ -27,6 +27,10 @@
     "/media/always-six/captions.vtt": [
       "studio/always-six/out/captions.vtt",
       "text/vtt; charset=utf-8"
+    ],
+    "/media/blind-trader/blind-trader-trailer.mp4": [
+      "studio/blind-trader/blind-trader-trailer.mp4",
+      "video/mp4"
     ]
   }
 }

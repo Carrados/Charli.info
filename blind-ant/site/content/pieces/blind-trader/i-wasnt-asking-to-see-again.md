@@ -1,12 +1,12 @@
 ---
 title: I Wasn’t Asking to See Again. I Was Asking for Staff.
-kind: piece
-order: 23
+kind: object
+order: 1
 description: Forty years after going blind, Charlotte Joanne makes a space trading game she can play, with a ship AI and two robots to do the flying.
-label_meta: Piece, 2026. A making of Blind Trader, made with Savi on Spawn.
+label_meta: Essay, 2026.
 ---
 
-I’ve been a game developer for almost two days. My latest game is Blind Trader: “A blind captain back at the helm after 40 years: trade, jump, and talk your way to Elite with a ship AI and two robots.”
+I’ve been a game developer for almost two days. My latest game is [Blind Trader](https://spawn.co/@charlijo/blind-trader): “A blind captain back at the helm after 40 years: trade, jump, and talk your way to Elite with a ship AI and two robots.”
 
 It’s biographical. Can you even have a biographical game? Well, it is “inspired” by real life. My life.
 
