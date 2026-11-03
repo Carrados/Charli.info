@@ -2,6 +2,8 @@
 title: The Making of gent
 description: How Charli-Jo went from one prompt to a working NVDA add-on in an afternoon, and why that was agentic coding rather than vibe coding.
 date: 2026-11-03
+desk: charli
+byline: Charli-Jo Tyrer
 time: "19:00"
 ---
 

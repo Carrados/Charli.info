@@ -2,6 +2,8 @@
 title: "gent: tell NVDA what you want"
 description: Charli-Jo has made a small, free NVDA add-on called gent, which changes NVDA's settings when you type what you want in plain words, and would love people to try it.
 date: 2026-11-03
+desk: charli
+byline: Charli-Jo Tyrer
 time: "19:30"
 ---
 
@@ -66,7 +68,7 @@ The add-on and its source code are available at [Carrados/nvda-addons on GitHub]
 
 You can find the installation file under the [latest release](https://github.com/Carrados/nvda-addons/releases/latest).
 
-I've also written a longer account of how it was made, called [The Making of gent](/reports/the-making-of-gent/).
+I've also written a longer account of how it was made, called [The Making of gent](/blind-ai/the-making-of-gent/).
 
 I'd particularly love to know three things: Does it work for you? Is it easier than changing settings manually? And what else would you like to be able to tell NVDA to do?
 
