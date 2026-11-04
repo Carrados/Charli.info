@@ -16,7 +16,7 @@ She copied the relevant email into WhatsApp, where she talks to an AI agent call
 
 Instinct got to work.
 
-It found the registration process, then stopped to ask whether it could agree to receiving marketing communications. Charli gave her permission, and Instinct completed the registration.
+It found the registration process, then stopped to ask whether it could agree to receiving marketing communications. Charlotte gave her permission, and Instinct completed the registration.
 
 She then asked it to add the webinar to her calendar.
 
@@ -34,7 +34,7 @@ There is something rather pleasing about using an AI agent to register for a web
 
 But the more interesting point is what didn't happen.
 
-Nobody had to make the registration form more accessible for Charli. Nobody had to explain its layout, describe its buttons, or help her find the correct fields. She didn't need to learn how the registration website worked.
+Nobody had to make the registration form more accessible for Charlotte. Nobody had to explain its layout, describe its buttons, or help her find the correct fields. She didn't need to learn how the registration website worked.
 
 She wanted to attend a webinar. She told her agent. Her agent arranged it.
 
@@ -54,7 +54,7 @@ It is also worth noticing how ordinary this story is. There was no elaborate age
 
 Just an email, a WhatsApp message, and another email.
 
-Earlier this morning, Charli used the same agent to reply to her new tutor. That, too, began as an ordinary conversation in WhatsApp.
+Earlier this morning, Charlotte used the same agent to reply to her new tutor. That, too, began as an ordinary conversation in WhatsApp.
 
 A month into her Agentic Accessibility experiment, these small transactions are beginning to accumulate. The agent is becoming less like a piece of software she operates and more like someone she asks to take care of things.
 

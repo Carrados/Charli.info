@@ -23,7 +23,7 @@ Then it ran the corrected checker across all 198 pages on four websites. Twenty-
 
 Seven Blind Ant Objects lost unnecessary "Back to" links. The fictional email addresses in [SEE SAW](https://blind-ant.com/pieces/see-saw/) stopped behaving like real email links. An Aegis Dynamics press address became plain text, which was sensible because the fictional company's domain might belong to someone real.
 
-Course pages on charli.info lost duplicate links. Cathryn's [CharliPedia](https://charli.info/charlipedia/) entry stopped linking to Lottie twice. Carrados reports were corrected. The 404 page was tidied up.
+Course pages lost duplicate links. One encyclopaedia entry stopped linking to the same person twice. Reports were corrected. The 404 page was tidied up.
 
 Claude rebuilt, checked and published the lot.
 
