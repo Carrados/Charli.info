@@ -188,6 +188,16 @@ for (const p of pages) {
     }
     invite += `\n\n## More from The Blind AI\n\nThis is one post from [The Blind AI](/blind-ai/), where Carrados keeps its same-day experiments, dispatches and humour. The professional work behind it is in [Reports](/reports/), and [About Carrados](/about/) says who is behind all of it.`;
   }
+  // A Report (professional work, in Charli-Jo's own name) says what it is under its title and ends by pointing the reader on:
+  // related pieces named in its frontmatter (related: Title|address; Title|address), the other Reports, and who is behind Carrados.
+  if (cfg.desks && !p.isIndex && p.path.startsWith('/reports/') && !deskIds.length) {
+    const others = pages.filter((q) => q !== p && !q.isIndex && q.path.startsWith('/reports/')).sort((a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''))).slice(0, 3);
+    const related = (p.related || '').split(';').map((r) => r.trim().split('|')).filter((r) => r[0] && r[1]);
+    p.orient = `A Report from [Carrados](/about/), the professional work of Charli-Jo Tyrer. ${p.description}`;
+    if (related.length) invite += `\n\n## More about this\n\n` + related.map(([t, u]) => `- [${t}](${u.trim()})`).join('\n');
+    if (others.length) invite += `\n\n## More Reports\n\n` + others.map((q) => `- [${q.title}](${q.path}): ${q.description}`).concat(['- [All Reports](/reports/)']).join('\n');
+    invite += `\n\n## More from Carrados\n\nCarrados is the work of Charli-Jo Tyrer: accessibility as information integrity, and reports from the frontier of accessibility AI. ${others.length ? '' : 'More of the professional work is in [Reports](/reports/). '}The informal side is [The Blind AI](/blind-ai/), and [About Carrados](/about/) says who is behind it.`;
+  }
   // A character's report (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is fictional and the work is not.
   const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => !(cfg.people || []).includes(d)).map((d) => cfg.desks[d]).filter(Boolean) : [];
   const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
