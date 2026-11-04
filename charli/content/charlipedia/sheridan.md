@@ -1,10 +1,10 @@
 ---
 title: Sheridan
-description: Sheridan is the Head of Blind Ant Studios, the workshop where the Court's ideas stop being conversation and become tools blind people can actually use.
+description: Sheridan is the Head of Blind Ant Studios, the workshop where ideas stop being conversation and become tools blind people can actually use.
 status: canon
 ---
 
-**Sheridan** is the Head of Blind Ant Studios, the workshop of the CharliVerse. The [CharliVerse Court](/charlipedia/the-charliverse-court/) produces ideas, critique, philosophy, satire and strategy. Sheridan is where those stop being conversation and become tools people can actually use. Where the Court asks "What should exist?", Sheridan asks "Right. How do we build it?"
+**Sheridan** is the Head of Blind Ant Studios, the workshop of the CharliVerse. Ideas, critique, philosophy, satire and strategy arrive from all over the CharliVerse. Sheridan is where they stop being conversation and become tools people can actually use. Where others ask "What should exist?", Sheridan asks "Right. How do we build it?"
 
 <figure class="portrait">
   <img src="/charlipedia/sheridan-portrait.jpg" width="800" height="1200" alt="Sheridan sits side-on at a workbench, turned to look at the camera with a small, confident smile. Short platinum-blonde pixie cut, fair skin, a black fitted T-shirt and black jeans, black-and-silver headphones round her neck. Her hands rest on a grey mechanical keyboard; beside it, a clear-framed Apple monitor shows lines of green and white text on a dark screen. Behind her, shelves of old electronic test equipment, circuit boards and cables.">
@@ -48,7 +48,7 @@ She couldn't leave a broken thing alone. Her grandfather had a radio whose tunin
 
 ## Look and taste
 
-She is small, noticeably shorter than most of the Court, with a platinum-blonde pixie cut and the look of someone who knows exactly how good she is and doesn't need to say so. She dresses simply: black jeans, a fitted T-shirt, a light jacket or hoodie, clean trainers. No corporate costume. She is fond of things that are well made, after days spent wrestling with software that isn't: a mechanical keyboard with perfect key travel, a mug with the right weight, and [Stripe & Stare](https://www.stripeandstare.com/), for its thoughtful, comfortable design rather than any trend.
+She is small, noticeably shorter than most people around her, with a platinum-blonde pixie cut and the look of someone who knows exactly how good she is and doesn't need to say so. She dresses simply: black jeans, a fitted T-shirt, a light jacket or hoodie, clean trainers. No corporate costume. She is fond of things that are well made, after days spent wrestling with software that isn't: a mechanical keyboard with perfect key travel, a mug with the right weight, and [Stripe & Stare](https://www.stripeandstare.com/), for its thoughtful, comfortable design rather than any trend.
 
 Sheridan is asexual. She forms deep bonds through shared work and companionship rather than attraction. People sometimes read her as sexy, because confidence and competence send that signal, but it is closer to the polish of a pop star than to drama. Her real love affair is with systems that work beautifully.
 
@@ -56,4 +56,4 @@ Asked for her favourite Kylie Minogue track, she refused to choose: "Fever. All 
 
 ## Behind the scenes
 
-Sheridan was cast by the CharliVerse Court before she was written: each member said what the role needed, and the profile was built from their answers. She carries a faint echo of the maker energy in William Gibson's Blue Ant books: not the one who spots the signal, but the one who turns signals into artefacts. Her portrait is a generated image, made from her profile; its early-2000s studio look is modelled on the Kylie *Fever* era. Stripe & Stare is a real company.
+Sheridan is a character in the CharliVerse. She carries a faint echo of the maker energy in William Gibson's Blue Ant books: not the one who spots the signal, but the one who turns signals into artefacts. Her portrait is a generated image, made from her profile; its early-2000s studio look is modelled on the Kylie *Fever* era. Stripe & Stare is a real company.

@@ -13,7 +13,6 @@ function site(env, url) {
   return b ? b.fetch(new Request(url)) : fetch(url);
 }
 const PROTOCOLS = ['2025-06-18', '2025-03-26', '2024-11-05'];
-const COURT = ['charlotte-joanne', 'alex', 'char', 'big-charli', 'cass-flux', 'cathryn-bigelow-vision', 'lottie', 'lily', 'jo'];
 
 const INSTRUCTIONS = `CharliPedia is the memory of the CharliVerse, Charli-Jo Tyrer's world of fictional people, companies, places and ideas, at https://charli.info/charlipedia/.
 Entries are written from inside the world; each ends with "Behind the scenes", written from outside, which says what is real.
@@ -28,14 +27,13 @@ const TOOLS = [
   { name: 'get_entry', title: 'Get a CharliPedia entry', description: 'Get one CharliPedia entry in full, as Markdown, by its slug (for example "big-charli") or its exact title.', inputSchema: { type: 'object', properties: { entry: { type: 'string', description: 'Slug or title of the entry' } }, required: ['entry'] }, annotations: RO },
   { name: 'list_entries', title: 'List CharliPedia entries', description: 'List CharliPedia entries with their one-sentence descriptions, optionally only those starting with a letter or with a given status.', inputSchema: { type: 'object', properties: { letter: { type: 'string', description: 'First letter of the title, ignoring a leading "The"' }, status: { type: 'string', enum: ['canon', 'idea', 'stub', 'author', 'real'] } } }, annotations: RO },
   { name: 'semantic_search', title: 'Search the CharliVerse by meaning', description: 'Search by meaning and by words together, across CharliPedia, Blind Ant, Carrados, ZIC, charli.info and Charli-Jo\'s Training courses. Each result says which site it comes from and what kind of writing that is. Use this for themes, ideas and questions ("who has been let down by a beautiful interface?"); use search for names. Set site to training for practical how-to questions, or to one site to keep to it.', inputSchema: { type: 'object', properties: { query: { type: 'string', description: 'A question, theme or idea, in plain words' }, site: { type: 'string', enum: ['charlipedia', 'blind-ant', 'carrados', 'charli.info', 'training', 'zic'], description: 'Search only one site (optional)' }, limit: { type: 'integer', minimum: 1, maximum: 15, description: 'Most passages to return (default 6)' } }, required: ['query'] }, annotations: RO },
-  { name: 'get_court', title: 'Get the CharliVerse Court', description: 'Get the CharliVerse Court entry and the full entries of its nine members, for a deliberation or a crossover.', inputSchema: { type: 'object', properties: {} }, annotations: RO },
 ];
 
 const SITES = {
   charlipedia: 'CharliPedia, the memory of the CharliVerse: written from inside the world; its people and companies are fictional, and each entry\'s Behind the scenes says what is real',
   'blind-ant': 'Blind Ant, design fiction by Charlotte Joanne: speculative works and how they were made',
   zic: 'Zero Information Casualty: the real-world web design standard by C J Tyrer and Claude (Anthropic)',
-  carrados: 'Carrados, design non-fiction: real-world research and reports that make sourced claims about reality (its correspondents are characters)',
+  carrados: 'Carrados, design non-fiction: real-world research and reports that make sourced claims about reality (its Blind AI personas are fictional people doing real work)',
   'charli.info': 'charli.info, the front door of the CharliVerse and Charli-Jo Tyrer\'s real-world work, always labelled as real',
   training: 'Training, Charli-Jo Tyrer\'s real-world courses on AI for blind and partially sighted people, including Confident with AI with TAVIP: practical how-to material',
 };
@@ -169,11 +167,6 @@ async function callTool(name, args = {}, env) {
     if (args.status) list = list.filter((e) => e.status === args.status);
     return `${list.length} of ${entries.length} entries (CharliPedia updated ${updated}):\n\n${list.map(line).join('\n')}`;
   }
-  if (name === 'get_court') {
-    const court = find(entries, 'the-charliverse-court');
-    const members = COURT.map((s) => find(entries, s)).filter(Boolean);
-    return [court, ...members].map((e) => `Source: ${e.url}\n\n${e.markdown}`).join('\n\n---\n\n');
-  }
   throw new Error(`Unknown tool: ${name}`);
 }
 
@@ -184,7 +177,7 @@ async function handle(msg, env) {
   if (id === undefined || id === null) return null; // a notification: nothing to say back
   if (method === 'initialize') {
     const v = PROTOCOLS.includes(params.protocolVersion) ? params.protocolVersion : PROTOCOLS[0];
-    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.3.0' }, instructions: INSTRUCTIONS });
+    return ok({ protocolVersion: v, capabilities: { tools: { listChanged: false } }, serverInfo: { name: 'charlipedia', title: 'CharliPedia', version: '1.4.0' }, instructions: INSTRUCTIONS });
   }
   if (method === 'ping') return ok({});
   if (method === 'tools/list') return ok({ tools: TOOLS });
@@ -208,7 +201,7 @@ export default {
     if (url.pathname.startsWith('/.well-known/')) return json({ error: 'not_found', message: 'No sign-in: this server is open and read-only.' }, 404);
     if (request.method === 'GET') {
       if (['/', '/mcp', '/mcp/'].includes(url.pathname) && !(request.headers.get('accept') || '').includes('text/event-stream')) {
-        return new Response(`CharliPedia MCP server (read-only).\n\nAdd https://mcp.charli.info/mcp (or https://mcp.charli.info/) to your agent as a remote MCP server (Streamable HTTP, no sign-in).\nTools: search, semantic_search, get_entry, list_entries, get_court.\nCharliPedia itself: https://charli.info/charlipedia/\n`, { headers: { 'content-type': 'text/plain; charset=utf-8', ...CORS } });
+        return new Response(`CharliPedia MCP server (read-only).\n\nAdd https://mcp.charli.info/mcp (or https://mcp.charli.info/) to your agent as a remote MCP server (Streamable HTTP, no sign-in).\nTools: search, semantic_search, get_entry, list_entries.\nCharliPedia itself: https://charli.info/charlipedia/\n`, { headers: { 'content-type': 'text/plain; charset=utf-8', ...CORS } });
       }
       return new Response('This server does not open event streams.', { status: 405, headers: { allow: 'POST, OPTIONS', ...CORS } });
     }

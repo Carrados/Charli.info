@@ -24,4 +24,4 @@ Her distance from personal history lets her see a structural pattern where a dep
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. She is grown professionally only: her authority is her arguments, and her arguments are enough. CharliPedia keeps it that way: no childhood, home, family or surname is to be invented for her.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Its staff are characters. She is grown professionally only: her authority is her arguments, and her arguments are enough. CharliPedia keeps it that way: no childhood, home, family or surname is to be invented for her.

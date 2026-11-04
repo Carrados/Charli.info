@@ -4,7 +4,7 @@ description: Seamiotics, every seam means something, is Alex's stocking imprint 
 status: canon
 ---
 
-**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](/charlipedia/iceberg-hosiery/), run by [Alex](/charlipedia/alex/) of the [CharliVerse Court](/charlipedia/the-charliverse-court/).
+**Seamiotics**, every seam means something, is the stocking imprint of [Iceberg Hosiery](/charlipedia/iceberg-hosiery/), run by [Alex](/charlipedia/alex/).
 
 > It is madness to say that a woman's choice of what to wear says nothing.
 

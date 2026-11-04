@@ -21,7 +21,7 @@ They don't blend; they deliberate. Ruth wants to hold things longer and Iris wan
 
 ## Grow professionally, hold personally
 
-The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them. The method is called [Grow-Distil](/charlipedia/grow-distil/), the same one that made the [CharliVerse Court](/charlipedia/the-charliverse-court/), though the CharliVerse Court grew from the inside out and the Museum Court from the outside in.
+The staff are grown from their institutional function: their arguments, what they push back on, the problems they bring to the Steward. Their appearance, voice and commitments can be written. Their childhoods, home lives and private interiors are held privately and never written. The exhibit is never about them.
 
 ## In session
 
@@ -29,4 +29,4 @@ The Court keeps a record of its sessions, as evidence of how its members think r
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. The staff have no surnames, and CharliPedia doesn't give them any. The museum is digital and unbuilt: its planned opening, its staff email addresses and the building the Court imagined are plans and imaginings, not things that have happened.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. The staff have no surnames, and CharliPedia doesn't give them any. The museum is digital and unbuilt: its planned opening, its staff email addresses and the building the Court imagined are plans and imaginings, not things that have happened.

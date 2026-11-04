@@ -19,4 +19,4 @@ Sometimes the access can't be separated from the mainstream platform. [Iris](/ch
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. Amazon, the early web, Wikipedia and GPS are real.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Amazon, the early web, Wikipedia and GPS are real.

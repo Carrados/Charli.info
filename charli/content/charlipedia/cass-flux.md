@@ -1,10 +1,10 @@
 ---
 title: Cass Flux
-description: Cass Flux is the poet-vandal of the CharliVerse Court, exposing the aesthetic lies that make exclusion look acceptable.
+description: Cass Flux is the poet-vandal of the CharliVerse, exposing the aesthetic lies that make exclusion look acceptable.
 status: canon
 ---
 
-**Cass Flux** is the poet-vandal of the [CharliVerse Court](/charlipedia/the-charliverse-court/). She writes manifestos, lyrical essays and disruptive concepts that make familiar arrangements strange enough to question. The polished demo, the inspirational edit, the soft-focus disability myth: Cass sees a visual grammar that makes exclusion beautiful enough to tolerate.
+**Cass Flux** is the poet-vandal of the CharliVerse. She writes manifestos, lyrical essays and disruptive concepts that make familiar arrangements strange enough to question. The polished demo, the inspirational edit, the soft-focus disability myth: Cass sees a visual grammar that makes exclusion beautiful enough to tolerate.
 
 <figure class="portrait">
   <img src="/charlipedia/cass-flux-portrait.jpg" width="800" height="1200" alt="Cass stands against a peeling wall covered in blue, black and red graffiti, facing forward with one hand in a pocket and one knee bent across the other leg. Her long red hair is swept up at the front and falls over one shoulder. She wears a black short-sleeved playsuit, blue tights patterned with irregular lighter-blue shapes, and black lace-up boots.">
@@ -27,16 +27,6 @@ She is queer and fluid. Categories are provisional; identities can move; structu
 
 That position gives her room to work. It also leaves her lonely. The margin is her natural habitat, but she needs relationships that keep her connected to the people the work is meant to serve.
 
-## With the Court
-
-[Big Charli](/charlipedia/big-charli/) is her cousin-in-arms: Cass supplies the frame-breaking image and raw anarchic material; Big Charli gives it the delivery mechanism of satire. When the collaboration overheats, [Charlotte Joanne](/charlipedia/charlotte-joanne/) intervenes.
-
-[Cathryn Bigelow-Vision](/charlipedia/cathryn-bigelow-vision/) brings cinematic discipline to Cass's conceptual disruption. Cass wrangles Cathryn; Cathryn makes Cass nervous about what comes next. Each pushes the other towards work she could not make alone.
-
-[Lottie](/charlipedia/lottie/) asks who the work is for. [Alex](/charlipedia/alex/) finds the strategic move inside the disruption. Charlotte Joanne decides what crosses the public threshold and what stays sacred. Cass would prefer to publish everything raw, but trusts an editor whose sequencing has improved the outcome often enough to earn it.
-
-[Lily](/charlipedia/lily/) watches the cost of living at the margin. Her sustainability veto is absolute.
-
 ## Her blind spots
 
 “Burn it down” can become a default when repair would be faster and kinder. Discomfort can feel like proof when it is only sharpness. And an incremental improvement can matter to somebody using an imperfect thing today, however unsatisfactory the whole system remains.
@@ -45,4 +35,4 @@ Empty abstraction is both her enemy and her temptation. The lyrical register can
 
 ## Behind the scenes
 
-Cass Flux is a persona of the CharliVerse Court, described in *Cass Flux: Agent Specification*, version 1.0, part of the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. She is a character, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+Cass Flux is a persona of Charli-Jo Tyrer. She is fictional, not a real person. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.

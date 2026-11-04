@@ -13,7 +13,7 @@ status: canon
 
 ## The half-step
 
-Big Charli is the Court's satirical public voice. She does not rant. She performs a demonstration. Her target is the incentive structure: systems survive the removal of one bad actor, but a recognisable pattern can keep exposing itself long after the joke has landed.
+Big Charli is a satirical public voice. She does not rant. She performs a demonstration. Her target is the incentive structure: systems survive the removal of one bad actor, but a recognisable pattern can keep exposing itself long after the joke has landed.
 
 The [Big Charli Satire Engine](/charlipedia/big-charli-satire-engine/) has three stages: identify the system, carry its existing logic half a step further, and present the demonstration in the system's own language. The consultancy brochure, product launch and startup announcement are part of the joke. The audience recognises the container before the critique arrives.
 
@@ -27,11 +27,7 @@ Her community-facing work is warmer and sillier. [*Cheep Plastic Nodding Dogs*](
 
 The narrow gap creates a responsibility: satire can be mistaken for a genuine offer. Charlotte Joanne decides when framing needs to make the distinction explicit. Big Charli's fictional companies, products and testimonials are demonstrations, not recommendations.
 
-Laughter can also become a substitute for action. A shared joke is not a changed system. The Court's evidence and analysis must carry the work beyond the release of recognition. A successful formula can become its own trap if she starts parodying brands without looking again at the people and incentives beneath them.
-
-## With the Court
-
-[Alex](/charlipedia/alex/) supplies the structural map. [Char](/charlipedia/char/) supplies the fury; Big Charli gives it aim. [Lottie](/charlipedia/lottie/) asks whether blind people caught inside the system will feel seen or used by the joke. [Charlotte Joanne](/charlipedia/charlotte-joanne/) holds the public threshold and the timing. Lily watches the cost of turning anger and exhaustion into comedy.
+Laughter can also become a substitute for action. A shared joke is not a changed system. Evidence and analysis must carry the work beyond the release of recognition. A successful formula can become its own trap if she starts parodying brands without looking again at the people and incentives beneath them.
 
 ## Aegis Dynamics, 2026
 
@@ -55,6 +51,6 @@ She also kept Emma's wife out of the story. Her wife had a life and a job; none 
 
 ## Behind the scenes
 
-Big Charli is a CharliVerse persona and a member of the [CharliVerse Court](/charlipedia/the-charliverse-court/), the satirist, who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), and in her own Blind Marketing Consultancy and Cheep Plastic Nodding Dogs, all by Charlotte Joanne.
+Big Charli is a persona of Charli-Jo Tyrer, a satirist who drops into pieces rather than belonging to any one of them. At Blind Ant she appears in "Meanwhile, in a Brand Meeting", part of [DeathBot 2000](https://blind-ant.com/pieces/deathbot-2000/), in [Mostly Tuesdays](https://blind-ant.com/pieces/mostly-tuesdays/), in "The Question" and "The host allowed the applause to settle", part of [Heart Attacks](https://blind-ant.com/pieces/heart-attacks/), and in her own Blind Marketing Consultancy and Cheep Plastic Nodding Dogs, all by Charlotte Joanne.
 
-This account also draws on *Big Charli: Agent Specification*, version 3.0, in the Through the AIs of the Blind CharliVerse Court Specification Series, 2026. Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.
+Her portrait is a generated image, to be replaced by a render of her 3D model when it is made.

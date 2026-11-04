@@ -19,6 +19,6 @@ label: |
 
 ## Behind the fiction
 
-[Cass Flux](https://charli.info/charlipedia/cass-flux/) is a fictional persona, the poet-vandal of the CharliVerse Court, and these three texts are written in her voice. Neon Hysterically Blind is the name she gives her register. Marine Blind is the soft, submerged picture of blindness she is answering, not a product.
+[Cass Flux](https://charli.info/charlipedia/cass-flux/) is a fictional persona, the poet-vandal of the CharliVerse, and these three texts are written in her voice. Neon Hysterically Blind is the name she gives her register. Marine Blind is the soft, submerged picture of blindness she is answering, not a product.
 
 The portrait is a supplied generated image, to be redrawn in code over time. It has been turned upright and resized for the page.
