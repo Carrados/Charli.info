@@ -2,7 +2,7 @@
 
 - **Headline:** With Love at Christmas
 - **Description** (written first; the scene is built to match it, and it is the card's alt text):
-  Two lit candles glow side by side on a dark wooden table, among glossy holly leaves and clusters of red berries, with soft golden lights blurred in the darkness behind them.
+  Two lit ivory candles glow side by side on a dark wooden table, among glossy holly leaves, clusters of red berries and two small gold baubles, with soft golden lights blurred in the darkness behind them.
 
 ## Files
 

@@ -10,7 +10,7 @@ const F = fileURLToPath(new URL('../fonts/', import.meta.url));
 const fonts = { regular: readFileSync(F + 'AtkinsonHyperlegibleNext-Regular.ttf'), bold: readFileSync(F + 'AtkinsonHyperlegibleNext-Bold.ttf') };
 
 const d = design('christmas-with-love', 'Christmas With Love', 'With Love at Christmas',
-  'Two lit candles glow side by side on a dark wooden table, among glossy holly leaves and clusters of red berries, with soft golden lights blurred in the darkness behind them.',
+  'Two lit ivory candles glow side by side on a dark wooden table, among glossy holly leaves, clusters of red berries and two small gold baubles, with soft golden lights blurred in the darkness behind them.',
   readFileSync(pic));
 
 let message = 'Wishing you a wonderful Christmas, full of good food, good company and at least one excellent nap.\n\nThank you for everything this year. It wouldn\'t have been the same without you.';

@@ -1,7 +1,7 @@
 # Blind Ant Cards: "Christmas With Love", built in Blender from its description.
 # Description (written first, always true):
-#   Two lit candles glow side by side on a dark wooden table, among glossy holly leaves
-#   and clusters of red berries, with soft golden lights blurred in the darkness behind them.
+#   Two lit ivory candles glow side by side on a dark wooden table, among glossy holly leaves,
+#   clusters of red berries and two small gold baubles, with soft golden lights blurred in the darkness behind them.
 # Run: blender -b -P christmas_with_love.py -- <out.png> [samples] [size]
 import bpy, bmesh, math, random, sys
 from mathutils import Vector
