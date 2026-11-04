@@ -11,8 +11,9 @@ Each name runs its own place, and every piece is its own front page. The CharliV
 | carrados.com (`carrados/`) | Charli-Jo Tyrer | The frameworks (the Tyrer Framework and the Papers) and The Blind AI |
 | charli.info (`charli/`) | Charli-Jo Tyrer | Charli-Jo the person: their own philosophy (Perspectives), the Charli-Jo page and Training, the CharliVerse and CharliPedia |
 | blind-ant.com (`blind-ant/`) | Charlotte Joanne | The making practice: design fiction, stories, games, apps, cartoons and how they were made |
-| agentrunning.uk (repo `Carrados/AgentRunning`) | Piper Smith | Piper's field notes and the San Francisco Rules. Piper's own publication, not part of Carrados |
 | zeroinformationcasualty.org (`zic/`) | | The ZIC standard (see below) |
+
+**agentrunning.uk is kept apart (decided 4 November 2026).** It is a separate site in its own repo (`Carrados/AgentRunning`), with its own house rules. These sites, CharliPedia and the MCP server don't link to it or mention it, and it doesn't link to them.
 
 Where Charli-Jo's own work goes depends on what the piece does: the frameworks and AI-and-blindness writing go to Carrados, their philosophy to charli.info, and anything made, as Charlotte Joanne, to Blind Ant. A persona writes on The Blind AI unless she has her own property.
 
@@ -33,7 +34,6 @@ The names are flat, not nested: every one points straight to Charli-Jo. There ar
 - **Charlotte Joanne, she/her.** Charli-Jo's pen name, their Robert Galbraith, with her own voice and body of work. Runs Blind Ant and writes there in the first person. Present her as Blind Ant's author and operator, never as a fictional character, a persona or an assistant. In public she is only ever described as a pen name: one line, "Charlotte Joanne is the pen name of Charli-Jo Tyrer", once on each site's About page and nowhere more detailed. Never replace her name with Charli-Jo's in a piece about her experiences, and say no more about the link than that line.
 - **Personas.** Invented people who write as themselves: they have a byline, a desk or their own site. They may also appear in stories and stay personas. Character comedy in the Mrs Merton sense: fictional people doing real work, their fictional nature always transparent. The current personas:
   - On The Blind AI: dice (always lower case: the unevenly distributed future, reporting from places where it has already arrived, dice.carrados.com); Lucy Love-Child (the Agent Wars, agentic accessibility and the emerging agent economy, lucy.carrados.com); Madison McDonnell, Access Provocateur (fashion, desire, persuasion and accessibility, madison.carrados.com); Down the Banksy.
-  - With her own site: Piper Smith (agentrunning.uk).
   - Elsewhere in the CharliVerse: Big Charli, Cass Flux, Cathryn Bigelow-Vision, Alex, Lottie, Char, Jo, Lily, Poppy Petticoats.
 - **Characters.** Appear only in stories, one or many, and never write as themselves: Emma Heart, Jessica Martinez, Sheridan, the Museum Court (Dr Adaeze, Iris, Ruth, Tamsin), Ellie and Jon. They get a CharliPedia entry when they recur.
 - **A character becomes a persona when she starts writing as herself** (a byline, a desk or her own site). The number of stories she appears in doesn't change that, and nor does how many names she has. The old groupings, the CharliVerse Court and the Found Girls, are retired, along with the convention that Court members go by one name: their members are simply personas.
@@ -45,7 +45,7 @@ The names are flat, not nested: every one points straight to Charli-Jo. There ar
 - Every post with a persona's `desk` ends, automatically, with a line saying who its writer is (names come from `desks` in `site.config.mjs`; see Labels above for the wording). Desks of real people, listed in `people` there (`charli`), get no such line.
 - **Charli-Jo's desk** (`desk: charli`, charli.carrados.com, page `carrados/content/desks/charli.md`) is Charli-Jo themself, real, they/them: their informal Blind AI dispatches. Never present it as a persona or character.
 - Big Charli is she/her. Never "it" or "its", even in passing, as in "Poppy, her expert".
-- Blind Ant's own companies and characters (Aegis Dynamics, Jessica Martinez) get blind-ant.com subdomains; personas on The Blind AI get carrados.com desk subdomains; CharliVerse entities (fashion houses, personas like Big Charli) get charli.info subdomains when they need sites. A persona may have her own site and domain, like Piper Smith's agentrunning.uk: it is her property, not part of Carrados or Blind Ant, and links to her CharliPedia entry.
+- Blind Ant's own companies and characters (Aegis Dynamics, Jessica Martinez) get blind-ant.com subdomains; personas on The Blind AI get carrados.com desk subdomains; CharliVerse entities (fashion houses, personas like Big Charli) get charli.info subdomains when they need sites. A persona may have her own site and domain: it is her property, not part of Carrados or Blind Ant.
 
 ## Every piece is the front page (decided 4 November 2026)
 
@@ -59,7 +59,7 @@ The page ending belongs to the reader's journey; the site footer belongs to the 
 
 ## Principles
 
-**Real evidence. Fictional people. Plausible consequences.** The method that runs through all the sites: the personas on The Blind AI and Agent Running, and the characters at Blind Ant (SEE SAW, Oil Rigs to Training Rigs) are invented, but every fact they rest on is real, sourced and linked, and a "Behind the fiction" or "Behind the thread" note says which is which. On Carrados the emphasis is the evidence; at Blind Ant it is the consequences.
+**Real evidence. Fictional people. Plausible consequences.** The method that runs through all the sites: the personas on The Blind AI, and the characters at Blind Ant (SEE SAW, Oil Rigs to Training Rigs) are invented, but every fact they rest on is real, sourced and linked, and a "Behind the fiction" or "Behind the thread" note says which is which. On Carrados the emphasis is the evidence; at Blind Ant it is the consequences.
 
 The world is not a portfolio. The sites are distinct: Carrados investigates reality; Blind Ant makes things, real and imagined. Fiction is not deception. Real artefacts can exist within fictional contexts. The world can develop without being publicised. CharliPedia records continuity, distinguishing canon from ideas and fictional facts from real artefacts. Crossovers are opportunities, not obligations. Newsletters belong to the practices (Carrados, Blind Ant), not the world; fictional businesses may have their own as in-world artefacts. No newsletter software or dates are decided.
 
