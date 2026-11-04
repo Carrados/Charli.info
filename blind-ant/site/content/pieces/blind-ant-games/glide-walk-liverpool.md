@@ -12,7 +12,7 @@ label: |
 
 ## Play
 
-[Play Glide Walk: Liverpool on Spawn](https://www.spawn.co/@charlijo/glide-walk-liverpool)
+[Glide Walk: Liverpool on Spawn](https://www.spawn.co/@charlijo/glide-walk-liverpool)
 
 ## The walk
 
