@@ -11,7 +11,7 @@ The title is borrowed from [John Barry](https://johnbarry.org.uk/). "The Day the
 
 ## Five coffees in
 
-I was sitting with my iPhone, testing [Since or Until?](https://blind-ant.com/pieces/since-or-until/), the little date app I wrote about in [Inside Since or Until?](/reports/inside-since-or-until/). Safari in one app. Claude in the other. Coffee in my hand. About my fifth of the day.
+I was sitting with my iPhone, testing [Since or Until?](https://blind-ant.com/pieces/since-or-until/), the little date app I wrote about in [Inside Since or Until?](/blind-ai/inside-since-or-until/). Safari in one app. Claude in the other. Coffee in my hand. About my fifth of the day.
 
 I flicked through the page with [VoiceOver](https://www.apple.com/accessibility/), Apple's screen reader, and told Claude what I heard. Claude changed the code, published it, and told me when it was live. I reloaded and listened again.
 

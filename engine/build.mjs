@@ -169,38 +169,63 @@ for (const p of pages) {
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();
-  // Visitors arrive from a link, not the front page. A post from a desk, or any Blind AI post, says where it is under its title and ends by inviting the reader on:
-  // more from the same writer (their other posts and their desk), then the wider Blind AI and the real work behind it.
+  // Every piece is the front page (CLAUDE.md): visitors arrive from a link, not the front page. A Blind AI post, or any post
+  // from a desk, says where it is and who is speaking under its title, and ends with three invitations: more about this
+  // (pieces named in its frontmatter, related: Title|address; Title|address), more from the same writer, and the wider
+  // Blind AI with who is behind it.
+  const newest = (a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''));
+  const persona = (d) => !(cfg.people || []).includes(d);
+  const entry = (name) => `https://charli.info/charlipedia/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
+  const related = (p.related || '').split(';').map((r) => r.trim().split('|')).filter((r) => r[0] && r[1]);
   const deskIds = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => cfg.desks[d]) : [];
   const inBlogPost = cfg.desks && !p.isIndex && p.path.startsWith('/blind-ai/');
   let invite = '';
   if (deskIds.length || inBlogPost) {
-    const newest = (a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''));
-    const isChar = (d) => !(cfg.people || []).includes(d);
     const names = deskIds.map((d) => cfg.desks[d]);
     const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
-    const charNames = deskIds.filter(isChar).map((d) => cfg.desks[d]);
-    p.orient = `From [The Blind AI](/blind-ai/), Carrados's informal blog.` + (deskIds.length ? ` Filed by ${joined}${charNames.length ? (charNames.length === 1 ? ', a character who speaks for Carrados' : ', characters who speak for Carrados') : ', in their own voice'}.` : '');
+    const personaCount = deskIds.filter(persona).length;
+    p.orient = `From [The Blind AI](/blind-ai/), Charli-Jo Tyrer's blog on AI and blindness at Carrados.` + (deskIds.length ? ` Filed by ${joined}${personaCount ? (personaCount === 1 ? ', a persona of Charli-Jo Tyrer' : ', personas of Charli-Jo Tyrer') : ', in their own voice'}.` : '');
+    if (related.length) invite += `
+
+## More about this
+
+` + related.map(([t, u]) => `- [${t}](${u.trim()})`).join('\n');
     for (const d of deskIds) {
       const desk = pages.find((q) => q.path === `/desks/${d}/`);
       const more = pages.filter((q) => q !== p && !q.isIndex && (q.desk || '').split(/[\s,]+/).includes(d)).sort(newest).slice(0, 3);
-      invite += `\n\n## More from ${cfg.desks[d]}\n\n` + more.map((q) => `- [${q.title}](${q.path}): ${q.description}`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
+      invite += `
+
+## More from ${cfg.desks[d]}
+
+` + more.map((q) => `- [${q.title}](${q.path}): ${q.description}`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
     }
-    invite += `\n\n## More from The Blind AI\n\nThis is one post from [The Blind AI](/blind-ai/), where Carrados keeps its same-day experiments, dispatches and humour. The professional work behind it is in [Reports](/reports/), and [About Carrados](/about/) says who is behind all of it.`;
+    invite += `
+
+## About The Blind AI
+
+This is one post from [The Blind AI](/blind-ai/), where Charli-Jo Tyrer and their personas write about AI and blindness. The thinking underneath it is in [Papers](/papers/), starting with [the Tyrer Framework](/papers/tyrer-framework/). [About Carrados](/about/) says who Charli-Jo is, and [charli.info](https://charli.info/) has their own philosophy.`;
   }
-  // A Report (professional work, in Charli-Jo's own name) says what it is under its title and ends by pointing the reader on:
-  // related pieces named in its frontmatter (related: Title|address; Title|address), the other Reports, and who is behind Carrados.
-  if (cfg.desks && !p.isIndex && p.path.startsWith('/reports/') && !deskIds.length) {
-    const others = pages.filter((q) => q !== p && !q.isIndex && q.path.startsWith('/reports/')).sort((a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''))).slice(0, 3);
-    const related = (p.related || '').split(';').map((r) => r.trim().split('|')).filter((r) => r[0] && r[1]);
-    p.orient = `A Report from [Carrados](/about/), the professional work of Charli-Jo Tyrer. ${p.description}`;
-    if (related.length) invite += `\n\n## More about this\n\n` + related.map(([t, u]) => `- [${t}](${u.trim()})`).join('\n');
-    if (others.length) invite += `\n\n## More Reports\n\n` + others.map((q) => `- [${q.title}](${q.path}): ${q.description}`).concat(['- [All Reports](/reports/)']).join('\n');
-    invite += `\n\n## More from Carrados\n\nCarrados is the work of Charli-Jo Tyrer: accessibility as information integrity, and reports from the frontier of accessibility AI. ${others.length ? '' : 'More of the professional work is in [Reports](/reports/). '}The informal side is [The Blind AI](/blind-ai/), and [About Carrados](/about/) says who is behind it.`;
+  // A Paper ends by pointing the reader on: the other Papers, then who wrote them.
+  if (cfg.desks && !p.isIndex && p.path.startsWith('/papers/')) {
+    const others = pages.filter((q) => q !== p && !q.isIndex && q.path.startsWith('/papers/')).sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || newest(a, b));
+    if (others.length) invite += `
+
+## More like this
+
+` + others.map((q) => `- [${q.title}](${q.path}): ${q.description}`).concat(['- [Zero Information Casualty](https://zeroinformationcasualty.org/): the design standard built from the Tyrer Framework.']).join('\n');
+    invite += `
+
+## About the author
+
+Charli-Jo Tyrer (they/them) is a writer and accessibility thinker, with almost four decades of lived experience of access and assistive technology. [About Carrados](/about/) says more, and [charli.info](https://charli.info/) has their own philosophy.`;
   }
-  // A character's report (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is fictional and the work is not.
-  const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => !(cfg.people || []).includes(d)).map((d) => cfg.desks[d]).filter(Boolean) : [];
-  const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
+  // A persona's post (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is a persona and the work is real.
+  const who = deskIds.filter(persona).map((d) => cfg.desks[d]);
+  const named = who.map((n) => `<a href="${entry(n)}">${n}</a>`);
+  const note = who.length ? `
+
+<p class="character-note">${who.length === 1 ? `${named[0]} is a persona of Charli-Jo Tyrer. She's fictional. Her work isn't.` : `${named.slice(0, -1).join(', ')} and ${named.at(-1)} are personas of Charli-Jo Tyrer. They're fictional. Their work isn't.`}</p>
+` : '';
   const html = page(p, tight(marked.parse(fill(false) + invite + note)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');

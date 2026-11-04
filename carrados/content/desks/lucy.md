@@ -19,4 +19,4 @@ When you send an agent, who controls the relationship: you, the agent's provider
 
 <!-- desk:lucy -->
 
-Lucy is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.
+Lucy is a persona of Charli-Jo Tyrer, writing on [The Blind AI](https://carrados.com/blind-ai/). She's fictional. Her work isn't. [Who she is](https://charli.info/charlipedia/lucy-love-child/), in CharliPedia.
