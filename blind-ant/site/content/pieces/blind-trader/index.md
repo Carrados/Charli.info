@@ -1,6 +1,7 @@
 ---
 title: Blind Trader
 kind: piece
+related: Glide Walks: Liverpool, another game made by talking to an AI, on The Blind AI|https://carrados.com/blind-ai/glide-walks-liverpool/; Englobing, the weekend Blind Trader was made, on The Blind AI|https://carrados.com/blind-ai/englobing/
 order: 23
 description: A blind captain back at the helm after 40 years, a space trading game made by talking to an AI, and the story of how it came to be.
 label_title: Blind Trader

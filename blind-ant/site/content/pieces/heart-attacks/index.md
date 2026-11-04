@@ -1,6 +1,7 @@
 ---
 title: Heart Attacks
 kind: piece
+related: Emma Heart, in CharliPedia|https://charli.info/charlipedia/emma-heart/
 order: 4
 description: In 2038 a totally blind skier races Paralympic Super-G with no guide ahead of her, only eight drones and a suit that lets her feel the mountain, and wins by enough to break the sport.
 label_title: Heart Attacks

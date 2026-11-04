@@ -1,6 +1,7 @@
 ---
 title: Since or Until?
 kind: piece
+related: Inside Since or Until?, the account of building it, on The Blind AI|https://carrados.com/blind-ai/inside-since-or-until/; The Day the Earth Fell Silent, the follow-up on The Blind AI|https://carrados.com/blind-ai/the-day-the-earth-fell-silent/
 order: 22
 description: Pick any date, past or future, and find out how many days since or until it. Every day counts.
 label_meta: Piece, 2026. An accessible day counter and a making of.

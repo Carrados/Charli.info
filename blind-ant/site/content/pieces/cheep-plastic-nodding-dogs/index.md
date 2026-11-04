@@ -1,6 +1,7 @@
 ---
 title: Cheep Plastic Nodding Dogs™
 kind: piece
+related: Big Charli, in CharliPedia|https://charli.info/charlipedia/big-charli/; Big Charli’s Blind Marketing Consultancy|/pieces/blind-marketing-consultancy/
 order: 13
 description: Big Charli offers a plastic companion that agrees constantly, with no subscription required.
 label_title: Cheep Plastic Nodding Dogs™

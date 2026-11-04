@@ -1,6 +1,7 @@
 ---
 title: The Remaking of the Merrow Trust
 kind: piece
+related: Englobing, the weekend this design fiction caught up with reality, on The Blind AI|https://carrados.com/blind-ai/englobing/
 order: 24
 description: A retired systems analyst, blind for forty years, spends a day at her kitchen table directing a swarm of AI agents to remake a small charity's website, and holds the one thing the swarm can't multiply.
 label_meta: Piece, 2026. A design fiction and a picture, by Charlotte Joanne.
