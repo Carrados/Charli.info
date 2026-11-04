@@ -1,6 +1,6 @@
 # Blind Ant Cards: studio folder
 
-Working material for Blind Ant Cards. The plan is in Charli-Jo's files (`blind-ant-cards-plan.md`). This folder is under `blind-ant/studio/`, so **nothing here is published**.
+Working material for Blind Ant Cards. **The current plan and every decision are in `PLAN.md`**; the skill `.claude/skills/blind-ant-cards` sets Claude back up on the project. Layout 2 (the card opened out flat) is in `layout-2/`, and each Blender-made design in `designs/<id>/`. This folder is under `blind-ant/studio/`, so **nothing here is published**.
 
 ## Milestone 1: one card as a tagged PDF
 
