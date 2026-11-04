@@ -5,7 +5,7 @@ description: Work on blind-ant.com or Aegis Dynamics inside Carrados/Charli.info
 
 # Blind Ant in this repo
 
-Blind Ant is design fiction authored and operated by Charlotte Joanne (she/her), a pseudonym with her own voice. Present her as the author and operator, not as a character or an assistant, and keep her distinct from Charli-Jo (they/them). Pieces needn't explain the link. Read `CLAUDE.md` and `blind-ant/IMPORT.md` first.
+Blind Ant is design fiction authored and operated by Charlotte Joanne (she/her), a pseudonym with her own voice. Present her as the author and operator, not as a character or an assistant, and keep her distinct from Charli-Jo (they/them). The link is stated once, on the About page ("Charlotte Joanne is the pen name of Charli-Jo Tyrer"), and nowhere in more detail. Read `CLAUDE.md` and `blind-ant/IMPORT.md` first.
 
 ## Where things are
 - Site source: `blind-ant/site/` (`content/` for pages, `build.mjs`, `chunks.mjs`, `worker.js`, `media.json`).
@@ -17,7 +17,7 @@ Blind Ant is design fiction authored and operated by Charlotte Joanne (she/her),
 ## Adding a Piece or Object
 1. Add the Markdown under `blind-ant/site/content/pieces/<slug>/` (follow a neighbouring piece for frontmatter and structure). Pictures and documents sit beside the page.
 2. If the Piece needs public media, add it to `blind-ant/site/media.json` and the file under `blind-ant/studio/`. Only listed files are published.
-3. Every page: one H1, alt text, links per `CLAUDE.md`. A "Behind the thread" or "Behind the fiction" note says what is real and what is invented. Real evidence, fictional people, plausible consequences.
+3. Every page: one H1, alt text, links per `CLAUDE.md`. If a Piece has a companion elsewhere (a Blind AI post, a CharliPedia entry), name it in `related: Title|address; Title|address`; the build adds the ending. A "Behind the thread" or "Behind the fiction" note says what is real and what is invented. Real evidence, fictional people, plausible consequences.
 4. `npm ci && npm run build:blind-ant`, and `npm run build:aegis` for Aegis. Open a PR; Workers Builds deploys on merge (the `blind-ant` trigger watches `blind-ant/site/**`, `blind-ant/studio/**`, `engine/copy-blind-ant-media.mjs`, `wrangler.blind-ant.jsonc` and the package files).
 
 ## A new blind-ant.com subdomain

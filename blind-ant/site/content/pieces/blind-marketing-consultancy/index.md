@@ -1,6 +1,7 @@
 ---
 title: Big Charli’s Blind Marketing Consultancy™
 kind: piece
+related: Big Charli, in CharliPedia|https://charli.info/charlipedia/big-charli/; Cheep Plastic Nodding Dogs, her next launch|/pieces/cheep-plastic-nodding-dogs/
 order: 12
 description: A fictional consultancy sells empathy as return on investment, while its client LumaSense discovers it has never spoken to a blind person.
 label_title: Big Charli’s Blind Marketing Consultancy™

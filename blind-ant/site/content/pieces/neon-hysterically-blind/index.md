@@ -1,6 +1,7 @@
 ---
 title: Cass Flux (allegedly)
 kind: piece
+related: Cass Flux, in CharliPedia|https://charli.info/charlipedia/cass-flux/
 order: 11
 description: A manifesto, a poetic self-portrait and a love letter to the algorithm, in Cass Flux’s voice.
 label_title: Cass Flux (allegedly)

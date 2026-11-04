@@ -1,6 +1,7 @@
 ---
 title: Street Philosophy
 kind: piece
+related: The Museum of Access and Assistive Technology, in CharliPedia|https://charli.info/charlipedia/museum-of-access-and-assistive-technology/
 order: 6
 description: Thought experiments run out of a knicker drawer: what makes a bra-and-briefs set the same set, why the mile in his shoes is bollocks, and the difference between being blind and going blind.
 label_title: Street Philosophy
