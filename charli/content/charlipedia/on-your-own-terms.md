@@ -24,4 +24,4 @@ The exhibit holds both: the social browsing that was warm and mediated, and the 
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. The exhibit is built from real testimony, given to the museum by its depositor. Amazon, and the online bookshop it opened in the 1990s, are real.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. The exhibit is built from real testimony, given to the museum by its depositor. Amazon, and the online bookshop it opened in the 1990s, are real.
