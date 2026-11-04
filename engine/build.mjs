@@ -92,7 +92,7 @@ function page(p, html) {
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
-  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}${status}
+  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}${p.orient ? `\n  <p class="orient">${marked.parseInline(p.orient)}</p>` : ''}${status}
   <div class="prose">
 ${html}
   </div>
@@ -109,6 +109,7 @@ ${html}
 function markdownMirror(p, body) {
   let out = `# ${p.title}\n\n> ${p.description}\n\n`;
   if (p.byline || p.date) out += [p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
+  if (p.orient) out += p.orient.replace(/\]\(\//g, `](${SITE}/`) + '\n\n';
   if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${(cfg.statusNotes?.[p.status] ?? cfg.statusNote).replace(/<[^>]+>/g, '')}\n\n`;
   body = body.replace(/<!--[\s\S]*?-->\n?/g, '').replace(/\]\(\//g, `](${SITE}/`);
   return out + body.trim() + '\n';
@@ -168,15 +169,69 @@ for (const p of pages) {
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();
-  // A character's report (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is fictional and the work is not.
-  const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => !(cfg.people || []).includes(d)).map((d) => cfg.desks[d]).filter(Boolean) : [];
-  const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
-  const html = page(p, tight(marked.parse(fill(false) + note)));
+  // Every piece is the front page (CLAUDE.md): visitors arrive from a link, not the front page. A Blind AI post, or any post
+  // from a desk, says where it is and who is speaking under its title, and ends with three invitations: more about this
+  // (pieces named in its frontmatter, related: Title|address; Title|address), more from the same writer, and the wider
+  // Blind AI with who is behind it.
+  const newest = (a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''));
+  const persona = (d) => !(cfg.people || []).includes(d);
+  const entry = (name) => `https://charli.info/charlipedia/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
+  const related = (p.related || '').split(';').map((r) => r.trim().split('|')).filter((r) => r[0] && r[1]);
+  const deskIds = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => cfg.desks[d]) : [];
+  const inBlogPost = cfg.desks && !p.isIndex && p.path.startsWith('/blind-ai/');
+  let invite = '';
+  if (deskIds.length || inBlogPost) {
+    const names = deskIds.map((d) => cfg.desks[d]);
+    const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
+    const personaCount = deskIds.filter(persona).length;
+    p.orient = `From [The Blind AI](/blind-ai/), Charli-Jo Tyrer's blog on AI and blindness at Carrados.` + (deskIds.length ? ` Filed by ${joined}${personaCount ? (personaCount === 1 ? ', a persona of Charli-Jo Tyrer' : ', personas of Charli-Jo Tyrer') : ', in their own voice'}.` : '');
+    if (related.length) invite += `
+
+## More about this
+
+` + related.map(([t, u]) => `- [${t}](${u.trim()})`).join('\n');
+    for (const d of deskIds) {
+      const desk = pages.find((q) => q.path === `/desks/${d}/`);
+      const more = pages.filter((q) => q !== p && !q.isIndex && (q.desk || '').split(/[\s,]+/).includes(d)).sort(newest).slice(0, 3);
+      invite += `
+
+## More from ${cfg.desks[d]}
+
+` + more.map((q) => `- [${q.title}](${q.path}): ${q.description}`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
+    }
+    invite += `
+
+## About The Blind AI
+
+This is one post from [The Blind AI](/blind-ai/), where Charli-Jo Tyrer and their personas write about AI and blindness. The thinking underneath it is in [Papers](/papers/), starting with [the Tyrer Framework](/papers/tyrer-framework/). [About Carrados](/about/) says who Charli-Jo is, and [charli.info](https://charli.info/) has their own philosophy.`;
+  }
+  // A Paper ends by pointing the reader on: the other Papers, then who wrote them.
+  if (cfg.desks && !p.isIndex && p.path.startsWith('/papers/')) {
+    const others = pages.filter((q) => q !== p && !q.isIndex && q.path.startsWith('/papers/')).sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || newest(a, b));
+    if (others.length) invite += `
+
+## More like this
+
+` + others.map((q) => `- [${q.title}](${q.path}): ${q.description}`).concat(['- [Zero Information Casualty](https://zeroinformationcasualty.org/): the design standard built from the Tyrer Framework.']).join('\n');
+    invite += `
+
+## About the author
+
+Charli-Jo Tyrer (they/them) is a writer and accessibility thinker, with almost four decades of lived experience of access and assistive technology. [About Carrados](/about/) says more, and [charli.info](https://charli.info/) has their own philosophy.`;
+  }
+  // A persona's post (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is a persona and the work is real.
+  const who = deskIds.filter(persona).map((d) => cfg.desks[d]);
+  const named = who.map((n) => `<a href="${entry(n)}">${n}</a>`);
+  const note = who.length ? `
+
+<p class="character-note">${who.length === 1 ? `${named[0]} is a persona of Charli-Jo Tyrer. She's fictional. Her work isn't.` : `${named.slice(0, -1).join(', ')} and ${named.at(-1)} are personas of Charli-Jo Tyrer. They're fictional. Their work isn't.`}</p>
+` : '';
+  const html = page(p, tight(marked.parse(fill(false) + invite + note)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });
   await writeFile(out, html);
-  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true)));
+  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true) + invite));
 }
 const listed = pages.filter((p) => p.rel !== '404').sort((a, b) => a.path.localeCompare(b.path));
 

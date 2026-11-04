@@ -4,6 +4,7 @@ description: Down the Banksy asks what Peak Cluster would cost, what refusal wou
 date: 2026-10-25
 time: "14:40"
 byline: Down the Banksy
+desk: banksy
 ---
 
 There is a cheap way to argue about the Peak Cluster carbon capture pipeline, and there is an honest way.

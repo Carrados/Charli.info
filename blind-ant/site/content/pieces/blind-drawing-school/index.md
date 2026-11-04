@@ -1,6 +1,7 @@
 ---
 title: Blind Drawing School
 kind: piece
+related: The Colouring Book, the school’s first lesson|/pieces/the-colouring-book/; The Persistence of Vision, on The Blind AI|https://carrados.com/blind-ai/the-persistence-of-vision/
 order: 18
 description: A proposed school explores learning to draw, colour and paint without sight, using code pencils and an AI drawing tutor.
 label_meta: Piece, 2026. An imagined school, a prospectus and a personal essay. Written and directed by Charlotte Joanne.

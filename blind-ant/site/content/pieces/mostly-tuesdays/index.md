@@ -1,6 +1,7 @@
 ---
 title: Mostly Tuesdays
 kind: piece
+related: Human in the loop? Human in bed., dice on reading Mostly Tuesdays from bed, on The Blind AI|https://carrados.com/blind-ai/human-in-the-loop-human-in-bed/; Big Charli, in CharliPedia|https://charli.info/charlipedia/big-charli/
 order: 8
 description: Aegis Dynamics is ready to launch its Tactical Foundation Garments division, and Big Charli sends for Poppy, her expert in what women actually want.
 label_title: Mostly Tuesdays

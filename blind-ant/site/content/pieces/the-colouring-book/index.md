@@ -1,6 +1,7 @@
 ---
 title: The Colouring Book
 kind: piece
+related: Blind Drawing School, the school it is the first lesson of|/pieces/blind-drawing-school/; The Persistence of Vision, on The Blind AI|https://carrados.com/blind-ai/the-persistence-of-vision/
 order: 21
 description: A colouring-in page you can use without seeing it.
 label_meta: Piece, 2026. An accessible colouring app, a coloured picture and a making of.

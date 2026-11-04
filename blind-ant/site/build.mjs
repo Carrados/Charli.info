@@ -7,6 +7,10 @@
 //   kind: piece | object        a Piece is listed on the front page; an Object is listed on its Piece
 //   order: 1, 2, ...            the order Objects appear in on their Piece
 //   label_title, label_meta, label   an optional wall label at the top of the page
+//   related: Title|address; Title|address   companions elsewhere, listed under "More about this" at the end
+//
+// Every Piece and Object ends with three invitations (CLAUDE.md, "Every piece is the front page"): more about this,
+// more from Blind Ant, and who wrote it. The site footer belongs to the website, so it doesn't repeat the author.
 //
 // In a page body, <!-- pieces --> becomes the list of Pieces, <!-- latest:N --> the N newest Pieces (highest order first),
 // <!-- pieces-a-z --> every Piece in alphabetical order under a heading per letter, and <!-- objects --> the list of this Piece's Objects.
@@ -125,7 +129,7 @@ function page(p, rawHtml) {
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
   <a class="site-name" href="/">Blind Ant</a>
-  <nav aria-label="Site"><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a></nav>
+  <nav aria-label="Site"><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a> <a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></nav>
 </header>
 <main id="main">${trail(p)}
 ${wallLabel(d, jump)}
@@ -134,7 +138,7 @@ ${html}
   </div>
 </main>
 <footer class="site-footer">
-  <p>Blind Ant is run by Charlotte Joanne, and is part of <a href="https://charli.info/">the CharliVerse</a>. To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a>.</p>
+  <p>Blind Ant is part of <a href="https://charli.info/">the CharliVerse</a>. To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a>.</p>
   <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
 </footer>
 </body>
@@ -188,6 +192,26 @@ for (const p of pages) {
 const byOrder = (a, b) => (Number(a.order) || 99) - (Number(b.order) || 99) || a.title.localeCompare(b.title);
 const pieces = pages.filter((p) => p.kind === 'piece').sort(byOrder);
 
+// The ending of a Piece or Object: companions named in its frontmatter, its Piece and sibling Objects, a few more Pieces, and the author.
+const link = (t, u, md) => `- [${t}](${md && u.startsWith('/') ? SITE + u.replace(/\/$/, '/index.md') : u})`;
+function ending(p, md) {
+  if (p.kind !== 'piece' && p.kind !== 'object') return '';
+  const related = (p.related || '').split(';').map((r) => r.trim().split('|')).filter((r) => r[0] && r[1]).map(([t, u]) => link(t.trim(), u.trim(), md));
+  const about = [];
+  if (p.parent) {
+    about.push(`- This is one Object of [${p.parent.title}](${md ? SITE + p.parent.mdPath : p.parent.path}), a Piece at Blind Ant.`);
+    for (const q of pages.filter((x) => x.parent === p.parent && x !== p).sort(byOrder)) about.push(listItem(q, md));
+  }
+  about.push(...related);
+  let out = about.length ? `\n\n## More about this\n\n${about.join('\n')}` : '';
+  if (p.kind === 'piece') {
+    const more = [...pieces].reverse().filter((q) => q !== p).slice(0, 3).map((q) => listItem(q, md));
+    out += `\n\n## More from Blind Ant\n\n${more.join('\n')}\n- [All Pieces, A to Z](${md ? SITE + '/pieces/index.md' : '/pieces/'})`;
+  }
+  out += `\n\n## About the author\n\nBlind Ant is written and run by Charlotte Joanne. [About Blind Ant](${md ? SITE + '/about/index.md' : '/about/'}) says more.`;
+  return out;
+}
+
 // Second pass: write them.
 for (const p of pages) {
   const objects = pages.filter((q) => q.parent === p).sort(byOrder);
@@ -220,7 +244,7 @@ for (const p of pages) {
       })
       .replace('<!-- objects -->', objects.map((q) => listItem(q, md)).join('\n'));
   seen = new Map();
-  const html = page(p, tight(marked.parse(fill(false))));
+  const html = page(p, tight(marked.parse(fill(false) + ending(p, false))));
   if (p.rel === '404') {
     await writeFile(join(dist, '404.html'), html);
     continue;
@@ -228,7 +252,7 @@ for (const p of pages) {
   const htmlOut = join(dist, p.path, 'index.html');
   await mkdir(dirname(htmlOut), { recursive: true });
   await writeFile(htmlOut, html);
-  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true)));
+  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true) + ending(p, true)));
 }
 const listed = pages.filter((p) => p.rel !== '404').sort((a, b) => a.path.localeCompare(b.path));
 
@@ -243,8 +267,8 @@ for (const f of extras) {
 // llms.txt
 const home = pages.find((p) => p.path === '/');
 // The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
-const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://carrados.com/papers/zic-design-standard/';
-let llms = `# Blind Ant\n\n> ${home.description}\n\nBlind Ant is the design fiction practice of Charlotte Joanne, its author and operator. It is part of the CharliVerse (https://charli.info/). Contact: charlotte.joanne@blind-ant.com.\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.\n\n## Pages\n\n`;
+const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/';
+let llms = `# Blind Ant\n\n> ${home.description}\n\nBlind Ant is the practice of Charlotte Joanne, its author and operator: design fiction, stories, games, artworks and working objects, and how each was made. Charlotte Joanne is the pen name of Charli-Jo Tyrer. It is part of the CharliVerse (https://charli.info/). Contact: charlotte.joanne@blind-ant.com.\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.\n\n## Pages\n\n`;
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);
 

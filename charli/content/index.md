@@ -1,6 +1,6 @@
 ---
 title: The CharliVerse
-description: The CharliVerse is a shared, evolving world of people, companies, fashion houses, technologies and stories, and the home of two practices, Carrados and Blind Ant.
+description: The CharliVerse is a shared, evolving world of people, companies, fashion houses, technologies and stories made by Charli-Jo Tyrer, and the place where their own philosophy lives.
 ---
 
 **I create worlds to inhabit, where a thing happens.**
@@ -12,22 +12,20 @@ It is a world, not a portfolio. Things happen here whether or not anyone announc
 ## Three ways in
 
 - **Read a story:** [Come and Get Me](https://blind-ant.com/pieces/come-and-get-me/), at Blind Ant. A blind woman, a self-driving car, thirty metres of unmapped gravel and a friend with a guide dog.
-- **Explore the world:** [the CharliVerse Court](/charlipedia/the-charliverse-court/), a company of women who work together across the CharliVerse, then the rest of [CharliPedia](/charlipedia/).
+- **Meet the people:** [Lucy Love-Child](/charlipedia/lucy-love-child/), [Big Charli](/charlipedia/big-charli/) and [dice](/charlipedia/dice/), then everyone else in [CharliPedia](/charlipedia/).
 - **Explore accessible AI:** [Training](/training/), with the TAVIP Masterclass: Agentic Accessibility and information about the archived Confident with AI course. This part is real.
 
-## Two practices
+## Where the work lives
 
-Two practices work inside the CharliVerse.
+Each name runs its own place.
 
-- [Carrados](https://carrados.com/) investigates. It publishes design non-fiction: real-world exploration of AI, accessibility and agentic systems, including reports from its correspondents dice, Lucy Love-Child and Madison McDonnell. It makes claims about reality, and it is accountable for them.
-- [Blind Ant](https://blind-ant.com/) imagines. It publishes design fiction: speculative worlds, artworks, stories and fictional documents by Charlotte Joanne, and the story of how each one was made.
-
-Carrados investigates the future. Blind Ant makes the future imaginable. The CharliVerse gives that future somewhere to happen.
+- [Carrados](https://carrados.com/) is Charli-Jo's: the Tyrer Framework, and [The Blind AI](https://carrados.com/blind-ai/), their blog on AI and blindness, written with their personas dice, Lucy Love-Child, Madison McDonnell and Down the Banksy. It makes claims about reality, and it is accountable for them.
+- [Blind Ant](https://blind-ant.com/) is run by Charlotte Joanne: speculative worlds, stories, games, artworks and working objects, and the story of how each one was made.
 
 ## In the world
 
-The CharliVerse is home to fashion houses such as [Iceberg Hosiery](/charlipedia/iceberg-hosiery/), [Seamiotics](/charlipedia/seamiotics/) (every seam means something) and [LULU TOM](/charlipedia/lulu-tom/), and to the people who move between its stories. Their records are kept in [CharliPedia](/charlipedia/), the memory of the CharliVerse.
+The CharliVerse is home to fashion houses such as [Iceberg Hosiery](/charlipedia/iceberg-hosiery/), [Seamiotics](/charlipedia/seamiotics/) (every seam means something) and [LULU TOM](/charlipedia/lulu-tom/), and to the people who move between its stories. Some of them are personas, who write as themselves; others are characters, who live in the stories. Their records are kept in [CharliPedia](/charlipedia/), the memory of the CharliVerse.
 
 ## Charli-Jo
 
-[Charli-Jo Tyrer](/charli-jo/) makes the CharliVerse. Their real-world work, including [training](/training/), lives here too, and is labelled as real. If you'd like to support their work, they're on [Patreon](https://www.patreon.com/c/CharliJo).
+[Charli-Jo Tyrer](/charli-jo/) makes the CharliVerse. Their own philosophy is in [Perspectives](/perspectives/), and their real-world work, including [training](/training/), lives here too, labelled as real. If you'd like to support their work, they're on [Patreon](https://www.patreon.com/c/CharliJo).

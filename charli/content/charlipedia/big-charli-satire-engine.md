@@ -4,7 +4,7 @@ description: The Big Charli Satire Engine is a reusable prompt specification tha
 status: real
 ---
 
-The **Big Charli Satire Engine** (BCSE) is a prompt specification for producing straight-faced satire from real-world material: a product announcement, a startup pitch, a consultancy service or a policy document. It takes its name from [Big Charli](/charlipedia/big-charli/), the satirist of the [CharliVerse Court](/charlipedia/the-charliverse-court/).
+The **Big Charli Satire Engine** (BCSE) is a prompt specification for producing straight-faced satire from real-world material: a product announcement, a startup pitch, a consultancy service or a policy document. It takes its name from [Big Charli](/charlipedia/big-charli/), the satirist.
 
 Its starting point is that satire can be a form of reasoning. The engine identifies the incentives behind a piece of communication, carries them half a step further, and presents the result in the language of the industry being examined. The humour comes from recognition.
 

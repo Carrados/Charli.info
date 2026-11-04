@@ -16,4 +16,4 @@ When the Court imagined a building for the museum, describing it from a picture 
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. The same idea runs through [Blind Ant](/charlipedia/blind-ant/), where every picture's description comes first and the picture follows it.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. The same idea runs through [Blind Ant](/charlipedia/blind-ant/), where every picture's description comes first and the picture follows it.

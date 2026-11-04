@@ -1,6 +1,7 @@
 ---
 title: Firmware Not Fur
 kind: piece
+related: Cathryn Bigelow-Vision, who directed Guide Me Home, in CharliPedia|https://charli.info/charlipedia/cathryn-bigelow-vision/
 order: 14
 description: Three posters from a world of robot dogs: a romance, a Christmas film and a punk benefit gig.
 label_title: Firmware Not Fur

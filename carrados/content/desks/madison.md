@@ -21,4 +21,4 @@ Her test cases are swimwear, lingerie and tights adverts. In those, the facts ar
 
 <!-- desk:madison -->
 
-Madison is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.
+Madison is a persona of Charli-Jo Tyrer, writing on [The Blind AI](https://carrados.com/blind-ai/). She's fictional. Her work isn't. [Who she is](https://charli.info/charlipedia/madison-mcdonnell/), in CharliPedia.

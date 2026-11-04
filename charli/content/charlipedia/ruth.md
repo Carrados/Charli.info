@@ -24,4 +24,4 @@ Her tension with [Iris](/charlipedia/iris/) is productive: Ruth wants to hold th
 
 ## Behind the scenes
 
-This entry is drawn from the Museum Court Soul Document, version four. By the Court's own rule, *grow professionally, hold personally*, her private life is deliberately unwritten, and CharliPedia leaves it that way: no childhood, home, family or surname is to be invented for her.
+This entry belongs to the Museum of Access and Assistive Technology, a design fiction from [Street Philosophy](https://blind-ant.com/pieces/street-philosophy/) at Blind Ant. Its staff are characters. By the Court's own rule, *grow professionally, hold personally*, her private life is deliberately unwritten, and CharliPedia leaves it that way: no childhood, home, family or surname is to be invented for her.

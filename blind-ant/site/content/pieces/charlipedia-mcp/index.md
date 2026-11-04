@@ -1,6 +1,7 @@
 ---
 title: CharliPedia MCP
 kind: piece
+related: CharliPedia, the encyclopaedia the server reads|https://charli.info/charlipedia/; Give it a Tuesday, a discussion it helped compose, on The Blind AI|https://carrados.com/blind-ai/give-it-a-tuesday/
 order: 17
 description: A working, read-only MCP server that lets any AI agent look things up in CharliPedia, the memory of the CharliVerse: an experiment done in the open.
 label_title: CharliPedia MCP
