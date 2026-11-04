@@ -39,7 +39,8 @@ blind-ant/studio/cards/
   card.mjs, browser-entry.mjs, index.html, cards.bundle.js   milestone 1 (layout 1, SVG robin)
   layout-2/card2.mjs       layout 2: 360 × 720, picture front with headline, cream inside
   layout-2/make.mjs        makes a sample card in Node
-  designs/<id>/            one folder per design: README.md (headline + description), scene.py, picture.jpg
+  designs/<id>/            one folder per design: README.md (headline + description), scene.py,
+                           master.png (lossless render, always kept), picture.jpg (what the card uses)
   fonts/                   Atkinson Hyperlegible Next Regular and Bold (OFL)
   samples/                 made cards
 ```
@@ -59,9 +60,10 @@ Blender 5.2 is at `C:\Program Files\Blender Foundation\Blender 5.2\blender.exe`.
    - **Glow:** a compositor node group (`CompositorNodeTree`) with Render Layers → Glare (Bloom) → Group Output, set as `scene.compositing_node_group`. Wrap it in try/except in case the API differs.
    - Keep everything **stylised and handmade-feeling** (ceramic, felt, paper, candlelight), not photographic. Avoid creatures and people where possible; the robin is the hard one.
 3. Test fast, then render properly:
-   `blender -b --factory-startup -P scene.py -- test.png 32 540` (about 20 seconds), look at it with the Read tool, fix, repeat. Final: `-- picture.png 160 1080`.
-4. Save as JPEG quality 86 with Blender itself (load the PNG, set the view transform to Standard so it isn't applied twice, `save_render`). About 64 KB.
-5. Time-box: if a scene fights back for a whole session, simplify it or change its subject.
+   `blender -b --factory-startup -P scene.py -- test.png 32 540` (about 20 seconds), look at it with the Read tool, fix, repeat. Final: `-- master.png 160 1080`.
+4. **Keep the lossless master in the repo (Charli-Jo's rule, 4 November 2026):** commit the final render as `designs/<id>/master.png`, exactly as Blender wrote it. Every other version is made from it, and it's never replaced by a compressed copy.
+5. Make `picture.jpg` from the master: JPEG quality 86 with Blender itself (load the PNG, set the view transform to Standard so it isn't applied twice, `save_render`). About 64 KB.
+6. Time-box: if a scene fights back for a whole session, simplify it or change its subject.
 
 ## 5. Making and checking a card
 

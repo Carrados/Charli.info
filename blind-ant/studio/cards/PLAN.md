@@ -99,7 +99,7 @@ Charli-Jo's note *Blind Ant Cards: Optional Charity Christmas Cards* (on their c
 
 See `.claude/skills/blind-ant-cards/SKILL.md`, the skill that sets Claude back up on this project. In short:
 
-- **Blender scenes** are Python scripts run headless (`blender -b --factory-startup -P scene.py -- out.png 160 1080`), rendered with Cycles at 1080 × 1080, AgX "Punchy", with a compositor bloom for glow. Then saved as JPEG quality 86 (about 64 KB). The finished card PDF is about 85 KB.
+- **Blender scenes** are Python scripts run headless (`blender -b --factory-startup -P scene.py -- out.png 160 1080`), rendered with Cycles at 1080 × 1080, AgX "Punchy", with a compositor bloom for glow. **The lossless render is kept in the repo as `designs/<id>/master.png`** (Charli-Jo's rule, 4 November), and the card uses a JPEG made from it at quality 86 (about 64 KB). The finished card PDF is about 85 KB.
 - **Checking a PDF:** pdf.js reads the structure tree and tagged text in Node. On this Windows ARM computer the Node canvas renderer crashes, so look at the page with pdf.js in the browser pane, served from a local folder.
 - **Phone testing:** a temporary Cloudflare Worker at a secret path on workers.dev (noindex, no-store), deleted once tests are done. Never linked from anywhere.
 - **Honesty:** never claim a screen-reader or device test that wasn't done, or PDF/UA without veraPDF evidence. Record who tested what, where and when.
