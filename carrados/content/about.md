@@ -11,7 +11,7 @@ Their accessibility work draws on almost four decades of lived experience with a
 
 Charli-Jo Tyrer (they/them) founded Carrados and is its principal practitioner. Charli-Jo writes both design fiction and design non-fiction. Their design fiction is published by [Blind Ant](https://blind-ant.com/), under the pen name Charlotte Joanne: invented things that tell the truth. Carrados publishes their design non-fiction: true things, sometimes told through invented voices. Its work makes claims about reality, uses evidence, and is accountable for those claims.
 
-Charli-Jo speaks as Carrados, in two registers. [Reports](/reports/), [Papers](/papers/) and [Perspectives](/perspectives/) are the professional work, in their own name. [The Blind AI](/blind-ai/) is the informal blog: Charli-Jo's same-day dispatches at [charli.carrados.com](https://charli.carrados.com/), and the pieces of the characters who speak for Carrados: dice, a temporal explorer who reports the weather from the parts of the future that have already arrived; Lucy Love-Child, who covers the Agent Wars, agentic accessibility and the emerging agent economy for The Blind AI; and Madison McDonnell, the Access Provocateur, who investigates fashion, desire, persuasion and accessibility.
+Carrados holds two things. [Papers](/papers/) are the frameworks, in Charli-Jo's own name: the Tyrer Framework and the essays built on it. [The Blind AI](/blind-ai/) is Charli-Jo's blog on AI and blindness: their own dispatches at [charli.carrados.com](https://charli.carrados.com/), and the pieces of their personas, invented people who write as themselves: dice, a temporal explorer who reports the weather from the parts of the future that have already arrived; Lucy Love-Child, who covers the Agent Wars, agentic accessibility and the emerging agent economy for The Blind AI; Madison McDonnell, the Access Provocateur, who investigates fashion, desire, persuasion and accessibility; and Down the Banksy, a Liverpool Protest Artist who serves public notices on power.
 
 They're fictional. Their work isn't.
 
@@ -28,4 +28,4 @@ To get in touch with Carrados, write to Charli-Jo Tyrer at [charli-jo@carrados.c
 ## Elsewhere
 
 - Design fiction: [Blind Ant](https://blind-ant.com/), run by Charlotte Joanne.
-- The CharliVerse, the world all of this happens in: [charli.info](https://charli.info/).
+- Charli-Jo's own philosophy, the [Perspectives](https://charli.info/perspectives/), and the CharliVerse, the world all of this happens in: [charli.info](https://charli.info/).

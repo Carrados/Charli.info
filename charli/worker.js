@@ -17,7 +17,7 @@ function moved(path) {
 
   if ((m = path.match(/^\/carrados\/([\w-]+)\/?$/))) return `https://carrados.com/papers/${m[1]}/`;
   if (/^\/carrados\/?$/.test(path)) return 'https://carrados.com/';
-  if ((m = path.match(/^\/perspectives(\/[\w-]+)?\/?$/))) return `https://carrados.com/perspectives${m[1] ? m[1] + '/' : '/'}`;
+  // Perspectives came home to charli.info on 4 November 2026, so /perspectives/ is served here, not forwarded.
   if ((m = path.match(/^\/documents\/((?:The_Tyrer_Framework|Zero_Information_Casualty_v1_5)\.docx)$/))) return `https://carrados.com/documents/${m[1]}`;
   // Pieces already rehung at Blind Ant go straight to them; everything else waits on Blind Ant's front page.
   if (/^\/pieces\/deathbot-2000(\/|$)/.test(path)) return 'https://blind-ant.com/pieces/deathbot-2000/';

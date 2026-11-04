@@ -23,4 +23,4 @@ For dice, the future is not a destination; it is a geography. Her reports are cl
 
 <!-- desk:dice -->
 
-dice is a character who speaks for [Carrados](https://carrados.com/about/). She's fictional. Her work isn't.
+dice is a persona of Charli-Jo Tyrer, writing on [The Blind AI](https://carrados.com/blind-ai/). She's fictional. Her work isn't. [Who she is](https://charli.info/charlipedia/dice/), in CharliPedia.

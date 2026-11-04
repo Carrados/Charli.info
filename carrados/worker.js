@@ -14,7 +14,7 @@ const MOVED_TO_BLOG = ['please-state-the-nature-of-the-accessibility-emergency',
   'a-tale-of-two-emails', 'agents-provocateurs', 'flip-the-ai-toggle-and-feel-righteous', 'except-why-id-want-one',
   'human-in-the-loop-human-at-the-laptop', 'human-in-the-loop-human-in-bed', 'human-in-the-loop-human-with-the-final-word',
   'give-it-a-tuesday', 'price-both-columns-peak-cluster', 'the-day-the-earth-fell-silent', 'apparently-were-doing-this-now',
-  'sloppy-thinking', 'the-persistence-of-vision'];
+  'sloppy-thinking', 'the-persistence-of-vision', 'inside-since-or-until'];
 // Files come from this Worker's own static assets (uploaded with each publish), not from anywhere else.
 const pull = (env, request, path) => env.ASSETS.fetch(new Request(new URL(path, request.url), { headers: request.headers }));
 function respond(r, path, status) {
@@ -43,6 +43,10 @@ export default {
       return Response.redirect('https://zeroinformationcasualty.org' + path + url.search, 301);
     if (path === '/images/zic-v1-5-cover.jpg')
       return Response.redirect('https://zeroinformationcasualty.org/documents/zic-v1-5-cover.jpg' + url.search, 301);
+    // 4 November 2026: Reports folded into The Blind AI, and Perspectives moved to charli.info.
+    if (/^\/reports(\/(index\.(html|md))?)?$/.test(path)) return Response.redirect('https://carrados.com/blind-ai/' + url.search, 301);
+    const persp = path.match(/^\/perspectives(\/[\w-]+)?(\/(?:index\.(?:html|md))?)?$/);
+    if (persp) return Response.redirect(`https://charli.info/perspectives${persp[1] || ''}${persp[2] || '/'}${url.search}`, 301);
     const moved = path.match(/^\/reports\/([\w-]+)(\/(?:index\.(?:html|md))?)?$/);
     if (moved && MOVED_TO_BLOG.includes(moved[1]))
       return Response.redirect(`https://carrados.com/blind-ai/${moved[1]}${moved[2] || '/'}${url.search}`, 301);

@@ -3,6 +3,8 @@ title: Inside Since or Until?
 description: Charli-Jo asks an AI coding agent to build an accessible date picker, and gets a day counter that knows how many Tuesdays have passed.
 date: 2026-10-28
 time: "21:23"
+desk: charli
+byline: Charli-Jo Tyrer
 related: Since or Until? on Blind Ant|https://blind-ant.com/pieces/since-or-until/; The Day the Earth Fell Silent, the follow-up dispatch on The Blind AI|/blind-ai/the-day-the-earth-fell-silent/
 ---
 

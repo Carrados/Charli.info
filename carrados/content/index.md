@@ -22,20 +22,16 @@ New to Carrados? Three ways in, from lightest to deepest:
 2. **The idea in plain language:** [Why Accessibility Keeps Getting Worse — and Why, for the First Time, It Might Not](/papers/classical-and-generative-accessibility/). Why accessibility erodes, and the fork AI puts in front of us.
 3. **The full theory and the standard:** [the Tyrer Framework](/papers/tyrer-framework/), then [the ZIC design standard](https://zeroinformationcasualty.org/) built from it.
 
-Some Blind AI posts are written by correspondents who are characters; everything they report rests on real, sourced facts. [About Carrados](/about/) explains how that works.
-
-## Reports
-
-[Professional accounts of the work](/reports/), in Charli-Jo Tyrer's name: what was done, how, what was found, and its limits.
+Some Blind AI posts are written by personas: invented people whose reports rest on real, sourced facts. [About Carrados](/about/) explains how that works.
 
 ## The Blind AI
 
-[The informal blog](/blind-ai/): same-day experiments and dispatches from the frontier of accessibility AI, from Charli-Jo and the correspondents dice, Lucy Love-Child and Madison McDonnell.
+[Charli-Jo's blog on AI and blindness](/blind-ai/): same-day experiments, dispatches and longer accounts of the work, from Charli-Jo and the personas dice, Lucy Love-Child, Madison McDonnell and Down the Banksy.
 
 ## Papers
 
 The considered work: [the Tyrer Framework](/papers/tyrer-framework/), the theory; [the Zero Information Casualty (ZIC) design standard](https://zeroinformationcasualty.org/), the engineering standard derived from it; and three essays. [All papers](/papers/).
 
-## Perspectives
+## Elsewhere
 
-[Long-form essays and propositions](/perspectives/) about the future, meaning and the responsibilities of being here.
+Charli-Jo's own philosophy, the [Perspectives](https://charli.info/perspectives/), is at charli.info.
