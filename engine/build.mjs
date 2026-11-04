@@ -92,7 +92,7 @@ function page(p, html) {
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
-  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}${status}
+  ${p.logo_heading && cfg.logo ? `<h1 class="logo-heading"><span class="visually-hidden">${esc(p.title)}</span>${cfg.logo}</h1>` : `<h1>${esc(p.title)}</h1>`}${meta ? `\n  <p class="page-meta">${meta}</p>` : ''}${p.orient ? `\n  <p class="orient">${marked.parseInline(p.orient)}</p>` : ''}${status}
   <div class="prose">
 ${html}
   </div>
@@ -109,6 +109,7 @@ ${html}
 function markdownMirror(p, body) {
   let out = `# ${p.title}\n\n> ${p.description}\n\n`;
   if (p.byline || p.date) out += [p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
+  if (p.orient) out += p.orient.replace(/\]\(\//g, `](${SITE}/`) + '\n\n';
   if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${(cfg.statusNotes?.[p.status] ?? cfg.statusNote).replace(/<[^>]+>/g, '')}\n\n`;
   body = body.replace(/<!--[\s\S]*?-->\n?/g, '').replace(/\]\(\//g, `](${SITE}/`);
   return out + body.trim() + '\n';
@@ -168,15 +169,34 @@ for (const p of pages) {
       return filed.length ? filed.map((q) => item(q, md)).join('\n') : (cfg.emptyList || '');
     });
   seen = new Map();
+  // Visitors arrive from a link, not the front page. A post from a desk, or any Blind AI post, says where it is under its title and ends by inviting the reader on:
+  // more from the same writer (their other posts and their desk), then the wider Blind AI and the real work behind it.
+  const deskIds = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => cfg.desks[d]) : [];
+  const inBlogPost = cfg.desks && !p.isIndex && p.path.startsWith('/blind-ai/');
+  let invite = '';
+  if (deskIds.length || inBlogPost) {
+    const newest = (a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''));
+    const isChar = (d) => !(cfg.people || []).includes(d);
+    const names = deskIds.map((d) => cfg.desks[d]);
+    const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
+    const charNames = deskIds.filter(isChar).map((d) => cfg.desks[d]);
+    p.orient = `From [The Blind AI](/blind-ai/), Carrados's informal blog.` + (deskIds.length ? ` Filed by ${joined}${charNames.length ? (charNames.length === 1 ? ', a character who speaks for Carrados' : ', characters who speak for Carrados') : ', in their own voice'}.` : '');
+    for (const d of deskIds) {
+      const desk = pages.find((q) => q.path === `/desks/${d}/`);
+      const more = pages.filter((q) => q !== p && !q.isIndex && (q.desk || '').split(/[\s,]+/).includes(d)).sort(newest).slice(0, 3);
+      invite += `\n\n## More from ${cfg.desks[d]}\n\n` + more.map((q) => `- [${q.title}](${q.path}): ${q.description}`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
+    }
+    invite += `\n\n## More from The Blind AI\n\nThis is one post from [The Blind AI](/blind-ai/), where Carrados keeps its same-day experiments, dispatches and humour. The professional work behind it is in [Reports](/reports/), and [About Carrados](/about/) says who is behind all of it.`;
+  }
   // A character's report (not one from a real person's desk in cfg.people) ends by saying, on the page itself, that its writer is fictional and the work is not.
   const who = p.desk && !p.isIndex && cfg.desks ? p.desk.split(/[\s,]+/).filter((d) => !(cfg.people || []).includes(d)).map((d) => cfg.desks[d]).filter(Boolean) : [];
   const note = who.length ? `\n\n<p class="character-note">${who.length === 1 ? `${who[0]} is a character who speaks for <a href="/">Carrados</a>. She's fictional. Her work isn't.` : `${who.slice(0, -1).join(', ')} and ${who.at(-1)} are characters who speak for <a href="/">Carrados</a>. They're fictional. Their work isn't.`}</p>\n` : '';
-  const html = page(p, tight(marked.parse(fill(false) + note)));
+  const html = page(p, tight(marked.parse(fill(false) + invite + note)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });
   await writeFile(out, html);
-  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true)));
+  await writeFile(join(dist, p.mdPath), markdownMirror(p, fill(true) + invite));
 }
 const listed = pages.filter((p) => p.rel !== '404').sort((a, b) => a.path.localeCompare(b.path));
 
