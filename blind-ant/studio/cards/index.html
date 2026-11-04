@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card test — Blind Ant Cards</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 36rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1f1f1f; background: #fff; }
+  label { display: block; font-weight: 600; margin-top: 1rem; }
+  input, textarea { font: inherit; width: 100%; box-sizing: border-box; padding: 0.4rem; border: 2px solid #555; border-radius: 4px; }
+  textarea { min-height: 9rem; }
+  button { font: inherit; font-weight: 600; margin-top: 1.25rem; padding: 0.6rem 1rem; border: 2px solid #1f1f1f; border-radius: 4px; background: #fff; color: #1f1f1f; cursor: pointer; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
+  #ready[hidden] { display: none; }
+  .note { color: #444; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Card test</h1>
+  <p class="note">Milestone 1 of Blind Ant Cards: one card, to test the PDF. The design is a placeholder. Everything happens in this browser; nothing you type is sent anywhere.</p>
+
+  <form id="form">
+    <label for="recipient">To</label>
+    <input id="recipient" name="recipient" value="Jane" required autocomplete="off">
+    <label for="message">Message</label>
+    <textarea id="message" name="message">Wishing you a wonderful Christmas, full of good food, good company and at least one excellent nap.
+
+Thank you for everything this year. It wouldn't have been the same without you.</textarea>
+    <label for="closing">Closing</label>
+    <input id="closing" name="closing" value="With love" autocomplete="off">
+    <label for="sender">From</label>
+    <input id="sender" name="sender" value="Charlotte" required autocomplete="off">
+    <button type="submit">Make the card</button>
+  </form>
+
+  <p id="status" role="status" aria-live="polite"></p>
+
+  <div id="ready" hidden>
+    <a id="download" href="#" download="blind-ant-christmas-card.pdf">Download your card</a>
+    <button type="button" id="share" hidden>Share or email your card</button>
+  </div>
+</main>
+<script src="cards.bundle.js"></script>
+<script>
+  const $ = (id) => document.getElementById(id);
+  let file = null, url = null;
+
+  async function make() {
+    const card = { recipientName: $('recipient').value.trim(), message: $('message').value, closing: $('closing').value.trim(), senderName: $('sender').value.trim() };
+    $('status').textContent = 'Making your card…';
+    $('ready').hidden = true;
+    try {
+      file = await BlindAntCards.buildCardFile(card);
+    } catch (e) {
+      $('status').textContent = e.code === 'TOO_LONG' ? 'Your message is too long for the card. Try making it a little shorter.' : 'Sorry, the card could not be made: ' + e.message;
+      return null;
+    }
+    if (url) URL.revokeObjectURL(url);
+    url = URL.createObjectURL(file);
+    $('download').href = url;
+    // The share button appears only where this browser can share a file, so it never offers something that won't work.
+    $('share').hidden = !(navigator.canShare && navigator.canShare({ files: [file] }));
+    $('ready').hidden = false;
+    $('status').textContent = 'Your card is ready.';
+    return file;
+  }
+
+  $('form').addEventListener('submit', (e) => { e.preventDefault(); make(); });
+
+  // The card is already made, so sharing happens straight after the tap, as browsers require.
+  $('share').addEventListener('click', async () => {
+    try {
+      await navigator.share({ files: [file], title: 'A Christmas card' });
+      $('status').textContent = 'Your card is ready to send.'; // the share sheet can't tell us it was sent, so never say so
+    } catch (e) {
+      if (e.name !== 'AbortError') $('status').textContent = 'Sharing did not work here. Download your card and attach it instead.';
+    }
+  });
+
+  // Self-test for automated checks: ?selftest makes the card and writes it into the page as base64.
+  if (location.search.includes('selftest')) make().then(async (f) => {
+    const b = new Uint8Array(await f.arrayBuffer());
+    let s = ''; for (let i = 0; i < b.length; i++) s += String.fromCharCode(b[i]);
+    const pre = document.createElement('pre'); pre.id = 'selftest'; pre.textContent = 'PDFBASE64:' + btoa(s) + ':END'; document.body.append(pre);
+  });
+</script>
+</body>
+</html>
