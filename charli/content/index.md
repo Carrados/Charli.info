@@ -21,7 +21,6 @@ Each name runs its own place.
 
 - [Carrados](https://carrados.com/) is Charli-Jo's: the Tyrer Framework, and [The Blind AI](https://carrados.com/blind-ai/), their blog on AI and blindness, written with their personas dice, Lucy Love-Child, Madison McDonnell and Down the Banksy. It makes claims about reality, and it is accountable for them.
 - [Blind Ant](https://blind-ant.com/) is run by Charlotte Joanne: speculative worlds, stories, games, artworks and working objects, and the story of how each one was made.
-- [Agent Running](https://agentrunning.uk/) is Piper Smith's: field notes and the San Francisco Rules on running AI agents.
 
 ## In the world
 
