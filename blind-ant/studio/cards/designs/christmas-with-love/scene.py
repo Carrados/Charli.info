@@ -44,6 +44,8 @@ def mat(name, color, rough=0.5, metal=0.0, emit=None, strength=0.0, coat=0.0):
 WICK = mat('Wick', (0.03, 0.02, 0.015), rough=0.9)
 FLAME = mat('Flame', (1, 0.5, 0.12), emit=(1.0, 0.45, 0.10), strength=9)
 FLAME_CORE = mat('FlameCore', (1, 0.85, 0.5), emit=(1.0, 0.80, 0.45), strength=18)
+# Molten wax in the pool: glassy and smooth, catching the flame, glowing a little brighter than the solid wax.
+MOLTEN = mat('Molten', (1.0, 0.86, 0.62), rough=0.04, emit=(1.0, 0.72, 0.40), strength=2.2, coat=1.0)
 LEAF = mat('Holly', HOLLY, rough=0.18, coat=1.0)
 BERRY = mat('Berry', RUBY, rough=0.12, coat=1.0)
 GOLD = mat('Gold', (1.0, 0.76, 0.40), rough=0.14, metal=1.0)
@@ -155,15 +157,16 @@ def candle_mesh(r, h):
     bmesh.ops.create_cone(bm, cap_ends=True, segments=96, radius1=r, radius2=r, depth=h,
                           matrix=Matrix.Translation((0, 0, h / 2)))
     top = [f for f in bm.faces if f.normal.z > 0.9][0]
-    bmesh.ops.inset_region(bm, faces=[top], thickness=0.022, depth=0.0)
-    bmesh.ops.translate(bm, vec=(0, 0, -0.010), verts=list(top.verts))
+    bmesh.ops.inset_region(bm, faces=[top], thickness=0.016, depth=0.0)
+    bmesh.ops.translate(bm, vec=(0, 0, -0.016), verts=list(top.verts))
+    top.material_index = 1          # the pool of molten wax round the wick
     me = bpy.data.meshes.new('candle'); bm.to_mesh(me); bm.free()
     return me
 
 def candle(name, base, h, r, tilt_deg, glow, flame_bend, light_w, flame_scale=1.0, side_glow=0.0):
     pivot = bpy.data.objects.new(name, None); bpy.context.collection.objects.link(pivot)
     c = bpy.data.objects.new(name + '_wax', candle_mesh(r, h)); bpy.context.collection.objects.link(c)
-    c.parent = pivot; link(c, alabaster(name + '_wax', h, glow, r, side_glow)); smooth(c)
+    c.parent = pivot; link(c, alabaster(name + '_wax', h, glow, r, side_glow)); link(c, MOLTEN); smooth(c)
     bv = c.modifiers.new('bevel', 'BEVEL'); bv.width = 0.02; bv.segments = 8; bv.limit_method = 'ANGLE'
     bpy.ops.mesh.primitive_cylinder_add(vertices=24, radius=0.004, depth=0.045, location=(0, 0, h + 0.008))
     w = bpy.context.object; link(w, WICK); w.parent = pivot
@@ -187,7 +190,7 @@ def candle(name, base, h, r, tilt_deg, glow, flame_bend, light_w, flame_scale=1.
 # its flame bending towards the small one to share its light.
 candle('Tall', (-0.13, 0.12), 0.54, 0.118, tilt_deg=7.5, glow=0.9, flame_bend=0.55, light_w=16, flame_scale=1.08)
 # The smaller candle: in front, leaning gently back towards the tall one.
-candle('Small', (0.19, -0.05), 0.34, 0.102, tilt_deg=-10.0, glow=0.9, flame_bend=-0.2, light_w=6, flame_scale=0.92, side_glow=2.2)
+candle('Small', (0.19, -0.05), 0.34, 0.102, tilt_deg=-13.0, glow=0.9, flame_bend=-0.2, light_w=6, flame_scale=0.92, side_glow=2.2)
 
 # The shared light is in the small candle's wax (side_glow): the side facing the tall one glows warm.
 
@@ -195,7 +198,7 @@ candle('Small', (0.19, -0.05), 0.34, 0.102, tilt_deg=-10.0, glow=0.9, flame_bend
 # The shared light, made visible: a soft warm haze in the air from the tall flame to the small one.
 # It's a camera-only card (it lights nothing), shaped as a soft ellipse along the line between the flames.
 def shared_glow():
-    a = Vector((-0.06, 0.12, 0.60)); b = Vector((0.13, -0.05, 0.40))
+    a = Vector((-0.06, 0.12, 0.60)); b = Vector((0.11, -0.05, 0.40))
     mid = (a + b) / 2
     bpy.ops.mesh.primitive_plane_add(size=1, location=mid)
     g = bpy.context.object; g.name = 'SharedGlow'
