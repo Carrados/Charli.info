@@ -55,4 +55,4 @@ This piece is released under a Creative Commons Attribution (CC BY) licence, and
 4. Build the deployment pack and support service for that one customer first.
 5. Publish the accounts from the first day.
 
-Questions, or want to steal it: [reddog@blind-ant.com](mailto:reddog@blind-ant.com)
+Questions, or want to use it: [reddog@blind-ant.com](mailto:reddog@blind-ant.com)
