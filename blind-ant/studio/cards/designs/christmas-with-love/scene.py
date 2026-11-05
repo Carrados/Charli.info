@@ -7,7 +7,7 @@
 # Focal point: the taller flame bending towards the smaller one.
 # Run: blender -b --factory-startup -P scene.py -- <out.png> [samples] [size]
 import bpy, bmesh, math, random, sys
-from mathutils import Vector, Matrix
+from mathutils import Vector, Matrix, Euler
 
 args = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
 OUT = args[0] if args else '//christmas_with_love.png'
@@ -187,7 +187,7 @@ def candle(name, base, h, r, tilt_deg, glow, flame_bend, light_w, flame_scale=1.
 # its flame bending towards the small one to share its light.
 candle('Tall', (-0.13, 0.12), 0.54, 0.118, tilt_deg=7.5, glow=0.9, flame_bend=0.55, light_w=16, flame_scale=1.08)
 # The smaller candle: in front, leaning gently back towards the tall one.
-candle('Small', (0.17, -0.05), 0.34, 0.102, tilt_deg=-5.0, glow=0.9, flame_bend=-0.2, light_w=6, flame_scale=0.92, side_glow=2.2)
+candle('Small', (0.19, -0.05), 0.34, 0.102, tilt_deg=-10.0, glow=0.9, flame_bend=-0.2, light_w=6, flame_scale=0.92, side_glow=2.2)
 
 # The shared light is in the small candle's wax (side_glow): the side facing the tall one glows warm.
 
@@ -195,7 +195,7 @@ candle('Small', (0.17, -0.05), 0.34, 0.102, tilt_deg=-5.0, glow=0.9, flame_bend=
 # The shared light, made visible: a soft warm haze in the air from the tall flame to the small one.
 # It's a camera-only card (it lights nothing), shaped as a soft ellipse along the line between the flames.
 def shared_glow():
-    a = Vector((-0.06, 0.12, 0.60)); b = Vector((0.14, -0.05, 0.40))
+    a = Vector((-0.06, 0.12, 0.60)); b = Vector((0.13, -0.05, 0.40))
     mid = (a + b) / 2
     bpy.ops.mesh.primitive_plane_add(size=1, location=mid)
     g = bpy.context.object; g.name = 'SharedGlow'
@@ -244,6 +244,8 @@ def holly_leaf(length=0.2, width=0.085, spikes=4):
     centre = bm.verts.new((0, 0, 0.006))     # a gentle ridge down the middle
     for i in range(len(verts)):
         bm.faces.new((centre, verts[i], verts[(i + 1) % len(verts)]))
+    for v in bm.verts:   # fold along the midrib and arch along the length, like a real holly leaf
+        v.co.z += 0.22 * abs(v.co.y) - 0.9 * (v.co.x / length) ** 2 * length * 0.25
     me = bpy.data.meshes.new('leaf'); bm.to_mesh(me); bm.free()
     ob = bpy.data.objects.new('leaf', me); bpy.context.collection.objects.link(ob)
     so = ob.modifiers.new('solid', 'SOLIDIFY'); so.thickness = 0.004
@@ -252,42 +254,58 @@ def holly_leaf(length=0.2, width=0.085, spikes=4):
 
 def sprig(x, y, angle, berries=0, leaves=3):
     for i in range(leaves):
-        lf = holly_leaf(length=random.uniform(0.18, 0.22), width=random.uniform(0.088, 0.1))
+        L = random.uniform(0.13, 0.24)
+        lf = holly_leaf(length=L, width=L * random.uniform(0.42, 0.5))
         a = angle + (i - (leaves - 1) / 2) * 0.75 + random.uniform(-0.08, 0.08)
-        off = Vector((math.cos(a), math.sin(a), 0)) * 0.10
+        off = Vector((math.cos(a), math.sin(a), 0)) * (L * 0.5)
         lf.location = (x + off.x, y + off.y, 0.006 + 0.008 * i)
         lf.rotation_euler = (random.uniform(-0.10, 0.10), random.uniform(-0.10, 0.10), a)
     # Berries in a tight, deliberate cluster, sitting on the leaves.
     for j in range(berries):
         a = j / max(1, berries) * math.tau + 0.4
-        rr = 0.0 if j == 0 else 0.026
-        bpy.ops.mesh.primitive_uv_sphere_add(segments=32, ring_count=16, radius=0.021,
+        rr = 0.0 if j == 0 else 0.036
+        bpy.ops.mesh.primitive_uv_sphere_add(segments=32, ring_count=16, radius=random.uniform(0.018, 0.023),
             location=(x + rr * math.cos(a), y + rr * math.sin(a), 0.03 + (0.014 if j == 0 else 0)))
         b = bpy.context.object; link(b, BERRY); smooth(b)
 
-# Sprigs along an arc in front of the pair, from front-left to front-right.
-cx, cy, R = 0.03, 0.04, 0.34
-arc = [(-160, 0, 3), (-128, 3, 3), (-95, 0, 3), (-62, 4, 3), (-30, 0, 3)]
-for deg, nb, nl in arc:
-    a = math.radians(deg)
-    x, y = cx + R * math.cos(a), cy + R * 0.62 * math.sin(a)
-    sprig(x, y, a + math.pi / 2 + 0.3, berries=nb, leaves=nl)
-# one berry cluster tucked behind, at the tall candle's left, to close the crescent
-sprig(-0.30, 0.18, 0.2, berries=3, leaves=2)
+# Sprigs placed by hand around the pair, clear of both candles' bases (tall: centre -0.13, 0.12, radius 0.12;
+# small: centre 0.19, -0.05, radius 0.10). Leaves point away from the candles. Three berry clusters, no more.
+# One continuous garland hugging the front of both bases, leaves running along it. Three berry clusters.
+garland = [  # x, y, direction the leaves run, berries
+    (-0.33, 0.06, -1.9, 0), (-0.27, -0.05, -0.9, 3), (-0.15, -0.11, -0.3, 0), (-0.03, -0.13, 0.0, 0),
+    (0.04, -0.15, 0.1, 4), (0.13, -0.18, 0.0, 0), (0.24, -0.18, 0.3, 0), (0.33, -0.10, 0.9, 3), (0.37, 0.02, 1.6, 0),
+]
+for x, y, angle, nb in garland:
+    sprig(x, y, angle, berries=nb, leaves=2)
+    sprig(x, y, angle + math.pi, berries=0, leaves=1)
 
-# One small gold bauble, placed on purpose: front right, catching both flames.
-bpy.ops.mesh.primitive_uv_sphere_add(segments=64, ring_count=32, radius=0.038, location=(0.43, -0.24, 0.038))
+# One small gold bauble, placed on purpose: front right, catching both flames. It has a cap and a
+# hanging loop, so it reads as a Christmas bauble rather than a polished ball.
+BX, BY, BR = 0.47, -0.17, 0.038
+bpy.ops.mesh.primitive_uv_sphere_add(segments=64, ring_count=32, radius=BR, location=(BX, BY, BR))
 b = bpy.context.object; link(b, GOLD); smooth(b)
+CAP = mat('Cap', (0.75, 0.62, 0.42), rough=0.3, metal=1.0)      # paler, brushed: a different metal from the bauble
+# Lying on its side, the cap points sideways (towards the right and back, away from the candles).
+cap_dir = Vector((0.75, 0.45, 0.25)).normalized()
+bpy.ops.mesh.primitive_cylinder_add(vertices=32, radius=BR * 0.32, depth=BR * 0.28,
+                                    location=Vector((BX, BY, BR)) + cap_dir * BR * 1.02)
+c = bpy.context.object; c.rotation_euler = cap_dir.to_track_quat('Z', 'Y').to_euler(); link(c, CAP); smooth(c)
+bv = c.modifiers.new('bevel', 'BEVEL'); bv.width = 0.002; bv.segments = 3
+bpy.ops.mesh.primitive_torus_add(major_radius=BR * 0.22, minor_radius=BR * 0.045,
+                                 location=Vector((BX, BY, BR)) + cap_dir * BR * 1.32)
+t = bpy.context.object
+t.rotation_euler = (cap_dir.to_track_quat('Z', 'Y') @ Euler((math.radians(90), 0, 0)).to_quaternion()).to_euler()
+link(t, CAP); smooth(t)
 
 # ---------- soft golden lights far behind, gathered in the top third behind the headline ----------
 N_BOKEH = 80
 for i in range(N_BOKEH):
-    x = -3.4 + 6.8 * (i + random.random()) / N_BOKEH; y = random.uniform(5.0, 7.5)   # evenly spread left to right
-    z = 1.2 + 2.6 * (random.random() ** 0.6)          # weighted upwards, thinning towards the flames
-    bpy.ops.mesh.primitive_uv_sphere_add(segments=16, ring_count=8, radius=random.uniform(0.025, 0.055), location=(x, y, z))
+    x = -3.4 + 6.8 * (i + random.random()) / N_BOKEH; y = random.uniform(3.8, 8.5)   # evenly spread left to right
+    z = 0.2 + 2.3 * (random.random() ** 0.6)          # weighted upwards, thinning towards the flames
+    bpy.ops.mesh.primitive_uv_sphere_add(segments=16, ring_count=8, radius=random.uniform(0.015, 0.06) * (2.2 if random.random() < 0.12 else 1.0), location=(x, y, z))
     s = bpy.context.object
     g = random.choice(GOLDS)
-    link(s, mat(f'bokeh{i}', g, emit=g, strength=random.uniform(2.5, 6)))
+    link(s, mat(f'bokeh{i}', g, emit=g, strength=random.uniform(1.2, 7) * (0.35 if s.dimensions.x > 0.13 else 1.0)))
 
 # ---------- world ----------
 world = bpy.data.worlds.new('World'); scene.world = world; world.use_nodes = True
@@ -306,7 +324,7 @@ fill.rotation_euler = (Vector((0.0, 0.0, 0.05)) - fill.location).to_track_quat('
 fill.visible_camera = False
 
 # ---------- camera ----------
-bpy.ops.object.camera_add(location=(0, -1.9, 0.58))
+bpy.ops.object.camera_add(location=(0, -1.85, 0.80))
 cam = bpy.context.object; scene.camera = cam
 target = Vector((0.0, 0.05, 0.46))   # aimed above the candles, leaving the top of the picture for the headline
 cam.rotation_euler = (target - cam.location).to_track_quat('-Z', 'Y').to_euler()

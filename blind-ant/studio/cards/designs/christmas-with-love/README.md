@@ -4,12 +4,13 @@
 - **Description** (written first; the scene is built to match it, and it is the card's alt text):
   Two lit ivory candles lean towards each other on a dark wooden table, the taller one just behind as if sheltering the smaller and sharing its light, among glossy holly leaves, red berries and a small gold bauble, with soft golden lights blurred in the darkness above.
 
-## Intent (Sloppy Jo, rounds 2 and 3, 5 November 2026)
+## Intent (Sloppy Jo, rounds 2 to 4, 5 November 2026)
 
 - **The love:** the two candles lean in together. The taller one stands slightly further back, as if protecting the smaller one, and gives it some of its light: its flame bends towards the small one and its warm light falls on the small candle's near side. (Charli-Jo's idea, 5 November 2026.)
 - **Palette, in one sentence:** ivory and amber-gold candlelight on deep oxblood-black, with deep holly green and ruby berries as the only accents.
 - **Focal point:** the taller flame bending towards the smaller one.
 - **Treatment:** Jewel Box. The wax is luminous alabaster that stays ivory all the way down, the holly is glossy and lacquered in a crescent wholly in the frame, there's one true-gold bauble, and the lighting is theatrical, from the flames themselves. The blurred lights gather in the top third, behind the headline.
+- Round 4 (5 November) fixed what the sighted check (sighted-check-r3.md) found: the small candle now clearly leans back towards the tall one, a higher camera shows the round tops, the bauble has a cap and loop, the holly is one folded, glossy garland with spaced berries, and the blurred lights vary in size and brightness. Charli-Jo likes "remembrance" among the meanings the check found.
 - Round 3 (5 November) made the shared light visible as a soft warm haze from the tall flame to the small one, balanced the blurred lights, melted the far table into the dark, and kept the small candle's far side warm.
 - Round 1 (4 November) was reviewed against Sloppy Jo on 5 November: competent, not yet convincing (muddy wax, an under-lit scene, stray pink, holly cut off at the bottom).
 
