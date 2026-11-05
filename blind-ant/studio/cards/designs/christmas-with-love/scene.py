@@ -63,7 +63,9 @@ def alabaster(name, h, glow, r=0.1, side_glow=0.0):
     mul = nt.nodes.new('ShaderNodeMath'); mul.operation = 'MULTIPLY'; mul.inputs[1].default_value = glow
     nt.links.new(tc.outputs['Object'], sep.inputs['Vector']); nt.links.new(sep.outputs['Z'], mr.inputs['Value'])
     nt.links.new(mr.outputs['Result'], pw.inputs[0]); nt.links.new(pw.outputs['Value'], mul.inputs[0])
-    total = mul.outputs['Value']
+    floor = nt.nodes.new('ShaderNodeMath'); floor.operation = 'ADD'; floor.inputs[1].default_value = 0.08
+    nt.links.new(mul.outputs['Value'], floor.inputs[0])   # a little inner warmth everywhere, so shaded wax never goes grey
+    total = floor.outputs['Value']
     if side_glow:
         # The shared light, stylised: the side facing the tall candle (local -X) glows warm, strongest high up.
         mx = nt.nodes.new('ShaderNodeMapRange')
@@ -92,9 +94,34 @@ ramp = nt.nodes.new('ShaderNodeValToRGB')
 ramp.color_ramp.elements[0].color = (0.028, 0.010, 0.007, 1)
 ramp.color_ramp.elements[1].color = (0.085, 0.032, 0.020, 1)
 nt.links.new(tc.outputs['Object'], mp.inputs['Vector']); nt.links.new(mp.outputs['Vector'], nz.inputs['Vector'])
-nt.links.new(nz.outputs['Fac'], ramp.inputs['Fac']); nt.links.new(ramp.outputs['Color'], p.inputs['Base Color'])
-p.inputs['Roughness'].default_value = 0.42
-p.inputs['Coat Weight'].default_value = 0.12
+nt.links.new(nz.outputs['Fac'], ramp.inputs['Fac'])
+sepw = nt.nodes.new('ShaderNodeSeparateXYZ'); geo = nt.nodes.new('ShaderNodeNewGeometry')
+nt.links.new(geo.outputs['Position'], sepw.inputs['Vector'])
+fade = nt.nodes.new('ShaderNodeMapRange')            # 1 near the candles, 0 far behind
+fade.inputs['From Min'].default_value = 0.5; fade.inputs['From Max'].default_value = 2.6
+fade.inputs['To Min'].default_value = 1.0; fade.inputs['To Max'].default_value = 0.35
+nt.links.new(sepw.outputs['Y'], fade.inputs['Value'])
+darken = nt.nodes.new('ShaderNodeMix'); darken.data_type = 'RGBA'; darken.blend_type = 'MULTIPLY'
+darken.inputs['Factor'].default_value = 1.0
+nt.links.new(ramp.outputs['Color'], darken.inputs['A'])
+fcol = nt.nodes.new('ShaderNodeCombineXYZ')
+for k in ('X', 'Y', 'Z'): nt.links.new(fade.outputs['Result'], fcol.inputs[k])
+nt.links.new(fcol.outputs['Vector'], darken.inputs['B'])
+nt.links.new(darken.outputs['Result'], p.inputs['Base Color'])
+rough = nt.nodes.new('ShaderNodeMapRange')           # and rougher with distance, so it stops reflecting the far lights
+rough.inputs['From Min'].default_value = 0.5; rough.inputs['From Max'].default_value = 2.2
+rough.inputs['To Min'].default_value = 0.42; rough.inputs['To Max'].default_value = 0.95
+nt.links.new(sepw.outputs['Y'], rough.inputs['Value']); nt.links.new(rough.outputs['Result'], p.inputs['Roughness'])
+nt.links.new(fade.outputs['Result'], p.inputs['Coat Weight'])
+# Far away, the table melts into the background (turns transparent) instead of ending in an edge or a dark band.
+melt = nt.nodes.new('ShaderNodeMapRange')
+melt.inputs['From Min'].default_value = 1.2; melt.inputs['From Max'].default_value = 2.6
+nt.links.new(sepw.outputs['Y'], melt.inputs['Value'])
+clear = nt.nodes.new('ShaderNodeBsdfTransparent'); mix = nt.nodes.new('ShaderNodeMixShader')
+wout = [n for n in nt.nodes if n.type == 'OUTPUT_MATERIAL'][0]
+nt.links.new(melt.outputs['Result'], mix.inputs['Fac'])
+nt.links.new(p.outputs['BSDF'], mix.inputs[1]); nt.links.new(clear.outputs[0], mix.inputs[2])
+nt.links.new(mix.outputs[0], wout.inputs['Surface'])
 p.inputs['Coat Roughness'].default_value = 0.25
 
 def link(obj, m):
@@ -118,7 +145,7 @@ def bend(obj, amount):
             v.co.x += amount * t * t
 
 # ---------- table ----------
-bpy.ops.mesh.primitive_plane_add(size=4, location=(0, 0.6, 0))   # ends in the dark, so the far table doesn't haze
+bpy.ops.mesh.primitive_plane_add(size=12, location=(0, 4, 0))   # fades to black with distance (see Wood), so it has no visible edge
 link(bpy.context.object, WOOD)
 
 # ---------- candles ----------
@@ -163,6 +190,43 @@ candle('Tall', (-0.13, 0.12), 0.54, 0.118, tilt_deg=7.5, glow=0.9, flame_bend=0.
 candle('Small', (0.17, -0.05), 0.34, 0.102, tilt_deg=-5.0, glow=0.9, flame_bend=-0.2, light_w=6, flame_scale=0.92, side_glow=2.2)
 
 # The shared light is in the small candle's wax (side_glow): the side facing the tall one glows warm.
+
+
+# The shared light, made visible: a soft warm haze in the air from the tall flame to the small one.
+# It's a camera-only card (it lights nothing), shaped as a soft ellipse along the line between the flames.
+def shared_glow():
+    a = Vector((-0.06, 0.12, 0.60)); b = Vector((0.14, -0.05, 0.40))
+    mid = (a + b) / 2
+    bpy.ops.mesh.primitive_plane_add(size=1, location=mid)
+    g = bpy.context.object; g.name = 'SharedGlow'
+    d = b - a
+    span = math.hypot(d.x, d.z)
+    g.scale = (span * 1.05, span * 0.45, 1)
+    g.rotation_euler = (math.radians(90), -math.atan2(d.z, d.x), 0)   # stand it up facing the camera, along the line
+    m = bpy.data.materials.new('SharedGlow'); m.use_nodes = True; nt = m.node_tree
+    for n in list(nt.nodes):
+        if n.type != 'OUTPUT_MATERIAL': nt.nodes.remove(n)
+    out = [n for n in nt.nodes if n.type == 'OUTPUT_MATERIAL'][0]
+    tc = nt.nodes.new('ShaderNodeTexCoord')
+    grad = nt.nodes.new('ShaderNodeTexGradient'); grad.gradient_type = 'SPHERICAL'
+    sc = nt.nodes.new('ShaderNodeMapping'); sc.inputs['Scale'].default_value = (2.0, 2.0, 2.0)
+    nt.links.new(tc.outputs['Object'], sc.inputs['Vector']); nt.links.new(sc.outputs['Vector'], grad.inputs['Vector'])
+    pw = nt.nodes.new('ShaderNodeMath'); pw.operation = 'POWER'; pw.inputs[1].default_value = 2.0
+    nt.links.new(grad.outputs['Fac'], pw.inputs[0])
+    st = nt.nodes.new('ShaderNodeMath'); st.operation = 'MULTIPLY'; st.inputs[1].default_value = GLOW_STRENGTH
+    nt.links.new(pw.outputs['Value'], st.inputs[0])
+    em = nt.nodes.new('ShaderNodeEmission'); em.inputs['Color'].default_value = (1.0, 0.66, 0.32, 1)
+    nt.links.new(st.outputs['Value'], em.inputs['Strength'])
+    tr = nt.nodes.new('ShaderNodeBsdfTransparent')
+    add = nt.nodes.new('ShaderNodeAddShader')
+    nt.links.new(tr.outputs[0], add.inputs[0]); nt.links.new(em.outputs[0], add.inputs[1])
+    nt.links.new(add.outputs[0], out.inputs['Surface'])
+    g.data.materials.append(m)
+    for attr in ('visible_diffuse', 'visible_glossy', 'visible_transmission', 'visible_volume_scatter', 'visible_shadow'):
+        setattr(g, attr, False)
+
+GLOW_STRENGTH = 0.7
+shared_glow()
 
 # ---------- holly: a lacquered crescent in front of the candles, wholly in frame ----------
 def holly_leaf(length=0.2, width=0.085, spikes=4):
@@ -216,8 +280,9 @@ bpy.ops.mesh.primitive_uv_sphere_add(segments=64, ring_count=32, radius=0.038, l
 b = bpy.context.object; link(b, GOLD); smooth(b)
 
 # ---------- soft golden lights far behind, gathered in the top third behind the headline ----------
-for i in range(80):
-    x = random.uniform(-3.4, 3.4); y = random.uniform(5.0, 7.5)
+N_BOKEH = 80
+for i in range(N_BOKEH):
+    x = -3.4 + 6.8 * (i + random.random()) / N_BOKEH; y = random.uniform(5.0, 7.5)   # evenly spread left to right
     z = 1.2 + 2.6 * (random.random() ** 0.6)          # weighted upwards, thinning towards the flames
     bpy.ops.mesh.primitive_uv_sphere_add(segments=16, ring_count=8, radius=random.uniform(0.025, 0.055), location=(x, y, z))
     s = bpy.context.object
