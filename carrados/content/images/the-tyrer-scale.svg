@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 940" width="800" height="940" role="img" aria-labelledby="t d" font-family="Charter, &apos;Bitstream Charter&apos;, &apos;Iowan Old Style&apos;, &apos;Sitka Text&apos;, Cambria, Georgia, serif">
+<title id="t">The Tyrer Accessibility Scale</title>
+<desc id="d">The Tyrer Accessibility Scale, drawn as a tapering ladder of four labelled bands. A vertical axis, the probability of information casualties, falls from high at the bottom to approximately zero at the top, where it is labelled the Zero Information Casualty condition. From bottom to top the bands are: Type 0, Visual Dominance Civilisation, interfaces designed visually first, accessibility applied as translation or retrofit, marked as where human civilisation is today; Type I, Structured Information Civilisation, interfaces generated from shared semantic data, with visual, auditory and agent access as equal renderings; Type II, Environmental Metadata Civilisation, physical environments continuously exposing machine-readable information; and Type III, Perceptual Sovereignty Civilisation, all relevant environmental information accessible to every observer.</desc>
+<style>
+  text { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+  .bg { fill: #fbfaf6; }
+  .band { fill: #f2f0e8; stroke: #d9d5c7; stroke-width: 2; }
+  .band-top { fill: #e4ece6; stroke: #1d4a37; stroke-width: 2; }
+  .ink { fill: #16191d; }
+  .soft { fill: #3f454d; }
+  .accent { fill: #1d4a37; }
+  .axis { stroke: #16191d; stroke-width: 2.5; fill: none; }
+  .zic { stroke: #1d4a37; stroke-width: 2; stroke-dasharray: 8 6; fill: none; }
+  .here { fill: #b3261e; }
+  .here-line { stroke: #b3261e; stroke-width: 2.5; fill: none; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #12161a; }
+    .band { fill: #1b2026; stroke: #333a42; }
+    .band-top { fill: #1d2a24; stroke: #8fd1b0; }
+    .ink { fill: #ecebe6; }
+    .soft { fill: #c3c2bb; }
+    .accent { fill: #8fd1b0; }
+    .axis { stroke: #ecebe6; }
+    .zic { stroke: #8fd1b0; }
+    .here { fill: #ff8a80; }
+    .here-line { stroke: #ff8a80; }
+  }
+</style>
+<rect class="bg" x="0" y="0" width="800" height="940"/>
+<g transform="translate(0 -60)">
+<line class="axis" x1="108" y1="872" x2="108" y2="162"/>
+<line class="axis" x1="98" y1="162" x2="118" y2="162"/>
+<line class="axis" x1="98" y1="872" x2="118" y2="872"/>
+<text x="108" y="902" font-size="19" class="ink" text-anchor="middle" font-weight="700"><tspan x="108" dy="0">High</tspan></text>
+<text x="108" y="96" font-size="17" class="ink" text-anchor="middle" font-style="italic"><tspan x="108" dy="0">approximately</tspan><tspan x="108" dy="20">zero</tspan></text>
+<text x="0" y="0" font-size="20" class="soft" text-anchor="middle" transform="translate(64 515.0) rotate(-90)">Probability of information casualties</text>
+<line class="zic" x1="122" y1="142" x2="692.0" y2="142"/>
+<text x="462" y="130" font-size="21" class="accent" text-anchor="middle" font-weight="700" font-style="italic"><tspan x="462" dy="0">Zero Information Casualty condition</tspan></text>
+<path class="band" d="M 172.0 872.0 L 752.0 872.0 L 730.8 704.0 L 193.2 704.0 Z"/>
+<text x="462" y="755.5" font-size="16" class="accent" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">TYPE 0</tspan></text>
+<text x="462" y="785.5" font-size="22" class="ink" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">Visual Dominance Civilisation</tspan></text>
+<text x="462" y="816.5" font-size="16" class="soft" text-anchor="middle"><tspan x="462" dy="0">Interfaces designed visually first; accessibility applied</tspan><tspan x="462" dy="21">as translation or retrofit.</tspan></text>
+<path class="band" d="M 194.9 690.0 L 729.1 690.0 L 707.9 522.0 L 216.1 522.0 Z"/>
+<text x="462" y="563.0" font-size="16" class="accent" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">TYPE I</tspan></text>
+<text x="462" y="593.0" font-size="22" class="ink" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">Structured Information Civilisation</tspan></text>
+<text x="462" y="624.0" font-size="16" class="soft" text-anchor="middle"><tspan x="462" dy="0">Interfaces generated from shared semantic data, with</tspan><tspan x="462" dy="21">visual, auditory and agent access as equal</tspan><tspan x="462" dy="21">renderings.</tspan></text>
+<path class="band" d="M 217.9 508.0 L 706.1 508.0 L 684.9 340.0 L 239.1 340.0 Z"/>
+<text x="462" y="391.5" font-size="16" class="accent" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">TYPE II</tspan></text>
+<text x="462" y="421.5" font-size="22" class="ink" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">Environmental Metadata Civilisation</tspan></text>
+<text x="462" y="452.5" font-size="16" class="soft" text-anchor="middle"><tspan x="462" dy="0">Physical environments continuously exposing</tspan><tspan x="462" dy="21">machine-readable information.</tspan></text>
+<path class="band" d="M 240.8 326.0 L 683.2 326.0 L 662.0 158.0 L 262.0 158.0 Z"/>
+<text x="462" y="196.0" font-size="16" class="accent" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">TYPE III</tspan></text>
+<text x="462" y="226.0" font-size="22" class="ink" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">Perceptual Sovereignty</tspan><tspan x="462" dy="27">Civilisation</tspan></text>
+<text x="462" y="284.0" font-size="16" class="soft" text-anchor="middle"><tspan x="462" dy="0">All relevant environmental information</tspan><tspan x="462" dy="21">accessible to every observer.</tspan></text>
+<path class="here" d="M 451 914 L 462 896 L 473 914 Z"/>
+<text x="462" y="944" font-size="22" class="here" text-anchor="middle" font-weight="700"><tspan x="462" dy="0">We are here</tspan></text>
+<text x="462" y="970" font-size="17" class="soft" text-anchor="middle" font-style="italic"><tspan x="462" dy="0">Type 0 is where human civilisation is today</tspan></text>
+</g>
+</svg>
