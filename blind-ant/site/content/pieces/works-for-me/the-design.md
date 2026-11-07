@@ -16,7 +16,7 @@ Most bug reports go nowhere. Someone writes in, nobody replies, and if anything 
 ## The loop
 
 1. **The report.** Someone emails fix@ at the site's domain. Cloudflare Email Routing passes the message to a small program that keeps the report and starts a fix. The reporter's address never goes into the site's code or its history.
-2. **The fix.** Claude reads the report, finds the problem and fixes it on a branch of its own, away from the live site. The site is rebuilt and checked: the build, the headings, the links, an automated accessibility scan, phone width and the Markdown version.
+2. **The fix.** Claude reads the report, finds the problem and fixes it on a branch of its own, away from the live site. The site is rebuilt and checked: the build, the headings, the links, an automated accessibility scan, phone width and the Markdown version. Every fix also comes with a new test for the bug it fixes, so the reporter finds a failure once and the checks look for it on every build after that.
 3. **The mirror.** The branch is put online at an address of its own, a copy of the site with the fix in. Search engines are told to ignore it.
 4. **The question.** The reporter gets an email with the link: try it the way you found the problem, and reply to say whether it works. If it doesn't, their reply becomes the next report and the loop goes round again.
 5. **The merge.** When the reporter says it works, the owner gets one email with what was reported, what changed, the reporter's answer and the check results. One word, "ship", puts the fix live. The reporter is thanked and told.

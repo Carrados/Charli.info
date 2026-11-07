@@ -23,6 +23,6 @@ The site is real: [Unremarkable](https://unremarkable.me/), a studio that design
 ## Behind the fiction
 
 - **Real:** Unremarkable and unremarkable.me. The bug in the email thread happened on 7 November 2026. The list of sites on the front page was numbered by the stylesheet, so VoiceOver read "02, 2 of 5" and gave each number twice. It was fixed that day by making the list a real numbered list, and the rule "use a numbered list, never add numerals" came out of it.
-- **Real:** the automated check. The front page scored 10 out of 10 on [WAVE](https://wave.webaim.org/), WebAIM's accessibility checker, with the bug still in it. A checker can see that a list exists. It can't hear the number twice.
+- **Real:** the automated check. The front page scored 10 out of 10 on [WAVE](https://wave.webaim.org/), WebAIM's accessibility checker, with the bug still in it. WAVE recognised the list and gave the page full marks. None of its checks caught the numbers VoiceOver read twice. A test written for this bug could catch it. Nobody had written one.
 - **Invented:** Nadia Okafor, who reports the bug, and the person who tries to sneak a link onto the site. Neither is real, and neither email was sent.
 - **Not built yet:** the loop. Everything in The design is a plan. The pieces it names are real: Cloudflare Email Routing, Workers preview addresses and Claude.
