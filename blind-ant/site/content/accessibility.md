@@ -13,7 +13,7 @@ Blind Ant makes things you can read, hear and look at, by a blind maker, so how 
 
 ## The claim
 
-This site is built to the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard, version 1.7, except where the known defects below say otherwise.
+This site is built to the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard, version 1.7.
 
 Sent agents: served. Search indexing: permitted. Model training: permitted.
 
@@ -21,7 +21,7 @@ The three declarations are independent; permission for one purpose is never infe
 
 ## What was checked
 
-**Every page (8 November 2026).** All 126 built pages, including this one, were checked for exactly one h1, a declared document language, a skip link as the first focusable element, and alt text on every image. There are 22 images, and every one has alt text. Almost every picture here is drawn in code from its description, and the description comes first. Two pages failed the skip link check; they are listed under Known defects.
+**Every page (8 November 2026).** All 126 built pages, including this one, were checked for exactly one h1, a declared document language, a skip link as the first focusable element, and alt text on every image. There are 22 images, and every one has alt text. Almost every picture here is drawn in code from its description, and the description comes first. Two pages failed the skip link check that day and were fixed the same morning; see Found and fixed.
 
 **JavaScript.** The pages you read use none. The working objects do: Since or Until?, The Colouring Book and Kindness Scales Too are small applications that run in your browser.
 
@@ -33,11 +33,13 @@ A full screen reader pass of every Piece with NVDA, JAWS and VoiceOver, and of t
 
 Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
 
+## Found and fixed
+
+- **8 November 2026: no skip link on two applications.** The application pages of Since or Until? and The Colouring Book didn't begin with a skip link, though their Piece pages did. Both now do. In The Colouring Book it lands just before whichever part of the book is showing.
+
 ## Known defects
 
-- **Since or Until? and The Colouring Book:** the application pages themselves don't begin with a skip link. Their Piece pages do.
-
-When a defect is fixed, it comes off this list.
+None known. When one is found, it is listed here until it is fixed.
 
 ## Reporting a problem
 

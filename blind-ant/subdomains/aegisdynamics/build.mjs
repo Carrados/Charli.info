@@ -65,7 +65,7 @@ a{color:var(--link)}a:focus-visible{outline:3px solid var(--accent);outline-offs
 .fiction a{color:inherit}
 header,main,footer{max-width:46rem;margin:0 auto;padding:0 1rem}
 header{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.5rem;padding-top:1.25rem;padding-bottom:1.25rem;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:.6rem;color:var(--navy);text-decoration:none;font-weight:800;letter-spacing:.14em;font-size:1rem;text-transform:uppercase}
+.brand{margin:0;display:flex;align-items:center;gap:.6rem;color:var(--navy);text-decoration:none;font-weight:800;letter-spacing:.14em;font-size:1rem;text-transform:uppercase}
 .mark{width:28px;height:32px;color:var(--navy)}
 nav ul{display:flex;gap:1.25rem;list-style:none;margin:0;padding:0}nav a{text-decoration:none;font-weight:600}nav a[aria-current]{text-decoration:underline}
 main{padding-top:2rem;padding-bottom:3rem}
@@ -83,7 +83,24 @@ h2{font-size:1.25rem;color:var(--navy);margin:2.2rem 0 .6rem}
 footer{border-top:1px solid var(--line);padding-top:1.25rem;padding-bottom:2.5rem;color:var(--soft);font-size:.95rem}
 `;
 
+// Every page is also published as Markdown (ZIC): a small converter for exactly the elements these pages use.
+const mdPages = {};
+const unesc = (t) => t.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+function toMarkdown(html) {
+  const inline = (t) => unesc(t
+    .replace(/<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, (_, h, x) => `[${x}](${h.startsWith('/') ? SITE + h : h})`)
+    .replace(/<\/?strong>/g, '**').replace(/<\/?em>/g, '*').replace(/<br\s*\/?>/g, '\n')
+    .replace(/<[^>]+>/g, '').replace(/[ \t]+/g, ' ').trim());
+  const out = [];
+  for (const [, tag, b] of html.matchAll(/<(h1|h2|h3|p|ul)\b[^>]*>([\s\S]*?)<\/\1>/g)) {
+    if (tag === 'ul') out.push([...b.matchAll(/<li>([\s\S]*?)<\/li>/g)].map(([, li]) => `- ${inline(li)}`).join('\n'));
+    else out.push((tag === 'p' ? '' : '#'.repeat(Number(tag[1])) + ' ') + inline(b));
+  }
+  return out.join('\n\n');
+}
+
 function page(path, title, desc, main, current = '') {
+  mdPages[path] = `> Fiction: Aegis Dynamics is an invented company, from DeathBot 2000 (${PIECE}), a design fiction by Charlotte Joanne at Blind Ant.\n\nCanonical page: ${SITE}${path}\n\n${toMarkdown(main)}\n`;
   const nav = [['/accessibility/', 'Accessibility'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
     .map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('');
   return `<!doctype html>
@@ -95,13 +112,14 @@ function page(path, title, desc, main, current = '') {
 <meta name="description" content="${esc(desc)}">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="${SITE}${path}">
+<link rel="alternate" type="text/markdown" href="${path}index.md" title="This page as Markdown">
 <style>${css}</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <p class="fiction">Fiction: Aegis Dynamics is an invented company, from <a href="${PIECE}">DeathBot 2000</a>, a design fiction by Charlotte Joanne at Blind Ant.</p>
 <header>
-<a class="brand" href="/"${current === '/' ? ' aria-current="page"' : ''}>${shield}Aegis Dynamics</a>
+${current === '/' ? `<p class="brand">${shield}Aegis Dynamics</p>` : `<a class="brand" href="/">${shield}Aegis Dynamics</a>`}
 <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
@@ -110,7 +128,7 @@ ${main}
 <footer>
 <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(SITE + path)}">Fix something on this page</a></p>
 <p>Aegis Dynamics: From battlefield to lifecycle, precision intelligence for Mission Beneficiaries at every stage.</p>
-<p>Aegis Dynamics, its products, its people and its press releases are fictional. They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne. Site built by Claude. Licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; people and machines are welcome to read it, quote it and learn from it (<a href="/llms.txt">llms.txt</a>).</p>
+<p>Aegis Dynamics, its products, its people and its press releases are fictional. They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne. Site built by Claude. Licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; people and machines are welcome to read it, quote it and learn from it (<a href="/llms.txt">llms.txt</a>, and <a href="${path}index.md">this page as Markdown</a>).</p>
 </footer>
 </body>
 </html>`;
@@ -169,24 +187,27 @@ ${md(about)}
 <p>Sarah Chen<br>Director of Corporate Communications<br>Aegis Dynamics</p>`, '/about/');
 
 // Written from outside the fiction, like the line at the top of every page.
-pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'The accessibility statement for aegisdynamics.blind-ant.com, written from outside the fiction: what is claimed, what was checked and the known defects.', `
+pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'The accessibility statement for aegisdynamics.blind-ant.com, written from outside the fiction: what is claimed, what was checked, and what was found and fixed.', `
 <h1>Accessibility statement</h1>
 <p><strong>Outside the fiction.</strong> Aegis Dynamics is invented, but this site is real, and so is its accessibility. This page is written by its publisher, Charlotte Joanne at <a href="${BLIND_ANT}/">Blind Ant</a>, not by the company.</p>
 <p><strong>Statement date:</strong> 8 November 2026</p>
 <h2>The claim</h2>
-<p>This site aims to meet the <a href="https://zeroinformationcasualty.org/">Zero Information Casualty</a> standard, version 1.7, and does not fully meet it yet: see the known defects below.</p>
-<p>Sent agents: served. Search indexing: permitted. Model training: permitted. These are declared in <a href="/robots.txt">/robots.txt</a>, with the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and the site is described for agents in <a href="/llms.txt">/llms.txt</a>.</p>
+<p>This site is built to the <a href="https://zeroinformationcasualty.org/">Zero Information Casualty</a> standard, version 1.7.</p>
+<p>Sent agents: served. Search indexing: permitted. Model training: permitted. These are declared in <a href="/robots.txt">/robots.txt</a>, with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and the site is described for agents in <a href="/llms.txt">/llms.txt</a>. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at <a href="/llms-full.txt">/llms-full.txt</a>.</p>
 <h2>What was checked</h2>
 <p><strong>Every page (8 November 2026).</strong> All the site's pages have exactly one h1, a declared document language and a skip link as the first focusable element. There are no images and no JavaScript.</p>
 <p><strong>Delivery, from outside (8 November 2026).</strong> The live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.</p>
 <h2>Not yet checked</h2>
 <p>An end-to-end screen reader pass with NVDA, JAWS or VoiceOver. Contrast, phone width (375 pixels) and 200% text scaling were not checked for this statement.</p>
-<h2>Known defects</h2>
+<h2>Found and fixed</h2>
+<p>All three were found when this statement was first written, and fixed the same morning, 8 November 2026.</p>
 <ul>
-<li>There is no Markdown copy of each page, and no single-file copy of the site (llms-full.txt).</li>
-<li>robots.txt makes its declarations in one block for every agent, not in named blocks for each purpose.</li>
-<li>On the home page, the Aegis Dynamics name at the top is a link to the page you are already on.</li>
+<li>There was no Markdown copy of each page, and no single-file copy of the site. Both now exist.</li>
+<li>robots.txt made its declarations in one block for every agent. It now has named blocks for each purpose, the same as every other site.</li>
+<li>On the home page, the Aegis Dynamics name at the top was a link to the page you were already on. On the home page it is now plain text.</li>
 </ul>
+<h2>Known defects</h2>
+<p>None known. When one is found, it is listed here until it is fixed.</p>
 <h2>Reporting a problem</h2>
 <p>Every page ends with a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here.</p>`, '/accessibility/');
 
@@ -206,11 +227,17 @@ const llms = `# Aegis Dynamics (fictional)
 ${news.map((n) => `- [${n.headline}](${SITE}${n.path}) (${n.date})`).join('\n')}
 - [About](${SITE}/about/)
 - [Accessibility statement](${SITE}/accessibility/): written from outside the fiction.
+
+Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at ${SITE}/llms-full.txt.
 `;
 
 // The built site is one JSON file. The Worker (worker.js beside this file) fetches it from GitHub,
 // so publishing is: build, commit, push to main. The Worker only needs redeploying if worker.js changes.
-const out = JSON.stringify({ pages, llms });
+const llmsFull = '# Aegis Dynamics (fictional): full text\n\nEvery page of the site in one file. Licensed CC BY-SA 4.0.\n\n'
+  + Object.entries(mdPages).filter(([p]) => p !== '/404/').map(([, m]) => m).join('\n\n---\n\n');
+// robots.txt: the same named blocks for each purpose as every other site, written to ZIC v1.7.
+const robots = '# Aegis Dynamics is fictional: a company from DeathBot 2000, a Blind Ant piece.\n' + await readFile(join(here, '..', '..', '..', 'engine', 'robots.txt'), 'utf8');
+const out = JSON.stringify({ pages, llms, md: mdPages, llmsFull, robots });
 const outputDir = process.argv[2] ? resolve(process.argv[2]) : join(here, 'out');
 await mkdir(outputDir, { recursive: true });
 await writeFile(join(outputDir, 'site.json'), out);

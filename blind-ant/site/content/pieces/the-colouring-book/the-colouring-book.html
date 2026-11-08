@@ -176,9 +176,12 @@ footer p { margin: 0; }
 footer .maker { color: var(--ink); font-weight: 700; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } .card:hover { transform: none; } }
+.skip { position: absolute; left: -9999px; top: 0; }
+.skip:focus { left: 1rem; top: 1rem; z-index: 10; padding: 0.5rem 1rem; background: CanvasText; color: Canvas; }
 </style>
 </head>
 <body>
+<a class="skip" href="#start">Skip to main content</a>
 <div class="book">
   <header>
     <p class="badge">
@@ -188,6 +191,9 @@ footer .maker { color: var(--ink); font-weight: 700; }
     <h1 id="top-h" tabindex="-1">The Colouring Book<span class="dot">.</span></h1>
     <p class="lede" id="lede">A colouring book you can use without seeing it. Choose a picture, hear what's on the page, choose a part, pick a colour from the box, and colour it in with crayon, felt-tip or paint. When you're done, Show and Tell says what your picture really looks like.</p>
   </header>
+
+  <!-- The skip link lands here, just before whichever part of the book is showing. -->
+  <div id="start" tabindex="-1"></div>
 
   <!-- ============ THE CONTENTS: choose a picture ============ -->
   <main id="contents" hidden>
