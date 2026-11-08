@@ -23,13 +23,15 @@ The three declarations are independent; permission for one purpose is never infe
 
 **Every page, at every build.** Exactly one h1, a declared document language, a skip link as the first focusable element, and alt text on every image. The build refuses a page with a stray top-level heading. On 8 November 2026 all 39 built pages, including this one, passed these checks, with 10 images, every one with alt text. No page uses JavaScript.
 
+**Contrast (8 November 2026).** Measured from the site's colours against the page background. All text meets WCAG AAA, at least 7:1, in both the light and the dark scheme: body text 16.9:1 and 15.2:1, secondary text 9.3:1 and 10.2:1, links 8.1:1 and 10.5:1, and the green accent 9.6:1 and 10.3:1.
+
 **Delivery, from outside (8 November 2026).** Following ZIC §4.7, the live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.
 
 **With a screen reader (8 November 2026).** The home page was read with NVDA in Chrome. That found the fault listed under Found and fixed.
 
 ## Not yet checked
 
-A full screen reader pass of every page with NVDA, JAWS and VoiceOver. Contrast is designed to WCAG AAA for body text but was not measured for this statement. Phone width (375 pixels) and 200% text scaling were not rechecked for this statement.
+A full screen reader pass of every page with NVDA, JAWS and VoiceOver. Phone width (375 pixels) and 200% text scaling were not rechecked for this statement.
 
 Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
 

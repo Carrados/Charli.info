@@ -196,9 +196,10 @@ pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'T
 <p>Sent agents: served. Search indexing: permitted. Model training: permitted. These are declared in <a href="/robots.txt">/robots.txt</a>, with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and the site is described for agents in <a href="/llms.txt">/llms.txt</a>. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at <a href="/llms-full.txt">/llms-full.txt</a>.</p>
 <h2>What was checked</h2>
 <p><strong>Every page (8 November 2026).</strong> All the site's pages have exactly one h1, a declared document language and a skip link as the first focusable element. There are no images and no JavaScript.</p>
+<p><strong>Contrast (8 November 2026).</strong> Measured from the site's colours against the page background. Body text meets WCAG AAA in both schemes, at 16.7:1 in the light scheme and 15.5:1 in the dark, and so do secondary text, links and the navy brand colour. The red used for small labels meets AA but not AAA, at 6.1:1 and 6.7:1, by choice: a defence contractor's red is part of the fiction. AA asks for 4.5:1 and AAA for 7:1. The same red marks keyboard focus, where 3:1 is required.</p>
 <p><strong>Delivery, from outside (8 November 2026).</strong> The live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.</p>
 <h2>Not yet checked</h2>
-<p>An end-to-end screen reader pass with NVDA, JAWS or VoiceOver. Contrast, phone width (375 pixels) and 200% text scaling were not checked for this statement.</p>
+<p>An end-to-end screen reader pass with NVDA, JAWS or VoiceOver. Phone width (375 pixels) and 200% text scaling were not checked for this statement.</p>
 <h2>Found and fixed</h2>
 <p>All three were found when this statement was first written, and fixed the same morning, 8 November 2026.</p>
 <ul>
