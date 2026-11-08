@@ -278,8 +278,11 @@ table.grid td { padding: 2px; text-align: center; }
   .day.selected { outline: 3px solid Highlight; }
   .sheet-top { border-bottom: 2px solid CanvasText; }
 }
+.skip { position: absolute; left: -9999px; top: 0; }
+.skip:focus { left: 1rem; top: 1rem; z-index: 10; padding: 0.5rem 1rem; background: CanvasText; color: Canvas; }
 </style>
 
+<a class="skip" href="#main">Skip to main content</a>
 <div class="wrap">
   <header>
     <p class="presents">Blind Ant presents</p>
