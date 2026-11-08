@@ -84,7 +84,7 @@ footer{border-top:1px solid var(--line);padding-top:1.25rem;padding-bottom:2.5re
 `;
 
 function page(path, title, desc, main, current = '') {
-  const nav = [['/newsroom/', 'Newsroom'], ['/about/', 'About']]
+  const nav = [['/accessibility/', 'Accessibility'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
     .map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('');
   return `<!doctype html>
 <html lang="en-US">
@@ -168,6 +168,28 @@ ${md(about)}
 <h2>Media contact</h2>
 <p>Sarah Chen<br>Director of Corporate Communications<br>Aegis Dynamics</p>`, '/about/');
 
+// Written from outside the fiction, like the line at the top of every page.
+pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'The accessibility statement for aegisdynamics.blind-ant.com, written from outside the fiction: what is claimed, what was checked and the known defects.', `
+<h1>Accessibility statement</h1>
+<p><strong>Outside the fiction.</strong> Aegis Dynamics is invented, but this site is real, and so is its accessibility. This page is written by its publisher, Charlotte Joanne at <a href="${BLIND_ANT}/">Blind Ant</a>, not by the company.</p>
+<p><strong>Statement date:</strong> 8 November 2026</p>
+<h2>The claim</h2>
+<p>This site aims to meet the <a href="https://zeroinformationcasualty.org/">Zero Information Casualty</a> standard, version 1.7, and does not fully meet it yet: see the known defects below.</p>
+<p>Sent agents: served. Search indexing: permitted. Model training: permitted. These are declared in <a href="/robots.txt">/robots.txt</a>, with the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and the site is described for agents in <a href="/llms.txt">/llms.txt</a>.</p>
+<h2>What was checked</h2>
+<p><strong>Every page (8 November 2026).</strong> All the site's pages have exactly one h1, a declared document language and a skip link as the first focusable element. There are no images and no JavaScript.</p>
+<p><strong>Delivery, from outside (8 November 2026).</strong> The live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.</p>
+<h2>Not yet checked</h2>
+<p>An end-to-end screen reader pass with NVDA, JAWS or VoiceOver. Contrast, phone width (375 pixels) and 200% text scaling were not checked for this statement.</p>
+<h2>Known defects</h2>
+<ul>
+<li>There is no Markdown copy of each page, and no single-file copy of the site (llms-full.txt).</li>
+<li>robots.txt makes its declarations in one block for every agent, not in named blocks for each purpose.</li>
+<li>On the home page, the Aegis Dynamics name at the top is a link to the page you are already on.</li>
+</ul>
+<h2>Reporting a problem</h2>
+<p>Every page ends with a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here.</p>`, '/accessibility/');
+
 pages['/404/'] = page('/404/', 'Page not found', 'Page not found.', `
 <h1>Page not found</h1>
 <p>This page could not be located. No Information Casualties have been recorded.</p>
@@ -183,6 +205,7 @@ const llms = `# Aegis Dynamics (fictional)
 - [Newsroom](${SITE}/newsroom/)
 ${news.map((n) => `- [${n.headline}](${SITE}${n.path}) (${n.date})`).join('\n')}
 - [About](${SITE}/about/)
+- [Accessibility statement](${SITE}/accessibility/): written from outside the fiction.
 `;
 
 // The built site is one JSON file. The Worker (worker.js beside this file) fetches it from GitHub,
