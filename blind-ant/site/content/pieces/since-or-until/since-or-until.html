@@ -96,9 +96,13 @@ a { color: var(--accent); }
   clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
 }
 
+/* Footer */
+.site-foot { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--ink-soft); display: grid; gap: .4rem; }
+.site-foot p { margin: 0; }
+
 /* Masthead */
 header { display: grid; gap: .5rem; }
-.presents { font-size: .9rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+.presents { font-size: 1.05rem; font-weight: 700; letter-spacing: .1em; font-variant-caps: all-small-caps; color: var(--ink-soft); }
 h1 { font-size: clamp(3rem, 13vw, 5.5rem); font-weight: 800; letter-spacing: -.03em; }
 h1 .or { color: var(--accent); }
 .tagline { font-size: 1.25rem; }
@@ -190,7 +194,7 @@ button { font: inherit; cursor: pointer; }
 #result { display: grid; gap: 1.25rem; }
 .result-top { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
 .tag {
-  font-weight: 700; font-size: .85rem; letter-spacing: .12em; text-transform: uppercase;
+  font-weight: 700; font-size: 1rem; letter-spacing: .1em; font-variant-caps: all-small-caps;
   background: var(--ink); color: var(--sheet); border-radius: 4px; padding: .15rem .55rem;
 }
 .tag.example { background: transparent; color: var(--ink-soft); border: 2px dashed var(--rule); }
@@ -220,9 +224,9 @@ button { font: inherit; cursor: pointer; }
 }
 .way h4 { margin: 0; font-size: 1.1rem; }
 .way > p { color: var(--ink-soft); font-size: 1rem; }
-dl { margin: 0; display: grid; gap: .6rem; }
-dt { font-size: .95rem; color: var(--ink-soft); }
-dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+.counts { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
+.counts .k { font-size: .95rem; color: var(--ink-soft); }
+.counts .v { font-weight: 700; font-variant-numeric: tabular-nums; }
 
 .about { display: grid; gap: .75rem; font-size: 1rem; color: var(--ink-soft); border-top: 2px solid var(--rule); padding-top: 1.5rem; }
 .about h2 { font-size: 1.3rem; color: var(--ink); }
@@ -361,12 +365,12 @@ table.grid td { padding: 2px; text-align: center; }
         <section class="way">
           <h4 id="exact-h">Exact counts</h4>
           <p>A day is always a day and a week is always 7 days, so these never change meaning.</p>
-          <dl id="r-exact"></dl>
+          <ul id="r-exact" class="counts"></ul>
         </section>
         <section class="way">
           <h4 id="cal-h">Calendar counts</h4>
           <p>Months run from 28 to 31 days and years from 365 to 366, so these follow the real calendar.</p>
-          <dl id="r-cal"></dl>
+          <ul id="r-cal" class="counts"></ul>
         </section>
       </div>
     </div>
@@ -384,6 +388,11 @@ table.grid td { padding: 2px; text-align: center; }
   </section>
 
   <div id="announce" class="visually-hidden" aria-live="polite"></div>
+
+  <footer class="site-foot">
+    <p><a href="/pieces/since-or-until/">About Since or Until?</a>, a working object from <a href="/">Blind Ant</a>.</p>
+    <p>This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=https%3A%2F%2Fblind-ant.com%2Fpieces%2Fsince-or-until%2Fsince-or-until.html">Fix something on this page</a></p>
+  </footer>
 </div>
 
 <dialog id="cal-dialog" aria-labelledby="cal-title">
@@ -654,11 +663,15 @@ table.grid td { padding: 2px; text-align: center; }
     res.classList.remove('flip'); void res.offsetWidth; res.classList.add('flip');
     if (focus) $('result-heading').focus();
   }
-  function fillList(dl, rows) {
-    dl.replaceChildren(...rows.flatMap(([k, v]) => {
-      const dt = document.createElement('dt'); dt.textContent = k;
-      const dd = document.createElement('dd'); dd.textContent = v;
-      return [dt, dd];
+  // One list item per count, name and value on one line, so a screen reader hears
+  // "Days: 47 days" and "list with 3 items", not names and values as separate items.
+  function fillList(list, rows) {
+    list.replaceChildren(...rows.map(([k, v]) => {
+      const li = document.createElement('li');
+      const name = document.createElement('span'); name.className = 'k'; name.textContent = k + ':';
+      const value = document.createElement('span'); value.className = 'v'; value.textContent = v;
+      li.append(name, ' ', value);
+      return li;
     }));
   }
 

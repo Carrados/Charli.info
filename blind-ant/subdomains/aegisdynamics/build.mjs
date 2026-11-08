@@ -65,7 +65,7 @@ a{color:var(--link)}a:focus-visible{outline:3px solid var(--accent);outline-offs
 .fiction a{color:inherit}
 header,main,footer{max-width:46rem;margin:0 auto;padding:0 1rem}
 header{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.5rem;padding-top:1.25rem;padding-bottom:1.25rem;border-bottom:1px solid var(--line)}
-.brand{margin:0;display:flex;align-items:center;gap:.6rem;color:var(--navy);text-decoration:none;font-weight:800;letter-spacing:.14em;font-size:1rem;text-transform:uppercase}
+.brand{margin:0;display:flex;align-items:center;gap:.6rem;color:var(--navy);text-decoration:none;font-weight:800;letter-spacing:.1em;font-size:1.2rem;font-variant-caps:all-small-caps}
 .mark{width:28px;height:32px;color:var(--navy)}
 nav ul{display:flex;gap:1.25rem;list-style:none;margin:0;padding:0}nav a{text-decoration:none;font-weight:600}nav a[aria-current]{text-decoration:underline}
 main{padding-top:2rem;padding-bottom:3rem}
