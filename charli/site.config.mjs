@@ -2,7 +2,7 @@
 export default {
   name: 'The CharliVerse',
   url: 'https://charli.info',
-  nav: [['/charli-jo/', 'Charli-Jo'], ['/perspectives/', 'Perspectives'], ['/charlipedia/', 'CharliPedia'], ['/training/', 'Training'], ['/accessibility/', 'Accessibility']],
+  nav: [['/accessibility/', 'Accessibility'], ['/charli-jo/', 'Charli-Jo'], ['/perspectives/', 'Perspectives'], ['/charlipedia/', 'CharliPedia'], ['/training/', 'Training']],
   footer: `<p>charli.info is Charli-Jo Tyrer's home: their Perspectives and the CharliVerse. Neighbours: <a href="https://carrados.com/">Carrados</a> and <a href="https://blind-ant.com/">Blind Ant</a>.</p>`,
   llms: 'charli.info is the home of Charli-Jo Tyrer (they/them): their own philosophy (Perspectives, https://charli.info/perspectives/), their real-world work (the Training section, including the Confident with AI course with TAVIP, is real), and the front door of the CharliVerse, a shared, evolving world of people, companies, fashion houses, technologies and stories. CharliPedia (https://charli.info/charlipedia/) is its memory and the who’s who of every name: personas, who write as themselves, and characters, who live in stories. Charli-Jo also runs Carrados (https://carrados.com/: the Tyrer Framework and The Blind AI). Blind Ant (https://blind-ant.com/) is run by Charlotte Joanne, the pen name of Charli-Jo Tyrer.',
   statuses: { canon: 'Canon', idea: 'An idea, not yet canon', stub: 'Canon, and a stub', author: 'An author', real: 'Real' },

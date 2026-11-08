@@ -129,7 +129,7 @@ function page(p, rawHtml) {
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
   <a class="site-name" href="/">Blind Ant</a>
-  <nav aria-label="Site"><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a> <a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></nav>
+  <nav aria-label="Site"><a href="/accessibility/"${p.path === '/accessibility/' ? ' aria-current="page"' : ''}>Accessibility</a> <a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a> <a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></nav>
 </header>
 <main id="main">${trail(p)}
 ${wallLabel(d, jump)}
