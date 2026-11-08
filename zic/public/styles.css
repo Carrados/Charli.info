@@ -45,6 +45,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outlin
   display: flex; align-items: center; gap: 0.55rem;
   color: var(--accent); text-decoration: none; font-weight: 700; font-size: 1.3rem; letter-spacing: 0.06em;
 }
+p.site-name { margin: 0; }
 .mark { width: 2.9rem; height: 2.9rem; color: var(--accent); flex: none; }
 .name-block { display: flex; flex-direction: column; line-height: 1.15; }
 .tagline { font-size: 0.85rem; font-weight: 400; letter-spacing: 0.02em; color: var(--soft); font-style: italic; }

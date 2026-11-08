@@ -31,6 +31,17 @@ const publicDir = join(siteDir, 'public');
 const dist = join(root, 'dist', name);
 const SITE = cfg.url;
 
+
+// The site's name in the header. The name and tagline are stacked blocks, and NVDA's
+// browse mode splits a link around blocks into one link per line, so the link carries
+// one name for all of it. On the home page it isn't a link at all: it would only lead
+// to the page you are on, and the heading below already says the name.
+function siteName(p) {
+  const inner = `${cfg.mark || ''}<span class="name-block"><span class="name">${esc(cfg.name)}</span>${cfg.tagline ? `<span class="tagline">${esc(cfg.tagline)}</span>` : ''}</span>`;
+  if (p.path === '/') return `<p class="site-name">${inner}</p>`;
+  const label = cfg.tagline ? `${cfg.name}, ${cfg.tagline}` : cfg.name;
+  return `<a class="site-name" href="/" aria-label="${esc(label)}">${inner}</a>`;
+}
 function parse(src) {
   src = src.replace(/\r\n?/g, '\n'); // files saved on Windows have CRLF line endings
   const m = src.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
@@ -88,7 +99,7 @@ function page(p, html) {
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
-  <a class="site-name" href="/"${p.path === '/' ? ' aria-current="page"' : ''}>${cfg.mark || ''}<span class="name-block"><span class="name">${esc(cfg.name)}</span>${cfg.tagline ? `<span class="tagline">${esc(cfg.tagline)}</span>` : ''}</span></a>
+  ${siteName(p)}
   <nav aria-label="Main"><ul>${nav}</ul></nav>
 </header>
 <main id="main">
