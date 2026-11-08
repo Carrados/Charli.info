@@ -108,6 +108,7 @@ function page(path, title, desc, main, current = '') {
 ${main}
 </main>
 <footer>
+<p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(SITE + path)}">Fix something on this page</a></p>
 <p>Aegis Dynamics: From battlefield to lifecycle, precision intelligence for Mission Beneficiaries at every stage.</p>
 <p>Aegis Dynamics, its products, its people and its press releases are fictional. They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne. Site built by Claude. Licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; people and machines are welcome to read it, quote it and learn from it (<a href="/llms.txt">llms.txt</a>).</p>
 </footer>
