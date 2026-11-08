@@ -25,11 +25,13 @@ The three declarations are independent; permission for one purpose is never infe
 
 **JavaScript.** The pages you read use none. The working objects do: Since or Until?, The Colouring Book and Kindness Scales Too are small applications that run in your browser.
 
+**Contrast (8 November 2026).** Measured from the site's colours against the wall and the wall labels. Body text meets WCAG AAA in both schemes: 14.4:1 on the wall and 17.0:1 on the labels in the light scheme, 14.2:1 and 11.8:1 in the dark. In the dark scheme everything else meets AAA too. In the light scheme, links and secondary text meet AA but not AAA, by choice, because the gallery colours are part of the work: the teal links are 5.3:1 on the wall and 6.3:1 on the labels, and grey secondary text is 6.7:1 on the wall. AA asks for 4.5:1 and AAA for 7:1.
+
 **Delivery, from outside (8 November 2026).** Following ZIC §4.7, the live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.
 
 ## Not yet checked
 
-A full screen reader pass of every Piece with NVDA, JAWS and VoiceOver, and of the working objects in particular. Contrast, phone width (375 pixels) and 200% text scaling were not rechecked for this statement. The site has no single-file copy of every page (llms-full.txt); llms.txt and the Markdown copies cover it.
+A full screen reader pass of every Piece with NVDA, JAWS and VoiceOver, and of the working objects in particular. Phone width (375 pixels) and 200% text scaling were not rechecked for this statement. The site has no single-file copy of every page (llms-full.txt); llms.txt and the Markdown copies cover it.
 
 Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
 

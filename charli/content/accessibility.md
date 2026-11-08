@@ -7,7 +7,7 @@ description: The ZIC conformance statement for charli.info: what is claimed, wha
 
 **Publisher:** Charli-Jo Tyrer
 
-**Statement date:** 24 October 2026
+**Statement date:** 8 November 2026 (first published 24 October 2026)
 
 A conformance claim is a statement made to a reader who cannot see inside the build, and its only value is that the reader can check it. Everything below is checkable, and the section on what was not checked is as much a part of the claim as the sections on what was.
 
@@ -25,7 +25,7 @@ The three declarations are independent; permission for one purpose is never infe
 
 **Layout.** Every page was rendered at phone width (375 pixels) with no sideways scrolling, and at desktop width.
 
-**Contrast.** Body text meets WCAG AAA contrast in both light and dark modes.
+**Contrast (8 November 2026).** Measured from the site's colours against the page background. All text meets WCAG AAA, at least 7:1, in both the light and the dark scheme: body text 16.8:1 and 15.5:1, secondary text 9.2:1 and 10.4:1, links 8.0:1 and 10.7:1, and the plum accent 10.7:1 and 10.9:1.
 
 **Delivery, from outside (24 October 2026).** Following ZIC §4.7, the live site was fetched from outside the build as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte. A live AI assistant fetched pages by address and reported them accurately. Cloudflare's AI-crawler blocking and its managed robots.txt are both switched off for this domain, so the published robots.txt is the only declaration.
 
@@ -34,6 +34,10 @@ The three declarations are independent; permission for one purpose is never infe
 An end-to-end screen reader pass with NVDA, JAWS or VoiceOver on this build. Automated tools (WAVE, axe, Lighthouse) and the W3C validator against the live site. 200% text scaling.
 
 Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
+
+## Found and fixed
+
+- **8 November 2026: the site name was heard as two links.** The link at the top held the name and the line beneath it as two stacked blocks, so NVDA read it as two links to the same place, and on the home page it led to the page you were on. It was reported on carrados.com, which shares this site's engine, and fixed on both: the link has one name, and on the home page the name is plain text.
 
 ## Known defects
 
