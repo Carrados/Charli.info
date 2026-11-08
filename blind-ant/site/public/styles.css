@@ -64,7 +64,7 @@ a:hover { text-decoration-thickness: 0.16em; }
 }
 
 .site-header { padding-block: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; align-items: baseline; justify-content: space-between; }
-.site-header nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.site-header nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; list-style: none; margin: 0; padding: 0; }
 .site-header nav a { color: var(--ink); }
 .jump { margin: 0.5rem 0 0; font-size: 1rem; }
 .site-name {
