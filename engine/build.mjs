@@ -109,6 +109,7 @@ ${html}
   </div>
 </main>
 <footer class="site-footer">
+  <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
   ${cfg.footer}
   <p>${lic === 'CC BY-SA 4.0' ? 'Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.' : `This page is licensed <a href="${licUrl}">${lic}</a>, as it says above; everything else here is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`} People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
 </footer>
