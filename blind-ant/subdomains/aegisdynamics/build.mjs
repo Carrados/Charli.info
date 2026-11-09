@@ -99,18 +99,11 @@ function toMarkdown(html) {
   return out.join('\n\n');
 }
 
-// A full stop or comma left on its own between a link and the next tag is a stop of its own for a screen reader:
-// VoiceOver flicks to it and NVDA's arrows land on it, and both say "period". Sighted readers keep the punctuation;
-// screen readers skip it (the same fix as The Colouring Book's heading dot). Markdown copies are left as written.
-const quiet = (html) => html
-  .replace(/(<\/a>)(\s*)([.,;:!?)\]]+)(?=\s*<(?:a\s|br|\/(?:p|li|td|th|dd|dt|h[1-6]|div|figcaption|small|span|blockquote|caption|em|strong)>))/g, '$1$2<span aria-hidden="true">$3</span>')
-  .replace(/(<(?:p|li|td|dd|span|em|strong)(?:\s[^>]*)?>|<\/a>\s*)([(\[“"‘]+)(?=<a\s)/g, '$1<span aria-hidden="true">$2</span>');
-
 function page(path, title, desc, main, current = '') {
   mdPages[path] = `> Fiction: Aegis Dynamics is an invented company, from DeathBot 2000 (${PIECE}), a design fiction by Charlotte Joanne at Blind Ant.\n\nCanonical page: ${SITE}${path}\n\n${toMarkdown(main)}\n`;
   const nav = [['/accessibility/', 'Accessibility'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
     .map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('');
-  return quiet(`<!doctype html>
+  return `<!doctype html>
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
@@ -138,7 +131,7 @@ ${main}
 <p>Aegis Dynamics, its products, its people and its press releases are fictional. They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne. Site built by Claude. Licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; people and machines are welcome to read it, quote it and learn from it (<a href="/llms.txt">llms.txt</a>, and <a href="${path}index.md">this page as Markdown</a>).</p>
 </footer>
 </body>
-</html>`);
+</html>`;
 }
 
 const pages = {};

@@ -63,12 +63,6 @@ marked.use({ renderer: { heading({ tokens, depth, text }) {
 } } });
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const longDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
-// A full stop or comma left on its own between a link and the next tag is a stop of its own for a screen reader:
-// VoiceOver flicks to it and NVDA's arrows land on it, and both say "period". Sighted readers keep the punctuation;
-// screen readers skip it (the same fix as The Colouring Book's heading dot). Markdown copies are left as written.
-const quiet = (html) => html
-  .replace(/(<\/a>)(\s*)([.,;:!?)\]]+)(?=\s*<(?:a\s|br|\/(?:p|li|td|th|dd|dt|h[1-6]|div|figcaption|small|span|blockquote|caption|em|strong)>))/g, '$1$2<span aria-hidden="true">$3</span>')
-  .replace(/(<(?:p|li|td|dd|span|em|strong)(?:\s[^>]*)?>|<\/a>\s*)([(\[“"‘]+)(?=<a\s)/g, '$1<span aria-hidden="true">$2</span>');
 
 // Everything is CC BY-SA 4.0 unless a page says otherwise with `license:` in its frontmatter
 // (the TAVIP handbooks are CC BY 4.0, as they state), so the footer and metadata match the page.
@@ -244,7 +238,7 @@ Charli-Jo Tyrer (they/them) is a writer and accessibility thinker, with almost f
 
 <p class="character-note">${who.length === 1 ? `${named[0]} is a persona of Charli-Jo Tyrer. She's fictional. Her work isn't.` : `${named.slice(0, -1).join(', ')} and ${named.at(-1)} are personas of Charli-Jo Tyrer. They're fictional. Their work isn't.`}</p>
 ` : '';
-  const html = quiet(page(p, tight(marked.parse(fill(false) + invite + note))));
+  const html = page(p, tight(marked.parse(fill(false) + invite + note)));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });
