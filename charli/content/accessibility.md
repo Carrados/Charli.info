@@ -49,4 +49,4 @@ ZIC secures the meaning of the page and its delivery. It does not claim to serve
 
 ## Reporting a problem
 
-Every page ends with a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here. The site's source is also public at [github.com/Carrados/charli.info](https://github.com/Carrados/charli.info), where you can raise an issue.
+At the foot of every page is a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here. The site's source is also public at [github.com/Carrados/charli.info](https://github.com/Carrados/charli.info), where you can raise an issue.

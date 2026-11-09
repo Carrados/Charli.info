@@ -129,7 +129,7 @@ function page(p, rawHtml) {
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
   <a class="site-name" href="/">Blind Ant</a>
-  <nav aria-label="Site"><ul><li><a href="/accessibility/"${p.path === '/accessibility/' ? ' aria-current="page"' : ''}>Accessibility</a></li><li><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a></li><li><a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></li></ul></nav>
+  <nav aria-label="Site"><ul><li><a href="/accessibility/"${p.path === '/accessibility/' ? ' aria-current="page"' : ''}>Accessibility statement</a></li><li><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a></li><li><a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></li></ul></nav>
 </header>
 <main id="main">${trail(p)}
 ${wallLabel(d, jump)}
@@ -138,9 +138,13 @@ ${html}
   </div>
 </main>
 <footer class="site-footer">
-  <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
-  <p>Blind Ant is part of <a href="https://charli.info/">the CharliVerse</a>. To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a>.</p>
-  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
+  <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a><br>
+  <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
+  <p>Blind Ant is part of <a href="https://charli.info/">the CharliVerse</a></p>
+  <p>To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a></p>
+  <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a></p>
+  <p>People and machines are welcome to read it, quote it and learn from it</p>
+  <p>For agents: <a href="/llms.txt">llms.txt</a> and <a href="${p.mdPath}">this page as Markdown</a></p>
 </footer>
 </body>
 </html>

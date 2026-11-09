@@ -67,6 +67,8 @@ const longDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', {
 // Everything is CC BY-SA 4.0 unless a page says otherwise with `license:` in its frontmatter
 // (the TAVIP handbooks are CC BY 4.0, as they state), so the footer and metadata match the page.
 const LICENSES = { 'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/', 'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/' };
+// Footer lines are labels, not prose: short lines that end on their link, with the licence's full name (VoiceOver spells out "CC BY").
+const LICENSE_NAMES = { 'CC BY-SA 4.0': 'Creative Commons Attribution-ShareAlike 4.0', 'CC BY 4.0': 'Creative Commons Attribution 4.0' };
 function page(p, html) {
   const lic = LICENSES[p.license] ? p.license : 'CC BY-SA 4.0';
   const licUrl = LICENSES[lic];
@@ -109,9 +111,13 @@ ${html}
   </div>
 </main>
 <footer class="site-footer">
-  <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
+  <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a><br>
+  <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
   ${cfg.footer}
-  <p>${lic === 'CC BY-SA 4.0' ? 'Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.' : `This page is licensed <a href="${licUrl}">${lic}</a>, as it says above; everything else here is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`} People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
+  <p>${lic === 'CC BY-SA 4.0' ? 'Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>' : `This page is licensed under <a href="${licUrl}">${LICENSE_NAMES[lic]}</a><br>
+  Everything else is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>`}</p>
+  <p>People and machines are welcome to read it, quote it and learn from it</p>
+  <p>For agents: <a href="/llms.txt">llms.txt</a> and <a href="${p.mdPath}">this page as Markdown</a></p>
 </footer>
 </body>
 </html>
