@@ -63,6 +63,12 @@ marked.use({ renderer: { heading({ tokens, depth, text }) {
 } } });
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const longDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+// A full stop or comma left on its own between a link and the next tag is a stop of its own for a screen reader:
+// VoiceOver flicks to it and NVDA's arrows land on it, and both say "period". Sighted readers keep the punctuation;
+// screen readers skip it (the same fix as The Colouring Book's heading dot). Markdown copies are left as written.
+const quiet = (html) => html
+  .replace(/(<\/a>)(\s*)([.,;:!?)\]]+)(?=\s*<(?:a\s|br|\/(?:p|li|td|th|dd|dt|h[1-6]|div|figcaption|small|span|blockquote|caption|em|strong)>))/g, '$1$2<span aria-hidden="true">$3</span>')
+  .replace(/(<(?:p|li|td|dd|span|em|strong)(?:\s[^>]*)?>|<\/a>\s*)([(\[“"‘]+)(?=<a\s)/g, '$1<span aria-hidden="true">$2</span>');
 
 // Everything is CC BY-SA 4.0 unless a page says otherwise with `license:` in its frontmatter
 // (the TAVIP handbooks are CC BY 4.0, as they state), so the footer and metadata match the page.
@@ -111,7 +117,7 @@ ${html}
 <footer class="site-footer">
   <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
   ${cfg.footer}
-  <p>${lic === 'CC BY-SA 4.0' ? 'Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.' : `This page is licensed <a href="${licUrl}">${lic}</a>, as it says above; everything else here is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`} People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a></p>
+  <p>${lic === 'CC BY-SA 4.0' ? 'Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.' : `This page is licensed <a href="${licUrl}">${lic}</a>, as it says above; everything else here is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`} People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
 </footer>
 </body>
 </html>
@@ -238,7 +244,7 @@ Charli-Jo Tyrer (they/them) is a writer and accessibility thinker, with almost f
 
 <p class="character-note">${who.length === 1 ? `${named[0]} is a persona of Charli-Jo Tyrer. She's fictional. Her work isn't.` : `${named.slice(0, -1).join(', ')} and ${named.at(-1)} are personas of Charli-Jo Tyrer. They're fictional. Their work isn't.`}</p>
 ` : '';
-  const html = page(p, tight(marked.parse(fill(false) + invite + note)));
+  const html = quiet(page(p, tight(marked.parse(fill(false) + invite + note))));
   if (p.rel === '404') { await writeFile(join(dist, '404.html'), html); continue; }
   const out = join(dist, p.path, 'index.html');
   await mkdir(dirname(out), { recursive: true });

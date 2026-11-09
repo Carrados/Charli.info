@@ -20,6 +20,12 @@ import { readFile, writeFile, mkdir, readdir, copyFile, rm } from 'node:fs/promi
 import { join, dirname, relative, sep, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
+// A full stop or comma left on its own between a link and the next tag is a stop of its own for a screen reader:
+// VoiceOver flicks to it and NVDA's arrows land on it, and both say "period". Sighted readers keep the punctuation;
+// screen readers skip it (the same fix as The Colouring Book's heading dot). Markdown copies are left as written.
+const quiet = (html) => html
+  .replace(/(<\/a>)(\s*)([.,;:!?)\]]+)(?=\s*<(?:a\s|br|\/(?:p|li|td|th|dd|dt|h[1-6]|div|figcaption|small|span|blockquote|caption|em|strong)>))/g, '$1$2<span aria-hidden="true">$3</span>')
+  .replace(/(<(?:p|li|td|dd|span|em|strong)(?:\s[^>]*)?>|<\/a>\s*)([(\[“"‘]+)(?=<a\s)/g, '$1<span aria-hidden="true">$2</span>');
 
 // A list item that is a single paragraph is written without the <p>, so screen readers don't announce its marker twice.
 const tight = (h) => h.replace(/<li><p>((?:(?!<\/?p[ >])[\s\S])*?)<\/p>\s*<\/li>/g, '<li>$1</li>');
@@ -139,8 +145,8 @@ ${html}
 </main>
 <footer class="site-footer">
   <p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(url)}">Fix something on this page</a></p>
-  <p>Blind Ant is part of <a href="https://charli.info/">the CharliVerse</a>. To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a></p>
-  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a></p>
+  <p>Blind Ant is part of <a href="https://charli.info/">the CharliVerse</a>. To get in touch, write to <a href="mailto:charlotte.joanne@blind-ant.com">charlotte.joanne@blind-ant.com</a>.</p>
+  <p>Everything here is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. People and machines are welcome to read it, quote it and learn from it. For agents: <a href="/llms.txt">llms.txt</a>, and <a href="${p.mdPath}">this page as Markdown</a>.</p>
 </footer>
 </body>
 </html>
@@ -245,7 +251,7 @@ for (const p of pages) {
       })
       .replace('<!-- objects -->', objects.map((q) => listItem(q, md)).join('\n'));
   seen = new Map();
-  const html = page(p, tight(marked.parse(fill(false) + ending(p, false))));
+  const html = quiet(page(p, tight(marked.parse(fill(false) + ending(p, false)))));
   if (p.rel === '404') {
     await writeFile(join(dist, '404.html'), html);
     continue;
