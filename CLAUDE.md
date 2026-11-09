@@ -88,6 +88,7 @@ Carrados investigates the future. Blind Ant makes the future imaginable. The Cha
 - Links: link the first mention of a person, product or source (not every mention); the link text is the name itself, never "click here" or a bare address; link to the most official page (the person's own site, the app's store page, the original post); always link what a piece quotes or summarises; link earlier pieces on the site by name; never force links to open in a new tab.
 
 - Built to the Zero Information Casualty (ZIC) standard: exactly one H1 per page (from the title; page text starts at `##`; the build refuses a `#` heading outside code), real headings, AAA contrast for body text, alt text on every picture, no sideways scroll at phone width.
+- **Orphan punctuation is silent to screen readers.** Punctuation is written correctly, never dropped. A full stop, comma or colon left on its own beside a link is a stop of its own for VoiceOver and NVDA (read as "period"), so every build wraps it in `aria-hidden` (`quiet()` in `engine/build.mjs`, `blind-ant/site/build.mjs` and the Aegis build). It still shows on screen and in the Markdown copies. Hand-written pages, such as the app pages in `blind-ant/site/content/pieces/`, need the span by hand.
 - Keep Charli-Jo's words as they wrote them. Fix obvious typos and say which ones you fixed.
 - Everything is CC BY-SA 4.0, except where a page says otherwise with `license:` in its frontmatter (the two TAVIP handbooks, AI Assistants and Know What You Are Holding, are CC BY 4.0, as they state); the footer and metadata follow it.
 
