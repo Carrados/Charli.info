@@ -75,7 +75,8 @@ function page(p, html) {
   const url = p.canonical || SITE + p.path;
   const nav = cfg.nav.map(([href, label]) => {
     const here = href === '/' ? p.path === '/' : p.path.startsWith(href);
-    return `<li><a href="${href}"${here ? ' aria-current="page"' : ''}>${esc(label)}</a></li>`;
+    // The page you are on is named in the menu, but is not a link to itself (rulebook rule 2).
+    return here ? `<li><a aria-current="page">${esc(label)}</a></li>` : `<li><a href="${href}">${esc(label)}</a></li>`;
   }).join('');
   const meta = [p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
   // A CharliPedia entry (status: canon | idea | stub) says, under its title, what it is and that it is written from inside the world.
