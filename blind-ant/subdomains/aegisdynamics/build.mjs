@@ -101,7 +101,7 @@ function toMarkdown(html) {
 
 function page(path, title, desc, main, current = '') {
   mdPages[path] = `> Fiction: Aegis Dynamics is an invented company, from DeathBot 2000 (${PIECE}), a design fiction by Charlotte Joanne at Blind Ant.\n\nCanonical page: ${SITE}${path}\n\n${toMarkdown(main)}\n`;
-  const nav = [['/accessibility/', 'Accessibility'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
+  const nav = [['/accessibility/', 'Accessibility statement'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
     .map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('');
   return `<!doctype html>
 <html lang="en-US">
@@ -126,9 +126,15 @@ ${current === '/' ? `<p class="brand">${shield}Aegis Dynamics</p>` : `<a class="
 ${main}
 </main>
 <footer>
-<p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a>. <a href="https://unremarkable.me/fix/?page=${encodeURIComponent(SITE + path)}">Fix something on this page</a></p>
-<p>Aegis Dynamics: From battlefield to lifecycle, precision intelligence for Mission Beneficiaries at every stage.</p>
-<p>Aegis Dynamics, its products, its people and its press releases are fictional. They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne. Site built by Claude. Licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; people and machines are welcome to read it, quote it and learn from it (<a href="/llms.txt">llms.txt</a>, and <a href="${path}index.md">this page as Markdown</a>).</p>
+<p class="unremarkable">This site is <a href="https://unremarkable.me/">Unremarkable</a><br>
+<a href="https://unremarkable.me/fix/?page=${encodeURIComponent(SITE + path)}">Fix something on this page</a></p>
+<p>Aegis Dynamics: From battlefield to lifecycle, precision intelligence for Mission Beneficiaries at every stage</p>
+<p>Aegis Dynamics, its products, its people and its press releases are fictional</p>
+<p>They belong to <a href="${PIECE}">DeathBot 2000</a> on <a href="${BLIND_ANT}/">Blind Ant</a>, the design fiction practice run by Charlotte Joanne</p>
+<p>Site built by Claude</p>
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a></p>
+<p>People and machines are welcome to read it, quote it and learn from it</p>
+<p>For agents: <a href="/llms.txt">llms.txt</a> and <a href="${path}index.md">this page as Markdown</a></p>
 </footer>
 </body>
 </html>`;
@@ -210,7 +216,7 @@ pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'T
 <h2>Known defects</h2>
 <p>None known. When one is found, it is listed here until it is fixed.</p>
 <h2>Reporting a problem</h2>
-<p>Every page ends with a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here.</p>`, '/accessibility/');
+<p>At the foot of every page is a link, "Fix something on this page". It opens a short form that already knows which page you were on. It doesn't ask who you are, and a person reads every report. The fix is tested before it goes live, and recorded here.</p>`, '/accessibility/');
 
 pages['/404/'] = page('/404/', 'Page not found', 'Page not found.', `
 <h1>Page not found</h1>
