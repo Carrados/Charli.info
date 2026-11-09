@@ -102,7 +102,7 @@ function toMarkdown(html) {
 function page(path, title, desc, main, current = '') {
   mdPages[path] = `> Fiction: Aegis Dynamics is an invented company, from DeathBot 2000 (${PIECE}), a design fiction by Charlotte Joanne at Blind Ant.\n\nCanonical page: ${SITE}${path}\n\n${toMarkdown(main)}\n`;
   const nav = [['/accessibility/', 'Accessibility statement'], ['/newsroom/', 'Newsroom'], ['/about/', 'About']]
-    .map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('');
+    .map(([h, l]) => current === h ? `<li><a aria-current="page">${l}</a></li>` : `<li><a href="${h}">${l}</a></li>`).join('');
   return `<!doctype html>
 <html lang="en-US">
 <head>

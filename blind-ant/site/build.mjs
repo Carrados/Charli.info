@@ -129,7 +129,7 @@ function page(p, rawHtml) {
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site-header">
   <a class="site-name" href="/">Blind Ant</a>
-  <nav aria-label="Site"><ul><li><a href="/accessibility/"${p.path === '/accessibility/' ? ' aria-current="page"' : ''}>Accessibility statement</a></li><li><a href="/pieces/"${p.path === '/pieces/' ? ' aria-current="page"' : ''}>All Pieces</a></li><li><a href="/about/"${p.path === '/about/' ? ' aria-current="page"' : ''}>About</a></li></ul></nav>
+  <nav aria-label="Site"><ul>${[['/accessibility/', 'Accessibility statement'], ['/pieces/', 'All Pieces'], ['/about/', 'About']].map(([h, l]) => p.path === h ? `<li><a aria-current="page">${l}</a></li>` : `<li><a href="${h}">${l}</a></li>`).join('')}</ul></nav>
 </header>
 <main id="main">${trail(p)}
 ${wallLabel(d, jump)}
