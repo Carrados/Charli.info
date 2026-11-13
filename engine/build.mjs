@@ -203,8 +203,7 @@ for (const p of pages) {
   if (deskIds.length || inBlogPost) {
     const names = deskIds.map((d) => cfg.desks[d]);
     const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
-    const personaCount = deskIds.filter(persona).length;
-    p.orient = `From [The Blind AI](/blind-ai/), Charli-Jo Tyrer's blog on AI and blindness at Carrados.` + (deskIds.length ? ` Filed by ${joined}${personaCount ? (personaCount === 1 ? ', a persona of Charli-Jo Tyrer' : ', personas of Charli-Jo Tyrer') : ', in their own voice'}.` : '');
+    p.orient = deskIds.length ? `Filed by ${joined} for [The Blind AI](/blind-ai/).` : `From [The Blind AI](/blind-ai/).`;
     if (related.length) invite += `
 
 ## More about this
