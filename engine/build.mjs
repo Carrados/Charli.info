@@ -78,7 +78,7 @@ function page(p, html) {
     // The page you are on is named in the menu, but is not a link to itself (rulebook rule 2).
     return here ? `<li><a aria-current="page">${esc(label)}</a></li>` : `<li><a href="${href}">${esc(label)}</a></li>`;
   }).join('');
-  const meta = [!p.orientNamesWriter && p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
+  const meta = [!p.orientNamesWriter && p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ');
   // A CharliPedia entry (status: canon | idea | stub) says, under its title, what it is and that it is written from inside the world.
   const status = p.status && cfg.statuses?.[p.status] ? `\n  <p class="entry-status"><strong>${esc(cfg.statuses[p.status])}.</strong> ${cfg.statusNotes?.[p.status] ?? cfg.statusNote}</p>` : '';
   return `<!doctype html>
@@ -97,7 +97,7 @@ function page(p, html) {
 <meta property="og:title" content="${esc(p.title)}">
 <meta property="og:description" content="${esc(p.description)}">
 <meta property="og:url" content="${url}">
-<meta property="og:site_name" content="${esc(cfg.name)}">
+<meta property="og:site_name" content="${esc(cfg.name)}">${p.date ? `\n<meta property="article:published_time" content="${p.date}">` : ''}
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
