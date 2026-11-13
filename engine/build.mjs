@@ -78,7 +78,7 @@ function page(p, html) {
     // The page you are on is named in the menu, but is not a link to itself (rulebook rule 2).
     return here ? `<li><a aria-current="page">${esc(label)}</a></li>` : `<li><a href="${href}">${esc(label)}</a></li>`;
   }).join('');
-  const meta = [p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
+  const meta = [!p.orientNamesWriter && p.byline, p.date && `<time datetime="${p.date}">${longDate(p.date)}</time>`].filter(Boolean).join(' · ');
   // A CharliPedia entry (status: canon | idea | stub) says, under its title, what it is and that it is written from inside the world.
   const status = p.status && cfg.statuses?.[p.status] ? `\n  <p class="entry-status"><strong>${esc(cfg.statuses[p.status])}.</strong> ${cfg.statusNotes?.[p.status] ?? cfg.statusNote}</p>` : '';
   return `<!doctype html>
@@ -127,7 +127,7 @@ ${html}
 
 function markdownMirror(p, body) {
   let out = `# ${p.title}\n\n> ${p.description}\n\n`;
-  if (p.byline || p.date) out += [p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
+  if (p.byline || p.date) out += [!p.orientNamesWriter && p.byline, p.date && longDate(p.date)].filter(Boolean).join(' · ') + '\n\n';
   if (p.orient) out += p.orient.replace(/\]\(\//g, `](${SITE}/`) + '\n\n';
   if (p.status && cfg.statuses?.[p.status]) out += `**${cfg.statuses[p.status]}.** ${(cfg.statusNotes?.[p.status] ?? cfg.statusNote).replace(/<[^>]+>/g, '')}\n\n`;
   body = body.replace(/<!--[\s\S]*?-->\n?/g, '').replace(/\]\(\//g, `](${SITE}/`);
@@ -203,6 +203,7 @@ for (const p of pages) {
   if (deskIds.length || inBlogPost) {
     const names = deskIds.map((d) => cfg.desks[d]);
     const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
+    p.orientNamesWriter = deskIds.length > 0; // the writer is named once, in "Filed by", so the byline isn't repeated above it
     p.orient = deskIds.length ? `Filed by ${joined} for [The Blind AI](/blind-ai/).` : `From [The Blind AI](/blind-ai/).`;
     if (related.length) invite += `
 
