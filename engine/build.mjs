@@ -189,9 +189,10 @@ for (const p of pages) {
     });
   seen = new Map();
   // Every piece is the front page (CLAUDE.md): visitors arrive from a link, not the front page. A Blind AI post, or any post
-  // from a desk, says where it is and who is speaking under its title, and ends with three invitations: more about this
-  // (pieces named in its frontmatter, related: Title|address; Title|address), more from the same writer, and the wider
-  // Blind AI with who is behind it.
+  // from a desk, says where it is and who is speaking under its title, and ends with short invitations: more about this
+  // (pieces named in its frontmatter, related: Title|address; Title|address) and more from the same writer, as plain title
+  // links. The opening line already names The Blind AI, and the persona note below is the about-the-author line
+  // (trimmed 13 November 2026 so the ending is never longer than the piece).
   const newest = (a, b) => (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || ''));
   const persona = (d) => !(cfg.people || []).includes(d);
   const entry = (name) => `https://charli.info/charlipedia/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
@@ -216,13 +217,8 @@ for (const p of pages) {
 
 ## More from ${cfg.desks[d]}
 
-` + more.map((q) => `- [${q.title}](${q.path}): ${q.description}`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
+` + more.map((q) => `- [${q.title}](${q.path})`).join('\n') + (more.length ? '\n' : '') + `- [Everything ${cfg.desks[d]} has filed](${desk?.canonical || `/desks/${d}/`})`;
     }
-    invite += `
-
-## About The Blind AI
-
-This is one post from [The Blind AI](/blind-ai/), where Charli-Jo Tyrer and their personas write about AI and blindness. The thinking underneath it is in [Papers](/papers/), starting with [the Tyrer Framework](/papers/tyrer-framework/). [About Carrados](/about/) says who Charli-Jo is, and [charli.info](https://charli.info/) has their own philosophy.`;
   }
   // A Paper ends by pointing the reader on: the other Papers, then who wrote them.
   if (cfg.desks && !p.isIndex && p.path.startsWith('/papers/')) {

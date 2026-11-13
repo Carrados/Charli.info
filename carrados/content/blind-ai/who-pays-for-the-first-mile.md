@@ -23,4 +23,4 @@ If AI is as powerful as we're told, start with the problems nobody can solve, no
 
 ## Behind the fiction
 
-dice is a persona, and the pitch is her account of it: the startup isn't named, and nothing in this piece has been checked against the company or its claims. The argument is hers.
+The pitch is dice's account of it: the startup isn't named, and nothing in this piece has been checked against the company or its claims. The argument is hers.
