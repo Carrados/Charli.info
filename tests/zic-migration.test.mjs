@@ -19,9 +19,12 @@ test('the specification and published downloads are preserved without rewriting'
   // The author's name was changed from "C J Tyrer" to "Charli-Jo Tyrer" throughout, at their request, on 15 November 2026.
   assert.ok(!now.includes('C J Tyrer'));
   assert.equal(now.replace(v16, ''), original.replace(/\r\n/g, '\n').replaceAll('C J Tyrer', 'Charli-Jo Tyrer'));
-  for (const version of ['1_5', '1_7']) {
-    const name = `Zero_Information_Casualty_v${version}.docx`;
-    assert.deepEqual(await readFile(`zic/content/documents/${name}`), execFileSync('git', ['show', `${originalRevision}:carrados/content/documents/${name}`]));
+  // The Word renderings were corrected on 15 November 2026 (author's name, British English, titles, the v1.7 Preamble heading),
+  // so they no longer match the files that moved from Carrados byte for byte. They must still be Word files that open.
+  for (const version of ['1_5', '1_6', '1_7']) {
+    const file = await readFile(`zic/content/documents/Zero_Information_Casualty_v${version}.docx`);
+    assert.equal(file.subarray(0, 2).toString(), 'PK');
+    assert.ok(file.length > 40000);
   }
   assert.deepEqual(await readFile('zic/public/styles.css'), await readFile('carrados/public/styles.css'));
 });
