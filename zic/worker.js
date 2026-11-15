@@ -28,7 +28,8 @@ export default {
     if (path.includes('..')) return new Response('Not found', { status: 404 });
     // Each version keeps its own address (Part Seven asks for a stable one). v1.7 is the current version, so /1.7/ serves
     // the home page. When a later version takes the home page, v1.7 becomes a page of its own at this address.
-    if (path === '/1.7') return Response.redirect(url.origin + '/1.7/' + url.search, 301);
+    // A version address without its closing slash (/1.6) would otherwise be read as a file with the extension .6.
+    if (/^\/\d+\.\d+(\.\d+)?$/.test(path)) return Response.redirect(url.origin + path + '/' + url.search, 301);
     if (['/1.7/', '/1.7/index.html', '/1.7/index.md'].includes(path)) path = path.slice(4);
     if (!/\.\w+$/.test(path)) {
       if (!path.endsWith('/')) {

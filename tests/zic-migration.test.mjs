@@ -81,6 +81,14 @@ test('new Worker serves its own static assets, Markdown, Word files and proper 4
     assert.match(await versioned.text(), /<h1>Zero Information Casualty \(ZIC\) v1\.7<\/h1>/);
     assert.match(await (await zic.fetch(new Request(base + '/1.7/index.md'), env)).text(), /^# Zero Information Casualty/);
     assert.equal((await zic.fetch(new Request(base + '/1.7?x=1'), env)).headers.get('location'), base + '/1.7/?x=1');
+    // Earlier versions are pages at their own addresses, marked as superseded, and kept out of the one-file full text.
+    for (const v of ['1.5', '1.6']) {
+      const page = await (await zic.fetch(new Request(`${base}/${v}/`), env)).text();
+      assert.match(page, new RegExp(`<h1>Zero Information Casualty \\(ZIC\\) v${v.replace('.', '\\.')}</h1>`));
+      assert.match(page, /It has been superseded/);
+      assert.equal((await zic.fetch(new Request(`${base}/${v}`), env)).headers.get('location'), `${base}/${v}/`);
+    }
+    assert.ok(!(await readFile('dist/zic/llms-full.txt', 'utf8')).includes('Changes in v1.6\n'));
     assert.equal((await zic.fetch(new Request(base + '/missing/'), env)).status, 404);
     assert.equal((await zic.fetch(new Request(base + '/', { method: 'POST' }), env)).status, 405);
     const www = await zic.fetch(new Request('https://www.zeroinformationcasualty.org/?from=www'), env);
