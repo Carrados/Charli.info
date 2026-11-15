@@ -265,7 +265,9 @@ let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);
 let full = `# ${cfg.name}: the full text\n\n> ${home.description}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0.\n`;
-for (const p of listed) full += `\n---\n\nAddress: ${SITE}${p.path}\n\n${(await readFile(join(dist, p.mdPath), 'utf8')).replace(/^# /, '## ').replace(/\n(#{1,5}) /g, '\n#$1 ')}`;
+// A page with `archive: true` (a superseded version kept at its own address) is listed in llms.txt and the sitemap,
+// but left out of the one-file full text, so the current text isn't repeated beside its older versions.
+for (const p of listed.filter((q) => !q.archive)) full += `\n---\n\nAddress: ${SITE}${p.path}\n\n${(await readFile(join(dist, p.mdPath), 'utf8')).replace(/^# /, '## ').replace(/\n(#{1,5}) /g, '\n#$1 ')}`;
 await writeFile(join(dist, 'llms-full.txt'), full);
 await writeFile(join(dist, 'robots.txt'), (await readFile(join(root, 'engine', 'robots.txt'), 'utf8')) + `Sitemap: ${SITE}/sitemap.xml\n`);
 // CharliPedia as data, for the read-only CharliPedia MCP server (charli/mcp/): every entry with its Markdown.

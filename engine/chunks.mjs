@@ -38,6 +38,7 @@ for (const file of await walk(dist)) {
   const title = (src.match(/^# (.+)$/m) || [, path])[1].trim();
   let site = label;
   for (const [pre, lab] of prefixes) if (path.startsWith(pre)) site = lab;
+  if (site === '') continue; // a rule with an empty label (for example /1.5/=) leaves those pages out of the search index
   const body = src.replace(/^# .+$/m, '');
   const sections = body.split(/\n(?=#{2,4} )/);
   let n = 0;
