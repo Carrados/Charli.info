@@ -16,7 +16,9 @@ test('the specification and published downloads are preserved without rewriting'
   const v16 = '[ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and ';
   const now = (await readFile('zic/content/index.md', 'utf8')).replace(/\r\n/g, '\n');
   assert.equal(now.split(v16).length, 2);
-  assert.equal(now.replace(v16, ''), original.replace(/\r\n/g, '\n'));
+  // The author's name was changed from "C J Tyrer" to "Charli-Jo Tyrer" throughout, at their request, on 15 November 2026.
+  assert.ok(!now.includes('C J Tyrer'));
+  assert.equal(now.replace(v16, ''), original.replace(/\r\n/g, '\n').replaceAll('C J Tyrer', 'Charli-Jo Tyrer'));
   for (const version of ['1_5', '1_7']) {
     const name = `Zero_Information_Casualty_v${version}.docx`;
     assert.deepEqual(await readFile(`zic/content/documents/${name}`), execFileSync('git', ['show', `${originalRevision}:carrados/content/documents/${name}`]));

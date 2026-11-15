@@ -6,7 +6,7 @@ order: 2
 **A Web Design Specification**
 
 **Version:** 1.7
-**Authors:** C J Tyrer and Claude (Anthropic)
+**Authors:** Charli-Jo Tyrer and Claude (Anthropic)
 **Date:** September 2026 (v1.0: March 2026. v1.1: July 2026. v1.2: July 2026. v1.3: July 2026. v1.4: July 2026. v1.4.1: July 2026. v1.5: July 2026. v1.6: July 2026)
 **Status:** Foundation Document
 **Licence:** CC BY-SA 4.0
@@ -88,7 +88,7 @@ The same event drew one of the three lines in the wrong place, revealed a class 
 
 This document specifies the Zero Information Casualty (ZIC) design standard for websites and web-based documents. It defines a philosophy, a set of design principles, and a technical specification. It is intended to function simultaneously as a publishable manifesto, a theme readme, and a briefing document for AI models working on ZIC-compliant projects.
 
-ZIC was developed by C J Tyrer in the context of the CharliVerse intellectual ecosystem, grounded in the Tyrer Framework for accessibility and the Inference Space model of human-AI interaction. The name derives directly from the Information Casualty concept: an event in which relevant information fails to reach an observer in time to inform perception, action, or participation. ZIC sites are designed so that no such event can occur.
+ZIC was developed by Charli-Jo Tyrer in the context of the CharliVerse intellectual ecosystem, grounded in the Tyrer Framework for accessibility and the Inference Space model of human-AI interaction. The name derives directly from the Information Casualty concept: an event in which relevant information fails to reach an observer in time to inform perception, action, or participation. ZIC sites are designed so that no such event can occur.
 
 Version 1.0 ensured that no visitor who arrives loses any meaning. Version 1.1 extended the standard from guarantee to invitation. Version 1.2 addressed the case both earlier versions assumed away: whether the document arrived at all. Version 1.3 separated immediate human access from later machine use, and required service to the sent agent with honest, independent declarations about search indexing and model training.
 
@@ -962,11 +962,11 @@ For model context initialisation and quick reference.
 
 **The jurisdiction of ZIC:** ZIC secures the semantic substrate and its delivery. It does not specify renderings, and offers no ceiling for cognitive, motor, or other access needs it is not qualified to specify. It is necessary, nowhere near sufficient, and written to be built on. (§1.14)
 
-**Theoretical grounding:** Tyrer Framework (C J Tyrer, CharliVerse). Specifically: Information Casualty, Tyrer's Law, Generative Accessibility.
+**Theoretical grounding:** Tyrer Framework (Charli-Jo Tyrer, CharliVerse). Specifically: Information Casualty, Tyrer's Law, Generative Accessibility.
 
 **Implementations:** charli.info — first implementation, first site to operationalise the Open Door, source of the defects that produced v1.2 and the clarifications in v1.3 and v1.4. blind-ant.com — pending.
 
-*Zero Information Casualty v1.7 — C J Tyrer and Claude (Anthropic) — September 2026*
+*Zero Information Casualty v1.7 — Charli-Jo Tyrer and Claude (Anthropic) — September 2026*
 
 *CC BY-SA 4.0 — Share and adapt with attribution*
 
