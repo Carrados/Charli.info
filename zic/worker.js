@@ -5,7 +5,7 @@ const TYPES = {
   txt: 'text/plain; charset=utf-8', xml: 'application/xml; charset=utf-8', svg: 'image/svg+xml',
   jpg: 'image/jpeg', png: 'image/png', webp: 'image/webp',
   docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', pdf: 'application/pdf',
-  json: 'application/json; charset=utf-8', js: 'text/javascript; charset=utf-8',
+  json: 'application/json; charset=utf-8', js: 'text/javascript; charset=utf-8', zip: 'application/zip',
 };
 // Files come from this Worker's own static assets (uploaded with each publish), not from anywhere else.
 const pull = (env, request, path) => env.ASSETS.fetch(new Request(new URL(path, request.url), { headers: request.headers }));

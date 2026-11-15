@@ -99,3 +99,16 @@ test('generated surfaces identify the new home; Carrados no longer republishes t
   const home = await readFile('dist/carrados/index.html', 'utf8');
   assert.match(home, /href="https:\/\/zeroinformationcasualty.org\/"/);
 });
+
+test('the ZIC skill download is packed from its folder and served as a zip', async () => {
+  // The site serves the committed zip, so it must match zic/skill/zic-1-7/ (python3 zic/skill/pack.py rebuilds it).
+  execFileSync('python3', ['zic/skill/pack.py', '--check']);
+  const env = { ASSETS: { async fetch(request) {
+    try { return new Response(await readFile('dist/zic' + decodeURIComponent(new URL(request.url).pathname))); }
+    catch { return new Response('missing', { status: 404 }); }
+  } } };
+  const zip = await zic.fetch(new Request(base + '/documents/zic-1-7-skill.zip'), env);
+  assert.equal(zip.status, 200);
+  assert.equal(zip.headers.get('content-type'), 'application/zip');
+  assert.match(await (await zic.fetch(new Request(base + '/skill/'), env)).text(), /<h1>The ZIC skill for agents<\/h1>/);
+});
