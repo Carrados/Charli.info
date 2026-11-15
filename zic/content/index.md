@@ -15,8 +15,8 @@ order: 2
 
 ## Contents
 
-- [Changes in v1.7](#changes-in-v17)
 - [Preamble](#preamble)
+- [Changes in v1.7](#changes-in-v17)
 - [Part One: The Philosophy](#part-one-the-philosophy)
   - [1.1 The Central Claim](#11-the-central-claim)
   - [1.2 Who the Site Is Designed For](#12-who-the-site-is-designed-for)
@@ -62,6 +62,20 @@ order: 2
 - [Part Seven: Claiming Conformance](#part-seven-claiming-conformance)
 - [Appendix: ZIC at a Glance](#appendix-zic-at-a-glance)
 
+## Preamble
+
+This document specifies the Zero Information Casualty (ZIC) design standard for websites and web-based documents. It defines a philosophy, a set of design principles, and a technical specification. It is intended to function simultaneously as a publishable manifesto, a theme readme, and a briefing document for AI models working on ZIC-compliant projects.
+
+ZIC was developed by Charli-Jo Tyrer in the context of the CharliVerse intellectual ecosystem, grounded in the Tyrer Framework for accessibility and the Inference Space model of human-AI interaction. The name derives directly from the Information Casualty concept: an event in which relevant information fails to reach an observer in time to inform perception, action, or participation. ZIC sites are designed so that no such event can occur.
+
+Version 1.0 ensured that no visitor who arrives loses any meaning. Version 1.1 extended the standard from guarantee to invitation. Version 1.2 addressed the case both earlier versions assumed away: whether the document arrived at all. Version 1.3 separated immediate human access from later machine use, and required service to the sent agent with honest, independent declarations about search indexing and model training.
+
+Version 1.4 separates the standard from the appearance of the site that first implemented it. Every version to date has been written alongside charli.info, and charli.info is austere. Austerity was a choice its publisher made and was never a requirement this specification had any business imposing. A standard that tells a publisher to abandon her typeface has stopped describing access and started describing taste, and it will be refused by exactly the people it most needs to persuade.
+
+Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovered the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and found inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0. Version 1.6 names the seam between what the framework derives and what measurement supplies, defines the words the specification binds with, and bounds every check by what it can honestly prove. Version 1.7 records the moment the three-class separation of §1.7 became infrastructure, and answers the three things that infrastructure got wrong or left unsaid: it names the edge default that blocks the sent agent from pages carrying advertising as the Admission Casualty it is; it gives a rule for the crawler that indexes and trains under one name; and it states that a page read in full to the person who asked for it has been retrieved, not reproduced.
+
+The rule underneath was always simpler than the list of prohibitions that grew on top of it. It is stated in §1.11, and it fits in one sentence. As of this version it has a companion of equal rank, stated in §1.16, and that fits in one sentence too.
+
 ## Changes in v1.7
 
 Version 1.7 is written from an event, not a review. On 15 September 2026 the largest edge network on the web, fronting roughly a fifth of all domains, replaced its single “block AI bots” switch with three independent controls — Search, Agent, and Training — and began enforcing them by category at the edge. The taxonomy is this specification’s taxonomy: the sent agent, the indexer, and the training crawler, kept apart because time, agency, and consequence differ in each. §1.7 has said so since v1.3. It is now infrastructure.
@@ -83,20 +97,6 @@ The same event drew one of the three lines in the wrong place, revealed a class 
 **Declaration is not compliance, third fact (amended, §3.6).** v1.4 gave two reasons a robots.txt can be sincere and false. A third is added: the edge now enforces by category, “verified” no longer means “allowed”, and under the mixed-use rule a site that declared search=yes in July and blocked training at the edge began refusing Googlebot on 15 September without a byte of its own files changing. A declaration is true of a stack at a moment. Part Seven item 6 now says so.
 
 **The crawler list redated (amended, §3.6).** The list carried “as of July 2026” and asked to be reviewed twice a year. This is the review.
-
-## Preamble
-
-This document specifies the Zero Information Casualty (ZIC) design standard for websites and web-based documents. It defines a philosophy, a set of design principles, and a technical specification. It is intended to function simultaneously as a publishable manifesto, a theme readme, and a briefing document for AI models working on ZIC-compliant projects.
-
-ZIC was developed by Charli-Jo Tyrer in the context of the CharliVerse intellectual ecosystem, grounded in the Tyrer Framework for accessibility and the Inference Space model of human-AI interaction. The name derives directly from the Information Casualty concept: an event in which relevant information fails to reach an observer in time to inform perception, action, or participation. ZIC sites are designed so that no such event can occur.
-
-Version 1.0 ensured that no visitor who arrives loses any meaning. Version 1.1 extended the standard from guarantee to invitation. Version 1.2 addressed the case both earlier versions assumed away: whether the document arrived at all. Version 1.3 separated immediate human access from later machine use, and required service to the sent agent with honest, independent declarations about search indexing and model training.
-
-Version 1.4 separates the standard from the appearance of the site that first implemented it. Every version to date has been written alongside charli.info, and charli.info is austere. Austerity was a choice its publisher made and was never a requirement this specification had any business imposing. A standard that tells a publisher to abandon her typeface has stopped describing access and started describing taste, and it will be refused by exactly the people it most needs to persuade.
-
-Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovered the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and found inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0. Version 1.6 names the seam between what the framework derives and what measurement supplies, defines the words the specification binds with, and bounds every check by what it can honestly prove. Version 1.7 records the moment the three-class separation of §1.7 became infrastructure, and answers the three things that infrastructure got wrong or left unsaid: it names the edge default that blocks the sent agent from pages carrying advertising as the Admission Casualty it is; it gives a rule for the crawler that indexes and trains under one name; and it states that a page read in full to the person who asked for it has been retrieved, not reproduced.
-
-The rule underneath was always simpler than the list of prohibitions that grew on top of it. It is stated in §1.11, and it fits in one sentence. As of this version it has a companion of equal rank, stated in §1.16, and that fits in one sentence too.
 
 ## Part One: The Philosophy
 
@@ -892,7 +892,7 @@ Reference form:
 >
 > Model training: declined (ai-train=no).
 >
-> Specification: <https://example.org/zic/1.7>
+> Specification: <https://zeroinformationcasualty.org/1.7/>
 >
 > Checked: repository verifier, delivery checks (§4.7),
 >
@@ -964,7 +964,7 @@ For model context initialisation and quick reference.
 
 **Theoretical grounding:** Tyrer Framework (Charli-Jo Tyrer, CharliVerse). Specifically: Information Casualty, Tyrer's Law, Generative Accessibility.
 
-**Implementations:** charli.info — first implementation, first site to operationalise the Open Door, source of the defects that produced v1.2 and the clarifications in v1.3 and v1.4. blind-ant.com — pending.
+**Implementations:** charli.info — first implementation, first site to operationalise the Open Door, source of the defects that produced v1.2 and the clarifications in v1.3 and v1.4. blind-ant.com — pending. zeroinformationcasualty.org — this specification's own site; its conformance statement says what was checked and what was not.
 
 *Zero Information Casualty v1.7 — Charli-Jo Tyrer and Claude (Anthropic) — September 2026*
 
@@ -973,4 +973,6 @@ For model context initialisation and quick reference.
 ## This document in other renderings
 
 This page is the canonical publication of Zero Information Casualty v1.7. The same document is also available as a Word file: [Download ZIC v1.7 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_7.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it. Earlier versions: [ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and [ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx).
+
+Corrected on 15 November 2026, without a change of version or of any requirement: the author's name is given in full; the Preamble now comes before Changes in v1.7; the reference form in Part Seven cites this specification's own address in place of a placeholder; and the Appendix lists this site among the implementations.
 

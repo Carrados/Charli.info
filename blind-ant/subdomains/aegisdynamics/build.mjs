@@ -242,7 +242,7 @@ Every page is also published as Markdown, at its address plus index.md, and the 
 // so publishing is: build, commit, push to main. The Worker only needs redeploying if worker.js changes.
 const llmsFull = '# Aegis Dynamics (fictional): full text\n\nEvery page of the site in one file. Licensed CC BY-SA 4.0.\n\n'
   + Object.entries(mdPages).filter(([p]) => p !== '/404/').map(([, m]) => m).join('\n\n---\n\n');
-// robots.txt: the same named blocks for each purpose as every other site, written to ZIC v1.7.
+// robots.txt: the same named blocks for each purpose as every other site, written to ZIC v1.7. Each group carries its own Content-Signal line (since 15 November 2026).
 const robots = '# Aegis Dynamics is fictional: a company from DeathBot 2000, a Blind Ant piece.\n' + await readFile(join(here, '..', '..', '..', 'engine', 'robots.txt'), 'utf8');
 const out = JSON.stringify({ pages, llms, md: mdPages, llmsFull, robots });
 const outputDir = process.argv[2] ? resolve(process.argv[2]) : join(here, 'out');

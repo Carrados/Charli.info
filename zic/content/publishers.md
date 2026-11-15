@@ -82,7 +82,7 @@ The specification requires every page to carry a meta description, and it sets e
 
 A summary is not a tagline. "Prompting AI tools is a new form of management science" is a thesis, and a good one. It is not a summary of an article that teaches five principles with worked examples, so under §3.3 it fails.
 
-There is now some evidence of what that failure costs. In October 2026 Mike Taylor, head of evals at Every, simulated 2,484 agent sessions across Anthropic and OpenAI models, as reported in [How to Get AI Agents to Recommend Your Articles](https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles). In each one, an agent saw a question, a handful of search results, and an instruction to cite the two most useful.
+There is now some evidence of what that failure costs. In October 2026 Mike Taylor, head of evals at Every, simulated 2,484 agent sessions across Anthropic and OpenAI models, as reported in [How to Get AI Agents to Recommend Your Articles](https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles). In each one, an agent saw a question, a handful of search results, and an instruction to cite the two most useful. Each session saw only one version of a headline, and each of the two versions below was shown in 240 of those sessions.
 
 - One of his guides, under its original curiosity-style headline and subtitle, was cited in 2 sessions out of 240.
 - With only the headline and subtitle rewritten to say plainly what the article teaches, the same article was cited in 240 out of 240.
@@ -140,7 +140,7 @@ This page is the canonical publication of ZIC for Publishers. It is also availab
 - Explainer edition: Publisher, generation 2
 - Generated: 2026-10-29
 - Fidelity audit: passed against v1.7 (2026-10-29); every requirement claim traces to a spec section
-- Statistics verified: Mike Taylor, Every, How to Get AI Agents to Recommend Your Articles (27 October 2026), checked against the source on 2026-10-29; no revision found
+- Statistics verified: Mike Taylor, Every, How to Get AI Agents to Recommend Your Articles (27 October 2026), checked against the source on 2026-10-29; no revision found. Checked again on 2026-11-15, when the source carried an update dated 15 November 2026: the figures were unchanged, and a sentence was added here saying how the 240 sessions relate to the 2,484
 - Licence: CC BY-SA 4.0, same as the specification
 
 The specification is the single source of truth. Where this document and the specification disagree, the specification is right and this document is due for regeneration.
