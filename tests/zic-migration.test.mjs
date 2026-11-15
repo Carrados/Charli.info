@@ -11,7 +11,12 @@ const base = 'https://zeroinformationcasualty.org';
 
 test('the specification and published downloads are preserved without rewriting', async () => {
   const original = execFileSync('git', ['show', `${originalRevision}:carrados/content/papers/zic-design-standard.md`], { encoding: 'utf8' });
-  assert.equal((await readFile('zic/content/index.md', 'utf8')).replace(/\r\n/g, '\n'), original.replace(/\r\n/g, '\n'));
+  // The specification's own words are unchanged. The one difference is in Downloads, after the specification ends:
+  // the v1.6 Word rendering was added to the earlier versions on 15 November 2026.
+  const v16 = '[ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and ';
+  const now = (await readFile('zic/content/index.md', 'utf8')).replace(/\r\n/g, '\n');
+  assert.equal(now.split(v16).length, 2);
+  assert.equal(now.replace(v16, ''), original.replace(/\r\n/g, '\n'));
   for (const version of ['1_5', '1_7']) {
     const name = `Zero_Information_Casualty_v${version}.docx`;
     assert.deepEqual(await readFile(`zic/content/documents/${name}`), execFileSync('git', ['show', `${originalRevision}:carrados/content/documents/${name}`]));
@@ -66,6 +71,12 @@ test('new Worker serves its own static assets, Markdown, Word files and proper 4
     const doc = await zic.fetch(new Request(base + '/documents/Zero_Information_Casualty_v1_7.docx'), env);
     assert.equal(doc.status, 200);
     assert.match(doc.headers.get('content-type'), /wordprocessingml/);
+    // v1.7 keeps its own address: /1.7/ serves the current specification, as a page and as Markdown.
+    const versioned = await zic.fetch(new Request(base + '/1.7/'), env);
+    assert.equal(versioned.status, 200);
+    assert.match(await versioned.text(), /<h1>Zero Information Casualty \(ZIC\) v1\.7<\/h1>/);
+    assert.match(await (await zic.fetch(new Request(base + '/1.7/index.md'), env)).text(), /^# Zero Information Casualty/);
+    assert.equal((await zic.fetch(new Request(base + '/1.7?x=1'), env)).headers.get('location'), base + '/1.7/?x=1');
     assert.equal((await zic.fetch(new Request(base + '/missing/'), env)).status, 404);
     assert.equal((await zic.fetch(new Request(base + '/', { method: 'POST' }), env)).status, 405);
     const www = await zic.fetch(new Request('https://www.zeroinformationcasualty.org/?from=www'), env);

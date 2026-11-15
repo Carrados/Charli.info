@@ -972,5 +972,5 @@ For model context initialisation and quick reference.
 
 ## This document in other renderings
 
-This page is the canonical publication of Zero Information Casualty v1.7. The same document is also available as a Word file: [Download ZIC v1.7 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_7.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it. Earlier versions: [ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx).
+This page is the canonical publication of Zero Information Casualty v1.7. The same document is also available as a Word file: [Download ZIC v1.7 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_7.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it. Earlier versions: [ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and [ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx).
 
