@@ -198,7 +198,7 @@ pages['/accessibility/'] = page('/accessibility/', 'Accessibility statement', 'T
 <p><strong>Outside the fiction.</strong> Aegis Dynamics is invented, but this site is real, and so is its accessibility. This page is written by its publisher, Charlotte Joanne at <a href="${BLIND_ANT}/">Blind Ant</a>, not by the company.</p>
 <p><strong>Statement date:</strong> 8 November 2026</p>
 <h2>The claim</h2>
-<p>This site is built to the <a href="https://zeroinformationcasualty.org/">Zero Information Casualty</a> standard, version 1.7.</p>
+<p>This site is built to the <a href="https://zeroinformationcasualty.org/1.7/">Zero Information Casualty</a> standard, version 1.7.</p>
 <p>Sent agents: served. Search indexing: permitted. Model training: permitted. These are declared in <a href="/robots.txt">/robots.txt</a>, with named blocks for each purpose and the line Content-Signal: search=yes, ai-input=yes, ai-train=yes, and the site is described for agents in <a href="/llms.txt">/llms.txt</a>. Every page is also published as Markdown, at its address plus index.md, and the whole site as one file at <a href="/llms-full.txt">/llms-full.txt</a>.</p>
 <h2>What was checked</h2>
 <p><strong>Every page (8 November 2026).</strong> All the site's pages have exactly one h1, a declared document language and a skip link as the first focusable element. There are no images and no JavaScript.</p>

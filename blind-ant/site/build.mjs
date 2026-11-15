@@ -272,7 +272,7 @@ for (const f of extras) {
 // llms.txt
 const home = pages.find((p) => p.path === '/');
 // The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
-const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/';
+const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/1.7/';
 let llms = `# Blind Ant\n\n> ${home.description}\n\nBlind Ant is the practice of Charlotte Joanne, its author and operator: design fiction, stories, games, artworks and working objects, and how each was made. Charlotte Joanne is the pen name of Charli-Jo Tyrer. It is part of the CharliVerse (https://charli.info/). Contact: charlotte.joanne@blind-ant.com.\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown.\n\n## Pages\n\n`;
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);

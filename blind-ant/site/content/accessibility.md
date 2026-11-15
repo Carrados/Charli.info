@@ -13,7 +13,7 @@ Blind Ant makes things you can read, hear and look at, by a blind maker, so how 
 
 ## The claim
 
-This site is built to the [Zero Information Casualty](https://zeroinformationcasualty.org/) standard, version 1.7.
+This site is built to the [Zero Information Casualty](https://zeroinformationcasualty.org/1.7/) standard, version 1.7.
 
 Sent agents: served. Search indexing: permitted. Model training: permitted.
 

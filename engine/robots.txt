@@ -1,4 +1,4 @@
-# robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/
+# robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/1.7/
 # Everything here is CC BY-SA 4.0. Three purposes, three separate declarations: none is inferred from another.
 # Each group below carries its own Content-Signal line, because a crawler that matches a named group reads only that group.
 
