@@ -160,6 +160,8 @@ for (const file of await walk(contentDir)) {
   const folder = isIndex ? path : path.replace(/[^/]+\/$/, '');
   pages.push({ ...data, rel, path, folder, isIndex, mdPath: rel === '404' ? '/index.md' : `${path}index.md`, body });
 }
+// A site may give a page its opening line from site.config.mjs (`orient: { '/': '…' }`) when the page's own file must stay as published, as with the ZIC specification.
+for (const p of pages) if (!p.orient && cfg.orient?.[p.path]) p.orient = cfg.orient[p.path];
 // Lists sort by order first (for a set sequence), then newest date first (for reports), then title.
 const sorter = (a, b) => (Number(a.order) || 99) - (Number(b.order) || 99) || (b.date || '').localeCompare(a.date || '') || String(b.time || '').localeCompare(String(a.time || '')) || a.title.localeCompare(b.title);
 const item = (q, md) => {
@@ -259,7 +261,7 @@ for (const f of extras) {
 const home = pages.find((p) => p.path === '/');
 // The agent surface, to ZIC v1.7 §3.6: three separate declarations, and a map that links each page as well as its Markdown mirror.
 const DECLARE = 'Sent agents: served. Any agent a person sends is welcome, named or not. Search indexing: permitted. Model training: permitted. These are three separate declarations; none is inferred from another. They are also stated in /robots.txt, with Content-Signal: search=yes, ai-input=yes, ai-train=yes. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/';
-let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0 unless a page states otherwise (the TAVIP handbooks are CC BY 4.0). Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
+let llms = `# ${cfg.name}\n\n> ${home.description}\n\n${cfg.llms}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0 unless a page states otherwise${pages.some((p) => p.license === 'CC BY 4.0') ? ' (the TAVIP handbooks are CC BY 4.0)' : ''}. Every page is also available as Markdown at its address plus index.md, or by asking for text/markdown. The full text of the site is at ${SITE}/llms-full.txt.\n\n## Pages\n\n`;
 for (const p of listed) llms += `- [${p.title}](${SITE}${p.path}): ${p.description} Markdown: ${SITE}${p.mdPath}\n`;
 await writeFile(join(dist, 'llms.txt'), llms);
 let full = `# ${cfg.name}: the full text\n\n> ${home.description}\n\n${DECLARE}\n\nAll content is CC BY-SA 4.0.\n`;

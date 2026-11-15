@@ -7,7 +7,7 @@ description: The ZIC conformance statement for zeroinformationcasualty.org, the 
 
 **Publisher:** Charli-Jo Tyrer
 
-**Statement date:** 8 November 2026
+**Statement date:** 15 November 2026
 
 The site that publishes a standard should meet it, and say exactly how far. A conformance claim is a statement made to a reader who cannot see inside the build, and its only value is that the reader can check it. The section on what was not checked is as much a part of the claim as the sections on what was.
 
@@ -27,9 +27,11 @@ The three declarations are independent; permission for one purpose is never infe
 
 **Delivery, from outside (8 November 2026).** Following §4.7 of the specification, the live home page was fetched as a browser, as two named sent agents (Claude-User and ChatGPT-User), as a search indexer (OAI-SearchBot), as two training crawlers (GPTBot and ClaudeBot), as a mixed-use crawler (Googlebot) and as an agent no list has named. Every one received the same page, byte for byte.
 
+**Screen readers.** The publisher uses NVDA and VoiceOver, and this site has been listened to with both.
+
 ## Not yet checked
 
-An end-to-end screen reader pass of the specification with NVDA, JAWS or VoiceOver. Phone width (375 pixels) and 200% text scaling were not rechecked for this statement. The Word renderings in Downloads were not checked for this statement.
+JAWS. Phone width (375 pixels) and 200% text scaling were not rechecked for this statement. The Word renderings in Downloads were not checked for this statement.
 
 Under-claiming is a virtue. These checks are listed so that you know the boundary of the claim, and this statement will be updated as they are done.
 
