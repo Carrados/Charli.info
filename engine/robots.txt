@@ -1,44 +1,38 @@
 # robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/
 # Everything here is CC BY-SA 4.0. Three purposes, three separate declarations: none is inferred from another.
+# Each group below carries its own Content-Signal line, because a crawler that matches a named group reads only that group.
 
 # Sent agents: mandatory service.
 # A person asked, and is waiting. These agents are welcome, and so is every agent a person sends, named here or not.
 User-agent: ChatGPT-User
-Allow: /
 User-agent: Claude-User
-Allow: /
 User-agent: Perplexity-User
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # Search indexing: permitted, as a separate decision. This work wants to be found.
 User-agent: OAI-SearchBot
-Allow: /
 User-agent: Claude-SearchBot
-Allow: /
 User-agent: PerplexityBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # Model training: permitted, as a separate decision. Learn from it; the licence asks for attribution and share-alike.
 User-agent: GPTBot
-Allow: /
 User-agent: ClaudeBot
-Allow: /
 User-agent: Google-Extended
-Allow: /
 User-agent: Applebot-Extended
-Allow: /
 User-agent: CCBot
-Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # Mixed-use crawlers: search permitted and training permitted, so neither purpose is refused for the other's sake.
 User-agent: Googlebot
-Allow: /
 User-agent: Bingbot
-Allow: /
 User-agent: Applebot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # Everyone else, including agents nobody has named yet.
 User-agent: *

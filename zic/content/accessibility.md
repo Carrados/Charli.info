@@ -49,7 +49,7 @@ Under-claiming is a virtue. These checks are listed so that you know the boundar
 
 None known. When one is found, it is listed here until it is fixed.
 
-Fixed on 15 November 2026: the contrast sentence on this page, found by the reconstruction check above.
+Fixed on 15 November 2026: the contrast sentence on this page, found by the reconstruction check above. The two ambiguities that check flagged were also closed the same day: ZIC for Publishers now says how the 240 sessions relate to the 2,484, and the reference form in Part Seven now cites this specification's own address. In robots.txt, each named group now carries its own Content-Signal line, where before only the last group did.
 
 ## Reporting a problem
 

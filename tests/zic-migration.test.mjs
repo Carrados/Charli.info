@@ -11,14 +11,13 @@ const base = 'https://zeroinformationcasualty.org';
 
 test('the specification and published downloads are preserved without rewriting', async () => {
   const original = execFileSync('git', ['show', `${originalRevision}:carrados/content/papers/zic-design-standard.md`], { encoding: 'utf8' });
-  // The specification's own words are unchanged. The one difference is in Downloads, after the specification ends:
-  // the v1.6 Word rendering was added to the earlier versions on 15 November 2026.
-  const v16 = '[ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and ';
+  // The v1.7 text was corrected on 15 November 2026 at Charli-Jo's request, without a change of version: the author's name in full,
+  // the Preamble before Changes in v1.7, the real address in the Part Seven reference form, this site among the implementations,
+  // and the v1.6 Word rendering in Downloads. Every section heading of the original must still be there, so section links keep working.
   const now = (await readFile('zic/content/index.md', 'utf8')).replace(/\r\n/g, '\n');
-  assert.equal(now.split(v16).length, 2);
-  // The author's name was changed from "C J Tyrer" to "Charli-Jo Tyrer" throughout, at their request, on 15 November 2026.
   assert.ok(!now.includes('C J Tyrer'));
-  assert.equal(now.replace(v16, ''), original.replace(/\r\n/g, '\n').replaceAll('C J Tyrer', 'Charli-Jo Tyrer'));
+  assert.ok(!now.includes('example.org/zic'));
+  for (const heading of original.replace(/\r\n/g, '\n').split('\n').filter((line) => /^#{2,3} /.test(line))) assert.ok(now.includes('\n' + heading + '\n'), heading);
   // The Word renderings were corrected on 15 November 2026 (author's name, British English, titles, the v1.7 Preamble heading),
   // so they no longer match the files that moved from Carrados byte for byte. They must still be Word files that open.
   for (const version of ['1_5', '1_6', '1_7']) {
