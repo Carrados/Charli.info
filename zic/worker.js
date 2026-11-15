@@ -26,11 +26,11 @@ export default {
     if (url.hostname.startsWith('www.')) return Response.redirect(`https://${url.hostname.slice(4)}${url.pathname}${url.search}`, 301);
     let path = decodeURIComponent(url.pathname);
     if (path.includes('..')) return new Response('Not found', { status: 404 });
-    // Each version keeps its own address (Part Seven asks for a stable one). v1.7 is the current version, so /1.7/ serves
-    // the home page. When a later version takes the home page, v1.7 becomes a page of its own at this address.
+    // Each version keeps its own address (Part Seven asks for a stable one). v1.8 is the current version, so /1.8/ serves
+    // the home page. When a later version takes the home page, v1.8 becomes a page of its own at this address, as v1.7 did.
     // A version address without its closing slash (/1.6) would otherwise be read as a file with the extension .6.
     if (/^\/\d+\.\d+(\.\d+)?$/.test(path)) return Response.redirect(url.origin + path + '/' + url.search, 301);
-    if (['/1.7/', '/1.7/index.html', '/1.7/index.md'].includes(path)) path = path.slice(4);
+    if (['/1.8/', '/1.8/index.html', '/1.8/index.md'].includes(path)) path = path.slice(4);
     if (!/\.\w+$/.test(path)) {
       if (!path.endsWith('/')) {
         const probe = await pull(env, request, path + '/index.html');

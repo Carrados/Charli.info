@@ -22,4 +22,4 @@ In September 2026 the largest edge network began recommending, by default, that 
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.6 and §2.2. This entry summarises it; the standard is the authority. charli.info was the first site to operationalise the Open Door.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/1.7/), the design standard by Charli-Jo Tyrer and Claude, §1.6 and §2.2. This entry summarises it; the standard is the authority. charli.info was the first site to operationalise the Open Door.

@@ -14,4 +14,4 @@ The core test: ask a machine reader to summarise the page and say what it could 
 
 ## Behind the scenes
 
-A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/), the design standard by Charli-Jo Tyrer and Claude, §1.8 and §4.8. This entry summarises it; the standard is the authority.
+A real idea, from [Zero Information Casualty v1.7](https://zeroinformationcasualty.org/1.7/), the design standard by Charli-Jo Tyrer and Claude, §1.8 and §4.8. This entry summarises it; the standard is the authority.

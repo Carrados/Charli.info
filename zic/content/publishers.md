@@ -5,7 +5,7 @@ order: 3
 ---
 SEO gets you found. GEO gets you cited. ZIC is what happens when the agent arrives.
 
-This guide is for people who own or advise on a web presence: SEO, GEO and AEO specialists, marketers, communications teams and publishers. It renders the [Zero Information Casualty (ZIC) v1.7 specification](/) for that reader. It is not the specification. Where the two disagree, the specification is right.
+This guide is for people who own or advise on a web presence: SEO, GEO and AEO specialists, marketers, communications teams and publishers. It renders the [Zero Information Casualty (ZIC) v1.7 specification](/1.7/) for that reader. It is not the specification. Where the two disagree, the specification is right.
 
 ## The failure your dashboard cannot show you
 
@@ -132,7 +132,7 @@ You did not choose this. But it is yours now, and it is running.
 
 ## This document in other renderings
 
-This page is the canonical publication of ZIC for Publishers. It is also available as a Word file: [Download ZIC for Publishers as a Word document (.docx)](/documents/ZIC_for_Publishers_v1_7.docx). The specification it renders is [Zero Information Casualty v1.7](/).
+This page is the canonical publication of ZIC for Publishers. It is also available as a Word file: [Download ZIC for Publishers as a Word document (.docx)](/documents/ZIC_for_Publishers_v1_7.docx). The specification it renders is [Zero Information Casualty v1.7](/1.7/).
 
 ## Build record
 

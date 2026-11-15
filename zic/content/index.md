@@ -1,22 +1,22 @@
 ---
-title: Zero Information Casualty (ZIC) v1.7
-description: The Zero Information Casualty (ZIC) design standard, version 1.7: an agent-first web specification under which no person — reading directly, using assistive technology, or acting through a sent agent — loses access to public meaning.
+title: Zero Information Casualty (ZIC) v1.8
+description: The Zero Information Casualty (ZIC) design standard, version 1.8: an agent-first web specification under which no person — reading directly, using assistive technology, or acting through a sent agent — loses access to public meaning.
 order: 2
 ---
 **A Web Design Specification**
 
-**Version:** 1.7
+**Version:** 1.8
 **Authors:** Charli-Jo Tyrer and Claude (Anthropic)
-**Date:** September 2026 (v1.0: March 2026. v1.1: July 2026. v1.2: July 2026. v1.3: July 2026. v1.4: July 2026. v1.4.1: July 2026. v1.5: July 2026. v1.6: July 2026)
+**Date:** November 2026 (v1.0: March 2026. v1.1: July 2026. v1.2: July 2026. v1.3: July 2026. v1.4: July 2026. v1.4.1: July 2026. v1.5: July 2026. v1.6: July 2026. v1.7: September 2026)
 **Status:** Foundation Document
 **Licence:** CC BY-SA 4.0
-**Supersedes:** ZIC v1.6
+**Supersedes:** ZIC v1.7
 
 
 ## Contents
 
 - [Preamble](#preamble)
-- [Changes in v1.7](#changes-in-v17)
+- [Changes in v1.8](#changes-in-v18)
 - [Part One: The Philosophy](#part-one-the-philosophy)
   - [1.1 The Central Claim](#11-the-central-claim)
   - [1.2 Who the Site Is Designed For](#12-who-the-site-is-designed-for)
@@ -60,6 +60,7 @@ order: 2
 - [Part Five: Implementation Notes for Astro](#part-five-implementation-notes-for-astro)
 - [Part Six: Implementation Notes for GitHub Pages](#part-six-implementation-notes-for-github-pages)
 - [Part Seven: Claiming Conformance](#part-seven-claiming-conformance)
+- [Part Eight: The Requirements (new in v1.8)](#part-eight-the-requirements-new-in-v18)
 - [Appendix: ZIC at a Glance](#appendix-zic-at-a-glance)
 
 ## Preamble
@@ -72,31 +73,23 @@ Version 1.0 ensured that no visitor who arrives loses any meaning. Version 1.1 e
 
 Version 1.4 separates the standard from the appearance of the site that first implemented it. Every version to date has been written alongside charli.info, and charli.info is austere. Austerity was a choice its publisher made and was never a requirement this specification had any business imposing. A standard that tells a publisher to abandon her typeface has stopped describing access and started describing taste, and it will be refused by exactly the people it most needs to persuade.
 
-Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovered the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and found inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0. Version 1.6 names the seam between what the framework derives and what measurement supplies, defines the words the specification binds with, and bounds every check by what it can honestly prove. Version 1.7 records the moment the three-class separation of §1.7 became infrastructure, and answers the three things that infrastructure got wrong or left unsaid: it names the edge default that blocks the sent agent from pages carrying advertising as the Admission Casualty it is; it gives a rule for the crawler that indexes and trains under one name; and it states that a page read in full to the person who asked for it has been retrieved, not reproduced.
+Version 1.4.1 stated the specification's jurisdiction. Version 1.5 recovered the founding definition in full — information must reach an observer in time to inform perception, action, or participation — and found inside it the derivations of the skip link and the focus ring, together with a second governing principle that had been doing unnamed work since v1.0. Version 1.6 names the seam between what the framework derives and what measurement supplies, defines the words the specification binds with, and bounds every check by what it can honestly prove. Version 1.7 records the moment the three-class separation of §1.7 became infrastructure, and answers the three things that infrastructure got wrong or left unsaid: it names the edge default that blocks the sent agent from pages carrying advertising as the Admission Casualty it is; it gives a rule for the crawler that indexes and trains under one name; and it states that a page read in full to the person who asked for it has been retrieved, not reproduced. Version 1.8 gives every requirement a name: a register, in Part Eight, that sets what binds apart from why it binds, so that a statement, an audit or a defect report can point at one rule. It also states the one requirement this specification’s own site turned out to be missing.
 
 The rule underneath was always simpler than the list of prohibitions that grew on top of it. It is stated in §1.11, and it fits in one sentence. As of this version it has a companion of equal rank, stated in §1.16, and that fits in one sentence too.
 
-## Changes in v1.7
+## Changes in v1.8
 
-Version 1.7 is written from an event, not a review. On 15 September 2026 the largest edge network on the web, fronting roughly a fifth of all domains, replaced its single “block AI bots” switch with three independent controls — Search, Agent, and Training — and began enforcing them by category at the edge. The taxonomy is this specification’s taxonomy: the sent agent, the indexer, and the training crawler, kept apart because time, agency, and consequence differ in each. §1.7 has said so since v1.3. It is now infrastructure.
+Version 1.8 is written from use. On 15 November 2026 the site that publishes this specification was reviewed against it, checked under Part Four by its publisher and by a machine reader, and given a skill with which an agent can build to it. That work asked the same thing of the document three times: which rule, exactly? A specification that weaves each requirement into the argument for it reads well and cites badly. This version keeps the argument and adds the names.
 
-The same event drew one of the three lines in the wrong place, revealed a class of reader §3.6 had no rule for, and added a fourth field to the Content Signals syntax this specification instructs implementers to verify. Each is addressed below. No requirement is loosened. Two requirements that earlier versions entailed are now stated, one check is added, and one clarification is made that no reasonable reading of v1.6 could have got wrong but that somebody else’s classification system now could. A site conformant to v1.6 remains conformant to v1.7 if its stack has not changed. Whether its stack has changed is the subject of this release. Section numbering is preserved; amended sections keep their numbers, and new material is appended. The changelogs of earlier versions live in those versions.
+One requirement is added. No requirement is loosened, and no other requirement is changed. A site conformant to v1.7 conforms to v1.8 once its robots.txt carries its Content Signals in every user-agent group; a site that already does so needs to change nothing. Section numbering is preserved; amended sections keep their numbers, and new material is appended. The changelogs of earlier versions live in those versions, each of which now has an address of its own.
 
-**The taxonomy confirmed (no change).** A specification that records its own mistakes in the document should record its confirmations there too, briefly. The three-class separation of §1.7, and the rule that no permission is bundled with another, are now enforced by a network that did not consult this document. This is noted and not dwelt on.
+**Every requirement named (new, Part Eight).** Part Eight is a register: every requirement of Parts Two and Three, the one ordering rule of §4.7 and the six rules of Part Seven, each with an identifier, its level under §1.17, one sentence, the section that states it and the section that checks it. The register adds nothing and removes nothing. Its purpose is that a conformance statement, an audit, a checker or a correction can cite ZIC-3.1-04 and be understood, where before it could only cite a paragraph.
 
-**The formalised Admission Casualty (amended, §2.2; new, Part Six).** The new defaults block the Agent class — explicitly including chat fetchers and browser-driving agents, which is to say the sent agent of §1.9 — on every page that carries advertising. The stated reasoning is that an advertisement signals a page a person was meant to land on and see. The person who sent the agent is landing there. She is simply not looking. §1.8 called this the Admission Casualty when it was a misconfiguration. It is now a recommended setting, page-scoped, on by design, and dressed as sound economics. §2.2 names it. Part Six tells a publisher behind that edge which switch to set.
+**Content Signals in every group (amended, §3.6 and §4.4; new requirement ZIC-3.6-11).** §3.6 requires named groups for sent agents, search indexers and training crawlers, and a Content-Signal line stating all three values. It never said where the line goes. A Content-Signal line belongs to the user-agent group it sits in, and a crawler that finds a group addressed to it by name reads that group and no other. A file that names its crawlers, as this section requires, and states its signals once, in the wildcard group, has therefore declared nothing to any crawler it named. §3.6 now says the line must appear in every group, and §4.4 checks it.
 
-**Mixed-use crawlers given a rule (amended, §1.7, §3.6, §4.4, §4.7).** The purposes of §1.7 are separate. The crawlers that carry them are not always: the conventional search crawlers of Google, Microsoft, and Apple index and train under one name. v1.6 assumed one bot per class and had no rule for a bot that is itself a bundle. §3.6 now has one. Where the operator provides a separate training control, the base crawler is treated as search and the training declaration is expressed through the control. Where no separation exists, the publisher must state which declaration governs the crawler, and the statement must be true. A declaration this specification could not previously test is now tested by §4.7 step 8.
+**Every version at its own address (amended, Part Seven).** Part Seven requires that the version a site names be publicly retrievable at a stable URL. Until November 2026 this specification was published at one address, which each new version took over, so that a claim of conformance to v1.5 led to a document that was no longer v1.5. Versions 1.5, 1.6, 1.7 and 1.8 are now each published at an address of their own, and the reference form cites this one.
 
-**Reproduction to the sender is retrieval (new, §1.9; amended, §2.2).** The edge network’s new content-use vocabulary treats full reproduction as a use that forfeits trust. A sent agent reading a page in full, aloud, to the blind person who asked for it is full reproduction to the one reader for whom the page was published. It is retrieval, and it is the screen reader case in every respect that matters. §1.9 says so before a classifier decides otherwise.
-
-**The fourth field, and a fourth purpose (amended, §3.6; new, §1.18).** Content Signals has gained an optional fourth field, use, and the operators the edge network designates as accountable must now offer an opt-out from AI-generated search summaries. The field is permitted and not required. The summary opt-out is a fourth purpose, neither indexing nor training, and this specification declares nothing it cannot declare machine-readably in a standard field. §1.18 states the position and the condition under which it will change.
-
-**The edge that declares for you (amended, §3.6; Part Six).** The edge network’s managed robots.txt, and the preference-sync feature replacing it, write a Content-Signal line that states search and ai-train and is silent on ai-input, inside a wildcard user-agent block. Silence on ai-input has been non-compliant since v1.3. A publisher who lets the edge write the file has a file that fails §3.3, and may have two blocks that disagree. This is stated, and the fix is one line.
-
-**Declaration is not compliance, third fact (amended, §3.6).** v1.4 gave two reasons a robots.txt can be sincere and false. A third is added: the edge now enforces by category, “verified” no longer means “allowed”, and under the mixed-use rule a site that declared search=yes in July and blocked training at the edge began refusing Googlebot on 15 September without a byte of its own files changing. A declaration is true of a stack at a moment. Part Seven item 6 now says so.
-
-**The crawler list redated (amended, §3.6).** The list carried “as of July 2026” and asked to be reviewed twice a year. This is the review.
+**The corrections of 15 November 2026 carried forward (no change).** Version 1.7 was corrected in place on that date without a change of any requirement: the author’s name given in full, the Preamble placed before the changes, the placeholder address in the reference form replaced, and this site listed among the implementations. Those corrections are part of this version.
 
 ## Part One: The Philosophy
 
@@ -628,6 +621,19 @@ Content-Signal: search=no, ai-input=yes, ai-train=no
 Sitemap: https://example.com/sitemap.xml
 ```
 
+**The line goes in every group (new in v1.8).** A Content-Signal line belongs to the user-agent group it sits in. A crawler that finds a group addressed to it by name reads that group and no other, so a line placed only in the wildcard group reaches only the crawlers the file did not name. Every user-agent group in the file must therefore carry the Content-Signal line, with the same three values. The simplest form gives each purpose one group: its user-agent lines, one Allow or Disallow, and the line.
+
+```text
+# Search indexing — publisher decision
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+Disallow: /
+Content-Signal: search=no, ai-input=yes, ai-train=no
+```
+
+The blocks earlier in this section show each declaration on its own and leave the line out for brevity. A published file does not.
+
 A fourth field, use, with values immediate, reference, and full, is in circulation as an extension expressing what a crawler may keep and reshare after reading. It is a preference about retention and redistribution, which is orthogonal to the three purposes above, and it is permitted and not required. A site that declares it must not contradict it elsewhere, per the rule on layers below. It does not bear on the sent agent: what a sent agent hands to the person who sent it is governed by §1.9, not by use, and no value of use narrows the Open Door.
 
 **No bundled permission.** Changing search must not change ai-train. Changing ai-train must not change search. Neither may change ai-input, which remains yes for every ZIC-conformant site.
@@ -729,6 +735,8 @@ Verify the Open Door and the two later-use declarations:
 - Every mixed-use crawler receives the behaviour the publisher chose for it under the rule of §3.6, and the choice is stated in the file
 
 - Where the stack sits behind an edge that classifies traffic by purpose, the category covering sent agents is allowed on every public page, including any page that carries advertising
+
+- Every user-agent group in robots.txt carries the Content-Signal line, with the same three values (new in v1.8)
 
 - robots.txt, llms.txt, Content Signals, sitemap.xml, Markdown mirrors, any feed, host configuration, and served pages are mutually consistent
 
@@ -872,7 +880,7 @@ A conformance claim is a statement made to a reader who cannot see inside your b
 
 **1. Name the version.** A site claiming ZIC conformance must state which version it conforms to. "ZIC-compliant" without a version number is not a claim.
 
-**2. Link the specification.** The named version must be publicly retrievable at a stable URL, and the site must link it. A repository-internal checklist is an implementation profile, not a specification, and may not be cited as one.
+**2. Link the specification.** The named version must be publicly retrievable at a stable URL, and the site must link it. A repository-internal checklist is an implementation profile, not a specification, and may not be cited as one. Each version of this specification is published at an address of its own, of the form https://zeroinformationcasualty.org/1.8/, and that is the address to link (amended in v1.8).
 
 **3. State the two later-use declarations.** A conformance statement must state search=yes or search=no and ai-train=yes or ai-train=no. ai-input=yes is already entailed by the ZIC claim. The two declarations must be stated separately; neither may be inferred from the other.
 
@@ -884,7 +892,7 @@ A conformance claim is a statement made to a reader who cannot see inside your b
 
 Reference form:
 
-> This site conforms to Zero Information Casualty v1.7.
+> This site conforms to Zero Information Casualty v1.8.
 >
 > Sent agents: served (ai-input=yes).
 >
@@ -892,13 +900,15 @@ Reference form:
 >
 > Model training: declined (ai-train=no).
 >
-> Specification: <https://zeroinformationcasualty.org/1.7/>
+> Specification: <https://zeroinformationcasualty.org/1.8/>
 >
 > Checked: repository verifier, delivery checks (§4.7),
 >
-> reconstruction checks (§4.8: Claude, 17 September 2026), NVDA.
+> reconstruction checks (§4.8: Claude, 15 November 2026), NVDA.
 >
 > Not yet checked: JAWS, VoiceOver.
+
+**Citing requirements (new in v1.8).** A conformance statement, an audit or a defect report should cite requirements by the identifiers of Part Eight. A statement that a site does not yet meet a requirement must name it by its identifier.
 
 The reason this Part exists is uncomfortable and is recorded deliberately. The first implementation once claimed conformance to a version that had not yet been written. The correct response to catching yourself doing the thing you object to is not to quietly stop. It is to write the clause.
 
@@ -907,6 +917,288 @@ Version 1.4 adds a second instance of the same discipline, and it is recorded he
 Version 1.6 records a third instance, smaller than the others and kept for the same reason. The reference form above cited v1.4.1 in a document titled v1.5 — in the Part that exists because the first implementation once claimed conformance to a version that had not been written. The discipline of this specification is not that it makes no mistakes. It is that the mistakes are written down, in the document, where the reader can see them.
 
 Version 1.7 records no mistake of its own, and records instead the nearest thing: a declaration this specification required, which a conformant site made truthfully in July, and which the web made false on its behalf in September. The site did nothing. The file did not change. The edge in front of it changed what the file meant. A specification that says declaration is not compliance has to accept the consequence that a declaration can stop being true while nobody is looking, and the consequence is written into item 6 above, where the reader can see it.
+
+Version 1.8 records a fourth instance. This specification’s own site, and its publisher’s other sites, stated their Content Signals in the wildcard group alone, beneath named groups that therefore carried none, until a review on 15 November 2026 found it. The declaration was sincere, and for every crawler the file named it was absent. Absence fails to inform. The requirement that would have prevented it had never been written, and it is now ZIC-3.6-11.
+
+## Part Eight: The Requirements (new in v1.8)
+
+This Part names every requirement in the specification. It adds none and removes none. Each entry restates, in one sentence, a requirement made in the section it cites, and gives it an identifier.
+
+**Two authorities, kept apart.** The section is the authority for what a requirement means: where an entry here and its section differ, the section governs and the entry is in error. The register is the authority for what a requirement is called. An identifier, once published, is never reused and never renumbered. A requirement that a later version withdraws keeps its identifier and is marked withdrawn. A new requirement takes the next number in its section.
+
+**How to read an entry.** The identifier is ZIC, the section, and a number within the section. The first word of the entry is its level under §1.17: must binds; should recommends and, where adopted and claimed, is checked. Permissions are not requirements and are not listed. “Stated in” gives the section that makes the requirement and the sections that derive it. “Checked in” gives the checks of Part Four that most directly test it. It is a guide to where to look, and a requirement is not discharged by passing a check that does not exercise it.
+
+**What is not here.** The checks of Part Four are how conformance is established, and are not themselves requirements, with one exception: the ordering rule of §4.7, which that section calls normative. Parts Five and Six are notes, and say so.
+
+### Part Two: the single-sense rule
+
+#### ZIC-2.1-01: Text scaling
+
+**Must.** Text remains readable and complete at 200% of the visitor's base font size, with no horizontal scrolling and no loss of content. Stated in §2.1. Checked in §4.5.
+
+#### ZIC-2.2-01: Colour alone
+
+**Must.** No status, category, hierarchy, warning or other meaningful distinction is carried by colour alone. It is also encoded in text or structure. Stated in §2.2. Checked in §4.1, §4.6.
+
+#### ZIC-2.2-02: Typography alone
+
+**Must.** Emphasis, importance and distinction exist semantically, in elements such as em, strong and the heading elements, and not only as weight, style or size. Stated in §2.2. Checked in §4.1, §4.2.
+
+#### ZIC-2.2-03: Whitespace alone
+
+**Must.** No meaning is carried by blank lines, indentation or the spatial arrangement of text alone. Stated in §2.2. Checked in §4.2, §4.8.
+
+#### ZIC-2.2-04: Navigation cues
+
+**Must.** Every navigation element is meaningful in a sequential, non-visual context. An icon used for navigation is labelled. Stated in §2.2. Checked in §4.2.
+
+#### ZIC-2.2-05: Anti-agent measures
+
+**Must.** No configuration refuses, challenges, degrades, delays or misleads a machine reader that a person sent, on public content. This covers bot-detection challenges, CAPTCHA walls, JavaScript gauntlets, indiscriminate AI-refusal metadata, CDN or WAF rules that block user-directed retrieval agents, discriminatory rate limits and cloaking. Stated in §2.2, §1.6, §1.9. Checked in §4.4, §4.7.
+
+#### ZIC-2.2-06: The agent category at the edge
+
+**Must.** An edge or CDN control that blocks an “agent” traffic category is not used on public content, whether the publisher set it or it was set for her as a default, and whether it covers the whole site or only pages that carry advertising. Stated in §2.2, Part Six. Checked in §4.4, §4.7.
+
+#### ZIC-2.2-07: Full delivery to the sender
+
+**Must.** No rule degrades or distrusts a sent agent for delivering a page in full to the person who sent it. Stated in §2.2, §1.9. Checked in §4.4, §4.7.
+
+### §3.1 HTML
+
+#### ZIC-3.1-01: Document language
+
+**Must.** Every page declares its language with the lang attribute on the html element. Stated in §3.1. Checked in §4.1.
+
+#### ZIC-3.1-02: Landmark regions
+
+**Must.** Every page uses the HTML5 landmark elements header, nav, main and footer to represent its structure accurately, with exactly one main element. Stated in §3.1. Checked in §4.1, §4.2.
+
+#### ZIC-3.1-03: Heading hierarchy
+
+**Must.** Every page has exactly one h1. No heading level is skipped. Each heading describes the content that follows it. Stated in §3.1, §2.2. Checked in §4.1, §4.2.
+
+#### ZIC-3.1-04: Skip link
+
+**Must.** The first focusable element on every page is a skip link targeting the main element. It may be visually hidden until focused. Stated in §3.1, §2.1, §1.15. Checked in §4.2.
+
+#### ZIC-3.1-05: Image alternatives
+
+**Must.** Every img element has an alt attribute. A decorative image uses alt="". An informative image has a text alternative conveying the same information a sighted visitor receives. Stated in §3.1, §2.2. Checked in §4.1, §4.2.
+
+#### ZIC-3.1-06: Link text
+
+**Must.** Every link has text that describes its destination when read out of context. Where a link wraps an image, the alt text carries this. Stated in §3.1, §2.2. Checked in §4.2, §4.3.
+
+#### ZIC-3.1-07: Current page
+
+**Must.** The current page is marked with aria-current="page" in navigation, and is distinguished by something other than colour alone. Stated in §3.1. Checked in §4.2.
+
+#### ZIC-3.1-08: Form labels
+
+**Must.** Every form input has an associated label element. Placeholder text is not a label. Stated in §3.1. Checked in §4.1, §4.2.
+
+#### ZIC-3.1-09: Tables
+
+**Must.** Tables are used for tabular data only, never for layout. A data table uses th elements with appropriate scope attributes. Stated in §3.1. Checked in §4.1, §4.8.
+
+#### ZIC-3.1-10: Lists
+
+**Must.** Lists use ul, ol or dl as appropriate. Items that are not structurally a list are not marked up as one. Stated in §3.1. Checked in §4.1, §4.2.
+
+### §3.2 CSS
+
+#### ZIC-3.2-01: Units
+
+**Must.** Font sizes use rem. Spacing uses rem or em. No fixed pixel value overrides the visitor's preference for text size. Stated in §3.2, §2.1. Checked in §4.5.
+
+#### ZIC-3.2-02: Default contrast
+
+**Must.** In the default rendering, all text meets WCAG AA contrast against its background: 4.5:1 for normal text and 3:1 for large text. Stated in §3.2, §2.1. Checked in §4.1.
+
+#### ZIC-3.2-03: Contrast on request
+
+**Must.** The prefers-contrast: more media query is implemented, and under it all text meets WCAG AAA contrast: 7:1 for normal text and 4.5:1 for large text. Stated in §3.2, §2.1. Checked in §4.5.
+
+#### ZIC-3.2-04: Colour scheme
+
+**Must.** The prefers-color-scheme media query is respected. Where a dark variant exists, prefers-color-scheme: dark is implemented. Stated in §3.2, §2.1. Checked in §4.5.
+
+#### ZIC-3.2-05: Focus indicators
+
+**Must.** The :focus-visible state is clearly visible on every user-operable control. A custom focus style is at least as visible as the browser default. Only a landmark focusable through tabindex="-1" alone may suppress its outline. Stated in §3.2, §2.1, §1.15. Checked in §4.2.
+
+#### ZIC-3.2-06: Reading order
+
+**Must.** Visual reading order matches DOM order. No CSS property is used to present content in a different sequence from the one in the HTML. Stated in §3.2, §2.1, §2.2. Checked in §4.2.
+
+#### ZIC-3.2-07: Reduced motion
+
+**Must.** Every animation or motion effect respects prefers-reduced-motion: reduce. When it is set, all non-essential animation is disabled. Stated in §3.2, §1.13. Checked in §4.5.
+
+### §3.3 Metadata
+
+#### ZIC-3.3-01: Page title
+
+**Must.** Every page has a unique, descriptive title element, in the form Page Name — Site Name. Stated in §3.3. Checked in §4.3.
+
+#### ZIC-3.3-02: Meta description
+
+**Must.** Every page has a meta description that is a true and useful summary of the page, and unique across the site. No character range applies. Stated in §3.3. Checked in §4.3.
+
+#### ZIC-3.3-03: Open Graph
+
+**Must.** Every page implements at least og:title, og:description, og:url and og:type. Stated in §3.3. Checked in §4.3.
+
+#### ZIC-3.3-04: Structured data
+
+**Must.** Every page implements appropriate Schema.org JSON-LD: at least WebSite on the home page, WebPage on content pages, and Person or Organization on about pages. Stated in §3.3. Checked in §4.1, §4.3.
+
+#### ZIC-3.3-05: Licence metadata
+
+**Must.** The content licence is stated in machine-readable form: as the license property in the JSON-LD on every page, as a human-readable statement in the footer, and in llms.txt. Stated in §3.3. Checked in §4.3, §4.4.
+
+#### ZIC-3.3-06: Canonical address
+
+**Must.** Every page declares its canonical URL with link rel="canonical", and that URL is the HTTPS origin. Stated in §3.3. Checked in §4.1.
+
+#### ZIC-3.3-07: Sitemap
+
+**Must.** The site publishes a valid XML sitemap at /sitemap.xml. Stated in §3.3. Checked in §4.1, §4.3.
+
+#### ZIC-3.3-08: Syndication feed
+
+**Must.** A site that publishes content serially on its own domain publishes a valid RSS or Atom feed, declared with link rel="alternate". A site that publishes none says so in its accessibility statement and commits to a feed if that changes. Stated in §3.3. Checked in §4.3.
+
+#### ZIC-3.3-09: robots.txt
+
+**Must.** The site publishes a valid robots.txt at /robots.txt, meeting the requirements of §3.6. Stated in §3.3, §3.6. Checked in §4.3, §4.4.
+
+### §3.4 Content
+
+#### ZIC-3.4-01: Recoverable meaning
+
+**Must.** Content is written so that its meaning is recoverable from the text and structure alone. Stated in §3.4. Checked in §4.8.
+
+#### ZIC-3.4-02: Logical structure
+
+**Must.** Every page has a content structure that is self-evident from its heading hierarchy alone. Stated in §3.4. Checked in §4.2, §4.3.
+
+#### ZIC-3.4-03: Dates
+
+**Must.** Dates are written in unambiguous formats. ISO 8601 is preferred for machine readability. Stated in §3.4. Checked in §4.8.
+
+### §3.5 Delivery
+
+#### ZIC-3.5-01: Static HTML
+
+**Must.** All content is available as static HTML without JavaScript execution. JavaScript may enhance interactions and never delivers primary content. Stated in §3.5, §2.2. Checked in §4.5, §4.7.
+
+#### ZIC-3.5-02: Render-blocking resources
+
+**Must.** CSS does not block rendering, and JavaScript is deferred or async. Stated in §3.5. Checked in §4.1.
+
+#### ZIC-3.5-03: External content
+
+**Must.** No external request is required to deliver the page's content. External requests for presentation are permitted. Stated in §3.5, §1.8. Checked in §4.7.
+
+### §3.6 The agent surface
+
+#### ZIC-3.6-01: llms.txt
+
+**Must.** The site publishes a Markdown file at /llms.txt in the llmstxt.org form: an H1 with the site name first, a blockquote of one to three sentences, then sections of links with one-line descriptions. It states the site's purpose, author, content licence, sent-agent guarantee, and separate search and training declarations, and links the highest-value pages with descriptions specific enough for an agent to route by. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-02: The map shows the building
+
+**Must.** Where Markdown mirrors are published, llms.txt links both the canonical HTML page and its mirror, and never the mirror alone. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-03: llms-full.txt
+
+**Should.** A site whose complete content fits comfortably in one file also publishes /llms-full.txt, containing the full text of the site in Markdown. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-04: Markdown mirrors
+
+**Should.** Each content page is also published as a plain Markdown file at a predictable, parallel URL. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-05: Generated, not hand-maintained
+
+**Must.** llms.txt, llms-full.txt and any Markdown mirrors are generated at build time from the same rendered pages that produce the HTML. Stated in §3.6, §2.2. Checked in §4.4.
+
+#### ZIC-3.6-06: Sent-agent block
+
+**Must.** robots.txt explicitly names and allows the known user-directed retrieval agents. Stated in §3.6, §3.3, §1.7. Checked in §4.3, §4.7.
+
+#### ZIC-3.6-07: Search declaration
+
+**Must.** robots.txt declares whether search indexing is permitted, and applies that one policy consistently to every known search indexer. Stated in §3.6, §1.7. Checked in §4.3, §4.4, §4.7.
+
+#### ZIC-3.6-08: Training declaration
+
+**Must.** robots.txt declares whether model training is permitted, independently of the search declaration. Stated in §3.6, §1.7. Checked in §4.3, §4.4, §4.7.
+
+#### ZIC-3.6-09: Mixed-use crawlers
+
+**Must.** Where an operator provides a separate, documented control for training, the base crawler receives the search declaration, the training declaration is expressed through the control, and the base crawler is not additionally blocked on training grounds. Where an operator provides no separation, the publisher chooses which declaration governs the crawler and says so in the comment line. Stated in §3.6, §1.7. Checked in §4.4, §4.7.
+
+#### ZIC-3.6-10: Content Signals
+
+**Must.** The same file states all three Content Signals values explicitly: search and ai-train each yes or no, and ai-input=yes. Stated in §3.6, §3.3. Checked in §4.4.
+
+#### ZIC-3.6-11: Content Signals in every group
+
+**Must.** Every user-agent group in robots.txt carries the Content-Signal line, with the same three values. A line in the wildcard group alone is not sufficient. New in v1.8. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-12: No bundled permission
+
+**Must.** Changing search does not change ai-train, changing ai-train does not change search, and neither changes ai-input. Stated in §3.6, §1.7. Checked in §4.4, §4.7.
+
+#### ZIC-3.6-13: A file written for you
+
+**Must.** A robots.txt written or synchronised by a host or edge on the publisher's behalf meets this section as if she had written it, and she verifies that the preferences the edge synchronises match the file she published. Stated in §3.6, §3.3. Checked in §4.4, §4.7.
+
+#### ZIC-3.6-14: Comment lines
+
+**Must.** A welcome in robots.txt says who is being served and why. A refusal of a later use says what is declined and why it is separate from service to a reader. Stated in §3.6. Checked in §4.4.
+
+#### ZIC-3.6-15: No contradiction between layers
+
+**Must.** robots.txt, llms.txt, the content licence, Content Signals, the sitemap, Markdown mirrors, any feed, CDN or host configuration and the served pages agree, and every declaration is verified end to end from outside. Stated in §3.6. Checked in §4.4, §4.7.
+
+#### ZIC-3.6-16: Reviewing the crawler list
+
+**Should.** The list of named agents and crawlers is reviewed at least twice a year. Stated in §3.6.
+
+### §4.7 Delivery
+
+#### ZIC-4.7-01: The redirect comes second
+
+**Must.** HTTP-to-HTTPS redirection is not enabled until the certificate has been shown to cover the canonical hostname exactly. Stated in §4.7, §1.8. Checked in §4.7.
+
+### Part Seven: claiming conformance
+
+#### ZIC-7-01: Name the version
+
+**Must.** A site claiming ZIC conformance states which version it conforms to. Stated in Part Seven.
+
+#### ZIC-7-02: Link the specification
+
+**Must.** The named version is publicly retrievable at a stable URL, and the site links it. Stated in Part Seven.
+
+#### ZIC-7-03: State the two later-use declarations
+
+**Must.** A conformance statement states search=yes or search=no and ai-train=yes or ai-train=no, separately. Stated in Part Seven, §1.7.
+
+#### ZIC-7-04: State what was checked and what was not
+
+**Must.** A conformance statement says what was checked and what was not. Where the reconstruction checks were run, it names the machine reader used and the date. Stated in Part Seven, §4.8.
+
+#### ZIC-7-05: Claim only after delivery
+
+**Must.** Public conformance is claimed only when the in-repository checks pass and the delivery checks succeed against the live origin. Stated in Part Seven, §4.7.
+
+#### ZIC-7-06: True at every layer, at the time it is read
+
+**Must.** Every declaration in a conformance claim is true at every layer of the stack, and the statement carries a date. Stated in Part Seven, §3.6.
 
 ## Appendix: ZIC at a Glance
 
@@ -960,19 +1252,20 @@ For model context initialisation and quick reference.
 
 **Normative language:** Must binds; should recommends and, where adopted and claimed, is checked; may permits. Silence means nothing. (§1.17)
 
+**The register:** Every requirement has an identifier in Part Eight, of the form ZIC-3.1-04. Cite the identifier; read the section for the meaning. Identifiers are never reused or renumbered. (Part Eight)
+
 **The jurisdiction of ZIC:** ZIC secures the semantic substrate and its delivery. It does not specify renderings, and offers no ceiling for cognitive, motor, or other access needs it is not qualified to specify. It is necessary, nowhere near sufficient, and written to be built on. (§1.14)
 
 **Theoretical grounding:** Tyrer Framework (Charli-Jo Tyrer, CharliVerse). Specifically: Information Casualty, Tyrer's Law, Generative Accessibility.
 
 **Implementations:** charli.info — first implementation, first site to operationalise the Open Door, source of the defects that produced v1.2 and the clarifications in v1.3 and v1.4. blind-ant.com — pending. zeroinformationcasualty.org — this specification's own site; its conformance statement says what was checked and what was not.
 
-*Zero Information Casualty v1.7 — Charli-Jo Tyrer and Claude (Anthropic) — September 2026*
+*Zero Information Casualty v1.8 — Charli-Jo Tyrer and Claude (Anthropic) — November 2026*
 
 *CC BY-SA 4.0 — Share and adapt with attribution*
 
 ## This document in other renderings
 
-This page is the canonical publication of Zero Information Casualty v1.7. The same document is also available as a Word file: [Download ZIC v1.7 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_7.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it. Each version keeps its own address: this one is at [zeroinformationcasualty.org/1.7/](/1.7/), and the earlier ones are [Zero Information Casualty v1.6](/1.6/) and [Zero Information Casualty v1.5](/1.5/). The earlier versions are also Word files: [ZIC v1.6 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_6.docx) and [ZIC v1.5 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_5.docx).
+This page is the canonical publication of Zero Information Casualty v1.8. The same document is also available as a Word file: [Download ZIC v1.8 as a Word document (.docx)](/documents/Zero_Information_Casualty_v1_8.docx). The HTML at this URL is the authoritative version; the Word file is a rendering of it.
 
-Corrected on 15 November 2026, without a change of version or of any requirement: the author's name is given in full; the Preamble now comes before Changes in v1.7; the reference form in Part Seven cites this specification's own address in place of a placeholder; and the Appendix lists this site among the implementations.
-
+Each version keeps its own address. This one is at [zeroinformationcasualty.org/1.8/](/1.8/). The earlier ones are [Zero Information Casualty v1.7](/1.7/), [Zero Information Casualty v1.6](/1.6/) and [Zero Information Casualty v1.5](/1.5/), each with a Word file linked from its own page.

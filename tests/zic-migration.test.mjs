@@ -11,16 +11,23 @@ const base = 'https://zeroinformationcasualty.org';
 
 test('the specification and published downloads are preserved without rewriting', async () => {
   const original = execFileSync('git', ['show', `${originalRevision}:carrados/content/papers/zic-design-standard.md`], { encoding: 'utf8' });
-  // The v1.7 text was corrected on 15 November 2026 at Charli-Jo's request, without a change of version: the author's name in full,
-  // the Preamble before Changes in v1.7, the real address in the Part Seven reference form, this site among the implementations,
-  // and the v1.6 Word rendering in Downloads. Every section heading of the original must still be there, so section links keep working.
+  // v1.7 moved to its own page (zic/content/1.7.md) when v1.8 took the home page. Every section heading of the original
+  // v1.7 must still be on that page, so section links keep working, and every one except its changelog must be in v1.8,
+  // which preserves section numbering.
+  const v17 = (await readFile('zic/content/1.7.md', 'utf8')).replace(/\r\n/g, '\n');
   const now = (await readFile('zic/content/index.md', 'utf8')).replace(/\r\n/g, '\n');
-  assert.ok(!now.includes('C J Tyrer'));
-  assert.ok(!now.includes('example.org/zic'));
-  for (const heading of original.replace(/\r\n/g, '\n').split('\n').filter((line) => /^#{2,3} /.test(line))) assert.ok(now.includes('\n' + heading + '\n'), heading);
+  for (const text of [v17, now]) { assert.ok(!text.includes('C J Tyrer')); assert.ok(!text.includes('example.org/zic')); }
+  for (const heading of original.replace(/\r\n/g, '\n').split('\n').filter((line) => /^#{2,3} /.test(line))) {
+    assert.ok(v17.includes('\n' + heading + '\n'), heading);
+    if (heading !== '## Changes in v1.7') assert.ok(now.includes('\n' + heading + '\n'), heading);
+  }
+  // Part Eight: every identifier is unique and well formed.
+  const ids = [...now.matchAll(/^#### (ZIC-[0-9.]+-\d\d): /gm)].map((m) => m[1]);
+  assert.ok(ids.length >= 63);
+  assert.equal(new Set(ids).size, ids.length);
   // The Word renderings were corrected on 15 November 2026 (author's name, British English, titles, the v1.7 Preamble heading),
   // so they no longer match the files that moved from Carrados byte for byte. They must still be Word files that open.
-  for (const version of ['1_5', '1_6', '1_7']) {
+  for (const version of ['1_5', '1_6', '1_7', '1_8']) {
     const file = await readFile(`zic/content/documents/Zero_Information_Casualty_v${version}.docx`);
     assert.equal(file.subarray(0, 2).toString(), 'PK');
     assert.ok(file.length > 40000);
@@ -75,14 +82,16 @@ test('new Worker serves its own static assets, Markdown, Word files and proper 4
     const doc = await zic.fetch(new Request(base + '/documents/Zero_Information_Casualty_v1_7.docx'), env);
     assert.equal(doc.status, 200);
     assert.match(doc.headers.get('content-type'), /wordprocessingml/);
-    // v1.7 keeps its own address: /1.7/ serves the current specification, as a page and as Markdown.
+    // Every version keeps its own address. v1.7 is a page of its own; /1.8/ serves the current specification, as a page and as Markdown.
     const versioned = await zic.fetch(new Request(base + '/1.7/'), env);
     assert.equal(versioned.status, 200);
     assert.match(await versioned.text(), /<h1>Zero Information Casualty \(ZIC\) v1\.7<\/h1>/);
+    assert.match(await (await zic.fetch(new Request(base + '/1.8/'), env)).text(), /<h1>Zero Information Casualty \(ZIC\) v1\.8<\/h1>/);
+    assert.match(await (await zic.fetch(new Request(base + '/1.8/index.md'), env)).text(), /^# Zero Information Casualty \(ZIC\) v1\.8/);
     assert.match(await (await zic.fetch(new Request(base + '/1.7/index.md'), env)).text(), /^# Zero Information Casualty/);
     assert.equal((await zic.fetch(new Request(base + '/1.7?x=1'), env)).headers.get('location'), base + '/1.7/?x=1');
     // Earlier versions are pages at their own addresses, marked as superseded, and kept out of the one-file full text.
-    for (const v of ['1.5', '1.6']) {
+    for (const v of ['1.5', '1.6', '1.7']) {
       const page = await (await zic.fetch(new Request(`${base}/${v}/`), env)).text();
       assert.match(page, new RegExp(`<h1>Zero Information Casualty \\(ZIC\\) v${v.replace('.', '\\.')}</h1>`));
       assert.match(page, /It has been superseded/);
