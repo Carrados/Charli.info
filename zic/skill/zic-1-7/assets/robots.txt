@@ -1,0 +1,55 @@
+# robots.txt, written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/1.7/
+# Three purposes, three separate declarations: none is inferred from another.
+#
+# HOW TO USE THIS TEMPLATE
+# 1. Sent agents are always allowed. Do not change that group.
+# 2. Ask the publisher: is search indexing permitted? Is model training permitted? Two separate answers.
+# 3. In the search, training and mixed-use groups, write "Allow: /" for yes or "Disallow: /" for no.
+# 4. Set the same three values in every Content-Signal line. ai-input is always yes.
+# 5. Rewrite each comment so it says what this publisher decided and why. Comment lines are normative.
+# 6. Delete these instructions. Check the crawler names and the Content Signals syntax against current
+#    documentation: the specification calls its own example illustrative, and the names change.
+#
+# Each group carries its own Content-Signal line, because a crawler that matches a named group reads only that group.
+
+# Sent agents: mandatory service.
+# A person asked, and is waiting. These agents are welcome, and so is every agent a person sends, named here or not.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+Allow: /
+Content-Signal: search=SEARCH, ai-input=yes, ai-train=TRAIN
+
+# Search indexing: PERMITTED or DECLINED, as a separate decision. Say why.
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+SEARCH_RULE: /
+Content-Signal: search=SEARCH, ai-input=yes, ai-train=TRAIN
+
+# Model training: PERMITTED or DECLINED, as a separate decision. Say why.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+TRAIN_RULE: /
+Content-Signal: search=SEARCH, ai-input=yes, ai-train=TRAIN
+
+# Mixed-use crawlers: these index and train under one name.
+# Google and Apple separate the purposes (Google-Extended, Applebot-Extended, in the training group above),
+# so the base crawler is treated as search. Where an operator offers no separation, say here which
+# declaration governs it. Silence is not conformant.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+SEARCH_RULE: /
+Content-Signal: search=SEARCH, ai-input=yes, ai-train=TRAIN
+
+# Everyone else, including agents nobody has named yet.
+User-agent: *
+Allow: /
+Content-Signal: search=SEARCH, ai-input=yes, ai-train=TRAIN
+
+Sitemap: https://YOUR-DOMAIN/sitemap.xml

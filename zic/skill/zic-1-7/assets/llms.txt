@@ -1,0 +1,18 @@
+# SITE NAME
+
+> One to three sentences saying what this site is and who it is for.
+
+PURPOSE AND AUTHOR: what the site publishes, and who is responsible for it.
+
+Sent agents: served. Any agent a person sends is welcome, named or not (ai-input=yes). Search indexing: PERMITTED or DECLINED (search=yes or no). Model training: PERMITTED or DECLINED (ai-train=yes or no). These are three separate declarations; none is inferred from another. They are also stated in /robots.txt. This site is written to Zero Information Casualty (ZIC) v1.7: https://zeroinformationcasualty.org/1.7/
+
+Licence: NAME OF THE CONTENT LICENCE, with its address.
+
+Every page is also available as Markdown at ITS MIRROR ADDRESS. The full text of the site is at https://YOUR-DOMAIN/llms-full.txt. (Delete this paragraph if the site publishes no mirrors.)
+
+## Pages
+
+- [Page title](https://YOUR-DOMAIN/page/): One specific sentence saying what this page contains, so an agent can decide whether to fetch it. Markdown: https://YOUR-DOMAIN/page/index.md
+
+<!-- Generate this file at build time from the same source as the HTML. Do not maintain it by hand.
+     Link the HTML page and its mirror together, never the mirror alone. -->
