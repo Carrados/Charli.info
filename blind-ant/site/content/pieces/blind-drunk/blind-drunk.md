@@ -2,9 +2,9 @@
 title: Blind Drunk
 kind: object
 order: 1
-description: A scenario that makes one assumption, that self-driving cars work, and follows a blind woman and the taxi driver who used to take her home from 2027 to 2040.
+description: A blind woman in Wallasey, the taxi driver who used to take her home, and what happens to them both between 2027 and 2040, once the driverless cars arrive.
 label_title: Blind Drunk
-label_meta: Design fiction, 2026. AI 2040: FSD Edition, by Charlotte Joanne.
+label_meta: By Charlotte Joanne, 2026.
 ---
 
 AI 2040: FSD Edition
