@@ -14,7 +14,7 @@ label: |
 
 It starts in November 2026, with the personal agents that already exist, and runs to Easter 2028. Voice comes first. Then the agents need something to show their work on, and every screen in the world starts to look like a place they could borrow.
 
-This is a strand, not a single story. The first Object is a future history. More will follow, beginning with what the Borrowed Screen means for people who are blind or partially sighted.
+This is a strand, not a single story. The first Object is a future history. The second follows the same eighteen months through Maya Quinn, a woman who has been blind since birth, and what the Borrowed Screen means for her.
 
 ## Objects
 
@@ -23,4 +23,5 @@ This is a strand, not a single story. The first Object is a future history. More
 ## Behind the fiction
 
 - **Real:** the personal agents named in November 2026. Meta's Muse, OpenAI's dots, Anthropic's Duet and Instinct all launched or opened previews in the autumn of 2026, as [Axios reported](https://axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple). Agent-to-interface protocols such as [MCP Apps](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/) and Google's [A2UI](https://a2ui.org/) are real too, though they draw inside chat windows, not on any screen.
-- **Imagined:** everything dated after 18 November 2026. The voice devices, the Domain Experts, the screen protocols, the public screens, the Shotgun Incident and the coalition that publishes the universal protocol have not happened. It is a speculative chronology, not a forecast with evidence behind each date.
+- **Imagined:** everything dated after 18 November 2026. The voice devices, the Domain Experts, the screen protocols, the public screens, the Shotgun Incident and the coalition that publishes the universal protocol have not happened. Maya Quinn is a character. It is a speculative chronology, not a forecast with evidence behind each date.
+- **Borrowed:** the shotgun broadcast is an idea from the science fiction of [Peter F. Hamilton](https://www.peterfhamilton.co.uk/). Like most of this strand, the pieces have been on the board in science fiction for years. What is new is that they are now real enough to play.
