@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1660" width="1200" height="1660" role="img" aria-labelledby="t d">
+  <title id="t">The NoBell Awards 2026 – Press Release</title>
+  <desc id="d">A satirical press release for the inaugural 2026 NoBell Awards, in Liverpool, which celebrate people who showed extraordinary decency, integrity and good sense when it would have been easy to act otherwise – that is, to avoid being a bellend. Purple and gold design with a bell logo. Eight nominees: Public Life, Sir Alan Bates; Social Media, Hank Green; Accessibility, Jenny Lay-Flurrie; AI, Ethan Mollick; Meetings, Priya Parker; Romance, Esther Perel; Lifetime NoBell Achievement Award, The Rt Hon. Gordon Brown; Quiet Usefulness, Marcus Rashford MBE. Tagline: Prestige is nice. Decency is better.</desc>
+
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E1648"/>
+      <stop offset="0.55" stop-color="#4B2273"/>
+      <stop offset="1" stop-color="#6A2F98"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DC8A"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#A9811E"/>
+    </linearGradient>
+    <linearGradient id="bellfill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B27FE0"/>
+      <stop offset="0.5" stop-color="#8445BE"/>
+      <stop offset="1" stop-color="#5A2489"/>
+    </linearGradient>
+    <linearGradient id="lifetime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A1C5A"/>
+      <stop offset="1" stop-color="#5B2A86"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.1" fill="#FFFFFF" opacity="0.07"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2E1648" flood-opacity="0.12"/>
+    </filter>
+
+    <!-- Bell logo, centred on 0,0 -->
+    <g id="bell">
+      <circle r="78" fill="#2E1648" stroke="url(#gold)" stroke-width="5"/>
+      <circle r="68" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.7"/>
+      <circle cx="0" cy="-44" r="7" fill="url(#gold)"/>
+      <path d="M0,-38 C-24,-38 -33,-20 -34,4 C-35,20 -40,28 -48,34 L48,34 C40,28 35,20 34,4 C33,-20 24,-38 0,-38 Z" fill="url(#bellfill)" stroke="url(#gold)" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-20,-20 C-26,-8 -27,6 -27,16" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.35"/>
+      <rect x="-52" y="33" width="104" height="7" rx="3.5" fill="url(#gold)"/>
+      <circle cx="0" cy="49" r="8" fill="url(#gold)"/>
+    </g>
+  </defs>
+
+  <!-- Page -->
+  <rect width="1200" height="1660" fill="#FAF7FC"/>
+
+  <!-- Header -->
+  <rect width="1200" height="430" fill="url(#hdr)"/>
+  <rect width="1200" height="430" fill="url(#dots)"/>
+  <rect y="430" width="1200" height="6" fill="url(#gold)"/>
+
+  <text x="60" y="62" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#E9D9F7">PRESS RELEASE</text>
+  <text x="1140" y="62" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#E9D9F7">FOR IMMEDIATE RELEASE</text>
+  <line x1="60" y1="80" x2="1140" y2="80" stroke="#FFFFFF" stroke-opacity="0.18"/>
+
+  <use href="#bell" x="600" y="178"/>
+
+  <text x="600" y="320" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700" fill="#FFFFFF" letter-spacing="1">The NoBell Awards</text>
+  <text x="600" y="362" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="6" fill="url(#gold)">INAUGURAL CEREMONY · LIVERPOOL · 2026</text>
+  <text x="600" y="403" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" fill="#E9D9F7">Honouring those who had the chance to be a bellend, and declined.</text>
+
+  <!-- Intro -->
+  <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2E1648">
+    <tspan x="600" y="490">The inaugural NoBell Awards celebrate people who have shown extraordinary</tspan>
+    <tspan x="600" y="520">decency, integrity and good sense in situations where it would have been</tspan>
+    <tspan x="600" y="550">easy, and often rewarded, to act otherwise.</tspan>
+  </text>
+  <text x="600" y="600" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#6A2F98">THIS YEAR'S NOMINEES</text>
+  <line x1="380" y1="595" x2="450" y2="595" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="750" y1="595" x2="820" y2="595" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- Card style: label / category / nominee / citation -->
+  <g font-family="Helvetica, Arial, sans-serif">
+
+    <!-- Row 1 -->
+    <g transform="translate(60,630)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Public Life</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Sir Alan Bates</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">Kept his decency through the Post Office Horizon</tspan><tspan x="36" y="162">scandal without becoming a celebrity monster.</tspan></text>
+    </g>
+    <g transform="translate(620,630)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Social Media</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Hank Green</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">For helping make the internet more informed,</tspan><tspan x="36" y="162">more curious and more humane.</tspan></text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(60,850)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Accessibility</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Jenny Lay-Flurrie</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">For treating accessibility as infrastructure and</tspan><tspan x="36" y="162">accountability, not brand content.</tspan></text>
+    </g>
+    <g transform="translate(620,850)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">AI</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Ethan Mollick</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">Practical, never hysterical. For putting</tspan><tspan x="36" y="162">understanding ahead of worship.</tspan></text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(60,1070)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Meetings</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Priya Parker</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">For purposeful, well-designed gatherings, and a</tspan><tspan x="36" y="162">principled stand against calendar violence.</tspan></text>
+    </g>
+    <g transform="translate(620,1070)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Romance</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Esther Perel</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">For framing love as something that needs</tspan><tspan x="36" y="162">attention, honesty and imagination.</tspan></text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(60,1290)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="url(#lifetime)" stroke="#D4AF37" stroke-width="2"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#F3DC8A">LIFETIME</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#FFFFFF">NoBell Achievement Award</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#F3DC8A">The Rt Hon. Gordon Brown</text>
+      <text font-size="16" fill="#E9D9F7"><tspan x="36" y="138">For doing the unsexy work after high office: child</tspan><tspan x="36" y="162">poverty support and multibank initiatives.</tspan></text>
+    </g>
+    <g transform="translate(620,1290)" filter="url(#shadow)">
+      <rect width="520" height="196" rx="14" fill="#FFFFFF" stroke="#E3D3F2"/>
+      <rect width="8" height="196" rx="4" fill="#6A2F98"/>
+      <text x="36" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A07BC4">NoBELL PRIZE FOR</text>
+      <text x="36" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#2E1648">Quiet Usefulness</text>
+      <text x="36" y="106" font-size="19" font-weight="700" fill="#6A2F98">Marcus Rashford MBE</text>
+      <text font-size="16" fill="#4A4057"><tspan x="36" y="138">Used his fame to fight for children's food security,</tspan><tspan x="36" y="162">without making a song and dance about it.</tspan></text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <rect y="1530" width="1200" height="130" fill="url(#hdr)"/>
+  <rect y="1530" width="1200" height="4" fill="url(#gold)"/>
+  <text x="600" y="1600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" fill="#FFFFFF">Prestige is nice. <tspan fill="url(#gold)" font-weight="700" font-style="normal">Decency is better.</tspan></text>
+  <text x="600" y="1634" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5" fill="#C9AEE3">THE NoBELL AWARDS · LIVERPOOL 2026</text>
+</svg>
