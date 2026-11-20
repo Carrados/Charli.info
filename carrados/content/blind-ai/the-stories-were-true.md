@@ -10,7 +10,7 @@ I was eight years old when [Star Wars](https://www.starwars.com/films/star-wars-
 
 I spent the next four decades reading science fiction that told that story in a thousand different registers. The machine that sees further than we do. The human, cornered, who finds a move the machine never modelled. The grace note that doesn't change the outcome but still means something the outcome can't cancel.
 
-I had no idea I was being prepared for a Tuesday afternoon in Seoul in March 2016.
+I had no idea I was being prepared for a Sunday afternoon in Seoul in March 2016.
 
 Move 37 gets most of the anniversary coverage. Deservedly. When [AlphaGo](https://deepmind.google/technologies/alphago/) played a shoulder hit on the fifth line in Game Two — a move that a professional player would almost never make at that moment in that position — it broke three thousand years of accumulated human intuition about what the game was. The commentators thought it was a mistake. [Lee Sedol](https://en.wikipedia.org/wiki/Lee_Sedol) took twelve minutes to respond. It wasn't a mistake.
 
