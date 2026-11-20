@@ -20,5 +20,5 @@ label: |
 
 ## Behind the fiction
 
-Down the Banksy, Sloppy Jo, Niamh Rourke and Civic Damage are invented, and none of these conversations happened. The 2026 World Cup is real; the broadcast campaign is not. The poster was drawn in code by Claude, without real club or national badges, with one brick on the wall, drawn and honest that it is drawn.
+Down the Banksy, Sloppy Jo, Niamh Rourke and Civic Damage are invented, and none of these conversations happened. The 2026 World Cup is real; the broadcast campaign is not. The poster was drawn in code by Claude. Its club badges, kit-maker mark and sponsors are made up: Grievance Lager, Q3 Bank, Activation and Everafter Life Insurance do not exist. There is one brick on the wall, drawn and honest that it is drawn.
 

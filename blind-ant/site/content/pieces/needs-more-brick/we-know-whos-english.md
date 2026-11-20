@@ -8,7 +8,7 @@ label_meta: Poster, 2026. Drawn in code by Claude.
 label: |
   A cream paper poster pinned to a grey concrete wall scrawled with loose grey and pink graffiti. In heavy black condensed capitals, it reads: WE KNOW WHO’S ENGLISH BY THE COLOUR OF THEIR SHIRTS, NOT THE COLOUR OF THEIR SKIN.
 
-  Below the words, hands of many skin tones, from pale to deep brown, reach in from every side and hold up a heap of football shirts with no badges: a white one with a navy collar, a red one, one in claret and sky-blue stripes, a claret one with sky-blue sleeves, one in blue and white stripes, and at the bottom an orange shirt with green panels.
+  Below the words, hands of many skin tones, from pale to deep brown, reach in from every side and hold up a heap of football shirts, each with a made-up club badge and kit-maker mark: a white national shirt with a St George’s cross shield, a red one sponsored by GRIEVANCE LAGER, one in claret and sky-blue stripes for Q3 BANK, one in blue and white stripes for ACTIVATION, a claret one with sky-blue sleeves for EVERAFTER LIFE INSURANCE, and at the bottom an orange shirt with green panels and no sponsor at all.
 
   On the wall below the poster sits a single drawn brick.
 ---
