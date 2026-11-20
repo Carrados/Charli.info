@@ -1,7 +1,7 @@
 ---
 title: Needs More Brick
 kind: object
-order: 1
+order: 3
 description: Over coffee in a museum café, Down the Banksy and Sloppy Jo argue about a poster: whether making it handsome has cost it its temper, and whether adding dirt would put it back.
 label_title: Needs More Brick
 label_meta: Dialogue, 2026. Down the Banksy and Sloppy Jo, in a museum café.
