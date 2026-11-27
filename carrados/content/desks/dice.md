@@ -7,6 +7,8 @@ canonical: https://dice.carrados.com/
 
 <img class="section-mark" src="/images/blind-ai.png" width="600" height="527" alt="The Blind AI logo: on black, an almond-shaped eye outlined twice in pink, with a solid turquoise pupil inside a sunburst of fine turquoise lines. Pink and turquoise circuit traces branch out all round the eye and end in small open circles, like eyelashes made of wiring. Underneath, BLIND AI in tall cream capitals.">
 
+<img src="/images/dice-sloppy-jo.svg" width="1000" height="1250" alt="dice, by Sloppy Jo. Head-and-shoulders portrait in Sloppy Jo's hand-drawn style: wobbly dark ink outlines and grainy flat colour on cream paper, set against a steel-blue disc crossed by fine ruler-straight rain lines. dice is a woman in her early forties with olive skin and short black hair in a textured French crop with a choppy fringe. She has dark eyes, one eyebrow slightly raised, and a wry half-smile. She wears a worn brown waxed jacket with a dark collar and brass studs, open over a black crew-neck top. A small spiral notebook pokes out of her chest pocket, drawn ruler-perfect, the one digital thing about her. Caption: dice, temporal explorer, roll the dice. Signed Sloppy Jo with braille dots for c j.">
+
 She doesn't predict the future and she doesn't travel to it. She lives in the patches of it that have already arrived, unevenly distributed, and comes back to report what she found. Ask her what will happen in five years and she will shrug. Ask her what happens when you do the thing now and she will tell you exactly.
 
 > Roll the dice.
