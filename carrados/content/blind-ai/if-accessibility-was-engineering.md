@@ -1,8 +1,7 @@
 ---
 title: If accessibility was engineering,
 description: dice on why known accessibility failures should be blocked at the point they are introduced, as engineering would block them, instead of being explained year after year.
-date: 2026-11-27
-time: "09:12"
+date: 2026-06-12
 desk: dice
 byline: dice
 related: The follow-up, with a job description: How to treat accessibility like engineering|/blind-ai/how-to-treat-accessibility-like-engineering/
